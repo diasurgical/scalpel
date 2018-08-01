@@ -45,4 +45,11 @@ MakeNameEx(LocByName("4278EC"), "CaptureEnc", SN_NOWARN)
 MakeNameEx(LocByName("42792C"), "CaptureFile", SN_NOWARN)
 MakeNameEx(LocByName("4279FE"), "RedPalette", SN_NOWARN)
 
+# codec.cpp
+MakeNameEx(LocByName("456A1A"), "codec_decode", SN_NOWARN)
+MakeNameEx(LocByName("456B58"), "j_SHA1Clear", SN_NOWARN)
+MakeNameEx(LocByName("456B5D"), "codec_init_key", SN_NOWARN)
+MakeNameEx(LocByName("456C40"), "codec_get_encoded_len", SN_NOWARN)
+MakeNameEx(LocByName("456C6C"), "codec_encode", SN_NOWARN)
+
 # todo
