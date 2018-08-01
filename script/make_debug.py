@@ -18,4 +18,22 @@ MakeNameEx(LocByName("sub_40D1F4"), "FileErrDlg", SN_NOWARN)
 MakeNameEx(LocByName("sub_40D23D"), "DiskFreeDlg", SN_NOWARN)
 MakeNameEx(LocByName("sub_40D27D"), "InsertCDDlg", SN_NOWARN)
 
+# automap.cpp
+MakeNameEx(LocByName("sub_44142C"), "InitAutomapOnce", SN_NOWARN)
+MakeNameEx(LocByName("sub_441473"), "InitAutomap", SN_NOWARN)
+MakeNameEx(LocByName("sub_4415EF"), "StartAutomap", SN_NOWARN)
+MakeNameEx(LocByName("sub_441606"), "AutomapUp", SN_NOWARN)
+MakeNameEx(LocByName("sub_441613"), "AutomapDown", SN_NOWARN)
+MakeNameEx(LocByName("sub_441620"), "AutomapLeft", SN_NOWARN)
+MakeNameEx(LocByName("sub_44162D"), "AutomapRight", SN_NOWARN)
+MakeNameEx(LocByName("sub_44163A"), "AutomapZoomIn", SN_NOWARN)
+MakeNameEx(LocByName("sub_44167F"), "AutomapZoomOut", SN_NOWARN)
+MakeNameEx(LocByName("sub_4416C1"), "DrawAutomap", SN_NOWARN)
+MakeNameEx(LocByName("sub_441973"), "DrawAutomapType", SN_NOWARN)
+MakeNameEx(LocByName("sub_442180"), "DrawAutomapPlr", SN_NOWARN)
+MakeNameEx(LocByName("sub_44259D"), "GetAutomapType", SN_NOWARN)
+MakeNameEx(LocByName("sub_442699"), "DrawAutomapGame", SN_NOWARN)
+MakeNameEx(LocByName("sub_44278C"), "SetAutomapView", SN_NOWARN)
+MakeNameEx(LocByName("sub_4429B9"), "AutomapZoomReset", SN_NOWARN)
+
 # todo
