@@ -36,4 +36,13 @@ MakeNameEx(LocByName("sub_442699"), "DrawAutomapGame", SN_NOWARN)
 MakeNameEx(LocByName("sub_44278C"), "SetAutomapView", SN_NOWARN)
 MakeNameEx(LocByName("sub_4429B9"), "AutomapZoomReset", SN_NOWARN)
 
+# capture.cpp
+MakeNameEx(LocByName("42764B"), "CaptureScreen", SN_NOWARN)
+MakeNameEx(LocByName("427763"), "CaptureHdr", SN_NOWARN)
+MakeNameEx(LocByName("4277F7"), "CapturePal", SN_NOWARN)
+MakeNameEx(LocByName("42785C"), "CapturePix", SN_NOWARN)
+MakeNameEx(LocByName("4278EC"), "CaptureEnc", SN_NOWARN)
+MakeNameEx(LocByName("42792C"), "CaptureFile", SN_NOWARN)
+MakeNameEx(LocByName("4279FE"), "RedPalette", SN_NOWARN)
+
 # todo
