@@ -119,4 +119,134 @@ MakeNameEx(LocByName("413935"), "control_presskeys", SN_NOWARN)
 MakeNameEx(LocByName("4139B5"), "control_press_enter", SN_NOWARN)
 MakeNameEx(LocByName("413A93"), "control_up_down", SN_NOWARN)
 
+# cursor.cpp
+MakeNameEx(LocByName("45D812"), "InitCursor", SN_NOWARN)
+MakeNameEx(LocByName("45D851"), "FreeCursor", SN_NOWARN)
+MakeNameEx(LocByName("45D875"), "SetICursor", SN_NOWARN)
+MakeNameEx(LocByName("45D8A8"), "SetCursor", SN_NOWARN)
+MakeNameEx(LocByName("45D8CC"), "j_SetCursor", SN_NOWARN)
+MakeNameEx(LocByName("45D8D1"), "InitLevelCursor", SN_NOWARN)
+MakeNameEx(LocByName("45D914"), "CheckTown", SN_NOWARN)
+MakeNameEx(LocByName("45DA77"), "CheckRportal", SN_NOWARN)
+MakeNameEx(LocByName("45DBEB"), "CheckCursMove", SN_NOWARN)
+
+# dead.cpp
+MakeNameEx(LocByName("44C56B"), "InitDead", SN_NOWARN)
+MakeNameEx(LocByName("44C739"), "AddDead", SN_NOWARN)
+MakeNameEx(LocByName("44C75A"), "SetDead", SN_NOWARN)
+
+# debug.cpp
+
+# diablo.cpp
+
+# doom.cpp
+
+# drlg_l1.cpp
+
+# drlg_l2.cpp
+
+# drlg_l3.cpp
+
+# drlg_l4.cpp
+
+# dthread.cpp
+
+# dx.cpp
+
+# effects.cpp
+
+# encrypt.cpp
+
+# engine.cpp
+
+# error.cpp
+
+# fault.cpp
+
+# gamemenu.cpp
+
+# gendung.cpp
+
+# gmenu.cpp
+
+# help.cpp
+
+# init.cpp
+
+# interfac.cpp
+
+# inv.cpp
+
+# items.cpp
+
+# lighting.cpp
+
+# loadsave.cpp
+
+# mainmenu.cpp
+
+# minitext.cpp
+
+# missiles.cpp
+
+# monster.cpp
+
+# movie.cpp
+
+# mpqapi.cpp
+
+# msg.cpp
+
+# multi.cpp
+
+# nthread.cpp
+
+# objects.cpp
+
+# pack.cpp
+
+# palette.cpp
+
+# path.cpp
+
+# pfile.cpp
+
+# player.cpp
+
+# plrmsg.cpp
+
+# portal.cpp
+
+# quests.cpp
+
+# render.cpp
+
+# scrollrt.cpp
+
+# setmaps.cpp
+
+# sha.cpp
+
+# sound.cpp
+
+# spells.cpp
+
+# stores.cpp
+
+# sync.cpp
+
+# themes.cpp
+
+# tmsg.cpp
+
+# town.cpp
+
+# towners.cpp
+
+# track.cpp
+
+# trigs.cpp
+
+# wave.cpp
+
 # todo
