@@ -282,6 +282,21 @@ MakeNameEx(LocByName("sub_4162BC"), "dthread_handler", SN_NOWARN)
 MakeNameEx(LocByName("sub_4163B0"), "dthread_cleanup", SN_NOWARN)
 
 # dx.cpp
+MakeNameEx(LocByName("sub_4698AF"), "dx_cpp_init_2", SN_NOWARN)
+MakeNameEx(LocByName("sub_4698B9"), "dx_init_mutex", SN_NOWARN)
+MakeNameEx(LocByName("sub_4698C5"), "dx_cleanup_mutex_atexit", SN_NOWARN)
+MakeNameEx(LocByName("sub_4698D3"), "dx_cleanup_mutex", SN_NOWARN)
+MakeNameEx(LocByName("sub_4698DF"), "dx_init", SN_NOWARN)
+MakeNameEx(LocByName("sub_469A8B"), "dx_create_back_buffer", SN_NOWARN)
+MakeNameEx(LocByName("sub_469C7C"), "dx_create_primary_surface", SN_NOWARN)
+MakeNameEx(LocByName("sub_469CDE"), "dx_DirectDrawCreate", SN_NOWARN)
+MakeNameEx(LocByName("sub_469D5E"), "j_dx_lock_mutex", SN_NOWARN)
+MakeNameEx(LocByName("sub_469D6D"), "dx_lock_mutex", SN_NOWARN)
+MakeNameEx(LocByName("sub_469E2E"), "j_dx_unlock_mutex", SN_NOWARN)
+MakeNameEx(LocByName("sub_469E55"), "dx_unlock_mutex", SN_NOWARN)
+MakeNameEx(LocByName("sub_469EFC"), "dx_cleanup", SN_NOWARN)
+MakeNameEx(LocByName("sub_469FF0"), "dx_reinit", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A070"), "j_dx_reinit", SN_NOWARN)
 
 # effects.cpp
 
