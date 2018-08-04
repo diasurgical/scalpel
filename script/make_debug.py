@@ -1036,6 +1036,18 @@ MakeNameEx(LocByName("sub_414528"), "DrawPlrMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_4145C5"), "PrintPlrMsg", SN_NOWARN)
 
 # portal.cpp
+MakeNameEx(LocByName("sub_46A075"), "InitPortals", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A09E"), "SetPortalStats", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A0FD"), "AddWarpMissile", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A14D"), "SyncPortals", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A1B0"), "AddInTownPortal", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A1C4"), "ActivatePortal", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A227"), "DeactivatePortal", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A252"), "PortalOnLevel", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A292"), "RemovePortalMissile", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A2F0"), "SetCurrentPortal", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A2F7"), "GetPortalLevel", SN_NOWARN)
+MakeNameEx(LocByName("sub_46A3C6"), "GetPortalLvlPos", SN_NOWARN)
 
 # quests.cpp
 
