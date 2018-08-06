@@ -785,7 +785,7 @@ MakeNameEx(LocByName("sub_438B51"), "ClearMissileSpot", SN_NOWARN)
 
 # monster.cpp
 MakeNameEx(LocByName("sub_401000"), "InitMonsterTRN", SN_NOWARN)
-MakeNameEx(LocByName("sub_4010A7"), "monster_40110B", SN_NOWARN)
+MakeNameEx(LocByName("sub_4010A7"), "monster_is_anim_loaded", SN_NOWARN)
 MakeNameEx(LocByName("sub_401128"), "InitLevelMonsters", SN_NOWARN)
 MakeNameEx(LocByName("sub_401180"), "AddMonsterType", SN_NOWARN)
 MakeNameEx(LocByName("sub_401234"), "GetLevelMTypes", SN_NOWARN)
