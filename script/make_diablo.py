@@ -50,7 +50,7 @@ MakeNameEx(LocByName("sub_403294"), "CapturePal", SN_NOWARN)
 MakeNameEx(LocByName("sub_4032FD"), "CapturePix", SN_NOWARN)
 MakeNameEx(LocByName("sub_40336A"), "CaptureEnc", SN_NOWARN)
 MakeNameEx(LocByName("sub_4033A8"), "CaptureFile", SN_NOWARN)
-MakeNameEx(LocByName("sub_403470"), "CaptureRedPal", SN_NOWARN)
+MakeNameEx(LocByName("sub_403470"), "RedPalette", SN_NOWARN)
 
 # codec.cpp
 
@@ -149,7 +149,7 @@ MakeNameEx(LocByName("sub_40867D"), "SetDead", SN_NOWARN)
 # debug.cpp
 
 MakeNameEx(LocByName("sub_4086F4"), "LoadDebugGFX", SN_NOWARN)
-MakeNameEx(LocByName("sub_40870F"), "FreeDebug", SN_NOWARN)
+MakeNameEx(LocByName("sub_40870F"), "FreeDebugGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_408721"), "CheckClearDbg", SN_NOWARN)
 
 # diablo.cpp
@@ -382,8 +382,8 @@ MakeNameEx(LocByName("sub_4155C2"), "dx_create_primary_surface", SN_NOWARN)
 MakeNameEx(LocByName("sub_41561A"), "dx_DirectDrawCreate", SN_NOWARN)
 MakeNameEx(LocByName("sub_415695"), "j_dx_lock_mutex", SN_NOWARN)
 MakeNameEx(LocByName("sub_41569A"), "dx_lock_mutex", SN_NOWARN)
-MakeNameEx(LocByName("sub_415720"), "j_dx_unlock_mutex", SN_NOWARN)
-MakeNameEx(LocByName("sub_415725"), "dx_unlock_mutex", SN_NOWARN)
+MakeNameEx(LocByName("sub_415720"), "j_unlock_buf_priv", SN_NOWARN)
+MakeNameEx(LocByName("sub_415725"), "unlock_buf_priv", SN_NOWARN)
 MakeNameEx(LocByName("sub_4157A0"), "dx_cleanup", SN_NOWARN)
 MakeNameEx(LocByName("sub_415848"), "dx_reinit", SN_NOWARN)
 MakeNameEx(LocByName("sub_4158A4"), "j_dx_reinit", SN_NOWARN)
@@ -650,7 +650,7 @@ MakeNameEx(LocByName("sub_41E103"), "FindGetItem", SN_NOWARN)
 MakeNameEx(LocByName("sub_41E158"), "SyncGetItem", SN_NOWARN)
 MakeNameEx(LocByName("sub_41E222"), "CanPut", SN_NOWARN)
 MakeNameEx(LocByName("sub_41E2F9"), "TryInvPut", SN_NOWARN)
-MakeNameEx(LocByName("sub_41E3BC"), "DupeInvMsg", SN_NOWARN)
+MakeNameEx(LocByName("sub_41E3BC"), "DrawInvMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_41E3E4"), "InvPutItem", SN_NOWARN)
 MakeNameEx(LocByName("sub_41E639"), "SyncPutItem", SN_NOWARN)
 MakeNameEx(LocByName("sub_41E8DD"), "CheckInvHLight", SN_NOWARN)
@@ -1588,7 +1588,7 @@ MakeNameEx(LocByName("sub_4493CC"), "palette_set_color_cycling", SN_NOWARN)
 # path.cpp
 
 MakeNameEx(LocByName("sub_4493D4"), "FindPath", SN_NOWARN)
-MakeNameEx(LocByName("sub_4494D3"), "path_xycoord", SN_NOWARN)
+MakeNameEx(LocByName("sub_4494D3"), "path_get_h_cost", SN_NOWARN)
 MakeNameEx(LocByName("sub_449504"), "path_check_equal", SN_NOWARN)
 MakeNameEx(LocByName("sub_44951C"), "GetNextPath", SN_NOWARN)
 MakeNameEx(LocByName("sub_449546"), "path_solid_pieces", SN_NOWARN)
@@ -1599,8 +1599,8 @@ MakeNameEx(LocByName("sub_4497B3"), "path_get_node_xyptr", SN_NOWARN)
 MakeNameEx(LocByName("sub_4497CC"), "path_get_node2", SN_NOWARN)
 MakeNameEx(LocByName("sub_4497F7"), "path_set_coords", SN_NOWARN)
 MakeNameEx(LocByName("sub_449890"), "path_set_node_ptr", SN_NOWARN)
-MakeNameEx(LocByName("sub_4498A3"), "path_decrease_node", SN_NOWARN)
-MakeNameEx(LocByName("sub_4498B6"), "path_clear_node", SN_NOWARN)
+MakeNameEx(LocByName("sub_4498A3"), "path_pop_active_step", SN_NOWARN)
+MakeNameEx(LocByName("sub_4498B6"), "path_new_step", SN_NOWARN)
 
 # pfile.cpp
 
@@ -1647,7 +1647,7 @@ MakeNameEx(LocByName("sub_44A8B3"), "pfile_update", SN_NOWARN)
 
 MakeNameEx(LocByName("sub_44A8E6"), "j_player_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_44A8EB"), "player_cpp_init", SN_NOWARN)
-MakeNameEx(LocByName("sub_44A8F6"), "player_init_cl2_hdrs", SN_NOWARN)
+MakeNameEx(LocByName("sub_44A8F6"), "SetPlayerGPtrs", SN_NOWARN)
 MakeNameEx(LocByName("sub_44A911"), "LoadPlrGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_44AB70"), "InitPlayerGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_44ABB4"), "InitPlrGFXMem", SN_NOWARN)
