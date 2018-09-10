@@ -1,6 +1,11 @@
+# CRT
+
 MakeNameEx(LocByName("sub_401000"), "j_appfat_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_401005"), "appfat_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_401010"), "appfat_cpp_free", SN_NOWARN)
+
+# appfat.cpp
+
 MakeNameEx(LocByName("sub_40102A"), "GetErr", SN_NOWARN)
 MakeNameEx(LocByName("sub_4010CE"), "GetDDErr", SN_NOWARN)
 MakeNameEx(LocByName("sub_401831"), "GetDSErr", SN_NOWARN)
@@ -20,6 +25,9 @@ MakeNameEx(LocByName("sub_401C9C"), "FileErrDlg", SN_NOWARN)
 MakeNameEx(LocByName("sub_401CE1"), "DiskFreeDlg", SN_NOWARN)
 MakeNameEx(LocByName("sub_401D1D"), "InsertCDDlg", SN_NOWARN)
 MakeNameEx(LocByName("sub_401D68"), "DirErrDlg", SN_NOWARN)
+
+# automap.cpp
+
 MakeNameEx(LocByName("sub_401DA4"), "InitAutomapOnce", SN_NOWARN)
 MakeNameEx(LocByName("sub_401DE8"), "InitAutomap", SN_NOWARN)
 MakeNameEx(LocByName("sub_401EF4"), "StartAutomap", SN_NOWARN)
@@ -36,6 +44,9 @@ MakeNameEx(LocByName("sub_402D83"), "GetAutomapType", SN_NOWARN)
 MakeNameEx(LocByName("sub_402E4A"), "DrawAutomapGame", SN_NOWARN)
 MakeNameEx(LocByName("sub_402F27"), "SetAutomapView", SN_NOWARN)
 MakeNameEx(LocByName("sub_4030DD"), "AutomapZoomReset", SN_NOWARN)
+
+# capture.cpp
+
 MakeNameEx(LocByName("sub_40311B"), "CaptureScreen", SN_NOWARN)
 MakeNameEx(LocByName("sub_403204"), "CaptureHdr", SN_NOWARN)
 MakeNameEx(LocByName("sub_403294"), "CapturePal", SN_NOWARN)
@@ -43,11 +54,17 @@ MakeNameEx(LocByName("sub_4032FD"), "CapturePix", SN_NOWARN)
 MakeNameEx(LocByName("sub_40336A"), "CaptureEnc", SN_NOWARN)
 MakeNameEx(LocByName("sub_4033A8"), "CaptureFile", SN_NOWARN)
 MakeNameEx(LocByName("sub_403470"), "CaptureRedPal", SN_NOWARN)
+
+# codec.cpp
+
 MakeNameEx(LocByName("sub_4034D9"), "codec_decode", SN_NOWARN)
 MakeNameEx(LocByName("sub_4035D6"), "j_sha1_reset", SN_NOWARN)
 MakeNameEx(LocByName("sub_4035DB"), "codec_init_key", SN_NOWARN)
 MakeNameEx(LocByName("sub_4036AC"), "codec_get_encoded_len", SN_NOWARN)
 MakeNameEx(LocByName("sub_4036BE"), "codec_encode", SN_NOWARN)
+
+# control.cpp
+
 MakeNameEx(LocByName("sub_4037D4"), "DrawSpellCel", SN_NOWARN)
 MakeNameEx(LocByName("sub_40387E"), "SetSpellTrans", SN_NOWARN)
 MakeNameEx(LocByName("sub_4039C7"), "DrawSpell", SN_NOWARN)
@@ -113,6 +130,9 @@ MakeNameEx(LocByName("sub_40725A"), "control_talk_last_key", SN_NOWARN)
 MakeNameEx(LocByName("sub_40729A"), "control_presskeys", SN_NOWARN)
 MakeNameEx(LocByName("sub_407304"), "control_press_enter", SN_NOWARN)
 MakeNameEx(LocByName("sub_4073C2"), "control_up_down", SN_NOWARN)
+
+# cursor.cpp
+
 MakeNameEx(LocByName("sub_40740A"), "InitCursor", SN_NOWARN)
 MakeNameEx(LocByName("sub_407420"), "FreeCursor", SN_NOWARN)
 MakeNameEx(LocByName("sub_407437"), "SetICursor", SN_NOWARN)
@@ -122,12 +142,21 @@ MakeNameEx(LocByName("sub_407493"), "InitLevelCursor", SN_NOWARN)
 MakeNameEx(LocByName("sub_4074D0"), "CheckTown", SN_NOWARN)
 MakeNameEx(LocByName("sub_4075FD"), "CheckRportal", SN_NOWARN)
 MakeNameEx(LocByName("sub_407729"), "CheckCursMove", SN_NOWARN)
+
+# dead.cpp
+
 MakeNameEx(LocByName("sub_4084A6"), "InitDead", SN_NOWARN)
 MakeNameEx(LocByName("sub_40865C"), "AddDead", SN_NOWARN)
 MakeNameEx(LocByName("sub_40867D"), "SetDead", SN_NOWARN)
+
+# debug.cpp
+
 MakeNameEx(LocByName("sub_4086F4"), "LoadDebugGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_40870F"), "FreeDebug", SN_NOWARN)
 MakeNameEx(LocByName("sub_408721"), "CheckClearDbg", SN_NOWARN)
+
+# diablo.cpp
+
 MakeNameEx(LocByName("sub_4087B1"), "j_diablo_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4087B6"), "diablo_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4087C1"), "FreeGameMem", SN_NOWARN)
@@ -163,6 +192,9 @@ MakeNameEx(LocByName("sub_40AAE3"), "game_loop", SN_NOWARN)
 MakeNameEx(LocByName("sub_40AB33"), "game_logic", SN_NOWARN)
 MakeNameEx(LocByName("sub_40ABE7"), "timeout_cursor", SN_NOWARN)
 MakeNameEx(LocByName("sub_40AC6B"), "diablo_color_cyc_logic", SN_NOWARN)
+
+# doom.cpp
+
 MakeNameEx(LocByName("sub_40ACAD"), "doom_get_frame_from_time", SN_NOWARN)
 MakeNameEx(LocByName("sub_40ACC6"), "doom_alloc_cel", SN_NOWARN)
 MakeNameEx(LocByName("sub_40ACD6"), "doom_cleanup", SN_NOWARN)
@@ -170,6 +202,9 @@ MakeNameEx(LocByName("sub_40ACE8"), "doom_load_graphics", SN_NOWARN)
 MakeNameEx(LocByName("sub_40AD34"), "doom_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_40AD5E"), "doom_close", SN_NOWARN)
 MakeNameEx(LocByName("sub_40AD74"), "doom_draw", SN_NOWARN)
+
+# drlg_l1.cpp
+
 MakeNameEx(LocByName("sub_40ADD6"), "DRLG_Init_Globals", SN_NOWARN)
 MakeNameEx(LocByName("sub_40AE79"), "LoadL1Dungeon", SN_NOWARN)
 MakeNameEx(LocByName("sub_40AF65"), "DRLG_L1Floor", SN_NOWARN)
@@ -208,6 +243,9 @@ MakeNameEx(LocByName("sub_40D00B"), "DRLG_L5FTVR", SN_NOWARN)
 MakeNameEx(LocByName("sub_40D1FB"), "DRLG_L5TransFix", SN_NOWARN)
 MakeNameEx(LocByName("sub_40D283"), "DRLG_L5DirtFix", SN_NOWARN)
 MakeNameEx(LocByName("sub_40D2EF"), "DRLG_L5CornerFix", SN_NOWARN)
+
+# drlg_l2.cpp
+
 MakeNameEx(LocByName("sub_40D357"), "InitDungeon", SN_NOWARN)
 MakeNameEx(LocByName("sub_40D379"), "L2LockoutFix", SN_NOWARN)
 MakeNameEx(LocByName("sub_40D4CC"), "L2DoorFix", SN_NOWARN)
@@ -243,6 +281,9 @@ MakeNameEx(LocByName("sub_40FBDB"), "DRLG_L2FTVR", SN_NOWARN)
 MakeNameEx(LocByName("sub_40FDCB"), "DRLG_L2TransFix", SN_NOWARN)
 MakeNameEx(LocByName("sub_40FE53"), "L2DirtFix", SN_NOWARN)
 MakeNameEx(LocByName("sub_40FEBF"), "DRLG_InitL2Vals", SN_NOWARN)
+
+# drlg_l3.cpp
+
 MakeNameEx(LocByName("sub_40FF81"), "AddFenceDoors", SN_NOWARN)
 MakeNameEx(LocByName("sub_40FFEC"), "FenceDoorFix", SN_NOWARN)
 MakeNameEx(LocByName("sub_410105"), "DRLG_L3Anvil", SN_NOWARN)
@@ -277,6 +318,9 @@ MakeNameEx(LocByName("sub_41231A"), "WoodHorizR", SN_NOWARN)
 MakeNameEx(LocByName("sub_41235E"), "DRLG_L3Pass3", SN_NOWARN)
 MakeNameEx(LocByName("sub_412466"), "LoadL3Dungeon", SN_NOWARN)
 MakeNameEx(LocByName("sub_4125B0"), "LoadPreL3Dungeon", SN_NOWARN)
+
+# drlg_l4.cpp
+
 MakeNameEx(LocByName("sub_412655"), "DRLG_LoadL4SP", SN_NOWARN)
 MakeNameEx(LocByName("sub_4126AD"), "DRLG_FreeL4SP", SN_NOWARN)
 MakeNameEx(LocByName("sub_4126BF"), "DRLG_L4SetSPRoom", SN_NOWARN)
@@ -312,6 +356,9 @@ MakeNameEx(LocByName("sub_414CB3"), "DRLG_L4FTVR", SN_NOWARN)
 MakeNameEx(LocByName("sub_414EA3"), "DRLG_L4TransFix", SN_NOWARN)
 MakeNameEx(LocByName("sub_414F5B"), "DRLG_L4Corners", SN_NOWARN)
 MakeNameEx(LocByName("sub_414F90"), "DRLG_L4Pass3", SN_NOWARN)
+
+# dthread.cpp
+
 MakeNameEx(LocByName("sub_415098"), "j_dthread_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_41509D"), "dthread_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_4150A8"), "dthread_cpp_init_2", SN_NOWARN)
@@ -323,6 +370,9 @@ MakeNameEx(LocByName("sub_415109"), "dthread_send_delta", SN_NOWARN)
 MakeNameEx(LocByName("sub_415186"), "dthread_start", SN_NOWARN)
 MakeNameEx(LocByName("sub_4151F3"), "dthread_handler", SN_NOWARN)
 MakeNameEx(LocByName("sub_4152C0"), "dthread_cleanup", SN_NOWARN)
+
+# dx.cpp
+
 MakeNameEx(LocByName("sub_415362"), "j_dx_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_415367"), "dx_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_415372"), "dx_cpp_init_2", SN_NOWARN)
@@ -340,6 +390,9 @@ MakeNameEx(LocByName("sub_415725"), "dx_unlock_mutex", SN_NOWARN)
 MakeNameEx(LocByName("sub_4157A0"), "dx_cleanup", SN_NOWARN)
 MakeNameEx(LocByName("sub_415848"), "dx_reinit", SN_NOWARN)
 MakeNameEx(LocByName("sub_4158A4"), "j_dx_reinit", SN_NOWARN)
+
+# effects.cpp
+
 MakeNameEx(LocByName("sub_4158A9"), "j_effects_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4158AE"), "effects_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4158B9"), "effect_is_playing", SN_NOWARN)
@@ -361,6 +414,9 @@ MakeNameEx(LocByName("sub_415E2A"), "stream_update", SN_NOWARN)
 MakeNameEx(LocByName("sub_415E77"), "priv_sound_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_415ED8"), "sound_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_415EDF"), "effects_play_sound", SN_NOWARN)
+
+# encrypt.cpp
+
 MakeNameEx(LocByName("sub_415F43"), "encrypt_decrypt_block", SN_NOWARN)
 MakeNameEx(LocByName("sub_415F8F"), "encrypt_encrypt_block", SN_NOWARN)
 MakeNameEx(LocByName("sub_415FDF"), "encrypt_hash", SN_NOWARN)
@@ -369,6 +425,9 @@ MakeNameEx(LocByName("sub_41609D"), "encrypt_compress", SN_NOWARN)
 MakeNameEx(LocByName("sub_416133"), "encrypt_pkware_read", SN_NOWARN)
 MakeNameEx(LocByName("sub_416167"), "encrypt_pkware_write", SN_NOWARN)
 MakeNameEx(LocByName("sub_41618E"), "encrypt_decompress", SN_NOWARN)
+
+# engine.cpp
+
 MakeNameEx(LocByName("sub_4161FC"), "j_engine_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_416201"), "engine_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_41620C"), "CelDrawDatOnly", SN_NOWARN)
@@ -426,9 +485,15 @@ MakeNameEx(LocByName("sub_417DF8"), "Cl2DecodeFrm5", SN_NOWARN)
 MakeNameEx(LocByName("sub_417EBB"), "Cl2DecDatLightTbl2", SN_NOWARN)
 MakeNameEx(LocByName("sub_417F78"), "Cl2DecodeFrm6", SN_NOWARN)
 MakeNameEx(LocByName("sub_418012"), "PlayInGameMovie", SN_NOWARN)
+
+# error.cpp
+
 MakeNameEx(LocByName("sub_41804E"), "InitDiabloMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_41808F"), "ClrDiabloMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_4180AA"), "DrawDiabloMsg", SN_NOWARN)
+
+# fault.cpp
+
 MakeNameEx(LocByName("sub_4182AD"), "exception_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4182B7"), "exception_install_filter", SN_NOWARN)
 MakeNameEx(LocByName("sub_4182C1"), "j_exception_init_filter", SN_NOWARN)
@@ -441,6 +506,9 @@ MakeNameEx(LocByName("sub_418688"), "exception_get_error_type", SN_NOWARN)
 MakeNameEx(LocByName("sub_41883C"), "exception_set_filter", SN_NOWARN)
 MakeNameEx(LocByName("sub_418853"), "exception_set_filter_ptr", SN_NOWARN)
 MakeNameEx(LocByName("sub_418860"), "exception_get_filter", SN_NOWARN)
+
+# gamemenu.cpp
+
 MakeNameEx(LocByName("sub_418866"), "gamemenu_previous", SN_NOWARN)
 MakeNameEx(LocByName("sub_41888F"), "gamemenu_enable_single", SN_NOWARN)
 MakeNameEx(LocByName("sub_4188C8"), "gamemenu_enable_multi", SN_NOWARN)
@@ -464,6 +532,9 @@ MakeNameEx(LocByName("sub_418BB0"), "gamemenu_sound_volume", SN_NOWARN)
 MakeNameEx(LocByName("sub_418C30"), "gamemenu_gamma", SN_NOWARN)
 MakeNameEx(LocByName("sub_418C5A"), "gamemenu_slider_gamma", SN_NOWARN)
 MakeNameEx(LocByName("sub_418C6A"), "gamemenu_color_cycling", SN_NOWARN)
+
+# gendung.cpp
+
 MakeNameEx(LocByName("sub_418C8B"), "FillSolidBlockTbls", SN_NOWARN)
 MakeNameEx(LocByName("sub_418D91"), "gendung_418D91", SN_NOWARN)
 MakeNameEx(LocByName("sub_4191BF"), "gendung_4191BF", SN_NOWARN)
@@ -486,6 +557,9 @@ MakeNameEx(LocByName("sub_419C10"), "DRLG_PlaceThemeRooms", SN_NOWARN)
 MakeNameEx(LocByName("sub_419D92"), "DRLG_HoldThemeRooms", SN_NOWARN)
 MakeNameEx(LocByName("sub_419E1F"), "SkipThemeRoom", SN_NOWARN)
 MakeNameEx(LocByName("sub_419E71"), "InitLevels", SN_NOWARN)
+
+# gmenu.cpp
+
 MakeNameEx(LocByName("sub_419E8B"), "gmenu_draw_pause", SN_NOWARN)
 MakeNameEx(LocByName("sub_419EBE"), "gmenu_print_text", SN_NOWARN)
 MakeNameEx(LocByName("sub_419F17"), "FreeGMenu", SN_NOWARN)
@@ -506,12 +580,18 @@ MakeNameEx(LocByName("sub_41A4B8"), "gmenu_enable", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A4C6"), "gmenu_slider_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A508"), "gmenu_slider_get", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A545"), "gmenu_slider_3", SN_NOWARN)
+
+# help.cpp
+
 MakeNameEx(LocByName("sub_41A553"), "InitHelp", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A565"), "DrawHelp", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A6FA"), "DrawHelpLine", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A773"), "DisplayHelp", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A78F"), "HelpScrollUp", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A79F"), "HelpScrollDown", SN_NOWARN)
+
+# init.cpp
+
 MakeNameEx(LocByName("sub_41A7B3"), "j_init_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A7B8"), "init_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_41A7C3"), "init_cleanup", SN_NOWARN)
@@ -531,6 +611,9 @@ MakeNameEx(LocByName("sub_41B06C"), "init_palette", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B105"), "init_activate_window", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B15F"), "init_redraw_window", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B184"), "SetWindowProc", SN_NOWARN)
+
+# interfac.cpp
+
 MakeNameEx(LocByName("sub_41B190"), "j_interfac_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B195"), "interfac_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B1A0"), "interface_msg_pump", SN_NOWARN)
@@ -540,6 +623,9 @@ MakeNameEx(LocByName("sub_41B28D"), "DrawProgress", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B2B6"), "ShowProgress", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B5F5"), "FreeInterface", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B607"), "InitCutscene", SN_NOWARN)
+
+# inv.cpp
+
 MakeNameEx(LocByName("sub_41B814"), "FreeInvGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B826"), "InitInv", SN_NOWARN)
 MakeNameEx(LocByName("sub_41B871"), "InvDrawSlotBack", SN_NOWARN)
@@ -580,6 +666,9 @@ MakeNameEx(LocByName("sub_41ED29"), "UseInvItem", SN_NOWARN)
 MakeNameEx(LocByName("sub_41EFA1"), "DoTelekinesis", SN_NOWARN)
 MakeNameEx(LocByName("sub_41F013"), "CalculateGold", SN_NOWARN)
 MakeNameEx(LocByName("sub_41F068"), "DropItemBeforeTrig", SN_NOWARN)
+
+# items.cpp
+
 MakeNameEx(LocByName("sub_41F096"), "InitItemGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_41F0E8"), "ItemPlace", SN_NOWARN)
 MakeNameEx(LocByName("sub_41F13A"), "AddInitItems", SN_NOWARN)
@@ -690,6 +779,9 @@ MakeNameEx(LocByName("sub_42526E"), "GetItemRecord", SN_NOWARN)
 MakeNameEx(LocByName("sub_425311"), "NextItemRecord", SN_NOWARN)
 MakeNameEx(LocByName("sub_425357"), "SetItemRecord", SN_NOWARN)
 MakeNameEx(LocByName("sub_42539E"), "PutItemRecord", SN_NOWARN)
+
+# lighting.cpp
+
 MakeNameEx(LocByName("sub_425443"), "SetLightFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_4254BA"), "DoLighting", SN_NOWARN)
 MakeNameEx(LocByName("sub_4258B0"), "DoUnLight", SN_NOWARN)
@@ -714,6 +806,9 @@ MakeNameEx(LocByName("sub_4263A0"), "ChangeVisionRadius", SN_NOWARN)
 MakeNameEx(LocByName("sub_4263E1"), "ChangeVisionXY", SN_NOWARN)
 MakeNameEx(LocByName("sub_42642B"), "ProcessVisionList", SN_NOWARN)
 MakeNameEx(LocByName("sub_42651F"), "lighting_color_cycling", SN_NOWARN)
+
+# loadsave.cpp
+
 MakeNameEx(LocByName("sub_426564"), "LoadGame", SN_NOWARN)
 MakeNameEx(LocByName("sub_426AE2"), "BLoad", SN_NOWARN)
 MakeNameEx(LocByName("sub_426AF0"), "ILoad", SN_NOWARN)
@@ -746,6 +841,9 @@ MakeNameEx(LocByName("sub_427426"), "SaveVision", SN_NOWARN)
 MakeNameEx(LocByName("sub_427448"), "SavePortal", SN_NOWARN)
 MakeNameEx(LocByName("sub_42746B"), "SaveLevel", SN_NOWARN)
 MakeNameEx(LocByName("sub_42772F"), "LoadLevel", SN_NOWARN)
+
+# log.cpp
+
 MakeNameEx(LocByName("sub_4279F2"), "j_log_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_4279F7"), "log_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_427A02"), "log_cpp_init_2", SN_NOWARN)
@@ -757,6 +855,9 @@ MakeNameEx(LocByName("sub_427AC2"), "log_create", SN_NOWARN)
 MakeNameEx(LocByName("sub_427C18"), "log_get_version", SN_NOWARN)
 MakeNameEx(LocByName("sub_427CC9"), "log_printf", SN_NOWARN)
 MakeNameEx(LocByName("sub_427D75"), "log_dump_computer_info", SN_NOWARN)
+
+# mainmenu.cpp
+
 MakeNameEx(LocByName("sub_427E0E"), "j_mainmenu_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_427E13"), "mainmenu_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_427E1E"), "mainmenu_refresh_music", SN_NOWARN)
@@ -767,12 +868,18 @@ MakeNameEx(LocByName("sub_427FEC"), "mainmenu_single_player", SN_NOWARN)
 MakeNameEx(LocByName("sub_427FFA"), "mainmenu_init_menu", SN_NOWARN)
 MakeNameEx(LocByName("sub_428030"), "mainmenu_multi_player", SN_NOWARN)
 MakeNameEx(LocByName("sub_42803F"), "mainmenu_play_intro", SN_NOWARN)
+
+# minitext.cpp
+
 MakeNameEx(LocByName("sub_428056"), "FreeQuestText", SN_NOWARN)
 MakeNameEx(LocByName("sub_42807A"), "InitQuestText", SN_NOWARN)
 MakeNameEx(LocByName("sub_4280A4"), "InitQTextMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_428104"), "DrawQTextBack", SN_NOWARN)
 MakeNameEx(LocByName("sub_428160"), "PrintQTextChr", SN_NOWARN)
 MakeNameEx(LocByName("sub_428202"), "DrawQText", SN_NOWARN)
+
+# missiles.cpp
+
 MakeNameEx(LocByName("sub_4283C0"), "GetDamageAmt", SN_NOWARN)
 MakeNameEx(LocByName("sub_428921"), "CheckBlock", SN_NOWARN)
 MakeNameEx(LocByName("sub_42897A"), "FindClosest", SN_NOWARN)
@@ -906,6 +1013,9 @@ MakeNameEx(LocByName("sub_430CAC"), "MI_Rportal", SN_NOWARN)
 MakeNameEx(LocByName("sub_430DDA"), "ProcessMissiles", SN_NOWARN)
 MakeNameEx(LocByName("sub_430F35"), "missiles_process_charge", SN_NOWARN)
 MakeNameEx(LocByName("sub_430FB9"), "ClearMissileSpot", SN_NOWARN)
+
+# monster.cpp
+
 MakeNameEx(LocByName("sub_430FDF"), "j_monster_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_430FE4"), "monster_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_430FEF"), "InitMonsterTRN", SN_NOWARN)
@@ -1053,10 +1163,16 @@ MakeNameEx(LocByName("sub_43AC0C"), "CanTalkToMonst", SN_NOWARN)
 MakeNameEx(LocByName("sub_43AC43"), "CheckMonsterHit", SN_NOWARN)
 MakeNameEx(LocByName("sub_43ACB5"), "encode_enemy", SN_NOWARN)
 MakeNameEx(LocByName("sub_43ACCE"), "decode_enemy", SN_NOWARN)
+
+# movie.cpp
+
 MakeNameEx(LocByName("sub_43AD33"), "j_movie_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43AD38"), "movie_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43AD43"), "play_movie", SN_NOWARN)
 MakeNameEx(LocByName("sub_43AE3E"), "MovieWndProc", SN_NOWARN)
+
+# mpqapi.cpp
+
 MakeNameEx(LocByName("sub_43AE90"), "j_mpqapi_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43AE95"), "mpqapi_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43AEA0"), "mpqapi_set_hidden", SN_NOWARN)
@@ -1086,6 +1202,9 @@ MakeNameEx(LocByName("sub_43B9CA"), "mpqapi_write_header", SN_NOWARN)
 MakeNameEx(LocByName("sub_43BA60"), "mpqapi_write_block_table", SN_NOWARN)
 MakeNameEx(LocByName("sub_43BAEB"), "mpqapi_write_hash_table", SN_NOWARN)
 MakeNameEx(LocByName("sub_43BB79"), "mpqapi_can_seek", SN_NOWARN)
+
+# msg.cpp
+
 MakeNameEx(LocByName("sub_43BBA4"), "j_msg_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43BBA9"), "msg_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43BBB4"), "msg_send_drop_pkt", SN_NOWARN)
@@ -1219,6 +1338,9 @@ MakeNameEx(LocByName("sub_43F7A5"), "On_DEBUG", SN_NOWARN)
 MakeNameEx(LocByName("sub_43F7A9"), "On_NOVA", SN_NOWARN)
 MakeNameEx(LocByName("sub_43F818"), "On_SETSHIELD", SN_NOWARN)
 MakeNameEx(LocByName("sub_43F830"), "On_REMSHIELD", SN_NOWARN)
+
+# msgcmd.cpp
+
 MakeNameEx(LocByName("sub_43F849"), "j_msgcmd_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_43F84E"), "msgcmd_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_43F859"), "msgcmd_cpp_init_2", SN_NOWARN)
@@ -1237,6 +1359,9 @@ MakeNameEx(LocByName("sub_43F9E5"), "msgcmd_remove_event", SN_NOWARN)
 MakeNameEx(LocByName("sub_43FA14"), "msgcmd_event_type", SN_NOWARN)
 MakeNameEx(LocByName("sub_43FA85"), "msgcmd_cleanup_chatcmd_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_43FA98"), "msgcmd_cleanup_extern_msg", SN_NOWARN)
+
+# multi.cpp
+
 MakeNameEx(LocByName("sub_43FAC4"), "j_multi_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43FAC9"), "multi_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_43FAD4"), "multi_msg_add", SN_NOWARN)
@@ -1275,6 +1400,9 @@ MakeNameEx(LocByName("sub_440A9B"), "multi_init_single", SN_NOWARN)
 MakeNameEx(LocByName("sub_440B09"), "multi_init_multi", SN_NOWARN)
 MakeNameEx(LocByName("sub_440BDB"), "multi_upgrade", SN_NOWARN)
 MakeNameEx(LocByName("sub_440C17"), "multi_player_joins", SN_NOWARN)
+
+# nthread.cpp
+
 MakeNameEx(LocByName("sub_440DAE"), "j_nthread_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_440DB3"), "nthread_cpp_init_1", SN_NOWARN)
 MakeNameEx(LocByName("sub_440DBE"), "nthread_cpp_init_2", SN_NOWARN)
@@ -1290,6 +1418,9 @@ MakeNameEx(LocByName("sub_4410CF"), "nthread_handler", SN_NOWARN)
 MakeNameEx(LocByName("sub_441145"), "nthread_cleanup", SN_NOWARN)
 MakeNameEx(LocByName("sub_4411C4"), "nthread_ignore_mutex", SN_NOWARN)
 MakeNameEx(LocByName("sub_4411EF"), "nthread_has_500ms_passed", SN_NOWARN)
+
+# objects.cpp
+
 MakeNameEx(LocByName("sub_44121D"), "InitObjectGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_441317"), "FreeObjectGFX", SN_NOWARN)
 MakeNameEx(LocByName("sub_441345"), "RndLocOk", SN_NOWARN)
@@ -1421,6 +1552,9 @@ MakeNameEx(LocByName("sub_448298"), "SyncL2Doors", SN_NOWARN)
 MakeNameEx(LocByName("sub_44831E"), "SyncL3Doors", SN_NOWARN)
 MakeNameEx(LocByName("sub_4483B0"), "SyncObjectAnim", SN_NOWARN)
 MakeNameEx(LocByName("sub_44845E"), "GetObjectStr", SN_NOWARN)
+
+# pack.cpp
+
 MakeNameEx(LocByName("sub_448755"), "j_pack_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_44875A"), "pack_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_448765"), "PackPlayer", SN_NOWARN)
@@ -1428,6 +1562,9 @@ MakeNameEx(LocByName("sub_448953"), "PackItem", SN_NOWARN)
 MakeNameEx(LocByName("sub_448A5E"), "VerifyGoldSeeds", SN_NOWARN)
 MakeNameEx(LocByName("sub_448AD0"), "UnPackPlayer", SN_NOWARN)
 MakeNameEx(LocByName("sub_448D48"), "UnPackItem", SN_NOWARN)
+
+# palette.cpp
+
 MakeNameEx(LocByName("sub_448DF5"), "j_palette_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_448DFA"), "palette_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_448E05"), "palette_save_gamme", SN_NOWARN)
@@ -1450,6 +1587,9 @@ MakeNameEx(LocByName("sub_449336"), "palette_update_caves", SN_NOWARN)
 MakeNameEx(LocByName("sub_449398"), "palette_update_quest_palette", SN_NOWARN)
 MakeNameEx(LocByName("sub_4493C6"), "palette_get_colour_cycling", SN_NOWARN)
 MakeNameEx(LocByName("sub_4493CC"), "palette_set_color_cycling", SN_NOWARN)
+
+# path.cpp
+
 MakeNameEx(LocByName("sub_4493D4"), "FindPath", SN_NOWARN)
 MakeNameEx(LocByName("sub_4494D3"), "path_xycoord", SN_NOWARN)
 MakeNameEx(LocByName("sub_449504"), "path_check_equal", SN_NOWARN)
@@ -1464,6 +1604,9 @@ MakeNameEx(LocByName("sub_4497F7"), "path_set_coords", SN_NOWARN)
 MakeNameEx(LocByName("sub_449890"), "path_set_node_ptr", SN_NOWARN)
 MakeNameEx(LocByName("sub_4498A3"), "path_decrease_node", SN_NOWARN)
 MakeNameEx(LocByName("sub_4498B6"), "path_clear_node", SN_NOWARN)
+
+# pfile.cpp
+
 MakeNameEx(LocByName("sub_4498EC"), "j_pfile_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4498F1"), "pfile_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4498FC"), "pfile_init_save_directory", SN_NOWARN)
@@ -1502,6 +1645,9 @@ MakeNameEx(LocByName("sub_44A679"), "pfile_write_save_file", SN_NOWARN)
 MakeNameEx(LocByName("sub_44A727"), "pfile_strcpy", SN_NOWARN)
 MakeNameEx(LocByName("sub_44A731"), "pfile_read", SN_NOWARN)
 MakeNameEx(LocByName("sub_44A8B3"), "pfile_update", SN_NOWARN)
+
+# player.cpp
+
 MakeNameEx(LocByName("sub_44A8E6"), "j_player_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_44A8EB"), "player_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_44A8F6"), "player_init_cl2_hdrs", SN_NOWARN)
@@ -1593,6 +1739,9 @@ MakeNameEx(LocByName("sub_4509DF"), "SetPlrDex", SN_NOWARN)
 MakeNameEx(LocByName("sub_450A54"), "SetPlrVit", SN_NOWARN)
 MakeNameEx(LocByName("sub_450AA0"), "InitDungMsgs", SN_NOWARN)
 MakeNameEx(LocByName("sub_450AC4"), "PlayDungMsgs", SN_NOWARN)
+
+# plrmsg.cpp
+
 MakeNameEx(LocByName("sub_450D33"), "plrmsg_delay", SN_NOWARN)
 MakeNameEx(LocByName("sub_450D6A"), "ErrorPlrMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_450DB3"), "EventPlrMsg", SN_NOWARN)
@@ -1601,6 +1750,9 @@ MakeNameEx(LocByName("sub_450E64"), "ClearPlrMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_450E8E"), "InitPlrMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_450EAA"), "DrawPlrMsg", SN_NOWARN)
 MakeNameEx(LocByName("sub_450F37"), "PrintPlrMsg", SN_NOWARN)
+
+# portal.cpp
+
 MakeNameEx(LocByName("sub_450FFE"), "InitPortals", SN_NOWARN)
 MakeNameEx(LocByName("sub_451024"), "SetPortalStats", SN_NOWARN)
 MakeNameEx(LocByName("sub_451062"), "AddWarpMissile", SN_NOWARN)
@@ -1614,6 +1766,9 @@ MakeNameEx(LocByName("sub_451234"), "SetCurrentPortal", SN_NOWARN)
 MakeNameEx(LocByName("sub_45123B"), "GetPortalLevel", SN_NOWARN)
 MakeNameEx(LocByName("sub_4512E3"), "GetPortalLvlPos", SN_NOWARN)
 MakeNameEx(LocByName("sub_451346"), "portal_pos_ok", SN_NOWARN)
+
+# quests.cpp
+
 MakeNameEx(LocByName("sub_45138E"), "InitQuests", SN_NOWARN)
 MakeNameEx(LocByName("sub_45155C"), "CheckQuests", SN_NOWARN)
 MakeNameEx(LocByName("sub_45178F"), "ForceQuests", SN_NOWARN)
@@ -1639,9 +1794,15 @@ MakeNameEx(LocByName("sub_452710"), "QuestlogDown", SN_NOWARN)
 MakeNameEx(LocByName("sub_45275A"), "QuestlogEnter", SN_NOWARN)
 MakeNameEx(LocByName("sub_45279C"), "QuestlogESC", SN_NOWARN)
 MakeNameEx(LocByName("sub_4527F1"), "SetMultiQuest", SN_NOWARN)
+
+# restrict.cpp
+
 MakeNameEx(LocByName("sub_452831"), "SystemSupported", SN_NOWARN)
 MakeNameEx(LocByName("sub_452885"), "RestrictedTest", SN_NOWARN)
 MakeNameEx(LocByName("sub_4528F7"), "ReadOnlyTest", SN_NOWARN)
+
+# scrollrt.cpp
+
 MakeNameEx(LocByName("sub_452975"), "j_scrollrt_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_45297A"), "scrollrt_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_452985"), "ClearCursor", SN_NOWARN)
@@ -1673,18 +1834,27 @@ MakeNameEx(LocByName("sub_455F56"), "scrollrt_draw_cursor_item", SN_NOWARN)
 MakeNameEx(LocByName("sub_456124"), "DrawMain", SN_NOWARN)
 MakeNameEx(LocByName("sub_4563B3"), "DoBlitScreen", SN_NOWARN)
 MakeNameEx(LocByName("sub_4564F9"), "DrawAndBlit", SN_NOWARN)
+
+# setmaps.cpp
+
 MakeNameEx(LocByName("sub_456625"), "ObjIndex", SN_NOWARN)
 MakeNameEx(LocByName("sub_45666B"), "AddSKingObjs", SN_NOWARN)
 MakeNameEx(LocByName("sub_45671A"), "AddSChamObjs", SN_NOWARN)
 MakeNameEx(LocByName("sub_456755"), "AddVileObjs", SN_NOWARN)
 MakeNameEx(LocByName("sub_4567AD"), "DRLG_SetMapTrans", SN_NOWARN)
 MakeNameEx(LocByName("sub_456819"), "LoadSetMap", SN_NOWARN)
+
+# sha1.cpp
+
 MakeNameEx(LocByName("sub_456A16"), "SHA1Clear", SN_NOWARN)
 MakeNameEx(LocByName("sub_456A2B"), "SHA1Result", SN_NOWARN)
 MakeNameEx(LocByName("sub_456A4D"), "SHA1Calculate", SN_NOWARN)
 MakeNameEx(LocByName("sub_456A73"), "SHA1Input", SN_NOWARN)
 MakeNameEx(LocByName("sub_456AC4"), "SHA1ProcessMessageBlock", SN_NOWARN)
 MakeNameEx(LocByName("sub_456C82"), "SHA1Reset", SN_NOWARN)
+
+# sound.cpp
+
 MakeNameEx(LocByName("sub_456CBB"), "j_sound_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_456CC0"), "sound_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_456CCB"), "snd_update", SN_NOWARN)
@@ -1707,6 +1877,9 @@ MakeNameEx(LocByName("sub_457393"), "music_start", SN_NOWARN)
 MakeNameEx(LocByName("sub_4573FE"), "sound_disable_music", SN_NOWARN)
 MakeNameEx(LocByName("sub_457418"), "sound_get_or_set_music_volume", SN_NOWARN)
 MakeNameEx(LocByName("sub_45743B"), "sound_get_or_set_sound_volume", SN_NOWARN)
+
+# spells.cpp
+
 MakeNameEx(LocByName("sub_45744E"), "GetManaAmount", SN_NOWARN)
 MakeNameEx(LocByName("sub_45753A"), "UseMana", SN_NOWARN)
 MakeNameEx(LocByName("sub_457584"), "CheckSpell", SN_NOWARN)
@@ -1714,6 +1887,9 @@ MakeNameEx(LocByName("sub_4575D5"), "CastSpell", SN_NOWARN)
 MakeNameEx(LocByName("sub_4576B1"), "DoResurrect", SN_NOWARN)
 MakeNameEx(LocByName("sub_4577CB"), "PlacePlayer", SN_NOWARN)
 MakeNameEx(LocByName("sub_4578EE"), "DoHealOther", SN_NOWARN)
+
+# stores.cpp
+
 MakeNameEx(LocByName("sub_457A01"), "InitStores", SN_NOWARN)
 MakeNameEx(LocByName("sub_457A87"), "SetupTownStores", SN_NOWARN)
 MakeNameEx(LocByName("sub_457B42"), "FreeStoreMem", SN_NOWARN)
@@ -1809,6 +1985,9 @@ MakeNameEx(LocByName("sub_45BEE6"), "S_DrunkEnter", SN_NOWARN)
 MakeNameEx(LocByName("sub_45BF34"), "STextEnter", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C053"), "CheckStoreBtn", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C18A"), "ReleaseStoreBtn", SN_NOWARN)
+
+# sync.cpp
+
 MakeNameEx(LocByName("sub_45C199"), "sync_all_monsters", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C21E"), "sync_one_monster", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C2C4"), "sync_monster_active", SN_NOWARN)
@@ -1818,6 +1997,9 @@ MakeNameEx(LocByName("sub_45C3E6"), "SyncPlrInv", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C5C7"), "SyncData", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C63B"), "sync_monster_data", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C84B"), "sync_clear_pkt", SN_NOWARN)
+
+# themes.cpp
+
 MakeNameEx(LocByName("sub_45C870"), "TFit_Shrine", SN_NOWARN)
 MakeNameEx(LocByName("sub_45C993"), "TFit_Obj5", SN_NOWARN)
 MakeNameEx(LocByName("sub_45CA72"), "TFit_SkelRoom", SN_NOWARN)
@@ -1849,9 +2031,15 @@ MakeNameEx(LocByName("sub_45DD4D"), "Theme_BrnCross", SN_NOWARN)
 MakeNameEx(LocByName("sub_45DE20"), "Theme_WeaponRack", SN_NOWARN)
 MakeNameEx(LocByName("sub_45DF11"), "UpdateL4Trans", SN_NOWARN)
 MakeNameEx(LocByName("sub_45DF31"), "CreateThemeRooms", SN_NOWARN)
+
+# tmsg.cpp
+
 MakeNameEx(LocByName("sub_45E08C"), "tmsg_get", SN_NOWARN)
 MakeNameEx(LocByName("sub_45E0D7"), "tmsg_add", SN_NOWARN)
 MakeNameEx(LocByName("sub_45E12A"), "tmsg_cleanup", SN_NOWARN)
+
+# town.cpp
+
 MakeNameEx(LocByName("sub_45E151"), "town_clear_upper_buf", SN_NOWARN)
 MakeNameEx(LocByName("sub_45E1B7"), "town_clear_low_buf", SN_NOWARN)
 MakeNameEx(LocByName("sub_45E226"), "town_draw_clipped_e_flag", SN_NOWARN)
@@ -1871,6 +2059,9 @@ MakeNameEx(LocByName("sub_45FCBF"), "T_FillSector", SN_NOWARN)
 MakeNameEx(LocByName("sub_45FD75"), "T_FillTile", SN_NOWARN)
 MakeNameEx(LocByName("sub_45FDE6"), "T_Pass3", SN_NOWARN)
 MakeNameEx(LocByName("sub_45FF83"), "CreateTown", SN_NOWARN)
+
+# towners.cpp
+
 MakeNameEx(LocByName("sub_46019B"), "GetActiveTowner", SN_NOWARN)
 MakeNameEx(LocByName("sub_4601C1"), "SetTownerGPtrs", SN_NOWARN)
 MakeNameEx(LocByName("sub_4601FB"), "NewTownerAnim", SN_NOWARN)
@@ -1904,11 +2095,17 @@ MakeNameEx(LocByName("sub_460C5C"), "PlrHasItem", SN_NOWARN)
 MakeNameEx(LocByName("sub_460CAC"), "TownerTalk", SN_NOWARN)
 MakeNameEx(LocByName("sub_460CC9"), "TalkToTowner", SN_NOWARN)
 MakeNameEx(LocByName("sub_4617E8"), "CowSFX", SN_NOWARN)
+
+# track.cpp
+
 MakeNameEx(LocByName("sub_4618A5"), "j_track_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4618AA"), "track_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_4618B5"), "track_repeat_walk", SN_NOWARN)
 MakeNameEx(LocByName("sub_461953"), "track_mouse_stance", SN_NOWARN)
 MakeNameEx(LocByName("sub_46199F"), "track_isscrolling", SN_NOWARN)
+
+# trigs.cpp
+
 MakeNameEx(LocByName("sub_4619A7"), "InitNoTriggers", SN_NOWARN)
 MakeNameEx(LocByName("sub_4619B6"), "InitTownTriggers", SN_NOWARN)
 MakeNameEx(LocByName("sub_461B45"), "InitL1Triggers", SN_NOWARN)
@@ -1930,6 +2127,9 @@ MakeNameEx(LocByName("sub_46291F"), "ForceSChambTrig", SN_NOWARN)
 MakeNameEx(LocByName("sub_462987"), "ForcePWaterTrig", SN_NOWARN)
 MakeNameEx(LocByName("sub_4629EF"), "CheckTrigForce", SN_NOWARN)
 MakeNameEx(LocByName("sub_462A9D"), "CheckTriggers", SN_NOWARN)
+
+# wave.cpp
+
 MakeNameEx(LocByName("sub_462C6D"), "j_wave_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_462C72"), "wave_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_462C7D"), "WCloseFile", SN_NOWARN)
@@ -1948,6 +2148,9 @@ MakeNameEx(LocByName("sub_462FAE"), "SeekMemFile", SN_NOWARN)
 MakeNameEx(LocByName("sub_462FCC"), "ReadWaveSection", SN_NOWARN)
 MakeNameEx(LocByName("sub_463023"), "LoadWaveFile", SN_NOWARN)
 MakeNameEx(LocByName("sub_46305B"), "j_engine_mem_free", SN_NOWARN)
+
+# render.cpp
+
 MakeNameEx(LocByName("sub_463060"), "drawTopArchesUpperScreen", SN_NOWARN)
 MakeNameEx(LocByName("sub_46468D"), "drawBottomArchesUpperScreen", SN_NOWARN)
 MakeNameEx(LocByName("sub_4652C5"), "drawUpperScreen", SN_NOWARN)
