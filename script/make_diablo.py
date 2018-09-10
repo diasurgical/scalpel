@@ -1,11 +1,8 @@
-# CRT
+# appfat.cpp
 
 MakeNameEx(LocByName("sub_401000"), "j_appfat_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_401005"), "appfat_cpp_init", SN_NOWARN)
 MakeNameEx(LocByName("sub_401010"), "appfat_cpp_free", SN_NOWARN)
-
-# appfat.cpp
-
 MakeNameEx(LocByName("sub_40102A"), "GetErr", SN_NOWARN)
 MakeNameEx(LocByName("sub_4010CE"), "GetDDErr", SN_NOWARN)
 MakeNameEx(LocByName("sub_401831"), "GetDSErr", SN_NOWARN)
