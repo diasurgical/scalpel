@@ -21,7 +21,7 @@ all: ${OUTPUT}
 	sym_dump -types -dir $@ $<
 
 %/names.txt: %/DIABPSX.MAP
-	sar '(.|[\n])+Names alphabetically[\r\n]*' "" $< | awk '{print $$2}' > $@
+	sar '(.|[\n])+Names alphabetically[\r\n]*' "" $< | awk '{print $$2}' | sort > $@
 
 .PHONY: all clean
 
