@@ -3,7 +3,8 @@ OUTPUT_C=${addsuffix _dump_c_,${DIR}}
 OUTPUT_C_SRC=${addsuffix _dump_c_src_,${DIR}}
 OUTPUT_IDA=${addsuffix _dump_ida_,${DIR}}
 OUTPUT_TYPES=${addsuffix _dump_types_,${DIR}}
-OUTPUT=${OUTPUT_C} ${OUTPUT_C_SRC} ${OUTPUT_IDA} ${OUTPUT_TYPES}
+OUTPUT_NAMES=${addsuffix names.txt,${DIR}}
+OUTPUT=${OUTPUT_C} ${OUTPUT_C_SRC} ${OUTPUT_IDA} ${OUTPUT_TYPES} ${OUTPUT_NAMES}
 
 all: ${OUTPUT}
 
@@ -18,6 +19,9 @@ all: ${OUTPUT}
 
 %/_dump_types_: %/DIABPSX.SYM
 	sym_dump -types -dir $@ $<
+
+%/names.txt: %/DIABPSX.MAP
+	sar '(.|[\n])+Names alphabetically[\r\n]*' "" $< | awk '{print $$2}' > $@
 
 .PHONY: all clean
 
