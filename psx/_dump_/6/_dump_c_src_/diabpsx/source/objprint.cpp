@@ -1,0 +1,694 @@
+// C:\diabpsx\SOURCE\OBJPRINT.CPP
+
+#include "types.h"
+
+// address: 0x80076134
+// size: 0x28
+struct POLY_FT4 *DefaultObjPrint__FP12ObjectStructiiP7TextDatiii(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos, int XOffSet, int YOffSet) {
+	// register: 16
+	register int AnimFrame;
+	// register: 17
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 2
+	register int LoadIndex;
+	// register: 17
+	register int Creature;
+	{
+		{
+			// register: 16
+			register int PhysFrame;
+			{
+				{
+					// register: 16
+					// size: 0x28
+					register struct POLY_FT4 *ShadFt4;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800762C8
+// size: 0x28
+struct POLY_FT4 *LightObjPrint__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 19
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	{
+		{
+			{
+				{
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80076380
+// size: 0x28
+struct POLY_FT4 *DoorObjPrint__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 22
+	register int AnimFrame;
+	// register: 18
+	register int XOffSet;
+	// register: 17
+	register int YOffSet;
+	// register: 16
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 19
+	// size: 0xC
+	register struct FRAME_HDR *PalFr;
+	// register: 16
+	// size: 0x6C
+	register struct TextDat *ThisDat;
+	// register: 3
+	register int LoadIndex;
+	// register: 23
+	register int Creature;
+	{
+		{
+		}
+	}
+}
+
+
+// address: 0x80076614
+void DrawLightSpark__Fiii(int xo, int yo, int ot) {
+}
+
+
+// address: 0x800766EC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_L1LIGHT__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 2
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+}
+
+
+// address: 0x80076774
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKFIRE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800767A0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_LEVER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800767CC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CHEST1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800767F8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CHEST2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076824
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CHEST3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076850
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CANDLE1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076874
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CANDLE2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076898
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CANDLEO__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800768C4
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BANNERL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800768F0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BANNERM__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x8007691C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BANNERR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076948
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKPILE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076974
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKSTICK1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800769A0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKSTICK2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800769CC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKSTICK3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800769F8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKSTICK4__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076A24
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKSTICK5__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076A50
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CRUX1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076A7C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CRUX2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076AA8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CRUX3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076AD4
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_STAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076B00
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_ANGEL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076B2C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOK2L__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076B58
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BCROSS__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076B84
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_NUDEW2R__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076BB0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SWITCHSKL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076BDC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TNUDEM1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076C08
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TNUDEM2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076C34
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TNUDEM3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076C60
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TNUDEM4__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076C8C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TNUDEW1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076CB8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TNUDEW2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076CE4
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TNUDEW3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076D10
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORTURE1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076D3C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORTURE2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076D68
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORTURE3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076D94
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORTURE4__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076DC0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORTURE5__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076DEC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOK2R__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80076E18
+void PrintTorchStick__Fiiii(int x, int y, int f, int OtPos) {
+	// register: 16
+	// size: 0x6C
+	register struct TextDat *ThisDat;
+}
+
+
+// address: 0x80076EAC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORCHL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 16
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+}
+
+
+// address: 0x80076F3C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORCHR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 16
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+}
+
+
+// address: 0x80076FCC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORCHL2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 16
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+}
+
+
+// address: 0x8007705C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TORCHR2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 16
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+}
+
+
+// address: 0x800770EC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SARC__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077118
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_FLAMEHOLE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077144
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_FLAMELVR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077170
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_WATER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x8007719C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOKLVR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800771C8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TRAPL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800771F4
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TRAPR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077220
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOKSHELF__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x8007724C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_WEAPRACK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077278
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BARREL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800772A4
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BARRELEX__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 16
+	register int AnimFrame;
+	// register: 17
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	{
+		{
+			// register: 16
+			register int PhysFrame;
+			{
+				{
+					// register: 16
+					// size: 0x28
+					register struct POLY_FT4 *ShadFt4;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800773FC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SHRINEL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 3
+	register int AnimFrame;
+}
+
+
+// address: 0x800774C8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SHRINER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 3
+	register int AnimFrame;
+}
+
+
+// address: 0x80077594
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SKELBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800775C0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOKCASEL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800775EC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOKCASER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077618
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOKSTAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077644
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BOOKCANDLE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077668
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BLOODFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077694
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_DECAP__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800776C0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TCHEST1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800776EC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TCHEST2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077718
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TCHEST3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077744
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BLINDBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077770
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_BLOODBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x8007779C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_PEDISTAL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800777C8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_PURIFYINGFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800777F4
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_ARMORSTAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077820
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_ARMORSTANDN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x8007784C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_GOATSHRINE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077878
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_CAULDRON__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800778A4
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_MURKYFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800778D0
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TEARFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x800778FC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_ALTBOY__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077928
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_MCIRCLE1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+	// register: 19
+	register int AnimFrame;
+	// register: 17
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 2
+	register int LoadIndex;
+	// register: 5
+	register int Creature;
+	{
+		// register: 20
+		register int PhysFrame;
+		{
+			{
+				// register: 16
+				// size: 0x28
+				register struct POLY_FT4 *ShadFt4;
+			}
+		}
+	}
+}
+
+
+// address: 0x80077ABC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_STORYBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077AE8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_STORYCANDLE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077B0C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_STEELTOME__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077B38
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_WARARMOR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077B64
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_WARWEAP__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077B90
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_TBCROSS__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077BBC
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_WEAPONRACK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077BE8
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_WEAPONRACKN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077C14
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_MUSHPATCH__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077C40
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_LAZSTAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077C6C
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SLAINHERO__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
+// address: 0x80077C98
+// size: 0x28
+struct POLY_FT4 *PrintOBJ_SIGNCHEST__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
+}
+
+
