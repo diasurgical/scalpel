@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8009F898
+// line start: 72
+// line end:   79
 unsigned char BirdDistanceOK__Fiiii(int WorldXa, int WorldYa, int WorldXb, int WorldYb) {
 	// register: 16
 	register int wx;
@@ -12,6 +14,8 @@ unsigned char BirdDistanceOK__Fiiii(int WorldXa, int WorldYa, int WorldXb, int W
 
 
 // address: 0x8009F8F0
+// line start: 88
+// line end:   129
 void AlterBirdPos__FP10BIRDSTRUCTUc(struct BIRDSTRUCT *b, unsigned char rnd) {
 	// register: 18
 	register int offsx;
@@ -21,6 +25,8 @@ void AlterBirdPos__FP10BIRDSTRUCTUc(struct BIRDSTRUCT *b, unsigned char rnd) {
 
 
 // address: 0x8009FA34
+// line start: 139
+// line end:   149
 void BirdWorld__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int wx, int wy) {
 	// register: 7
 	register int x;
@@ -30,6 +36,8 @@ void BirdWorld__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int wx, int wy) {
 
 
 // address: 0x8009FAB0
+// line start: 160
+// line end:   183
 int BirdScared__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 17
 	register int scared;
@@ -48,6 +56,8 @@ int BirdScared__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009FC3C
+// line start: 192
+// line end:   201
 int GetPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	{
 		// register: 3
@@ -57,6 +67,8 @@ int GetPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009FC90
+// line start: 210
+// line end:   237
 void BIRD_StartHop__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 17
 	register int nd;
@@ -68,26 +80,36 @@ void BIRD_StartHop__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009FDF8
+// line start: 246
+// line end:   266
 void BIRD_DoHop__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009FEFC
+// line start: 277
+// line end:   284
 void BIRD_StartPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009FF68
+// line start: 293
+// line end:   309
 void BIRD_DoPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009FFEC
+// line start: 317
+// line end:   330
 void BIRD_DoScatter__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x800A0098
+// line start: 335
+// line end:   362
 void CheckDirOk__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 17
 	register int x;
@@ -113,11 +135,15 @@ void CheckDirOk__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x800A01A8
+// line start: 370
+// line end:   382
 void BIRD_StartScatter__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x800A0254
+// line start: 391
+// line end:   414
 void BIRD_StartFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 16
 	// size: 0x18
@@ -134,6 +160,8 @@ void BIRD_StartFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x800A02F8
+// line start: 422
+// line end:   474
 void BIRD_DoFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 20
 	register int pnum;
@@ -157,16 +185,22 @@ void BIRD_DoFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x800A05A4
+// line start: 484
+// line end:   492
 void BIRD_StartLanding__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x800A05FC
+// line start: 503
+// line end:   510
 void BIRD_DoLanding__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x800A0668
+// line start: 520
+// line end:   537
 void PlaceFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 	// register: 18
 	// size: 0x18
@@ -179,6 +213,8 @@ void PlaceFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 
 
 // address: 0x800A0754
+// line start: 545
+// line end:   564
 void ProcessFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 	// register: 19
 	// size: 0x18
@@ -201,6 +237,8 @@ void ProcessFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 
 
 // address: 0x800A0884
+// line start: 588
+// line end:   607
 void InitBird__Fv() {
 	// register: 17
 	// size: 0x18
@@ -213,6 +251,8 @@ void InitBird__Fv() {
 
 
 // address: 0x800A095C
+// line start: 619
+// line end:   660
 void ProcessBird__Fv() {
 	// register: 16
 	// size: 0x18
@@ -225,6 +265,8 @@ void ProcessBird__Fv() {
 
 
 // address: 0x800A0AB4
+// line start: 668
+// line end:   697
 int GetBirdFrame__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 5
 	register int banim;
@@ -232,6 +274,8 @@ int GetBirdFrame__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x800A0B50
+// line start: 703
+// line end:   723
 void bscale__FP8POLY_FT4i(struct POLY_FT4 *Ft4, int height) {
 	// register: 17
 	register int x;
@@ -241,6 +285,8 @@ void bscale__FP8POLY_FT4i(struct POLY_FT4 *Ft4, int height) {
 
 
 // address: 0x800A0C80
+// line start: 728
+// line end:   747
 void doshadow__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int x, int y) {
 	// address: 0xFFFFFFE0
 	// size: 0x28
@@ -252,6 +298,8 @@ void doshadow__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int x, int y) {
 
 
 // address: 0x800A0D8C
+// line start: 786
+// line end:   848
 void DrawLBird__Fv() {
 	// register: 19
 	// size: 0x18

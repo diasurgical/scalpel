@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80148344
+// line start: 97
+// line end:   130
 void InitMissiles__Fv() {
 	// register: 16
 	register int i;

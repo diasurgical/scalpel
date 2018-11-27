@@ -3,32 +3,44 @@
 #include "types.h"
 
 // address: 0x801475C0
+// line start: 89
+// line end:   92
 void StartAutomap__Fv() {
 }
 
 
 // address: 0x801475D8
+// line start: 97
+// line end:   98
 void AutomapUp__Fv() {
 }
 
 
 // address: 0x801475F0
+// line start: 103
+// line end:   104
 void AutomapDown__Fv() {
 }
 
 
 // address: 0x80147608
+// line start: 109
+// line end:   110
 void AutomapLeft__Fv() {
 }
 
 
 // address: 0x80147620
+// line start: 115
+// line end:   116
 void AutomapRight__Fv() {
 }
 
 
 // address: 0x80147638
 // size: 0x10
+// line start: 137
+// line end:   144
 struct LINE_F2 *AMGetLine__FUcUcUc(unsigned char R, unsigned char G, unsigned char B) {
 	// address: 0xFFFFFFE8
 	// size: 0x10
@@ -37,6 +49,8 @@ struct LINE_F2 *AMGetLine__FUcUcUc(unsigned char R, unsigned char G, unsigned ch
 
 
 // address: 0x801476E4
+// line start: 149
+// line end:   156
 void AmDrawLine__Fiiii(int x0, int y0, int x1, int y1) {
 	// register: 2
 	// size: 0x10
@@ -45,6 +59,8 @@ void AmDrawLine__Fiiii(int x0, int y0, int x1, int y1) {
 
 
 // address: 0x8014774C
+// line start: 163
+// line end:   170
 void AmDrawPlayer__Fiiii(int x0, int y0, int x1, int y1) {
 	// register: 2
 	// size: 0x10
@@ -53,6 +69,8 @@ void AmDrawPlayer__Fiiii(int x0, int y0, int x1, int y1) {
 
 
 // address: 0x801477B4
+// line start: 183
+// line end:   260
 void DrawAutomapPlr__Fv() {
 	// register: 2
 	register int Px;
@@ -76,6 +94,8 @@ void DrawAutomapPlr__Fv() {
 
 
 // address: 0x80147B2C
+// line start: 265
+// line end:   281
 void DrawAutoMapVertWall__Fiii(int X, int Y, int Length) {
 	// register: 2
 	// size: 0x10
@@ -88,6 +108,8 @@ void DrawAutoMapVertWall__Fiii(int X, int Y, int Length) {
 
 
 // address: 0x80147BD4
+// line start: 288
+// line end:   304
 void DrawAutoMapHorzWall__Fiii(int X, int Y, int Length) {
 	// register: 2
 	// size: 0x10
@@ -100,6 +122,8 @@ void DrawAutoMapHorzWall__Fiii(int X, int Y, int Length) {
 
 
 // address: 0x80147C7C
+// line start: 310
+// line end:   374
 void DrawAutoMapVertDoor__Fii(int X, int Y) {
 	// register: 7
 	// size: 0x10
@@ -116,6 +140,8 @@ void DrawAutoMapVertDoor__Fii(int X, int Y) {
 
 
 // address: 0x80147DF4
+// line start: 381
+// line end:   446
 void DrawAutoMapHorzDoor__Fii(int X, int Y) {
 	// register: 8
 	// size: 0x10
@@ -138,6 +164,8 @@ void DrawAutoMapHorzDoor__Fii(int X, int Y) {
 
 
 // address: 0x80147F74
+// line start: 453
+// line end:   469
 void DrawAutoMapVertGrate__Fii(int X, int Y) {
 	// register: 2
 	// size: 0x10
@@ -150,6 +178,8 @@ void DrawAutoMapVertGrate__Fii(int X, int Y) {
 
 
 // address: 0x80148008
+// line start: 476
+// line end:   492
 void DrawAutoMapHorzGrate__Fii(int X, int Y) {
 	// register: 2
 	// size: 0x10
@@ -162,6 +192,8 @@ void DrawAutoMapHorzGrate__Fii(int X, int Y) {
 
 
 // address: 0x8014809C
+// line start: 498
+// line end:   547
 void DrawAutoMapSquare__Fii(int X, int Y) {
 	// register: 2
 	// size: 0x10
@@ -184,6 +216,8 @@ void DrawAutoMapSquare__Fii(int X, int Y) {
 
 
 // address: 0x801481B4
+// line start: 554
+// line end:   623
 void DrawAutoMapStairs__Fii(int X, int Y) {
 	// register: 3
 	// size: 0x10
@@ -204,6 +238,8 @@ void DrawAutoMapStairs__Fii(int X, int Y) {
 
 
 // address: 0x8014835C
+// line start: 630
+// line end:   748
 void DrawAutomap__Fv() {
 	// register: 20
 	register int MapX;

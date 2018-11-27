@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x8006CDF0
+// line start: 129
+// line end:   202
 void T_DrawView__Fii(int StartX, int StartY) {
 }
 
 
 // address: 0x8006CF64
+// line start: 212
+// line end:   265
 void T_FillSector__FPUcT0iiiib(unsigned char *P3Tiles, unsigned char *pSector, int xi, int yi, int w, int h, bool AddSec) {
 	// register: 9
 	register int i;
@@ -47,6 +51,8 @@ void T_FillSector__FPUcT0iiiib(unsigned char *P3Tiles, unsigned char *pSector, i
 
 
 // address: 0x8006D15C
+// line start: 272
+// line end:   319
 void T_FillTile__FPUciii(unsigned char *P3Tiles, int xx, int yy, int t) {
 	// register: 4
 	register long v1;
@@ -60,6 +66,8 @@ void T_FillTile__FPUciii(unsigned char *P3Tiles, int xx, int yy, int t) {
 
 
 // address: 0x8006D24C
+// line start: 326
+// line end:   402
 void T_Pass3__Fv() {
 	// register: 19
 	register unsigned char *pSector;
@@ -93,6 +101,8 @@ void T_Pass3__Fv() {
 
 
 // address: 0x8006D60C
+// line start: 411
+// line end:   464
 void CreateTown__Fi(int entry) {
 	{
 		// register: 6
@@ -108,6 +118,8 @@ void CreateTown__Fi(int entry) {
 
 
 // address: 0x8006D774
+// line start: 526
+// line end:   558
 unsigned char *GRL_LoadFileInMemSig__FPCcPUl(char *Name, unsigned long *Len) {
 	// register: 18
 	// size: 0x14
@@ -123,6 +135,8 @@ unsigned char *GRL_LoadFileInMemSig__FPCcPUl(char *Name, unsigned long *Len) {
 
 
 // address: 0x8006D858
+// line start: 570
+// line end:   597
 void GRL_StripDir__FPcPCc(char *Dest, char *Src) {
 	// register: 17
 	register char *BSlash;

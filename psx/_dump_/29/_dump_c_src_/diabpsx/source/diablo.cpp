@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80035780
+// line start: 284
+// line end:   297
 void FreeGameMem__Fv() {
 	{
 		// register: 4
@@ -12,11 +14,15 @@ void FreeGameMem__Fv() {
 
 
 // address: 0x800357D0
+// line start: 304
+// line end:   320
 void start_game__FUi(unsigned int uMsg) {
 }
 
 
 // address: 0x8003582C
+// line start: 325
+// line end:   342
 void free_game__Fv() {
 	{
 		// register: 16
@@ -26,6 +32,8 @@ void free_game__Fv() {
 
 
 // address: 0x800358A0
+// line start: 358
+// line end:   396
 void LittleStart__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 	// address: 0xFFFFFFF0
 	auto unsigned char fExitProgram;
@@ -35,6 +43,8 @@ void LittleStart__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 
 
 // address: 0x80035964
+// line start: 401
+// line end:   485
 unsigned char StartGame__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 	{
 		// address: 0xFFFFFFE0
@@ -46,6 +56,8 @@ unsigned char StartGame__FUcUc(unsigned char bNewGame, unsigned char bSinglePlay
 
 
 // address: 0x80035B4C
+// line start: 491
+// line end:   607
 void run_game_loop__FUi(unsigned int uMsg) {
 	// register: 18
 	register unsigned long (*saveProc)();
@@ -56,31 +68,43 @@ void run_game_loop__FUi(unsigned int uMsg) {
 
 
 // address: 0x80035CBC
+// line start: 1041
+// line end:   1121
 unsigned char TryIconCurs__Fv() {
 }
 
 
 // address: 0x80036098
+// line start: 2144
+// line end:   2191
 unsigned long DisableInputWndProc__FUlUilUl(unsigned long hWnd, unsigned int uMsg, long wParam, unsigned long lParam) {
 }
 
 
 // address: 0x800360A0
+// line start: 2198
+// line end:   2358
 unsigned long GM_Game__FUlUilUl(unsigned long hWnd, unsigned int uMsg, long wParam, unsigned long lParam) {
 }
 
 
 // address: 0x80036150
+// line start: 2365
+// line end:   2432
 void LoadLvlGFX__Fv() {
 }
 
 
 // address: 0x800361EC
+// line start: 2440
+// line end:   2452
 void LoadAllGFX__Fv() {
 }
 
 
 // address: 0x8003620C
+// line start: 2473
+// line end:   2493
 void CreateLevel__Fi(int lvldir) {
 	// address: 0xFFFFFFF0
 	auto long hnd;
@@ -88,6 +112,8 @@ void CreateLevel__Fi(int lvldir) {
 
 
 // address: 0x80036304
+// line start: 2502
+// line end:   2556
 void LoCreateLevel__FPv() {
 	// register: 16
 	register int lvldir;
@@ -95,6 +121,8 @@ void LoCreateLevel__FPv() {
 
 
 // address: 0x8003648C
+// line start: 2560
+// line end:   2585
 void ClearOutDungeonMap__Fv() {
 	// register: 11
 	register unsigned short val;
@@ -112,6 +140,8 @@ void ClearOutDungeonMap__Fv() {
 
 
 // address: 0x80036568
+// line start: 2592
+// line end:   2925
 void LoadGameLevel__FUci(unsigned char firstflag, int lvldir) {
 	// register: 16
 	register int i;
@@ -127,51 +157,71 @@ void LoadGameLevel__FUci(unsigned char firstflag, int lvldir) {
 
 
 // address: 0x80036EEC
+// line start: 2938
+// line end:   2990
 void game_logic__Fv() {
 }
 
 
 // address: 0x80036FF8
+// line start: 3000
+// line end:   3030
 void timeout_cursor__FUc(unsigned char bTimeout) {
 }
 
 
 // address: 0x800370A0
+// line start: 3038
+// line end:   3093
 void game_loop__FUc(unsigned char bStartup) {
 }
 
 
 // address: 0x800370D8
+// line start: 3160
+// line end:   3165
 void alloc_plr__Fv() {
 }
 
 
 // address: 0x800370E0
+// line start: 3228
+// line end:   3286
 void plr_encrypt__FUc(unsigned char bEncrypt) {
 }
 
 
 // address: 0x800370E8
+// line start: 3293
+// line end:   3295
 void assert_fail__FiPCcT1(int nLineNo, char *pszFile, char *pszFail) {
 }
 
 
 // address: 0x80037108
+// line start: 3300
+// line end:   3302
 void assert_fail__FiPCc(int nLineNo, char *pszFile) {
 }
 
 
 // address: 0x80037128
+// line start: 3305
+// line end:   3306
 void app_fatal(char *pszFile) {
 }
 
 
 // address: 0x80037158
+// line start: 3565
+// line end:   3571
 void DoMemCardFromFrontEnd__Fv() {
 }
 
 
 // address: 0x80037180
+// line start: 3575
+// line end:   3581
 void DoMemCardFromInGame__Fv() {
 }
 

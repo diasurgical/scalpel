@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x800365DC
+// line start: 40
+// line end:   90
 void InitDead__Fv() {
 	// register: 6
 	register int nd;
@@ -17,6 +19,8 @@ void InitDead__Fv() {
 
 
 // address: 0x800367D8
+// line start: 98
+// line end:   102
 void AddDead__Fiici(int dx, int dy, char dv, int ddir) {
 	// register: 6
 	register char tdv;

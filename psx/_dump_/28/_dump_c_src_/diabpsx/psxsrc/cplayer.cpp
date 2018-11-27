@@ -4,21 +4,29 @@
 
 // address: 0x8008C1A0
 // size: 0x84
+// line start: 66
+// line end:   111
 struct CPlayer *__7CPlayerbi(struct CPlayer *this, bool Town, int mPlayerNum) {
 }
 
 
 // address: 0x8008C284
+// line start: 122
+// line end:   124
 void ___7CPlayer(struct CPlayer *this, int __in_chrg) {
 }
 
 
 // address: 0x8008C2DC
+// line start: 134
+// line end:   138
 void Load__7CPlayeri(struct CPlayer *this, int Id) {
 }
 
 
 // address: 0x8008C338
+// line start: 167
+// line end:   173
 void SetBlockXY__7CPlayerR7CBlocksR12PlayerStruct(struct CPlayer *this, struct CBlocks *Bg, struct PlayerStruct *Plr) {
 	// register: 17
 	register int ScrX;
@@ -32,6 +40,8 @@ void SetBlockXY__7CPlayerR7CBlocksR12PlayerStruct(struct CPlayer *this, struct C
 
 
 // address: 0x8008C484
+// line start: 178
+// line end:   244
 void SetScrollTarget__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct PlayerStruct *Plr, struct CBlocks *Bg) {
 	// register: 17
 	register int ScrX;
@@ -49,11 +59,15 @@ void SetScrollTarget__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, str
 
 
 // address: 0x8008C8B0
+// line start: 260
+// line end:   277
 int GetNumOfSpellAnims__FR12PlayerStruct(struct PlayerStruct *Plr) {
 }
 
 
 // address: 0x8008C930
+// line start: 282
+// line end:   415
 void Print__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct PlayerStruct *Plr, struct CBlocks *Bg) {
 	// address: 0xFFFFFFD0
 	auto int ScrXOff;
@@ -132,6 +146,8 @@ void Print__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct Player
 
 
 // address: 0x8008CE24
+// line start: 426
+// line end:   484
 int FindAction__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruct *Plr) {
 	// register: 2
 	register int RetVal;
@@ -140,16 +156,22 @@ int FindAction__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruc
 
 // address: 0x8008CEA0
 // size: 0x4
+// line start: 489
+// line end:   520
 enum PACTION FindActionEnum__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruct *Plr) {
 }
 
 
 // address: 0x8008CF1C
+// line start: 531
+// line end:   532
 void Init__7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x8008CF24
+// line start: 541
+// line end:   542
 void Dump__7CPlayer(struct CPlayer *this) {
 }
 

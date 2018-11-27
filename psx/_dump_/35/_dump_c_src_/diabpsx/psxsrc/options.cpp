@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8009B578
+// line start: 632
+// line end:   649
 void PrintSelectBack__FbT0(bool S, bool B) {
 	// register: 17
 	register int len;
@@ -10,6 +12,8 @@ void PrintSelectBack__FbT0(bool S, bool B) {
 
 
 // address: 0x8009B6F8
+// line start: 657
+// line end:   666
 void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y, int W, int H) {
 	// address: 0xFFFFFFD0
 	// size: 0x10
@@ -18,6 +22,8 @@ void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y
 
 
 // address: 0x8009B7DC
+// line start: 692
+// line end:   827
 void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
 	// register: 2
 	// size: 0x28
@@ -75,6 +81,8 @@ void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned c
 
 
 // address: 0x8009BCD0
+// line start: 833
+// line end:   1086
 void DrawMenu__Fi(int MenuNo) {
 	// address: 0xFFFFFF70
 	// size: 0x8
@@ -145,6 +153,8 @@ void DrawMenu__Fi(int MenuNo) {
 
 
 // address: 0x8009C960
+// line start: 1093
+// line end:   1102
 int who_pressed__Fi(int pval) {
 	// register: 16
 	// size: 0x6C
@@ -156,6 +166,8 @@ int who_pressed__Fi(int pval) {
 
 
 // address: 0x8009C9E8
+// line start: 1117
+// line end:   1300
 void ShowCharacterFiles__Fv() {
 	// register: 16
 	register int j;
@@ -189,6 +201,8 @@ void ShowCharacterFiles__Fv() {
 
 
 // address: 0x8009CFEC
+// line start: 1303
+// line end:   1500
 void MemcardPad__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -208,6 +222,8 @@ void MemcardPad__Fv() {
 
 
 // address: 0x8009D664
+// line start: 1524
+// line end:   1758
 void SoundPad__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -245,6 +261,8 @@ void SoundPad__Fv() {
 
 
 // address: 0x8009DE80
+// line start: 1766
+// line end:   1870
 void CentrePad__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -270,16 +288,22 @@ void CentrePad__Fv() {
 
 
 // address: 0x8009E2D8
+// line start: 1876
+// line end:   1901
 void CalcVolumes__Fv() {
 }
 
 
 // address: 0x8009E410
+// line start: 1908
+// line end:   1912
 void SetLoadedVolumes__Fv() {
 }
 
 
 // address: 0x8009E498
+// line start: 1916
+// line end:   1933
 void GetVolumes__Fv() {
 	{
 		// register: 6
@@ -301,6 +325,8 @@ void GetVolumes__Fv() {
 
 
 // address: 0x8009E534
+// line start: 1941
+// line end:   1958
 void PrintInfoMenu__Fv() {
 	// address: 0xFFFFFEE0
 	// size: 0x100
@@ -311,6 +337,8 @@ void PrintInfoMenu__Fv() {
 
 
 // address: 0x8009E6DC
+// line start: 1976
+// line end:   2015
 void SeedPad__Fv() {
 	// register: 16
 	// size: 0x6C
@@ -326,6 +354,8 @@ void SeedPad__Fv() {
 
 
 // address: 0x8009E960
+// line start: 2025
+// line end:   2346
 void DrawOptions__FP4TASK(struct TASK *T) {
 	// register: 19
 	register int OldOptionsSeed;
@@ -354,11 +384,15 @@ void DrawOptions__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8009F234
+// line start: 2352
+// line end:   2377
 void ToggleOptions__Fv() {
 }
 
 
 // address: 0x8009F2EC
+// line start: 2384
+// line end:   2465
 void FormatPad__Fv() {
 	// register: 16
 	register int move;
@@ -374,6 +408,8 @@ void FormatPad__Fv() {
 
 
 // address: 0x8009F61C
+// line start: 2468
+// line end:   2480
 void ActivateMemcard__Fv() {
 }
 

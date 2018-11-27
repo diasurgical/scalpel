@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8013FFB4
+// line start: 103
+// line end:   112
 int ObjIndex__Fii(int x, int y) {
 	// register: 5
 	register int i;
@@ -12,21 +14,29 @@ int ObjIndex__Fii(int x, int y) {
 
 
 // address: 0x80140068
+// line start: 119
+// line end:   128
 void AddSKingObjs__Fv() {
 }
 
 
 // address: 0x80140198
+// line start: 135
+// line end:   138
 void AddSChamObjs__Fv() {
 }
 
 
 // address: 0x80140214
+// line start: 145
+// line end:   151
 void AddVileObjs__Fv() {
 }
 
 
 // address: 0x801402C0
+// line start: 158
+// line end:   190
 void DRLG_SetMapTrans__FPc(char *sFileName) {
 	// register: 5
 	register int i;
@@ -48,6 +58,8 @@ void DRLG_SetMapTrans__FPc(char *sFileName) {
 
 
 // address: 0x80140384
+// line start: 198
+// line end:   258
 void LoadSetMap__Fv() {
 }
 

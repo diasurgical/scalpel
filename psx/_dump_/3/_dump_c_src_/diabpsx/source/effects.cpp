@@ -3,26 +3,36 @@
 #include "types.h"
 
 // address: 0x8003B214
+// line start: 77
+// line end:   88
 unsigned char effect_is_playing__Fi(int nSFX) {
 }
 
 
 // address: 0x8003B248
+// line start: 96
+// line end:   103
 void stream_stop__Fv() {
 }
 
 
 // address: 0x8003B290
+// line start: 116
+// line end:   143
 void stream_play__FP4TSFXll(struct TSFX *pSFX, long lVolume, long lPan) {
 }
 
 
 // address: 0x8003B36C
+// line start: 149
+// line end:   165
 void stream_update__Fv() {
 }
 
 
 // address: 0x8003B374
+// line start: 171
+// line end:   178
 void sfx_stop__Fv() {
 	{
 		// register: 2
@@ -32,6 +42,8 @@ void sfx_stop__Fv() {
 
 
 // address: 0x8003B390
+// line start: 185
+// line end:   216
 void InitMonsterSND__Fi(int monst) {
 	// register: 4
 	register int mtype;
@@ -39,11 +51,15 @@ void InitMonsterSND__Fi(int monst) {
 
 
 // address: 0x8003B3E8
+// line start: 222
+// line end:   245
 void FreeMonsterSnd__Fv() {
 }
 
 
 // address: 0x8003B3F0
+// line start: 251
+// line end:   271
 unsigned char calc_snd_position__FiiPlT2(int x, int y, long *plVolume, long *plPan) {
 	// register: 3
 	register long volume;
@@ -53,6 +69,8 @@ unsigned char calc_snd_position__FiiPlT2(int x, int y, long *plVolume, long *plP
 
 
 // address: 0x8003B4F4
+// line start: 278
+// line end:   309
 void PlaySFX_priv__FP4TSFXUcii(struct TSFX *pSFX, unsigned char loc, int x, int y) {
 	// address: 0xFFFFFFF4
 	auto long lPan;
@@ -62,6 +80,8 @@ void PlaySFX_priv__FP4TSFXUcii(struct TSFX *pSFX, unsigned char loc, int x, int 
 
 
 // address: 0x8003B604
+// line start: 318
+// line end:   363
 void PlayEffect__Fii(int i, int mode) {
 	// register: 16
 	register int mi;
@@ -73,6 +93,8 @@ void PlayEffect__Fii(int i, int mode) {
 
 
 // address: 0x8003B730
+// line start: 370
+// line end:   392
 int RndSFX__Fi(int psfx) {
 	// register: 5
 	register int nRand;
@@ -80,16 +102,22 @@ int RndSFX__Fi(int psfx) {
 
 
 // address: 0x8003B7C8
+// line start: 407
+// line end:   410
 void PlaySFX__Fi(int psfx) {
 }
 
 
 // address: 0x8003B830
+// line start: 418
+// line end:   428
 void PlaySfxLoc__Fiii(int psfx, int x, int y) {
 }
 
 
 // address: 0x8003B8B0
+// line start: 435
+// line end:   450
 void sound_stop__Fv() {
 	// register: 18
 	register int mi;
@@ -113,11 +141,15 @@ void sound_stop__Fv() {
 
 
 // address: 0x8003B948
+// line start: 457
+// line end:   467
 void sound_update__Fv() {
 }
 
 
 // address: 0x8003B97C
+// line start: 475
+// line end:   506
 void priv_sound_init__FUc(unsigned char bLoadMask) {
 	{
 	}
@@ -125,6 +157,8 @@ void priv_sound_init__FUc(unsigned char bLoadMask) {
 
 
 // address: 0x8003B9C0
+// line start: 512
+// line end:   525
 void sound_init__Fv() {
 	// register: 16
 	register unsigned char bLoadMask;

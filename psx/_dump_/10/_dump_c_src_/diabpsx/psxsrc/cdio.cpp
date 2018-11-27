@@ -4,31 +4,43 @@
 
 // address: 0x8007F60C
 // size: 0x14
+// line start: 120
+// line end:   123
 struct CdIO *__4CdIOUl(struct CdIO *this, unsigned long OurMemId) {
 }
 
 
 // address: 0x8007F650
+// line start: 133
+// line end:   133
 void ___4CdIO(struct CdIO *this, int __in_chrg) {
 }
 
 
 // address: 0x8007F6A8
+// line start: 143
+// line end:   153
 bool FileExists__4CdIOPCc(struct CdIO *this, char *Name) {
 }
 
 
 // address: 0x8007F6CC
+// line start: 165
+// line end:   187
 bool LoReadFileAtAddr__4CdIOPCcPUci(struct CdIO *this, char *Name, unsigned char *Dest, int Len) {
 }
 
 
 // address: 0x8007F6F4
+// line start: 196
+// line end:   206
 int GetFileLength__4CdIOPCc(struct CdIO *this, char *Name) {
 }
 
 
 // address: 0x8007F718
+// line start: 212
+// line end:   231
 bool LoSave__4CdIOPCcPUci(struct CdIO *this, char *Name, unsigned char *Addr, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -36,11 +48,15 @@ bool LoSave__4CdIOPCcPUci(struct CdIO *this, char *Name, unsigned char *Addr, in
 
 
 // address: 0x8007F7F8
+// line start: 248
+// line end:   249
 void LoStreamCallBack__Fi(int handle) {
 }
 
 
 // address: 0x8007F808
+// line start: 254
+// line end:   281
 bool CD_GetCdlFILE__FPCcP7CdlFILE(char *Name, struct CdlFILE *RetFile) {
 	// address: 0xFFFFFF98
 	// size: 0x19
@@ -62,6 +78,8 @@ bool CD_GetCdlFILE__FPCcP7CdlFILE(char *Name, struct CdlFILE *RetFile) {
 
 
 // address: 0x8007F954
+// line start: 288
+// line end:   362
 bool LoStreamFile__4CdIOPCciPFPUciib_bii(struct CdIO *this, char *Name, int Slice, bool (*Func)(), int Offset, int Size) {
 	// register: 23
 	register unsigned char *Dest;

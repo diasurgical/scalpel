@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8009F948
+// line start: 37
+// line end:   54
 void LoadKanjiFont__Fv() {
 	// register: 16
 	// size: 0x14
@@ -11,6 +13,8 @@ void LoadKanjiFont__Fv() {
 
 
 // address: 0x8009FA18
+// line start: 59
+// line end:   78
 void LoadKanjiIndex__Fv() {
 	// register: 17
 	// size: 0x14
@@ -19,6 +23,8 @@ void LoadKanjiIndex__Fv() {
 
 
 // address: 0x8009FB04
+// line start: 85
+// line end:   103
 unsigned short *getb__FUs(unsigned short n) {
 	// register: 4
 	// size: 0x4
@@ -31,6 +37,8 @@ unsigned short *getb__FUs(unsigned short n) {
 
 
 // address: 0x8009FB74
+// line start: 114
+// line end:   138
 void _get_font__FPUsUsUs(unsigned short *into, unsigned short num, unsigned short col) {
 	// register: 8
 	register unsigned short *p;
@@ -46,6 +54,8 @@ void _get_font__FPUsUsUs(unsigned short *into, unsigned short num, unsigned shor
 
 
 // address: 0x8009FC50
+// line start: 146
+// line end:   180
 int KPrintChar__FUsUsUcUcUs(unsigned short Cx, unsigned short Cy, unsigned char h, unsigned char l, int col) {
 	// address: 0xFFFFFFE8
 	// size: 0x28

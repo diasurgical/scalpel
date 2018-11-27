@@ -59,11 +59,15 @@ extern struct FeTable McLoadCard1Menu;
 extern struct FeTable McLoadCard2Menu;
 
 // address: 0x801234F4
+// line start: 60
+// line end:   61
 void PresOnlyTestRoutine__Fv() {
 }
 
 
 // address: 0x8012351C
+// line start: 152
+// line end:   157
 void FeInitBuffer__Fv() {
 	{
 	}
@@ -71,11 +75,15 @@ void FeInitBuffer__Fv() {
 
 
 // address: 0x80123544
+// line start: 163
+// line end:   170
 void FeAddEntry__Fii8TXT_JUSTiP7FeTableP5CFont(int X, int Y, enum TXT_JUST Just, int Str, struct FeTable *MenuPtr, struct CFont *Font) {
 }
 
 
 // address: 0x801235B4
+// line start: 174
+// line end:   179
 void FeAddTable__FP11FeMenuTablei(struct FeMenuTable *Table, int Count) {
 	{
 		// register: 17
@@ -85,6 +93,8 @@ void FeAddTable__FP11FeMenuTablei(struct FeMenuTable *Table, int Count) {
 
 
 // address: 0x80123634
+// line start: 195
+// line end:   251
 void FeDrawBuffer__Fv() {
 	// address: 0xFFFFFFB0
 	// size: 0x10
@@ -120,6 +130,8 @@ void FeDrawBuffer__Fv() {
 
 
 // address: 0x80123AC4
+// line start: 255
+// line end:   268
 void FeNewMenu__FP7FeTable(struct FeTable *Menu) {
 	// register: 2
 	// size: 0x1C
@@ -130,6 +142,8 @@ void FeNewMenu__FP7FeTable(struct FeTable *Menu) {
 
 
 // address: 0x80123B30
+// line start: 272
+// line end:   284
 void FePrevMenu__Fv() {
 	// register: 2
 	register void (*FuncPtr)();
@@ -137,6 +151,8 @@ void FePrevMenu__Fv() {
 
 
 // address: 0x80123BA8
+// line start: 290
+// line end:   301
 void FeSelUp__Fi(int No) {
 	// register: 6
 	register int OldSel;
@@ -144,6 +160,8 @@ void FeSelUp__Fi(int No) {
 
 
 // address: 0x80123C90
+// line start: 306
+// line end:   317
 void FeSelDown__Fi(int No) {
 	// register: 6
 	register int OldSel;
@@ -151,61 +169,85 @@ void FeSelDown__Fi(int No) {
 
 
 // address: 0x80123D74
+// line start: 325
+// line end:   326
 int FeGetCursor__Fv() {
 }
 
 
 // address: 0x80123D88
+// line start: 330
+// line end:   331
 void FeSelect__Fv() {
 }
 
 
 // address: 0x80123DCC
+// line start: 340
+// line end:   384
 void FeMainKeyCtrl__FP7CScreen(struct CScreen *FeScreen) {
 }
 
 
 // address: 0x80123FB8
+// line start: 388
+// line end:   389
 void InitDummyMenu__Fv() {
 }
 
 
 // address: 0x80123FC0
+// line start: 395
+// line end:   413
 void InitFrontEnd__FP9FE_CREATE(struct FE_CREATE *CreateStruct) {
 }
 
 
 // address: 0x80124084
+// line start: 430
+// line end:   439
 void FeInitMainMenu__Fv() {
 }
 
 
 // address: 0x801240E4
+// line start: 456
+// line end:   462
 void FeInitNewGameMenu__Fv() {
 }
 
 
 // address: 0x80124130
+// line start: 467
+// line end:   489
 void FeNewGameMenuCtrl__Fv() {
 }
 
 
 // address: 0x80124224
+// line start: 507
+// line end:   513
 void FeInitPlayer1ClassMenu__Fv() {
 }
 
 
 // address: 0x80124274
+// line start: 517
+// line end:   523
 void FeInitPlayer2ClassMenu__Fv() {
 }
 
 
 // address: 0x801242C4
+// line start: 528
+// line end:   531
 void FePlayerClassMenuCtrl__Fv() {
 }
 
 
 // address: 0x8012430C
+// line start: 536
+// line end:   578
 void FeDrawChrClass__Fv() {
 	// address: 0xFFFFFFB0
 	// size: 0x10
@@ -232,16 +274,22 @@ void FeDrawChrClass__Fv() {
 
 
 // address: 0x801247A8
+// line start: 623
+// line end:   630
 void FeInitNewP1NameMenu__Fv() {
 }
 
 
 // address: 0x801247F8
+// line start: 634
+// line end:   640
 void FeInitNewP2NameMenu__Fv() {
 }
 
 
 // address: 0x80124848
+// line start: 645
+// line end:   722
 void FeNewNameMenuCtrl__Fv() {
 	{
 		{
@@ -266,6 +314,8 @@ void FeNewNameMenuCtrl__Fv() {
 
 
 // address: 0x80124CD0
+// line start: 731
+// line end:   738
 void FeCopyPlayerInfoForReturn__Fv() {
 	{
 		// register: 16
@@ -275,61 +325,85 @@ void FeCopyPlayerInfoForReturn__Fv() {
 
 
 // address: 0x80124D74
+// line start: 745
+// line end:   750
 void FeEnterGame__Fv() {
 }
 
 
 // address: 0x80124D9C
+// line start: 766
+// line end:   772
 void FeInitLoadMemcardSelect__Fv() {
 }
 
 
 // address: 0x80124DE4
+// line start: 777
+// line end:   786
 void FeInitLoadChar1Menu__Fv() {
 }
 
 
 // address: 0x80124E50
+// line start: 790
+// line end:   799
 void FeInitLoadChar2Menu__Fv() {
 }
 
 
 // address: 0x80124EBC
+// line start: 816
+// line end:   821
 void FeInitDifficultyMenu__Fv() {
 }
 
 
 // address: 0x80124F00
+// line start: 826
+// line end:   841
 void FeDifficultyMenuCtrl__Fv() {
 }
 
 
 // address: 0x80124FB8
+// line start: 878
+// line end:   884
 void FeInitBackgroundMenu__Fv() {
 }
 
 
 // address: 0x80125000
+// line start: 888
+// line end:   894
 void FeInitBook1Menu__Fv() {
 }
 
 
 // address: 0x8012504C
+// line start: 898
+// line end:   904
 void FeInitBook2Menu__Fv() {
 }
 
 
 // address: 0x80125098
+// line start: 909
+// line end:   942
 void FeBackBookMenuCtrl__Fv() {
 }
 
 
 // address: 0x80125294
+// line start: 950
+// line end:   951
 void PlayDemo__Fv() {
 }
 
 
 // address: 0x801252A8
+// line start: 968
+// line end:   1119
 void FrontEndTask__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int AttractNo;
@@ -360,6 +434,8 @@ void FrontEndTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8012564C
+// line start: 1124
+// line end:   1232
 void McMainCharKeyCtrl__Fv() {
 	// register: 16
 	register int j;
@@ -377,25 +453,35 @@ void McMainCharKeyCtrl__Fv() {
 
 
 // address: 0x80125910
+// line start: 77
+// line end:   77
 void ___6Dialog(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x80125938
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog(struct Dialog *this) {
 }
 
 
 // address: 0x80125994
+// line start: 345
+// line end:   1235
 void ___7CScreen(struct CScreen *this, int __in_chrg);
 
 // address: 0x8012650C
+// line start: 152
+// line end:   158
 void InitCredits__Fv() {
 }
 
 
 // address: 0x80126548
+// line start: 206
+// line end:   336
 int PrintCredits__FPciiiii(char *Str, int Y, int CharFade, int RFlag, int GFlag, int BFlag) {
 	// register: 18
 	register int CharHeight;
@@ -428,16 +514,22 @@ int PrintCredits__FPciiiii(char *Str, int Y, int CharFade, int RFlag, int GFlag,
 
 
 // address: 0x80126D68
+// line start: 341
+// line end:   359
 void DrawCreditsTitle__Fiiii(int TitleNo, int TitleFade, int TitleMode, int NextTitleNo) {
 }
 
 
 // address: 0x80126E38
+// line start: 366
+// line end:   384
 void DrawCreditsSubTitle__Fiiii(int SubTitleNo, int SubTitleFade, int SubTitleMode, int NextSubTitleNo) {
 }
 
 
 // address: 0x80126F08
+// line start: 393
+// line end:   443
 void DoCredits__Fv() {
 	// address: 0xFFFFFF60
 	// size: 0x78
@@ -468,30 +560,42 @@ void DoCredits__Fv() {
 
 
 // address: 0x80127160
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x801271DC
+// line start: 79
+// line end:   79
 int GetCharHeight__5CFontc(struct CFont *this, char ch) {
 }
 
 
 // address: 0x80127214
+// line start: 71
+// line end:   75
 int GetCharWidth__5CFontc(struct CFont *this, char ch) {
 }
 
 
 // address: 0x8012726C
+// line start: 345
+// line end:   445
 void ___7CScreen_addr_8012726C(struct CScreen *this, int __in_chrg);
 
 // address: 0x8012728C
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x8012B884
+// line start: 144
+// line end:   148
 void endian_swap__FPUci(unsigned char *b, int byts) {
 	// register: 3
 	register unsigned char t;
@@ -499,6 +603,8 @@ void endian_swap__FPUci(unsigned char *b, int byts) {
 
 
 // address: 0x8012B8B8
+// line start: 160
+// line end:   179
 unsigned short to_sjis__Fc(char asc) {
 	// register: 6
 	// size: 0x4
@@ -507,6 +613,8 @@ unsigned short to_sjis__Fc(char asc) {
 
 
 // address: 0x8012B938
+// line start: 191
+// line end:   208
 char to_ascii__FUs(unsigned short sjis) {
 	// register: 8
 	// size: 0x4
@@ -515,21 +623,29 @@ char to_ascii__FUs(unsigned short sjis) {
 
 
 // address: 0x8012B9B8
+// line start: 219
+// line end:   231
 void ascii_to_sjis__FPcPUs(char *asc, unsigned short *sjis) {
 }
 
 
 // address: 0x8012BA4C
+// line start: 236
+// line end:   248
 void sjis_to_ascii__FPUsPc(unsigned short *sjis, char *asc) {
 }
 
 
 // address: 0x8012BAD4
+// line start: 267
+// line end:   273
 int test_hw_event__Fv() {
 }
 
 
 // address: 0x8012BB64
+// line start: 283
+// line end:   373
 void read_card_directory__Fi(int card_number) {
 	// address: 0xFFFFFF78
 	// size: 0x50
@@ -547,11 +663,15 @@ void read_card_directory__Fi(int card_number) {
 
 
 // address: 0x8012BD9C
+// line start: 396
+// line end:   435
 int test_card_format__Fi(int card_number) {
 }
 
 
 // address: 0x8012BE2C
+// line start: 455
+// line end:   459
 int checksum_data__FPci(char *buf, int size) {
 	// register: 6
 	register int chk;
@@ -559,6 +679,8 @@ int checksum_data__FPci(char *buf, int size) {
 
 
 // address: 0x8012BE68
+// line start: 472
+// line end:   510
 int delete_card_file__Fii(int card_number, int file) {
 	// address: 0xFFFFFFA0
 	// size: 0x50
@@ -567,6 +689,8 @@ int delete_card_file__Fii(int card_number, int file) {
 
 
 // address: 0x8012BF60
+// line start: 524
+// line end:   627
 int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
 	// register: 20
 	register int okay;
@@ -586,6 +710,8 @@ int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
 
 
 // address: 0x8012C118
+// line start: 639
+// line end:   669
 int format_card__Fi(int card_number) {
 	// address: 0xFFFFFFA8
 	// size: 0x50
@@ -594,6 +720,8 @@ int format_card__Fi(int card_number) {
 
 
 // address: 0x8012C1C8
+// line start: 694
+// line end:   827
 int write_card_file__FiiPcT2PUcPUsiT4(int card_number, int id, char *name, char *title, unsigned char *icon, unsigned short *clut, int size, unsigned char *buf) {
 	// address: 0xFFFFFD88
 	// size: 0x200
@@ -611,11 +739,15 @@ int write_card_file__FiiPcT2PUcPUsiT4(int card_number, int id, char *name, char 
 
 
 // address: 0x8012C510
+// line start: 837
+// line end:   864
 void new_card__Fi(int card_number) {
 }
 
 
 // address: 0x8012C58C
+// line start: 875
+// line end:   940
 void service_card__Fi(int card_number) {
 	// register: 19
 	register int old_status;
@@ -623,6 +755,8 @@ void service_card__Fi(int card_number) {
 
 
 // address: 0x801488C8
+// line start: 173
+// line end:   187
 int GetFileNumber__FiPc(int side, char *file_name) {
 	// register: 16
 	register int i;
@@ -630,6 +764,8 @@ int GetFileNumber__FiPc(int side, char *file_name) {
 
 
 // address: 0x80148988
+// line start: 193
+// line end:   205
 int DoSaveCharacter__FPc(char *savefilename) {
 	// address: 0xFFFFFFD8
 	// size: 0x20
@@ -640,6 +776,8 @@ int DoSaveCharacter__FPc(char *savefilename) {
 
 
 // address: 0x80148A50
+// line start: 209
+// line end:   222
 int DoSaveGame__Fv() {
 	// address: 0xFFFFFFD8
 	// size: 0x20
@@ -650,11 +788,15 @@ int DoSaveGame__Fv() {
 
 
 // address: 0x80148B10
+// line start: 228
+// line end:   232
 void DoLoadGame__Fv() {
 }
 
 
 // address: 0x80148B50
+// line start: 239
+// line end:   245
 int DoFrontEndLoadCharacter__FPc(char *loadfilenameptr) {
 	// register: 17
 	register int result;
@@ -662,31 +804,43 @@ int DoFrontEndLoadCharacter__FPc(char *loadfilenameptr) {
 
 
 // address: 0x80148BAC
+// line start: 285
+// line end:   295
 void McInitLoadCard1Menu__Fv() {
 }
 
 
 // address: 0x80148BF8
+// line start: 300
+// line end:   310
 void McInitLoadCard2Menu__Fv() {
 }
 
 
 // address: 0x80148C44
+// line start: 315
+// line end:   322
 void ChooseCardLoad__Fv() {
 }
 
 
 // address: 0x80148CE0
+// line start: 326
+// line end:   328
 void McInitLoadCharMenu__Fv() {
 }
 
 
 // address: 0x80148D08
+// line start: 332
+// line end:   348
 void McInitLoadGameMenu__Fv() {
 }
 
 
 // address: 0x80148D7C
+// line start: 380
+// line end:   433
 void McMainKeyCtrl__Fv() {
 	// register: 3
 	register int FileNo;
@@ -706,6 +860,8 @@ void McMainKeyCtrl__Fv() {
 
 
 // address: 0x80148F28
+// line start: 438
+// line end:   459
 void ShowAlertBox__Fv() {
 	// address: 0xFFFFFFD0
 	// size: 0x10
@@ -727,11 +883,15 @@ void ShowAlertBox__Fv() {
 
 
 // address: 0x80149064
+// line start: 465
+// line end:   486
 bool GetLoadStatusMessage__FPc(char *file_name) {
 }
 
 
 // address: 0x801490FC
+// line start: 490
+// line end:   517
 bool GetSaveStatusMessage__FiPc(int fileblocks, char *file_name) {
 	// register: 6
 	register int i;
@@ -741,32 +901,44 @@ bool GetSaveStatusMessage__FiPc(int fileblocks, char *file_name) {
 
 
 // address: 0x801491E4
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x80149204
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8014920C
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80149214
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_80149214(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x8014923C
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_8014923C(struct Dialog *this) {
 }
 
 
 // address: 0x80149298
+// line start: 103
+// line end:   109
 int ILoad__Fv() {
 	// register: 2
 	register int rv;
@@ -774,21 +946,29 @@ int ILoad__Fv() {
 
 
 // address: 0x801492EC
+// line start: 201
+// line end:   203
 void LoadQuest__Fi(int i) {
 }
 
 
 // address: 0x801493B4
+// line start: 403
+// line end:   410
 void ISave__Fi(int v) {
 }
 
 
 // address: 0x80149414
+// line start: 495
+// line end:   497
 void SaveQuest__Fi(int i) {
 }
 
 
 // address: 0x801494E0
+// line start: 831
+// line end:   896
 int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
 	// register: 16
 	register int i;
@@ -800,6 +980,8 @@ int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
 
 
 // address: 0x80149728
+// line start: 904
+// line end:   997
 int PSX_GM_LoadGame__FUcii(unsigned char firstflag, int card_number, int file) {
 	// register: 16
 	register int i;
@@ -811,6 +993,8 @@ int PSX_GM_LoadGame__FUcii(unsigned char firstflag, int card_number, int file) {
 
 
 // address: 0x801499A4
+// line start: 1003
+// line end:   1019
 int PSX_CH_LoadGame__Fii(int card_number, int file) {
 	// register: 17
 	register int result;
@@ -820,6 +1004,8 @@ int PSX_CH_LoadGame__Fii(int card_number, int file) {
 
 
 // address: 0x80149B10
+// line start: 1023
+// line end:   1044
 int PSX_CH_SaveGame__FiPcT1(int card_number, char *name, char *title) {
 	// register: 16
 	register int result;

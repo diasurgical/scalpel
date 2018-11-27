@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80083984
+// line start: 79
+// line end:   84
 void Set__7FontTab(struct FontTab *this) {
 	{
 		// register: 16
@@ -18,16 +20,22 @@ void Set__7FontTab(struct FontTab *this) {
 
 
 // address: 0x80083A20
+// line start: 350
+// line end:   360
 void InitPrinty__Fv() {
 }
 
 
 // address: 0x80083AA8
+// line start: 365
+// line end:   366
 void SetTextDat__5CFontP7TextDat(struct CFont *this, struct TextDat *NewDat) {
 }
 
 
 // address: 0x80083AB0
+// line start: 373
+// line end:   432
 int PrintChar__5CFontUsUscUcUcUc(struct CFont *this, unsigned short Cx, unsigned short Cy, char C, int R, int G, int B) {
 	// register: 20
 	register int Cw;
@@ -35,6 +43,8 @@ int PrintChar__5CFontUsUscUcUcUc(struct CFont *this, unsigned short Cx, unsigned
 
 
 // address: 0x80083C30
+// line start: 437
+// line end:   616
 int Print__5CFontiiPc8TXT_JUSTP4RECTUcUcUc(struct CFont *this, int X, int Y, char *Str, enum TXT_JUST Justify, struct RECT *TextWindow, int R, int G, int B) {
 	// register: 16
 	register int Cx;
@@ -92,6 +102,8 @@ int Print__5CFontiiPc8TXT_JUSTP4RECTUcUcUc(struct CFont *this, int X, int Y, cha
 
 
 // address: 0x80084218
+// line start: 621
+// line end:   637
 int GetStrWidth__5CFontPc(struct CFont *this, char *Str) {
 	// register: 19
 	register int Width;
@@ -101,11 +113,15 @@ int GetStrWidth__5CFontPc(struct CFont *this, char *Str) {
 
 
 // address: 0x800842CC
+// line start: 645
+// line end:   647
 void SetChar__5CFontiUs(struct CFont *this, int ch, unsigned short Frm) {
 }
 
 
 // address: 0x80084330
+// line start: 653
+// line end:   656
 int SetOTpos__5CFonti(struct CFont *this, int OT) {
 	// register: 2
 	register int OldOT;

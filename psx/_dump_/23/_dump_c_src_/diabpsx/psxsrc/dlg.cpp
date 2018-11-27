@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x801484D4
+// line start: 177
+// line end:   191
 int GetFileNumber__FiPc(int side, char *file_name) {
 	// register: 16
 	register int i;
@@ -10,6 +12,8 @@ int GetFileNumber__FiPc(int side, char *file_name) {
 
 
 // address: 0x80148594
+// line start: 197
+// line end:   209
 int DoSaveCharacter__FPc(char *savefilename) {
 	// address: 0xFFFFFFD8
 	// size: 0x20
@@ -20,6 +24,8 @@ int DoSaveCharacter__FPc(char *savefilename) {
 
 
 // address: 0x8014865C
+// line start: 213
+// line end:   226
 int DoSaveGame__Fv() {
 	// address: 0xFFFFFFD8
 	// size: 0x20
@@ -30,11 +36,15 @@ int DoSaveGame__Fv() {
 
 
 // address: 0x8014871C
+// line start: 232
+// line end:   236
 void DoLoadGame__Fv() {
 }
 
 
 // address: 0x8014875C
+// line start: 243
+// line end:   249
 int DoFrontEndLoadCharacter__FPc(char *loadfilenameptr) {
 	// register: 17
 	register int result;
@@ -42,31 +52,43 @@ int DoFrontEndLoadCharacter__FPc(char *loadfilenameptr) {
 
 
 // address: 0x801487B8
+// line start: 289
+// line end:   299
 void McInitLoadCard1Menu__Fv() {
 }
 
 
 // address: 0x80148804
+// line start: 304
+// line end:   314
 void McInitLoadCard2Menu__Fv() {
 }
 
 
 // address: 0x80148850
+// line start: 319
+// line end:   329
 void ChooseCardLoad__Fv() {
 }
 
 
 // address: 0x80148904
+// line start: 333
+// line end:   335
 void McInitLoadCharMenu__Fv() {
 }
 
 
 // address: 0x8014892C
+// line start: 339
+// line end:   355
 void McInitLoadGameMenu__Fv() {
 }
 
 
 // address: 0x80148988
+// line start: 365
+// line end:   420
 void McMainKeyCtrl__Fv() {
 	// register: 3
 	register int FileNo;
@@ -86,6 +108,8 @@ void McMainKeyCtrl__Fv() {
 
 
 // address: 0x80148B44
+// line start: 425
+// line end:   452
 void ShowAlertBox__Fv() {
 	// address: 0xFFFFFFC0
 	// size: 0x10
@@ -111,11 +135,15 @@ void ShowAlertBox__Fv() {
 
 
 // address: 0x80148CE4
+// line start: 458
+// line end:   479
 bool GetLoadStatusMessage__FPc(char *file_name) {
 }
 
 
 // address: 0x80148D64
+// line start: 483
+// line end:   510
 bool GetSaveStatusMessage__FiPc(int fileblocks, char *file_name) {
 	// register: 6
 	register int i;

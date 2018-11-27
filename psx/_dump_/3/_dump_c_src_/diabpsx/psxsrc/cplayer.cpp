@@ -4,21 +4,29 @@
 
 // address: 0x8008D270
 // size: 0x80
+// line start: 66
+// line end:   111
 struct CPlayer *__7CPlayerbi(struct CPlayer *this, bool Town, int mPlayerNum) {
 }
 
 
 // address: 0x8008D354
+// line start: 122
+// line end:   124
 void ___7CPlayer(struct CPlayer *this, int __in_chrg) {
 }
 
 
 // address: 0x8008D3AC
+// line start: 134
+// line end:   138
 void Load__7CPlayeri(struct CPlayer *this, int Id) {
 }
 
 
 // address: 0x8008D404
+// line start: 167
+// line end:   173
 void SetBlockXY__7CPlayerR7CBlocksR12PlayerStruct(struct CPlayer *this, struct CBlocks *Bg, struct PlayerStruct *Plr) {
 	// register: 17
 	register int ScrX;
@@ -32,6 +40,8 @@ void SetBlockXY__7CPlayerR7CBlocksR12PlayerStruct(struct CPlayer *this, struct C
 
 
 // address: 0x8008D550
+// line start: 178
+// line end:   244
 void SetScrollTarget__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct PlayerStruct *Plr, struct CBlocks *Bg) {
 	// register: 17
 	register int ScrX;
@@ -49,11 +59,15 @@ void SetScrollTarget__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, str
 
 
 // address: 0x8008D97C
+// line start: 260
+// line end:   277
 int GetNumOfSpellAnims__FR12PlayerStruct(struct PlayerStruct *Plr) {
 }
 
 
 // address: 0x8008D9FC
+// line start: 282
+// line end:   389
 void Print__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct PlayerStruct *Plr, struct CBlocks *Bg) {
 	// address: 0xFFFFFFD0
 	auto int ScrXOff;
@@ -114,11 +128,15 @@ void Print__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct Player
 
 
 // address: 0x8008DE4C
+// line start: 398
+// line end:   411
 void SetpNscrnxy__7CPlayeriiii(struct CPlayer *this, int x, int y, int px, int py) {
 }
 
 
 // address: 0x8008DEB4
+// line start: 423
+// line end:   481
 int FindAction__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruct *Plr) {
 	// register: 2
 	register int RetVal;
@@ -127,16 +145,22 @@ int FindAction__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruc
 
 // address: 0x8008DF30
 // size: 0x4
+// line start: 486
+// line end:   516
 enum PACTION FindActionEnum__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruct *Plr) {
 }
 
 
 // address: 0x8008DF98
+// line start: 527
+// line end:   528
 void Init__7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x8008DFA0
+// line start: 537
+// line end:   538
 void Dump__7CPlayer(struct CPlayer *this) {
 }
 

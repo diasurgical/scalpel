@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x8009DC6C
+// line start: 90
+// line end:   97
 void PAD_Open__Fv() {
 }
 
 
 // address: 0x80081FA0
+// line start: 109
+// line end:   158
 void PAD_Handler__Fv() {
 	// register: 16
 	register unsigned long JVal;
@@ -20,11 +24,15 @@ void PAD_Handler__Fv() {
 
 // address: 0x80082154
 // size: 0x6C
+// line start: 168
+// line end:   178
 struct CPad *PAD_GetPad__FiUc(int PadNum, unsigned char both) {
 }
 
 
 // address: 0x800821F0
+// line start: 190
+// line end:   221
 void NewVal__4CPadUs(struct CPad *this, unsigned short New) {
 	{
 		// register: 7
@@ -36,6 +44,8 @@ void NewVal__4CPadUs(struct CPad *this, unsigned short New) {
 
 
 // address: 0x80082328
+// line start: 225
+// line end:   257
 void BothNewVal__4CPadUsUs(struct CPad *this, unsigned short New, unsigned short New2) {
 	{
 		// register: 7
@@ -47,6 +57,8 @@ void BothNewVal__4CPadUsUs(struct CPad *this, unsigned short New, unsigned short
 
 
 // address: 0x80082484
+// line start: 267
+// line end:   291
 unsigned short Trans__4CPadUs(struct CPad *this, unsigned short PadVal) {
 	// register: 2
 	register unsigned short RetVal;
@@ -54,6 +66,8 @@ unsigned short Trans__4CPadUs(struct CPad *this, unsigned short PadVal) {
 
 
 // address: 0x800825A8
+// line start: 295
+// line end:   295
 void _GLOBAL__I_Pad0() {
 }
 

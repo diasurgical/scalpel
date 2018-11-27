@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80090F10
+// line start: 176
+// line end:   213
 void SPU_Init__Fv() {
 	{
 		// address: 0xFFFFFFD0
@@ -13,6 +15,8 @@ void SPU_Init__Fv() {
 
 
 // address: 0x80090FE0
+// line start: 226
+// line end:   239
 int SND_FindChannel__Fv() {
 	// address: 0xFFFFFFE0
 	// size: 0x18
@@ -25,6 +29,8 @@ int SND_FindChannel__Fv() {
 
 
 // address: 0x8009104C
+// line start: 249
+// line end:   259
 void SND_ClearBank__Fv() {
 	// register: 16
 	register bool GalRet;
@@ -32,6 +38,8 @@ void SND_ClearBank__Fv() {
 
 
 // address: 0x800910C4
+// line start: 268
+// line end:   281
 bool SndLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
 	// address: 0x80121788
 	static int DestAddr;
@@ -39,6 +47,8 @@ bool SndLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool 
 
 
 // address: 0x8009113C
+// line start: 285
+// line end:   324
 void SND_LoadBank__Fi(int lvlnum) {
 	// register: 16
 	// size: 0x14
@@ -50,6 +60,8 @@ void SND_LoadBank__Fi(int lvlnum) {
 
 
 // address: 0x80091270
+// line start: 390
+// line end:   395
 int SND_FindSFX__FUs(unsigned short Name) {
 	{
 		// register: 3
@@ -59,11 +71,15 @@ int SND_FindSFX__FUs(unsigned short Name) {
 
 
 // address: 0x800912C4
+// line start: 419
+// line end:   421
 void SND_StopSnd__Fi(int voice) {
 }
 
 
 // address: 0x800912E8
+// line start: 431
+// line end:   436
 int SND_RemapSnd__Fi(int SFXNo) {
 	{
 		// register: 3
@@ -73,6 +89,8 @@ int SND_RemapSnd__Fi(int SFXNo) {
 
 
 // address: 0x8009134C
+// line start: 446
+// line end:   509
 int SND_PlaySnd__FUsiii(unsigned short Name, int vol, int pan, int pitchadj) {
 	// address: 0xFFFFFFA0
 	// size: 0x40

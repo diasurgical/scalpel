@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8008F730
+// line start: 108
+// line end:   122
 char *get_action_str__Fii(int pval, int combo) {
 	{
 		// register: 6
@@ -12,6 +14,8 @@ char *get_action_str__Fii(int pval, int combo) {
 
 
 // address: 0x8008F7B0
+// line start: 152
+// line end:   158
 int get_key_pad__Fi(int n) {
 	// register: 3
 	register int i;
@@ -19,11 +23,15 @@ int get_key_pad__Fi(int n) {
 
 
 // address: 0x8008F7EC
+// line start: 164
+// line end:   168
 void RemoveCtrlScreen__Fv() {
 }
 
 
 // address: 0x8008F834
+// line start: 173
+// line end:   285
 unsigned char Init_ctrl_pos__Fv() {
 	// register: 22
 	// size: 0x6C
@@ -56,6 +64,8 @@ unsigned char Init_ctrl_pos__Fv() {
 
 
 // address: 0x8008FE38
+// line start: 303
+// line end:   312
 int remove_padval__Fi(int p) {
 	{
 		// register: 5
@@ -65,6 +75,8 @@ int remove_padval__Fi(int p) {
 
 
 // address: 0x8008FE78
+// line start: 316
+// line end:   326
 int remove_comboval__Fi(int p) {
 	// register: 6
 	register int n;
@@ -76,6 +88,8 @@ int remove_comboval__Fi(int p) {
 
 
 // address: 0x8008FEB8
+// line start: 330
+// line end:   376
 unsigned char set_buttons__Fii(int cline, int n) {
 	// register: 3
 	register int cval;
@@ -87,6 +101,8 @@ unsigned char set_buttons__Fii(int cline, int n) {
 
 
 // address: 0x80090058
+// line start: 380
+// line end:   385
 void restore_controller_settings__Fv() {
 	{
 	}
@@ -94,6 +110,8 @@ void restore_controller_settings__Fv() {
 
 
 // address: 0x800900A8
+// line start: 391
+// line end:   488
 unsigned char main_ctrl_setup__Fv() {
 	// register: 16
 	// size: 0x6C
@@ -104,6 +122,8 @@ unsigned char main_ctrl_setup__Fv() {
 
 
 // address: 0x80090338
+// line start: 495
+// line end:   615
 void PrintCtrlString__FiiUcic(int x, int y, unsigned char cjustflag, int str_num, int col) {
 	// register: 6
 	register int i;
@@ -129,6 +149,8 @@ void PrintCtrlString__FiiUcic(int x, int y, unsigned char cjustflag, int str_num
 
 
 // address: 0x8009098C
+// line start: 620
+// line end:   710
 void DrawCtrlSetup__Fv() {
 	// register: 16
 	register int i;
@@ -142,11 +164,15 @@ void DrawCtrlSetup__Fv() {
 
 
 // address: 0x80090D8C
+// line start: 761
+// line end:   761
 void _GLOBAL__D_CtrlBorder() {
 }
 
 
 // address: 0x80090DC4
+// line start: 761
+// line end:   761
 void _GLOBAL__I_CtrlBorder() {
 }
 

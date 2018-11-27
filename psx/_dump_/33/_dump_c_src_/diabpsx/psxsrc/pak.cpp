@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x800A1214
+// line start: 85
+// line end:   108
 void writeblock__FP5block(struct block *theblock) {
 	{
 		{
@@ -20,6 +22,8 @@ void writeblock__FP5block(struct block *theblock) {
 
 
 // address: 0x800A12FC
+// line start: 118
+// line end:   235
 int PAK_DoPak__FPUcT0i(unsigned char *Dest, unsigned char *buffer, int insize) {
 	// register: 3
 	register long begin;
@@ -48,6 +52,8 @@ int PAK_DoPak__FPUcT0i(unsigned char *Dest, unsigned char *buffer, int insize) {
 
 
 // address: 0x800A153C
+// line start: 245
+// line end:   278
 int PAK_DoUnpak__FPUcT0(unsigned char *Dest, unsigned char *Source) {
 	// register: 19
 	register int outsize;
@@ -63,6 +69,8 @@ int PAK_DoUnpak__FPUcT0(unsigned char *Dest, unsigned char *Source) {
 
 
 // address: 0x800A15DC
+// line start: 55
+// line end:   58
 void fputc__5blockUc(struct block *this, unsigned char Val) {
 }
 

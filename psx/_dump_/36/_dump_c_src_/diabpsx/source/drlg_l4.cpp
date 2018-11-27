@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8014AA20
+// line start: 144
+// line end:   160
 void DRLG_L4Shadows__Fv() {
 	// register: 6
 	register int x;
@@ -14,6 +16,8 @@ void DRLG_L4Shadows__Fv() {
 
 
 // address: 0x8014AAE4
+// line start: 166
+// line end:   175
 void InitL4Dungeon__Fv() {
 	{
 		// register: 7
@@ -29,11 +33,15 @@ void InitL4Dungeon__Fv() {
 
 
 // address: 0x8014AB80
+// line start: 182
+// line end:   191
 void DRLG_LoadL4SP__Fv() {
 }
 
 
 // address: 0x8014AC24
+// line start: 197
+// line end:   199
 void DRLG_FreeL4SP__Fv() {
 	{
 		// register: 4
@@ -43,6 +51,8 @@ void DRLG_FreeL4SP__Fv() {
 
 
 // address: 0x8014AC54
+// line start: 206
+// line end:   231
 void DRLG_L4SetSPRoom__Fii(int rx1, int ry1) {
 	// register: 12
 	register int rw;
@@ -58,6 +68,8 @@ void DRLG_L4SetSPRoom__Fii(int rx1, int ry1) {
 
 
 // address: 0x8014AD54
+// line start: 238
+// line end:   255
 void L4makeDmt__Fv() {
 	// register: 10
 	register int i;
@@ -73,6 +85,8 @@ void L4makeDmt__Fv() {
 
 
 // address: 0x8014ADF8
+// line start: 261
+// line end:   280
 int L4HWallOk__Fii(int i, int j) {
 	// register: 9
 	register int x;
@@ -82,6 +96,8 @@ int L4HWallOk__Fii(int i, int j) {
 
 
 // address: 0x8014AF48
+// line start: 286
+// line end:   306
 int L4VWallOk__Fii(int i, int j) {
 	// register: 8
 	register int y;
@@ -91,6 +107,8 @@ int L4VWallOk__Fii(int i, int j) {
 
 
 // address: 0x8014B0C4
+// line start: 312
+// line end:   333
 void L4HorizWall__Fiii(int i, int j, int dx) {
 	// register: 4
 	register int xx;
@@ -98,6 +116,8 @@ void L4HorizWall__Fiii(int i, int j, int dx) {
 
 
 // address: 0x8014B294
+// line start: 339
+// line end:   361
 void L4VertWall__Fiii(int i, int j, int dy) {
 	// register: 3
 	register int yy;
@@ -105,6 +125,8 @@ void L4VertWall__Fiii(int i, int j, int dy) {
 
 
 // address: 0x8014B45C
+// line start: 368
+// line end:   439
 void L4AddWall__Fv() {
 	// register: 16
 	register int i;
@@ -118,6 +140,8 @@ void L4AddWall__Fv() {
 
 
 // address: 0x8014B93C
+// line start: 445
+// line end:   653
 void L4tileFix__Fv() {
 	// register: 15
 	register int j;
@@ -125,6 +149,8 @@ void L4tileFix__Fv() {
 
 
 // address: 0x8014DB24
+// line start: 659
+// line end:   692
 void DRLG_L4Subs__Fv() {
 	// register: 17
 	register int x;
@@ -138,6 +164,8 @@ void DRLG_L4Subs__Fv() {
 
 
 // address: 0x8014DCFC
+// line start: 698
+// line end:   745
 void L4makeDungeon__Fv() {
 	// register: 6
 	register int i;
@@ -149,6 +177,8 @@ void L4makeDungeon__Fv() {
 
 
 // address: 0x8014DF34
+// line start: 752
+// line end:   816
 void uShape__Fv() {
 	// register: 6
 	register int j;
@@ -160,6 +190,8 @@ void uShape__Fv() {
 
 
 // address: 0x8014E1D8
+// line start: 822
+// line end:   832
 long GetArea__Fv() {
 	// register: 4
 	register int i;
@@ -171,6 +203,8 @@ long GetArea__Fv() {
 
 
 // address: 0x8014E234
+// line start: 838
+// line end:   845
 void L4drawRoom__Fiiii(int x, int y, int width, int height) {
 	// register: 8
 	register int i;
@@ -180,6 +214,8 @@ void L4drawRoom__Fiiii(int x, int y, int width, int height) {
 
 
 // address: 0x8014E29C
+// line start: 852
+// line end:   863
 unsigned char L4checkRoom__Fiiii(int x, int y, int width, int height) {
 	// register: 8
 	register int i;
@@ -189,6 +225,8 @@ unsigned char L4checkRoom__Fiiii(int x, int y, int width, int height) {
 
 
 // address: 0x8014E338
+// line start: 870
+// line end:   945
 void L4roomGen__Fiiiii(int x, int y, int w, int h, int dir) {
 	// register: 23
 	register int rx;
@@ -218,6 +256,8 @@ void L4roomGen__Fiiiii(int x, int y, int w, int h, int dir) {
 
 
 // address: 0x8014E634
+// line start: 952
+// line end:   1014
 void L4firstRoom__Fv() {
 	// register: 19
 	register int x;
@@ -243,6 +283,8 @@ void L4firstRoom__Fv() {
 
 
 // address: 0x8014E850
+// line start: 1022
+// line end:   1034
 void L4SaveQuads__Fv() {
 	// register: 5
 	register int i;
@@ -256,6 +298,8 @@ void L4SaveQuads__Fv() {
 
 
 // address: 0x8014E8F0
+// line start: 1040
+// line end:   1060
 void DRLG_L4SetRoom__FPUcii(unsigned char *pSetPiece, int rx1, int ry1) {
 	// register: 12
 	register int rw;
@@ -271,6 +315,8 @@ void DRLG_L4SetRoom__FPUcii(unsigned char *pSetPiece, int rx1, int ry1) {
 
 
 // address: 0x8014E9C4
+// line start: 1076
+// line end:   1128
 void DRLG_LoadDiabQuads__FUc(unsigned char preflag) {
 	// register: 4
 	register unsigned char *ptrSetPiece;
@@ -278,6 +324,8 @@ void DRLG_LoadDiabQuads__FUc(unsigned char preflag) {
 
 
 // address: 0x8014EBC0
+// line start: 1136
+// line end:   1283
 unsigned char DRLG_L4PlaceMiniSet__FPCUciiiiii(unsigned char *miniset, int tmin, int tmax, int cx, int cy, int setview, int ldir) {
 	// register: 17
 	register int sx;
@@ -305,11 +353,15 @@ unsigned char DRLG_L4PlaceMiniSet__FPCUciiiiii(unsigned char *miniset, int tmin,
 
 
 // address: 0x8014EFD8
+// line start: 1289
+// line end:   1324
 void DRLG_L4FTVR__Fiiiii(int i, int j, int x, int y, int d) {
 }
 
 
 // address: 0x8014F520
+// line start: 1331
+// line end:   1346
 void DRLG_L4FloodTVal__Fv() {
 	// register: 16
 	register int i;
@@ -323,16 +375,22 @@ void DRLG_L4FloodTVal__Fv() {
 
 
 // address: 0x8014F624
+// line start: 1352
+// line end:   1356
 unsigned char IsDURWall__Fc(char d) {
 }
 
 
 // address: 0x8014F654
+// line start: 1362
+// line end:   1366
 unsigned char IsDLLWall__Fc(char dd) {
 }
 
 
 // address: 0x8014F684
+// line start: 1371
+// line end:   1412
 void DRLG_L4TransFix__Fv() {
 	// register: 7
 	register int j;
@@ -340,6 +398,8 @@ void DRLG_L4TransFix__Fv() {
 
 
 // address: 0x8014F9DC
+// line start: 1418
+// line end:   1430
 void DRLG_L4Corners__Fv() {
 	// register: 7
 	register int i;
@@ -349,6 +409,8 @@ void DRLG_L4Corners__Fv() {
 
 
 // address: 0x8014FA70
+// line start: 1436
+// line end:   1438
 void L4FixRim__Fv() {
 	{
 		{
@@ -360,6 +422,8 @@ void L4FixRim__Fv() {
 
 
 // address: 0x8014FAAC
+// line start: 1444
+// line end:   1453
 void DRLG_L4GeneralFix__Fv() {
 	// register: 6
 	register int i;
@@ -369,6 +433,8 @@ void DRLG_L4GeneralFix__Fv() {
 
 
 // address: 0x8014FB50
+// line start: 1459
+// line end:   1613
 void DRLG_L4__Fi(int entry) {
 	// register: 4
 	register unsigned char doneflag;
@@ -384,6 +450,8 @@ void DRLG_L4__Fi(int entry) {
 
 
 // address: 0x8015044C
+// line start: 1620
+// line end:   1708
 void DRLG_L4Pass3__Fv() {
 	// register: 11
 	register int i;
@@ -407,6 +475,8 @@ void DRLG_L4Pass3__Fv() {
 
 
 // address: 0x801505F0
+// line start: 1715
+// line end:   1753
 void CreateL4Dungeon__FUii(unsigned int rseed, int entry) {
 	{
 		// register: 4

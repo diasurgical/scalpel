@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80082470
+// line start: 42
+// line end:   90
 int LZNP_Decode__FPUcT0(unsigned char *in, unsigned char *out) {
 	// register: 6
 	register int i;

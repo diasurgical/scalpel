@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8003AB78
+// line start: 1104
+// line end:   1104
 void Enter__9CCritSect(struct CCritSect *this) {
 }
 

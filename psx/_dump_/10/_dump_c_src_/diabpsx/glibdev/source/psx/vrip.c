@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80024A1C
+// line start: 157
+// line end:   167
 int vsprintf(char *str, char *fmt, char *ap) {
 	// address: 0xFFFFFFD8
 	// size: 0x1C
@@ -11,6 +13,8 @@ int vsprintf(char *str, char *fmt, char *ap) {
 
 
 // address: 0x80024A68
+// line start: 172
+// line end:   479
 int _doprnt(char *fmt0, char *argp, struct FILE *fp) {
 	// register: 22
 	register char *fmt;

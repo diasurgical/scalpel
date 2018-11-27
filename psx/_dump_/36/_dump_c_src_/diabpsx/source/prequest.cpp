@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8015A8A4
+// line start: 107
+// line end:   187
 void InitQuests__Fv() {
 	// register: 18
 	register int i;
@@ -14,16 +16,22 @@ void InitQuests__Fv() {
 
 
 // address: 0x8015ACA8
+// line start: 191
+// line end:   196
 void DrawButcher__Fv() {
 }
 
 
 // address: 0x8015ACEC
+// line start: 203
+// line end:   206
 void DrawSkelKing__Fiii(int q, int x, int y) {
 }
 
 
 // address: 0x8015AD28
+// line start: 213
+// line end:   238
 void DrawWarLord__Fii(int x, int y) {
 	// register: 13
 	register int rw;
@@ -43,6 +51,8 @@ void DrawWarLord__Fii(int x, int y) {
 
 
 // address: 0x8015AE24
+// line start: 245
+// line end:   277
 void DrawSChamber__Fiii(int q, int x, int y) {
 	// register: 7
 	register int i;
@@ -66,6 +76,8 @@ void DrawSChamber__Fiii(int q, int x, int y) {
 
 
 // address: 0x8015AF60
+// line start: 284
+// line end:   309
 void DrawLTBanner__Fii(int x, int y) {
 	// register: 10
 	register int rw;
@@ -85,6 +97,8 @@ void DrawLTBanner__Fii(int x, int y) {
 
 
 // address: 0x8015B03C
+// line start: 316
+// line end:   341
 void DrawBlind__Fii(int x, int y) {
 	// register: 10
 	register int rw;
@@ -104,6 +118,8 @@ void DrawBlind__Fii(int x, int y) {
 
 
 // address: 0x8015B118
+// line start: 348
+// line end:   377
 void DrawBlood__Fii(int x, int y) {
 	// register: 10
 	register int rw;
@@ -123,6 +139,8 @@ void DrawBlood__Fii(int x, int y) {
 
 
 // address: 0x8015B1F8
+// line start: 381
+// line end:   410
 void DRLG_CheckQuests__Fii(int x, int y) {
 	// register: 18
 	register int i;

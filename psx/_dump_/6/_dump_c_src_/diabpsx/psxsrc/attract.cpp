@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8008538C
+// line start: 65
+// line end:   92
 void ATT_DoAttract__Fv() {
 	// address: 0xFFFFFFD0
 	// size: 0x24
@@ -11,6 +13,8 @@ void ATT_DoAttract__Fv() {
 
 
 // address: 0x80085444
+// line start: 97
+// line end:   102
 void CreatePlayersFromFeData__FR9FE_CREATE(struct FE_CREATE *CStruct) {
 	{
 		// register: 16

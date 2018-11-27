@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8009BBC0
+// line start: 532
+// line end:   541
 void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y, int W, int H) {
 	// address: 0xFFFFFFD0
 	// size: 0x10
@@ -11,6 +13,8 @@ void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y
 
 
 // address: 0x8009BCA4
+// line start: 560
+// line end:   693
 void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
 	// register: 2
 	// size: 0x28
@@ -68,6 +72,8 @@ void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned c
 
 
 // address: 0x8009C1A4
+// line start: 699
+// line end:   878
 void DrawMenu__Fi(int MenuNo) {
 	// address: 0xFFFFFF80
 	// size: 0xC
@@ -126,6 +132,8 @@ void DrawMenu__Fi(int MenuNo) {
 
 
 // address: 0x8009CBA8
+// line start: 884
+// line end:   1027
 void ShowCharacterFiles__Fv() {
 	// register: 17
 	register int j;
@@ -147,6 +155,8 @@ void ShowCharacterFiles__Fv() {
 
 
 // address: 0x8009D0C0
+// line start: 1030
+// line end:   1229
 void MemcardPad__Fv() {
 	// register: 21
 	// size: 0x6C
@@ -200,6 +210,8 @@ void MemcardPad__Fv() {
 
 
 // address: 0x8009D738
+// line start: 1236
+// line end:   1404
 void SoundPad__Fv() {
 	// register: 18
 	// size: 0x6C
@@ -231,6 +243,8 @@ void SoundPad__Fv() {
 
 
 // address: 0x8009DD0C
+// line start: 1420
+// line end:   1555
 void CentrePad__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -250,11 +264,15 @@ void CentrePad__Fv() {
 
 
 // address: 0x8009E288
+// line start: 1561
+// line end:   1586
 void CalcVolumes__Fv() {
 }
 
 
 // address: 0x8009E3C8
+// line start: 1593
+// line end:   1613
 void GetVolumes__Fv() {
 	{
 		// register: 9
@@ -276,6 +294,8 @@ void GetVolumes__Fv() {
 
 
 // address: 0x8009E4D0
+// line start: 1646
+// line end:   1883
 void DrawOptions__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int oldot;
@@ -286,11 +306,15 @@ void DrawOptions__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8009E85C
+// line start: 1889
+// line end:   1910
 void ToggleOptions__Fv() {
 }
 
 
 // address: 0x8009E8FC
+// line start: 1917
+// line end:   1991
 void FormatPad__Fv() {
 	// register: 16
 	register int move;
@@ -306,6 +330,8 @@ void FormatPad__Fv() {
 
 
 // address: 0x8009EC08
+// line start: 1991
+// line end:   1991
 void _GLOBAL__I_cmenu() {
 }
 

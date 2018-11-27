@@ -3,16 +3,22 @@
 #include "types.h"
 
 // address: 0x80091210
+// line start: 160
+// line end:   163
 void switchnight__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x8009125C
+// line start: 194
+// line end:   223
 void city_lights__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x800913DC
+// line start: 233
+// line end:   261
 void color_cycle__FP4TASK(struct TASK *T) {
 	// address: 0xFFFFFF70
 	// size: 0x8

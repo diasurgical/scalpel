@@ -3,17 +3,23 @@
 #include "types.h"
 
 // address: 0x8008BDFC
+// line start: 206
+// line end:   220
 unsigned int GetPal__6GPaneli(struct GPanel *this, int Frm) {
 }
 
 
 // address: 0x8008BE40
 // size: 0x10
+// line start: 228
+// line end:   232
 struct GPanel *__6GPaneli(struct GPanel *this, int Ofs) {
 }
 
 
 // address: 0x8008BE98
+// line start: 243
+// line end:   344
 void DrawFlask__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 20
 	register int ManaHeight;
@@ -36,6 +42,8 @@ void DrawFlask__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct Pane
 
 
 // address: 0x8008C2CC
+// line start: 352
+// line end:   420
 void DrawSpeedBar__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 17
 	register int X;
@@ -54,6 +62,8 @@ void DrawSpeedBar__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct P
 
 
 // address: 0x8008C750
+// line start: 427
+// line end:   459
 void DrawSpell__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 21
 	register int X;
@@ -73,6 +83,8 @@ void DrawSpell__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct Pane
 
 
 // address: 0x8008C8F0
+// line start: 467
+// line end:   479
 void DrawMsgWindow__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -81,6 +93,8 @@ void DrawMsgWindow__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct 
 
 
 // address: 0x8008C93C
+// line start: 496
+// line end:   559
 int DrawDurThingy__6GPaneliiP10ItemStructi(struct GPanel *this, int X, int Y, struct ItemStruct *Item, int ItemType) {
 	// register: 2
 	// size: 0x28
@@ -92,6 +106,8 @@ int DrawDurThingy__6GPaneliiP10ItemStructi(struct GPanel *this, int X, int Y, st
 
 
 // address: 0x8008CCF8
+// line start: 563
+// line end:   582
 void DrawDurIcon__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 5
 	register int X;
@@ -101,6 +117,8 @@ void DrawDurIcon__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct Pa
 
 
 // address: 0x8008CDEC
+// line start: 588
+// line end:   606
 void Print__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 }
 

@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8014BC78
+// line start: 93
+// line end:   284
 void DeltaLoadLevel__Fv() {
 	// address: 0xFFFFFFB8
 	auto int i;

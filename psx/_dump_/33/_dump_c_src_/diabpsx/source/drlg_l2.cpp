@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x801422C4
+// line start: 1196
+// line end:   1326
 unsigned char DRLG_L2PlaceMiniSet__FPUciiiiii(unsigned char *miniset, int tmin, int tmax, int cx, int cy, int setview, int ldir) {
 	// register: 17
 	register int sx;
@@ -30,6 +32,8 @@ unsigned char DRLG_L2PlaceMiniSet__FPUciiiiii(unsigned char *miniset, int tmin, 
 
 
 // address: 0x801426B8
+// line start: 1334
+// line end:   1380
 void DRLG_L2PlaceRndSet__FPUci(unsigned char *miniset, int rndper) {
 	// register: 16
 	register int sx;
@@ -55,6 +59,8 @@ void DRLG_L2PlaceRndSet__FPUci(unsigned char *miniset, int rndper) {
 
 
 // address: 0x801429B8
+// line start: 1388
+// line end:   1421
 void DRLG_L2Subs__Fv() {
 	// register: 17
 	register int x;
@@ -72,6 +78,8 @@ void DRLG_L2Subs__Fv() {
 
 
 // address: 0x80142BAC
+// line start: 1429
+// line end:   1454
 void DRLG_L2Shadows__Fv() {
 	// register: 9
 	register int x;
@@ -88,6 +96,8 @@ void DRLG_L2Shadows__Fv() {
 
 
 // address: 0x80142D70
+// line start: 1461
+// line end:   1470
 void InitDungeon__Fv() {
 	// register: 7
 	register int i;
@@ -97,11 +107,15 @@ void InitDungeon__Fv() {
 
 
 // address: 0x80142DD0
+// line start: 1477
+// line end:   1490
 void DRLG_LoadL2SP__Fv() {
 }
 
 
 // address: 0x80142E80
+// line start: 1498
+// line end:   1499
 void DRLG_FreeL2SP__Fv() {
 	{
 		// register: 4
@@ -111,6 +125,8 @@ void DRLG_FreeL2SP__Fv() {
 
 
 // address: 0x80142EB0
+// line start: 1507
+// line end:   1535
 void DRLG_L2SetRoom__Fii(int rx1, int ry1) {
 	// register: 12
 	register int rw;
@@ -126,6 +142,8 @@ void DRLG_L2SetRoom__Fii(int rx1, int ry1) {
 
 
 // address: 0x80142FB0
+// line start: 1543
+// line end:   1586
 void DefineRoom__Fiiiii(int nX1, int nY1, int nX2, int nY2, int ForceHW) {
 	// register: 5
 	register int i;
@@ -137,6 +155,8 @@ void DefineRoom__Fiiiii(int nX1, int nY1, int nX2, int nY2, int ForceHW) {
 
 
 // address: 0x801431BC
+// line start: 1594
+// line end:   1616
 void CreateDoorType__Fii(int nX, int nY) {
 	// register: 6
 	register unsigned char fDoneflag;
@@ -144,11 +164,15 @@ void CreateDoorType__Fii(int nX, int nY) {
 
 
 // address: 0x801432A0
+// line start: 1624
+// line end:   1626
 void PlaceHallExt__Fii(int nX, int nY) {
 }
 
 
 // address: 0x801432D8
+// line start: 1635
+// line end:   1660
 void AddHall__Fiiiii(int nX1, int nY1, int nX2, int nY2, int nHd) {
 	// register: 3
 	// size: 0x18
@@ -160,6 +184,8 @@ void AddHall__Fiiiii(int nX1, int nY1, int nX2, int nY2, int nHd) {
 
 
 // address: 0x801433B0
+// line start: 1669
+// line end:   1786
 void CreateRoom__Fiiiiiiiii(int nX1, int nY1, int nX2, int nY2, int nRDest, int nHDir, int ForceHW, int nH, int nW) {
 	// register: 5
 	register int nAw;
@@ -191,6 +217,8 @@ void CreateRoom__Fiiiiiiiii(int nX1, int nY1, int nX2, int nY2, int nRDest, int 
 
 
 // address: 0x80143A38
+// line start: 1793
+// line end:   1803
 void GetHall__FPiN40(int *nX1, int *nY1, int *nX2, int *nY2, int *nHd) {
 	// register: 16
 	// size: 0x18
@@ -203,6 +231,8 @@ void GetHall__FPiN40(int *nX1, int *nY1, int *nX2, int *nY2, int *nHd) {
 
 
 // address: 0x80143AD0
+// line start: 1811
+// line end:   1948
 void ConnectHall__Fiiiii(int nX1, int nY1, int nX2, int nY2, int nHd) {
 	// address: 0xFFFFFFA8
 	auto unsigned char fDoneflag;
@@ -228,6 +258,8 @@ void ConnectHall__Fiiiii(int nX1, int nY1, int nX2, int nY2, int nHd) {
 
 
 // address: 0x80144138
+// line start: 1957
+// line end:   2022
 void DoPatternCheck__Fii(int i, int j) {
 	// register: 8
 	register int l;
@@ -241,6 +273,8 @@ void DoPatternCheck__Fii(int i, int j) {
 
 
 // address: 0x801443EC
+// line start: 2030
+// line end:   2042
 void L2TileFix__Fv() {
 	// register: 9
 	register int j;
@@ -248,11 +282,15 @@ void L2TileFix__Fv() {
 
 
 // address: 0x80144510
+// line start: 2054
+// line end:   2058
 unsigned char DL2_Cont__FUcUcUcUc(unsigned char x1f, unsigned char y1f, unsigned char x2f, unsigned char y2f) {
 }
 
 
 // address: 0x80144590
+// line start: 2066
+// line end:   2072
 int DL2_NumNoChar__Fv() {
 	// register: 6
 	register int t;
@@ -264,6 +302,8 @@ int DL2_NumNoChar__Fv() {
 
 
 // address: 0x801445EC
+// line start: 2080
+// line end:   2093
 void DL2_DrawRoom__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 8
 	register int ii;
@@ -273,6 +313,8 @@ void DL2_DrawRoom__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x801446F0
+// line start: 2101
+// line end:   2115
 void DL2_KnockWalls__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 8
 	register int ii;
@@ -282,6 +324,8 @@ void DL2_KnockWalls__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x801448C0
+// line start: 2161
+// line end:   2330
 unsigned char DL2_FillVoids__Fv() {
 	// register: 4
 	register int ii;
@@ -313,6 +357,8 @@ unsigned char DL2_FillVoids__Fv() {
 
 
 // address: 0x80145244
+// line start: 2338
+// line end:   2404
 unsigned char CreateDungeon__Fv() {
 	// register: 16
 	register int i;
@@ -338,6 +384,8 @@ unsigned char CreateDungeon__Fv() {
 
 
 // address: 0x80145550
+// line start: 2412
+// line end:   2495
 void DRLG_L2Pass3__Fv() {
 	// register: 11
 	register int i;
@@ -361,11 +409,15 @@ void DRLG_L2Pass3__Fv() {
 
 
 // address: 0x801456E8
+// line start: 2503
+// line end:   2538
 void DRLG_L2FTVR__Fiiiii(int i, int j, int x, int y, int d) {
 }
 
 
 // address: 0x80145C30
+// line start: 2547
+// line end:   2562
 void DRLG_L2FloodTVal__Fv() {
 	// register: 16
 	register int i;
@@ -379,6 +431,8 @@ void DRLG_L2FloodTVal__Fv() {
 
 
 // address: 0x80145D34
+// line start: 2570
+// line end:   2602
 void DRLG_L2TransFix__Fv() {
 	// register: 13
 	register int j;
@@ -386,6 +440,8 @@ void DRLG_L2TransFix__Fv() {
 
 
 // address: 0x80145F44
+// line start: 2610
+// line end:   2623
 void L2DirtFix__Fv() {
 	// register: 9
 	register int j;
@@ -393,6 +449,8 @@ void L2DirtFix__Fv() {
 
 
 // address: 0x801460A4
+// line start: 2631
+// line end:   2673
 void L2LockoutFix__Fv() {
 	// register: 13
 	register int i;
@@ -404,6 +462,8 @@ void L2LockoutFix__Fv() {
 
 
 // address: 0x80146430
+// line start: 2679
+// line end:   2689
 void L2DoorFix__Fv() {
 	// register: 7
 	register int j;
@@ -411,6 +471,8 @@ void L2DoorFix__Fv() {
 
 
 // address: 0x801464E0
+// line start: 2696
+// line end:   2892
 void DRLG_L2__Fi(int entry) {
 	// register: 6
 	register int i;
@@ -422,11 +484,15 @@ void DRLG_L2__Fi(int entry) {
 
 
 // address: 0x80146F2C
+// line start: 2901
+// line end:   2935
 void DRLG_InitL2Vals__Fv() {
 }
 
 
 // address: 0x80146F34
+// line start: 2942
+// line end:   3021
 void LoadL2Dungeon__FPcii(char *sFileName, int vx, int vy) {
 	// register: 4
 	register int i;
@@ -446,6 +512,8 @@ void LoadL2Dungeon__FPcii(char *sFileName, int vx, int vy) {
 
 
 // address: 0x80147124
+// line start: 3029
+// line end:   3070
 void LoadPreL2Dungeon__FPcii(char *sFileName, int vx, int vy) {
 	// register: 5
 	register int i;
@@ -465,6 +533,8 @@ void LoadPreL2Dungeon__FPcii(char *sFileName, int vx, int vy) {
 
 
 // address: 0x80147310
+// line start: 3078
+// line end:   3135
 void CreateL2Dungeon__FUii(unsigned int rseed, int entry) {
 }
 

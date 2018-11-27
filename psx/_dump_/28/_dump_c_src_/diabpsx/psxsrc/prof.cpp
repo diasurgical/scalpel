@@ -3,46 +3,64 @@
 #include "types.h"
 
 // address: 0x8008D12C
+// line start: 87
+// line end:   94
 void PROF_Open__Fv() {
 }
 
 
 // address: 0x8008D16C
+// line start: 99
+// line end:   100
 bool PROF_State__Fv() {
 }
 
 
 // address: 0x8008D178
+// line start: 104
+// line end:   105
 void PROF_On__Fv() {
 }
 
 
 // address: 0x8008D188
+// line start: 109
+// line end:   110
 void PROF_Off__Fv() {
 }
 
 
 // address: 0x8008D194
+// line start: 114
+// line end:   115
 void PROF_CpuEnd__Fv() {
 }
 
 
 // address: 0x8008D1C4
+// line start: 119
+// line end:   120
 void PROF_CpuStart__Fv() {
 }
 
 
 // address: 0x8008D1E8
+// line start: 124
+// line end:   125
 void PROF_DrawStart__Fv() {
 }
 
 
 // address: 0x8008D20C
+// line start: 129
+// line end:   130
 void PROF_DrawEnd__Fv() {
 }
 
 
 // address: 0x8008D23C
+// line start: 134
+// line end:   174
 void PROF_Draw__FPUl(unsigned long *Ot) {
 	{
 		{
@@ -66,6 +84,8 @@ void PROF_Draw__FPUl(unsigned long *Ot) {
 
 
 // address: 0x8008D430
+// line start: 179
+// line end:   180
 void PROF_Restart__Fv() {
 }
 

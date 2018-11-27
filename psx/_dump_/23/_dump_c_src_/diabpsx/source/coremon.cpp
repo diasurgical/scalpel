@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x80077DD4
+// line start: 110
+// line end:   135
 void M_CheckEFlag__Fi(int i) {
 }
 
 
 // address: 0x80077DF4
+// line start: 139
+// line end:   163
 void M_ClearSquares__Fi(int i) {
 	// register: 8
 	register int mx;
@@ -31,11 +35,15 @@ void M_ClearSquares__Fi(int i) {
 
 
 // address: 0x80077F60
+// line start: 168
+// line end:   171
 unsigned char IsSkel__Fi(int mt) {
 }
 
 
 // address: 0x80077F9C
+// line start: 176
+// line end:   188
 void NewMonsterAnim__FiR10AnimStructii(int i, struct AnimStruct *anim, int md, int AnimType) {
 	// register: 2
 	// size: 0x70
@@ -44,11 +52,15 @@ void NewMonsterAnim__FiR10AnimStructii(int i, struct AnimStruct *anim, int md, i
 
 
 // address: 0x80077FE8
+// line start: 192
+// line end:   201
 unsigned char M_Ranged__Fi(int i) {
 }
 
 
 // address: 0x80078030
+// line start: 205
+// line end:   217
 unsigned char M_Talker__Fi(int i) {
 	// register: 4
 	register unsigned char _mAi;
@@ -56,6 +68,8 @@ unsigned char M_Talker__Fi(int i) {
 
 
 // address: 0x80078090
+// line start: 221
+// line end:   305
 void M_Enemy__Fi(int i) {
 	// address: 0xFFFFFFA8
 	auto int j;
@@ -96,11 +110,15 @@ void M_Enemy__Fi(int i) {
 
 
 // address: 0x80078638
+// line start: 310
+// line end:   319
 void ClearMVars__Fi(int i) {
 }
 
 
 // address: 0x800786AC
+// line start: 323
+// line end:   430
 void InitMonster__Fiiiii(int i, int rd, int mtype, int x, int y) {
 	// register: 17
 	// size: 0x1C
@@ -112,6 +130,8 @@ void InitMonster__Fiiiii(int i, int rd, int mtype, int x, int y) {
 
 
 // address: 0x80078AF8
+// line start: 435
+// line end:   443
 int AddMonster__FiiiiUc(int x, int y, int dir, int mtype, int InMap) {
 	// register: 16
 	register int i;
@@ -119,6 +139,8 @@ int AddMonster__FiiiiUc(int x, int y, int dir, int mtype, int InMap) {
 
 
 // address: 0x80078BA8
+// line start: 448
+// line end:   476
 void M_StartStand__Fii(int i, int md) {
 	// register: 3
 	// size: 0x70
@@ -131,6 +153,8 @@ void M_StartStand__Fii(int i, int md) {
 
 
 // address: 0x80078CEC
+// line start: 480
+// line end:   499
 void M_UpdateLeader__Fi(int i) {
 	// register: 5
 	register int x;
@@ -140,11 +164,15 @@ void M_UpdateLeader__Fi(int i) {
 
 
 // address: 0x80078DE4
+// line start: 503
+// line end:   511
 void ActivateSpawn__Fiiii(int i, int x, int y, int dir) {
 }
 
 
 // address: 0x80078E8C
+// line start: 515
+// line end:   560
 unsigned char SpawnSkeleton__Fiii(int ii, int x, int y) {
 	// address: 0xFFFFFF98
 	// size: 0x24
@@ -165,6 +193,8 @@ unsigned char SpawnSkeleton__Fiii(int ii, int x, int y) {
 
 
 // address: 0x8007907C
+// line start: 564
+// line end:   581
 void M_StartSpStand__Fii(int i, int md) {
 	// register: 2
 	// size: 0x70
@@ -177,6 +207,8 @@ void M_StartSpStand__Fii(int i, int md) {
 
 
 // address: 0x8007915C
+// line start: 585
+// line end:   614
 unsigned char PosOkMonst__Fiii(int i, int x, int y) {
 	// register: 18
 	register unsigned char ret;
@@ -190,6 +222,8 @@ unsigned char PosOkMonst__Fiii(int i, int x, int y) {
 
 
 // address: 0x800793D8
+// line start: 619
+// line end:   650
 unsigned char CanPut__Fii(int i, int j) {
 	// register: 3
 	register int oi;

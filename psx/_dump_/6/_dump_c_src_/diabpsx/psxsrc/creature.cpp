@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x800916A0
+// line start: 87
+// line end:   136
 bool TryCreaturePrint__Fiiiiiii(int nMonster, int blockr, int blockg, int blockb, int OtPos, int ScrX, int ScrY) {
 	// register: 16
 	// size: 0x28
@@ -36,11 +38,15 @@ bool TryCreaturePrint__Fiiiiiii(int nMonster, int blockr, int blockg, int blockb
 
 
 // address: 0x80091904
+// line start: 147
+// line end:   202
 void TryWater__FiiP8POLY_GT4i(int BlockBase, int BlockNum, struct POLY_GT4 *DestGt4, int MyOt) {
 }
 
 
 // address: 0x80091AB0
+// line start: 205
+// line end:   230
 void nightgfx__FibiP8POLY_GT4i(int BlockBase, bool water, int BlockNum, struct POLY_GT4 *DestGt4, int MyOt) {
 	{
 		{

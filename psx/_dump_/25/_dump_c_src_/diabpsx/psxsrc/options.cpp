@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8009AB24
+// line start: 524
+// line end:   533
 void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y, int W, int H) {
 	// address: 0xFFFFFFD0
 	// size: 0x10
@@ -11,6 +13,8 @@ void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y
 
 
 // address: 0x8009AC08
+// line start: 549
+// line end:   672
 void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
 	// register: 2
 	// size: 0x28
@@ -68,6 +72,8 @@ void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned c
 
 
 // address: 0x8009B0D0
+// line start: 678
+// line end:   879
 void DrawMenu__Fi(int MenuNo) {
 	// address: 0xFFFFFF80
 	// size: 0x8
@@ -136,6 +142,8 @@ void DrawMenu__Fi(int MenuNo) {
 
 
 // address: 0x8009BC00
+// line start: 884
+// line end:   893
 int who_pressed__Fi(int pval) {
 	// register: 16
 	// size: 0x6C
@@ -148,11 +156,15 @@ int who_pressed__Fi(int pval) {
 
 // address: 0x8009BC88
 // size: 0x6C
+// line start: 898
+// line end:   903
 struct CPad *PAD_GetOptionsPad__Fi(int p) {
 }
 
 
 // address: 0x8009BCC4
+// line start: 908
+// line end:   1123
 void ShowCharacterFiles__Fv() {
 	// register: 19
 	register int j;
@@ -206,6 +218,8 @@ void ShowCharacterFiles__Fv() {
 
 
 // address: 0x8009C35C
+// line start: 1126
+// line end:   1342
 void MemcardPad__Fv() {
 	// register: 21
 	// size: 0x6C
@@ -261,6 +275,8 @@ void MemcardPad__Fv() {
 
 
 // address: 0x8009C9FC
+// line start: 1349
+// line end:   1521
 void SoundPad__Fv() {
 	// register: 18
 	// size: 0x6C
@@ -294,6 +310,8 @@ void SoundPad__Fv() {
 
 
 // address: 0x8009D018
+// line start: 1529
+// line end:   1632
 void CentrePad__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -319,11 +337,15 @@ void CentrePad__Fv() {
 
 
 // address: 0x8009D43C
+// line start: 1638
+// line end:   1663
 void CalcVolumes__Fv() {
 }
 
 
 // address: 0x8009D57C
+// line start: 1671
+// line end:   1691
 void GetVolumes__Fv() {
 	{
 		// register: 8
@@ -345,6 +367,8 @@ void GetVolumes__Fv() {
 
 
 // address: 0x8009D684
+// line start: 1699
+// line end:   1716
 void PrintInfoMenu__Fv() {
 	// address: 0xFFFFFEE0
 	// size: 0x100
@@ -355,6 +379,8 @@ void PrintInfoMenu__Fv() {
 
 
 // address: 0x8009D82C
+// line start: 1733
+// line end:   1981
 void DrawOptions__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int old_pad;
@@ -373,11 +399,15 @@ void DrawOptions__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8009DEB8
+// line start: 1987
+// line end:   2009
 void ToggleOptions__Fv() {
 }
 
 
 // address: 0x8009DF60
+// line start: 2016
+// line end:   2092
 void FormatPad__Fv() {
 	// register: 16
 	register int move;

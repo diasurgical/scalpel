@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x80128A64
+// line start: 168
+// line end:   174
 void InitCredits__Fv() {
 }
 
 
 // address: 0x80128AA0
+// line start: 222
+// line end:   352
 int PrintCredits__FPciiiii(char *Str, int Y, int CharFade, int RFlag, int GFlag, int BFlag) {
 	// register: 18
 	register int CharHeight;
@@ -40,16 +44,22 @@ int PrintCredits__FPciiiii(char *Str, int Y, int CharFade, int RFlag, int GFlag,
 
 
 // address: 0x801292C0
+// line start: 358
+// line end:   376
 void DrawCreditsTitle__Fiiiii(int TitleNo, int TitleFade, int TitleMode, int NextTitleNo, int Y) {
 }
 
 
 // address: 0x8012938C
+// line start: 383
+// line end:   401
 void DrawCreditsSubTitle__Fiiiii(int SubTitleNo, int SubTitleFade, int SubTitleMode, int NextSubTitleNo, int Y) {
 }
 
 
 // address: 0x80129468
+// line start: 410
+// line end:   467
 void DoCredits__Fv() {
 	// address: 0xFFFFFF60
 	// size: 0x78

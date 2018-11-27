@@ -3,36 +3,50 @@
 #include "types.h"
 
 // address: 0x80058BD4
+// line start: 270
+// line end:   271
 bool ismyplr__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80058C18
+// line start: 275
+// line end:   276
 int plrind__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80058C2C
+// line start: 412
+// line end:   418
 void InitPlayerGFX__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80058C4C
+// line start: 528
+// line end:   547
 void FreePlayerGFX__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80058C54
+// line start: 554
+// line end:   565
 void NewPlrAnim__FP12PlayerStructiii(struct PlayerStruct *ptrplr, int Peq, int numFrames, int Delay) {
 }
 
 
 // address: 0x80058C70
+// line start: 574
+// line end:   585
 void ClearPlrPVars__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80058C94
+// line start: 591
+// line end:   672
 void SetPlrAnims__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 3
 	register int gn;
@@ -42,6 +56,8 @@ void SetPlrAnims__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80058ED0
+// line start: 719
+// line end:   836
 void CreatePlayer__FP12PlayerStructc(struct PlayerStruct *ptrplr, char c) {
 	// register: 2
 	register int i;
@@ -51,6 +67,8 @@ void CreatePlayer__FP12PlayerStructc(struct PlayerStruct *ptrplr, char c) {
 
 
 // address: 0x800592EC
+// line start: 843
+// line end:   849
 int CalcStatDiff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 6
 	register int c;
@@ -60,6 +78,8 @@ int CalcStatDiff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80059354
+// line start: 855
+// line end:   891
 void NextPlrLevel__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 5
 	register long l;
@@ -67,6 +87,8 @@ void NextPlrLevel__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x800594C4
+// line start: 898
+// line end:   961
 void AddPlrExperience__FP12PlayerStructil(struct PlayerStruct *ptrplr, int lvl, long exp) {
 	// register: 19
 	register int omp;
@@ -100,6 +122,8 @@ void AddPlrExperience__FP12PlayerStructil(struct PlayerStruct *ptrplr, int lvl, 
 
 
 // address: 0x800596D0
+// line start: 967
+// line end:   974
 void AddPlrMonstExper__Filc(int lvl, long exp, char pmask) {
 	// register: 3
 	register int totplrs;
@@ -115,6 +139,8 @@ void AddPlrMonstExper__Filc(int lvl, long exp, char pmask) {
 
 
 // address: 0x80059754
+// line start: 983
+// line end:   1153
 void InitPlayer__FP12PlayerStructUc(struct PlayerStruct *ptrplr, unsigned char FirstTime) {
 	{
 		{
@@ -130,11 +156,15 @@ void InitPlayer__FP12PlayerStructUc(struct PlayerStruct *ptrplr, unsigned char F
 
 
 // address: 0x80059B20
+// line start: 1163
+// line end:   1169
 void InitMultiView__Fv() {
 }
 
 
 // address: 0x80059B28
+// line start: 1270
+// line end:   1294
 bool CheckLeighSolid__Fii(int x, int y) {
 	// address: 0xFFFFFFB0
 	// size: 0x50
@@ -147,11 +177,15 @@ bool CheckLeighSolid__Fii(int x, int y) {
 
 
 // address: 0x80059BC0
+// line start: 1298
+// line end:   1303
 unsigned char SolidLoc__Fii(int x, int y) {
 }
 
 
 // address: 0x80059C48
+// line start: 1357
+// line end:   1366
 void PlrClrTrans__Fii(int x, int y) {
 	// register: 3
 	register int i;
@@ -161,6 +195,8 @@ void PlrClrTrans__Fii(int x, int y) {
 
 
 // address: 0x80059CDC
+// line start: 1373
+// line end:   1386
 void PlrDoTrans__Fii(int x, int y) {
 	// register: 3
 	register int i;
@@ -170,21 +206,29 @@ void PlrDoTrans__Fii(int x, int y) {
 
 
 // address: 0x80059DD0
+// line start: 1392
+// line end:   1396
 void SetPlayerOld__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80059DE4
+// line start: 1431
+// line end:   1452
 void StartStand__FP12PlayerStructi(struct PlayerStruct *ptrplr, int dir) {
 }
 
 
 // address: 0x80059E70
+// line start: 1457
+// line end:   1476
 void StartWalkStand__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80059ED4
+// line start: 1484
+// line end:   1542
 void PM_ChangeLightOff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 4
 	register int lx;
@@ -197,11 +241,15 @@ void PM_ChangeLightOff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80059F10
+// line start: 1550
+// line end:   1572
 void PM_ChangeOffset__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80059F3C
+// line start: 1669
+// line end:   1701
 void StartAttack__FP12PlayerStructi(struct PlayerStruct *ptrplr, int d) {
 	// register: 17
 	register int co;
@@ -211,16 +259,22 @@ void StartAttack__FP12PlayerStructi(struct PlayerStruct *ptrplr, int d) {
 
 
 // address: 0x8005A074
+// line start: 1727
+// line end:   1742
 void StartPlrBlock__FP12PlayerStructi(struct PlayerStruct *ptrplr, int dir) {
 }
 
 
 // address: 0x8005A10C
+// line start: 1748
+// line end:   1789
 void StartSpell__FP12PlayerStructiii(struct PlayerStruct *ptrplr, int d, int cx, int cy) {
 }
 
 
 // address: 0x8005A2A8
+// line start: 1822
+// line end:   1838
 void RemovePlrFromMap__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 13
 	register int pp;
@@ -234,11 +288,15 @@ void RemovePlrFromMap__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005A3C8
+// line start: 1845
+// line end:   1878
 void StartPlrHit__FP12PlayerStructiUc(struct PlayerStruct *ptrplr, int dam, unsigned char forcehit) {
 }
 
 
 // address: 0x8005A4E8
+// line start: 1885
+// line end:   1914
 void RespawnDeadItem__FP10ItemStructii(struct ItemStruct *itm, int x, int y) {
 	// register: 8
 	register int ii;
@@ -246,6 +304,8 @@ void RespawnDeadItem__FP10ItemStructii(struct ItemStruct *itm, int x, int y) {
 
 
 // address: 0x8005A684
+// line start: 1920
+// line end:   1957
 void PlrDeadItem__FP12PlayerStructP10ItemStructii(struct PlayerStruct *ptrplr, struct ItemStruct *itm, int xx, int yy) {
 	// register: 19
 	register int x;
@@ -271,6 +331,8 @@ void PlrDeadItem__FP12PlayerStructP10ItemStructii(struct PlayerStruct *ptrplr, s
 
 
 // address: 0x8005A84C
+// line start: 1962
+// line end:   2086
 void StartPlayerKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 	// register: 18
 	// size: 0x98
@@ -301,6 +363,8 @@ void StartPlayerKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag
 
 
 // address: 0x8005AB64
+// line start: 2091
+// line end:   2257
 void DropHalfPlayersGold__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int i;
@@ -310,6 +374,8 @@ void DropHalfPlayersGold__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005AFAC
+// line start: 2264
+// line end:   2286
 void StartPlrKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 	// register: 5
 	register int i;
@@ -319,11 +385,15 @@ void StartPlrKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 
 
 // address: 0x8005B0F0
+// line start: 2292
+// line end:   2294
 void SyncPlrKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 }
 
 
 // address: 0x8005B110
+// line start: 2300
+// line end:   2325
 void RemovePlrMissiles__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int i;
@@ -337,31 +407,43 @@ void RemovePlrMissiles__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005B3F8
+// line start: 2331
+// line end:   2351
 void InitLevelChange__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005B4B4
+// line start: 2358
+// line end:   2412
 void StartNewLvl__FP12PlayerStructii(struct PlayerStruct *ptrplr, int fom, int lvl) {
 }
 
 
 // address: 0x8005B5F8
+// line start: 2417
+// line end:   2435
 void RestartTownLvl__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005B688
+// line start: 2443
+// line end:   2459
 void StartWarpLvl__FP12PlayerStructi(struct PlayerStruct *ptrplr, int pidx) {
 }
 
 
 // address: 0x8005B744
+// line start: 2467
+// line end:   2468
 int PM_DoStand__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005B74C
+// line start: 2496
+// line end:   2513
 unsigned char ChkPlrOffsets__Fiiii(int wx1, int wy1, int wx2, int wy2) {
 	// register: 17
 	register int x;
@@ -371,6 +453,8 @@ unsigned char ChkPlrOffsets__Fiiii(int wx1, int wy1, int wx2, int wy2) {
 
 
 // address: 0x8005B7D4
+// line start: 2517
+// line end:   2634
 int PM_DoWalk__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 18
 	register int owx;
@@ -380,11 +464,15 @@ int PM_DoWalk__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005BB40
+// line start: 2641
+// line end:   2690
 unsigned char WeaponDur__FP12PlayerStructi(struct PlayerStruct *ptrplr, int durrnd) {
 }
 
 
 // address: 0x8005BCE0
+// line start: 2697
+// line end:   2811
 unsigned char PlrHitMonst__FP12PlayerStructi(struct PlayerStruct *ptrplr, int m) {
 	// register: 18
 	register int hit;
@@ -412,6 +500,8 @@ unsigned char PlrHitMonst__FP12PlayerStructi(struct PlayerStruct *ptrplr, int m)
 
 
 // address: 0x8005C310
+// line start: 2818
+// line end:   2881
 unsigned char PlrHitPlr__FP12PlayerStructc(struct PlayerStruct *ptrplr, char p) {
 	// register: 20
 	register int hit;
@@ -439,6 +529,8 @@ unsigned char PlrHitPlr__FP12PlayerStructc(struct PlayerStruct *ptrplr, char p) 
 
 
 // address: 0x8005C6C0
+// line start: 2888
+// line end:   2895
 unsigned char PlrHitObj__FP12PlayerStructii(struct PlayerStruct *ptrplr, int mx, int my) {
 	// register: 5
 	register int oi;
@@ -446,6 +538,8 @@ unsigned char PlrHitObj__FP12PlayerStructii(struct PlayerStruct *ptrplr, int mx,
 
 
 // address: 0x8005C750
+// line start: 2903
+// line end:   2974
 int PM_DoAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int dx;
@@ -463,6 +557,8 @@ int PM_DoAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005CADC
+// line start: 2982
+// line end:   3003
 int PM_DoRangeAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 8
 	register int mistype;
@@ -470,16 +566,22 @@ int PM_DoRangeAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005CBDC
+// line start: 3011
+// line end:   3036
 void ShieldDur__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005CC9C
+// line start: 3042
+// line end:   3054
 int PM_DoBlock__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005CD3C
+// line start: 3058
+// line end:   3222
 void do_spell_anim__FiiiP12PlayerStruct(int aframe, int spell, int clss, struct PlayerStruct *ptrplr) {
 	// register: 16
 	// size: 0x84
@@ -517,11 +619,15 @@ void do_spell_anim__FiiiP12PlayerStruct(int aframe, int spell, int clss, struct 
 
 
 // address: 0x8005DD00
+// line start: 3229
+// line end:   3290
 int PM_DoSpell__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005E070
+// line start: 3296
+// line end:   3321
 void ArmorDur__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 18
 	// size: 0x23A8
@@ -535,6 +641,8 @@ void ArmorDur__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005E16C
+// line start: 3326
+// line end:   3342
 int PM_DoGotHit__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 2
 	register int rv;
@@ -542,16 +650,22 @@ int PM_DoGotHit__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005E1E8
+// line start: 3349
+// line end:   3374
 int PM_DoDeath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005E328
+// line start: 3381
+// line end:   3382
 int PM_DoNewLvl__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005E330
+// line start: 3389
+// line end:   3696
 void CheckNewPath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int i;
@@ -563,11 +677,15 @@ void CheckNewPath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005E770
+// line start: 3708
+// line end:   3716
 unsigned char PlrDeathModeOK__Fi(int p) {
 }
 
 
 // address: 0x8005E7D8
+// line start: 3723
+// line end:   3761
 void ValidatePlayer__Fv() {
 	// register: 5
 	register int i;
@@ -583,11 +701,15 @@ void ValidatePlayer__Fv() {
 
 
 // address: 0x8005ECB4
+// line start: 3808
+// line end:   3825
 void CheckCheatStats__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005ED50
+// line start: 3834
+// line end:   3955
 void ProcessPlayers__Fv() {
 	// register: 16
 	register int raflag;
@@ -606,11 +728,15 @@ void ProcessPlayers__Fv() {
 
 
 // address: 0x8005F084
+// line start: 3961
+// line end:   3964
 void ClrPlrPath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005F0AC
+// line start: 3972
+// line end:   3997
 unsigned char PosOkPlayer__FP12PlayerStructii(struct PlayerStruct *ptrplr, int px, int py) {
 	// register: 2
 	register int mi;
@@ -625,11 +751,15 @@ unsigned char PosOkPlayer__FP12PlayerStructii(struct PlayerStruct *ptrplr, int p
 
 
 // address: 0x8005F254
+// line start: 4004
+// line end:   4056
 void MakePlrPath__FP12PlayerStructiiUc(struct PlayerStruct *ptrplr, int xx, int yy, unsigned char endspace) {
 }
 
 
 // address: 0x8005F25C
+// line start: 4062
+// line end:   4155
 void CheckPlrSpell__Fv() {
 	// register: 16
 	register int sd;
@@ -647,6 +777,8 @@ void CheckPlrSpell__Fv() {
 
 
 // address: 0x8005F664
+// line start: 4222
+// line end:   4246
 void SyncInitPlrPos__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	{
 		{
@@ -658,11 +790,15 @@ void SyncInitPlrPos__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005F7A0
+// line start: 4250
+// line end:   4255
 void SyncInitPlr__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005F7D0
+// line start: 4272
+// line end:   4306
 void CheckStats__Fi(int p) {
 	// register: 4
 	register int c;
@@ -675,6 +811,8 @@ void CheckStats__Fi(int p) {
 
 
 // address: 0x8005F96C
+// line start: 4313
+// line end:   4325
 void ModifyPlrStr__Fii(int p, int l) {
 	// register: 6
 	// size: 0x23A8
@@ -685,6 +823,8 @@ void ModifyPlrStr__Fii(int p, int l) {
 
 
 // address: 0x8005FA88
+// line start: 4333
+// line end:   4350
 void ModifyPlrMag__Fii(int p, int l) {
 	// register: 6
 	// size: 0x23A8
@@ -695,6 +835,8 @@ void ModifyPlrMag__Fii(int p, int l) {
 
 
 // address: 0x8005FB74
+// line start: 4358
+// line end:   4368
 void ModifyPlrDex__Fii(int p, int l) {
 	// register: 16
 	// size: 0x23A8
@@ -705,6 +847,8 @@ void ModifyPlrDex__Fii(int p, int l) {
 
 
 // address: 0x8005FC58
+// line start: 4376
+// line end:   4390
 void ModifyPlrVit__Fii(int p, int l) {
 	// register: 6
 	// size: 0x23A8
@@ -715,11 +859,15 @@ void ModifyPlrVit__Fii(int p, int l) {
 
 
 // address: 0x8005FD34
+// line start: 4398
+// line end:   4403
 void SetPlayerHitPoints__FP12PlayerStructi(struct PlayerStruct *ptrplr, int newhp) {
 }
 
 
 // address: 0x8005FD78
+// line start: 4410
+// line end:   4419
 void SetPlrStr__Fii(int p, int v) {
 	// register: 16
 	// size: 0x23A8
@@ -728,6 +876,8 @@ void SetPlrStr__Fii(int p, int v) {
 
 
 // address: 0x8005FE54
+// line start: 4426
+// line end:   4435
 void SetPlrMag__Fii(int p, int v) {
 	// register: 6
 	// size: 0x23A8
@@ -736,6 +886,8 @@ void SetPlrMag__Fii(int p, int v) {
 
 
 // address: 0x8005FEC4
+// line start: 4442
+// line end:   4451
 void SetPlrDex__Fii(int p, int v) {
 	// register: 16
 	// size: 0x23A8
@@ -744,6 +896,8 @@ void SetPlrDex__Fii(int p, int v) {
 
 
 // address: 0x8005FFA0
+// line start: 4458
+// line end:   4467
 void SetPlrVit__Fii(int p, int v) {
 	// register: 3
 	// size: 0x23A8
@@ -752,11 +906,15 @@ void SetPlrVit__Fii(int p, int v) {
 
 
 // address: 0x8006000C
+// line start: 4474
+// line end:   4477
 void InitDungMsgs__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060014
+// line start: 4484
+// line end:   4551
 void PlayDungMsgs__Fv() {
 	// register: 4
 	// size: 0x23A8
@@ -765,246 +923,344 @@ void PlayDungMsgs__Fv() {
 
 
 // address: 0x80060344
+// line start: 4554
+// line end:   4554
 void CreatePlrItems__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8006036C
+// line start: 4555
+// line end:   4555
 void WorldToOffset__FP12PlayerStructii(struct PlayerStruct *ptrplr, int x, int y) {
 }
 
 
 // address: 0x800603B0
+// line start: 4556
+// line end:   4556
 void SetSpdbarGoldCurs__FP12PlayerStructi(struct PlayerStruct *ptrplr, int i) {
 }
 
 
 // address: 0x800603E4
+// line start: 4557
+// line end:   4557
 int GetSpellLevel__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x80060418
+// line start: 4558
+// line end:   4558
 void BreakObject__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x8006044C
+// line start: 4559
+// line end:   4559
 void CalcPlrInv__FP12PlayerStructUc(struct PlayerStruct *ptrplr, unsigned char bl) {
 }
 
 
 // address: 0x80060480
+// line start: 4560
+// line end:   4560
 void RemoveSpdBarItem__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x800604B4
+// line start: 4561
+// line end:   4561
 void M_StartKill__FiP12PlayerStruct(int m, struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x800604EC
+// line start: 4562
+// line end:   4562
 void SetGoldCurs__FP12PlayerStructi(struct PlayerStruct *ptrplr, int i) {
 }
 
 
 // address: 0x80060520
+// line start: 4563
+// line end:   4563
 void HealStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060548
+// line start: 4564
+// line end:   4564
 void HealotherStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060570
+// line start: 4565
+// line end:   4565
 int CalculateGold__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060598
+// line start: 4566
+// line end:   4566
 void M_StartHit__FiP12PlayerStructi(int m, struct PlayerStruct *ptrplr, int dam) {
 }
 
 
 // address: 0x800605E0
+// line start: 4567
+// line end:   4567
 void TeleStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060608
+// line start: 4568
+// line end:   4568
 void PhaseStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060630
+// line start: 4569
+// line end:   4569
 void RemoveInvItem__FP12PlayerStructi(struct PlayerStruct *ptrplr, int i) {
 }
 
 
 // address: 0x80060664
+// line start: 4570
+// line end:   4570
 void InvisStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8006068C
+// line start: 4571
+// line end:   4571
 void PhaseEnd__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x800606B4
+// line start: 4572
+// line end:   4572
 void OperateObject__FP12PlayerStructiUc(struct PlayerStruct *ptrplr, int oi, unsigned char bl) {
 }
 
 
 // address: 0x800606F8
+// line start: 4573
+// line end:   4573
 void TryDisarm__FP12PlayerStructi(struct PlayerStruct *ptrplr, int oi) {
 }
 
 
 // address: 0x8006072C
+// line start: 4574
+// line end:   4574
 void TalkToTowner__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x80060760
+// line start: 4576
+// line end:   4576
 unsigned char PosOkPlayer__Fiii(int pnum, int x, int y) {
 }
 
 
 // address: 0x800607AC
+// line start: 4577
+// line end:   4577
 int CalcStatDiff__Fi(int pnum) {
 }
 
 
 // address: 0x800607F8
+// line start: 4578
+// line end:   4578
 void StartNewLvl__Fiii(int pnum, int fom, int lvl) {
 }
 
 
 // address: 0x80060844
+// line start: 4579
+// line end:   4579
 void CreatePlayer__Fic(int pnum, char c) {
 }
 
 
 // address: 0x80060898
+// line start: 4580
+// line end:   4580
 void StartStand__Fii(int pnum, int dir) {
 }
 
 
 // address: 0x800608E4
+// line start: 4581
+// line end:   4581
 void SetPlayerHitPoints__Fii(int pnum, int val) {
 }
 
 
 // address: 0x80060930
+// line start: 4582
+// line end:   4582
 void MakePlrPath__FiiiUc(int pnum, int xx, int yy, unsigned char endspace) {
 }
 
 
 // address: 0x80060980
+// line start: 4583
+// line end:   4583
 void StartWarpLvl__Fii(int pnum, int pidx) {
 }
 
 
 // address: 0x800609CC
+// line start: 4584
+// line end:   4584
 void SyncPlrKill__Fii(int pnum, int earflag) {
 }
 
 
 // address: 0x80060A18
+// line start: 4585
+// line end:   4585
 void StartPlrKill__Fii(int pnum, int val) {
 }
 
 
 // address: 0x80060A64
+// line start: 4586
+// line end:   4586
 void NewPlrAnim__Fiiii(int pnum, int Peq, int numFrames, int Delay) {
 }
 
 
 // address: 0x80060AB0
+// line start: 4587
+// line end:   4587
 void AddPlrExperience__Fiil(int pnum, int lvl, long exp) {
 }
 
 
 // address: 0x80060AFC
+// line start: 4588
+// line end:   4588
 void StartPlrBlock__Fii(int pnum, int dir) {
 }
 
 
 // address: 0x80060B48
+// line start: 4589
+// line end:   4589
 void StartPlrHit__FiiUc(int pnum, int dam, unsigned char forcehit) {
 }
 
 
 // address: 0x80060B98
+// line start: 4590
+// line end:   4590
 void StartSpell__Fiiii(int pnum, int d, int cx, int cy) {
 }
 
 
 // address: 0x80060BE4
+// line start: 4592
+// line end:   4592
 void InitPlayer__FiUc(int pnum, unsigned char FirstTime) {
 }
 
 
 // address: 0x80060C34
+// line start: 4594
+// line end:   4594
 void PM_ChangeLightOff__Fi(int pnum) {
 }
 
 
 // address: 0x80060C80
+// line start: 4595
+// line end:   4595
 void CheckNewPath__Fi(int pnum) {
 }
 
 
 // address: 0x80060CCC
+// line start: 4596
+// line end:   4596
 void FreePlayerGFX__Fi(int pnum) {
 }
 
 
 // address: 0x80060D18
+// line start: 4597
+// line end:   4597
 void InitDungMsgs__Fi(int pnum) {
 }
 
 
 // address: 0x80060D64
+// line start: 4598
+// line end:   4598
 void InitPlayerGFX__Fi(int pnum) {
 }
 
 
 // address: 0x80060DB0
+// line start: 4599
+// line end:   4599
 void SyncInitPlrPos__Fi(int pnum) {
 }
 
 
 // address: 0x80060DFC
+// line start: 4600
+// line end:   4600
 void SetPlrAnims__Fi(int pnum) {
 }
 
 
 // address: 0x80060E48
+// line start: 4601
+// line end:   4601
 void ClrPlrPath__Fi(int pnum) {
 }
 
 
 // address: 0x80060E94
+// line start: 4602
+// line end:   4602
 void SyncInitPlr__Fi(int pnum) {
 }
 
 
 // address: 0x80060EE0
+// line start: 4603
+// line end:   4603
 void RestartTownLvl__Fi(int pnum) {
 }
 
 
 // address: 0x80060F2C
+// line start: 4604
+// line end:   4604
 void SetPlayerOld__Fi(int pnum) {
 }
 
 
 // address: 0x80060F78
+// line start: 4612
+// line end:   4613
 void GetGoldSeed__FP12PlayerStructP10ItemStruct(struct PlayerStruct *ptrplr, struct ItemStruct *h) {
 }
 

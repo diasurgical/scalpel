@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80063CF8
+// line start: 85
+// line end:   315
 void DrawView__Fii(int StartX, int StartY) {
 	{
 		{
@@ -17,6 +19,8 @@ void DrawView__Fii(int StartX, int StartY) {
 
 
 // address: 0x80063F64
+// line start: 326
+// line end:   384
 void DrawAndBlit__Fv() {
 	// register: 16
 	register unsigned char ctrlPan;

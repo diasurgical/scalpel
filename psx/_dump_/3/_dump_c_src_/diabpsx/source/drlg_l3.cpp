@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8013DB1C
+// line start: 398
+// line end:   408
 void InitL3Dungeon__Fv() {
 	// register: 7
 	register int i;
@@ -12,6 +14,8 @@ void InitL3Dungeon__Fv() {
 
 
 // address: 0x8013DBA4
+// line start: 414
+// line end:   447
 int DRLG_L3FillRoom__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 16
 	register int i;
@@ -25,6 +29,8 @@ int DRLG_L3FillRoom__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x8013DE00
+// line start: 453
+// line end:   504
 void DRLG_L3CreateBlock__Fiiii(int x, int y, int obs, int dir) {
 	// register: 17
 	register int blksizex;
@@ -44,6 +50,8 @@ void DRLG_L3CreateBlock__Fiiii(int x, int y, int obs, int dir) {
 
 
 // address: 0x8013E09C
+// line start: 511
+// line end:   517
 void DRLG_L3FloorArea__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 3
 	register int i;
@@ -53,6 +61,8 @@ void DRLG_L3FloorArea__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x8013E104
+// line start: 523
+// line end:   547
 void DRLG_L3FillDiags__Fv() {
 	// register: 22
 	register int j;
@@ -62,6 +72,8 @@ void DRLG_L3FillDiags__Fv() {
 
 
 // address: 0x8013E234
+// line start: 553
+// line end:   574
 void DRLG_L3FillSingles__Fv() {
 	// register: 12
 	register int i;
@@ -73,6 +85,8 @@ void DRLG_L3FillSingles__Fv() {
 
 
 // address: 0x8013E300
+// line start: 580
+// line end:   681
 void DRLG_L3FillStraights__Fv() {
 	// register: 19
 	register int i;
@@ -92,6 +106,8 @@ void DRLG_L3FillStraights__Fv() {
 
 
 // address: 0x8013E6C4
+// line start: 687
+// line end:   691
 void DRLG_L3Edges__Fv() {
 	// register: 3
 	register int j;
@@ -99,6 +115,8 @@ void DRLG_L3Edges__Fv() {
 
 
 // address: 0x8013E704
+// line start: 697
+// line end:   705
 int DRLG_L3GetFloorArea__Fv() {
 	// register: 4
 	register int i;
@@ -110,6 +128,8 @@ int DRLG_L3GetFloorArea__Fv() {
 
 
 // address: 0x8013E754
+// line start: 711
+// line end:   738
 void DRLG_L3MakeMegas__Fv() {
 	// register: 6
 	register int v;
@@ -117,6 +137,8 @@ void DRLG_L3MakeMegas__Fv() {
 
 
 // address: 0x8013E898
+// line start: 744
+// line end:   952
 void DRLG_L3River__Fv() {
 	// register: 16
 	register int rx;
@@ -159,6 +181,8 @@ void DRLG_L3River__Fv() {
 
 
 // address: 0x8013F2D8
+// line start: 957
+// line end:   981
 int DRLG_L3SpawnEdge__FiiPi(int x, int y, int *totarea) {
 	// register: 17
 	register unsigned char i;
@@ -169,6 +193,8 @@ int DRLG_L3SpawnEdge__FiiPi(int x, int y, int *totarea) {
 
 
 // address: 0x8013F564
+// line start: 987
+// line end:   1016
 int DRLG_L3Spawn__FiiPi(int x, int y, int *totarea) {
 	// register: 19
 	register unsigned char i;
@@ -179,6 +205,8 @@ int DRLG_L3Spawn__FiiPi(int x, int y, int *totarea) {
 
 
 // address: 0x8013F778
+// line start: 1022
+// line end:   1069
 void DRLG_L3Pool__Fv() {
 	// register: 8
 	register int i;
@@ -203,6 +231,8 @@ void DRLG_L3Pool__Fv() {
 
 
 // address: 0x8013F9CC
+// line start: 1075
+// line end:   1095
 void DRLG_L3PoolFix__Fv() {
 	// register: 9
 	register int dunx;
@@ -212,6 +242,8 @@ void DRLG_L3PoolFix__Fv() {
 
 
 // address: 0x8013FB00
+// line start: 1102
+// line end:   1240
 int DRLG_L3PlaceMiniSet__FPCUciiiiii(unsigned char *miniset, int tmin, int tmax, int cx, int cy, int setview, int ldir) {
 	// register: 17
 	register int sx;
@@ -239,6 +271,8 @@ int DRLG_L3PlaceMiniSet__FPCUciiiiii(unsigned char *miniset, int tmin, int tmax,
 
 
 // address: 0x8013FE80
+// line start: 1246
+// line end:   1299
 void DRLG_L3PlaceRndSet__FPCUci(unsigned char *miniset, int rndper) {
 	// register: 17
 	register int sx;
@@ -262,26 +296,36 @@ void DRLG_L3PlaceRndSet__FPCUci(unsigned char *miniset, int rndper) {
 
 
 // address: 0x801401C8
+// line start: 1346
+// line end:   1357
 unsigned char WoodVertU__Fii(int i, int y) {
 }
 
 
 // address: 0x80140274
+// line start: 1363
+// line end:   1372
 unsigned char WoodVertD__Fii(int i, int y) {
 }
 
 
 // address: 0x80140310
+// line start: 1378
+// line end:   1389
 unsigned char WoodHorizL__Fii(int x, int j) {
 }
 
 
 // address: 0x801403A4
+// line start: 1395
+// line end:   1404
 unsigned char WoodHorizR__Fii(int x, int j) {
 }
 
 
 // address: 0x80140428
+// line start: 1416
+// line end:   1434
 void AddFenceDoors__Fv() {
 	// register: 8
 	register int j;
@@ -289,6 +333,8 @@ void AddFenceDoors__Fv() {
 
 
 // address: 0x8014050C
+// line start: 1447
+// line end:   1481
 void FenceDoorFix__Fv() {
 	// register: 11
 	register int j;
@@ -296,6 +342,8 @@ void FenceDoorFix__Fv() {
 
 
 // address: 0x80140700
+// line start: 1487
+// line end:   1641
 void DRLG_L3Wood__Fv() {
 	// register: 22
 	register int i;
@@ -327,6 +375,8 @@ void DRLG_L3Wood__Fv() {
 
 
 // address: 0x80140EF0
+// line start: 1648
+// line end:   1714
 int DRLG_L3Anvil__Fv() {
 	// register: 18
 	register int sx;
@@ -350,6 +400,8 @@ int DRLG_L3Anvil__Fv() {
 
 
 // address: 0x8014114C
+// line start: 1721
+// line end:   1747
 void FixL3Warp__Fv() {
 	// register: 10
 	register int j;
@@ -357,6 +409,8 @@ void FixL3Warp__Fv() {
 
 
 // address: 0x80141234
+// line start: 1753
+// line end:   1779
 void FixL3HallofHeroes__Fv() {
 	// register: 6
 	register int i;
@@ -366,11 +420,15 @@ void FixL3HallofHeroes__Fv() {
 
 
 // address: 0x80141388
+// line start: 1789
+// line end:   1797
 void DRLG_L3LockRec__Fii(int x, int y) {
 }
 
 
 // address: 0x80141424
+// line start: 1802
+// line end:   1823
 unsigned char DRLG_L3Lockout__Fv() {
 	// register: 7
 	register int i;
@@ -386,6 +444,8 @@ unsigned char DRLG_L3Lockout__Fv() {
 
 
 // address: 0x801414E4
+// line start: 1830
+// line end:   1983
 void DRLG_L3__Fi(int entry) {
 	// register: 19
 	register int x1;
@@ -409,6 +469,8 @@ void DRLG_L3__Fi(int entry) {
 
 
 // address: 0x80141C04
+// line start: 1991
+// line end:   2044
 void DRLG_L3Pass3__Fv() {
 	// register: 11
 	register int i;
@@ -432,6 +494,8 @@ void DRLG_L3Pass3__Fv() {
 
 
 // address: 0x80141DA8
+// line start: 2053
+// line end:   2108
 void CreateL3Dungeon__FUii(unsigned int rseed, int entry) {
 	// register: 16
 	register int i;
@@ -441,6 +505,8 @@ void CreateL3Dungeon__FUii(unsigned int rseed, int entry) {
 
 
 // address: 0x80141EBC
+// line start: 2116
+// line end:   2178
 void LoadL3Dungeon__FPcii(char *sFileName, int vx, int vy) {
 	// register: 16
 	register int i;
@@ -460,6 +526,8 @@ void LoadL3Dungeon__FPcii(char *sFileName, int vx, int vy) {
 
 
 // address: 0x801420E0
+// line start: 2184
+// line end:   2219
 void LoadPreL3Dungeon__FPcii(char *sFileName, int vx, int vy) {
 	// register: 5
 	register int i;

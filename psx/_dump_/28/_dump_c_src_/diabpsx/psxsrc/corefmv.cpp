@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8009FDA4
+// line start: 90
+// line end:   125
 short PlayFMV__FPcii(char *str, int w, int h) {
 	// register: 16
 	register short RetVal;
@@ -13,6 +15,8 @@ short PlayFMV__FPcii(char *str, int w, int h) {
 
 
 // address: 0x8009FE64
+// line start: 130
+// line end:   144
 void play_movie(char *pszMovie) {
 	{
 		{

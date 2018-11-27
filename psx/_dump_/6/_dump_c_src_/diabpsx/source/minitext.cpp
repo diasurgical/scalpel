@@ -3,16 +3,22 @@
 #include "types.h"
 
 // address: 0x80047F50
+// line start: 108
+// line end:   111
 void FreeQuestText__Fv() {
 }
 
 
 // address: 0x80047F58
+// line start: 115
+// line end:   119
 void InitQuestText__Fv() {
 }
 
 
 // address: 0x80047F64
+// line start: 127
+// line end:   168
 void CalcTextSpeed__FPCc(char *Name) {
 	// register: 16
 	register char *ptr;
@@ -31,6 +37,8 @@ void CalcTextSpeed__FPCc(char *Name) {
 
 
 // address: 0x800480A4
+// line start: 177
+// line end:   205
 void InitQTextMsg__Fi(int m) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -39,11 +47,15 @@ void InitQTextMsg__Fi(int m) {
 
 
 // address: 0x800481CC
+// line start: 210
+// line end:   216
 void DrawQTextBack__Fv() {
 }
 
 
 // address: 0x8004823C
+// line start: 224
+// line end:   232
 void PrintCDWait__Fv() {
 	// register: 2
 	// size: 0x28
@@ -52,11 +64,15 @@ void PrintCDWait__Fv() {
 
 
 // address: 0x800482C8
+// line start: 239
+// line end:   259
 void DrawQTextTSK__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80048394
+// line start: 265
+// line end:   355
 void DrawQText__Fv() {
 	// register: 18
 	register char *p;
@@ -82,11 +98,15 @@ void DrawQText__Fv() {
 
 
 // address: 0x800486C4
+// line start: 359
+// line end:   359
 void _GLOBAL__D_QBack() {
 }
 
 
 // address: 0x800486EC
+// line start: 359
+// line end:   359
 void _GLOBAL__I_QBack() {
 }
 

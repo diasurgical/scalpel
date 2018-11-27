@@ -4,16 +4,22 @@
 
 // address: 0x8007AF2C
 // size: 0xB8
+// line start: 61
+// line end:   62
 struct CompLevelMaps *__13CompLevelMaps(struct CompLevelMaps *this) {
 }
 
 
 // address: 0x8007AF58
+// line start: 70
+// line end:   70
 void ___13CompLevelMaps(struct CompLevelMaps *this, int __in_chrg) {
 }
 
 
 // address: 0x8007AF80
+// line start: 78
+// line end:   84
 void Init__13CompLevelMaps(struct CompLevelMaps *this) {
 	{
 		// register: 3
@@ -23,6 +29,8 @@ void Init__13CompLevelMaps(struct CompLevelMaps *this) {
 
 
 // address: 0x8007AFB0
+// line start: 92
+// line end:   108
 void Dump__13CompLevelMaps(struct CompLevelMaps *this) {
 	{
 		{
@@ -36,6 +44,8 @@ void Dump__13CompLevelMaps(struct CompLevelMaps *this) {
 
 
 // address: 0x8007B054
+// line start: 117
+// line end:   123
 void DumpMap__13CompLevelMapsi(struct CompLevelMaps *this, int MapNum) {
 	{
 		{
@@ -46,21 +56,29 @@ void DumpMap__13CompLevelMapsi(struct CompLevelMaps *this, int MapNum) {
 
 // address: 0x8007B0BC
 // size: 0xF1C
+// line start: 132
+// line end:   152
 struct DLevel *UseMap__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 }
 
 
 // address: 0x8007B190
+// line start: 160
+// line end:   171
 void ReleaseMap__13CompLevelMapsP6DLevel(struct CompLevelMaps *this, struct DLevel *Map) {
 }
 
 
 // address: 0x8007B200
+// line start: 179
+// line end:   185
 bool IsMapCached__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 }
 
 
 // address: 0x8007B274
+// line start: 195
+// line end:   250
 void WriteBackCachedMap__13CompLevelMaps(struct CompLevelMaps *this) {
 	// register: 16
 	register unsigned char *DecDest;
@@ -78,6 +96,8 @@ void WriteBackCachedMap__13CompLevelMaps(struct CompLevelMaps *this) {
 
 
 // address: 0x8007B488
+// line start: 258
+// line end:   302
 void DecompToCached__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 	// register: 17
 	// size: 0xF1C
@@ -92,6 +112,8 @@ void DecompToCached__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 
 
 // address: 0x8007B628
+// line start: 310
+// line end:   356
 void BuildCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLevelMaps *this, struct CompLevelMemImage *Dest) {
 	// register: 20
 	register unsigned char *DestPtr;
@@ -113,6 +135,8 @@ void BuildCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLevelMa
 
 
 // address: 0x8007B788
+// line start: 364
+// line end:   401
 void InitFromCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLevelMaps *this, struct CompLevelMemImage *Src) {
 	{
 		// register: 20
@@ -134,11 +158,15 @@ void InitFromCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLeve
 
 
 // address: 0x8007B8C8
+// line start: 408
+// line end:   414
 int DoComp__13CompLevelMapsPUcT1i(struct CompLevelMaps *this, unsigned char *Dest, unsigned char *Source, int SourceSize) {
 }
 
 
 // address: 0x8007B900
+// line start: 418
+// line end:   420
 int DoDecomp__13CompLevelMapsPUcT1ii(struct CompLevelMaps *this, unsigned char *Dest, unsigned char *Source, int DestSize, int SourceSize) {
 }
 

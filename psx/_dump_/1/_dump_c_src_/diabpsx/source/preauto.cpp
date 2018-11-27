@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x801488F8
+// line start: 135
+// line end:   196
 void InitAutomap__Fv() {
 	// register: 4
 	register int i;
@@ -35,6 +37,8 @@ void InitAutomap__Fv() {
 
 
 // address: 0x80148ABC
+// line start: 199
+// line end:   201
 void InitAutomapOnce__Fv() {
 }
 

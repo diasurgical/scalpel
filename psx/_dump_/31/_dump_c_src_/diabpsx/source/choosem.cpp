@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x801534A8
+// line start: 134
+// line end:   195
 unsigned long CM_QuestToBitPattern__Fi(int QuestNum) {
 	// register: 16
 	register unsigned long RetVal;
@@ -10,6 +12,8 @@ unsigned long CM_QuestToBitPattern__Fi(int QuestNum) {
 
 
 // address: 0x80153580
+// line start: 227
+// line end:   240
 void CM_ShowMonsterList__Fii(int Level, int List) {
 	// register: 2
 	// size: 0x10
@@ -18,6 +22,8 @@ void CM_ShowMonsterList__Fii(int Level, int List) {
 
 
 // address: 0x801535F8
+// line start: 251
+// line end:   276
 int CM_ChooseMonsterList__FiUl(int Level, unsigned long QuestsNeededMask) {
 	// register: 2
 	// size: 0x10
@@ -32,11 +38,15 @@ int CM_ChooseMonsterList__FiUl(int Level, unsigned long QuestsNeededMask) {
 
 
 // address: 0x80153698
+// line start: 288
+// line end:   289
 int NoUiListChoose__FiUl(int Level, unsigned long QuestsNeededMask) {
 }
 
 
 // address: 0x801536A0
+// line start: 302
+// line end:   465
 void ChooseTask__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -114,6 +124,8 @@ void ChooseTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80153BB4
+// line start: 475
+// line end:   523
 void ShowTask__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -141,6 +153,8 @@ void ShowTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80153DE4
+// line start: 534
+// line end:   559
 int GetListsAvailable__FiUlPUc(int Level, unsigned long QuestsNeededMask, unsigned char *ListofLists) {
 	// register: 17
 	register int NumOfChoices;

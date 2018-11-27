@@ -4,11 +4,15 @@
 
 // address: 0x80073B9C
 // size: 0x4
+// line start: 79
+// line end:   80
 enum LANG_TYPE LANG_GetLang__Fv() {
 }
 
 
 // address: 0x80073BA8
+// line start: 87
+// line end:   123
 void LANG_SetDb__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 	{
 		{
@@ -28,11 +32,15 @@ void LANG_SetDb__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 
 
 // address: 0x80073CAC
+// line start: 132
+// line end:   152
 char *GetStr__Fi(int StrId) {
 }
 
 
 // address: 0x80073D14
+// line start: 162
+// line end:   188
 void LANG_SetLang__F9LANG_TYPE(enum LANG_TYPE NewLanguageType) {
 	{
 		{
@@ -52,6 +60,8 @@ void LANG_SetLang__F9LANG_TYPE(enum LANG_TYPE NewLanguageType) {
 
 
 // address: 0x80073E18
+// line start: 200
+// line end:   209
 void DumpCurrentText__Fv() {
 	{
 		{
@@ -61,11 +71,15 @@ void DumpCurrentText__Fv() {
 
 
 // address: 0x80073E70
+// line start: 218
+// line end:   220
 int CalcNumOfStrings__FPPc(char **TPtr) {
 }
 
 
 // address: 0x80073E7C
+// line start: 230
+// line end:   246
 void GetLangFileName__F9LANG_TYPEPc(enum LANG_TYPE NewLanguageType, char *Dest) {
 	// register: 17
 	register char *Ext;
@@ -73,6 +87,8 @@ void GetLangFileName__F9LANG_TYPEPc(enum LANG_TYPE NewLanguageType, char *Dest) 
 
 
 // address: 0x80073F84
+// line start: 254
+// line end:   280
 char *GetLangFileNameExt__F9LANG_TYPE(enum LANG_TYPE NewLanguageType) {
 }
 

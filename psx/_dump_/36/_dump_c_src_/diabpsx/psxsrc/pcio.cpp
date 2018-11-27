@@ -4,16 +4,22 @@
 
 // address: 0x8007B414
 // size: 0x14
+// line start: 62
+// line end:   65
 struct PCIO *__4PCIOUl(struct PCIO *this, unsigned long OurMemId) {
 }
 
 
 // address: 0x8007B47C
+// line start: 75
+// line end:   75
 void ___4PCIO(struct PCIO *this, int __in_chrg) {
 }
 
 
 // address: 0x8007B4D4
+// line start: 85
+// line end:   93
 bool FileExists__4PCIOPCc(struct PCIO *this, char *Name) {
 	// register: 4
 	register int FileHnd;
@@ -21,6 +27,8 @@ bool FileExists__4PCIOPCc(struct PCIO *this, char *Name) {
 
 
 // address: 0x8007B518
+// line start: 106
+// line end:   118
 bool LoReadFileAtAddr__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char *Dest, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -28,6 +36,8 @@ bool LoReadFileAtAddr__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char
 
 
 // address: 0x8007B5DC
+// line start: 125
+// line end:   139
 int GetFileLength__4PCIOPCc(struct PCIO *this, char *Name) {
 	// register: 16
 	register int FileHnd;
@@ -37,6 +47,8 @@ int GetFileLength__4PCIOPCc(struct PCIO *this, char *Name) {
 
 
 // address: 0x8007B694
+// line start: 143
+// line end:   160
 bool LoSave__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char *Addr, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -44,6 +56,8 @@ bool LoSave__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char *Addr, in
 
 
 // address: 0x8007B768
+// line start: 169
+// line end:   214
 bool LoStreamFile__4PCIOPCciPFPUciib_bii(struct PCIO *this, char *Name, int Slice, bool (*Func)(), int Offset, int Size) {
 	// register: 19
 	register int FileHnd;

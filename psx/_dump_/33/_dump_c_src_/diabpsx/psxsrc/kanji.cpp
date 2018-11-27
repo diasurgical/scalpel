@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x800A0C48
+// line start: 40
+// line end:   52
 void LoadKanjiFont__FPc(char *name) {
 }
 
 
 // address: 0x800A0CDC
+// line start: 57
+// line end:   71
 void LoadKanjiIndex__FPc(char *name) {
 	// register: 16
 	// size: 0x14
@@ -16,11 +20,15 @@ void LoadKanjiIndex__FPc(char *name) {
 
 
 // address: 0x800A0D90
+// line start: 76
+// line end:   94
 void FreeKanji__Fv() {
 }
 
 
 // address: 0x800A0E18
+// line start: 101
+// line end:   123
 void LoadKanji__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 	// address: 0xFFFFFFD0
 	// size: 0x28
@@ -31,6 +39,8 @@ void LoadKanji__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 
 
 // address: 0x800A0EEC
+// line start: 129
+// line end:   147
 unsigned short *getb__FUs(unsigned short n) {
 	// register: 4
 	// size: 0x4
@@ -43,6 +53,8 @@ unsigned short *getb__FUs(unsigned short n) {
 
 
 // address: 0x800A0F5C
+// line start: 158
+// line end:   180
 void _get_font__FPUsUsUs(unsigned short *into, unsigned short num, unsigned short col) {
 	// register: 8
 	register unsigned short *p;
@@ -58,6 +70,8 @@ void _get_font__FPUsUsUs(unsigned short *into, unsigned short num, unsigned shor
 
 
 // address: 0x800A102C
+// line start: 188
+// line end:   229
 int KPrintChar__FUsUsUcUcUs(unsigned short Cx, unsigned short Cy, unsigned char h, unsigned char l, int col) {
 	// address: 0xFFFFFFE8
 	// size: 0x28

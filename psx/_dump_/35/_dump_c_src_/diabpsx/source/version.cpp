@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x800A3194
+// line start: 251
+// line end:   274
 char *GetVersionString__FPc(char *VersionString2) {
 	// address: 0xFFFFFFC8
 	// size: 0x28
@@ -11,6 +13,8 @@ char *GetVersionString__FPc(char *VersionString2) {
 
 
 // address: 0x800A3268
+// line start: 298
+// line end:   337
 char *GetWord__FPc(char *VStr) {
 	// register: 18
 	register bool Found;
@@ -27,6 +31,8 @@ char *GetWord__FPc(char *VStr) {
 
 
 // address: 0x8007B944
+// line start: 230
+// line end:   236
 void VER_InitVersion__Fv() {
 	// address: 0xFFFFFF80
 	// size: 0x78
@@ -35,11 +41,15 @@ void VER_InitVersion__Fv() {
 
 
 // address: 0x8007B988
+// line start: 240
+// line end:   241
 char *VER_GetVerString__Fv() {
 }
 
 
 // address: 0x8007B998
+// line start: 284
+// line end:   285
 int CharPair2Num__FPc(char *Str) {
 }
 

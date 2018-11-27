@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x80137394
+// line start: 274
+// line end:   275
 void EA_cd_seek(int secnum) {
 }
 
 
 // address: 0x801373BC
+// line start: 280
+// line end:   284
 void MY_CdGetSector(unsigned long *src, unsigned long *dst, int size) {
 	{
 		// register: 3
@@ -17,16 +21,22 @@ void MY_CdGetSector(unsigned long *src, unsigned long *dst, int size) {
 
 
 // address: 0x801373F0
+// line start: 297
+// line end:   303
 void init_cdstream(int chunksize, unsigned char *buf, int bufsize) {
 }
 
 
 // address: 0x80137400
+// line start: 308
+// line end:   315
 void flush_cdstream() {
 }
 
 
 // address: 0x80137424
+// line start: 324
+// line end:   336
 int check_complete_frame(struct strheader *h) {
 	// register: 7
 	register int ok;
@@ -36,16 +46,22 @@ int check_complete_frame(struct strheader *h) {
 
 
 // address: 0x801374A4
+// line start: 359
+// line end:   362
 void reset_cdstream() {
 }
 
 
 // address: 0x801374CC
+// line start: 367
+// line end:   379
 void kill_stream_handlers() {
 }
 
 
 // address: 0x8013753C
+// line start: 389
+// line end:   513
 void stream_cdready_handler(unsigned long *addr, int idx, int i, int sec) {
 	{
 		{
@@ -57,6 +73,8 @@ void stream_cdready_handler(unsigned long *addr, int idx, int i, int sec) {
 
 
 // address: 0x80137730
+// line start: 517
+// line end:   538
 void CD_stream_handler(struct TASK *T) {
 	{
 	}
@@ -64,11 +82,15 @@ void CD_stream_handler(struct TASK *T) {
 
 
 // address: 0x8013781C
+// line start: 545
+// line end:   554
 void install_stream_handlers() {
 }
 
 
 // address: 0x8013788C
+// line start: 565
+// line end:   587
 void cdstream_service() {
 	// register: 4
 	register int timeout_occured;
@@ -76,6 +98,8 @@ void cdstream_service() {
 
 
 // address: 0x80137924
+// line start: 621
+// line end:   656
 int cdstream_get_chunk(unsigned char **data, struct strheader **h) {
 	{
 		{
@@ -87,21 +111,29 @@ int cdstream_get_chunk(unsigned char **data, struct strheader **h) {
 
 
 // address: 0x80137A48
+// line start: 668
+// line end:   669
 int cdstream_is_last_chunk() {
 }
 
 
 // address: 0x80137A60
+// line start: 681
+// line end:   711
 void cdstream_discard_chunk() {
 }
 
 
 // address: 0x80137B60
+// line start: 721
+// line end:   738
 void close_cdstream() {
 }
 
 
 // address: 0x80137BD8
+// line start: 779
+// line end:   849
 int open_cdstream(char *fname, int secoffs, int seclen) {
 	// register: 16
 	register int len;
@@ -109,6 +141,8 @@ int open_cdstream(char *fname, int secoffs, int seclen) {
 
 
 // address: 0x80137D48
+// line start: 868
+// line end:   879
 int set_mdec_img_buffer(unsigned char *p) {
 	// register: 5
 	register int i;
@@ -118,6 +152,8 @@ int set_mdec_img_buffer(unsigned char *p) {
 
 
 // address: 0x80137D7C
+// line start: 893
+// line end:   929
 void start_mdec_decode(unsigned char *data, int x, int y, int w, int h) {
 	// register: 5
 	register int sz;
@@ -125,21 +161,29 @@ void start_mdec_decode(unsigned char *data, int x, int y, int w, int h) {
 
 
 // address: 0x80137F00
+// line start: 937
+// line end:   945
 void DCT_out_handler() {
 }
 
 
 // address: 0x80137F9C
+// line start: 955
+// line end:   969
 void init_mdec(unsigned char *vlc_buffer, unsigned char *vlc_table) {
 }
 
 
 // address: 0x8013800C
+// line start: 981
+// line end:   984
 void init_mdec_buffer(char *buf, int size) {
 }
 
 
 // address: 0x80138028
+// line start: 998
+// line end:   1067
 int split_poly_area(struct POLY_FT4 *p, struct POLY_FT4 *bp, int offs, struct RECT *r, int sx, int sy, int correct) {
 	// register: 30
 	register int xx;
@@ -165,6 +209,8 @@ int split_poly_area(struct POLY_FT4 *p, struct POLY_FT4 *bp, int offs, struct RE
 
 
 // address: 0x80138418
+// line start: 1076
+// line end:   1090
 void rebuild_mdec_polys(int x, int y) {
 	// register: 7
 	register int px;
@@ -177,11 +223,15 @@ void rebuild_mdec_polys(int x, int y) {
 
 
 // address: 0x801385EC
+// line start: 1101
+// line end:   1102
 void clear_mdec_frame() {
 }
 
 
 // address: 0x801385F8
+// line start: 1111
+// line end:   1150
 void draw_mdec_polys() {
 	// register: 10
 	register int i;
@@ -191,16 +241,22 @@ void draw_mdec_polys() {
 
 
 // address: 0x80138944
+// line start: 1156
+// line end:   1157
 void invalidate_mdec_frame() {
 }
 
 
 // address: 0x80138958
+// line start: 1166
+// line end:   1167
 int is_frame_decoded() {
 }
 
 
 // address: 0x80138964
+// line start: 1180
+// line end:   1223
 void init_mdec_polys(int x, int y, int w, int h, int bx1, int by1, int bx2, int by2, int correct) {
 	// address: 0xFFFFFFB0
 	// size: 0x8
@@ -211,6 +267,8 @@ void init_mdec_polys(int x, int y, int w, int h, int bx1, int by1, int bx2, int 
 
 
 // address: 0x80138CF4
+// line start: 1228
+// line end:   1237
 void set_mdec_poly_bright(int br) {
 	// register: 9
 	register int a;
@@ -222,11 +280,15 @@ void set_mdec_poly_bright(int br) {
 
 
 // address: 0x80138D5C
+// line start: 1249
+// line end:   1254
 int init_mdec_stream(unsigned char *buftop, int sectors_per_frame, int mdec_frames_per_buffer) {
 }
 
 
 // address: 0x80138DAC
+// line start: 1260
+// line end:   1290
 void init_mdec_audio(int rate) {
 	// address: 0xFFFFFFD0
 	// size: 0x28
@@ -235,16 +297,22 @@ void init_mdec_audio(int rate) {
 
 
 // address: 0x80138E64
+// line start: 1296
+// line end:   1298
 void kill_mdec_audio() {
 }
 
 
 // address: 0x80138E94
+// line start: 1303
+// line end:   1304
 void stop_mdec_audio() {
 }
 
 
 // address: 0x80138EB8
+// line start: 1311
+// line end:   1416
 void play_mdec_audio(unsigned char *data, struct asec *h) {
 	// register: 16
 	register int i;
@@ -263,6 +331,8 @@ void play_mdec_audio(unsigned char *data, struct asec *h) {
 
 
 // address: 0x80139154
+// line start: 1423
+// line end:   1436
 void set_mdec_audio_volume(short vol, struct SpuVoiceAttr voice_attr) {
 	// register: 16
 	register int i;
@@ -270,16 +340,22 @@ void set_mdec_audio_volume(short vol, struct SpuVoiceAttr voice_attr) {
 
 
 // address: 0x80139220
+// line start: 1442
+// line end:   1444
 void resync_audio() {
 }
 
 
 // address: 0x80139250
+// line start: 1453
+// line end:   1460
 void stop_mdec_stream() {
 }
 
 
 // address: 0x8013929C
+// line start: 1466
+// line end:   1485
 void dequeue_stream() {
 	// register: 16
 	// size: 0x14
@@ -288,6 +364,8 @@ void dequeue_stream() {
 
 
 // address: 0x80139388
+// line start: 1492
+// line end:   1535
 void dequeue_animation() {
 	// register: 16
 	// size: 0x14
@@ -296,6 +374,8 @@ void dequeue_animation() {
 
 
 // address: 0x80139538
+// line start: 1554
+// line end:   1612
 void decode_mdec_stream(int frames_elapsed) {
 	// address: 0xFFFFFFF0
 	auto unsigned char *data;
@@ -308,6 +388,8 @@ void decode_mdec_stream(int frames_elapsed) {
 
 
 // address: 0x80139724
+// line start: 1632
+// line end:   1651
 void play_mdec_stream(char *filename, int speed, int start, int end) {
 	// register: 3
 	// size: 0x14
@@ -316,11 +398,15 @@ void play_mdec_stream(char *filename, int speed, int start, int end) {
 
 
 // address: 0x801397D8
+// line start: 1658
+// line end:   1661
 void clear_mdec_queue() {
 }
 
 
 // address: 0x80139804
+// line start: 1672
+// line end:   1678
 void StrClearVRAM() {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -329,6 +415,8 @@ void StrClearVRAM() {
 
 
 // address: 0x80139868
+// line start: 1688
+// line end:   1868
 short PlayFMVOverLay(char *filename, int w, int h) {
 	// register: 20
 	register int start_time;

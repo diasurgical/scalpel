@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8005F2C8
+// line start: 160
+// line end:   220
 void TSK_Lava2Water__FP4TASK(struct TASK *T) {
 	// address: 0xFFFFFFB0
 	// size: 0x20
@@ -61,6 +63,8 @@ void TSK_Lava2Water__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8005F514
+// line start: 226
+// line end:   305
 void CheckQuests__Fv() {
 	// register: 20
 	register int i;
@@ -87,6 +91,8 @@ void CheckQuests__Fv() {
 
 
 // address: 0x8005F9D4
+// line start: 309
+// line end:   336
 unsigned char ForceQuests__Fv() {
 	{
 		// register: 6
@@ -108,11 +114,15 @@ unsigned char ForceQuests__Fv() {
 
 
 // address: 0x8005FB78
+// line start: 341
+// line end:   347
 unsigned char QuestStatus__Fi(int i) {
 }
 
 
 // address: 0x8005FC0C
+// line start: 353
+// line end:   458
 void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 	{
 		{
@@ -142,21 +152,29 @@ void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 
 
 // address: 0x800601EC
+// line start: 492
+// line end:   517
 void SetReturnLvlPos__Fv() {
 }
 
 
 // address: 0x800602FC
+// line start: 525
+// line end:   530
 void GetReturnLvlPos__Fv() {
 }
 
 
 // address: 0x80060350
+// line start: 537
+// line end:   559
 void ResyncMPQuests__Fv() {
 }
 
 
 // address: 0x8006048C
+// line start: 569
+// line end:   658
 void ResyncQuests__Fv() {
 	// register: 16
 	register int i;
@@ -166,6 +184,8 @@ void ResyncQuests__Fv() {
 
 
 // address: 0x800609EC
+// line start: 674
+// line end:   715
 void PrintQLString__FiiUcPcc(int x, int y, unsigned char cjustflag, char *str, int col) {
 	// register: 10
 	register unsigned char r;
@@ -183,6 +203,8 @@ void PrintQLString__FiiUcPcc(int x, int y, unsigned char cjustflag, char *str, i
 
 
 // address: 0x80060C18
+// line start: 724
+// line end:   754
 void DrawQuestLog__Fv() {
 	// register: 18
 	register int i;
@@ -194,11 +216,15 @@ void DrawQuestLog__Fv() {
 
 
 // address: 0x80060DE0
+// line start: 764
+// line end:   785
 void DrawQuestLogTSK__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80060E78
+// line start: 793
+// line end:   814
 void StartQuestlog__Fv() {
 	// register: 5
 	register int i;
@@ -206,21 +232,29 @@ void StartQuestlog__Fv() {
 
 
 // address: 0x80060F90
+// line start: 821
+// line end:   839
 void QuestlogUp__Fv() {
 }
 
 
 // address: 0x80060FE4
+// line start: 847
+// line end:   867
 void QuestlogDown__Fv() {
 }
 
 
 // address: 0x80061050
+// line start: 876
+// line end:   888
 void RemoveQLog__Fv() {
 }
 
 
 // address: 0x800610C8
+// line start: 893
+// line end:   914
 void QuestlogEnter__Fv() {
 	// register: 3
 	register int q;
@@ -228,21 +262,29 @@ void QuestlogEnter__Fv() {
 
 
 // address: 0x8006118C
+// line start: 922
+// line end:   924
 void QuestlogESC__Fv() {
 }
 
 
 // address: 0x800611B4
+// line start: 931
+// line end:   951
 void SetMultiQuest__FiiUci(int q, int s, unsigned char l, int v1) {
 }
 
 
 // address: 0x80061234
+// line start: 998
+// line end:   998
 void _GLOBAL__D_questlog() {
 }
 
 
 // address: 0x8006125C
+// line start: 998
+// line end:   998
 void _GLOBAL__I_questlog() {
 }
 

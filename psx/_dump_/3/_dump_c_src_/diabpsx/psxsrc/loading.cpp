@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8009B000
+// line start: 139
+// line end:   144
 void UPDATEPROGRESS__Fi(int inc) {
 	{
 		// register: 16
@@ -12,11 +14,15 @@ void UPDATEPROGRESS__Fi(int inc) {
 
 
 // address: 0x8009B060
+// line start: 155
+// line end:   156
 bool IsGameLoading__Fv() {
 }
 
 
 // address: 0x8009B06C
+// line start: 166
+// line end:   235
 void PutUpCutScreenTSK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -36,6 +42,8 @@ void PutUpCutScreenTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8009B4C0
+// line start: 247
+// line end:   273
 void PutUpCutScreen__Fi(int lev) {
 	// register: 2
 	// size: 0x10
@@ -44,21 +52,29 @@ void PutUpCutScreen__Fi(int lev) {
 
 
 // address: 0x8009B570
+// line start: 283
+// line end:   290
 void TakeDownCutScreen__Fv() {
 }
 
 
 // address: 0x8009B5B8
+// line start: 301
+// line end:   305
 void FinishProgress__Fv() {
 }
 
 
 // address: 0x8009B67C
+// line start: 310
+// line end:   310
 void _GLOBAL__D_UPDATEPROGRESS__Fi() {
 }
 
 
 // address: 0x8009B6B4
+// line start: 310
+// line end:   310
 void _GLOBAL__I_UPDATEPROGRESS__Fi() {
 }
 

@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x800A24CC
+// line start: 1298
+// line end:   1303
 void GM_Open__Fv() {
 	{
 		// register: 3
@@ -13,16 +15,22 @@ void GM_Open__Fv() {
 
 // address: 0x8007E638
 // size: 0x6C
+// line start: 116
+// line end:   122
 struct TextDat *__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x8007E678
+// line start: 132
+// line end:   133
 void ___7TextDat(struct TextDat *this, int __in_chrg) {
 }
 
 
 // address: 0x8007E6C0
+// line start: 143
+// line end:   204
 void Use__7TextDat(struct TextDat *this) {
 	{
 		{
@@ -44,6 +52,8 @@ void Use__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007E8B4
+// line start: 222
+// line end:   250
 bool TpLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
 	// address: 0x8012DB34
 	static int TpX;
@@ -63,6 +73,8 @@ bool TpLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool L
 
 
 // address: 0x8007E984
+// line start: 253
+// line end:   277
 void StreamLoadTP__7TextDat(struct TextDat *this) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
@@ -71,11 +83,15 @@ void StreamLoadTP__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007EA3C
+// line start: 292
+// line end:   305
 void FinishedUsing__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x8007EA98
+// line start: 316
+// line end:   323
 void MakeBlockOffsetTab__7TextDat(struct TextDat *this) {
 	{
 		{
@@ -85,6 +101,8 @@ void MakeBlockOffsetTab__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007EB08
+// line start: 328
+// line end:   350
 long MakeOffsetTab__C9CBlockHdr(struct CBlockHdr *this) {
 	// register: 21
 	register long hndRet;
@@ -101,6 +119,8 @@ long MakeOffsetTab__C9CBlockHdr(struct CBlockHdr *this) {
 
 
 // address: 0x8007EC34
+// line start: 360
+// line end:   418
 void SetUVTp__7TextDatP9FRAME_HDRP8POLY_FT4ii(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_FT4 *FT4, int XFlip, int YFlip) {
 	// register: 2
 	register int Rotated;
@@ -119,6 +139,8 @@ void SetUVTp__7TextDatP9FRAME_HDRP8POLY_FT4ii(struct TextDat *this, struct FRAME
 
 // address: 0x8007ED30
 // size: 0x28
+// line start: 434
+// line end:   571
 struct POLY_FT4 *PrintMonster__7TextDatiiibi(struct TextDat *this, int Frm, int X, int Y, bool XFlip, int OtPos) {
 	{
 		{
@@ -174,6 +196,8 @@ struct POLY_FT4 *PrintMonster__7TextDatiiibi(struct TextDat *this, int Frm, int 
 
 
 // address: 0x8007F138
+// line start: 577
+// line end:   634
 void PrepareFt4__7TextDatP8POLY_FT4iiiii(struct TextDat *this, struct POLY_FT4 *FT4, int Frm, int X, int Y, int XFlip, int YFlip) {
 	// register: 19
 	// size: 0xC
@@ -203,6 +227,8 @@ void PrepareFt4__7TextDatP8POLY_FT4iiiii(struct TextDat *this, struct POLY_FT4 *
 
 
 // address: 0x8007F3A4
+// line start: 642
+// line end:   676
 unsigned char *GetDecompBufffer__7TextDati(struct TextDat *this, int Size) {
 	// register: 18
 	register long *DecArray;
@@ -216,6 +242,8 @@ unsigned char *GetDecompBufffer__7TextDati(struct TextDat *this, int Size) {
 
 
 // address: 0x8007F504
+// line start: 681
+// line end:   739
 void SetUVTpGT4__7TextDatP9FRAME_HDRP8POLY_GT4ii(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_GT4 *FT4, int XFlip, int YFlip) {
 	// register: 2
 	register int Rotated;
@@ -233,6 +261,8 @@ void SetUVTpGT4__7TextDatP9FRAME_HDRP8POLY_GT4ii(struct TextDat *this, struct FR
 
 
 // address: 0x8007F600
+// line start: 743
+// line end:   814
 void PrepareGt4__7TextDatP8POLY_GT4iiiii(struct TextDat *this, struct POLY_GT4 *GT4, int Frm, int X, int Y, int XFlip, int YFlip) {
 	// register: 19
 	// size: 0xC
@@ -270,6 +300,8 @@ void PrepareGt4__7TextDatP8POLY_GT4iiiii(struct TextDat *this, struct POLY_GT4 *
 
 
 // address: 0x8007F85C
+// line start: 821
+// line end:   848
 void SetUVTpGT3__7TextDatP9FRAME_HDRP8POLY_GT3(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_GT3 *GT3) {
 	// register: 2
 	register int Rotated;
@@ -287,6 +319,8 @@ void SetUVTpGT3__7TextDatP9FRAME_HDRP8POLY_GT3(struct TextDat *this, struct FRAM
 
 
 // address: 0x8007F8DC
+// line start: 853
+// line end:   911
 void PrepareGt3__7TextDatP8POLY_GT3iii(struct TextDat *this, struct POLY_GT3 *GT3, int Frm, int X, int Y) {
 	// register: 19
 	// size: 0xC
@@ -323,6 +357,8 @@ void PrepareGt3__7TextDatP8POLY_GT3iii(struct TextDat *this, struct POLY_GT3 *GT
 
 // address: 0x8007FAA0
 // size: 0x28
+// line start: 925
+// line end:   944
 struct POLY_FT4 *PrintFt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, int Y, int XFlip, int OtPos, int YFlip) {
 	// address: 0xFFFFFFD8
 	// size: 0x28
@@ -332,6 +368,8 @@ struct POLY_FT4 *PrintFt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, 
 
 // address: 0x8007FBF4
 // size: 0x34
+// line start: 950
+// line end:   969
 struct POLY_GT4 *PrintGt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, int Y, int XFlip, int OtPos, int YFlip) {
 	// address: 0xFFFFFFD8
 	// size: 0x34
@@ -341,6 +379,8 @@ struct POLY_GT4 *PrintGt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, 
 
 // address: 0x8007FD48
 // size: 0x28
+// line start: 975
+// line end:   991
 struct POLY_GT3 *PrintGt3__7TextDatiiii(struct TextDat *this, int Frm, int X, int Y, int OtPos) {
 	// address: 0xFFFFFFE0
 	// size: 0x28
@@ -349,6 +389,8 @@ struct POLY_GT3 *PrintGt3__7TextDatiiii(struct TextDat *this, int Frm, int X, in
 
 
 // address: 0x8007FE2C
+// line start: 996
+// line end:   1034
 void DecompFrame__7TextDatP9FRAME_HDR(struct TextDat *this, struct FRAME_HDR *Fr) {
 	// register: 18
 	register unsigned char *CompFrAddr;
@@ -360,6 +402,8 @@ void DecompFrame__7TextDatP9FRAME_HDR(struct TextDat *this, struct FRAME_HDR *Fr
 
 
 // address: 0x8007FF80
+// line start: 1043
+// line end:   1073
 void MakeCreatureOffsetTab__7TextDat(struct TextDat *this) {
 	// register: 17
 	register int NumOfCreatures;
@@ -383,6 +427,8 @@ void MakeCreatureOffsetTab__7TextDat(struct TextDat *this) {
 
 
 // address: 0x800800C0
+// line start: 1083
+// line end:   1107
 void MakePalOffsetTab__7TextDat(struct TextDat *this) {
 	// register: 5
 	// size: 0x8
@@ -395,17 +441,23 @@ void MakePalOffsetTab__7TextDat(struct TextDat *this) {
 
 
 // address: 0x800801BC
+// line start: 1164
+// line end:   1174
 void InitData__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x800801E8
+// line start: 1184
+// line end:   1219
 void DumpData__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x80080330
 // size: 0x6C
+// line start: 1230
+// line end:   1250
 struct TextDat *GM_UseTexData__Fi(int Id) {
 	{
 		{
@@ -425,11 +477,15 @@ struct TextDat *GM_UseTexData__Fi(int Id) {
 
 
 // address: 0x80080450
+// line start: 1260
+// line end:   1264
 void GM_FinishedUsing__FP7TextDat(struct TextDat *Fin) {
 }
 
 
 // address: 0x800804A4
+// line start: 1268
+// line end:   1286
 void SetPal__7TextDatP9FRAME_HDRP8POLY_FT4(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_FT4 *FT4) {
 	// register: 17
 	// size: 0x8
@@ -447,16 +503,22 @@ void SetPal__7TextDatP9FRAME_HDRP8POLY_FT4(struct TextDat *this, struct FRAME_HD
 
 
 // address: 0x8008056C
+// line start: 1313
+// line end:   1314
 int GetFrNum__7TextDatiiii(struct TextDat *this, int Creature, int Action, int Direction, int Frame) {
 }
 
 
 // address: 0x800805C0
+// line start: 1318
+// line end:   1319
 bool IsDirAliased__7TextDatiii(struct TextDat *this, int Creature, int Action, int Direction) {
 }
 
 
 // address: 0x80080618
+// line start: 1328
+// line end:   1358
 void DoDecompRequests__7TextDat(struct TextDat *this) {
 	// register: 17
 	register long *DecArray;
@@ -470,6 +532,8 @@ void DoDecompRequests__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8008073C
+// line start: 1396
+// line end:   1422
 void FindDecompArea__7TextDatR4RECT(struct TextDat *this, struct RECT *R) {
 	// register: 8
 	register int NumOfFrames;
@@ -492,16 +556,22 @@ void FindDecompArea__7TextDatR4RECT(struct TextDat *this, struct RECT *R) {
 
 // address: 0x80080810
 // size: 0x4
+// line start: 1426
+// line end:   1428
 struct CTextFileInfo *GetFileInfo__7TextDati(struct TextDat *this, int Id) {
 }
 
 
 // address: 0x80080860
+// line start: 1434
+// line end:   1435
 int GetSize__C15CCreatureAction(struct CCreatureAction *this) {
 }
 
 
 // address: 0x80080888
+// line start: 1439
+// line end:   1445
 int GetFrNum__C15CCreatureActionii(struct CCreatureAction *this, int Direction, int Frame) {
 	// register: 2
 	register int LocFrame;
@@ -509,6 +579,8 @@ int GetFrNum__C15CCreatureActionii(struct CCreatureAction *this, int Direction, 
 
 
 // address: 0x80080930
+// line start: 1451
+// line end:   1479
 void InitDirRemap__15CCreatureAction(struct CCreatureAction *this) {
 	// address: 0xFFFFFFE0
 	// size: 0x20
@@ -535,12 +607,16 @@ void InitDirRemap__15CCreatureAction(struct CCreatureAction *this) {
 
 
 // address: 0x800809F0
+// line start: 1483
+// line end:   1487
 int GetFrNum__C12CCreatureHdriii(struct CCreatureHdr *this, int Action, int Direction, int Frame) {
 }
 
 
 // address: 0x80080A34
 // size: 0xE
+// line start: 1491
+// line end:   1499
 struct CCreatureAction *GetAction__C12CCreatureHdri(struct CCreatureHdr *this, int ActNum) {
 	// register: 17
 	// size: 0xE
@@ -553,6 +629,8 @@ struct CCreatureAction *GetAction__C12CCreatureHdri(struct CCreatureHdr *this, i
 
 
 // address: 0x80080AC4
+// line start: 1503
+// line end:   1510
 void InitActionDirRemaps__12CCreatureHdr(struct CCreatureHdr *this) {
 	// register: 17
 	// size: 0xE
@@ -565,6 +643,8 @@ void InitActionDirRemaps__12CCreatureHdr(struct CCreatureHdr *this) {
 
 
 // address: 0x80080B34
+// line start: 1515
+// line end:   1526
 int GetSize__C12CCreatureHdr(struct CCreatureHdr *this) {
 	// register: 18
 	register int Size;
@@ -583,16 +663,22 @@ int GetSize__C12CCreatureHdr(struct CCreatureHdr *this) {
 
 
 // address: 0x80080BA0
+// line start: 1534
+// line end:   1536
 long LoadDat__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
 // address: 0x80080BF0
+// line start: 1549
+// line end:   1550
 long LoadHdr__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
 // address: 0x80080C18
+// line start: 1554
+// line end:   1567
 long GetFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 	// address: 0xFFFFFFE0
 	// size: 0xD
@@ -606,6 +692,8 @@ long GetFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 
 
 // address: 0x80080CB4
+// line start: 1572
+// line end:   1581
 bool HasFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 	// address: 0xFFFFFFE0
 	// size: 0xD
@@ -617,6 +705,8 @@ bool HasFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 
 
 // address: 0x80080D1C
+// line start: 1613
+// line end:   1655
 void Un64__FPUcT0l(unsigned char *Src, unsigned char *Dest, long SizeBytes) {
 	// register: 9
 	register unsigned char *EndDest;
@@ -633,11 +723,15 @@ void Un64__FPUcT0l(unsigned char *Src, unsigned char *Dest, long SizeBytes) {
 
 // address: 0x80080DF0
 // size: 0x78
+// line start: 1669
+// line end:   1670
 struct CScreen *__7CScreen(struct CScreen *this) {
 }
 
 
 // address: 0x80080E24
+// line start: 1674
+// line end:   1734
 void Load__7CScreeniii(struct CScreen *this, int Id, int tpx, int tpy) {
 	// register: 8
 	register unsigned char r;
@@ -676,11 +770,15 @@ void Load__7CScreeniii(struct CScreen *this, int Id, int tpx, int tpy) {
 
 
 // address: 0x800810C4
+// line start: 1739
+// line end:   1741
 void Unload__7CScreen(struct CScreen *this) {
 }
 
 
 // address: 0x800810E8
+// line start: 1745
+// line end:   1774
 void Display__7CScreeniiii(struct CScreen *this, int Id, int tpx, int tpy, int fadeval) {
 	// address: 0xFFFFFFD8
 	// size: 0x28
@@ -689,6 +787,8 @@ void Display__7CScreeniiii(struct CScreen *this, int Id, int tpx, int tpy, int f
 
 
 // address: 0x800813C8
+// line start: 1782
+// line end:   1790
 void SetRect__5CPartR7TextDatR4RECT(struct CPart *this, struct TextDat *TDat, struct RECT *R) {
 	// register: 2
 	// size: 0xC
@@ -697,6 +797,8 @@ void SetRect__5CPartR7TextDatR4RECT(struct CPart *this, struct TextDat *TDat, st
 
 
 // address: 0x80081440
+// line start: 1794
+// line end:   1838
 void GetBoundingBox__6CBlockR7TextDatR4RECT(struct CBlock *this, struct TextDat *TDat, struct RECT *R) {
 	// register: 18
 	register int left;
@@ -721,11 +823,15 @@ void GetBoundingBox__6CBlockR7TextDatR4RECT(struct CBlock *this, struct TextDat 
 
 
 // address: 0x8008159C
+// line start: 1876
+// line end:   1876
 void _GLOBAL__D_DatPool() {
 }
 
 
 // address: 0x800815F4
+// line start: 1876
+// line end:   1876
 void _GLOBAL__I_DatPool() {
 }
 

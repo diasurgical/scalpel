@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80146804
+// line start: 74
+// line end:   79
 void InitPortals__Fv() {
 	{
 		// register: 16

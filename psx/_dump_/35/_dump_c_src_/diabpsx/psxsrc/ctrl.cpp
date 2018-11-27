@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80092698
+// line start: 166
+// line end:   181
 void SetDemoKeys__FPi(int *buffer) {
 	// register: 16
 	// size: 0x10
@@ -15,6 +17,8 @@ void SetDemoKeys__FPi(int *buffer) {
 
 
 // address: 0x80092770
+// line start: 185
+// line end:   195
 void RestoreDemoKeys__FPi(int *buffer) {
 	// register: 16
 	// size: 0x10
@@ -27,6 +31,8 @@ void RestoreDemoKeys__FPi(int *buffer) {
 
 
 // address: 0x80092800
+// line start: 199
+// line end:   216
 char *get_action_str__Fii(int pval, int combo) {
 	// register: 4
 	// size: 0x10
@@ -39,6 +45,8 @@ char *get_action_str__Fii(int pval, int combo) {
 
 
 // address: 0x80092878
+// line start: 245
+// line end:   255
 int get_key_pad__Fi(int n) {
 	// register: 3
 	register int i;
@@ -49,6 +57,8 @@ int get_key_pad__Fi(int n) {
 
 
 // address: 0x800928B0
+// line start: 260
+// line end:   275
 bool checkvalid__Fv() {
 	// register: 6
 	register int start;
@@ -62,16 +72,22 @@ bool checkvalid__Fv() {
 
 
 // address: 0x80092914
+// line start: 281
+// line end:   292
 bool RemoveCtrlScreen__Fv() {
 }
 
 
 // address: 0x8009297C
+// line start: 300
+// line end:   318
 unsigned char Init_ctrl_pos__Fv() {
 }
 
 
 // address: 0x80092A34
+// line start: 322
+// line end:   334
 int remove_padval__Fi(int p) {
 	{
 		// register: 5
@@ -81,6 +97,8 @@ int remove_padval__Fi(int p) {
 
 
 // address: 0x80092A74
+// line start: 338
+// line end:   351
 int remove_comboval__Fi(int p) {
 	// register: 6
 	register int n;
@@ -92,6 +110,8 @@ int remove_comboval__Fi(int p) {
 
 
 // address: 0x80092AB4
+// line start: 355
+// line end:   399
 unsigned char set_buttons__Fii(int cline, int n) {
 	// register: 16
 	// size: 0x10
@@ -106,6 +126,8 @@ unsigned char set_buttons__Fii(int cline, int n) {
 
 
 // address: 0x80092C08
+// line start: 403
+// line end:   410
 void restore_controller_settings__Fv() {
 	{
 	}
@@ -113,6 +135,8 @@ void restore_controller_settings__Fv() {
 
 
 // address: 0x80092C50
+// line start: 418
+// line end:   429
 bool only_one_button__Fi(int p) {
 	// register: 3
 	register int hand;
@@ -122,6 +146,8 @@ bool only_one_button__Fi(int p) {
 
 
 // address: 0x80092C7C
+// line start: 436
+// line end:   586
 unsigned char main_ctrl_setup__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -132,6 +158,8 @@ unsigned char main_ctrl_setup__Fv() {
 
 
 // address: 0x8009312C
+// line start: 593
+// line end:   706
 void PrintCtrlString__FiiUcic(int x, int y, unsigned char cjustflag, int str_num, int col) {
 	// register: 18
 	// size: 0x10
@@ -162,6 +190,8 @@ void PrintCtrlString__FiiUcic(int x, int y, unsigned char cjustflag, int str_num
 
 
 // address: 0x80093628
+// line start: 710
+// line end:   788
 void DrawCtrlSetup__Fv() {
 	// register: 16
 	register int i;
@@ -189,11 +219,15 @@ void DrawCtrlSetup__Fv() {
 
 
 // address: 0x80093AE4
+// line start: 788
+// line end:   788
 void _GLOBAL__D_ctrlflag() {
 }
 
 
 // address: 0x80093B0C
+// line start: 788
+// line end:   788
 void _GLOBAL__I_ctrlflag() {
 }
 

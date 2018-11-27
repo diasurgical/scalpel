@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80073CFC
+// line start: 97
+// line end:   176
 void TempPrintMissile__FiiiiiiiiccUcUcUcc(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
 	// address: 0xFFFFFFA8
 	// size: 0x28
@@ -41,6 +43,8 @@ void TempPrintMissile__FiiiiiiiiccUcUcUcc(int ScrX, int ScrY, int OtPos, int spe
 
 
 // address: 0x80074240
+// line start: 179
+// line end:   203
 void FuncTOWN__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 16
 	register int anim;
@@ -53,6 +57,8 @@ void FuncTOWN__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY
 
 
 // address: 0x800743C0
+// line start: 207
+// line end:   225
 void FuncRPORTAL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 16
 	register int anim;
@@ -65,6 +71,8 @@ void FuncRPORTAL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int S
 
 
 // address: 0x80074520
+// line start: 229
+// line end:   244
 void FuncFIREBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -76,6 +84,8 @@ void FuncFIREBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int 
 
 
 // address: 0x800745B8
+// line start: 251
+// line end:   266
 void FuncHBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -87,16 +97,22 @@ void FuncHBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 
 
 // address: 0x80074668
+// line start: 273
+// line end:   274
 void FuncLIGHTNING__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800746CC
+// line start: 278
+// line end:   281
 void FuncGUARDIAN__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800747E4
+// line start: 285
+// line end:   287
 void FuncFIREWALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 3
 	register int frame;
@@ -104,6 +120,8 @@ void FuncFIREWALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int 
 
 
 // address: 0x8007487C
+// line start: 291
+// line end:   293
 void FuncFIREMOVE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 3
 	register int frame;
@@ -111,11 +129,15 @@ void FuncFIREMOVE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int 
 
 
 // address: 0x80074914
+// line start: 297
+// line end:   298
 void FuncFLAME__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x8007497C
+// line start: 302
+// line end:   313
 void FuncARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 10
 	register char xflip;
@@ -127,6 +149,8 @@ void FuncARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 
 
 // address: 0x80074A1C
+// line start: 317
+// line end:   332
 void FuncFARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -142,6 +166,8 @@ void FuncFARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Sc
 
 
 // address: 0x80074AFC
+// line start: 337
+// line end:   352
 void FuncLARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -157,6 +183,8 @@ void FuncLARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Sc
 
 
 // address: 0x80074BD4
+// line start: 357
+// line end:   369
 void FuncMAGMABALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 10
 	register char xflip;
@@ -168,6 +196,8 @@ void FuncMAGMABALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int
 
 
 // address: 0x80074C64
+// line start: 373
+// line end:   387
 void FuncBONESPIRIT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 22
 	register char xflip;
@@ -181,6 +211,8 @@ void FuncBONESPIRIT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, in
 
 
 // address: 0x80074D80
+// line start: 391
+// line end:   403
 void FuncACID__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 10
 	register char xflip;
@@ -192,16 +224,22 @@ void FuncACID__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY
 
 
 // address: 0x80074E1C
+// line start: 407
+// line end:   408
 void FuncACIDSPLAT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074E84
+// line start: 412
+// line end:   413
 void FuncACIDPUD__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074EEC
+// line start: 417
+// line end:   426
 void FuncFLARE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 17
 	register unsigned char red;
@@ -213,6 +251,8 @@ void FuncFLARE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 
 
 // address: 0x80075020
+// line start: 430
+// line end:   439
 void FuncFLAREXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 18
 	register unsigned char red;
@@ -224,16 +264,22 @@ void FuncFLAREXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int S
 
 
 // address: 0x80075164
+// line start: 443
+// line end:   444
 void FuncCBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800751CC
+// line start: 448
+// line end:   449
 void FuncBOOM__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80075224
+// line start: 453
+// line end:   463
 void FuncELEMENT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -247,16 +293,22 @@ void FuncELEMENT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int S
 
 
 // address: 0x800752F0
+// line start: 468
+// line end:   469
 void FuncMISEXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80075354
+// line start: 473
+// line end:   475
 void FuncRHINO__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x8007535C
+// line start: 478
+// line end:   553
 void FuncFLASH__FP13MissileStructiii(struct MissileStruct *Ms, int x, int y, int OtPos) {
 	// register: 16
 	register int size;
@@ -313,21 +365,29 @@ void FuncFLASH__FP13MissileStructiii(struct MissileStruct *Ms, int x, int y, int
 
 
 // address: 0x80075884
+// line start: 558
+// line end:   563
 void FuncMANASHIELD__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x8007592C
+// line start: 567
+// line end:   568
 void FuncFLASH2__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80075934
+// line start: 571
+// line end:   572
 void FuncRESURRECTBEAM__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80075968
+// line start: 576
+// line end:   577
 void FuncWEAPEXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 

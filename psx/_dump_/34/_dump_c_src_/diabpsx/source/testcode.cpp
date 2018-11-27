@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x80073AFC
+// line start: 66
+// line end:   69
 void DoGameTestStuff__Fv() {
 }
 
 
 // address: 0x80073B28
+// line start: 73
+// line end:   76
 void DoInitGameStuff__Fv() {
 }
 

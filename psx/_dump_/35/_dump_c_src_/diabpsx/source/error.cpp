@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8003AB80
+// line start: 154
+// line end:   165
 void InitDiabloMsg__Fc(char e) {
 	// register: 3
 	register int i;
@@ -10,6 +12,8 @@ void InitDiabloMsg__Fc(char e) {
 
 
 // address: 0x8003AC14
+// line start: 171
+// line end:   174
 void ClrDiabloMsg__Fv() {
 	{
 		// register: 3
@@ -19,6 +23,8 @@ void ClrDiabloMsg__Fv() {
 
 
 // address: 0x8003AC40
+// line start: 183
+// line end:   266
 void DrawDiabloMsg__Fv() {
 	// address: 0xFFFFFEE8
 	// size: 0x100

@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80094000
+// line start: 77
+// line end:   82
 void ReInitDFL__Fv() {
 	// register: 5
 	register int *yp;
@@ -14,6 +16,8 @@ void ReInitDFL__Fv() {
 
 
 // address: 0x80094038
+// line start: 87
+// line end:   141
 void DrawFlameLogo__Fv() {
 	// register: 4
 	// size: 0x28
@@ -52,6 +56,8 @@ void DrawFlameLogo__Fv() {
 
 
 // address: 0x800943DC
+// line start: 147
+// line end:   150
 void TitleScreen__FP7CScreen(struct CScreen *FeScreen) {
 }
 

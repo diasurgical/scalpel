@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80081820
+// line start: 105
+// line end:   132
 void BL_InitEAC__Fv() {
 	// address: 0xFFFFFFF0
 	auto long gunk1;
@@ -14,6 +16,8 @@ void BL_InitEAC__Fv() {
 
 
 // address: 0x8008190C
+// line start: 142
+// line end:   168
 long BL_ReadFile__FPcUl(char *Name, unsigned long RamId) {
 	// register: 16
 	register int MemSize;
@@ -28,6 +32,8 @@ long BL_ReadFile__FPcUl(char *Name, unsigned long RamId) {
 
 
 // address: 0x80081A38
+// line start: 178
+// line end:   222
 void BL_LoadDirectory__Fv() {
 	// register: 18
 	register long BL_DirMHandle;
@@ -45,6 +51,8 @@ void BL_LoadDirectory__Fv() {
 
 
 // address: 0x80081BA4
+// line start: 227
+// line end:   291
 void BL_LoadStreamDir__Fv() {
 	// register: 17
 	register long BL_DirMHandle;
@@ -62,6 +70,8 @@ void BL_LoadStreamDir__Fv() {
 
 // address: 0x80081E5C
 // size: 0x14
+// line start: 301
+// line end:   322
 struct STRHDR *BL_MakeFilePosTab__FPUcUl(unsigned char *BL_DirPtr, unsigned long NoStreamFiles) {
 	// register: 18
 	// size: 0x14
@@ -82,6 +92,8 @@ struct STRHDR *BL_MakeFilePosTab__FPUcUl(unsigned char *BL_DirPtr, unsigned long
 
 // address: 0x80081F5C
 // size: 0x14
+// line start: 332
+// line end:   371
 struct STRHDR *BL_FindStreamFile__FPcc(char *Name, char LumpID) {
 	// register: 17
 	// size: 0x14
@@ -119,11 +131,15 @@ struct STRHDR *BL_FindStreamFile__FPcc(char *Name, char LumpID) {
 
 
 // address: 0x800820F8
+// line start: 381
+// line end:   383
 bool BL_FileExists__FPcc(char *Name, char LumpID) {
 }
 
 
 // address: 0x8008211C
+// line start: 395
+// line end:   401
 int BL_FileLength__FPcc(char *Name, char LumpID) {
 	// register: 3
 	// size: 0x14
@@ -132,6 +148,8 @@ int BL_FileLength__FPcc(char *Name, char LumpID) {
 
 
 // address: 0x80082150
+// line start: 411
+// line end:   492
 bool BL_LoadFileAtAddr__FPcPUcc(char *Name, unsigned char *Dest, char LumpID) {
 	// register: 16
 	// size: 0x14
@@ -142,11 +160,15 @@ bool BL_LoadFileAtAddr__FPcPUcc(char *Name, unsigned char *Dest, char LumpID) {
 
 
 // address: 0x80082238
+// line start: 502
+// line end:   504
 bool BL_AsyncLoadDone__Fv() {
 }
 
 
 // address: 0x80082244
+// line start: 509
+// line end:   524
 void BL_AsyncLoadTASK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -157,6 +179,8 @@ void BL_AsyncLoadTASK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x800822A8
+// line start: 529
+// line end:   570
 long BL_LoadFileAsync__FPcc(char *Name, char LumpID) {
 	// register: 18
 	// size: 0x14
@@ -177,6 +201,8 @@ long BL_LoadFileAsync__FPcc(char *Name, char LumpID) {
 
 // address: 0x80082408
 // size: 0x14
+// line start: 580
+// line end:   584
 struct STRHDR *BL_OpenStreamFile__FPcc(char *Name, char LumpID) {
 	// register: 2
 	// size: 0x14
@@ -185,6 +211,8 @@ struct STRHDR *BL_OpenStreamFile__FPcc(char *Name, char LumpID) {
 
 
 // address: 0x80082434
+// line start: 599
+// line end:   606
 bool BL_CloseStreamFile__FP6STRHDR(struct STRHDR *StreamHDR) {
 }
 

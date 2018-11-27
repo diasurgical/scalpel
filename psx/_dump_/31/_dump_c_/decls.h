@@ -4808,21 +4808,29 @@ static char buf[4992];
 static char NULL_REP[7];
 
 // address: 0x8007B37C
+// line start: 177
+// line end:   178
 int GetTpY__FUs(unsigned short tpage) {
 }
 
 
 // address: 0x8007B398
+// line start: 182
+// line end:   183
 int GetTpX__FUs(unsigned short tpage) {
 }
 
 
 // address: 0x8007B3A4
+// line start: 114
+// line end:   123
 void Remove96__Fv() {
 }
 
 
 // address: 0x8007B3DC
+// line start: 133
+// line end:   224
 void AppMain() {
 	{
 		// register: 16
@@ -4838,31 +4846,43 @@ void AppMain() {
 
 
 // address: 0x8007B4F4
+// line start: 232
+// line end:   233
 void MAIN_RestartGameTask__Fv() {
 }
 
 
 // address: 0x8007B520
+// line start: 241
+// line end:   276
 void GameTask__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x8007B608
+// line start: 290
+// line end:   302
 void MAIN_MainLoop__Fv() {
 }
 
 
 // address: 0x8007B650
+// line start: 76
+// line end:   80
 void CheckMaxArgs__Fv() {
 }
 
 
 // address: 0x8007B684
+// line start: 96
+// line end:   98
 unsigned char GPUQ_InitModule__Fv() {
 }
 
 
 // address: 0x8007B690
+// line start: 106
+// line end:   149
 void GPUQ_FlushQ__Fv() {
 	// register: 18
 	register int f;
@@ -4893,6 +4913,8 @@ void GPUQ_FlushQ__Fv() {
 
 
 // address: 0x8007B804
+// line start: 159
+// line end:   178
 void GPUQ_LoadImage__FP4RECTli(struct RECT *Rect, long ImgHandle, int Offset) {
 	// register: 4
 	// size: 0x1C
@@ -4901,6 +4923,8 @@ void GPUQ_LoadImage__FP4RECTli(struct RECT *Rect, long ImgHandle, int Offset) {
 
 
 // address: 0x8007B8B8
+// line start: 220
+// line end:   239
 void GPUQ_DiscardHandle__Fl(long hnd) {
 	// register: 6
 	register int f;
@@ -4908,6 +4932,8 @@ void GPUQ_DiscardHandle__Fl(long hnd) {
 
 
 // address: 0x8007B958
+// line start: 249
+// line end:   266
 void GPUQ_LoadClutAddr__FiiiPv(int X, int Y, int Cols, void *Addr) {
 	// register: 3
 	// size: 0x1C
@@ -4916,6 +4942,8 @@ void GPUQ_LoadClutAddr__FiiiPv(int X, int Y, int Cols, void *Addr) {
 
 
 // address: 0x8007B9F4
+// line start: 276
+// line end:   287
 void GPUQ_MoveImage__FP4RECTii(struct RECT *R, int x, int y) {
 	// register: 2
 	// size: 0x1C
@@ -4924,6 +4952,8 @@ void GPUQ_MoveImage__FP4RECTii(struct RECT *R, int x, int y) {
 
 
 // address: 0x8007BA94
+// line start: 144
+// line end:   181
 unsigned char PRIM_Open__FiiiP10SCREEN_ENVUl(int Prims, int OtSize, int Depth, struct SCREEN_ENV *Scr, unsigned long MemType) {
 	{
 		{
@@ -4939,11 +4969,15 @@ unsigned char PRIM_Open__FiiiP10SCREEN_ENVUl(int Prims, int OtSize, int Depth, s
 
 
 // address: 0x8007BBB0
+// line start: 188
+// line end:   206
 unsigned char InitPrimBuffer__FP11PRIM_BUFFERii(struct PRIM_BUFFER *Pr, int Prims, int OtSize) {
 }
 
 
 // address: 0x8007BC8C
+// line start: 217
+// line end:   239
 void PRIM_Clip__FP4RECTi(struct RECT *R, int Depth) {
 	// register: 16
 	// size: 0xC
@@ -4955,11 +4989,15 @@ void PRIM_Clip__FP4RECTi(struct RECT *R, int Depth) {
 
 
 // address: 0x8007BDB4
+// line start: 249
+// line end:   250
 unsigned char PRIM_GetCurrentScreen__Fv() {
 }
 
 
 // address: 0x8007BDC0
+// line start: 258
+// line end:   267
 void PRIM_FullScreen__Fi(int Depth) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -4968,6 +5006,8 @@ void PRIM_FullScreen__Fi(int Depth) {
 
 
 // address: 0x8007BDFC
+// line start: 280
+// line end:   346
 void PRIM_Flush__Fv() {
 	// register: 16
 	// size: 0x1C
@@ -4976,32 +5016,44 @@ void PRIM_Flush__Fv() {
 
 
 // address: 0x8007C010
+// line start: 370
+// line end:   371
 unsigned long *PRIM_GetCurrentOtList__Fv() {
 }
 
 
 // address: 0x8007C01C
+// line start: 379
+// line end:   381
 void ClearPbOnDrawSync(struct PRIM_BUFFER *Pb) {
 }
 
 
 // address: 0x8007C058
+// line start: 385
+// line end:   386
 unsigned char ClearedYet__Fv() {
 }
 
 
 // address: 0x8007C064
+// line start: 394
+// line end:   398
 void PrimDrawSycnCallBack() {
 }
 
 
 // address: 0x8007C084
+// line start: 408
+// line end:   409
 void SendDispEnv__Fv() {
 }
 
 
 // address: 0x8007C0A8
 // size: 0x18
+// line start: 458
+// line end:   462
 struct POLY_F4 *PRIM_GetNextPolyF4__Fv() {
 	// register: 2
 	// size: 0x18
@@ -5011,6 +5063,8 @@ struct POLY_F4 *PRIM_GetNextPolyF4__Fv() {
 
 // address: 0x8007C0C0
 // size: 0x28
+// line start: 466
+// line end:   470
 struct POLY_FT4 *PRIM_GetNextPolyFt4__Fv() {
 	// register: 2
 	// size: 0x28
@@ -5020,6 +5074,8 @@ struct POLY_FT4 *PRIM_GetNextPolyFt4__Fv() {
 
 // address: 0x8007C0D8
 // size: 0x34
+// line start: 474
+// line end:   478
 struct POLY_GT4 *PRIM_GetNextPolyGt4__Fv() {
 	// register: 2
 	// size: 0x34
@@ -5029,6 +5085,8 @@ struct POLY_GT4 *PRIM_GetNextPolyGt4__Fv() {
 
 // address: 0x8007C0F0
 // size: 0x24
+// line start: 483
+// line end:   487
 struct POLY_G4 *PRIM_GetNextPolyG4__Fv() {
 	// register: 2
 	// size: 0x24
@@ -5038,6 +5096,8 @@ struct POLY_G4 *PRIM_GetNextPolyG4__Fv() {
 
 // address: 0x8007C108
 // size: 0x14
+// line start: 491
+// line end:   495
 struct POLY_F3 *PRIM_GetNextPolyF3__Fv() {
 	// register: 2
 	// size: 0x14
@@ -5047,6 +5107,8 @@ struct POLY_F3 *PRIM_GetNextPolyF3__Fv() {
 
 // address: 0x8007C120
 // size: 0xC
+// line start: 508
+// line end:   512
 struct DR_MODE *PRIM_GetNextDrArea__Fv() {
 	// register: 2
 	// size: 0xC
@@ -5055,61 +5117,85 @@ struct DR_MODE *PRIM_GetNextDrArea__Fv() {
 
 
 // address: 0x8007C138
+// line start: 516
+// line end:   545
 bool ClipRect__FRC4RECTR4RECT(struct RECT *ClipRect, struct RECT *RectToClip) {
 }
 
 
 // address: 0x8007C24C
+// line start: 551
+// line end:   562
 bool IsColiding__FRC4RECTT0(struct RECT *ClipRect, struct RECT *NewRect) {
 }
 
 
 // address: 0x8007C2B4
+// line start: 127
+// line end:   128
 void VID_AfterDisplay__Fv() {
 }
 
 
 // address: 0x8007C2D4
+// line start: 182
+// line end:   184
 void VID_ScrOn__Fv() {
 }
 
 
 // address: 0x8007C2FC
+// line start: 203
+// line end:   209
 void VID_DoThisNextSync__FPFv_v(void (*Func)()) {
 }
 
 
 // address: 0x8007C354
+// line start: 213
+// line end:   214
 unsigned char VID_NextSyncRoutHasExecuted__Fv() {
 }
 
 
 // address: 0x8007C360
+// line start: 218
+// line end:   219
 unsigned long VID_GetTick__Fv() {
 }
 
 
 // address: 0x8007C36C
+// line start: 224
+// line end:   230
 void VID_DispEnvSend() {
 }
 
 
 // address: 0x8007C3A8
+// line start: 236
+// line end:   238
 void VID_SetXYOff__Fii(int x, int y) {
 }
 
 
 // address: 0x8007C3B8
+// line start: 242
+// line end:   243
 int VID_GetXOff__Fv() {
 }
 
 
 // address: 0x8007C3C4
+// line start: 247
+// line end:   248
 int VID_GetYOff__Fv() {
 }
 
 
 // address: 0x8007C3D0
+// line start: 252
+// line end:   292
 void VID_SetDBuffer__Fb(bool DBuf) {
 	{
 		{
@@ -5119,58 +5205,80 @@ void VID_SetDBuffer__Fb(bool DBuf) {
 
 
 // address: 0x8007C540
+// line start: 96
+// line end:   116
 void MyFilter__FUlUlPCc(unsigned long MemType, unsigned long Size, char *Name) {
 }
 
 
 // address: 0x8007C548
+// line start: 148
+// line end:   149
 void SlowMemMove__FPvT0Ul(void *Dest, void *Source, unsigned long size) {
 }
 
 
 // address: 0x8007C568
+// line start: 177
+// line end:   178
 int GetTpY__FUs_addr_8007C568(unsigned short tpage) {
 }
 
 
 // address: 0x8007C584
+// line start: 182
+// line end:   183
 int GetTpX__FUs_addr_8007C584(unsigned short tpage) {
 }
 
 
 // address: 0x8007C590
 // size: 0x14
+// line start: 163
+// line end:   164
 struct FileIO *SYSI_GetFs__Fv() {
 }
 
 
 // address: 0x8007C59C
 // size: 0x14
+// line start: 173
+// line end:   174
 struct FileIO *SYSI_GetOverlayFs__Fv() {
 }
 
 
 // address: 0x8007C5A8
+// line start: 182
+// line end:   242
 void SortOutFileSystem__Fv() {
 }
 
 
 // address: 0x8007C6E4
+// line start: 111
+// line end:   113
 void MemCb__FlPvUlPCcii(long hnd, void *Addr, unsigned long Size, char *Name, int Users, int TimeStamp) {
 }
 
 
 // address: 0x8007C704
+// line start: 117
+// line end:   125
 void Spanker__Fv() {
 }
 
 
 // address: 0x8007C744
+// line start: 271
+// line end:   272
 void GaryLiddon__Fv() {
 }
 
 
 // address: 0x8007C74C
+// line start: 65
+// line end:   103
 void ReadPad__Fi(int NoDeb) {
 	// register: 2
 	// size: 0x6C
@@ -5193,62 +5301,86 @@ void ReadPad__Fi(int NoDeb) {
 
 
 // address: 0x8007C838
+// line start: 108
+// line end:   111
 void DummyPoll__Fv() {
 }
 
 
 // address: 0x8007C840
+// line start: 114
+// line end:   115
 void DaveOwens__Fv() {
 }
 
 
 // address: 0x8007C868
+// line start: 100
+// line end:   104
 unsigned short GetCur__C4CPad(struct CPad *this) {
 }
 
 
 // address: 0x8007C890
+// line start: 177
+// line end:   178
 int GetTpY__FUs_addr_8007C890(unsigned short tpage) {
 }
 
 
 // address: 0x8007C8AC
+// line start: 182
+// line end:   183
 int GetTpX__FUs_addr_8007C8AC(unsigned short tpage) {
 }
 
 
 // address: 0x8007C8B8
+// line start: 474
+// line end:   502
 void TimSwann__Fv() {
 }
 
 
 // address: 0x8007C8C0
+// line start: 25
+// line end:   26
 void stub__FPcPv(char *e, void *argptr) {
 }
 
 
 // address: 0x8007C8C8
+// line start: 30
+// line end:   32
 void eprint__FPcT0i(char *Text, char *File, int Line) {
 }
 
 
 // address: 0x8007C8FC
+// line start: 36
+// line end:   39
 void leighbird__Fv() {
 }
 
 
 // address: 0x8007C924
 // size: 0x14
+// line start: 61
+// line end:   63
 struct FileIO *__6FileIOUl(struct FileIO *this, unsigned long OurMemId) {
 }
 
 
 // address: 0x8007C974
+// line start: 70
+// line end:   71
 void ___6FileIO(struct FileIO *this, int __in_chrg) {
 }
 
 
 // address: 0x8007C9C8
+// line start: 79
+// line end:   102
 long Read__6FileIOPCcUl(struct FileIO *this, char *Name, unsigned long RamId) {
 	// register: 17
 	register int MemSize;
@@ -5260,26 +5392,36 @@ long Read__6FileIOPCcUl(struct FileIO *this, char *Name, unsigned long RamId) {
 
 
 // address: 0x8007CB30
+// line start: 112
+// line end:   119
 int FileLen__6FileIOPCc(struct FileIO *this, char *Name) {
 }
 
 
 // address: 0x8007CB94
+// line start: 129
+// line end:   131
 void FileNotFound__6FileIOPCc(struct FileIO *this, char *Name) {
 }
 
 
 // address: 0x8007CBB4
+// line start: 138
+// line end:   150
 bool StreamFile__6FileIOPCciPFPUciib_bii(struct FileIO *this, char *Name, int Slice, bool (*Func)(), int Offset, int Size) {
 }
 
 
 // address: 0x8007CC94
+// line start: 157
+// line end:   171
 bool ReadAtAddr__6FileIOPCcPUci(struct FileIO *this, char *Name, unsigned char *Dest, int Len) {
 }
 
 
 // address: 0x8007CD58
+// line start: 180
+// line end:   185
 void DumpOldPath__6FileIO(struct FileIO *this) {
 	{
 		{
@@ -5289,11 +5431,15 @@ void DumpOldPath__6FileIO(struct FileIO *this) {
 
 
 // address: 0x8007CDBC
+// line start: 193
+// line end:   207
 void SetSearchPath__6FileIOPCc(struct FileIO *this, char *Path) {
 }
 
 
 // address: 0x8007CE98
+// line start: 215
+// line end:   245
 bool FindFile__6FileIOPCcPc(struct FileIO *this, char *Name, char *Buffa) {
 	{
 		{
@@ -5311,6 +5457,8 @@ bool FindFile__6FileIOPCcPc(struct FileIO *this, char *Name, char *Buffa) {
 
 
 // address: 0x8007CFAC
+// line start: 254
+// line end:   274
 char *CopyPathItem__6FileIOPcPCc(struct FileIO *this, char *Dst, char *Src) {
 	// register: 16
 	register char *Ptr;
@@ -5320,11 +5468,15 @@ char *CopyPathItem__6FileIOPcPCc(struct FileIO *this, char *Dst, char *Src) {
 
 
 // address: 0x8007D054
+// line start: 282
+// line end:   286
 void LockSearchPath__6FileIO(struct FileIO *this) {
 }
 
 
 // address: 0x8007D0AC
+// line start: 295
+// line end:   299
 void UnlockSearchPath__6FileIO(struct FileIO *this) {
 	{
 		{
@@ -5334,27 +5486,37 @@ void UnlockSearchPath__6FileIO(struct FileIO *this) {
 
 
 // address: 0x8007D104
+// line start: 308
+// line end:   309
 bool SearchPathExists__6FileIO(struct FileIO *this) {
 }
 
 
 // address: 0x8007D118
+// line start: 317
+// line end:   318
 bool Save__6FileIOPCcPUci(struct FileIO *this, char *Name, unsigned char *Addr, int Len) {
 }
 
 
 // address: 0x8007D154
 // size: 0x14
+// line start: 62
+// line end:   65
 struct PCIO *__4PCIOUl(struct PCIO *this, unsigned long OurMemId) {
 }
 
 
 // address: 0x8007D1BC
+// line start: 75
+// line end:   75
 void ___4PCIO(struct PCIO *this, int __in_chrg) {
 }
 
 
 // address: 0x8007D214
+// line start: 85
+// line end:   93
 bool FileExists__4PCIOPCc(struct PCIO *this, char *Name) {
 	// register: 4
 	register int FileHnd;
@@ -5362,6 +5524,8 @@ bool FileExists__4PCIOPCc(struct PCIO *this, char *Name) {
 
 
 // address: 0x8007D258
+// line start: 106
+// line end:   118
 bool LoReadFileAtAddr__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char *Dest, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -5369,6 +5533,8 @@ bool LoReadFileAtAddr__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char
 
 
 // address: 0x8007D31C
+// line start: 125
+// line end:   139
 int GetFileLength__4PCIOPCc(struct PCIO *this, char *Name) {
 	// register: 16
 	register int FileHnd;
@@ -5378,6 +5544,8 @@ int GetFileLength__4PCIOPCc(struct PCIO *this, char *Name) {
 
 
 // address: 0x8007D3D4
+// line start: 143
+// line end:   160
 bool LoSave__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char *Addr, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -5385,6 +5553,8 @@ bool LoSave__4PCIOPCcPUci(struct PCIO *this, char *Name, unsigned char *Addr, in
 
 
 // address: 0x8007D4A8
+// line start: 169
+// line end:   214
 bool LoStreamFile__4PCIOPCciPFPUciib_bii(struct PCIO *this, char *Name, int Slice, bool (*Func)(), int Offset, int Size) {
 	// register: 19
 	register int FileHnd;
@@ -5403,16 +5573,22 @@ bool LoStreamFile__4PCIOPCciPFPUciib_bii(struct PCIO *this, char *Name, int Slic
 
 // address: 0x8007D6B8
 // size: 0x4
+// line start: 65
+// line end:   67
 struct SysObj *__6SysObj(struct SysObj *this) {
 }
 
 
 // address: 0x8007D6D0
+// line start: 77
+// line end:   79
 void *__nw__6SysObji(int Amount) {
 }
 
 
 // address: 0x8007D6FC
+// line start: 89
+// line end:   101
 void *__nw__6SysObjiUl(int Amount, unsigned long RamID) {
 	// register: 16
 	register long hnd;
@@ -5422,6 +5598,8 @@ void *__nw__6SysObjiUl(int Amount, unsigned long RamID) {
 
 
 // address: 0x8007D778
+// line start: 111
+// line end:   119
 void __dl__6SysObjPv(void *ptr) {
 	// register: 16
 	// size: 0x4
@@ -5431,16 +5609,22 @@ void __dl__6SysObjPv(void *ptr) {
 
 // address: 0x8007D7E4
 // size: 0x14
+// line start: 65
+// line end:   68
 struct DatIO *__5DatIOUl(struct DatIO *this, unsigned long OurMemId) {
 }
 
 
 // address: 0x8007D820
+// line start: 78
+// line end:   78
 void ___5DatIO(struct DatIO *this, int __in_chrg) {
 }
 
 
 // address: 0x8007D878
+// line start: 88
+// line end:   96
 bool FileExists__5DatIOPCc(struct DatIO *this, char *Name) {
 	// register: 4
 	register int FileHnd;
@@ -5448,6 +5632,8 @@ bool FileExists__5DatIOPCc(struct DatIO *this, char *Name) {
 
 
 // address: 0x8007D8B8
+// line start: 109
+// line end:   121
 bool LoReadFileAtAddr__5DatIOPCcPUci(struct DatIO *this, char *Name, unsigned char *Dest, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -5455,6 +5641,8 @@ bool LoReadFileAtAddr__5DatIOPCcPUci(struct DatIO *this, char *Name, unsigned ch
 
 
 // address: 0x8007D978
+// line start: 128
+// line end:   142
 int GetFileLength__5DatIOPCc(struct DatIO *this, char *Name) {
 	// register: 16
 	register int FileHnd;
@@ -5464,6 +5652,8 @@ int GetFileLength__5DatIOPCc(struct DatIO *this, char *Name) {
 
 
 // address: 0x8007DA2C
+// line start: 146
+// line end:   158
 bool LoSave__5DatIOPCcPUci(struct DatIO *this, char *Name, unsigned char *Addr, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -5471,6 +5661,8 @@ bool LoSave__5DatIOPCcPUci(struct DatIO *this, char *Name, unsigned char *Addr, 
 
 
 // address: 0x8007DAD4
+// line start: 173
+// line end:   220
 bool LoStreamFile__5DatIOPCciPFPUciib_bii(struct DatIO *this, char *Name, int Slice, bool (*Func)(), int Offset, int Size) {
 	// register: 19
 	register int FileHnd;
@@ -5489,16 +5681,22 @@ bool LoStreamFile__5DatIOPCciPFPUciib_bii(struct DatIO *this, char *Name, int Sl
 
 // address: 0x8007DCE0
 // size: 0x6C
+// line start: 112
+// line end:   118
 struct TextDat *__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x8007DD20
+// line start: 128
+// line end:   129
 void ___7TextDat(struct TextDat *this, int __in_chrg) {
 }
 
 
 // address: 0x8007DD68
+// line start: 139
+// line end:   197
 void Use__7TextDat(struct TextDat *this) {
 	{
 		{
@@ -5520,6 +5718,8 @@ void Use__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007DF5C
+// line start: 215
+// line end:   243
 bool TpLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
 	// address: 0x8012C60C
 	static int TpX;
@@ -5539,6 +5739,8 @@ bool TpLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool L
 
 
 // address: 0x8007E02C
+// line start: 246
+// line end:   270
 void StreamLoadTP__7TextDat(struct TextDat *this) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
@@ -5547,11 +5749,15 @@ void StreamLoadTP__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007E0E4
+// line start: 285
+// line end:   298
 void FinishedUsing__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x8007E140
+// line start: 309
+// line end:   316
 void MakeBlockOffsetTab__7TextDat(struct TextDat *this) {
 	{
 		{
@@ -5561,6 +5767,8 @@ void MakeBlockOffsetTab__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007E1B0
+// line start: 321
+// line end:   343
 long MakeOffsetTab__C9CBlockHdr(struct CBlockHdr *this) {
 	// register: 21
 	register long hndRet;
@@ -5577,6 +5785,8 @@ long MakeOffsetTab__C9CBlockHdr(struct CBlockHdr *this) {
 
 
 // address: 0x8007E2DC
+// line start: 353
+// line end:   411
 void SetUVTp__7TextDatP9FRAME_HDRP8POLY_FT4ii(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_FT4 *FT4, int XFlip, int YFlip) {
 	// register: 2
 	register int Rotated;
@@ -5595,6 +5805,8 @@ void SetUVTp__7TextDatP9FRAME_HDRP8POLY_FT4ii(struct TextDat *this, struct FRAME
 
 // address: 0x8007E3D8
 // size: 0x28
+// line start: 427
+// line end:   564
 struct POLY_FT4 *PrintMonster__7TextDatiiibi(struct TextDat *this, int Frm, int X, int Y, bool XFlip, int OtPos) {
 	{
 		{
@@ -5650,6 +5862,8 @@ struct POLY_FT4 *PrintMonster__7TextDatiiibi(struct TextDat *this, int Frm, int 
 
 
 // address: 0x8007E7E0
+// line start: 570
+// line end:   627
 void PrepareFt4__7TextDatP8POLY_FT4iiiii(struct TextDat *this, struct POLY_FT4 *FT4, int Frm, int X, int Y, int XFlip, int YFlip) {
 	// register: 19
 	// size: 0xC
@@ -5679,6 +5893,8 @@ void PrepareFt4__7TextDatP8POLY_FT4iiiii(struct TextDat *this, struct POLY_FT4 *
 
 
 // address: 0x8007EA4C
+// line start: 635
+// line end:   669
 unsigned char *GetDecompBufffer__7TextDati(struct TextDat *this, int Size) {
 	// register: 18
 	register long *DecArray;
@@ -5692,6 +5908,8 @@ unsigned char *GetDecompBufffer__7TextDati(struct TextDat *this, int Size) {
 
 
 // address: 0x8007EBAC
+// line start: 674
+// line end:   732
 void SetUVTpGT4__7TextDatP9FRAME_HDRP8POLY_GT4ii(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_GT4 *FT4, int XFlip, int YFlip) {
 	// register: 2
 	register int Rotated;
@@ -5709,6 +5927,8 @@ void SetUVTpGT4__7TextDatP9FRAME_HDRP8POLY_GT4ii(struct TextDat *this, struct FR
 
 
 // address: 0x8007ECA8
+// line start: 736
+// line end:   807
 void PrepareGt4__7TextDatP8POLY_GT4iiiii(struct TextDat *this, struct POLY_GT4 *GT4, int Frm, int X, int Y, int XFlip, int YFlip) {
 	// register: 19
 	// size: 0xC
@@ -5746,6 +5966,8 @@ void PrepareGt4__7TextDatP8POLY_GT4iiiii(struct TextDat *this, struct POLY_GT4 *
 
 
 // address: 0x8007EF04
+// line start: 814
+// line end:   841
 void SetUVTpGT3__7TextDatP9FRAME_HDRP8POLY_GT3(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_GT3 *GT3) {
 	// register: 2
 	register int Rotated;
@@ -5763,6 +5985,8 @@ void SetUVTpGT3__7TextDatP9FRAME_HDRP8POLY_GT3(struct TextDat *this, struct FRAM
 
 
 // address: 0x8007EF84
+// line start: 846
+// line end:   904
 void PrepareGt3__7TextDatP8POLY_GT3iii(struct TextDat *this, struct POLY_GT3 *GT3, int Frm, int X, int Y) {
 	// register: 19
 	// size: 0xC
@@ -5799,6 +6023,8 @@ void PrepareGt3__7TextDatP8POLY_GT3iii(struct TextDat *this, struct POLY_GT3 *GT
 
 // address: 0x8007F148
 // size: 0x28
+// line start: 918
+// line end:   937
 struct POLY_FT4 *PrintFt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, int Y, int XFlip, int OtPos, int YFlip) {
 	// address: 0xFFFFFFD8
 	// size: 0x28
@@ -5808,6 +6034,8 @@ struct POLY_FT4 *PrintFt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, 
 
 // address: 0x8007F29C
 // size: 0x34
+// line start: 943
+// line end:   962
 struct POLY_GT4 *PrintGt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, int Y, int XFlip, int OtPos, int YFlip) {
 	// address: 0xFFFFFFD8
 	// size: 0x34
@@ -5817,6 +6045,8 @@ struct POLY_GT4 *PrintGt4__7TextDatiiiiii(struct TextDat *this, int Frm, int X, 
 
 // address: 0x8007F3F0
 // size: 0x28
+// line start: 968
+// line end:   984
 struct POLY_GT3 *PrintGt3__7TextDatiiii(struct TextDat *this, int Frm, int X, int Y, int OtPos) {
 	// address: 0xFFFFFFE0
 	// size: 0x28
@@ -5825,6 +6055,8 @@ struct POLY_GT3 *PrintGt3__7TextDatiiii(struct TextDat *this, int Frm, int X, in
 
 
 // address: 0x8007F4D4
+// line start: 989
+// line end:   1027
 void DecompFrame__7TextDatP9FRAME_HDR(struct TextDat *this, struct FRAME_HDR *Fr) {
 	// register: 18
 	register unsigned char *CompFrAddr;
@@ -5836,6 +6068,8 @@ void DecompFrame__7TextDatP9FRAME_HDR(struct TextDat *this, struct FRAME_HDR *Fr
 
 
 // address: 0x8007F628
+// line start: 1036
+// line end:   1066
 void MakeCreatureOffsetTab__7TextDat(struct TextDat *this) {
 	// register: 17
 	register int NumOfCreatures;
@@ -5859,6 +6093,8 @@ void MakeCreatureOffsetTab__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007F768
+// line start: 1076
+// line end:   1100
 void MakePalOffsetTab__7TextDat(struct TextDat *this) {
 	// register: 5
 	// size: 0x8
@@ -5871,17 +6107,23 @@ void MakePalOffsetTab__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007F864
+// line start: 1157
+// line end:   1167
 void InitData__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x8007F890
+// line start: 1177
+// line end:   1212
 void DumpData__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x8007F9D8
 // size: 0x6C
+// line start: 1223
+// line end:   1243
 struct TextDat *GM_UseTexData__Fi(int Id) {
 	{
 		{
@@ -5901,11 +6143,15 @@ struct TextDat *GM_UseTexData__Fi(int Id) {
 
 
 // address: 0x8007FAF8
+// line start: 1253
+// line end:   1257
 void GM_FinishedUsing__FP7TextDat(struct TextDat *Fin) {
 }
 
 
 // address: 0x8007FB4C
+// line start: 1261
+// line end:   1282
 void SetPal__7TextDatP9FRAME_HDRP8POLY_FT4(struct TextDat *this, struct FRAME_HDR *Fr, struct POLY_FT4 *FT4) {
 	// register: 17
 	// size: 0x8
@@ -5923,16 +6169,22 @@ void SetPal__7TextDatP9FRAME_HDRP8POLY_FT4(struct TextDat *this, struct FRAME_HD
 
 
 // address: 0x8007FC14
+// line start: 1309
+// line end:   1310
 int GetFrNum__7TextDatiiii(struct TextDat *this, int Creature, int Action, int Direction, int Frame) {
 }
 
 
 // address: 0x8007FC68
+// line start: 1314
+// line end:   1315
 bool IsDirAliased__7TextDatiii(struct TextDat *this, int Creature, int Action, int Direction) {
 }
 
 
 // address: 0x8007FCC0
+// line start: 1324
+// line end:   1354
 void DoDecompRequests__7TextDat(struct TextDat *this) {
 	// register: 17
 	register long *DecArray;
@@ -5946,6 +6198,8 @@ void DoDecompRequests__7TextDat(struct TextDat *this) {
 
 
 // address: 0x8007FDE4
+// line start: 1392
+// line end:   1418
 void FindDecompArea__7TextDatR4RECT(struct TextDat *this, struct RECT *R) {
 	// register: 8
 	register int NumOfFrames;
@@ -5968,16 +6222,22 @@ void FindDecompArea__7TextDatR4RECT(struct TextDat *this, struct RECT *R) {
 
 // address: 0x8007FEB8
 // size: 0x4
+// line start: 1422
+// line end:   1424
 struct CTextFileInfo *GetFileInfo__7TextDati(struct TextDat *this, int Id) {
 }
 
 
 // address: 0x8007FF08
+// line start: 1430
+// line end:   1431
 int GetSize__C15CCreatureAction(struct CCreatureAction *this) {
 }
 
 
 // address: 0x8007FF30
+// line start: 1435
+// line end:   1441
 int GetFrNum__C15CCreatureActionii(struct CCreatureAction *this, int Direction, int Frame) {
 	// register: 2
 	register int LocFrame;
@@ -5985,6 +6245,8 @@ int GetFrNum__C15CCreatureActionii(struct CCreatureAction *this, int Direction, 
 
 
 // address: 0x8007FFD8
+// line start: 1447
+// line end:   1475
 void InitDirRemap__15CCreatureAction(struct CCreatureAction *this) {
 	// address: 0xFFFFFFE0
 	// size: 0x20
@@ -6011,12 +6273,16 @@ void InitDirRemap__15CCreatureAction(struct CCreatureAction *this) {
 
 
 // address: 0x80080098
+// line start: 1479
+// line end:   1483
 int GetFrNum__C12CCreatureHdriii(struct CCreatureHdr *this, int Action, int Direction, int Frame) {
 }
 
 
 // address: 0x800800DC
 // size: 0xE
+// line start: 1487
+// line end:   1495
 struct CCreatureAction *GetAction__C12CCreatureHdri(struct CCreatureHdr *this, int ActNum) {
 	// register: 17
 	// size: 0xE
@@ -6029,6 +6295,8 @@ struct CCreatureAction *GetAction__C12CCreatureHdri(struct CCreatureHdr *this, i
 
 
 // address: 0x8008016C
+// line start: 1499
+// line end:   1506
 void InitActionDirRemaps__12CCreatureHdr(struct CCreatureHdr *this) {
 	// register: 17
 	// size: 0xE
@@ -6041,6 +6309,8 @@ void InitActionDirRemaps__12CCreatureHdr(struct CCreatureHdr *this) {
 
 
 // address: 0x800801DC
+// line start: 1511
+// line end:   1522
 int GetSize__C12CCreatureHdr(struct CCreatureHdr *this) {
 	// register: 18
 	register int Size;
@@ -6059,16 +6329,22 @@ int GetSize__C12CCreatureHdr(struct CCreatureHdr *this) {
 
 
 // address: 0x80080248
+// line start: 1530
+// line end:   1532
 long LoadDat__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
 // address: 0x80080298
+// line start: 1545
+// line end:   1546
 long LoadHdr__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
 // address: 0x800802C0
+// line start: 1550
+// line end:   1563
 long GetFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 	// address: 0xFFFFFFE0
 	// size: 0xD
@@ -6082,6 +6358,8 @@ long GetFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 
 
 // address: 0x8008035C
+// line start: 1568
+// line end:   1577
 bool HasFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 	// address: 0xFFFFFFE0
 	// size: 0xD
@@ -6093,6 +6371,8 @@ bool HasFile__C13CTextFileInfoPc(struct CTextFileInfo *this, char *Ext) {
 
 
 // address: 0x800803C4
+// line start: 1609
+// line end:   1651
 void Un64__FPUcT0l(unsigned char *Src, unsigned char *Dest, long SizeBytes) {
 	// register: 9
 	register unsigned char *EndDest;
@@ -6109,11 +6389,15 @@ void Un64__FPUcT0l(unsigned char *Src, unsigned char *Dest, long SizeBytes) {
 
 // address: 0x80080498
 // size: 0x78
+// line start: 1665
+// line end:   1666
 struct CScreen *__7CScreen(struct CScreen *this) {
 }
 
 
 // address: 0x800804CC
+// line start: 1670
+// line end:   1726
 void Load__7CScreeniii(struct CScreen *this, int Id, int tpx, int tpy) {
 	// register: 8
 	register unsigned char r;
@@ -6152,11 +6436,15 @@ void Load__7CScreeniii(struct CScreen *this, int Id, int tpx, int tpy) {
 
 
 // address: 0x80080748
+// line start: 1731
+// line end:   1733
 void Unload__7CScreen(struct CScreen *this) {
 }
 
 
 // address: 0x8008076C
+// line start: 1737
+// line end:   1766
 void Display__7CScreeniiii(struct CScreen *this, int Id, int tpx, int tpy, int fadeval) {
 	// address: 0xFFFFFFD8
 	// size: 0x28
@@ -6165,6 +6453,8 @@ void Display__7CScreeniiii(struct CScreen *this, int Id, int tpx, int tpy, int f
 
 
 // address: 0x80080A4C
+// line start: 1774
+// line end:   1782
 void SetRect__5CPartR7TextDatR4RECT(struct CPart *this, struct TextDat *TDat, struct RECT *R) {
 	// register: 2
 	// size: 0xC
@@ -6173,6 +6463,8 @@ void SetRect__5CPartR7TextDatR4RECT(struct CPart *this, struct TextDat *TDat, st
 
 
 // address: 0x80080AC4
+// line start: 1786
+// line end:   1830
 void GetBoundingBox__6CBlockR7TextDatR4RECT(struct CBlock *this, struct TextDat *TDat, struct RECT *R) {
 	// register: 18
 	register int left;
@@ -6197,130 +6489,180 @@ void GetBoundingBox__6CBlockR7TextDatR4RECT(struct CBlock *this, struct TextDat 
 
 
 // address: 0x80080C20
+// line start: 1868
+// line end:   1868
 void _GLOBAL__D_DatPool() {
 }
 
 
 // address: 0x80080C78
+// line start: 1868
+// line end:   1868
 void _GLOBAL__I_DatPool() {
 }
 
 
 // address: 0x80080CCC
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_GT3(struct POLY_GT3 **Prim) {
 }
 
 
 // address: 0x80080D48
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_GT4(struct POLY_GT4 **Prim) {
 }
 
 
 // address: 0x80080DC4
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x80080E40
+// line start: 243
+// line end:   243
 bool CanXferFrame__C7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x80080E68
+// line start: 242
+// line end:   242
 bool CanXferPal__C7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x80080E90
+// line start: 241
+// line end:   241
 bool IsLoaded__C7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x80080E9C
+// line start: 240
+// line end:   240
 int GetTexNum__C7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x80080EA8
 // size: 0x14
+// line start: 271
+// line end:   273
 struct CCreatureHdr *GetCreature__7TextDati(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x80080F20
+// line start: 235
+// line end:   235
 int GetNumOfCreatures__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x80080F34
+// line start: 232
+// line end:   232
 void SetFileInfo__7TextDatPC13CTextFileInfoi(struct TextDat *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
 }
 
 
 // address: 0x80080F40
+// line start: 225
+// line end:   225
 int GetNumOfFrames__7TextDat(struct TextDat *this) {
 }
 
 
 // address: 0x80080F54
 // size: 0x8
+// line start: 224
+// line end:   224
 struct PAL *GetPal__7TextDati(struct TextDat *this, int PalNum) {
 }
 
 
 // address: 0x80080F70
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80080F8C
+// line start: 167
+// line end:   167
 char *GetName__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
 // address: 0x80080F98
+// line start: 158
+// line end:   158
 bool HasDat__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
 // address: 0x80080FC0
+// line start: 157
+// line end:   157
 bool HasTp__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
 // address: 0x80080FE8
+// line start: 66
+// line end:   66
 int GetSize__C6CBlock(struct CBlock *this) {
 }
 
 
 // address: 0x80080FFC
 // size: 0x14
+// line start: 122
+// line end:   125
 struct CdIO *__4CdIOUl(struct CdIO *this, unsigned long OurMemId) {
 }
 
 
 // address: 0x80081040
+// line start: 135
+// line end:   135
 void ___4CdIO(struct CdIO *this, int __in_chrg) {
 }
 
 
 // address: 0x80081098
+// line start: 145
+// line end:   155
 bool FileExists__4CdIOPCc(struct CdIO *this, char *Name) {
 }
 
 
 // address: 0x800810BC
+// line start: 167
+// line end:   192
 bool LoReadFileAtAddr__4CdIOPCcPUci(struct CdIO *this, char *Name, unsigned char *Dest, int Len) {
 }
 
 
 // address: 0x800810E4
+// line start: 201
+// line end:   211
 int GetFileLength__4CdIOPCc(struct CdIO *this, char *Name) {
 }
 
 
 // address: 0x80081108
+// line start: 217
+// line end:   236
 bool LoSave__4CdIOPCcPUci(struct CdIO *this, char *Name, unsigned char *Addr, int Len) {
 	// register: 16
 	register int FileHnd;
@@ -6328,11 +6670,15 @@ bool LoSave__4CdIOPCcPUci(struct CdIO *this, char *Name, unsigned char *Addr, in
 
 
 // address: 0x800811E8
+// line start: 253
+// line end:   254
 void LoStreamCallBack__Fi(int handle) {
 }
 
 
 // address: 0x800811F8
+// line start: 259
+// line end:   286
 bool CD_GetCdlFILE__FPCcP7CdlFILE(char *Name, struct CdlFILE *RetFile) {
 	// address: 0xFFFFFF98
 	// size: 0x19
@@ -6354,6 +6700,8 @@ bool CD_GetCdlFILE__FPCcP7CdlFILE(char *Name, struct CdlFILE *RetFile) {
 
 
 // address: 0x80081344
+// line start: 293
+// line end:   366
 bool LoStreamFile__4CdIOPCciPFPUciib_bii(struct CdIO *this, char *Name, int Slice, bool (*Func)(), int Offset, int Size) {
 	// register: 23
 	register unsigned char *Dest;
@@ -6382,6 +6730,8 @@ bool LoStreamFile__4CdIOPCciPFPUciib_bii(struct CdIO *this, char *Name, int Slic
 
 
 // address: 0x800815FC
+// line start: 375
+// line end:   410
 bool LoAsyncStreamFile__4CdIOPCciPFPUciib_bii(struct CdIO *this, char *Name, int Slice, bool (*Func)(), int Offset, int Size) {
 	// register: 20
 	register long hndText;
@@ -6397,6 +6747,8 @@ bool LoAsyncStreamFile__4CdIOPCciPFPUciib_bii(struct CdIO *this, char *Name, int
 
 
 // address: 0x80081738
+// line start: 107
+// line end:   134
 void BL_InitEAC__Fv() {
 	// address: 0xFFFFFFF0
 	auto long gunk1;
@@ -6408,6 +6760,8 @@ void BL_InitEAC__Fv() {
 
 
 // address: 0x80081824
+// line start: 144
+// line end:   170
 long BL_ReadFile__FPcUl(char *Name, unsigned long RamId) {
 	// register: 16
 	register int MemSize;
@@ -6422,6 +6776,8 @@ long BL_ReadFile__FPcUl(char *Name, unsigned long RamId) {
 
 
 // address: 0x80081950
+// line start: 180
+// line end:   220
 long BL_AsyncReadFile__FPcUl(char *Name, unsigned long RamId) {
 	// register: 16
 	register int MemSize;
@@ -6438,6 +6794,8 @@ long BL_AsyncReadFile__FPcUl(char *Name, unsigned long RamId) {
 
 
 // address: 0x80081AC4
+// line start: 230
+// line end:   274
 void BL_LoadDirectory__Fv() {
 	// register: 18
 	register long BL_DirMHandle;
@@ -6455,6 +6813,8 @@ void BL_LoadDirectory__Fv() {
 
 
 // address: 0x80081C30
+// line start: 279
+// line end:   346
 void BL_LoadStreamDir__Fv() {
 	// register: 17
 	register long BL_DirMHandle;
@@ -6472,6 +6832,8 @@ void BL_LoadStreamDir__Fv() {
 
 // address: 0x80081F10
 // size: 0x14
+// line start: 356
+// line end:   377
 struct STRHDR *BL_MakeFilePosTab__FPUcUl(unsigned char *BL_DirPtr, unsigned long NoStreamFiles) {
 	// register: 18
 	// size: 0x14
@@ -6492,6 +6854,8 @@ struct STRHDR *BL_MakeFilePosTab__FPUcUl(unsigned char *BL_DirPtr, unsigned long
 
 // address: 0x80082010
 // size: 0x14
+// line start: 387
+// line end:   426
 struct STRHDR *BL_FindStreamFile__FPcc(char *Name, char LumpID) {
 	// register: 17
 	// size: 0x14
@@ -6529,11 +6893,15 @@ struct STRHDR *BL_FindStreamFile__FPcc(char *Name, char LumpID) {
 
 
 // address: 0x800821AC
+// line start: 436
+// line end:   438
 bool BL_FileExists__FPcc(char *Name, char LumpID) {
 }
 
 
 // address: 0x800821D0
+// line start: 450
+// line end:   456
 int BL_FileLength__FPcc(char *Name, char LumpID) {
 	// register: 3
 	// size: 0x14
@@ -6542,6 +6910,8 @@ int BL_FileLength__FPcc(char *Name, char LumpID) {
 
 
 // address: 0x80082204
+// line start: 466
+// line end:   547
 bool BL_LoadFileAtAddr__FPcPUcc(char *Name, unsigned char *Dest, char LumpID) {
 	// register: 16
 	// size: 0x14
@@ -6552,11 +6922,15 @@ bool BL_LoadFileAtAddr__FPcPUcc(char *Name, unsigned char *Dest, char LumpID) {
 
 
 // address: 0x800822EC
+// line start: 557
+// line end:   559
 bool BL_AsyncLoadDone__Fv() {
 }
 
 
 // address: 0x800822F8
+// line start: 564
+// line end:   580
 void BL_AsyncLoadTASK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -6567,6 +6941,8 @@ void BL_AsyncLoadTASK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80082364
+// line start: 585
+// line end:   631
 long BL_LoadFileAsync__FPcc(char *Name, char LumpID) {
 	// register: 17
 	// size: 0x14
@@ -6586,6 +6962,8 @@ long BL_LoadFileAsync__FPcc(char *Name, char LumpID) {
 
 
 // address: 0x80082508
+// line start: 641
+// line end:   673
 bool BL_AsyncLoadFileAtAddr__FPcPUcc(char *Name, unsigned char *Dest, char LumpID) {
 	// register: 16
 	// size: 0x14
@@ -6600,6 +6978,8 @@ bool BL_AsyncLoadFileAtAddr__FPcPUcc(char *Name, unsigned char *Dest, char LumpI
 
 // address: 0x800825D0
 // size: 0x14
+// line start: 683
+// line end:   687
 struct STRHDR *BL_OpenStreamFile__FPcc(char *Name, char LumpID) {
 	// register: 2
 	// size: 0x14
@@ -6608,11 +6988,15 @@ struct STRHDR *BL_OpenStreamFile__FPcc(char *Name, char LumpID) {
 
 
 // address: 0x800825FC
+// line start: 702
+// line end:   709
 bool BL_CloseStreamFile__FP6STRHDR(struct STRHDR *StreamHDR) {
 }
 
 
 // address: 0x80082634
+// line start: 42
+// line end:   90
 int LZNP_Decode__FPUcT0(unsigned char *in, unsigned char *out) {
 	// register: 6
 	register int i;
@@ -6626,6 +7010,8 @@ int LZNP_Decode__FPUcT0(unsigned char *in, unsigned char *out) {
 
 
 // address: 0x80082708
+// line start: 77
+// line end:   108
 void *Tmalloc__Fi(int MemSize) {
 	// register: 17
 	register long MyHnd;
@@ -6635,16 +7021,22 @@ void *Tmalloc__Fi(int MemSize) {
 
 
 // address: 0x8008282C
+// line start: 118
+// line end:   137
 void Tfree__FPv(void *Addr) {
 }
 
 
 // address: 0x800828DC
+// line start: 146
+// line end:   151
 void InitTmalloc__Fv() {
 }
 
 
 // address: 0x80082904
+// line start: 161
+// line end:   167
 void strupr__FPc(char *Buffa) {
 	// register: 4
 	register char *TempBuf;
@@ -6654,6 +7046,8 @@ void strupr__FPc(char *Buffa) {
 
 
 // address: 0x80082958
+// line start: 175
+// line end:   187
 void PauseTask__FP4TASK(struct TASK *T) {
 	{
 		// address: 0xFFFFFFE8
@@ -6664,6 +7058,8 @@ void PauseTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x800829A4
+// line start: 198
+// line end:   226
 int GetPausePad__Fv() {
 	// register: 18
 	register bool Done;
@@ -6685,11 +7081,15 @@ int GetPausePad__Fv() {
 
 
 // address: 0x80082A90
+// line start: 238
+// line end:   243
 bool TryPadForPause__Fi(int PadNum) {
 }
 
 
 // address: 0x80082ABC
+// line start: 255
+// line end:   320
 void DoPause__14CPauseMessagesi(struct CPauseMessages *this, int nPadNum) {
 	{
 		{
@@ -6719,6 +7119,8 @@ void DoPause__14CPauseMessagesi(struct CPauseMessages *this, int nPadNum) {
 
 
 // address: 0x80082D3C
+// line start: 331
+// line end:   432
 bool DoPausedMessage__14CPauseMessages(struct CPauseMessages *this) {
 	// register: 20
 	register bool RetVal;
@@ -6753,6 +7155,8 @@ bool DoPausedMessage__14CPauseMessages(struct CPauseMessages *this) {
 
 
 // address: 0x80083054
+// line start: 443
+// line end:   481
 int DoQuitMessage__14CPauseMessages(struct CPauseMessages *this) {
 	// register: 20
 	register int RetVal;
@@ -6768,6 +7172,8 @@ int DoQuitMessage__14CPauseMessages(struct CPauseMessages *this) {
 
 
 // address: 0x80083174
+// line start: 491
+// line end:   522
 bool AreYouSureMessage__14CPauseMessages(struct CPauseMessages *this) {
 	// register: 20
 	register bool RetVal;
@@ -6783,6 +7189,8 @@ bool AreYouSureMessage__14CPauseMessages(struct CPauseMessages *this) {
 
 
 // address: 0x80083278
+// line start: 546
+// line end:   549
 bool PA_SetPauseOk__Fb(bool NewPause) {
 	// register: 2
 	register bool Ret;
@@ -6790,11 +7198,15 @@ bool PA_SetPauseOk__Fb(bool NewPause) {
 
 
 // address: 0x80083288
+// line start: 559
+// line end:   560
 bool PA_GetPauseOk__Fv() {
 }
 
 
 // address: 0x80083294
+// line start: 583
+// line end:   592
 void MY_PausePrint__17CTempPauseMessageiPciP4RECT(struct CTempPauseMessage *this, int s, char *Txt, int Menu, struct RECT *PRect) {
 	{
 		{
@@ -6806,11 +7218,15 @@ void MY_PausePrint__17CTempPauseMessageiPciP4RECT(struct CTempPauseMessage *this
 
 
 // address: 0x800833E0
+// line start: 597
+// line end:   598
 void InitPrintQuitMessage__17CTempPauseMessage(struct CTempPauseMessage *this) {
 }
 
 
 // address: 0x800833E8
+// line start: 601
+// line end:   616
 void PrintQuitMessage__17CTempPauseMessagei(struct CTempPauseMessage *this, int Menu) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
@@ -6819,16 +7235,22 @@ void PrintQuitMessage__17CTempPauseMessagei(struct CTempPauseMessage *this, int 
 
 
 // address: 0x800834F8
+// line start: 623
+// line end:   624
 void LeavePrintQuitMessage__17CTempPauseMessagei(struct CTempPauseMessage *this, int Menu) {
 }
 
 
 // address: 0x80083500
+// line start: 627
+// line end:   628
 void InitPrintAreYouSure__17CTempPauseMessage(struct CTempPauseMessage *this) {
 }
 
 
 // address: 0x80083508
+// line start: 631
+// line end:   644
 void PrintAreYouSure__17CTempPauseMessagei(struct CTempPauseMessage *this, int Menu) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
@@ -6837,16 +7259,22 @@ void PrintAreYouSure__17CTempPauseMessagei(struct CTempPauseMessage *this, int M
 
 
 // address: 0x80083618
+// line start: 651
+// line end:   652
 void LeavePrintAreYouSure__17CTempPauseMessagei(struct CTempPauseMessage *this, int Menu) {
 }
 
 
 // address: 0x80083620
+// line start: 655
+// line end:   656
 void InitPrintPaused__17CTempPauseMessage(struct CTempPauseMessage *this) {
 }
 
 
 // address: 0x80083628
+// line start: 659
+// line end:   672
 void PrintPaused__17CTempPauseMessage(struct CTempPauseMessage *this) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
@@ -6855,84 +7283,116 @@ void PrintPaused__17CTempPauseMessage(struct CTempPauseMessage *this) {
 
 
 // address: 0x80083754
+// line start: 689
+// line end:   690
 void LeavePrintPaused__17CTempPauseMessage(struct CTempPauseMessage *this) {
 }
 
 
 // address: 0x8008375C
+// line start: 693
+// line end:   693
 void ___17CTempPauseMessage(struct CTempPauseMessage *this, int __in_chrg) {
 }
 
 
 // address: 0x80083784
+// line start: 698
+// line end:   698
 void _GLOBAL__D_DoPause__14CPauseMessagesi() {
 }
 
 
 // address: 0x800837AC
+// line start: 698
+// line end:   698
 void _GLOBAL__I_DoPause__14CPauseMessagesi() {
 }
 
 
 // address: 0x800837D4
 // size: 0xC
+// line start: 112
+// line end:   112
 struct CTempPauseMessage *__17CTempPauseMessage(struct CTempPauseMessage *this) {
 }
 
 
 // address: 0x80083818
+// line start: 83
+// line end:   83
 void ___14CPauseMessages(struct CPauseMessages *this, int __in_chrg) {
 }
 
 
 // address: 0x8008384C
 // size: 0x8
+// line start: 82
+// line end:   82
 struct CPauseMessages *__14CPauseMessages(struct CPauseMessages *this) {
 }
 
 
 // address: 0x80083860
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x80083880
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80083888
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80083890
+// line start: 77
+// line end:   77
 void ___6Dialog(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x800838B8
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog(struct Dialog *this) {
 }
 
 
 // address: 0x80083914
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad(struct CPad *this) {
 }
 
 
 // address: 0x8008393C
+// line start: 107
+// line end:   111
 unsigned short GetUp__C4CPad(struct CPad *this) {
 }
 
 
 // address: 0x80083964
+// line start: 91
+// line end:   93
 unsigned char CheckActive__4CPad(struct CPad *this) {
 }
 
 
 // address: 0x80083970
+// line start: 111
+// line end:   141
 unsigned long ReadPadStream__Fv() {
 	// register: 19
 	register unsigned char *p0;
@@ -6944,6 +7404,8 @@ unsigned long ReadPadStream__Fv() {
 
 
 // address: 0x80083A88
+// line start: 152
+// line end:   201
 void PAD_Handler__Fv() {
 	// register: 16
 	register unsigned long JVal;
@@ -6956,11 +7418,15 @@ void PAD_Handler__Fv() {
 
 // address: 0x80083C40
 // size: 0x6C
+// line start: 215
+// line end:   226
 struct CPad *PAD_GetPad__FiUc(int PadNum, unsigned char both) {
 }
 
 
 // address: 0x80083CDC
+// line start: 238
+// line end:   269
 void NewVal__4CPadUs(struct CPad *this, unsigned short New) {
 	{
 		// register: 7
@@ -6972,6 +7438,8 @@ void NewVal__4CPadUs(struct CPad *this, unsigned short New) {
 
 
 // address: 0x80083E14
+// line start: 273
+// line end:   305
 void BothNewVal__4CPadUsUs(struct CPad *this, unsigned short New, unsigned short New2) {
 	{
 		// register: 7
@@ -6983,6 +7451,8 @@ void BothNewVal__4CPadUsUs(struct CPad *this, unsigned short New, unsigned short
 
 
 // address: 0x80083F70
+// line start: 315
+// line end:   339
 unsigned short Trans__4CPadUs(struct CPad *this, unsigned short PadVal) {
 	// register: 2
 	register unsigned short RetVal;
@@ -6990,42 +7460,58 @@ unsigned short Trans__4CPadUs(struct CPad *this, unsigned short PadVal) {
 
 
 // address: 0x80084094
+// line start: 343
+// line end:   343
 void _GLOBAL__I_Pad0() {
 }
 
 
 // address: 0x800840CC
+// line start: 96
+// line end:   96
 void SetPadType__4CPadUc(struct CPad *this, unsigned char val) {
 }
 
 
 // address: 0x800840D4
+// line start: 91
+// line end:   93
 unsigned char CheckActive__4CPad_addr_800840D4(struct CPad *this) {
 }
 
 
 // address: 0x800840E0
+// line start: 88
+// line end:   88
 void SetActive__4CPadUc(struct CPad *this, unsigned char a) {
 }
 
 
 // address: 0x800840E8
+// line start: 81
+// line end:   81
 void SetBothFlag__4CPadUc(struct CPad *this, unsigned char fl) {
 }
 
 
 // address: 0x800840F0
 // size: 0x6C
+// line start: 79
+// line end:   79
 struct CPad *__4CPadi(struct CPad *this, int PhysStick) {
 }
 
 
 // address: 0x80084124
+// line start: 128
+// line end:   132
 void Flush__4CPad(struct CPad *this) {
 }
 
 
 // address: 0x80084148
+// line start: 89
+// line end:   94
 void Set__7FontTab(struct FontTab *this) {
 	{
 		// register: 16
@@ -7041,16 +7527,22 @@ void Set__7FontTab(struct FontTab *this) {
 
 
 // address: 0x800841E4
+// line start: 360
+// line end:   372
 void InitPrinty__Fv() {
 }
 
 
 // address: 0x80084284
+// line start: 377
+// line end:   378
 void SetTextDat__5CFontP7TextDat(struct CFont *this, struct TextDat *NewDat) {
 }
 
 
 // address: 0x8008428C
+// line start: 385
+// line end:   444
 int PrintChar__5CFontUsUscUcUcUc(struct CFont *this, unsigned short Cx, unsigned short Cy, char C, int R, int G, int B) {
 	// address: 0xFFFFFFB8
 	auto int Cw;
@@ -7078,6 +7570,8 @@ int PrintChar__5CFontUsUscUcUcUc(struct CFont *this, unsigned short Cx, unsigned
 
 
 // address: 0x80084558
+// line start: 449
+// line end:   630
 int Print__5CFontiiPc8TXT_JUSTP4RECTUcUcUc(struct CFont *this, int X, int Y, char *Str, enum TXT_JUST Justify, struct RECT *TextWindow, int R, int G, int B) {
 	// register: 16
 	register int Cx;
@@ -7137,6 +7631,8 @@ int Print__5CFontiiPc8TXT_JUSTP4RECTUcUcUc(struct CFont *this, int X, int Y, cha
 
 
 // address: 0x80084B7C
+// line start: 635
+// line end:   651
 int GetStrWidth__5CFontPc(struct CFont *this, char *Str) {
 	// register: 19
 	register int Width;
@@ -7146,11 +7642,15 @@ int GetStrWidth__5CFontPc(struct CFont *this, char *Str) {
 
 
 // address: 0x80084C30
+// line start: 659
+// line end:   661
 void SetChar__5CFontiUs(struct CFont *this, int ch, unsigned short Frm) {
 }
 
 
 // address: 0x80084C94
+// line start: 667
+// line end:   670
 int SetOTpos__5CFonti(struct CFont *this, int OT) {
 	// register: 2
 	register int OldOT;
@@ -7158,43 +7658,59 @@ int SetOTpos__5CFonti(struct CFont *this, int OT) {
 
 
 // address: 0x80084CA0
+// line start: 91
+// line end:   91
 void ClearFont__5CFont(struct CFont *this) {
 }
 
 
 // address: 0x80084CC4
+// line start: 88
+// line end:   88
 bool IsDefined__5CFontUc(struct CFont *this, unsigned char C) {
 }
 
 
 // address: 0x80084CE4
+// line start: 85
+// line end:   85
 int GetCharFrameNum__5CFontc(struct CFont *this, char ch) {
 }
 
 
 // address: 0x80084CFC
+// line start: 71
+// line end:   78
 int GetCharWidth__5CFontc(struct CFont *this, char ch) {
 }
 
 
 // address: 0x80084D54
+// line start: 59
+// line end:   59
 void Init__5CFont(struct CFont *this) {
 }
 
 
 // address: 0x80084D88
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_80084D88(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80084DA4
+// line start: 110
+// line end:   113
 unsigned char TrimCol__Fs(short col) {
 }
 
 
 // address: 0x80084DDC
 // size: 0x34
+// line start: 204
+// line end:   385
 struct POLY_GT4 *DialogPrint__Fiiiiiiiiii(int Frm, int X, int Y, int SW, int SH, int UW, int UH, int UOfs, int VOfs, int Trans) {
 	// address: 0xFFFFFF78
 	// size: 0xC
@@ -7285,6 +7801,8 @@ struct POLY_GT4 *DialogPrint__Fiiiiiiiiii(int Frm, int X, int Y, int SW, int SH,
 
 // address: 0x80085754
 // size: 0x24
+// line start: 391
+// line end:   402
 struct POLY_G4 *GetDropShadowG4__FUcUcUcUcUcUcUcUcUcUcUcUc(unsigned char r0, unsigned char g0, unsigned char b0, unsigned char r1, int g1, int b1, int r2, int g2, int b2, int r3, int g3, int b3) {
 	// register: 2
 	// size: 0x24
@@ -7293,6 +7811,8 @@ struct POLY_G4 *GetDropShadowG4__FUcUcUcUcUcUcUcUcUcUcUcUc(unsigned char r0, uns
 
 
 // address: 0x8008588C
+// line start: 406
+// line end:   459
 void DropShadows__Fiiii(int x, int y, int w, int h) {
 	// register: 2
 	// size: 0x24
@@ -7307,6 +7827,8 @@ void DropShadows__Fiiii(int x, int y, int w, int h) {
 
 
 // address: 0x80085B30
+// line start: 474
+// line end:   492
 void InitDialog__Fv() {
 	{
 		// register: 16
@@ -7336,6 +7858,8 @@ void InitDialog__Fv() {
 
 
 // address: 0x80085C68
+// line start: 496
+// line end:   552
 void GetSizes__6Dialog(struct Dialog *this) {
 	// register: 3
 	// size: 0xC
@@ -7344,6 +7868,8 @@ void GetSizes__6Dialog(struct Dialog *this) {
 
 
 // address: 0x80085EC0
+// line start: 565
+// line end:   989
 void Back__6Dialogiiii(struct Dialog *this, int DX, int DY, int DW, int DH) {
 	// register: 30
 	register int X;
@@ -7398,6 +7924,8 @@ void Back__6Dialogiiii(struct Dialog *this, int DX, int DY, int DW, int DH) {
 
 
 // address: 0x80087080
+// line start: 993
+// line end:   1081
 void Line__6Dialogiii(struct Dialog *this, int DX, int DY, int DW) {
 	// register: 20
 	register int X;
@@ -7421,17 +7949,23 @@ void Line__6Dialogiii(struct Dialog *this, int DX, int DY, int DW) {
 
 // address: 0x80087298
 // size: 0x8
+// line start: 224
+// line end:   224
 struct PAL *GetPal__7TextDati_addr_80087298(struct TextDat *this, int PalNum) {
 }
 
 
 // address: 0x800872B4
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_800872B4(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x800872D0
+// line start: 67
+// line end:   109
 void ATT_DoAttract__Fv() {
 	// address: 0xFFFFFFD0
 	// size: 0x24
@@ -7440,6 +7974,8 @@ void ATT_DoAttract__Fv() {
 
 
 // address: 0x80087420
+// line start: 114
+// line end:   119
 void CreatePlayersFromFeData__FR9FE_CREATE(struct FE_CREATE *CStruct) {
 	{
 		// register: 16
@@ -7449,16 +7985,22 @@ void CreatePlayersFromFeData__FR9FE_CREATE(struct FE_CREATE *CStruct) {
 
 
 // address: 0x800874BC
+// line start: 226
+// line end:   232
 void UpdateSel__FPUsUsPUc(unsigned short *Col, unsigned short Add, unsigned char *Count) {
 }
 
 
 // address: 0x800874FC
+// line start: 237
+// line end:   266
 void CycleSelCols__Fv() {
 }
 
 
 // address: 0x800876B4
+// line start: 274
+// line end:   282
 int FindTownCreature__7CBlocksi(struct CBlocks *this, int GameEqu) {
 	{
 		// register: 17
@@ -7472,6 +8014,8 @@ int FindTownCreature__7CBlocksi(struct CBlocks *this, int GameEqu) {
 
 
 // address: 0x80087728
+// line start: 291
+// line end:   297
 int FindCreature__7CBlocksi(struct CBlocks *this, int MgNum) {
 	{
 		// register: 3
@@ -7482,16 +8026,22 @@ int FindCreature__7CBlocksi(struct CBlocks *this, int MgNum) {
 
 // address: 0x8008777C
 // size: 0xE0
+// line start: 306
+// line end:   360
 struct CBlocks *__7CBlocksiiiii(struct CBlocks *this, int BgId, int ObjId, int ItemId, int Level, int List) {
 }
 
 
 // address: 0x800878D0
+// line start: 370
+// line end:   372
 void SetTownersGraphics__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x80087908
+// line start: 381
+// line end:   392
 void SetMonsterGraphics__7CBlocksii(struct CBlocks *this, int Level, int List) {
 	// register: 16
 	// size: 0x8
@@ -7503,11 +8053,15 @@ void SetMonsterGraphics__7CBlocksii(struct CBlocks *this, int Level, int List) {
 
 
 // address: 0x800879D0
+// line start: 402
+// line end:   414
 void ___7CBlocks(struct CBlocks *this, int __in_chrg) {
 }
 
 
 // address: 0x80087A58
+// line start: 424
+// line end:   431
 void DumpGt4s__7CBlocks(struct CBlocks *this) {
 	{
 		{
@@ -7517,6 +8071,8 @@ void DumpGt4s__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x80087AC0
+// line start: 440
+// line end:   447
 void DumpRects__7CBlocks(struct CBlocks *this) {
 	{
 		{
@@ -7526,16 +8082,22 @@ void DumpRects__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x80087B28
+// line start: 457
+// line end:   462
 void SetGraphics__7CBlocksPP7TextDatPii(struct CBlocks *this, struct TextDat **TDat, int *pId, int Id) {
 }
 
 
 // address: 0x80087B84
+// line start: 472
+// line end:   478
 void DumpGraphics__7CBlocksPP7TextDatPi(struct CBlocks *this, struct TextDat **TDat, int *Id) {
 }
 
 
 // address: 0x80087BD4
+// line start: 486
+// line end:   521
 void PrintBlockOutline__7CBlocksiiiii(struct CBlocks *this, int x, int y, int r, int g, int b) {
 	// address: 0xFFFFFFC8
 	// size: 0x10
@@ -7544,6 +8106,8 @@ void PrintBlockOutline__7CBlocksiiiii(struct CBlocks *this, int x, int y, int r,
 
 
 // address: 0x80087F20
+// line start: 532
+// line end:   542
 void Load__7CBlocksi(struct CBlocks *this, int Id) {
 	{
 		{
@@ -7553,6 +8117,8 @@ void Load__7CBlocksi(struct CBlocks *this, int Id) {
 
 
 // address: 0x80087FCC
+// line start: 553
+// line end:   564
 void MakeRectTable__7CBlocks(struct CBlocks *this) {
 	{
 		// register: 16
@@ -7562,6 +8128,8 @@ void MakeRectTable__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x800880A0
+// line start: 574
+// line end:   585
 void MakeGt4Table__7CBlocks(struct CBlocks *this) {
 	{
 		// register: 17
@@ -7576,6 +8144,8 @@ void MakeGt4Table__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x800881A8
+// line start: 595
+// line end:   653
 void MakeGt4__7CBlocksP8POLY_GT4P9FRAME_HDR(struct CBlocks *this, struct POLY_GT4 *GT4, struct FRAME_HDR *Fr) {
 	// register: 3
 	register int W;
@@ -7596,26 +8166,36 @@ void MakeGt4__7CBlocksP8POLY_GT4P9FRAME_HDR(struct CBlocks *this, struct POLY_GT
 
 // address: 0x800882E4
 // size: 0xC
+// line start: 663
+// line end:   665
 struct CBlock *GetBlock__7CBlocksi(struct CBlocks *this, int num) {
 }
 
 
 // address: 0x8008835C
+// line start: 676
+// line end:   677
 void Print__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x80088384
+// line start: 687
+// line end:   690
 void SetXY__7CBlocksii(struct CBlocks *this, int nx, int ny) {
 }
 
 
 // address: 0x800883AC
+// line start: 700
+// line end:   702
 void GetXY__7CBlocksPiT1(struct CBlocks *this, int *nx, int *ny) {
 }
 
 
 // address: 0x800883C4
+// line start: 745
+// line end:   1229
 void PrintMap__7CBlocksii(struct CBlocks *this, int x, int y) {
 	// address: 0xFFFFFF08
 	auto int XPos;
@@ -7773,6 +8353,8 @@ void PrintMap__7CBlocksii(struct CBlocks *this, int x, int y) {
 
 
 // address: 0x800898E8
+// line start: 1241
+// line end:   1264
 void PrintGameSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int ThisYPos, int OtPos, int ScrX, int ScrY) {
 	// register: 17
 	// size: 0xC
@@ -7787,6 +8369,8 @@ void PrintGameSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int Thi
 
 
 // address: 0x80089A58
+// line start: 1274
+// line end:   1647
 void PrintGameSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct map_info *piece, int OtPos, int ScrX, int ScrY, int R, int G, int B) {
 	// address: 0xFFFFFFA0
 	auto int nMonster;
@@ -7949,6 +8533,8 @@ void PrintGameSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct ma
 
 
 // address: 0x8008A79C
+// line start: 1656
+// line end:   1829
 void PrintSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct map_info *piece, int OtPos, int ScrX, int ScrY, int R, int G, int B) {
 	// address: 0xFFFFFFC8
 	auto int Monster;
@@ -8040,6 +8626,8 @@ void PrintSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct map_in
 
 
 // address: 0x8008AEB0
+// line start: 1837
+// line end:   1857
 void PrintSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int ThisYPos, int OtPos, int ScrX, int ScrY) {
 	// register: 17
 	// size: 0xC
@@ -8054,21 +8642,29 @@ void PrintSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int ThisYPo
 
 
 // address: 0x8008B020
+// line start: 1867
+// line end:   1868
 int ScrToWorldX__7CBlocksii(struct CBlocks *this, int sx, int sy) {
 }
 
 
 // address: 0x8008B034
+// line start: 1878
+// line end:   1879
 int ScrToWorldY__7CBlocksii(struct CBlocks *this, int sx, int sy) {
 }
 
 
 // address: 0x8008B048
+// line start: 1889
+// line end:   1891
 void SetScrollTarget__7CBlocksii(struct CBlocks *this, int x, int y) {
 }
 
 
 // address: 0x8008B10C
+// line start: 1901
+// line end:   1909
 void DoScroll__7CBlocks(struct CBlocks *this) {
 	// register: 7
 	register int XDiff;
@@ -8080,11 +8676,15 @@ void DoScroll__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x8008B18C
+// line start: 1919
+// line end:   1929
 void SetPlayerPosBlocks__7CBlocksiii(struct CBlocks *this, int PlayerNum, int bx, int by) {
 }
 
 
 // address: 0x8008B22C
+// line start: 1940
+// line end:   1951
 void GetScrXY__7CBlocksR4RECTiiii(struct CBlocks *this, struct RECT *R, int x, int y, int sxoff, int syoff) {
 	// register: 16
 	register int Sx;
@@ -8094,6 +8694,8 @@ void GetScrXY__7CBlocksR4RECTiiii(struct CBlocks *this, struct RECT *R, int x, i
 
 
 // address: 0x8008B300
+// line start: 2008
+// line end:   2035
 void ShadScaleSkew__7CBlocksP8POLY_FT4(struct POLY_FT4 *Ft4) {
 	// register: 5
 	register int H;
@@ -8105,33 +8707,45 @@ void ShadScaleSkew__7CBlocksP8POLY_FT4(struct POLY_FT4 *Ft4) {
 
 
 // address: 0x8008B380
+// line start: 2047
+// line end:   2048
 int WorldToScrX__7CBlocksii(struct CBlocks *this, int x, int y) {
 }
 
 
 // address: 0x8008B388
+// line start: 2058
+// line end:   2059
 int WorldToScrY__7CBlocksii(struct CBlocks *this, int x, int y) {
 }
 
 
 // address: 0x8008B39C
 // size: 0xE0
+// line start: 2095
+// line end:   2102
 struct CBlocks *BL_GetCurrentBlocks__Fv() {
 }
 
 
 // address: 0x8008B3A8
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_8008B3A8(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x8008B424
+// line start: 100
+// line end:   108
 int GetHighlightCol__FiPiUsUsUs(int Index, int *SelList, unsigned short P1Col, unsigned short P2Col, int P12Col) {
 }
 
 
 // address: 0x8008B46C
 // size: 0x28
+// line start: 84
+// line end:   89
 struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4(struct POLY_FT4 *Prim) {
 	// address: 0xFFFFFFF0
 	// size: 0x28
@@ -8140,21 +8754,29 @@ struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4(struct POLY_FT4 *Prim) {
 
 
 // address: 0x8008B4A8
+// line start: 100
+// line end:   108
 int GetHighlightCol__FiPcUsUsUs(int Index, char *SelList, unsigned short P1Col, unsigned short P2Col, int P12Col) {
 }
 
 
 // address: 0x8008B4F0
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_GT4_addr_8008B4F0(struct POLY_GT4 **Prim) {
 }
 
 
 // address: 0x8008B56C
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP7LINE_F2(struct LINE_F2 **Prim) {
 }
 
 
 // address: 0x8008B5E8
+// line start: 75
+// line end:   80
 void PRIM_CopyPrim__FP8POLY_FT4T0(struct POLY_FT4 *Dest, struct POLY_FT4 *Source) {
 	// register: 4
 	register unsigned long *Dest32;
@@ -8168,124 +8790,172 @@ void PRIM_CopyPrim__FP8POLY_FT4T0(struct POLY_FT4 *Dest, struct POLY_FT4 *Source
 
 
 // address: 0x8008B610
+// line start: 166
+// line end:   168
 int GetCreature__14TownToCreaturei(struct TownToCreature *this, int GameCreature) {
 }
 
 
 // address: 0x8008B62C
+// line start: 173
+// line end:   173
 void SetItemGraphics__7CBlocksi(struct CBlocks *this, int Id) {
 }
 
 
 // address: 0x8008B654
+// line start: 172
+// line end:   172
 void SetObjGraphics__7CBlocksi(struct CBlocks *this, int Id) {
 }
 
 
 // address: 0x8008B67C
+// line start: 158
+// line end:   158
 void DumpItems__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x8008B6A0
+// line start: 157
+// line end:   157
 void DumpObjs__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x8008B6C4
+// line start: 156
+// line end:   156
 void DumpMonsters__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x8008B6EC
+// line start: 117
+// line end:   117
 int GetNumOfBlocks__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x8008B6F8
+// line start: 64
+// line end:   76
 void CopyToGt4__9LittleGt4P8POLY_GT4(struct LittleGt4 *this, struct POLY_GT4 *Gt4) {
 }
 
 
 // address: 0x8008B790
+// line start: 47
+// line end:   60
 void InitFromGt4__9LittleGt4P8POLY_GT4ii(struct LittleGt4 *this, struct POLY_GT4 *Gt4, int nw, int nh) {
 }
 
 
 // address: 0x8008B820
+// line start: 237
+// line end:   237
 int GetNumOfFrames__7TextDatii(struct TextDat *this, int Creature, int Action) {
 }
 
 
 // address: 0x8008B858
 // size: 0x14
+// line start: 271
+// line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_8008B858(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x8008B8D0
+// line start: 235
+// line end:   235
 int GetNumOfCreatures__7TextDat_addr_8008B8D0(struct TextDat *this) {
 }
 
 
 // address: 0x8008B8E4
+// line start: 232
+// line end:   232
 void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_8008B8E4(struct TextDat *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
 }
 
 
 // address: 0x8008B8F0
 // size: 0x8
+// line start: 224
+// line end:   224
 struct PAL *GetPal__7TextDati_addr_8008B8F0(struct TextDat *this, int PalNum) {
 }
 
 
 // address: 0x8008B90C
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_8008B90C(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x8008B928
+// line start: 119
+// line end:   121
 bool OVR_IsMemcardOverlayBlank__Fv() {
 }
 
 
 // address: 0x8008B954
+// line start: 129
+// line end:   130
 void OVR_LoadPregame__Fv() {
 }
 
 
 // address: 0x8008B97C
+// line start: 137
+// line end:   138
 void OVR_LoadFrontend__Fv() {
 }
 
 
 // address: 0x8008B9A4
+// line start: 146
+// line end:   147
 void OVR_LoadGame__Fv() {
 }
 
 
 // address: 0x8008B9CC
+// line start: 155
+// line end:   156
 void OVR_LoadFmv__Fv() {
 }
 
 
 // address: 0x8008B9F4
+// line start: 164
+// line end:   165
 void OVR_LoadMemcard__Fv() {
 }
 
 
 // address: 0x8008BA20
+// line start: 174
+// line end:   178
 void ClearOutOverlays__Fv() {
 }
 
 
 // address: 0x8008BA78
+// line start: 187
+// line end:   194
 void ClearOut__7Overlay(struct Overlay *this) {
 }
 
 
 // address: 0x8008BB3C
+// line start: 203
+// line end:   216
 void Load__7Overlay(struct Overlay *this) {
 	// address: 0xFFFFFEF8
 	// size: 0x100
@@ -8295,53 +8965,73 @@ void Load__7Overlay(struct Overlay *this) {
 
 // address: 0x8008BBAC
 // size: 0x4
+// line start: 225
+// line end:   226
 enum OVER_TYPE OVR_GetCurrentOverlay__Fv() {
 }
 
 
 // address: 0x8008BBB8
+// line start: 234
+// line end:   239
 void LoadOver__FR7Overlay(struct Overlay *Ovr) {
 }
 
 
 // address: 0x8008BC0C
+// line start: 244
+// line end:   244
 void _GLOBAL__I_OVR_Open__Fv() {
 }
 
 
 // address: 0x8008BD7C
 // size: 0x4
+// line start: 65
+// line end:   65
 enum OVER_TYPE GetOverType__7Overlay(struct Overlay *this) {
 }
 
 
 // address: 0x8008BD88
+// line start: 74
+// line end:   75
 void StevesDummyPoll__Fv() {
 }
 
 
 // address: 0x8008BD90
+// line start: 78
+// line end:   81
 void Lambo__Fv() {
 }
 
 
 // address: 0x8008BD98
 // size: 0x84
+// line start: 66
+// line end:   111
 struct CPlayer *__7CPlayerbi(struct CPlayer *this, bool Town, int mPlayerNum) {
 }
 
 
 // address: 0x8008BE7C
+// line start: 122
+// line end:   124
 void ___7CPlayer(struct CPlayer *this, int __in_chrg) {
 }
 
 
 // address: 0x8008BED4
+// line start: 134
+// line end:   138
 void Load__7CPlayeri(struct CPlayer *this, int Id) {
 }
 
 
 // address: 0x8008BF30
+// line start: 167
+// line end:   173
 void SetBlockXY__7CPlayerR7CBlocksR12PlayerStruct(struct CPlayer *this, struct CBlocks *Bg, struct PlayerStruct *Plr) {
 	// register: 17
 	register int ScrX;
@@ -8355,6 +9045,8 @@ void SetBlockXY__7CPlayerR7CBlocksR12PlayerStruct(struct CPlayer *this, struct C
 
 
 // address: 0x8008C07C
+// line start: 178
+// line end:   244
 void SetScrollTarget__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct PlayerStruct *Plr, struct CBlocks *Bg) {
 	// register: 17
 	register int ScrX;
@@ -8372,11 +9064,15 @@ void SetScrollTarget__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, str
 
 
 // address: 0x8008C4A8
+// line start: 260
+// line end:   277
 int GetNumOfSpellAnims__FR12PlayerStruct(struct PlayerStruct *Plr) {
 }
 
 
 // address: 0x8008C528
+// line start: 282
+// line end:   415
 void Print__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct PlayerStruct *Plr, struct CBlocks *Bg) {
 	// address: 0xFFFFFFD0
 	auto int ScrXOff;
@@ -8455,6 +9151,8 @@ void Print__7CPlayerR12PlayerStructR7CBlocks(struct CPlayer *this, struct Player
 
 
 // address: 0x8008CA1C
+// line start: 426
+// line end:   484
 int FindAction__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruct *Plr) {
 	// register: 2
 	register int RetVal;
@@ -8463,27 +9161,37 @@ int FindAction__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruc
 
 // address: 0x8008CA98
 // size: 0x4
+// line start: 489
+// line end:   520
 enum PACTION FindActionEnum__7CPlayerR12PlayerStruct(struct CPlayer *this, struct PlayerStruct *Plr) {
 }
 
 
 // address: 0x8008CB14
+// line start: 531
+// line end:   532
 void Init__7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x8008CB1C
+// line start: 541
+// line end:   542
 void Dump__7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x8008CB24
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_8008CB24(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x8008CBA0
 // size: 0x28
+// line start: 84
+// line end:   89
 struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_8008CBA0(struct POLY_FT4 *Prim) {
 	// address: 0xFFFFFFF0
 	// size: 0x28
@@ -8492,6 +9200,8 @@ struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_8008CBA0(struct POLY_FT4 *Prim) 
 
 
 // address: 0x8008CBDC
+// line start: 75
+// line end:   80
 void PRIM_CopyPrim__FP8POLY_FT4T0_addr_8008CBDC(struct POLY_FT4 *Dest, struct POLY_FT4 *Source) {
 	// register: 4
 	register unsigned long *Dest32;
@@ -8505,82 +9215,114 @@ void PRIM_CopyPrim__FP8POLY_FT4T0_addr_8008CBDC(struct POLY_FT4 *Dest, struct PO
 
 
 // address: 0x8008CC04
+// line start: 126
+// line end:   126
 int GetPlrOt__7CBlocksi(struct CBlocks *this, int PlayerNum) {
 }
 
 
 // address: 0x8008CC18
+// line start: 249
+// line end:   253
 void SetDecompArea__7TextDatiiii(struct TextDat *this, int nDecX, int nDecY, int nPalX, int nPalY) {
 }
 
 
 // address: 0x8008CC30
+// line start: 237
+// line end:   237
 int GetNumOfFrames__7TextDatii_addr_8008CC30(struct TextDat *this, int Creature, int Action) {
 }
 
 
 // address: 0x8008CC68
+// line start: 236
+// line end:   236
 int GetNumOfActions__7TextDati(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x8008CC8C
 // size: 0x14
+// line start: 271
+// line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_8008CC8C(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x8008CD04
+// line start: 235
+// line end:   235
 int GetNumOfCreatures__7TextDat_addr_8008CD04(struct TextDat *this) {
 }
 
 
 // address: 0x8008CD18
+// line start: 232
+// line end:   232
 void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_8008CD18(struct TextDat *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
 }
 
 
 // address: 0x8008CD24
+// line start: 87
+// line end:   94
 void PROF_Open__Fv() {
 }
 
 
 // address: 0x8008CD64
+// line start: 99
+// line end:   100
 bool PROF_State__Fv() {
 }
 
 
 // address: 0x8008CD70
+// line start: 104
+// line end:   105
 void PROF_On__Fv() {
 }
 
 
 // address: 0x8008CD80
+// line start: 109
+// line end:   110
 void PROF_Off__Fv() {
 }
 
 
 // address: 0x8008CD8C
+// line start: 114
+// line end:   115
 void PROF_CpuEnd__Fv() {
 }
 
 
 // address: 0x8008CDBC
+// line start: 119
+// line end:   120
 void PROF_CpuStart__Fv() {
 }
 
 
 // address: 0x8008CDE0
+// line start: 124
+// line end:   125
 void PROF_DrawStart__Fv() {
 }
 
 
 // address: 0x8008CE04
+// line start: 129
+// line end:   130
 void PROF_DrawEnd__Fv() {
 }
 
 
 // address: 0x8008CE34
+// line start: 134
+// line end:   174
 void PROF_Draw__FPUl(unsigned long *Ot) {
 	{
 		{
@@ -8604,31 +9346,43 @@ void PROF_Draw__FPUl(unsigned long *Ot) {
 
 
 // address: 0x8008D028
+// line start: 179
+// line end:   180
 void PROF_Restart__Fv() {
 }
 
 
 // address: 0x8008D048
+// line start: 181
+// line end:   220
 void PSX_WndProc__FUilUl(unsigned int Msg, long wParam, unsigned long lParam) {
 }
 
 
 // address: 0x8008D140
+// line start: 231
+// line end:   268
 void PSX_PostWndProc__FUilUl(unsigned int Msg, long wParam, unsigned long lParam) {
 }
 
 
 // address: 0x8008D1F0
+// line start: 276
+// line end:   283
 void GoBackLevel__Fv() {
 }
 
 
 // address: 0x8008D268
+// line start: 287
+// line end:   291
 void GoWarpLevel__Fv() {
 }
 
 
 // address: 0x8008D2A0
+// line start: 297
+// line end:   303
 void PostLoadGame__Fv() {
 	// register: 16
 	register int palnum;
@@ -8636,11 +9390,15 @@ void PostLoadGame__Fv() {
 
 
 // address: 0x8008D33C
+// line start: 307
+// line end:   322
 void GoLoadGame__Fv() {
 }
 
 
 // address: 0x8008D3C4
+// line start: 326
+// line end:   332
 void PostNewLevel__Fv() {
 	// register: 16
 	register int palnum;
@@ -8648,11 +9406,15 @@ void PostNewLevel__Fv() {
 
 
 // address: 0x8008D460
+// line start: 336
+// line end:   347
 void GoNewLevel__Fv() {
 }
 
 
 // address: 0x8008D4B4
+// line start: 354
+// line end:   358
 void PostGoBackLevel__Fv() {
 	// register: 16
 	register int palnum;
@@ -8660,11 +9422,15 @@ void PostGoBackLevel__Fv() {
 
 
 // address: 0x8008D54C
+// line start: 365
+// line end:   368
 void GoForwardLevel__Fv() {
 }
 
 
 // address: 0x8008D5A4
+// line start: 372
+// line end:   376
 void PostGoForwardLevel__Fv() {
 	// register: 16
 	register int palnum;
@@ -8672,6 +9438,8 @@ void PostGoForwardLevel__Fv() {
 
 
 // address: 0x8008D63C
+// line start: 384
+// line end:   389
 void GoNewGame__Fv() {
 	{
 		// register: 3
@@ -8681,27 +9449,37 @@ void GoNewGame__Fv() {
 
 
 // address: 0x8008D68C
+// line start: 393
+// line end:   397
 void PostNewGame__Fv() {
 }
 
 
 // address: 0x8008D6C4
+// line start: 406
+// line end:   417
 void LevelToLevelInit__Fv() {
 }
 
 
 // address: 0x8008D71C
+// line start: 205
+// line end:   219
 unsigned int GetPal__6GPaneli(struct GPanel *this, int Frm) {
 }
 
 
 // address: 0x8008D760
 // size: 0x10
+// line start: 227
+// line end:   231
 struct GPanel *__6GPaneli(struct GPanel *this, int Ofs) {
 }
 
 
 // address: 0x8008D7B8
+// line start: 242
+// line end:   339
 void DrawFlask__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 22
 	register int ManaHeight;
@@ -8724,6 +9502,8 @@ void DrawFlask__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct Pane
 
 
 // address: 0x8008DC38
+// line start: 347
+// line end:   415
 void DrawSpeedBar__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 17
 	register int X;
@@ -8742,6 +9522,8 @@ void DrawSpeedBar__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct P
 
 
 // address: 0x8008E0BC
+// line start: 422
+// line end:   454
 void DrawSpell__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 21
 	register int X;
@@ -8761,6 +9543,8 @@ void DrawSpell__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct Pane
 
 
 // address: 0x8008E25C
+// line start: 462
+// line end:   474
 void DrawMsgWindow__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -8769,6 +9553,8 @@ void DrawMsgWindow__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct 
 
 
 // address: 0x8008E2A8
+// line start: 491
+// line end:   554
 int DrawDurThingy__6GPaneliiP10ItemStructi(struct GPanel *this, int X, int Y, struct ItemStruct *Item, int ItemType) {
 	// register: 2
 	// size: 0x28
@@ -8780,6 +9566,8 @@ int DrawDurThingy__6GPaneliiP10ItemStructi(struct GPanel *this, int X, int Y, st
 
 
 // address: 0x8008E664
+// line start: 558
+// line end:   577
 void DrawDurIcon__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 	// register: 5
 	register int X;
@@ -8789,23 +9577,31 @@ void DrawDurIcon__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct Pa
 
 
 // address: 0x8008E758
+// line start: 583
+// line end:   601
 void Print__6GPanelP7PanelXYP12PlayerStruct(struct GPanel *this, struct PanelXY *XY, struct PlayerStruct *Plr) {
 }
 
 
 // address: 0x8008E85C
 // size: 0x8
+// line start: 224
+// line end:   224
 struct PAL *GetPal__7TextDati_addr_8008E85C(struct TextDat *this, int PalNum) {
 }
 
 
 // address: 0x8008E878
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_8008E878(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x8008E894
+// line start: 142
+// line end:   163
 void PrintCDWaitTask__FP4TASK(struct TASK *T) {
 	// register: 17
 	// size: 0x6C
@@ -8817,21 +9613,29 @@ void PrintCDWaitTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8008E978
+// line start: 169
+// line end:   171
 void InitCDWaitIcon__Fv() {
 }
 
 
 // address: 0x8008E9AC
+// line start: 181
+// line end:   198
 void STR_Debug__FP6SFXHDRPce(struct SFXHDR *sfh, char *e) {
 }
 
 
 // address: 0x8008E9C0
+// line start: 394
+// line end:   417
 void STR_SystemTask__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x8008EA08
+// line start: 427
+// line end:   437
 void STR_AllocBuffer__Fv() {
 	{
 		{
@@ -8845,6 +9649,8 @@ void STR_AllocBuffer__Fv() {
 
 
 // address: 0x8008EA5C
+// line start: 443
+// line end:   470
 void STR_Init__Fv() {
 	{
 		{
@@ -8862,6 +9668,8 @@ void STR_Init__Fv() {
 
 // address: 0x8008EB28
 // size: 0x80
+// line start: 481
+// line end:   539
 struct SFXHDR *STR_InitStream__Fv() {
 	// register: 18
 	// size: 0x80
@@ -8875,6 +9683,8 @@ struct SFXHDR *STR_InitStream__Fv() {
 
 // address: 0x8008EC60
 // size: 0x80
+// line start: 549
+// line end:   609
 struct SFXHDR *STR_PlaySound__FUscic(unsigned short Name, char flag, int volume, char loop) {
 	// register: 16
 	// size: 0x80
@@ -8886,11 +9696,15 @@ struct SFXHDR *STR_PlaySound__FUscic(unsigned short Name, char flag, int volume,
 
 
 // address: 0x8008ED9C
+// line start: 619
+// line end:   624
 void STR_setvolume__FP6SFXHDR(struct SFXHDR *sfh) {
 }
 
 
 // address: 0x8008EDF4
+// line start: 649
+// line end:   680
 void STR_PlaySFX__FP6SFXHDR(struct SFXHDR *sfh) {
 	// register: 5
 	register int offs;
@@ -8898,6 +9712,8 @@ void STR_PlaySFX__FP6SFXHDR(struct SFXHDR *sfh) {
 
 
 // address: 0x8008EF00
+// line start: 690
+// line end:   694
 void STR_pauseall__Fv() {
 	{
 		// register: 17
@@ -8907,6 +9723,8 @@ void STR_pauseall__Fv() {
 
 
 // address: 0x8008EF50
+// line start: 704
+// line end:   708
 void STR_resumeall__Fv() {
 	{
 		// register: 17
@@ -8916,21 +9734,29 @@ void STR_resumeall__Fv() {
 
 
 // address: 0x8008EFA0
+// line start: 718
+// line end:   736
 void STR_CloseStream__FP6SFXHDR(struct SFXHDR *sfh) {
 }
 
 
 // address: 0x8008F00C
+// line start: 745
+// line end:   787
 void STR_SoundCommand__FP6SFXHDRi(struct SFXHDR *sfh, int Command) {
 }
 
 
 // address: 0x8008F118
+// line start: 796
+// line end:   865
 char STR_Command__FP6SFXHDR(struct SFXHDR *sfh) {
 }
 
 
 // address: 0x8008F2C4
+// line start: 875
+// line end:   894
 void STR_DMAControl__FP6SFXHDR(struct SFXHDR *sfh) {
 	// register: 17
 	register unsigned char *ptr;
@@ -8942,6 +9768,8 @@ void STR_DMAControl__FP6SFXHDR(struct SFXHDR *sfh) {
 
 
 // address: 0x8008F38C
+// line start: 905
+// line end:   982
 void STR_PlayStream__FP6SFXHDRPUci(struct SFXHDR *sfh, unsigned char *Src, int size) {
 	// register: 19
 	register int sec_num;
@@ -8953,6 +9781,8 @@ void STR_PlayStream__FP6SFXHDRPUci(struct SFXHDR *sfh, unsigned char *Src, int s
 
 
 // address: 0x8008F568
+// line start: 994
+// line end:   1115
 void STR_AsyncWeeTASK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -8980,6 +9810,8 @@ void STR_AsyncWeeTASK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8008F860
+// line start: 1128
+// line end:   1295
 void STR_AsyncTASK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -9009,6 +9841,8 @@ void STR_AsyncTASK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8008FC8C
+// line start: 1309
+// line end:   1344
 void STR_StreamMainTask__FP6SFXHDRc(struct SFXHDR *sfh, char FileType) {
 	// register: 18
 	// size: 0x14
@@ -9027,6 +9861,8 @@ void STR_StreamMainTask__FP6SFXHDRc(struct SFXHDR *sfh, char FileType) {
 
 
 // address: 0x8008FD9C
+// line start: 140
+// line end:   177
 void SPU_Init__Fv() {
 	{
 		// address: 0xFFFFFFD0
@@ -9037,6 +9873,8 @@ void SPU_Init__Fv() {
 
 
 // address: 0x8008FE6C
+// line start: 190
+// line end:   203
 int SND_FindChannel__Fv() {
 	// address: 0xFFFFFFE0
 	// size: 0x18
@@ -9049,6 +9887,8 @@ int SND_FindChannel__Fv() {
 
 
 // address: 0x8008FED8
+// line start: 213
+// line end:   223
 void SND_ClearBank__Fv() {
 	// register: 16
 	register bool GalRet;
@@ -9056,6 +9896,8 @@ void SND_ClearBank__Fv() {
 
 
 // address: 0x8008FF50
+// line start: 232
+// line end:   245
 bool SndLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
 	// address: 0x8012C670
 	static int DestAddr;
@@ -9063,6 +9905,8 @@ bool SndLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool 
 
 
 // address: 0x8008FFC8
+// line start: 250
+// line end:   289
 void SND_LoadBank__Fi(int lvlnum) {
 	// register: 16
 	// size: 0x14
@@ -9074,6 +9918,8 @@ void SND_LoadBank__Fi(int lvlnum) {
 
 
 // address: 0x800900FC
+// line start: 355
+// line end:   360
 int SND_FindSFX__FUs(unsigned short Name) {
 	{
 		// register: 3
@@ -9083,11 +9929,15 @@ int SND_FindSFX__FUs(unsigned short Name) {
 
 
 // address: 0x80090150
+// line start: 384
+// line end:   386
 void SND_StopSnd__Fi(int voice) {
 }
 
 
 // address: 0x80090174
+// line start: 396
+// line end:   401
 int SND_RemapSnd__Fi(int SFXNo) {
 	{
 		// register: 3
@@ -9097,6 +9947,8 @@ int SND_RemapSnd__Fi(int SFXNo) {
 
 
 // address: 0x800901D8
+// line start: 411
+// line end:   474
 int SND_PlaySnd__FUsiii(unsigned short Name, int vol, int pan, int pitchadj) {
 	// address: 0xFFFFFFA0
 	// size: 0x40
@@ -9111,16 +9963,22 @@ int SND_PlaySnd__FUsiii(unsigned short Name, int vol, int pan, int pitchadj) {
 
 
 // address: 0x8009038C
+// line start: 86
+// line end:   87
 void AS_CallBack0__Fi(int handle) {
 }
 
 
 // address: 0x800903A0
+// line start: 91
+// line end:   92
 void AS_CallBack1__Fi(int handle) {
 }
 
 
 // address: 0x800903B4
+// line start: 102
+// line end:   125
 void AS_WasLastBlock__FiP6STRHDRP6SFXHDR(int ah, struct STRHDR *sh, struct SFXHDR *sfh) {
 	// register: 16
 	register unsigned char *ptr;
@@ -9128,6 +9986,8 @@ void AS_WasLastBlock__FiP6STRHDRP6SFXHDR(int ah, struct STRHDR *sh, struct SFXHD
 
 
 // address: 0x80090490
+// line start: 148
+// line end:   164
 int AS_OpenStream__FP6STRHDRP6SFXHDR(struct STRHDR *sh, struct SFXHDR *sfh) {
 	// register: 16
 	register int ah;
@@ -9135,16 +9995,22 @@ int AS_OpenStream__FP6STRHDRP6SFXHDR(struct STRHDR *sh, struct SFXHDR *sfh) {
 
 
 // address: 0x80090530
+// line start: 174
+// line end:   175
 char AS_GetBlock__FP6SFXHDR(struct SFXHDR *sfh) {
 }
 
 
 // address: 0x8009053C
+// line start: 185
+// line end:   189
 void AS_CloseStream__FP6STRHDRP6SFXHDR(struct STRHDR *sh, struct SFXHDR *sfh) {
 }
 
 
 // address: 0x80090568
+// line start: 200
+// line end:   242
 int AS_LoopStream__FiP6STRHDRP6SFXHDR(int ah, struct STRHDR *sh, struct SFXHDR *sfh) {
 	// register: 17
 	register unsigned char *ptr;
@@ -9152,11 +10018,15 @@ int AS_LoopStream__FiP6STRHDRP6SFXHDR(int ah, struct STRHDR *sh, struct SFXHDR *
 
 
 // address: 0x80090688
+// line start: 170
+// line end:   171
 unsigned short SCR_NeedHighlightPal__FUsUsi(unsigned short Clut, unsigned short PixVal, int NumOfCols) {
 }
 
 
 // address: 0x800906BC
+// line start: 181
+// line end:   190
 void Init__13PalCollectionPC7InitPos(struct PalCollection *this, struct InitPos *IPos) {
 	{
 		// register: 19
@@ -9167,6 +10037,8 @@ void Init__13PalCollectionPC7InitPos(struct PalCollection *this, struct InitPos 
 
 // address: 0x8009074C
 // size: 0x18
+// line start: 205
+// line end:   238
 struct PalEntry *FindPal__13PalCollectionUsUsi(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
@@ -9176,6 +10048,8 @@ struct PalEntry *FindPal__13PalCollectionUsUsi(struct PalCollection *this, unsig
 
 // address: 0x80090828
 // size: 0x18
+// line start: 247
+// line end:   269
 struct PalEntry *NewPal__13PalCollectionUsUsi(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
@@ -9184,6 +10058,8 @@ struct PalEntry *NewPal__13PalCollectionUsUsi(struct PalCollection *this, unsign
 
 
 // address: 0x800908A8
+// line start: 277
+// line end:   293
 void MakePal__8PalEntryUsUsi(struct PalEntry *this, unsigned short _SourceClut, unsigned short _PixVal, int _NumOfCols) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
@@ -9192,6 +10068,8 @@ void MakePal__8PalEntryUsUsi(struct PalEntry *this, unsigned short _SourceClut, 
 
 
 // address: 0x80090948
+// line start: 304
+// line end:   315
 unsigned short GetHighlightPal__13PalCollectionUsUsi(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
@@ -9200,6 +10078,8 @@ unsigned short GetHighlightPal__13PalCollectionUsUsi(struct PalCollection *this,
 
 
 // address: 0x800909DC
+// line start: 327
+// line end:   344
 void UpdatePals__13PalCollection(struct PalCollection *this) {
 	// register: 16
 	// size: 0x18
@@ -9213,17 +10093,23 @@ void UpdatePals__13PalCollection(struct PalCollection *this) {
 
 
 // address: 0x80090A50
+// line start: 353
+// line end:   354
 void SCR_Handler__Fv() {
 }
 
 
 // address: 0x80090A78
+// line start: 132
+// line end:   132
 int GetNumOfObjs__t10Collection2Z8PalEntryi20(struct t10Collection2Z8PalEntryi20 *this) {
 }
 
 
 // address: 0x80090A80
 // size: 0x18
+// line start: 110
+// line end:   116
 struct PalEntry *GetObj__t10Collection2Z8PalEntryi20(struct t10Collection2Z8PalEntryi20 *this) {
 	// register: 16
 	// size: 0x18
@@ -9232,6 +10118,8 @@ struct PalEntry *GetObj__t10Collection2Z8PalEntryi20(struct t10Collection2Z8PalE
 
 
 // address: 0x80090ABC
+// line start: 98
+// line end:   104
 void Init__t10Collection2Z8PalEntryi20(struct t10Collection2Z8PalEntryi20 *this) {
 	{
 		// register: 18
@@ -9241,82 +10129,114 @@ void Init__t10Collection2Z8PalEntryi20(struct t10Collection2Z8PalEntryi20 *this)
 
 
 // address: 0x80090B20
+// line start: 90
+// line end:   93
 void MoveFromUsedToUnused__t10Collection2Z8PalEntryi20P8PalEntry(struct t10Collection2Z8PalEntryi20 *this, struct PalEntry *RetObj) {
 }
 
 
 // address: 0x80090B78
+// line start: 83
+// line end:   86
 void MoveFromUnusedToUsed__t10Collection2Z8PalEntryi20P8PalEntry(struct t10Collection2Z8PalEntryi20 *this, struct PalEntry *RetObj) {
 }
 
 
 // address: 0x80090BD0
+// line start: 97
+// line end:   100
 void Set__8PalEntryUsUsi(struct PalEntry *this, unsigned short _SourceClut, unsigned short _PixVal, int _NumOfCols) {
 }
 
 
 // address: 0x80090BE4
+// line start: 89
+// line end:   92
 void Set__8PalEntryRC7InitPos(struct PalEntry *this, struct InitPos *NewPos) {
 }
 
 
 // address: 0x80090C10
+// line start: 82
+// line end:   85
 bool SetJustUsed__8PalEntryb(struct PalEntry *this, bool NewVal) {
 }
 
 
 // address: 0x80090C18
+// line start: 79
+// line end:   79
 void Init__8PalEntry(struct PalEntry *this) {
 }
 
 
 // address: 0x80090C20
+// line start: 78
+// line end:   78
 unsigned short GetClut__C8PalEntry(struct PalEntry *this) {
 }
 
 
 // address: 0x80090C2C
+// line start: 73
+// line end:   73
 bool IsEqual__C8PalEntryUsUsi(struct PalEntry *this, unsigned short _SourceClut, unsigned short _PixVal, int _NumOfCols) {
 }
 
 
 // address: 0x80090C64
 // size: 0x18
+// line start: 67
+// line end:   67
 struct PalEntry *GetNext__Ct11TLinkedList1Z8PalEntry(struct t11TLinkedList1Z8PalEntry *this) {
 }
 
 
 // address: 0x80090C70
+// line start: 57
+// line end:   63
 void AddToList__t11TLinkedList1Z8PalEntryPP8PalEntry(struct t11TLinkedList1Z8PalEntry *this, struct PalEntry **Head) {
 }
 
 
 // address: 0x80090C90
+// line start: 46
+// line end:   53
 void DetachFromList__t11TLinkedList1Z8PalEntryPP8PalEntry(struct t11TLinkedList1Z8PalEntry *this, struct PalEntry **Head) {
 }
 
 
 // address: 0x80090CDC
+// line start: 97
+// line end:   98
 void stub__FPcPv_addr_80090CDC(char *e, void *argptr) {
 }
 
 
 // address: 0x80090CE4
+// line start: 101
+// line end:   103
 void new_eprint__FPcT0i(char *Text, char *File, int Line) {
 }
 
 
 // address: 0x80090D18
+// line start: 107
+// line end:   115
 void TonysGameTask__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80090DA0
+// line start: 120
+// line end:   140
 void SetAmbientLight__Fv() {
 }
 
 
 // address: 0x80090E24
+// line start: 157
+// line end:   199
 void print_demo_task__FP4TASK(struct TASK *T) {
 	{
 		{
@@ -9328,11 +10248,15 @@ void print_demo_task__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80091030
+// line start: 203
+// line end:   205
 void TonysDummyPoll__Fv() {
 }
 
 
 // address: 0x80091054
+// line start: 209
+// line end:   216
 void load_demo_pad_data__FUl(unsigned long demo_num) {
 	// register: 4
 	// size: 0x14
@@ -9341,6 +10265,8 @@ void load_demo_pad_data__FUl(unsigned long demo_num) {
 
 
 // address: 0x800910B4
+// line start: 220
+// line end:   227
 void save_demo_pad_data__FUl(unsigned long demo_num) {
 	// register: 4
 	// size: 0x14
@@ -9349,41 +10275,57 @@ void save_demo_pad_data__FUl(unsigned long demo_num) {
 
 
 // address: 0x80091114
+// line start: 239
+// line end:   250
 void set_pad_record_play__Fi(int level) {
 }
 
 
 // address: 0x80091188
+// line start: 255
+// line end:   263
 void start_demo__Fv() {
 }
 
 
 // address: 0x80091224
+// line start: 267
+// line end:   272
 void SetQuest__Fv() {
 }
 
 
 // address: 0x800912A4
+// line start: 276
+// line end:   277
 int CurrCheatStr__Fv() {
 }
 
 
 // address: 0x800912C4
+// line start: 281
+// line end:   283
 void tony__Fv() {
 }
 
 
 // address: 0x800912FC
+// line start: 222
+// line end:   223
 void GLUE_SetMonsterList__Fi(int List) {
 }
 
 
 // address: 0x80091308
+// line start: 233
+// line end:   234
 int GLUE_GetMonsterList__Fv() {
 }
 
 
 // address: 0x80091314
+// line start: 244
+// line end:   249
 void GLUE_SuspendGame__Fv() {
 	// register: 16
 	// size: 0x5C
@@ -9392,6 +10334,8 @@ void GLUE_SuspendGame__Fv() {
 
 
 // address: 0x80091368
+// line start: 259
+// line end:   264
 void GLUE_ResumeGame__Fv() {
 	// register: 16
 	// size: 0x5C
@@ -9400,26 +10344,36 @@ void GLUE_ResumeGame__Fv() {
 
 
 // address: 0x800913BC
+// line start: 274
+// line end:   281
 void GLUE_PreTown__Fv() {
 }
 
 
 // address: 0x80091420
+// line start: 290
+// line end:   296
 void GLUE_PreDun__Fv() {
 }
 
 
 // address: 0x8009146C
+// line start: 316
+// line end:   317
 bool GLUE_Finished__Fv() {
 }
 
 
 // address: 0x80091478
+// line start: 327
+// line end:   328
 void GLUE_SetFinished__Fb(bool NewFinished) {
 }
 
 
 // address: 0x80091484
+// line start: 338
+// line end:   350
 void GLUE_StartBg__Fibi(int TextId, bool IsTown, int Level) {
 	// register: 2
 	// size: 0x10
@@ -9428,6 +10382,8 @@ void GLUE_StartBg__Fibi(int TextId, bool IsTown, int Level) {
 
 
 // address: 0x80091508
+// line start: 359
+// line end:   363
 bool GLUE_SetShowGameScreenFlag__Fb(bool NewFlag) {
 	// register: 2
 	register bool OldFlag;
@@ -9435,6 +10391,8 @@ bool GLUE_SetShowGameScreenFlag__Fb(bool NewFlag) {
 
 
 // address: 0x80091518
+// line start: 371
+// line end:   375
 bool GLUE_SetHomingScrollFlag__Fb(bool NewFlag) {
 	// register: 2
 	register bool OldFlag;
@@ -9442,6 +10400,8 @@ bool GLUE_SetHomingScrollFlag__Fb(bool NewFlag) {
 
 
 // address: 0x80091528
+// line start: 383
+// line end:   387
 bool GLUE_SetShowPanelFlag__Fb(bool NewFlag) {
 	// register: 2
 	register bool OldFlag;
@@ -9449,11 +10409,15 @@ bool GLUE_SetShowPanelFlag__Fb(bool NewFlag) {
 
 
 // address: 0x80091538
+// line start: 397
+// line end:   417
 void DoShowPanelGFX__FP6GPanelT0(struct GPanel *P1, struct GPanel *P2) {
 }
 
 
 // address: 0x80091610
+// line start: 428
+// line end:   589
 void BgTask__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -9488,6 +10452,8 @@ void BgTask__FP4TASK(struct TASK *T) {
 
 // address: 0x80091AD4
 // size: 0x8
+// line start: 599
+// line end:   609
 struct PInf *FindPlayerChar__FPc(char *Id) {
 	{
 	}
@@ -9496,6 +10462,8 @@ struct PInf *FindPlayerChar__FPc(char *Id) {
 
 // address: 0x80091B5C
 // size: 0x8
+// line start: 614
+// line end:   620
 struct PInf *FindPlayerChar__Fiii(int Char, int Wep, int Arm) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
@@ -9505,11 +10473,15 @@ struct PInf *FindPlayerChar__Fiii(int Char, int Wep, int Arm) {
 
 // address: 0x80091BB8
 // size: 0x8
+// line start: 624
+// line end:   629
 struct PInf *FindPlayerChar__FP12PlayerStruct(struct PlayerStruct *P) {
 }
 
 
 // address: 0x80091BE8
+// line start: 633
+// line end:   639
 int FindPlayerChar__FP12PlayerStructb(struct PlayerStruct *P, bool InTown) {
 	// register: 2
 	// size: 0x8
@@ -9518,6 +10490,8 @@ int FindPlayerChar__FP12PlayerStructb(struct PlayerStruct *P, bool InTown) {
 
 
 // address: 0x80091C28
+// line start: 649
+// line end:   655
 void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb(struct CPlayer *Player, struct PlayerStruct *Plr, bool InTown) {
 	// register: 16
 	register int Id;
@@ -9526,6 +10500,8 @@ void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb(struct CPlayer *P
 
 // address: 0x80091C7C
 // size: 0x10
+// line start: 666
+// line end:   673
 struct MonstList *GLUE_GetCurrentList__Fi(int Level) {
 	// register: 17
 	// size: 0x8
@@ -9536,21 +10512,29 @@ struct MonstList *GLUE_GetCurrentList__Fi(int Level) {
 
 
 // address: 0x80091D28
+// line start: 55
+// line end:   55
 int GetTexId__7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x80091D34
+// line start: 139
+// line end:   139
 void SetTown__7CBlocksb(struct CBlocks *this, bool Val) {
 }
 
 
 // address: 0x80091D3C
+// line start: 128
+// line end:   128
 void MoveToScrollTarget__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x80091D50
+// line start: 166
+// line end:   181
 void SetDemoKeys__FPi(int *buffer) {
 	// register: 16
 	// size: 0x10
@@ -9563,6 +10547,8 @@ void SetDemoKeys__FPi(int *buffer) {
 
 
 // address: 0x80091E28
+// line start: 185
+// line end:   195
 void RestoreDemoKeys__FPi(int *buffer) {
 	// register: 16
 	// size: 0x10
@@ -9575,6 +10561,8 @@ void RestoreDemoKeys__FPi(int *buffer) {
 
 
 // address: 0x80091EB8
+// line start: 199
+// line end:   216
 char *get_action_str__Fii(int pval, int combo) {
 	// register: 4
 	// size: 0x10
@@ -9587,6 +10575,8 @@ char *get_action_str__Fii(int pval, int combo) {
 
 
 // address: 0x80091F30
+// line start: 245
+// line end:   255
 int get_key_pad__Fi(int n) {
 	// register: 3
 	register int i;
@@ -9597,6 +10587,8 @@ int get_key_pad__Fi(int n) {
 
 
 // address: 0x80091F68
+// line start: 260
+// line end:   275
 bool checkvalid__Fv() {
 	// register: 6
 	register int start;
@@ -9610,16 +10602,22 @@ bool checkvalid__Fv() {
 
 
 // address: 0x80091FCC
+// line start: 281
+// line end:   292
 bool RemoveCtrlScreen__Fv() {
 }
 
 
 // address: 0x80092034
+// line start: 300
+// line end:   318
 unsigned char Init_ctrl_pos__Fv() {
 }
 
 
 // address: 0x800920EC
+// line start: 322
+// line end:   334
 int remove_padval__Fi(int p) {
 	{
 		// register: 5
@@ -9629,6 +10627,8 @@ int remove_padval__Fi(int p) {
 
 
 // address: 0x8009212C
+// line start: 338
+// line end:   351
 int remove_comboval__Fi(int p) {
 	// register: 6
 	register int n;
@@ -9640,6 +10640,8 @@ int remove_comboval__Fi(int p) {
 
 
 // address: 0x8009216C
+// line start: 355
+// line end:   399
 unsigned char set_buttons__Fii(int cline, int n) {
 	// register: 16
 	// size: 0x10
@@ -9654,6 +10656,8 @@ unsigned char set_buttons__Fii(int cline, int n) {
 
 
 // address: 0x800922C0
+// line start: 403
+// line end:   410
 void restore_controller_settings__Fv() {
 	{
 	}
@@ -9661,6 +10665,8 @@ void restore_controller_settings__Fv() {
 
 
 // address: 0x80092308
+// line start: 417
+// line end:   566
 unsigned char main_ctrl_setup__Fv() {
 	// register: 16
 	// size: 0x6C
@@ -9671,6 +10677,8 @@ unsigned char main_ctrl_setup__Fv() {
 
 
 // address: 0x800927A0
+// line start: 573
+// line end:   688
 void PrintCtrlString__FiiUcic(int x, int y, unsigned char cjustflag, int str_num, int col) {
 	// register: 18
 	// size: 0x10
@@ -9701,6 +10709,8 @@ void PrintCtrlString__FiiUcic(int x, int y, unsigned char cjustflag, int str_num
 
 
 // address: 0x80092CDC
+// line start: 691
+// line end:   765
 void DrawCtrlSetup__Fv() {
 	// register: 16
 	register int i;
@@ -9730,51 +10740,71 @@ void DrawCtrlSetup__Fv() {
 
 
 // address: 0x80093194
+// line start: 765
+// line end:   765
 void _GLOBAL__D_ctrlflag() {
 }
 
 
 // address: 0x800931BC
+// line start: 765
+// line end:   765
 void _GLOBAL__I_ctrlflag() {
 }
 
 
 // address: 0x800931E4
+// line start: 121
+// line end:   125
 unsigned short GetTick__C4CPad(struct CPad *this) {
 }
 
 
 // address: 0x8009320C
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad_addr_8009320C(struct CPad *this) {
 }
 
 
 // address: 0x80093234
+// line start: 107
+// line end:   111
 unsigned short GetUp__C4CPad_addr_80093234(struct CPad *this) {
 }
 
 
 // address: 0x8009325C
+// line start: 86
+// line end:   86
 void SetPadTickMask__4CPadUs(struct CPad *this, unsigned short mask) {
 }
 
 
 // address: 0x80093264
+// line start: 85
+// line end:   85
 void SetPadTick__4CPadUs(struct CPad *this, unsigned short tick) {
 }
 
 
 // address: 0x8009326C
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_8009326C(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x8009328C
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_8009328C(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80093294
+// line start: 84
+// line end:   87
 int SetOTpos__6Dialogi(struct Dialog *this, int OT) {
 	// register: 2
 	register int OldOT;
@@ -9782,27 +10812,37 @@ int SetOTpos__6Dialogi(struct Dialog *this, int OT) {
 
 
 // address: 0x800932A0
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_800932A0(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x800932C8
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_800932C8(struct Dialog *this) {
 }
 
 
 // address: 0x80093324
+// line start: 160
+// line end:   163
 void switchnight__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80093370
+// line start: 194
+// line end:   223
 void city_lights__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x800934F0
+// line start: 233
+// line end:   261
 void color_cycle__FP4TASK(struct TASK *T) {
 	// address: 0xFFFFFF70
 	// size: 0x8
@@ -9835,6 +10875,8 @@ void color_cycle__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80093634
+// line start: 50
+// line end:   82
 void DrawFlameLogo__Fv() {
 	// register: 4
 	// size: 0x28
@@ -9845,11 +10887,15 @@ void DrawFlameLogo__Fv() {
 
 
 // address: 0x80093884
+// line start: 87
+// line end:   90
 void TitleScreen__FP7CScreen(struct CScreen *FeScreen) {
 }
 
 
 // address: 0x800938D8
+// line start: 87
+// line end:   136
 bool TryCreaturePrint__Fiiiiiii(int nMonster, int blockr, int blockg, int blockb, int OtPos, int ScrX, int ScrY) {
 	// register: 16
 	// size: 0x28
@@ -9883,17 +10929,23 @@ bool TryCreaturePrint__Fiiiiiii(int nMonster, int blockr, int blockg, int blockb
 
 
 // address: 0x80093B3C
+// line start: 148
+// line end:   183
 void TryWater__FiiP8POLY_GT4i(int BlockBase, int BlockNum, struct POLY_GT4 *DestGt4, int MyOt) {
 }
 
 
 // address: 0x80093D14
+// line start: 188
+// line end:   217
 void nightgfx__FibiP8POLY_GT4i(int BlockBase, bool water, int BlockNum, struct POLY_GT4 *DestGt4, int MyOt) {
 }
 
 
 // address: 0x80093DA0
 // size: 0x28
+// line start: 84
+// line end:   89
 struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_80093DA0(struct POLY_FT4 *Prim) {
 	// address: 0xFFFFFFF0
 	// size: 0x28
@@ -9902,6 +10954,8 @@ struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_80093DA0(struct POLY_FT4 *Prim) 
 
 
 // address: 0x80093DDC
+// line start: 75
+// line end:   80
 void PRIM_CopyPrim__FP8POLY_FT4T0_addr_80093DDC(struct POLY_FT4 *Dest, struct POLY_FT4 *Source) {
 	// register: 4
 	register unsigned long *Dest32;
@@ -9915,37 +10969,51 @@ void PRIM_CopyPrim__FP8POLY_FT4T0_addr_80093DDC(struct POLY_FT4 *Dest, struct PO
 
 
 // address: 0x80093E04
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_80093E04(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x80093E80
+// line start: 236
+// line end:   236
 int GetNumOfActions__7TextDati_addr_80093E80(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x80093EA4
 // size: 0x14
+// line start: 271
+// line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_80093EA4(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x80093F1C
+// line start: 235
+// line end:   235
 int GetNumOfCreatures__7TextDat_addr_80093F1C(struct TextDat *this) {
 }
 
 
 // address: 0x80093F30
+// line start: 83
+// line end:   84
 void DaveLDummyPoll__Fv() {
 }
 
 
 // address: 0x80093F38
+// line start: 87
+// line end:   89
 void DaveL__Fv() {
 }
 
 
 // address: 0x80093F60
+// line start: 100
+// line end:   160
 void DoReflection__FP8POLY_FT4iii(struct POLY_FT4 *Ft4, int R, int G, int B) {
 	// register: 3
 	register unsigned char zV0;
@@ -9981,6 +11049,8 @@ void DoReflection__FP8POLY_FT4iii(struct POLY_FT4 *Ft4, int R, int G, int B) {
 
 
 // address: 0x80094240
+// line start: 164
+// line end:   190
 void mteleportfx__Fv() {
 	// register: 19
 	register int plr;
@@ -9998,6 +11068,8 @@ void mteleportfx__Fv() {
 
 
 // address: 0x8009451C
+// line start: 195
+// line end:   209
 void invistimer__Fv() {
 	// register: 7
 	register int plr;
@@ -10005,6 +11077,8 @@ void invistimer__Fv() {
 
 
 // address: 0x800945E8
+// line start: 212
+// line end:   247
 void setUVparams__FP8POLY_FT4P9FRAME_HDR(struct POLY_FT4 *Ft4, struct FRAME_HDR *Fr) {
 	// register: 5
 	register int zU;
@@ -10018,6 +11092,8 @@ void setUVparams__FP8POLY_FT4P9FRAME_HDR(struct POLY_FT4 *Ft4, struct FRAME_HDR 
 
 
 // address: 0x80094670
+// line start: 253
+// line end:   284
 void drawparticle__Fiiiiii(int x, int y, int scale, int anim, int colour, int OtPos) {
 	// register: 30
 	// size: 0x6C
@@ -10044,6 +11120,8 @@ void drawparticle__Fiiiiii(int x, int y, int scale, int anim, int colour, int Ot
 
 
 // address: 0x80094860
+// line start: 289
+// line end:   302
 void drawpolyF4__Fiiiiii(int x, int y, int w, int h, int colour, int OtPos) {
 	// address: 0xFFFFFFD0
 	// size: 0x18
@@ -10058,6 +11136,8 @@ void drawpolyF4__Fiiiiii(int x, int y, int w, int h, int colour, int OtPos) {
 
 
 // address: 0x80094994
+// line start: 307
+// line end:   328
 void drawpolyG4__Fiiiiiiii(int x, int y, int w, int h1, int h2, int colour0, int colour1, int OtPos) {
 	// address: 0xFFFFFFC0
 	// size: 0x24
@@ -10078,6 +11158,8 @@ void drawpolyG4__Fiiiiiiii(int x, int y, int w, int h1, int h2, int colour0, int
 
 
 // address: 0x80094B64
+// line start: 333
+// line end:   356
 void particlejump__Fv() {
 	// register: 23
 	register int n;
@@ -10087,6 +11169,8 @@ void particlejump__Fv() {
 
 
 // address: 0x80094D04
+// line start: 360
+// line end:   370
 void particleglow__Fv() {
 	// register: 17
 	register int n;
@@ -10094,11 +11178,15 @@ void particleglow__Fv() {
 
 
 // address: 0x80094DE8
+// line start: 375
+// line end:   377
 void doparticlejump__Fv() {
 }
 
 
 // address: 0x80094E28
+// line start: 381
+// line end:   400
 void StartPartJump__Fiiiiii(int sx, int sy, int height, int scale, int colour, int OtPos) {
 	// register: 17
 	register int n;
@@ -10106,6 +11194,8 @@ void StartPartJump__Fiiiiii(int sx, int sy, int height, int scale, int colour, i
 
 
 // address: 0x80094F90
+// line start: 405
+// line end:   487
 void doparticlechain__Fiiiiiiiiiiii(int sx, int sy, int dx, int dy, int count, int scale, int scaledec, int semitrans, int randomize, int colour, int OtPos, int source) {
 	// address: 0xFFFFFF90
 	// size: 0x6C
@@ -10164,11 +11254,15 @@ void doparticlechain__Fiiiiiiiiiiii(int sx, int sy, int dx, int dy, int count, i
 
 
 // address: 0x80095388
+// line start: 492
+// line end:   509
 void ParticleMissile__FP13MissileStructiiii(struct MissileStruct *Ms, int ScrX, int ScrY, int colour, int OtPos) {
 }
 
 
 // address: 0x80095448
+// line start: 513
+// line end:   561
 void Teleportfx__Fiiiiiii(int scrnx, int scrny, int width, int height, int scale, int colmask, int numpart) {
 	// register: 30
 	// size: 0x6C
@@ -10213,6 +11307,8 @@ void Teleportfx__Fiiiiiii(int scrnx, int scrny, int width, int height, int scale
 
 
 // address: 0x800956F0
+// line start: 566
+// line end:   581
 void ResurrectFX__Fiiii(int x, int height, int scale, int OtPos) {
 	// register: 18
 	register int t;
@@ -10220,6 +11316,8 @@ void ResurrectFX__Fiiii(int x, int height, int scale, int OtPos) {
 
 
 // address: 0x80095914
+// line start: 586
+// line end:   603
 void GetPlrPos__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct PlayerStruct *ptrplr) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
@@ -10232,6 +11330,8 @@ void GetPlrPos__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct Pl
 
 
 // address: 0x80095A38
+// line start: 607
+// line end:   620
 void healFX__Fv() {
 	// register: 19
 	register int plr;
@@ -10247,31 +11347,43 @@ void healFX__Fv() {
 
 
 // address: 0x80095B50
+// line start: 625
+// line end:   627
 void HealStart__Fi(int plr) {
 }
 
 
 // address: 0x80095B84
+// line start: 631
+// line end:   634
 void HealotherStart__Fi(int plr) {
 }
 
 
 // address: 0x80095BBC
+// line start: 638
+// line end:   641
 void TeleStart__Fi(int plr) {
 }
 
 
 // address: 0x80095C18
+// line start: 646
+// line end:   648
 void PhaseStart__Fi(int plr) {
 }
 
 
 // address: 0x80095C4C
+// line start: 653
+// line end:   655
 void PhaseEnd__Fi(int plr) {
 }
 
 
 // address: 0x80095C78
+// line start: 661
+// line end:   684
 void ApocInit__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct PlayerStruct *ptrplr) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
@@ -10284,6 +11396,8 @@ void ApocInit__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct Pla
 
 
 // address: 0x80095E18
+// line start: 689
+// line end:   696
 void ApocUpdate__11SPELLFX_DAT(struct SPELLFX_DAT *this) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -10292,11 +11406,15 @@ void ApocUpdate__11SPELLFX_DAT(struct SPELLFX_DAT *this) {
 
 
 // address: 0x80095E84
+// line start: 700
+// line end:   703
 void ApocaStart__Fi(int plr) {
 }
 
 
 // address: 0x80095EDC
+// line start: 708
+// line end:   723
 void doapocaFX__Fv() {
 	// register: 17
 	register int plr;
@@ -10304,32 +11422,44 @@ void doapocaFX__Fv() {
 
 
 // address: 0x80095FF4
+// line start: 728
+// line end:   748
 void DaveLTask__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80096058
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP7POLY_G4(struct POLY_G4 **Prim) {
 }
 
 
 // address: 0x800960D4
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP7POLY_F4(struct POLY_F4 **Prim) {
 }
 
 
 // address: 0x80096150
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_80096150(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x800961CC
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_800961CC(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x800961E8
+// line start: 86
+// line end:   113
 void DrawArrow__Fii(int x1, int y1) {
 	// register: 22
 	// size: 0x24
@@ -10352,6 +11482,8 @@ void DrawArrow__Fii(int x1, int y1) {
 
 
 // address: 0x800963EC
+// line start: 121
+// line end:   228
 void show_spell_dir__Fi(int pnum) {
 	// register: 23
 	// size: 0x23A8
@@ -10381,6 +11513,8 @@ void show_spell_dir__Fi(int pnum) {
 
 
 // address: 0x80096860
+// line start: 240
+// line end:   252
 void release_spell__Fi(int pnum) {
 	// register: 2
 	// size: 0x24
@@ -10389,11 +11523,15 @@ void release_spell__Fi(int pnum) {
 
 
 // address: 0x800968D4
+// line start: 260
+// line end:   269
 void select_belt_item__Fi(int pnum) {
 }
 
 
 // address: 0x800968DC
+// line start: 277
+// line end:   286
 unsigned char any_belt_items__Fv() {
 	// register: 4
 	register int i;
@@ -10401,6 +11539,8 @@ unsigned char any_belt_items__Fv() {
 
 
 // address: 0x80096944
+// line start: 293
+// line end:   311
 void get_last_inv__Fv() {
 	// register: 4
 	register int i;
@@ -10408,6 +11548,8 @@ void get_last_inv__Fv() {
 
 
 // address: 0x80096A74
+// line start: 317
+// line end:   337
 void get_next_inv__Fv() {
 	// register: 4
 	register int i;
@@ -10415,31 +11557,43 @@ void get_next_inv__Fv() {
 
 
 // address: 0x80096BAC
+// line start: 346
+// line end:   348
 void pad_func_up__Fi(int pnum) {
 }
 
 
 // address: 0x80096BD8
+// line start: 356
+// line end:   358
 void pad_func_down__Fi(int pnum) {
 }
 
 
 // address: 0x80096C04
+// line start: 366
+// line end:   367
 void pad_func_left__Fi(int pnum) {
 }
 
 
 // address: 0x80096C0C
+// line start: 374
+// line end:   375
 void pad_func_right__Fi(int pnum) {
 }
 
 
 // address: 0x80096C14
+// line start: 393
+// line end:   404
 void pad_func_select__Fi(int pnum) {
 }
 
 
 // address: 0x80096CD0
+// line start: 416
+// line end:   481
 void pad_func_Attack__Fi(int pnum) {
 	// register: 18
 	// size: 0x23A8
@@ -10452,6 +11606,8 @@ void pad_func_Attack__Fi(int pnum) {
 
 
 // address: 0x800970F4
+// line start: 488
+// line end:   537
 void pad_func_Action__Fi(int pnum) {
 	// register: 16
 	// size: 0x23A8
@@ -10467,6 +11623,8 @@ void pad_func_Action__Fi(int pnum) {
 
 
 // address: 0x80097408
+// line start: 541
+// line end:   561
 void InitTargetCursor__Fi(int pnum) {
 	// register: 2
 	// size: 0x23A8
@@ -10482,6 +11640,8 @@ void InitTargetCursor__Fi(int pnum) {
 
 
 // address: 0x80097510
+// line start: 565
+// line end:   584
 void RemoveTargetCursor__Fi(int pnum) {
 	// register: 16
 	// size: 0x24
@@ -10490,6 +11650,8 @@ void RemoveTargetCursor__Fi(int pnum) {
 
 
 // address: 0x800975A0
+// line start: 591
+// line end:   712
 void pad_func_Cast_Spell__Fi(int pnum) {
 	// register: 16
 	// size: 0x23A8
@@ -10518,41 +11680,57 @@ void pad_func_Cast_Spell__Fi(int pnum) {
 
 
 // address: 0x80097B20
+// line start: 719
+// line end:   724
 void pad_func_Use_Item__Fi(int pnum) {
 }
 
 
 // address: 0x80097BE0
+// line start: 733
+// line end:   746
 void pad_func_Chr__Fi(int pnum) {
 }
 
 
 // address: 0x80097CE8
+// line start: 751
+// line end:   763
 void pad_func_Inv__Fi(int pnum) {
 }
 
 
 // address: 0x80097DD4
+// line start: 768
+// line end:   779
 void pad_func_SplBook__Fi(int pnum) {
 }
 
 
 // address: 0x80097EC0
+// line start: 784
+// line end:   788
 void pad_func_QLog__Fi(int pnum) {
 }
 
 
 // address: 0x80097F44
+// line start: 802
+// line end:   806
 void pad_func_SpellBook__Fi(int pnum) {
 }
 
 
 // address: 0x80097FDC
+// line start: 837
+// line end:   848
 void pad_func_AutoMap__Fi(int pnum) {
 }
 
 
 // address: 0x80098098
+// line start: 863
+// line end:   871
 void pad_func_Quick_Spell__Fi(int pnum) {
 	// register: 2
 	// size: 0x23A8
@@ -10565,6 +11743,8 @@ void pad_func_Quick_Spell__Fi(int pnum) {
 
 
 // address: 0x80098114
+// line start: 894
+// line end:   931
 void check_inv__FiPci(int pnum, char *ilist, int entries) {
 	// register: 17
 	register int i;
@@ -10579,16 +11759,22 @@ void check_inv__FiPci(int pnum, char *ilist, int entries) {
 
 
 // address: 0x800982DC
+// line start: 939
+// line end:   940
 void pad_func_Quick_Use_Health__Fi(int pnum) {
 }
 
 
 // address: 0x80098304
+// line start: 950
+// line end:   951
 void pad_func_Quick_Use_Mana__Fi(int pnum) {
 }
 
 
 // address: 0x8009832C
+// line start: 956
+// line end:   971
 int get_max_find_size__FPici(int *lsize, char mask, int pnum) {
 	// register: 19
 	register int maxlen;
@@ -10610,6 +11796,8 @@ int get_max_find_size__FPici(int *lsize, char mask, int pnum) {
 
 
 // address: 0x8009846C
+// line start: 975
+// line end:   993
 int sort_gold__Fi(int pnum) {
 	// register: 17
 	register int num_gold_items;
@@ -10621,6 +11809,8 @@ int sort_gold__Fi(int pnum) {
 
 
 // address: 0x80098578
+// line start: 997
+// line end:   1137
 void DrawObjSelector__Fi(int pnum) {
 	// register: 23
 	// size: 0x23A8
@@ -10661,6 +11851,8 @@ void DrawObjSelector__Fi(int pnum) {
 
 
 // address: 0x80098E3C
+// line start: 1141
+// line end:   1165
 void DrawObjTask__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -10675,11 +11867,15 @@ void DrawObjTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80098F18
+// line start: 1174
+// line end:   1180
 void add_area_find_object__Fciii(char type, int index, int x, int y) {
 }
 
 
 // address: 0x80099024
+// line start: 1189
+// line end:   1259
 unsigned char CheckRangeObject__Fiici(int x, int y, char cmask, int distance) {
 	// register: 3
 	register char co;
@@ -10687,6 +11883,8 @@ unsigned char CheckRangeObject__Fiici(int x, int y, char cmask, int distance) {
 
 
 // address: 0x800993E4
+// line start: 1264
+// line end:   1318
 unsigned char CheckArea__FiiicUci(int xx, int yy, int range, char c_mask, int allflag, int pnum) {
 	// register: 2
 	// size: 0x23A8
@@ -10725,6 +11923,8 @@ unsigned char CheckArea__FiiicUci(int xx, int yy, int range, char c_mask, int al
 
 
 // address: 0x80099638
+// line start: 1363
+// line end:   1388
 void PlacePlayer__FiiiUc(int pnum, int x, int y, unsigned char do_current) {
 	// register: 18
 	// size: 0x23A8
@@ -10733,57 +11933,79 @@ void PlacePlayer__FiiiUc(int pnum, int x, int y, unsigned char do_current) {
 
 
 // address: 0x8009985C
+// line start: 1389
+// line end:   1389
 void _GLOBAL__D_gplayer() {
 }
 
 
 // address: 0x80099884
+// line start: 1389
+// line end:   1389
 void _GLOBAL__I_gplayer() {
 }
 
 
 // address: 0x800998AC
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_800998AC(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x800998CC
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi_addr_800998CC(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x800998D4
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_800998D4(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x800998DC
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_800998DC(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x80099904
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_80099904(struct Dialog *this) {
 }
 
 
 // address: 0x80099960
+// line start: 128
+// line end:   128
 void MoveToScrollTarget__7CBlocks_addr_80099960(struct CBlocks *this) {
 }
 
 
 // address: 0x80099974
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad_addr_80099974(struct CPad *this) {
 }
 
 
 // address: 0x8009999C
+// line start: 100
+// line end:   104
 unsigned short GetCur__C4CPad_addr_8009999C(struct CPad *this) {
 }
 
 
 // address: 0x800999C4
+// line start: 71
+// line end:   80
 void DEC_AddAsDecRequestor__FP7TextDat(struct TextDat *Td) {
 	// register: 16
 	register int TdIndex;
@@ -10791,6 +12013,8 @@ void DEC_AddAsDecRequestor__FP7TextDat(struct TextDat *Td) {
 
 
 // address: 0x80099A40
+// line start: 90
+// line end:   94
 void DEC_RemoveAsDecRequestor__FP7TextDat(struct TextDat *Td) {
 	// register: 16
 	register int TdIndex;
@@ -10798,6 +12022,8 @@ void DEC_RemoveAsDecRequestor__FP7TextDat(struct TextDat *Td) {
 
 
 // address: 0x80099A98
+// line start: 102
+// line end:   107
 void DEC_DoDecompRequests__Fv() {
 	{
 		// register: 17
@@ -10807,6 +12033,8 @@ void DEC_DoDecompRequests__Fv() {
 
 
 // address: 0x80099AF4
+// line start: 116
+// line end:   122
 int FindThisTd__FP7TextDat(struct TextDat *Td) {
 	{
 		// register: 3
@@ -10816,6 +12044,8 @@ int FindThisTd__FP7TextDat(struct TextDat *Td) {
 
 
 // address: 0x80099B2C
+// line start: 130
+// line end:   136
 int FindEmptyIndex__Fv() {
 	{
 		// register: 3
@@ -10825,6 +12055,8 @@ int FindEmptyIndex__Fv() {
 
 
 // address: 0x80099B64
+// line start: 139
+// line end:   144
 void UPDATEPROGRESS__Fi(int inc) {
 	{
 		// register: 16
@@ -10834,11 +12066,15 @@ void UPDATEPROGRESS__Fi(int inc) {
 
 
 // address: 0x80099BC4
+// line start: 155
+// line end:   156
 bool IsGameLoading__Fv() {
 }
 
 
 // address: 0x80099BD0
+// line start: 166
+// line end:   242
 void PutUpCutScreenTSK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -10860,6 +12096,8 @@ void PutUpCutScreenTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8009A044
+// line start: 254
+// line end:   280
 void PutUpCutScreen__Fi(int lev) {
 	// register: 2
 	// size: 0x10
@@ -10868,95 +12106,133 @@ void PutUpCutScreen__Fi(int lev) {
 
 
 // address: 0x8009A0F4
+// line start: 290
+// line end:   308
 void TakeDownCutScreen__Fv() {
 }
 
 
 // address: 0x8009A180
+// line start: 319
+// line end:   325
 void FinishProgress__Fv() {
 }
 
 
 // address: 0x8009A1E4
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP7POLY_G4_addr_8009A1E4(struct POLY_G4 **Prim) {
 }
 
 
 // address: 0x8009A260
+// line start: 329
+// line end:   329
 void _GLOBAL__D_UPDATEPROGRESS__Fi() {
 }
 
 
 // address: 0x8009A298
+// line start: 329
+// line end:   329
 void _GLOBAL__I_UPDATEPROGRESS__Fi() {
 }
 
 
 // address: 0x8009A2D0
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_8009A2D0(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x8009A2F0
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi_addr_8009A2F0(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8009A2F8
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_8009A2F8(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8009A300
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_8009A300(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x8009A328
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_8009A328(struct Dialog *this) {
 }
 
 
 // address: 0x8009A384
+// line start: 345
+// line end:   120
 void ___7CScreen(struct CScreen *this, int __in_chrg);
 
 // address: 0x8009A3A4
+// line start: 104
+// line end:   184
 void init_mem_card__FPFii_v(void (*handler)()) {
 }
 
 
 // address: 0x8009A5C0
+// line start: 188
+// line end:   212
 void memcard_event__Fii(int evt, int side) {
 }
 
 
 // address: 0x8009A5C8
+// line start: 217
+// line end:   221
 void init_card__Fi(int card_number) {
 }
 
 
 // address: 0x8009A5FC
+// line start: 226
+// line end:   239
 int ping_card__Fi(int card_number) {
 }
 
 
 // address: 0x8009A690
+// line start: 243
+// line end:   249
 void CardUpdateTask__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x8009A6C8
+// line start: 254
+// line end:   265
 void MemcardON__Fv() {
 }
 
 
 // address: 0x8009A738
+// line start: 271
+// line end:   279
 void MemcardOFF__Fv() {
 }
 
 
 // address: 0x8009A788
+// line start: 605
+// line end:   618
 void PrintSelectBack__FbT0(bool S, bool B) {
 	// register: 2
 	register int len;
@@ -10964,6 +12240,8 @@ void PrintSelectBack__FbT0(bool S, bool B) {
 
 
 // address: 0x8009A8DC
+// line start: 625
+// line end:   634
 void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y, int W, int H) {
 	// address: 0xFFFFFFD0
 	// size: 0x10
@@ -10972,6 +12250,8 @@ void DrawDialogBox__FiiP4RECTiiii(int e, int f, struct RECT *DRect, int X, int Y
 
 
 // address: 0x8009A9C0
+// line start: 650
+// line end:   773
 void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
 	// register: 2
 	// size: 0x28
@@ -11029,6 +12309,8 @@ void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned c
 
 
 // address: 0x8009AE88
+// line start: 779
+// line end:   1023
 void DrawMenu__Fi(int MenuNo) {
 	// address: 0xFFFFFF70
 	// size: 0x8
@@ -11099,6 +12381,8 @@ void DrawMenu__Fi(int MenuNo) {
 
 
 // address: 0x8009BB4C
+// line start: 1027
+// line end:   1036
 int who_pressed__Fi(int pval) {
 	// register: 16
 	// size: 0x6C
@@ -11111,11 +12395,15 @@ int who_pressed__Fi(int pval) {
 
 // address: 0x8009BBD4
 // size: 0x6C
+// line start: 1041
+// line end:   1046
 struct CPad *PAD_GetOptionsPad__Fi(int p) {
 }
 
 
 // address: 0x8009BC10
+// line start: 1051
+// line end:   1265
 void ShowCharacterFiles__Fv() {
 	// register: 19
 	register int j;
@@ -11169,6 +12457,8 @@ void ShowCharacterFiles__Fv() {
 
 
 // address: 0x8009C29C
+// line start: 1268
+// line end:   1481
 void MemcardPad__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -11210,11 +12500,15 @@ void MemcardPad__Fv() {
 
 
 // address: 0x8009C90C
+// line start: 1487
+// line end:   1487
 void UnBounce__Fv() {
 }
 
 
 // address: 0x8009C918
+// line start: 1490
+// line end:   1703
 void SoundPad__Fv() {
 	// register: 18
 	// size: 0x6C
@@ -11252,6 +12546,8 @@ void SoundPad__Fv() {
 
 
 // address: 0x8009D014
+// line start: 1711
+// line end:   1814
 void CentrePad__Fv() {
 	// register: 17
 	// size: 0x6C
@@ -11277,11 +12573,15 @@ void CentrePad__Fv() {
 
 
 // address: 0x8009D438
+// line start: 1820
+// line end:   1845
 void CalcVolumes__Fv() {
 }
 
 
 // address: 0x8009D578
+// line start: 1853
+// line end:   1873
 void GetVolumes__Fv() {
 	{
 		// register: 8
@@ -11303,6 +12603,8 @@ void GetVolumes__Fv() {
 
 
 // address: 0x8009D680
+// line start: 1881
+// line end:   1898
 void PrintInfoMenu__Fv() {
 	// address: 0xFFFFFEE0
 	// size: 0x100
@@ -11313,6 +12615,8 @@ void PrintInfoMenu__Fv() {
 
 
 // address: 0x8009D828
+// line start: 1916
+// line end:   2197
 void DrawOptions__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int old_pad;
@@ -11339,11 +12643,15 @@ void DrawOptions__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8009E0C0
+// line start: 2203
+// line end:   2227
 void ToggleOptions__Fv() {
 }
 
 
 // address: 0x8009E168
+// line start: 2234
+// line end:   2314
 void FormatPad__Fv() {
 	// register: 16
 	register int move;
@@ -11359,11 +12667,15 @@ void FormatPad__Fv() {
 
 
 // address: 0x8009E474
+// line start: 2317
+// line end:   2329
 void ActivateMemcard__Fv() {
 }
 
 
 // address: 0x8009E4F8
+// line start: 2334
+// line end:   2355
 void ShowGameFiles__FPc(char *filename) {
 	// register: 22
 	register int yoff;
@@ -11383,51 +12695,71 @@ void ShowGameFiles__FPc(char *filename) {
 
 
 // address: 0x8009E644
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP7POLY_G4_addr_8009E644(struct POLY_G4 **Prim) {
 }
 
 
 // address: 0x8009E6C0
+// line start: 121
+// line end:   125
 unsigned short GetTick__C4CPad_addr_8009E6C0(struct CPad *this) {
 }
 
 
 // address: 0x8009E6E8
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad_addr_8009E6E8(struct CPad *this) {
 }
 
 
 // address: 0x8009E710
+// line start: 107
+// line end:   111
 unsigned short GetUp__C4CPad_addr_8009E710(struct CPad *this) {
 }
 
 
 // address: 0x8009E738
+// line start: 86
+// line end:   86
 void SetPadTickMask__4CPadUs_addr_8009E738(struct CPad *this, unsigned short mask) {
 }
 
 
 // address: 0x8009E740
+// line start: 85
+// line end:   85
 void SetPadTick__4CPadUs_addr_8009E740(struct CPad *this, unsigned short tick) {
 }
 
 
 // address: 0x8009E748
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_8009E748(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x8009E768
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi_addr_8009E768(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8009E770
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_8009E770(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8009E778
+// line start: 84
+// line end:   87
 int SetOTpos__6Dialogi_addr_8009E778(struct Dialog *this, int OT) {
 	// register: 2
 	register int OldOT;
@@ -11435,23 +12767,31 @@ int SetOTpos__6Dialogi_addr_8009E778(struct Dialog *this, int OT) {
 
 
 // address: 0x8009E784
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_8009E784(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x8009E7AC
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_8009E7AC(struct Dialog *this) {
 }
 
 
 // address: 0x8009E808
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_8009E808(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x8009E824
+// line start: 72
+// line end:   79
 unsigned char BirdDistanceOK__Fiiii(int WorldXa, int WorldYa, int WorldXb, int WorldYb) {
 	// register: 16
 	register int wx;
@@ -11461,6 +12801,8 @@ unsigned char BirdDistanceOK__Fiiii(int WorldXa, int WorldYa, int WorldXb, int W
 
 
 // address: 0x8009E87C
+// line start: 88
+// line end:   129
 void AlterBirdPos__FP10BIRDSTRUCTUc(struct BIRDSTRUCT *b, unsigned char rnd) {
 	// register: 18
 	register int offsx;
@@ -11470,6 +12812,8 @@ void AlterBirdPos__FP10BIRDSTRUCTUc(struct BIRDSTRUCT *b, unsigned char rnd) {
 
 
 // address: 0x8009EA58
+// line start: 139
+// line end:   149
 void BirdWorld__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int wx, int wy) {
 	// register: 7
 	register int x;
@@ -11479,6 +12823,8 @@ void BirdWorld__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int wx, int wy) {
 
 
 // address: 0x8009EAD4
+// line start: 160
+// line end:   183
 int BirdScared__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 17
 	register int scared;
@@ -11497,6 +12843,8 @@ int BirdScared__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009EC60
+// line start: 192
+// line end:   201
 int GetPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	{
 		// register: 3
@@ -11506,6 +12854,8 @@ int GetPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009ECB4
+// line start: 210
+// line end:   237
 void BIRD_StartHop__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 17
 	register int nd;
@@ -11517,31 +12867,43 @@ void BIRD_StartHop__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009EE1C
+// line start: 246
+// line end:   266
 void BIRD_DoHop__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009EF20
+// line start: 277
+// line end:   284
 void BIRD_StartPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009EF8C
+// line start: 293
+// line end:   309
 void BIRD_DoPerch__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009F010
+// line start: 317
+// line end:   330
 void BIRD_DoScatter__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009F0BC
+// line start: 338
+// line end:   348
 void BIRD_StartScatter__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009F160
+// line start: 358
+// line end:   381
 void BIRD_StartFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 16
 	// size: 0x18
@@ -11558,6 +12920,8 @@ void BIRD_StartFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009F204
+// line start: 389
+// line end:   441
 void BIRD_DoFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 20
 	register int pnum;
@@ -11581,16 +12945,22 @@ void BIRD_DoFly__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009F4B0
+// line start: 451
+// line end:   459
 void BIRD_StartLanding__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009F508
+// line start: 470
+// line end:   474
 void BIRD_DoLanding__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 }
 
 
 // address: 0x8009F558
+// line start: 483
+// line end:   500
 void PlaceFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 	// register: 18
 	// size: 0x18
@@ -11603,6 +12973,8 @@ void PlaceFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 
 
 // address: 0x8009F644
+// line start: 508
+// line end:   527
 void ProcessFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 	// register: 19
 	// size: 0x18
@@ -11625,6 +12997,8 @@ void ProcessFlock__FP10BIRDSTRUCT(struct BIRDSTRUCT *leader) {
 
 
 // address: 0x8009F774
+// line start: 551
+// line end:   570
 void InitBird__Fv() {
 	// register: 17
 	// size: 0x18
@@ -11637,6 +13011,8 @@ void InitBird__Fv() {
 
 
 // address: 0x8009F84C
+// line start: 582
+// line end:   623
 void ProcessBird__Fv() {
 	// register: 16
 	// size: 0x18
@@ -11649,6 +13025,8 @@ void ProcessBird__Fv() {
 
 
 // address: 0x8009F9A4
+// line start: 631
+// line end:   660
 int GetBirdFrame__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 	// register: 5
 	register int banim;
@@ -11656,6 +13034,8 @@ int GetBirdFrame__FP10BIRDSTRUCT(struct BIRDSTRUCT *b) {
 
 
 // address: 0x8009FA40
+// line start: 666
+// line end:   686
 void bscale__FP8POLY_FT4i(struct POLY_FT4 *Ft4, int height) {
 	// register: 17
 	register int x;
@@ -11665,6 +13045,8 @@ void bscale__FP8POLY_FT4i(struct POLY_FT4 *Ft4, int height) {
 
 
 // address: 0x8009FB70
+// line start: 691
+// line end:   710
 void doshadow__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int x, int y) {
 	// address: 0xFFFFFFE0
 	// size: 0x28
@@ -11676,6 +13058,8 @@ void doshadow__FP10BIRDSTRUCTii(struct BIRDSTRUCT *b, int x, int y) {
 
 
 // address: 0x8009FC7C
+// line start: 749
+// line end:   811
 void DrawLBird__Fv() {
 	// register: 19
 	// size: 0x18
@@ -11712,11 +13096,15 @@ void DrawLBird__Fv() {
 
 
 // address: 0x8009FE88
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_8009FE88(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x8009FF04
+// line start: 90
+// line end:   132
 short PlayFMV__FPcii(char *str, int w, int h) {
 	// register: 16
 	register short RetVal;
@@ -11727,6 +13115,8 @@ short PlayFMV__FPcii(char *str, int w, int h) {
 
 
 // address: 0x8009FFC4
+// line start: 137
+// line end:   151
 void play_movie(char *pszMovie) {
 	{
 		{
@@ -11738,6 +13128,8 @@ void play_movie(char *pszMovie) {
 
 
 // address: 0x800A0080
+// line start: 130
+// line end:   216
 void DisplayMonsterTypes__Fv() {
 	// address: 0xFFFFFED8
 	// size: 0x100
@@ -11783,38 +13175,52 @@ void DisplayMonsterTypes__Fv() {
 
 
 // address: 0x800A051C
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad_addr_800A051C(struct CPad *this) {
 }
 
 
 // address: 0x800A0544
+// line start: 237
+// line end:   237
 int GetNumOfFrames__7TextDatii_addr_800A0544(struct TextDat *this, int Creature, int Action) {
 }
 
 
 // address: 0x800A057C
 // size: 0x14
+// line start: 271
+// line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_800A057C(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x800A05F4
+// line start: 235
+// line end:   235
 int GetNumOfCreatures__7TextDat_addr_800A05F4(struct TextDat *this) {
 }
 
 
 // address: 0x800A0608
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_800A0608(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x800A0624
+// line start: 40
+// line end:   52
 void LoadKanjiFont__FPc(char *name) {
 }
 
 
 // address: 0x800A06B8
+// line start: 57
+// line end:   71
 void LoadKanjiIndex__FPc(char *name) {
 	// register: 16
 	// size: 0x14
@@ -11823,11 +13229,15 @@ void LoadKanjiIndex__FPc(char *name) {
 
 
 // address: 0x800A076C
+// line start: 76
+// line end:   94
 void FreeKanji__Fv() {
 }
 
 
 // address: 0x800A07F4
+// line start: 101
+// line end:   123
 void LoadKanji__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 	// address: 0xFFFFFFD0
 	// size: 0x28
@@ -11838,6 +13248,8 @@ void LoadKanji__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 
 
 // address: 0x800A08C8
+// line start: 129
+// line end:   147
 unsigned short *getb__FUs(unsigned short n) {
 	// register: 4
 	// size: 0x4
@@ -11850,6 +13262,8 @@ unsigned short *getb__FUs(unsigned short n) {
 
 
 // address: 0x800A0938
+// line start: 158
+// line end:   180
 void _get_font__FPUsUsUs(unsigned short *into, unsigned short num, unsigned short col) {
 	// register: 8
 	register unsigned short *p;
@@ -11865,6 +13279,8 @@ void _get_font__FPUsUsUs(unsigned short *into, unsigned short num, unsigned shor
 
 
 // address: 0x800A0A08
+// line start: 188
+// line end:   229
 int KPrintChar__FUsUsUcUcUs(unsigned short Cx, unsigned short Cy, unsigned char h, unsigned char l, int col) {
 	// address: 0xFFFFFFE8
 	// size: 0x28
@@ -11881,11 +13297,15 @@ int KPrintChar__FUsUsUcUcUs(unsigned short Cx, unsigned short Cy, unsigned char 
 
 
 // address: 0x800A0B74
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_800A0B74(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x800A0BF0
+// line start: 85
+// line end:   108
 void writeblock__FP5block(struct block *theblock) {
 	{
 		{
@@ -11903,6 +13323,8 @@ void writeblock__FP5block(struct block *theblock) {
 
 
 // address: 0x800A0CD8
+// line start: 118
+// line end:   235
 int PAK_DoPak__FPUcT0i(unsigned char *Dest, unsigned char *buffer, int insize) {
 	// register: 3
 	register long begin;
@@ -11931,6 +13353,8 @@ int PAK_DoPak__FPUcT0i(unsigned char *Dest, unsigned char *buffer, int insize) {
 
 
 // address: 0x800A0F18
+// line start: 245
+// line end:   278
 int PAK_DoUnpak__FPUcT0(unsigned char *Dest, unsigned char *Source) {
 	// register: 19
 	register int outsize;
@@ -11946,16 +13370,22 @@ int PAK_DoUnpak__FPUcT0(unsigned char *Dest, unsigned char *Source) {
 
 
 // address: 0x800A0FB8
+// line start: 55
+// line end:   58
 void fputc__5blockUc(struct block *this, unsigned char Val) {
 }
 
 
 // address: 0x8002E8A0
+// line start: 520
+// line end:   523
 unsigned char TrimCol__Fs_addr_8002E8A0(short col) {
 }
 
 
 // address: 0x8002E8D8
+// line start: 527
+// line end:   695
 void DrawSpellCel__FllUclUc(long xp, long yp, unsigned char Trans, long nCel, int w) {
 	// address: 0xFFFFFF78
 	// size: 0x6C
@@ -12043,11 +13473,15 @@ void DrawSpellCel__FllUclUc(long xp, long yp, unsigned char Trans, long nCel, in
 
 
 // address: 0x8002F3F4
+// line start: 709
+// line end:   710
 void SetSpellTrans__Fc(char t) {
 }
 
 
 // address: 0x8002F400
+// line start: 718
+// line end:   735
 void DrawSpellBookTSK__FP4TASK(struct TASK *T) {
 	{
 		// register: 16
@@ -12057,6 +13491,8 @@ void DrawSpellBookTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8002F498
+// line start: 740
+// line end:   750
 void DrawSpeedSpellTSK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -12071,6 +13507,8 @@ void DrawSpeedSpellTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8002F510
+// line start: 756
+// line end:   788
 void ToggleSpell__Fi(int pnum) {
 	// register: 2
 	// size: 0x10
@@ -12079,6 +13517,8 @@ void ToggleSpell__Fi(int pnum) {
 
 
 // address: 0x8002F5C4
+// line start: 814
+// line end:   1112
 void DrawSpellList__Fv() {
 	// register: 18
 	register int x;
@@ -12136,26 +13576,36 @@ void DrawSpellList__Fv() {
 
 
 // address: 0x80030188
+// line start: 1118
+// line end:   1130
 void SetSpell__Fi(int pnum) {
 }
 
 
 // address: 0x8003025C
+// line start: 1141
+// line end:   1144
 void AddPanelString__FPCci(char *str, int just) {
 }
 
 
 // address: 0x8003030C
+// line start: 1151
+// line end:   1153
 void ClearPanel__Fv() {
 }
 
 
 // address: 0x8003033C
+// line start: 1206
+// line end:   1207
 void InitPanelStr__Fv() {
 }
 
 
 // address: 0x8003035C
+// line start: 1293
+// line end:   1440
 void InitControlPan__Fv() {
 	// register: 3
 	register int i;
@@ -12163,16 +13613,22 @@ void InitControlPan__Fv() {
 
 
 // address: 0x8003057C
+// line start: 1446
+// line end:   1449
 void DrawCtrlPan__Fv() {
 }
 
 
 // address: 0x800305A8
+// line start: 1529
+// line end:   1541
 void DoAutoMap__Fv() {
 }
 
 
 // address: 0x8003061C
+// line start: 1548
+// line end:   1639
 void CheckPanelInfo__Fv() {
 	// register: 17
 	// size: 0x4
@@ -12211,6 +13667,8 @@ void CheckPanelInfo__Fv() {
 
 
 // address: 0x80030D3C
+// line start: 1713
+// line end:   1729
 void FreeControlPan__Fv() {
 	{
 		// register: 4
@@ -12276,6 +13734,8 @@ void FreeControlPan__Fv() {
 
 
 // address: 0x80030E4C
+// line start: 1751
+// line end:   1779
 int CPrintString__FiPci(int No, char *pszStr, int Just) {
 	// register: 6
 	// size: 0x4
@@ -12290,6 +13750,8 @@ int CPrintString__FiPci(int No, char *pszStr, int Just) {
 
 
 // address: 0x80030F68
+// line start: 1822
+// line end:   1858
 void PrintInfo__Fv() {
 	// register: 19
 	register int nOffset1;
@@ -12313,6 +13775,8 @@ void PrintInfo__Fv() {
 
 
 // address: 0x800311A4
+// line start: 1864
+// line end:   1984
 void DrawInfoBox__FP4RECT(struct RECT *InfoRect) {
 	// register: 16
 	register int pnum;
@@ -12352,6 +13816,8 @@ void DrawInfoBox__FP4RECT(struct RECT *InfoRect) {
 
 
 // address: 0x80031858
+// line start: 2037
+// line end:   2131
 void MY_PlrStringXY__Fv() {
 	// register: 21
 	// size: 0x28
@@ -12374,6 +13840,8 @@ void MY_PlrStringXY__Fv() {
 
 
 // address: 0x80031DA4
+// line start: 2137
+// line end:   2153
 void ADD_PlrStringXY__FPCcc(char *pszStr, char col) {
 	// register: 16
 	// size: 0x28
@@ -12382,6 +13850,8 @@ void ADD_PlrStringXY__FPCcc(char *pszStr, char col) {
 
 
 // address: 0x80031E4C
+// line start: 2176
+// line end:   2212
 void DrawPlus__Fii(int n, int pnum) {
 	// register: 16
 	// size: 0x6C
@@ -12397,11 +13867,15 @@ void DrawPlus__Fii(int n, int pnum) {
 
 
 // address: 0x80031FB4
+// line start: 2219
+// line end:   2232
 void ChrCheckValidButton__Fi(int move) {
 }
 
 
 // address: 0x80032090
+// line start: 2240
+// line end:   2261
 void DrawArrows__Fv() {
 	// register: 18
 	// size: 0x6C
@@ -12417,6 +13891,8 @@ void DrawArrows__Fv() {
 
 
 // address: 0x80032188
+// line start: 2266
+// line end:   2460
 void BuildChr__Fv() {
 	// register: 18
 	register char c;
@@ -12439,6 +13915,8 @@ void BuildChr__Fv() {
 
 
 // address: 0x80033460
+// line start: 2465
+// line end:   2558
 void DrawChr__Fv() {
 	// address: 0xFFFFFFB0
 	// size: 0x40
@@ -12460,6 +13938,8 @@ void DrawChr__Fv() {
 
 
 // address: 0x800338B8
+// line start: 2612
+// line end:   2633
 void DrawChrTSK__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int omp;
@@ -12467,11 +13947,15 @@ void DrawChrTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8003399C
+// line start: 2642
+// line end:   2650
 void DrawLevelUpIcon__Fi(int pnum) {
 }
 
 
 // address: 0x80033A30
+// line start: 2655
+// line end:   2692
 void CheckChrBtns__Fv() {
 	// register: 16
 	register int pc;
@@ -12479,11 +13963,15 @@ void CheckChrBtns__Fv() {
 
 
 // address: 0x80033D9C
+// line start: 2699
+// line end:   2739
 int DrawDurIcon4Item__FPC10ItemStructii(struct ItemStruct *pItem, int x, int c) {
 }
 
 
 // address: 0x80033E20
+// line start: 2747
+// line end:   2761
 void RedBack__Fv() {
 	// register: 7
 	// size: 0x28
@@ -12492,11 +13980,15 @@ void RedBack__Fv() {
 
 
 // address: 0x80033F08
+// line start: 2767
+// line end:   2774
 void PrintSBookStr__FiiUcPCcUc(int x, int y, unsigned char cjustflag, char *pszStr, int bright) {
 }
 
 
 // address: 0x80033FA0
+// line start: 2781
+// line end:   2793
 char GetSBookTrans__FiUc(int ii, unsigned char townok) {
 	// register: 16
 	register char st;
@@ -12504,6 +13996,8 @@ char GetSBookTrans__FiUc(int ii, unsigned char townok) {
 
 
 // address: 0x800341B8
+// line start: 2820
+// line end:   3005
 void DrawSpellBook__Fv() {
 	// register: 18
 	register int i;
@@ -12545,6 +14039,8 @@ void DrawSpellBook__Fv() {
 
 
 // address: 0x80034B70
+// line start: 3014
+// line end:   3057
 void CheckSBook__Fv() {
 	// register: 6
 	register unsigned long tspls;
@@ -12568,109 +14064,151 @@ void CheckSBook__Fv() {
 
 
 // address: 0x80034DA4
+// line start: 3071
+// line end:   3073
 char *get_pieces_str__Fi(int nGold) {
 }
 
 
 // address: 0x80034DD8
+// line start: 3582
+// line end:   3582
 void _GLOBAL__D_DrawLevelUpFlag() {
 }
 
 
 // address: 0x80034E00
+// line start: 3582
+// line end:   3582
 void _GLOBAL__I_DrawLevelUpFlag() {
 }
 
 
 // address: 0x80034E3C
+// line start: 121
+// line end:   125
 unsigned short GetTick__C4CPad_addr_80034E3C(struct CPad *this) {
 }
 
 
 // address: 0x80034E64
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad_addr_80034E64(struct CPad *this) {
 }
 
 
 // address: 0x80034E8C
+// line start: 86
+// line end:   86
 void SetPadTickMask__4CPadUs_addr_80034E8C(struct CPad *this, unsigned short mask) {
 }
 
 
 // address: 0x80034E94
+// line start: 85
+// line end:   85
 void SetPadTick__4CPadUs_addr_80034E94(struct CPad *this, unsigned short tick) {
 }
 
 
 // address: 0x80034E9C
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_80034E9C(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x80034EBC
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi_addr_80034EBC(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80034EC4
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_80034EC4(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80034ECC
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_80034ECC(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x80034EF4
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_80034EF4(struct Dialog *this) {
 }
 
 
 // address: 0x80034F50
 // size: 0x8
+// line start: 224
+// line end:   224
 struct PAL *GetPal__7TextDati_addr_80034F50(struct TextDat *this, int PalNum) {
 }
 
 
 // address: 0x80034F6C
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_80034F6C(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80034F88
+// line start: 126
+// line end:   132
 void InitCursor__Fv() {
 }
 
 
 // address: 0x80034F90
+// line start: 137
+// line end:   142
 void FreeCursor__Fv() {
 }
 
 
 // address: 0x80034F98
+// line start: 148
+// line end:   158
 void SetICursor__Fi(int i) {
 }
 
 
 // address: 0x80034FF4
+// line start: 165
+// line end:   173
 void SetCursor__Fi(int i) {
 }
 
 
 // address: 0x80035058
+// line start: 179
+// line end:   180
 void NewCursor__Fi(int i) {
 }
 
 
 // address: 0x80035078
+// line start: 186
+// line end:   201
 void InitLevelCursor__Fv() {
 }
 
 
 // address: 0x800350D8
+// line start: 211
+// line end:   231
 void CheckTown__Fv() {
 	{
 		// register: 18
@@ -12684,6 +14222,8 @@ void CheckTown__Fv() {
 
 
 // address: 0x80035330
+// line start: 237
+// line end:   258
 void CheckRportal__Fv() {
 	{
 		// register: 17
@@ -12697,11 +14237,15 @@ void CheckRportal__Fv() {
 
 
 // address: 0x80035558
+// line start: 264
+// line end:   756
 void CheckCursMove__Fv() {
 }
 
 
 // address: 0x80035560
+// line start: 40
+// line end:   90
 void InitDead__Fv() {
 	// register: 6
 	register int nd;
@@ -12716,6 +14260,8 @@ void InitDead__Fv() {
 
 
 // address: 0x8003575C
+// line start: 98
+// line end:   102
 void AddDead__Fiici(int dx, int dy, char dv, int ddir) {
 	// register: 6
 	register char tdv;
@@ -12723,6 +14269,8 @@ void AddDead__Fiici(int dx, int dy, char dv, int ddir) {
 
 
 // address: 0x800357A4
+// line start: 284
+// line end:   297
 void FreeGameMem__Fv() {
 	{
 		// register: 4
@@ -12732,11 +14280,15 @@ void FreeGameMem__Fv() {
 
 
 // address: 0x800357F4
+// line start: 304
+// line end:   320
 void start_game__FUi(unsigned int uMsg) {
 }
 
 
 // address: 0x80035850
+// line start: 325
+// line end:   342
 void free_game__Fv() {
 	{
 		// register: 16
@@ -12746,6 +14298,8 @@ void free_game__Fv() {
 
 
 // address: 0x800358C4
+// line start: 358
+// line end:   396
 void LittleStart__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 	// address: 0xFFFFFFF0
 	auto unsigned char fExitProgram;
@@ -12755,6 +14309,8 @@ void LittleStart__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 
 
 // address: 0x80035988
+// line start: 401
+// line end:   485
 unsigned char StartGame__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 	{
 		// address: 0xFFFFFFE0
@@ -12766,6 +14322,8 @@ unsigned char StartGame__FUcUc(unsigned char bNewGame, unsigned char bSinglePlay
 
 
 // address: 0x80035B70
+// line start: 491
+// line end:   607
 void run_game_loop__FUi(unsigned int uMsg) {
 	// register: 18
 	register unsigned long (*saveProc)();
@@ -12776,31 +14334,43 @@ void run_game_loop__FUi(unsigned int uMsg) {
 
 
 // address: 0x80035CE0
+// line start: 1041
+// line end:   1121
 unsigned char TryIconCurs__Fv() {
 }
 
 
 // address: 0x800360BC
+// line start: 2144
+// line end:   2191
 unsigned long DisableInputWndProc__FUlUilUl(unsigned long hWnd, unsigned int uMsg, long wParam, unsigned long lParam) {
 }
 
 
 // address: 0x800360C4
+// line start: 2198
+// line end:   2358
 unsigned long GM_Game__FUlUilUl(unsigned long hWnd, unsigned int uMsg, long wParam, unsigned long lParam) {
 }
 
 
 // address: 0x80036174
+// line start: 2365
+// line end:   2432
 void LoadLvlGFX__Fv() {
 }
 
 
 // address: 0x80036210
+// line start: 2440
+// line end:   2452
 void LoadAllGFX__Fv() {
 }
 
 
 // address: 0x80036230
+// line start: 2473
+// line end:   2493
 void CreateLevel__Fi(int lvldir) {
 	// address: 0xFFFFFFF0
 	auto long hnd;
@@ -12808,6 +14378,8 @@ void CreateLevel__Fi(int lvldir) {
 
 
 // address: 0x80036328
+// line start: 2502
+// line end:   2556
 void LoCreateLevel__FPv() {
 	// register: 16
 	register int lvldir;
@@ -12815,6 +14387,8 @@ void LoCreateLevel__FPv() {
 
 
 // address: 0x800364B0
+// line start: 2560
+// line end:   2585
 void ClearOutDungeonMap__Fv() {
 	// register: 11
 	register unsigned short val;
@@ -12832,6 +14406,8 @@ void ClearOutDungeonMap__Fv() {
 
 
 // address: 0x8003658C
+// line start: 2592
+// line end:   2925
 void LoadGameLevel__FUci(unsigned char firstflag, int lvldir) {
 	// register: 16
 	register int i;
@@ -12847,56 +14423,78 @@ void LoadGameLevel__FUci(unsigned char firstflag, int lvldir) {
 
 
 // address: 0x80036F10
+// line start: 2938
+// line end:   2990
 void game_logic__Fv() {
 }
 
 
 // address: 0x8003701C
+// line start: 3000
+// line end:   3030
 void timeout_cursor__FUc(unsigned char bTimeout) {
 }
 
 
 // address: 0x800370C4
+// line start: 3038
+// line end:   3093
 void game_loop__FUc(unsigned char bStartup) {
 }
 
 
 // address: 0x800370FC
+// line start: 3160
+// line end:   3165
 void alloc_plr__Fv() {
 }
 
 
 // address: 0x80037104
+// line start: 3228
+// line end:   3286
 void plr_encrypt__FUc(unsigned char bEncrypt) {
 }
 
 
 // address: 0x8003710C
+// line start: 3293
+// line end:   3295
 void assert_fail__FiPCcT1(int nLineNo, char *pszFile, char *pszFail) {
 }
 
 
 // address: 0x8003712C
+// line start: 3300
+// line end:   3302
 void assert_fail__FiPCc(int nLineNo, char *pszFile) {
 }
 
 
 // address: 0x8003714C
+// line start: 3305
+// line end:   3306
 void app_fatal(char *pszFile) {
 }
 
 
 // address: 0x8003717C
+// line start: 3565
+// line end:   3571
 void DoMemCardFromFrontEnd__Fv() {
 }
 
 
 // address: 0x800371A4
+// line start: 3575
+// line end:   3581
 void DoMemCardFromInGame__Fv() {
 }
 
 
 // address: 0x800371CC
+// line start: 99
+// line end:   103
 int GetActiveTowner__Fi(int t) {
 	{
 		// register: 3
@@ -12906,6 +14504,8 @@ int GetActiveTowner__Fi(int t) {
 
 
 // address: 0x80037220
+// line start: 108
+// line end:   126
 void SetTownerGPtrs__FPUcPPUc(unsigned char *pData, unsigned char **pAnim) {
 	// register: 2
 	register int i;
@@ -12913,16 +14513,22 @@ void SetTownerGPtrs__FPUcPPUc(unsigned char *pData, unsigned char **pAnim) {
 
 
 // address: 0x80037240
+// line start: 132
+// line end:   142
 void NewTownerAnim__FiPUcii(int tnum, unsigned char *pAnim, int numFrames, int Delay) {
 }
 
 
 // address: 0x80037288
+// line start: 148
+// line end:   160
 void InitTownerInfo__FilUciiici(int i, long w, unsigned char sel, int t, int x, int y, int ao, int tp) {
 }
 
 
 // address: 0x800373E8
+// line start: 166
+// line end:   175
 void InitQstSnds__Fi(int i) {
 	// register: 4
 	register int j;
@@ -12934,6 +14540,8 @@ void InitQstSnds__Fi(int i) {
 
 
 // address: 0x800374A0
+// line start: 181
+// line end:   190
 void InitSmith__Fv() {
 	{
 		// register: 5
@@ -12943,6 +14551,8 @@ void InitSmith__Fv() {
 
 
 // address: 0x800375CC
+// line start: 196
+// line end:   206
 void InitBarOwner__Fv() {
 	{
 		// register: 5
@@ -12952,6 +14562,8 @@ void InitBarOwner__Fv() {
 
 
 // address: 0x80037700
+// line start: 211
+// line end:   220
 void InitTownDead__Fv() {
 	{
 		// register: 5
@@ -12961,6 +14573,8 @@ void InitTownDead__Fv() {
 
 
 // address: 0x80037830
+// line start: 225
+// line end:   234
 void InitWitch__Fv() {
 	{
 		// register: 5
@@ -12970,6 +14584,8 @@ void InitWitch__Fv() {
 
 
 // address: 0x80037960
+// line start: 239
+// line end:   248
 void InitBarmaid__Fv() {
 	{
 		// register: 5
@@ -12979,6 +14595,8 @@ void InitBarmaid__Fv() {
 
 
 // address: 0x80037A90
+// line start: 253
+// line end:   263
 void InitBoy__Fv() {
 	{
 		// register: 5
@@ -12988,6 +14606,8 @@ void InitBoy__Fv() {
 
 
 // address: 0x80037BC8
+// line start: 268
+// line end:   277
 void InitHealer__Fv() {
 	{
 		// register: 5
@@ -12997,6 +14617,8 @@ void InitHealer__Fv() {
 
 
 // address: 0x80037CF8
+// line start: 283
+// line end:   292
 void InitTeller__Fv() {
 	{
 		// register: 5
@@ -13006,6 +14628,8 @@ void InitTeller__Fv() {
 
 
 // address: 0x80037E28
+// line start: 297
+// line end:   306
 void InitDrunk__Fv() {
 	{
 		// register: 5
@@ -13015,6 +14639,8 @@ void InitDrunk__Fv() {
 
 
 // address: 0x80037F58
+// line start: 312
+// line end:   337
 void InitCows__Fv() {
 	// register: 20
 	register int i;
@@ -13032,11 +14658,15 @@ void InitCows__Fv() {
 
 
 // address: 0x8003821C
+// line start: 344
+// line end:   358
 void InitTowners__Fv() {
 }
 
 
 // address: 0x800382A8
+// line start: 363
+// line end:   377
 void FreeTownerGFX__Fv() {
 	// register: 17
 	register int i;
@@ -13062,6 +14692,8 @@ void FreeTownerGFX__Fv() {
 
 
 // address: 0x8003834C
+// line start: 384
+// line end:   395
 void TownCtrlMsg__Fi(int i) {
 	// register: 2
 	register int p;
@@ -13073,6 +14705,8 @@ void TownCtrlMsg__Fi(int i) {
 
 
 // address: 0x8003846C
+// line start: 404
+// line end:   412
 void TownBlackSmith__Fv() {
 	// register: 4
 	register int x;
@@ -13084,6 +14718,8 @@ void TownBlackSmith__Fv() {
 
 
 // address: 0x800384A0
+// line start: 420
+// line end:   427
 void TownBarOwner__Fv() {
 	// register: 4
 	register int x;
@@ -13095,6 +14731,8 @@ void TownBarOwner__Fv() {
 
 
 // address: 0x800384D4
+// line start: 435
+// line end:   447
 void TownDead__Fv() {
 	// register: 17
 	register int tidx;
@@ -13102,41 +14740,57 @@ void TownDead__Fv() {
 
 
 // address: 0x800385BC
+// line start: 453
+// line end:   455
 void TownHealer__Fv() {
 }
 
 
 // address: 0x800385E4
+// line start: 462
+// line end:   465
 void TownStory__Fv() {
 }
 
 
 // address: 0x8003860C
+// line start: 472
+// line end:   475
 void TownDrunk__Fv() {
 }
 
 
 // address: 0x80038634
+// line start: 482
+// line end:   485
 void TownBoy__Fv() {
 }
 
 
 // address: 0x8003865C
+// line start: 493
+// line end:   496
 void TownWitch__Fv() {
 }
 
 
 // address: 0x80038684
+// line start: 503
+// line end:   505
 void TownBarMaid__Fv() {
 }
 
 
 // address: 0x800386AC
+// line start: 512
+// line end:   515
 void TownCow__Fv() {
 }
 
 
 // address: 0x800386D4
+// line start: 522
+// line end:   573
 void ProcessTowners__Fv() {
 	{
 		{
@@ -13155,11 +14809,15 @@ void ProcessTowners__Fv() {
 
 // address: 0x80038924
 // size: 0x98
+// line start: 579
+// line end:   584
 struct ItemStruct *PlrHasItem__FiiRi(int pnum, int item, int *i) {
 }
 
 
 // address: 0x800389F8
+// line start: 593
+// line end:   639
 void CowSFX__Fi(int pnum) {
 	// address: 0x80121730
 	// size: 0x24
@@ -13170,11 +14828,15 @@ void CowSFX__Fi(int pnum) {
 
 
 // address: 0x80038B14
+// line start: 645
+// line end:   652
 void TownerTalk__Fii(int first, int t) {
 }
 
 
 // address: 0x80038B54
+// line start: 659
+// line end:   1055
 void TalkToTowner__Fii(int p, int t) {
 	// address: 0xFFFFFFE0
 	auto int i;
@@ -13201,26 +14863,36 @@ void TalkToTowner__Fii(int p, int t) {
 
 
 // address: 0x80039F7C
+// line start: 77
+// line end:   88
 unsigned char effect_is_playing__Fi(int nSFX) {
 }
 
 
 // address: 0x80039F84
+// line start: 96
+// line end:   103
 void stream_stop__Fv() {
 }
 
 
 // address: 0x80039FCC
+// line start: 116
+// line end:   143
 void stream_play__FP4TSFXll(struct TSFX *pSFX, long lVolume, long lPan) {
 }
 
 
 // address: 0x8003A090
+// line start: 149
+// line end:   165
 void stream_update__Fv() {
 }
 
 
 // address: 0x8003A098
+// line start: 171
+// line end:   178
 void sfx_stop__Fv() {
 	{
 		// register: 2
@@ -13230,6 +14902,8 @@ void sfx_stop__Fv() {
 
 
 // address: 0x8003A0B4
+// line start: 185
+// line end:   216
 void InitMonsterSND__Fi(int monst) {
 	// register: 4
 	register int mtype;
@@ -13237,11 +14911,15 @@ void InitMonsterSND__Fi(int monst) {
 
 
 // address: 0x8003A10C
+// line start: 222
+// line end:   245
 void FreeMonsterSnd__Fv() {
 }
 
 
 // address: 0x8003A114
+// line start: 251
+// line end:   271
 unsigned char calc_snd_position__FiiPlT2(int x, int y, long *plVolume, long *plPan) {
 	// register: 3
 	register long volume;
@@ -13251,6 +14929,8 @@ unsigned char calc_snd_position__FiiPlT2(int x, int y, long *plVolume, long *plP
 
 
 // address: 0x8003A218
+// line start: 278
+// line end:   309
 void PlaySFX_priv__FP4TSFXUcii(struct TSFX *pSFX, unsigned char loc, int x, int y) {
 	// address: 0xFFFFFFF4
 	auto long lPan;
@@ -13260,6 +14940,8 @@ void PlaySFX_priv__FP4TSFXUcii(struct TSFX *pSFX, unsigned char loc, int x, int 
 
 
 // address: 0x8003A328
+// line start: 318
+// line end:   363
 void PlayEffect__Fii(int i, int mode) {
 	// register: 16
 	register int mi;
@@ -13271,6 +14953,8 @@ void PlayEffect__Fii(int i, int mode) {
 
 
 // address: 0x8003A454
+// line start: 370
+// line end:   392
 int RndSFX__Fi(int psfx) {
 	// register: 5
 	register int nRand;
@@ -13278,16 +14962,22 @@ int RndSFX__Fi(int psfx) {
 
 
 // address: 0x8003A4EC
+// line start: 407
+// line end:   410
 void PlaySFX__Fi(int psfx) {
 }
 
 
 // address: 0x8003A52C
+// line start: 418
+// line end:   428
 void PlaySfxLoc__Fiii(int psfx, int x, int y) {
 }
 
 
 // address: 0x8003A580
+// line start: 435
+// line end:   450
 void sound_stop__Fv() {
 	// register: 18
 	register int mi;
@@ -13311,11 +15001,15 @@ void sound_stop__Fv() {
 
 
 // address: 0x8003A618
+// line start: 457
+// line end:   467
 void sound_update__Fv() {
 }
 
 
 // address: 0x8003A64C
+// line start: 475
+// line end:   506
 void priv_sound_init__FUc(unsigned char bLoadMask) {
 	{
 	}
@@ -13323,6 +15017,8 @@ void priv_sound_init__FUc(unsigned char bLoadMask) {
 
 
 // address: 0x8003A690
+// line start: 512
+// line end:   525
 void sound_init__Fv() {
 	// register: 4
 	register unsigned char bLoadMask;
@@ -13330,6 +15026,8 @@ void sound_init__Fv() {
 
 
 // address: 0x8003A738
+// line start: 45
+// line end:   75
 int GetDirection__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 6
 	register int mx;
@@ -13341,46 +15039,64 @@ int GetDirection__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x8003A7DC
+// line start: 91
+// line end:   94
 void SetRndSeed__Fl(long s) {
 }
 
 
 // address: 0x8003A7EC
+// line start: 99
+// line end:   104
 long GetRndSeed__Fv() {
 }
 
 
 // address: 0x8003A834
+// line start: 110
+// line end:   116
 long random__Fil(int idx, long v) {
 }
 
 
 // address: 0x8003A8A0
+// line start: 368
+// line end:   418
 unsigned char *DiabloAllocPtr__FUl(unsigned long dwBytes) {
 }
 
 
 // address: 0x8003A8EC
+// line start: 429
+// line end:   475
 void mem_free_dbg__FPv(void *p) {
 }
 
 
 // address: 0x8003A93C
+// line start: 487
+// line end:   497
 unsigned char *LoadFileInMem__FPCcPUl(char *pszName, unsigned long *pdwFileLen) {
 }
 
 
 // address: 0x8003A944
+// line start: 565
+// line end:   580
 void PlayInGameMovie__FPCc(char *pszMovie) {
 }
 
 
 // address: 0x8003A9D4
+// line start: 1104
+// line end:   1104
 void Enter__9CCritSect(struct CCritSect *this) {
 }
 
 
 // address: 0x8003A9DC
+// line start: 154
+// line end:   165
 void InitDiabloMsg__Fc(char e) {
 	// register: 3
 	register int i;
@@ -13388,6 +15104,8 @@ void InitDiabloMsg__Fc(char e) {
 
 
 // address: 0x8003AA70
+// line start: 171
+// line end:   174
 void ClrDiabloMsg__Fv() {
 	{
 		// register: 3
@@ -13397,6 +15115,8 @@ void ClrDiabloMsg__Fv() {
 
 
 // address: 0x8003AA9C
+// line start: 183
+// line end:   266
 void DrawDiabloMsg__Fv() {
 	// address: 0xFFFFFEE8
 	// size: 0x100
@@ -13408,11 +15128,15 @@ void DrawDiabloMsg__Fv() {
 
 
 // address: 0x8003ABA8
+// line start: 297
+// line end:   306
 void interface_msg_pump__Fv() {
 }
 
 
 // address: 0x8003ABB0
+// line start: 331
+// line end:   562
 void ShowProgress__FUi(unsigned int uMsg) {
 	// register: 17
 	register int nol;
@@ -13426,6 +15150,8 @@ void ShowProgress__FUi(unsigned int uMsg) {
 
 
 // address: 0x8003B09C
+// line start: 969
+// line end:   971
 void InitAllItemsUseable__Fv() {
 	{
 		// register: 3
@@ -13435,16 +15161,22 @@ void InitAllItemsUseable__Fv() {
 
 
 // address: 0x8003B0D4
+// line start: 508
+// line end:   519
 void InitItemGFX__Fv() {
 }
 
 
 // address: 0x8003B100
+// line start: 525
+// line end:   532
 unsigned char ItemPlace__Fii(int xp, int yp) {
 }
 
 
 // address: 0x8003B1C8
+// line start: 539
+// line end:   576
 void AddInitItems__Fv() {
 	// register: 22
 	register int j;
@@ -13464,6 +15196,8 @@ void AddInitItems__Fv() {
 
 
 // address: 0x8003B3E0
+// line start: 583
+// line end:   630
 void InitItems__Fv() {
 	// register: 4
 	register int i;
@@ -13475,6 +15209,8 @@ void InitItems__Fv() {
 
 
 // address: 0x8003B5A4
+// line start: 637
+// line end:   890
 void CalcPlrItemVals__FiUc(int p, unsigned char Loadgfx) {
 	// register: 11
 	register int mind;
@@ -13556,6 +15292,8 @@ void CalcPlrItemVals__FiUc(int p, unsigned char Loadgfx) {
 
 
 // address: 0x8003C054
+// line start: 895
+// line end:   925
 void CalcPlrScrolls__Fi(int p) {
 	// register: 11
 	register int i;
@@ -13565,6 +15303,8 @@ void CalcPlrScrolls__Fi(int p) {
 
 
 // address: 0x8003C3D4
+// line start: 934
+// line end:   942
 void CalcPlrStaff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	{
 		{
@@ -13576,6 +15316,8 @@ void CalcPlrStaff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8003C470
+// line start: 946
+// line end:   986
 void CalcSelfItems__Fi(int pnum) {
 	// register: 6
 	register int i;
@@ -13596,11 +15338,15 @@ void CalcSelfItems__Fi(int pnum) {
 
 
 // address: 0x8003C5D0
+// line start: 992
+// line end:   996
 unsigned char ItemMinStats__FPC12PlayerStructPC10ItemStruct(struct PlayerStruct *p, struct ItemStruct *x) {
 }
 
 
 // address: 0x8003C61C
+// line start: 1002
+// line end:   1017
 void CalcPlrItemMin__Fi(int pnum) {
 	// register: 16
 	register int i;
@@ -13614,6 +15360,8 @@ void CalcPlrItemMin__Fi(int pnum) {
 
 
 // address: 0x8003C6FC
+// line start: 1023
+// line end:   1046
 void CalcPlrBookVals__Fi(int p) {
 	// register: 18
 	register int i;
@@ -13623,11 +15371,15 @@ void CalcPlrBookVals__Fi(int p) {
 
 
 // address: 0x8003C990
+// line start: 1051
+// line end:   1061
 void CalcPlrInv__FiUc(int p, unsigned char Loadgfx) {
 }
 
 
 // address: 0x8003CA54
+// line start: 1067
+// line end:   1098
 void SetPlrHandItem__FP10ItemStructi(struct ItemStruct *h, int idata) {
 	// register: 17
 	// size: 0x20
@@ -13636,11 +15388,15 @@ void SetPlrHandItem__FP10ItemStructi(struct ItemStruct *h, int idata) {
 
 
 // address: 0x8003CB6C
+// line start: 1104
+// line end:   1105
 void GetPlrHandSeed__FP10ItemStruct(struct ItemStruct *h) {
 }
 
 
 // address: 0x8003CB98
+// line start: 1111
+// line end:   1127
 void GetGoldSeed__FiP10ItemStruct(int pnum, struct ItemStruct *h) {
 	// register: 4
 	register int i;
@@ -13654,16 +15410,22 @@ void GetGoldSeed__FiP10ItemStruct(int pnum, struct ItemStruct *h) {
 
 
 // address: 0x8003CD14
+// line start: 1133
+// line end:   1134
 void SetPlrHandSeed__FP10ItemStructi(struct ItemStruct *h, int iseed) {
 }
 
 
 // address: 0x8003CD1C
+// line start: 1140
+// line end:   1145
 void SetPlrHandGoldCurs__FP10ItemStruct(struct ItemStruct *h) {
 }
 
 
 // address: 0x8003CD4C
+// line start: 1151
+// line end:   1262
 void CreatePlrItems__Fi(int p) {
 	// register: 3
 	register int i;
@@ -13674,6 +15436,8 @@ void CreatePlrItems__Fi(int p) {
 
 
 // address: 0x8003D188
+// line start: 1269
+// line end:   1298
 unsigned char ItemSpaceOk__Fii(int i, int j) {
 	// register: 2
 	register int pn;
@@ -13683,6 +15447,8 @@ unsigned char ItemSpaceOk__Fii(int i, int j) {
 
 
 // address: 0x8003D460
+// line start: 1306
+// line end:   1354
 unsigned char GetItemSpace__Fiic(int x, int y, char inum) {
 	// register: 16
 	register int i;
@@ -13700,6 +15466,8 @@ unsigned char GetItemSpace__Fiic(int x, int y, char inum) {
 
 
 // address: 0x8003D68C
+// line start: 1361
+// line end:   1384
 void GetSuperItemSpace__Fiic(int x, int y, char inum) {
 	// register: 16
 	register int xx;
@@ -13725,6 +15493,8 @@ void GetSuperItemSpace__Fiic(int x, int y, char inum) {
 
 
 // address: 0x8003D7F4
+// line start: 1390
+// line end:   1402
 void GetSuperItemLoc__FiiRiT2(int x, int y, int *xx, int *yy) {
 	{
 		// register: 17
@@ -13746,6 +15516,8 @@ void GetSuperItemLoc__FiiRiT2(int x, int y, int *xx, int *yy) {
 
 
 // address: 0x8003D8BC
+// line start: 1408
+// line end:   1414
 void CalcItemValue__Fi(int i) {
 	// register: 4
 	register int v;
@@ -13753,6 +15525,8 @@ void CalcItemValue__Fi(int i) {
 
 
 // address: 0x8003D974
+// line start: 1421
+// line end:   1466
 void GetBookSpell__Fii(int i, int lvl) {
 	// register: 5
 	register int rv;
@@ -13764,6 +15538,8 @@ void GetBookSpell__Fii(int i, int lvl) {
 
 
 // address: 0x8003DBDC
+// line start: 1473
+// line end:   1533
 void GetStaffPower__FiiiUc(int i, int lvl, int bs, unsigned char onlygood) {
 	// address: 0xFFFFFB68
 	// size: 0x400
@@ -13783,6 +15559,8 @@ void GetStaffPower__FiiiUc(int i, int lvl, int bs, unsigned char onlygood) {
 
 
 // address: 0x8003DDCC
+// line start: 1541
+// line end:   1609
 void GetStaffSpell__FiiUc(int i, int lvl, unsigned char onlygood) {
 	// register: 5
 	register int rv;
@@ -13806,6 +15584,8 @@ void GetStaffSpell__FiiUc(int i, int lvl, unsigned char onlygood) {
 
 
 // address: 0x8003E080
+// line start: 1650
+// line end:   1740
 void GetItemAttrs__Fiii(int i, int idata, int lvl) {
 	// register: 20
 	register int rndv;
@@ -13813,16 +15593,22 @@ void GetItemAttrs__Fiii(int i, int idata, int lvl) {
 
 
 // address: 0x8003E5CC
+// line start: 1749
+// line end:   1750
 int RndPL__Fii(int param1, int param2) {
 }
 
 
 // address: 0x8003E604
+// line start: 1757
+// line end:   1760
 int PLVal__Fiiiii(int pv, int p1, int p2, int minv, int maxv) {
 }
 
 
 // address: 0x8003E678
+// line start: 1767
+// line end:   2049
 void SaveItemPower__Fiiiiiii(int i, int power, int param1, int param2, int minval, int maxval, int multval) {
 	// register: 19
 	register int r;
@@ -13832,6 +15618,8 @@ void SaveItemPower__Fiiiiiii(int i, int power, int param1, int param2, int minva
 
 
 // address: 0x8003FDA4
+// line start: 2057
+// line end:   2155
 void GetItemPower__FiiilUc(int i, int minlvl, int maxlvl, long flgs, int onlygood) {
 	// register: 16
 	register int pre;
@@ -13857,11 +15645,15 @@ void GetItemPower__FiiilUc(int i, int minlvl, int maxlvl, long flgs, int onlygoo
 
 
 // address: 0x8004020C
+// line start: 2162
+// line end:   2192
 void GetItemBonus__FiiiiUc(int i, int idata, int minlvl, int maxlvl, int onlygood) {
 }
 
 
 // address: 0x80040308
+// line start: 2198
+// line end:   2225
 void SetupItem__Fi(int i) {
 	// register: 2
 	register int it;
@@ -13869,6 +15661,8 @@ void SetupItem__Fi(int i) {
 
 
 // address: 0x80040410
+// line start: 2234
+// line end:   2270
 int RndItem__Fi(int m) {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -13881,6 +15675,8 @@ int RndItem__Fi(int m) {
 
 
 // address: 0x80040654
+// line start: 2278
+// line end:   2309
 int RndUItem__Fi(int m) {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -13895,6 +15691,8 @@ int RndUItem__Fi(int m) {
 
 
 // address: 0x80040894
+// line start: 2317
+// line end:   2340
 int RndAllItems__Fv() {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -13907,6 +15705,8 @@ int RndAllItems__Fv() {
 
 
 // address: 0x80040A08
+// line start: 2348
+// line end:   2363
 int RndTypeItems__Fii(int itype, int imid) {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -13921,6 +15721,8 @@ int RndTypeItems__Fii(int itype, int imid) {
 
 
 // address: 0x80040B08
+// line start: 2370
+// line end:   2404
 int CheckUnique__FiiiUc(int i, int lvl, int uper, unsigned char recreate) {
 	// register: 4
 	register int j;
@@ -13935,11 +15737,15 @@ int CheckUnique__FiiiUc(int i, int lvl, int uper, unsigned char recreate) {
 
 
 // address: 0x80040CB8
+// line start: 2411
+// line end:   2433
 void GetUniqueItem__Fii(int i, int uid) {
 }
 
 
 // address: 0x80040F60
+// line start: 2440
+// line end:   2453
 void SpawnUnique__Fiii(int uid, int x, int y) {
 	// register: 17
 	register int ii;
@@ -13949,11 +15755,15 @@ void SpawnUnique__Fiii(int uid, int x, int y) {
 
 
 // address: 0x8004106C
+// line start: 2463
+// line end:   2467
 void ItemRndDur__Fi(int ii) {
 }
 
 
 // address: 0x800410FC
+// line start: 2474
+// line end:   2512
 void SetupAllItems__FiiiiiUcUcUc(int ii, int idx, int iseed, int lvl, int uper, int onlygood, int recreate, int pregen) {
 	// register: 16
 	register int iblvl;
@@ -13963,6 +15773,8 @@ void SetupAllItems__FiiiiiUcUcUc(int ii, int idx, int iseed, int lvl, int uper, 
 
 
 // address: 0x80041408
+// line start: 2520
+// line end:   2563
 void SpawnItem__FiiiUc(int m, int x, int y, unsigned char sendmsg) {
 	// register: 19
 	register int ii;
@@ -13974,6 +15786,8 @@ void SpawnItem__FiiiUc(int m, int x, int y, unsigned char sendmsg) {
 
 
 // address: 0x80041650
+// line start: 2571
+// line end:   2585
 void CreateItem__Fiii(int uid, int x, int y) {
 	// register: 17
 	register int ii;
@@ -13983,6 +15797,8 @@ void CreateItem__Fiii(int uid, int x, int y) {
 
 
 // address: 0x80041780
+// line start: 2595
+// line end:   2610
 void CreateRndItem__FiiUcUcUc(int x, int y, unsigned char onlygood, unsigned char sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -13992,6 +15808,8 @@ void CreateRndItem__FiiUcUcUc(int x, int y, unsigned char onlygood, unsigned cha
 
 
 // address: 0x800418C8
+// line start: 2622
+// line end:   2632
 void SetupAllUseful__Fiii(int ii, int iseed, int lvl) {
 	// register: 17
 	register int idx;
@@ -13999,6 +15817,8 @@ void SetupAllUseful__Fiii(int ii, int iseed, int lvl) {
 
 
 // address: 0x800419A0
+// line start: 2636
+// line end:   2646
 void CreateRndUseful__FiiiUc(int pnum, int x, int y, unsigned char sendmsg) {
 	// register: 17
 	register int ii;
@@ -14006,6 +15826,8 @@ void CreateRndUseful__FiiiUc(int pnum, int x, int y, unsigned char sendmsg) {
 
 
 // address: 0x80041A60
+// line start: 2655
+// line end:   2670
 void CreateTypeItem__FiiUciiUcUc(int x, int y, unsigned char onlygood, int itype, int imisc, int sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -14015,11 +15837,15 @@ void CreateTypeItem__FiiUciiUcUc(int x, int y, unsigned char onlygood, int itype
 
 
 // address: 0x80041BA4
+// line start: 2682
+// line end:   2706
 void RecreateEar__FiUsiUciiiiii(int ii, unsigned short ic, int iseed, unsigned char Id, int dur, int mdur, int ch, int mch, int ivalue, int ibuff) {
 }
 
 
 // address: 0x80041D90
+// line start: 2713
+// line end:   2748
 void SpawnQuestItem__Fiiiii(int itemid, int x, int y, int randarea, int selflag) {
 	// register: 17
 	register int i;
@@ -14037,6 +15863,8 @@ void SpawnQuestItem__Fiiiii(int itemid, int x, int y, int randarea, int selflag)
 
 
 // address: 0x80041FBC
+// line start: 2755
+// line end:   2780
 void SpawnRock__Fv() {
 	// register: 3
 	register int i;
@@ -14054,6 +15882,8 @@ void SpawnRock__Fv() {
 
 
 // address: 0x8004217C
+// line start: 2788
+// line end:   2820
 void RespawnItem__FiUc(int i, unsigned char FlipFlag) {
 	// register: 7
 	register int it;
@@ -14061,11 +15891,15 @@ void RespawnItem__FiUc(int i, unsigned char FlipFlag) {
 
 
 // address: 0x80042334
+// line start: 2827
+// line end:   2831
 void DeleteItem__Fii(int ii, int i) {
 }
 
 
 // address: 0x80042388
+// line start: 2841
+// line end:   2856
 void ItemDoppel__Fv() {
 	// register: 5
 	register int idoppelx;
@@ -14076,6 +15910,8 @@ void ItemDoppel__Fv() {
 
 
 // address: 0x80042450
+// line start: 2871
+// line end:   2921
 void ProcessItems__Fv() {
 	// register: 19
 	register int i;
@@ -14107,11 +15943,15 @@ void ProcessItems__Fv() {
 
 
 // address: 0x80042684
+// line start: 2928
+// line end:   2933
 void FreeItemGFX__Fv() {
 }
 
 
 // address: 0x8004268C
+// line start: 2952
+// line end:   2976
 void GetItemStr__Fi(int i) {
 	{
 		{
@@ -14125,6 +15965,8 @@ void GetItemStr__Fi(int i) {
 
 
 // address: 0x8004281C
+// line start: 2982
+// line end:   2992
 void CheckIdentify__Fii(int pnum, int cii) {
 	// register: 3
 	// size: 0x98
@@ -14133,6 +15975,8 @@ void CheckIdentify__Fii(int pnum, int cii) {
 
 
 // address: 0x8004290C
+// line start: 2997
+// line end:   3021
 void RepairItem__FP10ItemStructi(struct ItemStruct *i, int lvl) {
 	// register: 4
 	register int d;
@@ -14142,6 +15986,8 @@ void RepairItem__FP10ItemStructi(struct ItemStruct *i, int lvl) {
 
 
 // address: 0x800429DC
+// line start: 3025
+// line end:   3038
 void DoRepair__Fii(int pnum, int cii) {
 	// register: 18
 	// size: 0x23A8
@@ -14153,11 +15999,15 @@ void DoRepair__Fii(int pnum, int cii) {
 
 
 // address: 0x80042AA0
+// line start: 3043
+// line end:   3056
 void RechargeItem__FP10ItemStructi(struct ItemStruct *i, int r) {
 }
 
 
 // address: 0x80042B10
+// line start: 3060
+// line end:   3078
 void DoRecharge__Fii(int pnum, int cii) {
 	// register: 4
 	// size: 0x23A8
@@ -14175,11 +16025,15 @@ void DoRecharge__Fii(int pnum, int cii) {
 
 
 // address: 0x80042C10
+// line start: 3183
+// line end:   3307
 void PrintItemOil__Fc(char IDidx) {
 }
 
 
 // address: 0x80042D04
+// line start: 3313
+// line end:   3525
 void PrintItemPower__FcPC10ItemStruct(char plidx, struct ItemStruct *x) {
 	// register: 16
 	register int v;
@@ -14187,31 +16041,43 @@ void PrintItemPower__FcPC10ItemStruct(char plidx, struct ItemStruct *x) {
 
 
 // address: 0x800433B8
+// line start: 3569
+// line end:   3597
 void PrintUString__FiiUcPcc(int x, int y, unsigned char cjustflag, char *str, int col) {
 }
 
 
 // address: 0x800433C0
+// line start: 3610
+// line end:   3648
 void PrintItemMisc__FPC10ItemStruct(struct ItemStruct *x) {
 }
 
 
 // address: 0x8004364C
+// line start: 3655
+// line end:   3700
 void PrintItemDetails__FPC10ItemStruct(struct ItemStruct *x) {
 }
 
 
 // address: 0x800439BC
+// line start: 3706
+// line end:   3746
 void PrintItemDur__FPC10ItemStruct(struct ItemStruct *x) {
 }
 
 
 // address: 0x80043CCC
+// line start: 3753
+// line end:   3756
 void CastScroll__Fii(int pnum, int Spell) {
 }
 
 
 // address: 0x80043CDC
+// line start: 3764
+// line end:   3954
 void UseItem__Fiii(int p, int Mid, int spl) {
 	// register: 4
 	register long l;
@@ -14224,6 +16090,8 @@ void UseItem__Fiii(int p, int Mid, int spl) {
 
 
 // address: 0x800442F4
+// line start: 3963
+// line end:   3968
 unsigned char StoreStatOk__FP10ItemStruct(struct ItemStruct *h) {
 	// register: 5
 	register unsigned char sf;
@@ -14231,6 +16099,8 @@ unsigned char StoreStatOk__FP10ItemStruct(struct ItemStruct *h) {
 
 
 // address: 0x80044388
+// line start: 3987
+// line end:   4002
 unsigned char PremiumItemOk__Fi(int i) {
 	// register: 4
 	register unsigned char rv;
@@ -14238,6 +16108,8 @@ unsigned char PremiumItemOk__Fi(int i) {
 
 
 // address: 0x80044404
+// line start: 4008
+// line end:   4027
 int RndPremiumItem__Fii(int minlvl, int maxlvl) {
 	// address: 0xFFFFF7E0
 	// size: 0x800
@@ -14250,6 +16122,8 @@ int RndPremiumItem__Fii(int minlvl, int maxlvl) {
 
 
 // address: 0x8004450C
+// line start: 4035
+// line end:   4060
 void SpawnOnePremium__Fii(int i, int plvl) {
 	// register: 16
 	register int itype;
@@ -14262,6 +16136,8 @@ void SpawnOnePremium__Fii(int i, int plvl) {
 
 
 // address: 0x8004472C
+// line start: 4069
+// line end:   4088
 void SpawnPremium__Fi(int lvl) {
 	// register: 16
 	register int i;
@@ -14269,6 +16145,8 @@ void SpawnPremium__Fi(int lvl) {
 
 
 // address: 0x80044970
+// line start: 4101
+// line end:   4116
 void WitchBookLevel__Fi(int ii) {
 	// register: 6
 	register int slvl;
@@ -14276,11 +16154,15 @@ void WitchBookLevel__Fi(int ii) {
 
 
 // address: 0x80044AC0
+// line start: 4147
+// line end:   4151
 void SpawnStoreGold__Fv() {
 }
 
 
 // address: 0x80044B44
+// line start: 4200
+// line end:   4211
 void RecalcStoreStats__Fv() {
 	// register: 17
 	register int i;
@@ -14288,6 +16170,8 @@ void RecalcStoreStats__Fv() {
 
 
 // address: 0x80044CE4
+// line start: 4223
+// line end:   4231
 int ItemNoFlippy__Fv() {
 	// register: 2
 	register int r;
@@ -14295,6 +16179,8 @@ int ItemNoFlippy__Fv() {
 
 
 // address: 0x80044D48
+// line start: 4250
+// line end:   4272
 void CreateSpellBook__FiiiUcUc(int x, int y, int ispell, unsigned char sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -14306,6 +16192,8 @@ void CreateSpellBook__FiiiUcUc(int x, int y, int ispell, unsigned char sendmsg, 
 
 
 // address: 0x80044ED8
+// line start: 4280
+// line end:   4301
 void CreateMagicArmor__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -14317,6 +16205,8 @@ void CreateMagicArmor__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendmsg
 
 
 // address: 0x80045054
+// line start: 4309
+// line end:   4330
 void CreateMagicWeapon__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -14328,6 +16218,8 @@ void CreateMagicWeapon__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendms
 
 
 // address: 0x800451D0
+// line start: 4469
+// line end:   4510
 void DrawUniqueInfo__Fv() {
 	// register: 3
 	register int u;
@@ -14335,6 +16227,8 @@ void DrawUniqueInfo__Fv() {
 
 
 // address: 0x80045344
+// line start: 4664
+// line end:   4762
 char *MakeItemStr__FP10ItemStructUsUs(struct ItemStruct *ItemPtr, unsigned short ItemNo, unsigned short MaxLen) {
 	// register: 3
 	register int PreIdx;
@@ -14344,6 +16238,8 @@ char *MakeItemStr__FP10ItemStructUsUs(struct ItemStruct *ItemPtr, unsigned short
 
 
 // address: 0x8004549C
+// line start: 319
+// line end:   334
 int veclen2__Fii(int ix, int iy) {
 	// register: 4
 	register int t;
@@ -14351,6 +16247,8 @@ int veclen2__Fii(int ix, int iy) {
 
 
 // address: 0x80045504
+// line start: 380
+// line end:   399
 void set_light_bands__Fv() {
 	// register: 2
 	register int v;
@@ -14362,11 +16260,15 @@ void set_light_bands__Fv() {
 
 
 // address: 0x80045578
+// line start: 404
+// line end:   411
 void SetLightFX__FiisssUcUcUc(int x, int y, short s_r, short s_g, int s_b, int d_r, int d_g, int d_b) {
 }
 
 
 // address: 0x800455E4
+// line start: 415
+// line end:   765
 void DoLighting__Fiiii(int nXPos, int nYPos, int nRadius, int Lnum) {
 	// register: 9
 	register int xoff;
@@ -14418,6 +16320,8 @@ void DoLighting__Fiiii(int nXPos, int nYPos, int nRadius, int Lnum) {
 
 
 // address: 0x80046294
+// line start: 771
+// line end:   819
 void DoUnLight__Fv() {
 	// register: 6
 	register int x;
@@ -14437,6 +16341,8 @@ void DoUnLight__Fv() {
 
 
 // address: 0x800464D8
+// line start: 826
+// line end:   841
 void DoUnVision__Fiii(int nXPos, int nYPos, int nRadius) {
 	// register: 4
 	register int i;
@@ -14454,6 +16360,8 @@ void DoUnVision__Fiii(int nXPos, int nYPos, int nRadius) {
 
 
 // address: 0x8004659C
+// line start: 848
+// line end:   952
 void DoVision__FiiiUcUc(int nXPos, int nYPos, int nRadius, unsigned char doautomap, int visible) {
 	// register: 16
 	register int nCrawlX;
@@ -14481,26 +16389,36 @@ void DoVision__FiiiUcUc(int nXPos, int nYPos, int nRadius, unsigned char doautom
 
 
 // address: 0x80046AAC
+// line start: 957
+// line end:   958
 void FreeLightTable__Fv() {
 }
 
 
 // address: 0x80046AB4
+// line start: 964
+// line end:   965
 void InitLightTable__Fv() {
 }
 
 
 // address: 0x80046ABC
+// line start: 970
+// line end:   971
 void MakeLightTable__Fv() {
 }
 
 
 // address: 0x80046AC4
+// line start: 1062
+// line end:   1065
 void InitLightMax__Fv() {
 }
 
 
 // address: 0x80046AE8
+// line start: 1072
+// line end:   1083
 void InitLighting__Fv() {
 	// register: 2
 	register int i;
@@ -14508,6 +16426,8 @@ void InitLighting__Fv() {
 
 
 // address: 0x80046B2C
+// line start: 1089
+// line end:   1105
 int AddLight__Fiii(int x, int y, int r) {
 	// register: 7
 	register int lid;
@@ -14515,41 +16435,57 @@ int AddLight__Fiii(int x, int y, int r) {
 
 
 // address: 0x80046BC0
+// line start: 1110
+// line end:   1116
 void AddUnLight__Fi(int i) {
 }
 
 
 // address: 0x80046BF0
+// line start: 1121
+// line end:   1131
 void ChangeLightRadius__Fii(int i, int r) {
 }
 
 
 // address: 0x80046C1C
+// line start: 1136
+// line end:   1147
 void ChangeLightXY__Fiii(int i, int x, int y) {
 }
 
 
 // address: 0x80046C54
+// line start: 1150
+// line end:   1156
 void light_fix__Fi(int i) {
 }
 
 
 // address: 0x80046C5C
+// line start: 1166
+// line end:   1178
 void ChangeLightOff__Fiii(int i, int x, int y) {
 }
 
 
 // address: 0x80046C94
+// line start: 1183
+// line end:   1195
 void ChangeLight__Fiiii(int i, int x, int y, int r) {
 }
 
 
 // address: 0x80046CD8
+// line start: 1198
+// line end:   1199
 void ChangeLightColour__Fii(int i, int c) {
 }
 
 
 // address: 0x80046D08
+// line start: 1205
+// line end:   1266
 void ProcessLightList__Fv() {
 	// register: 7
 	register int i;
@@ -14561,11 +16497,15 @@ void ProcessLightList__Fv() {
 
 
 // address: 0x80046E34
+// line start: 1271
+// line end:   1298
 void SavePreLighting__Fv() {
 }
 
 
 // address: 0x80046E3C
+// line start: 1303
+// line end:   1310
 void InitVision__Fv() {
 	// register: 4
 	register int i;
@@ -14573,6 +16513,8 @@ void InitVision__Fv() {
 
 
 // address: 0x80046E8C
+// line start: 1317
+// line end:   1333
 int AddVision__FiiiUc(int x, int y, int r, unsigned char mine) {
 	// register: 8
 	register int vid;
@@ -14580,6 +16522,8 @@ int AddVision__FiiiUc(int x, int y, int r, unsigned char mine) {
 
 
 // address: 0x80046F90
+// line start: 1356
+// line end:   1369
 void ChangeVisionRadius__Fii(int id, int r) {
 	// register: 8
 	register int i;
@@ -14587,6 +16531,8 @@ void ChangeVisionRadius__Fii(int id, int r) {
 
 
 // address: 0x80047044
+// line start: 1374
+// line end:   1388
 void ChangeVisionXY__Fiii(int id, int x, int y) {
 	// register: 10
 	register int i;
@@ -14594,6 +16540,8 @@ void ChangeVisionXY__Fiii(int id, int x, int y) {
 
 
 // address: 0x800470FC
+// line start: 1417
+// line end:   1446
 void ProcessVisionList__Fv() {
 	// register: 17
 	register int i;
@@ -14603,16 +16551,22 @@ void ProcessVisionList__Fv() {
 
 
 // address: 0x8004735C
+// line start: 110
+// line end:   113
 void FreeQuestText__Fv() {
 }
 
 
 // address: 0x80047364
+// line start: 117
+// line end:   121
 void InitQuestText__Fv() {
 }
 
 
 // address: 0x80047370
+// line start: 129
+// line end:   167
 void CalcTextSpeed__FPCc(char *Name) {
 	// register: 16
 	register char *ptr;
@@ -14631,6 +16585,8 @@ void CalcTextSpeed__FPCc(char *Name) {
 
 
 // address: 0x800474C4
+// line start: 176
+// line end:   217
 void InitQTextMsg__Fi(int m) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -14639,16 +16595,22 @@ void InitQTextMsg__Fi(int m) {
 
 
 // address: 0x800475EC
+// line start: 222
+// line end:   228
 void DrawQTextBack__Fv() {
 }
 
 
 // address: 0x8004765C
+// line start: 238
+// line end:   277
 void DrawQTextTSK__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80047740
+// line start: 282
+// line end:   394
 void DrawQText__Fv() {
 	// register: 18
 	register char *p;
@@ -14678,63 +16640,87 @@ void DrawQText__Fv() {
 
 
 // address: 0x80047A90
+// line start: 397
+// line end:   397
 void _GLOBAL__D_QBack() {
 }
 
 
 // address: 0x80047AB8
+// line start: 397
+// line end:   397
 void _GLOBAL__I_QBack() {
 }
 
 
 // address: 0x80047AE0
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_80047AE0(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x80047B00
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_80047B00(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80047B08
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_80047B08(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x80047B30
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_80047B30(struct Dialog *this) {
 }
 
 
 // address: 0x80047B8C
+// line start: 71
+// line end:   78
 int GetCharWidth__5CFontc_addr_80047B8C(struct CFont *this, char ch) {
 }
 
 
 // address: 0x80047BE4
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_80047BE4(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80047C00
+// line start: 33
+// line end:   35
 void nullmissile__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x80047C08
+// line start: 806
+// line end:   808
 void FuncNULL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80047C10
+// line start: 187
+// line end:   201
 void delta_init__Fv() {
 }
 
 
 // address: 0x80047C70
+// line start: 208
+// line end:   229
 void delta_kill_monster__FiUcUcUc(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
 	// register: 5
 	// size: 0x6
@@ -14746,6 +16732,8 @@ void delta_kill_monster__FiUcUcUc(int mi, unsigned char x, unsigned char y, unsi
 
 
 // address: 0x80047D0C
+// line start: 236
+// line end:   252
 void delta_monster_hp__FilUc(int mi, long hp, unsigned char bLevel) {
 	// register: 3
 	// size: 0x6
@@ -14757,6 +16745,8 @@ void delta_monster_hp__FilUc(int mi, long hp, unsigned char bLevel) {
 
 
 // address: 0x80047D90
+// line start: 261
+// line end:   283
 void delta_sync_golem__FPC9TCmdGolemiUc(struct TCmdGolem *pG, int pnum, unsigned char bLevel) {
 	// register: 2
 	// size: 0xF1C
@@ -14768,6 +16758,8 @@ void delta_sync_golem__FPC9TCmdGolemiUc(struct TCmdGolem *pG, int pnum, unsigned
 
 
 // address: 0x80047E20
+// line start: 289
+// line end:   330
 void delta_leave_sync__FUc(unsigned char bLevel) {
 	// register: 20
 	// size: 0xF1C
@@ -14787,6 +16779,8 @@ void delta_leave_sync__FUc(unsigned char bLevel) {
 
 
 // address: 0x8004814C
+// line start: 336
+// line end:   352
 void delta_sync_object__FiUcUc(int oi, unsigned char bCmd, unsigned char bLevel) {
 	// register: 2
 	// size: 0xF1C
@@ -14798,6 +16792,8 @@ void delta_sync_object__FiUcUc(int oi, unsigned char bCmd, unsigned char bLevel)
 
 
 // address: 0x800481AC
+// line start: 359
+// line end:   478
 unsigned char delta_get_item__FPC9TCmdGItemUc(struct TCmdGItem *pI, unsigned char bLevel) {
 	// register: 4
 	// size: 0xF1C
@@ -14811,6 +16807,8 @@ unsigned char delta_get_item__FPC9TCmdGItemUc(struct TCmdGItem *pI, unsigned cha
 
 
 // address: 0x80048370
+// line start: 485
+// line end:   546
 void delta_put_item__FPC9TCmdPItemiiUc(struct TCmdPItem *pI, int x, int y, unsigned char bLevel) {
 	// register: 9
 	// size: 0xF1C
@@ -14824,16 +16822,22 @@ void delta_put_item__FPC9TCmdPItemiiUc(struct TCmdPItem *pI, int x, int y, unsig
 
 
 // address: 0x800484F8
+// line start: 552
+// line end:   555
 unsigned char delta_portal_inited__Fi(int i) {
 }
 
 
 // address: 0x8004851C
+// line start: 561
+// line end:   564
 unsigned char delta_quest_inited__Fi(int i) {
 }
 
 
 // address: 0x80048540
+// line start: 571
+// line end:   634
 void DeltaAddItem__Fi(int ii) {
 	// register: 7
 	// size: 0x14
@@ -14850,16 +16854,22 @@ void DeltaAddItem__Fi(int ii) {
 
 
 // address: 0x80048754
+// line start: 639
+// line end:   647
 int DeltaExportData__FPc(char *Dst) {
 }
 
 
 // address: 0x80048784
+// line start: 658
+// line end:   666
 int DeltaImportData__FPc(char *Src) {
 }
 
 
 // address: 0x800487B8
+// line start: 678
+// line end:   693
 void DeltaSaveLevel__Fv() {
 	{
 		// register: 3
@@ -14869,6 +16879,8 @@ void DeltaSaveLevel__Fv() {
 
 
 // address: 0x800488B4
+// line start: 768
+// line end:   772
 void NetSendCmd__FUcUc(unsigned char bHiPri, unsigned char bCmd) {
 	// address: 0xFFFFFFF0
 	// size: 0x1
@@ -14877,6 +16889,8 @@ void NetSendCmd__FUcUc(unsigned char bHiPri, unsigned char bCmd) {
 
 
 // address: 0x800488DC
+// line start: 778
+// line end:   792
 void NetSendCmdGolem__FUcUcUcUclUc(unsigned char mx, unsigned char my, unsigned char dir, unsigned char menemy, long hp, int cl) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -14885,6 +16899,8 @@ void NetSendCmdGolem__FUcUcUcUclUc(unsigned char mx, unsigned char my, unsigned 
 
 
 // address: 0x80048928
+// line start: 798
+// line end:   808
 void NetSendCmdLoc__FUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
 	// address: 0xFFFFFFF0
 	// size: 0x3
@@ -14893,6 +16909,8 @@ void NetSendCmdLoc__FUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned
 
 
 // address: 0x80048958
+// line start: 814
+// line end:   823
 void NetSendCmdLocParam1__FUcUcUcUcUs(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y, int wParam1) {
 	// address: 0xFFFFFFF0
 	// size: 0x6
@@ -14901,6 +16919,8 @@ void NetSendCmdLocParam1__FUcUcUcUcUs(unsigned char bHiPri, unsigned char bCmd, 
 
 
 // address: 0x80048990
+// line start: 829
+// line end:   839
 void NetSendCmdLocParam2__FUcUcUcUcUsUs(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y, int wParam1, int wParam2) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -14909,6 +16929,8 @@ void NetSendCmdLocParam2__FUcUcUcUcUsUs(unsigned char bHiPri, unsigned char bCmd
 
 
 // address: 0x800489D0
+// line start: 845
+// line end:   856
 void NetSendCmdLocParam3__FUcUcUcUcUsUsUs(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y, int wParam1, int wParam2, int wParam3) {
 	// address: 0xFFFFFFE8
 	// size: 0xA
@@ -14917,6 +16939,8 @@ void NetSendCmdLocParam3__FUcUcUcUcUsUsUs(unsigned char bHiPri, unsigned char bC
 
 
 // address: 0x80048A18
+// line start: 862
+// line end:   867
 void NetSendCmdParam1__FUcUcUs(unsigned char bHiPri, unsigned char bCmd, unsigned short wParam1) {
 	// address: 0xFFFFFFF0
 	// size: 0x4
@@ -14925,6 +16949,8 @@ void NetSendCmdParam1__FUcUcUs(unsigned char bHiPri, unsigned char bCmd, unsigne
 
 
 // address: 0x80048A44
+// line start: 873
+// line end:   879
 void NetSendCmdParam2__FUcUcUsUs(unsigned char bHiPri, unsigned char bCmd, unsigned short wParam1, unsigned short wParam2) {
 	// address: 0xFFFFFFF0
 	// size: 0x6
@@ -14933,6 +16959,8 @@ void NetSendCmdParam2__FUcUcUsUs(unsigned char bHiPri, unsigned char bCmd, unsig
 
 
 // address: 0x80048A74
+// line start: 884
+// line end:   891
 void NetSendCmdParam3__FUcUcUsUsUs(unsigned char bHiPri, unsigned char bCmd, unsigned short wParam1, unsigned short wParam2, int wParam3) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -14941,6 +16969,8 @@ void NetSendCmdParam3__FUcUcUsUsUs(unsigned char bHiPri, unsigned char bCmd, uns
 
 
 // address: 0x80048AAC
+// line start: 896
+// line end:   904
 void NetSendCmdQuest__FUcUc(unsigned char bHiPri, unsigned char q) {
 	// address: 0xFFFFFFF0
 	// size: 0x5
@@ -14949,6 +16979,8 @@ void NetSendCmdQuest__FUcUc(unsigned char bHiPri, unsigned char q) {
 
 
 // address: 0x80048B20
+// line start: 909
+// line end:   955
 void NetSendCmdGItem__FUcUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
 	// address: 0xFFFFFFD8
 	// size: 0x1C
@@ -14957,6 +16989,8 @@ void NetSendCmdGItem__FUcUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsi
 
 
 // address: 0x80048C54
+// line start: 961
+// line end:   976
 void NetSendCmdGItem2__FUcUcUcUcPC9TCmdGItem(unsigned char usonly, unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem *p) {
 	// address: 0xFFFFFFD8
 	// size: 0x1C
@@ -14965,6 +16999,8 @@ void NetSendCmdGItem2__FUcUcUcUcPC9TCmdGItem(unsigned char usonly, unsigned char
 
 
 // address: 0x80048CD0
+// line start: 992
+// line end:   1011
 unsigned char NetSendCmdReq2__FUcUcUcPC9TCmdGItem(unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem *p) {
 	// address: 0xFFFFFFE0
 	// size: 0x1C
@@ -14973,6 +17009,8 @@ unsigned char NetSendCmdReq2__FUcUcUcPC9TCmdGItem(unsigned char bCmd, unsigned c
 
 
 // address: 0x80048D28
+// line start: 1018
+// line end:   1025
 void NetSendCmdExtra__FPC9TCmdGItem(struct TCmdGItem *p) {
 	// address: 0xFFFFFFD8
 	// size: 0x1C
@@ -14981,6 +17019,8 @@ void NetSendCmdExtra__FPC9TCmdGItem(struct TCmdGItem *p) {
 
 
 // address: 0x80048D90
+// line start: 1030
+// line end:   1073
 void NetSendCmdPItem__FUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
@@ -14989,6 +17029,8 @@ void NetSendCmdPItem__FUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsign
 
 
 // address: 0x80048E98
+// line start: 1079
+// line end:   1090
 void NetSendCmdChItem__FUcUc(unsigned char bHiPri, unsigned char bLoc) {
 	// address: 0xFFFFFFE8
 	// size: 0x10
@@ -14997,6 +17039,8 @@ void NetSendCmdChItem__FUcUc(unsigned char bHiPri, unsigned char bLoc) {
 
 
 // address: 0x80048F3C
+// line start: 1096
+// line end:   1101
 void NetSendCmdDelItem__FUcUc(unsigned char bHiPri, unsigned char bLoc) {
 	// address: 0xFFFFFFF0
 	// size: 0x2
@@ -15005,6 +17049,8 @@ void NetSendCmdDelItem__FUcUc(unsigned char bHiPri, unsigned char bLoc) {
 
 
 // address: 0x80048F6C
+// line start: 1107
+// line end:   1149
 void NetSendCmdDItem__FUci(unsigned char bHiPri, int ii) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
@@ -15013,11 +17059,15 @@ void NetSendCmdDItem__FUci(unsigned char bHiPri, int ii) {
 
 
 // address: 0x80049080
+// line start: 1154
+// line end:   1170
 unsigned char i_own_level__Fi(int nReqLevel) {
 }
 
 
 // address: 0x80049088
+// line start: 1176
+// line end:   1184
 void NetSendCmdDamage__FUcUcUl(unsigned char bHiPri, unsigned char bPlr, unsigned long dwDam) {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -15026,56 +17076,78 @@ void NetSendCmdDamage__FUcUcUl(unsigned char bHiPri, unsigned char bPlr, unsigne
 
 
 // address: 0x800490BC
+// line start: 1199
+// line end:   1210
 void delta_open_portal__FiUcUcUcUcUc(int pnum, unsigned char x, unsigned char y, unsigned char bLevel, int bLType, int bSetLvl) {
 }
 
 
 // address: 0x80049118
+// line start: 1216
+// line end:   1219
 void delta_close_portal__Fi(int pnum) {
 }
 
 
 // address: 0x80049158
+// line start: 1225
+// line end:   1234
 void check_update_plr__Fi(int pnum) {
 }
 
 
 // address: 0x80049160
+// line start: 1245
+// line end:   1252
 void On_WALKXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x800491E0
+// line start: 1261
+// line end:   1275
 void On_ADDSTR__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049210
+// line start: 1280
+// line end:   1289
 void On_ADDMAG__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049240
+// line start: 1293
+// line end:   1306
 void On_ADDDEX__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049270
+// line start: 1312
+// line end:   1325
 void On_ADDVIT__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x800492A0
+// line start: 1331
+// line end:   1337
 void On_SBSPELL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049314
+// line start: 1346
+// line end:   1352
 void On_GOTOGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004939C
+// line start: 1359
+// line end:   1392
 void On_REQUESTGITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15087,6 +17159,8 @@ void On_REQUESTGITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x800494DC
+// line start: 1402
+// line end:   1439
 void On_GETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 17
 	// size: 0x1C
@@ -15119,11 +17193,15 @@ void On_GETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x800496AC
+// line start: 1448
+// line end:   1454
 void On_GOTOAGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049734
+// line start: 1461
+// line end:   1495
 void On_REQUESTAGITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15133,6 +17211,8 @@ void On_REQUESTAGITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x80049868
+// line start: 1504
+// line end:   1547
 void On_AGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 17
 	// size: 0x1C
@@ -15163,11 +17243,15 @@ void On_AGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x80049A30
+// line start: 1555
+// line end:   1568
 void On_ITEMEXTRA__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049A7C
+// line start: 1575
+// line end:   1606
 void On_PUTITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 3
 	register int ii;
@@ -15175,6 +17259,8 @@ void On_PUTITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x80049B94
+// line start: 1615
+// line end:   1630
 void On_SYNCPUTITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 3
 	register int ii;
@@ -15182,31 +17268,43 @@ void On_SYNCPUTITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x80049C94
+// line start: 1650
+// line end:   1660
 void On_RESPAWNITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049CEC
+// line start: 1667
+// line end:   1675
 void On_SATTACKXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049D78
+// line start: 1682
+// line end:   1698
 void On_SPELLXYD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049E60
+// line start: 1706
+// line end:   1721
 void On_SPELLXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049F38
+// line start: 1728
+// line end:   1743
 void On_TSPELLXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A014
+// line start: 1750
+// line end:   1761
 void On_OPOBJXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 17
 	// size: 0x6
@@ -15215,6 +17313,8 @@ void On_OPOBJXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004A0F4
+// line start: 1768
+// line end:   1779
 void On_DISARMXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 17
 	// size: 0x6
@@ -15223,11 +17323,15 @@ void On_DISARMXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004A1D4
+// line start: 1787
+// line end:   1793
 void On_OPOBJT__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A220
+// line start: 1800
+// line end:   1812
 void On_ATTACKID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 19
 	// size: 0x4
@@ -15240,56 +17344,78 @@ void On_ATTACKID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004A354
+// line start: 1819
+// line end:   1833
 void On_SPELLID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A41C
+// line start: 1840
+// line end:   1851
 void On_SPELLPID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A4DC
+// line start: 1859
+// line end:   1869
 void On_TSPELLID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A5A0
+// line start: 1876
+// line end:   1887
 void On_TSPELLPID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A664
+// line start: 1894
+// line end:   1900
 void On_KNOCKBACK__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A6AC
+// line start: 1907
+// line end:   1911
 void On_RESURRECT__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A6E4
+// line start: 1917
+// line end:   1921
 void On_HEALOTHER__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A70C
+// line start: 1928
+// line end:   1935
 void On_TALKXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A794
+// line start: 1943
+// line end:   1947
 void On_NEWLVL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A7C4
+// line start: 1954
+// line end:   1963
 void On_WARP__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A8A8
+// line start: 1971
+// line end:   1977
 void On_MONSTDEATH__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15299,6 +17425,8 @@ void On_MONSTDEATH__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004A914
+// line start: 1984
+// line end:   1990
 void On_KILLGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15308,6 +17436,8 @@ void On_KILLGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004A980
+// line start: 1997
+// line end:   2017
 void On_AWAKEGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15329,6 +17459,8 @@ void On_AWAKEGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004AA98
+// line start: 2026
+// line end:   2042
 void On_MONSTDAMAGE__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15338,6 +17470,8 @@ void On_MONSTDAMAGE__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004AB84
+// line start: 2056
+// line end:   2063
 void On_PLRDEAD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15347,56 +17481,78 @@ void On_PLRDEAD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004ABCC
+// line start: 2070
+// line end:   2117
 void On_PLRDAMAGE__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004AD88
+// line start: 2126
+// line end:   2132
 void On_OPENDOOR__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004AE04
+// line start: 2139
+// line end:   2145
 void On_CLOSEDOOR__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004AE80
+// line start: 2152
+// line end:   2158
 void On_OPERATEOBJ__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004AEFC
+// line start: 2165
+// line end:   2171
 void On_PLROPOBJ__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004AF78
+// line start: 2177
+// line end:   2182
 void On_BREAKOBJ__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004AFF0
+// line start: 2188
+// line end:   2195
 void On_CHANGEPLRITEMS__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004AFF8
+// line start: 2201
+// line end:   2204
 void On_DELPLRITEMS__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B000
+// line start: 2209
+// line end:   2215
 void On_PLRLEVEL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B008
+// line start: 2220
+// line end:   2225
 void On_DROPITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B060
+// line start: 2231
+// line end:   2279
 void On_PLAYER_JOINLEVEL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15406,6 +17562,8 @@ void On_PLAYER_JOINLEVEL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004B2D8
+// line start: 2287
+// line end:   2319
 void On_ACTIVATEPORTAL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 17
 	// size: 0xA
@@ -15432,36 +17590,50 @@ void On_ACTIVATEPORTAL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004B468
+// line start: 2325
+// line end:   2330
 void On_DEACTIVATEPORTAL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B4B8
+// line start: 2336
+// line end:   2343
 void On_RETOWN__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B500
+// line start: 2349
+// line end:   2357
 void On_SETSTR__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B540
+// line start: 2362
+// line end:   2370
 void On_SETDEX__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B580
+// line start: 2376
+// line end:   2384
 void On_SETMAG__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B5C0
+// line start: 2390
+// line end:   2399
 void On_SETVIT__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B600
+// line start: 2404
+// line end:   2411
 void On_SYNCQUEST__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15471,6 +17643,8 @@ void On_SYNCQUEST__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004B648
+// line start: 2418
+// line end:   2430
 void On_ENDSHIELD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
@@ -15488,6 +17662,8 @@ void On_ENDSHIELD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 
 
 // address: 0x8004B724
+// line start: 2470
+// line end:   2572
 unsigned long ParseCmd__FiPC4TCmd(int pnum, struct TCmd *pCmd) {
 	// address: 0x8012C7AC
 	static unsigned char sbLastCmd;
@@ -15496,26 +17672,36 @@ unsigned long ParseCmd__FiPC4TCmd(int pnum, struct TCmd *pCmd) {
 
 // address: 0x8004BB44
 // size: 0xF1C
+// line start: 2583
+// line end:   2593
 struct DLevel *GetDLevel__Fib(int LevNum, bool SetLevel) {
 }
 
 
 // address: 0x8004BBD4
+// line start: 2600
+// line end:   2604
 void ReleaseDLevel__FP6DLevel(struct DLevel *Dl) {
 }
 
 
 // address: 0x8004BC0C
+// line start: 165
+// line end:   169
 void NetSendLoPri__FPCUcUc(unsigned char *pbMsg, unsigned char bLen) {
 }
 
 
 // address: 0x8004BC38
+// line start: 554
+// line end:   559
 int InitLevelType__Fi(int l) {
 }
 
 
 // address: 0x8004BC84
+// line start: 565
+// line end:   603
 void SetupLocalCoords__Fv() {
 	// register: 4
 	register int x;
@@ -15525,6 +17711,8 @@ void SetupLocalCoords__Fv() {
 
 
 // address: 0x8004BE14
+// line start: 682
+// line end:   688
 void InitNewSeed__Fl(long newseed) {
 	{
 		// register: 16
@@ -15534,6 +17722,8 @@ void InitNewSeed__Fl(long newseed) {
 
 
 // address: 0x8004BE88
+// line start: 703
+// line end:   812
 unsigned char NetInit__FUcPUc(unsigned char bSinglePlayer, unsigned char *pfExitProgram) {
 	// address: 0xFFFFFF50
 	// size: 0x80
@@ -15553,36 +17743,50 @@ unsigned char NetInit__FUcPUc(unsigned char bSinglePlayer, unsigned char *pfExit
 
 
 // address: 0x8004C0B0
+// line start: 256
+// line end:   270
 void PostAddL1Door__Fiiii(int i, int x, int y, int ot) {
 }
 
 
 // address: 0x8004C1E8
+// line start: 277
+// line end:   295
 void PostAddL2Door__Fiiii(int i, int x, int y, int ot) {
 }
 
 
 // address: 0x8004C334
+// line start: 302
+// line end:   310
 void PostAddArmorStand__Fi(int i) {
 }
 
 
 // address: 0x8004C3BC
+// line start: 317
+// line end:   319
 unsigned char PostTorchLocOK__Fii(int xp, int yp) {
 }
 
 
 // address: 0x8004C3FC
+// line start: 346
+// line end:   357
 void PostAddObjLight__Fii(int i, int r) {
 }
 
 
 // address: 0x8004C4A0
+// line start: 365
+// line end:   388
 void PostObjObjAddSwitch__Fiiii(int ot, int ox, int oy, int oi) {
 }
 
 
 // address: 0x8004C554
+// line start: 510
+// line end:   551
 void InitObjectGFX__Fv() {
 	// address: 0xFFFFFF88
 	// size: 0x38
@@ -15606,11 +17810,15 @@ void InitObjectGFX__Fv() {
 
 
 // address: 0x8004C770
+// line start: 556
+// line end:   560
 void FreeObjectGFX__Fv() {
 }
 
 
 // address: 0x8004C77C
+// line start: 564
+// line end:   575
 void DeleteObject__Fii(int oi, int i) {
 	// register: 5
 	register int ox;
@@ -15620,6 +17828,8 @@ void DeleteObject__Fii(int oi, int i) {
 
 
 // address: 0x8004C834
+// line start: 583
+// line end:   617
 void SetupObject__Fiiii(int i, int x, int y, int ot) {
 	// register: 4
 	register int ai;
@@ -15629,16 +17839,22 @@ void SetupObject__Fiiii(int i, int x, int y, int ot) {
 
 
 // address: 0x8004CAB8
+// line start: 624
+// line end:   630
 void SetObjMapRange__Fiiiiii(int i, int x1, int y1, int x2, int y2, int v) {
 }
 
 
 // address: 0x8004CB18
+// line start: 637
+// line end:   639
 void SetBookMsg__Fii(int i, int msg) {
 }
 
 
 // address: 0x8004CB40
+// line start: 663
+// line end:   700
 void AddObject__Fiii(int ot, int ox, int oy) {
 	// register: 16
 	register int oi;
@@ -15646,6 +17862,8 @@ void AddObject__Fiii(int ot, int ox, int oy) {
 
 
 // address: 0x8004CC4C
+// line start: 708
+// line end:   745
 void PostAddObject__Fiii(int ot, int ox, int oy) {
 	// register: 16
 	register int oi;
@@ -15653,6 +17871,8 @@ void PostAddObject__Fiii(int ot, int ox, int oy) {
 
 
 // address: 0x8004CD58
+// line start: 753
+// line end:   781
 void Obj_Light__Fii(int i, int lr) {
 	// register: 23
 	register int ox;
@@ -15672,6 +17892,8 @@ void Obj_Light__Fii(int i, int lr) {
 
 
 // address: 0x8004CF68
+// line start: 787
+// line end:   830
 void Obj_Circle__Fi(int i) {
 	// register: 3
 	register int px;
@@ -15693,11 +17915,15 @@ void Obj_Circle__Fi(int i) {
 
 
 // address: 0x8004D28C
+// line start: 837
+// line end:   842
 void Obj_StopAnim__Fi(int i) {
 }
 
 
 // address: 0x8004D2F0
+// line start: 873
+// line end:   935
 void DrawExpl__Fiiiiiccc(int sx, int sy, int f, int ot, int scale, int rtint, int gtint, int btint) {
 	// register: 4
 	// size: 0x28
@@ -15719,6 +17945,8 @@ void DrawExpl__Fiiiiiccc(int sx, int sy, int f, int ot, int scale, int rtint, in
 
 
 // address: 0x8004D5CC
+// line start: 940
+// line end:   948
 void DrawObjExpl__FP12ObjectStructiii(struct ObjectStruct *obj, int ScrX, int ScrY, int ot) {
 	// register: 6
 	register int f;
@@ -15726,6 +17954,8 @@ void DrawObjExpl__FP12ObjectStructiii(struct ObjectStruct *obj, int ScrX, int Sc
 
 
 // address: 0x8004D63C
+// line start: 957
+// line end:   982
 void Obj_Door__Fi(int i) {
 	// register: 5
 	register int dx;
@@ -15737,11 +17967,15 @@ void Obj_Door__Fi(int i) {
 
 
 // address: 0x8004D7D0
+// line start: 990
+// line end:   992
 void Obj_Sarc__Fi(int i) {
 }
 
 
 // address: 0x8004D81C
+// line start: 999
+// line end:   1010
 void ActivateTrapLine__Fii(int ttype, int tid) {
 	// register: 17
 	register int i;
@@ -15751,6 +17985,8 @@ void ActivateTrapLine__Fii(int ttype, int tid) {
 
 
 // address: 0x8004D92C
+// line start: 1017
+// line end:   1058
 void Obj_FlameTrap__Fi(int i) {
 	// register: 5
 	register int xp;
@@ -15762,6 +17998,8 @@ void Obj_FlameTrap__Fi(int i) {
 
 
 // address: 0x8004DBFC
+// line start: 1067
+// line end:   1118
 void Obj_Trap__Fi(int i) {
 	// register: 16
 	register int oti;
@@ -15787,6 +18025,8 @@ void Obj_Trap__Fi(int i) {
 
 
 // address: 0x8004DF4C
+// line start: 1127
+// line end:   1153
 void Obj_BCrossDamage__Fi(int i) {
 	// register: 2
 	register int resist;
@@ -15797,6 +18037,8 @@ void Obj_BCrossDamage__Fi(int i) {
 
 
 // address: 0x8004E1DC
+// line start: 1162
+// line end:   1244
 void ProcessObjects__Fv() {
 	// register: 17
 	register int i;
@@ -15806,11 +18048,15 @@ void ProcessObjects__Fv() {
 
 
 // address: 0x8004E47C
+// line start: 1252
+// line end:   1253
 void ObjSetMicro__Fiii(int dx, int dy, int pn) {
 }
 
 
 // address: 0x8004E4B4
+// line start: 1266
+// line end:   1305
 void ObjSetMini__Fiii(int x, int y, int v) {
 	// register: 16
 	register long v2;
@@ -15826,16 +18072,22 @@ void ObjSetMini__Fiii(int x, int y, int v) {
 
 
 // address: 0x8004E588
+// line start: 1312
+// line end:   1336
 void ObjL1Special__Fiiii(int x1, int y1, int x2, int y2) {
 }
 
 
 // address: 0x8004E590
+// line start: 1342
+// line end:   1371
 void ObjL2Special__Fiiii(int x1, int y1, int x2, int y2) {
 }
 
 
 // address: 0x8004E598
+// line start: 1377
+// line end:   1398
 void DoorSet__Fiii(int oi, int dx, int dy) {
 	// register: 18
 	register int pn;
@@ -15843,6 +18095,8 @@ void DoorSet__Fiii(int oi, int dx, int dy) {
 
 
 // address: 0x8004E818
+// line start: 1405
+// line end:   1412
 void RedoPlayerVision__Fv() {
 	// register: 17
 	register int p;
@@ -15850,6 +18104,8 @@ void RedoPlayerVision__Fv() {
 
 
 // address: 0x8004E8BC
+// line start: 1419
+// line end:   1466
 void OperateL1RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 18
 	register int dx;
@@ -15861,6 +18117,8 @@ void OperateL1RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 
 
 // address: 0x8004EC60
+// line start: 1472
+// line end:   1520
 void OperateL1LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 17
 	register int dx;
@@ -15872,6 +18130,8 @@ void OperateL1LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 
 
 // address: 0x8004F038
+// line start: 1526
+// line end:   1567
 void OperateL2RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 18
 	register int dx;
@@ -15883,6 +18143,8 @@ void OperateL2RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 
 
 // address: 0x8004F3D0
+// line start: 1573
+// line end:   1614
 void OperateL2LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 18
 	register int dx;
@@ -15894,6 +18156,8 @@ void OperateL2LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 
 
 // address: 0x8004F768
+// line start: 1620
+// line end:   1659
 void OperateL3RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 16
 	register int dx;
@@ -15905,6 +18169,8 @@ void OperateL3RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 
 
 // address: 0x8004FA70
+// line start: 1663
+// line end:   1720
 void OperateL3LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 16
 	register int dx;
@@ -15916,6 +18182,8 @@ void OperateL3LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 
 
 // address: 0x8004FD78
+// line start: 1726
+// line end:   1770
 void MonstCheckDoors__Fi(int m) {
 	// register: 20
 	register int i;
@@ -15933,6 +18201,8 @@ void MonstCheckDoors__Fi(int m) {
 
 
 // address: 0x80050274
+// line start: 1776
+// line end:   1788
 void PostAddL1Objs__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 17
 	register int i;
@@ -15944,6 +18214,8 @@ void PostAddL1Objs__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x800503AC
+// line start: 1795
+// line end:   1805
 void PostAddL2Objs__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 17
 	register int i;
@@ -15955,6 +18227,8 @@ void PostAddL2Objs__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x800504C0
+// line start: 1812
+// line end:   1827
 void ObjChangeMap__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 20
 	register int i;
@@ -15964,6 +18238,8 @@ void ObjChangeMap__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x80050678
+// line start: 1836
+// line end:   1846
 void DRLG_MRectTrans__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 3
 	register int i;
@@ -15973,6 +18249,8 @@ void DRLG_MRectTrans__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x80050724
+// line start: 1854
+// line end:   1870
 void ObjChangeMapResync__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 20
 	register int i;
@@ -15982,6 +18260,8 @@ void ObjChangeMapResync__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x800508A8
+// line start: 1877
+// line end:   1884
 void OperateL1Door__FiiUc(int pnum, int i, unsigned char sendflag) {
 	// register: 16
 	register int dpx;
@@ -15991,6 +18271,8 @@ void OperateL1Door__FiiUc(int pnum, int i, unsigned char sendflag) {
 
 
 // address: 0x80050A04
+// line start: 1891
+// line end:   1916
 void OperateLever__Fii(int pnum, int i) {
 	// register: 6
 	register unsigned char mapflag;
@@ -16004,6 +18286,8 @@ void OperateLever__Fii(int pnum, int i) {
 
 
 // address: 0x80050BF0
+// line start: 1922
+// line end:   1980
 void OperateBook__Fii(int pnum, int i) {
 	// register: 21
 	register int v1;
@@ -16033,6 +18317,8 @@ void OperateBook__Fii(int pnum, int i) {
 
 
 // address: 0x800510E4
+// line start: 1986
+// line end:   2031
 void OperateBookLever__Fii(int pnum, int i) {
 	// register: 19
 	register int x;
@@ -16044,6 +18330,8 @@ void OperateBookLever__Fii(int pnum, int i) {
 
 
 // address: 0x8005148C
+// line start: 2037
+// line end:   2068
 void OperateSChambBk__Fii(int pnum, int i) {
 	// register: 18
 	register int textdef;
@@ -16053,6 +18341,8 @@ void OperateSChambBk__Fii(int pnum, int i) {
 
 
 // address: 0x800516B4
+// line start: 2074
+// line end:   2115
 void OperateChest__FiiUc(int pnum, int i, unsigned char sendmsg) {
 	// register: 17
 	register int j;
@@ -16064,6 +18354,8 @@ void OperateChest__FiiUc(int pnum, int i, unsigned char sendmsg) {
 
 
 // address: 0x80051A84
+// line start: 2121
+// line end:   2147
 void OperateMushPatch__Fii(int pnum, int i) {
 	// address: 0xFFFFFFF0
 	auto int x;
@@ -16073,6 +18365,8 @@ void OperateMushPatch__Fii(int pnum, int i) {
 
 
 // address: 0x80051C48
+// line start: 2153
+// line end:   2176
 void OperateInnSignChest__Fii(int pnum, int i) {
 	// address: 0xFFFFFFF0
 	auto int x;
@@ -16082,11 +18376,15 @@ void OperateInnSignChest__Fii(int pnum, int i) {
 
 
 // address: 0x80051DE0
+// line start: 2182
+// line end:   2208
 void OperateSlainHero__FiiUc(int pnum, int i, unsigned char sendmsg) {
 }
 
 
 // address: 0x80052034
+// line start: 2214
+// line end:   2237
 void OperateTrapLvr__Fi(int i) {
 	// register: 5
 	register int j;
@@ -16096,11 +18394,15 @@ void OperateTrapLvr__Fi(int i) {
 
 
 // address: 0x80052204
+// line start: 2245
+// line end:   2261
 void OperateSarc__FiiUc(int pnum, int i, unsigned char sendmsg) {
 }
 
 
 // address: 0x800523BC
+// line start: 2267
+// line end:   2274
 void OperateL2Door__FiiUc(int pnum, int i, unsigned char sendflag) {
 	// register: 16
 	register int dpx;
@@ -16110,6 +18412,8 @@ void OperateL2Door__FiiUc(int pnum, int i, unsigned char sendflag) {
 
 
 // address: 0x80052518
+// line start: 2281
+// line end:   2288
 void OperateL3Door__FiiUc(int pnum, int i, unsigned char sendflag) {
 	// register: 16
 	register int dpx;
@@ -16119,6 +18423,8 @@ void OperateL3Door__FiiUc(int pnum, int i, unsigned char sendflag) {
 
 
 // address: 0x80052674
+// line start: 2294
+// line end:   2328
 void LoadMapObjs__FPUcii(unsigned char *pMap, int startx, int starty) {
 	// register: 16
 	register int i;
@@ -16136,6 +18442,8 @@ void LoadMapObjs__FPUcii(unsigned char *pMap, int startx, int starty) {
 
 
 // address: 0x8005277C
+// line start: 2336
+// line end:   2370
 void OperatePedistal__Fii(int pnum, int i) {
 	// address: 0xFFFFFFE8
 	auto int jstn;
@@ -16155,6 +18463,8 @@ void OperatePedistal__Fii(int pnum, int i) {
 
 
 // address: 0x80052A34
+// line start: 2379
+// line end:   2405
 void TryDisarm__Fii(int pnum, int i) {
 	// register: 6
 	register int j;
@@ -16170,6 +18480,8 @@ void TryDisarm__Fii(int pnum, int i) {
 
 
 // address: 0x80052BF8
+// line start: 2411
+// line end:   2414
 int ItemMiscIdIdx__Fi(int imiscid) {
 	// register: 5
 	register int i;
@@ -16177,6 +18489,8 @@ int ItemMiscIdIdx__Fi(int imiscid) {
 
 
 // address: 0x80052C68
+// line start: 2421
+// line end:   2974
 void OperateShrine__Fiii(int pnum, int i, int sType) {
 	// register: 18
 	register int r;
@@ -16204,21 +18518,29 @@ void OperateShrine__Fiii(int pnum, int i, int sType) {
 
 
 // address: 0x80055244
+// line start: 2980
+// line end:   2991
 void OperateSkelBook__FiiUc(int pnum, int i, unsigned char sendmsg) {
 }
 
 
 // address: 0x800553C0
+// line start: 2997
+// line end:   3018
 void OperateBookCase__FiiUc(int pnum, int i, unsigned char sendmsg) {
 }
 
 
 // address: 0x80055590
+// line start: 3024
+// line end:   3032
 void OperateDecap__FiiUc(int pnum, int i, unsigned char sendmsg) {
 }
 
 
 // address: 0x80055678
+// line start: 3038
+// line end:   3066
 void OperateArmorStand__FiiUc(int pnum, int i, unsigned char sendmsg) {
 	// register: 6
 	register int uniqueRnd;
@@ -16226,6 +18548,8 @@ void OperateArmorStand__FiiUc(int pnum, int i, unsigned char sendmsg) {
 
 
 // address: 0x800557E8
+// line start: 3078
+// line end:   3100
 int FindValidShrine__Fi(int i) {
 	// register: 4
 	register int rv;
@@ -16235,16 +18559,22 @@ int FindValidShrine__Fi(int i) {
 
 
 // address: 0x800558D8
+// line start: 3107
+// line end:   3113
 void OperateGoatShrine__Fiii(int pnum, int i, int sType) {
 }
 
 
 // address: 0x80055980
+// line start: 3120
+// line end:   3127
 void OperateCauldron__Fiii(int pnum, int i, int sType) {
 }
 
 
 // address: 0x80055A34
+// line start: 3134
+// line end:   3226
 unsigned char OperateFountains__Fii(int pnum, int i) {
 	// register: 21
 	register int ii;
@@ -16270,6 +18600,8 @@ unsigned char OperateFountains__Fii(int pnum, int i) {
 
 
 // address: 0x80055FE0
+// line start: 3233
+// line end:   3273
 void OperateWeaponRack__FiiUc(int pnum, int i, unsigned char sendmsg) {
 	// register: 17
 	register int weaponType;
@@ -16277,11 +18609,15 @@ void OperateWeaponRack__FiiUc(int pnum, int i, unsigned char sendmsg) {
 
 
 // address: 0x8005618C
+// line start: 3279
+// line end:   3289
 void OperateStoryBook__Fii(int pnum, int i) {
 }
 
 
 // address: 0x8005627C
+// line start: 3295
+// line end:   3308
 void OperateLazStand__Fii(int pnum, int i) {
 	// address: 0xFFFFFFF0
 	auto int x;
@@ -16291,6 +18627,8 @@ void OperateLazStand__Fii(int pnum, int i) {
 
 
 // address: 0x8005635C
+// line start: 3314
+// line end:   3431
 void OperateObject__FiiUc(int pnum, int i, unsigned char TeleFlag) {
 	// register: 3
 	register unsigned char senditemmsg;
@@ -16298,6 +18636,8 @@ void OperateObject__FiiUc(int pnum, int i, unsigned char TeleFlag) {
 
 
 // address: 0x80056794
+// line start: 3439
+// line end:   3449
 void SyncOpL1Door__Fiii(int pnum, int cmd, int i) {
 	// register: 4
 	register unsigned char opok;
@@ -16305,6 +18645,8 @@ void SyncOpL1Door__Fiii(int pnum, int cmd, int i) {
 
 
 // address: 0x800568A8
+// line start: 3455
+// line end:   3465
 void SyncOpL2Door__Fiii(int pnum, int cmd, int i) {
 	// register: 4
 	register unsigned char opok;
@@ -16312,6 +18654,8 @@ void SyncOpL2Door__Fiii(int pnum, int cmd, int i) {
 
 
 // address: 0x800569BC
+// line start: 3471
+// line end:   3481
 void SyncOpL3Door__Fiii(int pnum, int cmd, int i) {
 	// register: 4
 	register unsigned char opok;
@@ -16319,11 +18663,15 @@ void SyncOpL3Door__Fiii(int pnum, int cmd, int i) {
 
 
 // address: 0x80056AD0
+// line start: 3487
+// line end:   3573
 void SyncOpObject__Fiii(int pnum, int cmd, int i) {
 }
 
 
 // address: 0x80056CC0
+// line start: 3581
+// line end:   3607
 void BreakCrux__Fi(int i) {
 	// register: 5
 	register int j;
@@ -16337,6 +18685,8 @@ void BreakCrux__Fi(int i) {
 
 
 // address: 0x80056EB0
+// line start: 3615
+// line end:   3676
 void BreakBarrel__FiiiUcUc(int pnum, int i, int dam, unsigned char forcebreak, int sendmsg) {
 	// register: 17
 	register int x;
@@ -16348,6 +18698,8 @@ void BreakBarrel__FiiiUcUc(int pnum, int i, int dam, unsigned char forcebreak, i
 
 
 // address: 0x80057404
+// line start: 3682
+// line end:   3703
 void BreakObject__Fii(int pnum, int oi) {
 	// register: 6
 	register int objdam;
@@ -16359,11 +18711,15 @@ void BreakObject__Fii(int pnum, int oi) {
 
 
 // address: 0x80057564
+// line start: 3711
+// line end:   3717
 void SyncBreakObj__Fii(int pnum, int oi) {
 }
 
 
 // address: 0x800575C0
+// line start: 3725
+// line end:   3749
 void SyncL1Doors__Fi(int i) {
 	// register: 16
 	register int dx;
@@ -16373,6 +18729,8 @@ void SyncL1Doors__Fi(int i) {
 
 
 // address: 0x800576D8
+// line start: 3755
+// line end:   3771
 void SyncCrux__Fi(int i) {
 	// register: 6
 	register int j;
@@ -16386,11 +18744,15 @@ void SyncCrux__Fi(int i) {
 
 
 // address: 0x80057810
+// line start: 3778
+// line end:   3781
 void SyncLever__Fi(int i) {
 }
 
 
 // address: 0x8005788C
+// line start: 3789
+// line end:   3801
 void SyncQSTLever__Fi(int i) {
 	// register: 16
 	register int tren;
@@ -16398,6 +18760,8 @@ void SyncQSTLever__Fi(int i) {
 
 
 // address: 0x80057998
+// line start: 3810
+// line end:   3825
 void SyncPedistal__Fi(int i) {
 	// register: 16
 	register unsigned char *setp;
@@ -16411,6 +18775,8 @@ void SyncPedistal__Fi(int i) {
 
 
 // address: 0x80057AF4
+// line start: 3833
+// line end:   3857
 void SyncL2Doors__Fi(int i) {
 	// register: 7
 	register int dx;
@@ -16420,6 +18786,8 @@ void SyncL2Doors__Fi(int i) {
 
 
 // address: 0x80057C5C
+// line start: 3865
+// line end:   3888
 void SyncL3Doors__Fi(int i) {
 	// register: 7
 	register int dx;
@@ -16429,6 +18797,8 @@ void SyncL3Doors__Fi(int i) {
 
 
 // address: 0x80057D88
+// line start: 3896
+// line end:   3935
 void SyncObjectAnim__Fi(int o) {
 	// register: 5
 	register int ai;
@@ -16440,11 +18810,15 @@ void SyncObjectAnim__Fi(int o) {
 
 
 // address: 0x80057EC8
+// line start: 3943
+// line end:   4084
 void GetObjectStr__Fi(int i) {
 }
 
 
 // address: 0x800582E4
+// line start: 4089
+// line end:   4244
 void RestoreObjectLight__Fv() {
 	// register: 16
 	register int i;
@@ -16458,72 +18832,100 @@ void RestoreObjectLight__Fv() {
 
 
 // address: 0x80058538
+// line start: 237
+// line end:   237
 int GetNumOfFrames__7TextDatii_addr_80058538(struct TextDat *this, int Creature, int Action) {
 }
 
 
 // address: 0x80058570
 // size: 0x14
+// line start: 271
+// line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_80058570(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x800585E8
+// line start: 235
+// line end:   235
 int GetNumOfCreatures__7TextDat_addr_800585E8(struct TextDat *this) {
 }
 
 
 // address: 0x800585FC
+// line start: 25
+// line end:   26
 int FindPath__FPFiii_UciiiiiPc(unsigned char (*PosOk)(), int PosOkArg, int sx, int sy, int dx, int dy, char *path) {
 }
 
 
 // address: 0x80058604
+// line start: 380
+// line end:   385
 unsigned char game_2_ui_class__FPC12PlayerStruct(struct PlayerStruct *p) {
 }
 
 
 // address: 0x80058630
+// line start: 391
+// line end:   404
 void game_2_ui_player__FPC12PlayerStructP11_uiheroinfoUc(struct PlayerStruct *p, struct _uiheroinfo *heroinfo, unsigned char bHasSaveFile) {
 }
 
 
 // address: 0x800586E4
+// line start: 449
+// line end:   498
 void SetupLocalPlayer__Fv() {
 }
 
 
 // address: 0x80058704
+// line start: 269
+// line end:   270
 bool ismyplr__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80058748
+// line start: 274
+// line end:   275
 int plrind__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005875C
+// line start: 411
+// line end:   417
 void InitPlayerGFX__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005877C
+// line start: 527
+// line end:   546
 void FreePlayerGFX__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80058784
+// line start: 553
+// line end:   564
 void NewPlrAnim__FP12PlayerStructiii(struct PlayerStruct *ptrplr, int Peq, int numFrames, int Delay) {
 }
 
 
 // address: 0x800587A0
+// line start: 573
+// line end:   584
 void ClearPlrPVars__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x800587C4
+// line start: 590
+// line end:   671
 void SetPlrAnims__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 3
 	register int gn;
@@ -16533,6 +18935,8 @@ void SetPlrAnims__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80058A00
+// line start: 718
+// line end:   835
 void CreatePlayer__FP12PlayerStructc(struct PlayerStruct *ptrplr, char c) {
 	// register: 2
 	register int i;
@@ -16542,6 +18946,8 @@ void CreatePlayer__FP12PlayerStructc(struct PlayerStruct *ptrplr, char c) {
 
 
 // address: 0x80058E1C
+// line start: 842
+// line end:   848
 int CalcStatDiff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 6
 	register int c;
@@ -16551,6 +18957,8 @@ int CalcStatDiff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80058E84
+// line start: 854
+// line end:   890
 void NextPlrLevel__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 5
 	register long l;
@@ -16558,6 +18966,8 @@ void NextPlrLevel__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80058FF4
+// line start: 897
+// line end:   960
 void AddPlrExperience__FP12PlayerStructil(struct PlayerStruct *ptrplr, int lvl, long exp) {
 	// register: 19
 	register int omp;
@@ -16591,6 +19001,8 @@ void AddPlrExperience__FP12PlayerStructil(struct PlayerStruct *ptrplr, int lvl, 
 
 
 // address: 0x80059200
+// line start: 966
+// line end:   973
 void AddPlrMonstExper__Filc(int lvl, long exp, char pmask) {
 	// register: 3
 	register int totplrs;
@@ -16606,6 +19018,8 @@ void AddPlrMonstExper__Filc(int lvl, long exp, char pmask) {
 
 
 // address: 0x80059284
+// line start: 982
+// line end:   1152
 void InitPlayer__FP12PlayerStructUc(struct PlayerStruct *ptrplr, unsigned char FirstTime) {
 	{
 		{
@@ -16621,11 +19035,15 @@ void InitPlayer__FP12PlayerStructUc(struct PlayerStruct *ptrplr, unsigned char F
 
 
 // address: 0x80059650
+// line start: 1162
+// line end:   1168
 void InitMultiView__Fv() {
 }
 
 
 // address: 0x80059658
+// line start: 1269
+// line end:   1293
 bool CheckLeighSolid__Fii(int x, int y) {
 	// address: 0xFFFFFFB0
 	// size: 0x50
@@ -16638,11 +19056,15 @@ bool CheckLeighSolid__Fii(int x, int y) {
 
 
 // address: 0x800596F0
+// line start: 1297
+// line end:   1302
 unsigned char SolidLoc__Fii(int x, int y) {
 }
 
 
 // address: 0x80059778
+// line start: 1356
+// line end:   1365
 void PlrClrTrans__Fii(int x, int y) {
 	// register: 3
 	register int i;
@@ -16652,6 +19074,8 @@ void PlrClrTrans__Fii(int x, int y) {
 
 
 // address: 0x8005980C
+// line start: 1372
+// line end:   1385
 void PlrDoTrans__Fii(int x, int y) {
 	// register: 3
 	register int i;
@@ -16661,21 +19085,29 @@ void PlrDoTrans__Fii(int x, int y) {
 
 
 // address: 0x80059900
+// line start: 1391
+// line end:   1395
 void SetPlayerOld__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80059914
+// line start: 1430
+// line end:   1451
 void StartStand__FP12PlayerStructi(struct PlayerStruct *ptrplr, int dir) {
 }
 
 
 // address: 0x800599A0
+// line start: 1456
+// line end:   1475
 void StartWalkStand__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80059A04
+// line start: 1483
+// line end:   1541
 void PM_ChangeLightOff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 4
 	register int lx;
@@ -16688,11 +19120,15 @@ void PM_ChangeLightOff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80059A40
+// line start: 1549
+// line end:   1571
 void PM_ChangeOffset__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80059A6C
+// line start: 1668
+// line end:   1700
 void StartAttack__FP12PlayerStructi(struct PlayerStruct *ptrplr, int d) {
 	// register: 17
 	register int co;
@@ -16702,16 +19138,22 @@ void StartAttack__FP12PlayerStructi(struct PlayerStruct *ptrplr, int d) {
 
 
 // address: 0x80059BA4
+// line start: 1726
+// line end:   1741
 void StartPlrBlock__FP12PlayerStructi(struct PlayerStruct *ptrplr, int dir) {
 }
 
 
 // address: 0x80059C3C
+// line start: 1747
+// line end:   1788
 void StartSpell__FP12PlayerStructiii(struct PlayerStruct *ptrplr, int d, int cx, int cy) {
 }
 
 
 // address: 0x80059DD8
+// line start: 1821
+// line end:   1837
 void RemovePlrFromMap__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 13
 	register int pp;
@@ -16725,11 +19167,15 @@ void RemovePlrFromMap__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x80059EF8
+// line start: 1844
+// line end:   1877
 void StartPlrHit__FP12PlayerStructiUc(struct PlayerStruct *ptrplr, int dam, unsigned char forcehit) {
 }
 
 
 // address: 0x8005A018
+// line start: 1884
+// line end:   1913
 void RespawnDeadItem__FP10ItemStructii(struct ItemStruct *itm, int x, int y) {
 	// register: 8
 	register int ii;
@@ -16737,6 +19183,8 @@ void RespawnDeadItem__FP10ItemStructii(struct ItemStruct *itm, int x, int y) {
 
 
 // address: 0x8005A1B4
+// line start: 1919
+// line end:   1956
 void PlrDeadItem__FP12PlayerStructP10ItemStructii(struct PlayerStruct *ptrplr, struct ItemStruct *itm, int xx, int yy) {
 	// register: 19
 	register int x;
@@ -16762,6 +19210,8 @@ void PlrDeadItem__FP12PlayerStructP10ItemStructii(struct PlayerStruct *ptrplr, s
 
 
 // address: 0x8005A37C
+// line start: 1961
+// line end:   2085
 void StartPlayerKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 	// register: 17
 	// size: 0x98
@@ -16792,6 +19242,8 @@ void StartPlayerKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag
 
 
 // address: 0x8005A680
+// line start: 2090
+// line end:   2256
 void DropHalfPlayersGold__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int i;
@@ -16801,6 +19253,8 @@ void DropHalfPlayersGold__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005AAC8
+// line start: 2263
+// line end:   2285
 void StartPlrKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 	// register: 5
 	register int i;
@@ -16810,11 +19264,15 @@ void StartPlrKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 
 
 // address: 0x8005AC0C
+// line start: 2291
+// line end:   2293
 void SyncPlrKill__FP12PlayerStructi(struct PlayerStruct *ptrplr, int earflag) {
 }
 
 
 // address: 0x8005AC2C
+// line start: 2299
+// line end:   2324
 void RemovePlrMissiles__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int i;
@@ -16828,31 +19286,43 @@ void RemovePlrMissiles__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005AF14
+// line start: 2330
+// line end:   2350
 void InitLevelChange__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005AFD0
+// line start: 2357
+// line end:   2411
 void StartNewLvl__FP12PlayerStructii(struct PlayerStruct *ptrplr, int fom, int lvl) {
 }
 
 
 // address: 0x8005B114
+// line start: 2416
+// line end:   2434
 void RestartTownLvl__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005B1A4
+// line start: 2442
+// line end:   2458
 void StartWarpLvl__FP12PlayerStructi(struct PlayerStruct *ptrplr, int pidx) {
 }
 
 
 // address: 0x8005B260
+// line start: 2466
+// line end:   2467
 int PM_DoStand__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005B268
+// line start: 2495
+// line end:   2512
 unsigned char ChkPlrOffsets__Fiiii(int wx1, int wy1, int wx2, int wy2) {
 	// register: 17
 	register int x;
@@ -16862,6 +19332,8 @@ unsigned char ChkPlrOffsets__Fiiii(int wx1, int wy1, int wx2, int wy2) {
 
 
 // address: 0x8005B2F0
+// line start: 2516
+// line end:   2633
 int PM_DoWalk__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 18
 	register int owx;
@@ -16871,11 +19343,15 @@ int PM_DoWalk__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005B65C
+// line start: 2640
+// line end:   2689
 unsigned char WeaponDur__FP12PlayerStructi(struct PlayerStruct *ptrplr, int durrnd) {
 }
 
 
 // address: 0x8005B7FC
+// line start: 2696
+// line end:   2810
 unsigned char PlrHitMonst__FP12PlayerStructi(struct PlayerStruct *ptrplr, int m) {
 	// register: 18
 	register int hit;
@@ -16903,6 +19379,8 @@ unsigned char PlrHitMonst__FP12PlayerStructi(struct PlayerStruct *ptrplr, int m)
 
 
 // address: 0x8005BE2C
+// line start: 2817
+// line end:   2880
 unsigned char PlrHitPlr__FP12PlayerStructc(struct PlayerStruct *ptrplr, char p) {
 	// register: 20
 	register int hit;
@@ -16930,6 +19408,8 @@ unsigned char PlrHitPlr__FP12PlayerStructc(struct PlayerStruct *ptrplr, char p) 
 
 
 // address: 0x8005C1DC
+// line start: 2887
+// line end:   2894
 unsigned char PlrHitObj__FP12PlayerStructii(struct PlayerStruct *ptrplr, int mx, int my) {
 	// register: 5
 	register int oi;
@@ -16937,6 +19417,8 @@ unsigned char PlrHitObj__FP12PlayerStructii(struct PlayerStruct *ptrplr, int mx,
 
 
 // address: 0x8005C26C
+// line start: 2902
+// line end:   2973
 int PM_DoAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int dx;
@@ -16954,6 +19436,8 @@ int PM_DoAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005C5F8
+// line start: 2981
+// line end:   3002
 int PM_DoRangeAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 8
 	register int mistype;
@@ -16961,16 +19445,22 @@ int PM_DoRangeAttack__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005C6F8
+// line start: 3010
+// line end:   3035
 void ShieldDur__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005C7B8
+// line start: 3041
+// line end:   3053
 int PM_DoBlock__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005C858
+// line start: 3057
+// line end:   3221
 void do_spell_anim__FiiiP12PlayerStruct(int aframe, int spell, int clss, struct PlayerStruct *ptrplr) {
 	// register: 16
 	// size: 0x84
@@ -17008,11 +19498,15 @@ void do_spell_anim__FiiiP12PlayerStruct(int aframe, int spell, int clss, struct 
 
 
 // address: 0x8005D81C
+// line start: 3228
+// line end:   3286
 int PM_DoSpell__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005DB5C
+// line start: 3292
+// line end:   3317
 void ArmorDur__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 18
 	// size: 0x23A8
@@ -17026,6 +19520,8 @@ void ArmorDur__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005DC58
+// line start: 3322
+// line end:   3338
 int PM_DoGotHit__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 2
 	register int rv;
@@ -17033,16 +19529,22 @@ int PM_DoGotHit__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005DCD4
+// line start: 3345
+// line end:   3370
 int PM_DoDeath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005DE14
+// line start: 3377
+// line end:   3378
 int PM_DoNewLvl__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005DE1C
+// line start: 3385
+// line end:   3692
 void CheckNewPath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 17
 	register int i;
@@ -17054,11 +19556,15 @@ void CheckNewPath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005E25C
+// line start: 3704
+// line end:   3712
 unsigned char PlrDeathModeOK__Fi(int p) {
 }
 
 
 // address: 0x8005E2C4
+// line start: 3719
+// line end:   3758
 void ValidatePlayer__Fv() {
 	// register: 5
 	register int i;
@@ -17074,11 +19580,15 @@ void ValidatePlayer__Fv() {
 
 
 // address: 0x8005E7AC
+// line start: 3805
+// line end:   3822
 void CheckCheatStats__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005E848
+// line start: 3831
+// line end:   3952
 void ProcessPlayers__Fv() {
 	// register: 16
 	register int raflag;
@@ -17097,11 +19607,15 @@ void ProcessPlayers__Fv() {
 
 
 // address: 0x8005EB7C
+// line start: 3958
+// line end:   3961
 void ClrPlrPath__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005EBA4
+// line start: 3969
+// line end:   3994
 unsigned char PosOkPlayer__FP12PlayerStructii(struct PlayerStruct *ptrplr, int px, int py) {
 	// register: 2
 	register int mi;
@@ -17116,11 +19630,15 @@ unsigned char PosOkPlayer__FP12PlayerStructii(struct PlayerStruct *ptrplr, int p
 
 
 // address: 0x8005ED4C
+// line start: 4001
+// line end:   4053
 void MakePlrPath__FP12PlayerStructiiUc(struct PlayerStruct *ptrplr, int xx, int yy, unsigned char endspace) {
 }
 
 
 // address: 0x8005ED54
+// line start: 4059
+// line end:   4152
 void CheckPlrSpell__Fv() {
 	// register: 16
 	register int sd;
@@ -17138,6 +19656,8 @@ void CheckPlrSpell__Fv() {
 
 
 // address: 0x8005F15C
+// line start: 4219
+// line end:   4243
 void SyncInitPlrPos__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	// register: 16
 	register int i;
@@ -17145,11 +19665,15 @@ void SyncInitPlrPos__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8005F284
+// line start: 4247
+// line end:   4252
 void SyncInitPlr__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005F2B4
+// line start: 4269
+// line end:   4303
 void CheckStats__Fi(int p) {
 	// register: 4
 	register int c;
@@ -17162,6 +19686,8 @@ void CheckStats__Fi(int p) {
 
 
 // address: 0x8005F450
+// line start: 4310
+// line end:   4322
 void ModifyPlrStr__Fii(int p, int l) {
 	// register: 6
 	// size: 0x23A8
@@ -17172,6 +19698,8 @@ void ModifyPlrStr__Fii(int p, int l) {
 
 
 // address: 0x8005F56C
+// line start: 4330
+// line end:   4347
 void ModifyPlrMag__Fii(int p, int l) {
 	// register: 6
 	// size: 0x23A8
@@ -17182,6 +19710,8 @@ void ModifyPlrMag__Fii(int p, int l) {
 
 
 // address: 0x8005F658
+// line start: 4355
+// line end:   4365
 void ModifyPlrDex__Fii(int p, int l) {
 	// register: 16
 	// size: 0x23A8
@@ -17192,6 +19722,8 @@ void ModifyPlrDex__Fii(int p, int l) {
 
 
 // address: 0x8005F73C
+// line start: 4373
+// line end:   4387
 void ModifyPlrVit__Fii(int p, int l) {
 	// register: 6
 	// size: 0x23A8
@@ -17202,11 +19734,15 @@ void ModifyPlrVit__Fii(int p, int l) {
 
 
 // address: 0x8005F818
+// line start: 4395
+// line end:   4400
 void SetPlayerHitPoints__FP12PlayerStructi(struct PlayerStruct *ptrplr, int newhp) {
 }
 
 
 // address: 0x8005F85C
+// line start: 4407
+// line end:   4416
 void SetPlrStr__Fii(int p, int v) {
 	// register: 16
 	// size: 0x23A8
@@ -17215,6 +19751,8 @@ void SetPlrStr__Fii(int p, int v) {
 
 
 // address: 0x8005F938
+// line start: 4423
+// line end:   4432
 void SetPlrMag__Fii(int p, int v) {
 	// register: 6
 	// size: 0x23A8
@@ -17223,6 +19761,8 @@ void SetPlrMag__Fii(int p, int v) {
 
 
 // address: 0x8005F9A8
+// line start: 4439
+// line end:   4448
 void SetPlrDex__Fii(int p, int v) {
 	// register: 16
 	// size: 0x23A8
@@ -17231,6 +19771,8 @@ void SetPlrDex__Fii(int p, int v) {
 
 
 // address: 0x8005FA84
+// line start: 4455
+// line end:   4464
 void SetPlrVit__Fii(int p, int v) {
 	// register: 3
 	// size: 0x23A8
@@ -17239,11 +19781,15 @@ void SetPlrVit__Fii(int p, int v) {
 
 
 // address: 0x8005FAF0
+// line start: 4471
+// line end:   4474
 void InitDungMsgs__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005FAF8
+// line start: 4481
+// line end:   4548
 void PlayDungMsgs__Fv() {
 	// register: 4
 	// size: 0x23A8
@@ -17252,272 +19798,380 @@ void PlayDungMsgs__Fv() {
 
 
 // address: 0x8005FE28
+// line start: 4551
+// line end:   4551
 void CreatePlrItems__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005FE50
+// line start: 4552
+// line end:   4552
 void WorldToOffset__FP12PlayerStructii(struct PlayerStruct *ptrplr, int x, int y) {
 }
 
 
 // address: 0x8005FE94
+// line start: 4553
+// line end:   4553
 void SetSpdbarGoldCurs__FP12PlayerStructi(struct PlayerStruct *ptrplr, int i) {
 }
 
 
 // address: 0x8005FEC8
+// line start: 4554
+// line end:   4554
 int GetSpellLevel__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x8005FEFC
+// line start: 4555
+// line end:   4555
 void BreakObject__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x8005FF30
+// line start: 4556
+// line end:   4556
 void CalcPlrInv__FP12PlayerStructUc(struct PlayerStruct *ptrplr, unsigned char bl) {
 }
 
 
 // address: 0x8005FF64
+// line start: 4557
+// line end:   4557
 void RemoveSpdBarItem__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x8005FF98
+// line start: 4558
+// line end:   4558
 void M_StartKill__FiP12PlayerStruct(int m, struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8005FFD0
+// line start: 4559
+// line end:   4559
 void SetGoldCurs__FP12PlayerStructi(struct PlayerStruct *ptrplr, int i) {
 }
 
 
 // address: 0x80060004
+// line start: 4560
+// line end:   4560
 void HealStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8006002C
+// line start: 4561
+// line end:   4561
 void HealotherStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060054
+// line start: 4562
+// line end:   4562
 int CalculateGold__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8006007C
+// line start: 4563
+// line end:   4563
 void M_StartHit__FiP12PlayerStructi(int m, struct PlayerStruct *ptrplr, int dam) {
 }
 
 
 // address: 0x800600C4
+// line start: 4564
+// line end:   4564
 void TeleStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x800600EC
+// line start: 4565
+// line end:   4565
 void PhaseStart__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060114
+// line start: 4566
+// line end:   4566
 void RemoveInvItem__FP12PlayerStructi(struct PlayerStruct *ptrplr, int i) {
 }
 
 
 // address: 0x80060148
+// line start: 4567
+// line end:   4567
 void PhaseEnd__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80060170
+// line start: 4568
+// line end:   4568
 void OperateObject__FP12PlayerStructiUc(struct PlayerStruct *ptrplr, int oi, unsigned char bl) {
 }
 
 
 // address: 0x800601B4
+// line start: 4569
+// line end:   4569
 void TryDisarm__FP12PlayerStructi(struct PlayerStruct *ptrplr, int oi) {
 }
 
 
 // address: 0x800601E8
+// line start: 4570
+// line end:   4570
 void TalkToTowner__FP12PlayerStructi(struct PlayerStruct *ptrplr, int val) {
 }
 
 
 // address: 0x8006021C
+// line start: 4572
+// line end:   4572
 unsigned char PosOkPlayer__Fiii(int pnum, int x, int y) {
 }
 
 
 // address: 0x80060268
+// line start: 4573
+// line end:   4573
 int CalcStatDiff__Fi(int pnum) {
 }
 
 
 // address: 0x800602B4
+// line start: 4574
+// line end:   4574
 void StartNewLvl__Fiii(int pnum, int fom, int lvl) {
 }
 
 
 // address: 0x80060300
+// line start: 4575
+// line end:   4575
 void CreatePlayer__Fic(int pnum, char c) {
 }
 
 
 // address: 0x80060354
+// line start: 4576
+// line end:   4576
 void StartStand__Fii(int pnum, int dir) {
 }
 
 
 // address: 0x800603A0
+// line start: 4577
+// line end:   4577
 void SetPlayerHitPoints__Fii(int pnum, int val) {
 }
 
 
 // address: 0x800603EC
+// line start: 4578
+// line end:   4578
 void MakePlrPath__FiiiUc(int pnum, int xx, int yy, unsigned char endspace) {
 }
 
 
 // address: 0x8006043C
+// line start: 4579
+// line end:   4579
 void StartWarpLvl__Fii(int pnum, int pidx) {
 }
 
 
 // address: 0x80060488
+// line start: 4580
+// line end:   4580
 void SyncPlrKill__Fii(int pnum, int earflag) {
 }
 
 
 // address: 0x800604D4
+// line start: 4581
+// line end:   4581
 void StartPlrKill__Fii(int pnum, int val) {
 }
 
 
 // address: 0x80060520
+// line start: 4582
+// line end:   4582
 void NewPlrAnim__Fiiii(int pnum, int Peq, int numFrames, int Delay) {
 }
 
 
 // address: 0x8006056C
+// line start: 4583
+// line end:   4583
 void AddPlrExperience__Fiil(int pnum, int lvl, long exp) {
 }
 
 
 // address: 0x800605B8
+// line start: 4584
+// line end:   4584
 void StartPlrBlock__Fii(int pnum, int dir) {
 }
 
 
 // address: 0x80060604
+// line start: 4585
+// line end:   4585
 void StartPlrHit__FiiUc(int pnum, int dam, unsigned char forcehit) {
 }
 
 
 // address: 0x80060654
+// line start: 4586
+// line end:   4586
 void StartSpell__Fiiii(int pnum, int d, int cx, int cy) {
 }
 
 
 // address: 0x800606A0
+// line start: 4588
+// line end:   4588
 void InitPlayer__FiUc(int pnum, unsigned char FirstTime) {
 }
 
 
 // address: 0x800606F0
+// line start: 4590
+// line end:   4590
 void PM_ChangeLightOff__Fi(int pnum) {
 }
 
 
 // address: 0x8006073C
+// line start: 4591
+// line end:   4591
 void CheckNewPath__Fi(int pnum) {
 }
 
 
 // address: 0x80060788
+// line start: 4592
+// line end:   4592
 void FreePlayerGFX__Fi(int pnum) {
 }
 
 
 // address: 0x800607D4
+// line start: 4593
+// line end:   4593
 void InitDungMsgs__Fi(int pnum) {
 }
 
 
 // address: 0x80060820
+// line start: 4594
+// line end:   4594
 void InitPlayerGFX__Fi(int pnum) {
 }
 
 
 // address: 0x8006086C
+// line start: 4595
+// line end:   4595
 void SyncInitPlrPos__Fi(int pnum) {
 }
 
 
 // address: 0x800608B8
+// line start: 4596
+// line end:   4596
 void SetPlrAnims__Fi(int pnum) {
 }
 
 
 // address: 0x80060904
+// line start: 4597
+// line end:   4597
 void ClrPlrPath__Fi(int pnum) {
 }
 
 
 // address: 0x80060950
+// line start: 4598
+// line end:   4598
 void SyncInitPlr__Fi(int pnum) {
 }
 
 
 // address: 0x8006099C
+// line start: 4599
+// line end:   4599
 void RestartTownLvl__Fi(int pnum) {
 }
 
 
 // address: 0x800609E8
+// line start: 4600
+// line end:   4600
 void SetPlayerOld__Fi(int pnum) {
 }
 
 
 // address: 0x80060A34
+// line start: 4608
+// line end:   4609
 void GetGoldSeed__FP12PlayerStructP10ItemStruct(struct PlayerStruct *ptrplr, struct ItemStruct *h) {
 }
 
 
 // address: 0x80060A68
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_80060A68(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x80060AE4
 // size: 0x84
+// line start: 63
+// line end:   65
 struct CPlayer *GetPlayer__7CPlayeri(int PNum) {
 }
 
 
 // address: 0x80060B34
+// line start: 60
+// line end:   60
 int GetLastOtPos__C7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x80060B40
+// line start: 59
+// line end:   59
 int GetLastScrY__C7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x80060B4C
+// line start: 58
+// line end:   58
 int GetLastScrX__C7CPlayer(struct CPlayer *this) {
 }
 
 
 // address: 0x80060B58
+// line start: 160
+// line end:   220
 void TSK_Lava2Water__FP4TASK(struct TASK *T) {
 	// address: 0xFFFFFFB0
 	// size: 0x20
@@ -17576,6 +20230,8 @@ void TSK_Lava2Water__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80060DA8
+// line start: 226
+// line end:   291
 void CheckQuests__Fv() {
 	// register: 18
 	register int i;
@@ -17587,6 +20243,8 @@ void CheckQuests__Fv() {
 
 
 // address: 0x80061264
+// line start: 295
+// line end:   322
 unsigned char ForceQuests__Fv() {
 	{
 		// register: 6
@@ -17608,11 +20266,15 @@ unsigned char ForceQuests__Fv() {
 
 
 // address: 0x80061408
+// line start: 327
+// line end:   333
 unsigned char QuestStatus__Fi(int i) {
 }
 
 
 // address: 0x8006149C
+// line start: 339
+// line end:   437
 void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 	{
 		{
@@ -17642,21 +20304,29 @@ void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 
 
 // address: 0x80061A7C
+// line start: 471
+// line end:   496
 void SetReturnLvlPos__Fv() {
 }
 
 
 // address: 0x80061B8C
+// line start: 504
+// line end:   509
 void GetReturnLvlPos__Fv() {
 }
 
 
 // address: 0x80061BE0
+// line start: 516
+// line end:   538
 void ResyncMPQuests__Fv() {
 }
 
 
 // address: 0x80061D1C
+// line start: 548
+// line end:   637
 void ResyncQuests__Fv() {
 	// register: 16
 	register int i;
@@ -17666,6 +20336,8 @@ void ResyncQuests__Fv() {
 
 
 // address: 0x8006227C
+// line start: 653
+// line end:   694
 void PrintQLString__FiiUcPcc(int x, int y, unsigned char cjustflag, char *str, int col) {
 	// register: 10
 	register unsigned char r;
@@ -17683,6 +20355,8 @@ void PrintQLString__FiiUcPcc(int x, int y, unsigned char cjustflag, char *str, i
 
 
 // address: 0x800624A8
+// line start: 703
+// line end:   733
 void DrawQuestLog__Fv() {
 	// register: 18
 	register int i;
@@ -17694,11 +20368,15 @@ void DrawQuestLog__Fv() {
 
 
 // address: 0x80062670
+// line start: 743
+// line end:   764
 void DrawQuestLogTSK__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80062708
+// line start: 772
+// line end:   793
 void StartQuestlog__Fv() {
 	// register: 5
 	register int i;
@@ -17706,21 +20384,29 @@ void StartQuestlog__Fv() {
 
 
 // address: 0x80062820
+// line start: 800
+// line end:   818
 void QuestlogUp__Fv() {
 }
 
 
 // address: 0x80062870
+// line start: 826
+// line end:   846
 void QuestlogDown__Fv() {
 }
 
 
 // address: 0x800628D8
+// line start: 855
+// line end:   867
 void RemoveQLog__Fv() {
 }
 
 
 // address: 0x80062950
+// line start: 872
+// line end:   893
 void QuestlogEnter__Fv() {
 	// register: 3
 	register int q;
@@ -17728,75 +20414,103 @@ void QuestlogEnter__Fv() {
 
 
 // address: 0x80062A14
+// line start: 901
+// line end:   903
 void QuestlogESC__Fv() {
 }
 
 
 // address: 0x80062A3C
+// line start: 910
+// line end:   930
 void SetMultiQuest__FiiUci(int q, int s, unsigned char l, int v1) {
 }
 
 
 // address: 0x80062ABC
+// line start: 977
+// line end:   977
 void _GLOBAL__D_questlog() {
 }
 
 
 // address: 0x80062AE4
+// line start: 977
+// line end:   977
 void _GLOBAL__I_questlog() {
 }
 
 
 // address: 0x80062B0C
 // size: 0x6C
+// line start: 151
+// line end:   151
 struct TextDat *GetBlockTexDat__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x80062B18
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_80062B18(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x80062B38
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi_addr_80062B38(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80062B40
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_80062B40(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x80062B48
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_80062B48(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x80062B70
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_80062B70(struct Dialog *this) {
 }
 
 
 // address: 0x80062BCC
 // size: 0x8
+// line start: 224
+// line end:   224
 struct PAL *GetPal__7TextDati_addr_80062BCC(struct TextDat *this, int PalNum) {
 }
 
 
 // address: 0x80062BE8
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_80062BE8(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80062C04
+// line start: 85
+// line end:   304
 void DrawView__Fii(int StartX, int StartY) {
 }
 
 
 // address: 0x80062DCC
+// line start: 315
+// line end:   373
 void DrawAndBlit__Fv() {
 	// register: 16
 	register unsigned char ctrlPan;
@@ -17804,16 +20518,22 @@ void DrawAndBlit__Fv() {
 
 
 // address: 0x80062EC4
+// line start: 158
+// line end:   159
 void FreeStoreMem__Fv() {
 }
 
 
 // address: 0x80062ECC
+// line start: 167
+// line end:   170
 void DrawSTextBack__Fv() {
 }
 
 
 // address: 0x80062F3C
+// line start: 175
+// line end:   250
 void PrintSString__FiiUcPcci(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
 	// register: 21
 	register int xx;
@@ -17836,6 +20556,8 @@ void PrintSString__FiiUcPcci(int x, int y, unsigned char cjustflag, char *str, i
 
 
 // address: 0x80063314
+// line start: 257
+// line end:   264
 void DrawSLine__Fi(int y) {
 	// register: 16
 	register int yy;
@@ -17843,6 +20565,8 @@ void DrawSLine__Fi(int y) {
 
 
 // address: 0x800633A8
+// line start: 271
+// line end:   284
 void ClearSText__Fii(int s, int e) {
 	// register: 4
 	register int i;
@@ -17850,21 +20574,29 @@ void ClearSText__Fii(int s, int e) {
 
 
 // address: 0x80063440
+// line start: 290
+// line end:   294
 void AddSLine__Fi(int y) {
 }
 
 
 // address: 0x80063490
+// line start: 300
+// line end:   301
 void AddSTextVal__Fii(int y, int val) {
 }
 
 
 // address: 0x800634B8
+// line start: 310
+// line end:   319
 void AddSText__FiiUcPccUc(int x, int y, unsigned char j, char *str, int clr, int sel) {
 }
 
 
 // address: 0x8006356C
+// line start: 324
+// line end:   416
 void PrintStoreItem__FPC10ItemStructic(struct ItemStruct *x, int l, char iclr) {
 	// address: 0xFFFFFF58
 	// size: 0x80
@@ -17875,6 +20607,8 @@ void PrintStoreItem__FPC10ItemStructic(struct ItemStruct *x, int l, char iclr) {
 
 
 // address: 0x800639F4
+// line start: 424
+// line end:   482
 void StoreAutoPlace__Fv() {
 	// register: 16
 	register int i;
@@ -17890,11 +20624,15 @@ void StoreAutoPlace__Fv() {
 
 
 // address: 0x80064014
+// line start: 489
+// line end:   503
 void S_StartSmith__Fv() {
 }
 
 
 // address: 0x8006419C
+// line start: 509
+// line end:   536
 void S_ScrollSBuy__Fi(int idx) {
 	// register: 17
 	register int l;
@@ -17906,11 +20644,15 @@ void S_ScrollSBuy__Fi(int idx) {
 
 
 // address: 0x80064354
+// line start: 542
+// line end:   560
 void S_StartSBuy__Fv() {
 }
 
 
 // address: 0x80064484
+// line start: 566
+// line end:   607
 void S_ScrollSPBuy__Fi(int idx) {
 	// register: 17
 	register int l;
@@ -17934,6 +20676,8 @@ void S_ScrollSPBuy__Fi(int idx) {
 
 
 // address: 0x800646A4
+// line start: 613
+// line end:   643
 unsigned char S_StartSPBuy__Fv() {
 	// register: 4
 	register int i;
@@ -17941,11 +20685,15 @@ unsigned char S_StartSPBuy__Fv() {
 
 
 // address: 0x800647F4
+// line start: 649
+// line end:   660
 unsigned char SmithSellOk__Fi(int i) {
 }
 
 
 // address: 0x800648D8
+// line start: 666
+// line end:   718
 void S_ScrollSSell__Fi(int idx) {
 	// register: 19
 	register int l;
@@ -17969,6 +20717,8 @@ void S_ScrollSSell__Fi(int idx) {
 
 
 // address: 0x80064B00
+// line start: 724
+// line end:   770
 void S_StartSSell__Fv() {
 	// register: 16
 	register int i;
@@ -17978,11 +20728,15 @@ void S_StartSSell__Fv() {
 
 
 // address: 0x80064F30
+// line start: 778
+// line end:   786
 unsigned char SmithRepairOk__Fi(int i) {
 }
 
 
 // address: 0x80064FD4
+// line start: 791
+// line end:   812
 void AddStoreHoldRepair__FP10ItemStructi(struct ItemStruct *itm, int i) {
 	// register: 4
 	register int v;
@@ -17990,6 +20744,8 @@ void AddStoreHoldRepair__FP10ItemStructi(struct ItemStruct *itm, int i) {
 
 
 // address: 0x800651B4
+// line start: 817
+// line end:   875
 void S_StartSRepair__Fv() {
 	// register: 16
 	register int i;
@@ -17999,11 +20755,15 @@ void S_StartSRepair__Fv() {
 
 
 // address: 0x80065684
+// line start: 884
+// line end:   896
 void S_StartWitch__Fv() {
 }
 
 
 // address: 0x800657C4
+// line start: 902
+// line end:   939
 void S_ScrollWBuy__Fi(int idx) {
 	// register: 19
 	register int l;
@@ -18025,11 +20785,15 @@ void S_ScrollWBuy__Fi(int idx) {
 
 
 // address: 0x8006599C
+// line start: 945
+// line end:   965
 void S_StartWBuy__Fv() {
 }
 
 
 // address: 0x80065AC8
+// line start: 971
+// line end:   991
 unsigned char WitchSellOk__Fi(int i) {
 	// register: 5
 	register unsigned char rv;
@@ -18040,6 +20804,8 @@ unsigned char WitchSellOk__Fi(int i) {
 
 
 // address: 0x80065BEC
+// line start: 997
+// line end:   1057
 void S_StartWSell__Fv() {
 	// register: 16
 	register int i;
@@ -18049,6 +20815,8 @@ void S_StartWSell__Fv() {
 
 
 // address: 0x80066244
+// line start: 1066
+// line end:   1072
 unsigned char WitchRechargeOk__Fi(int i) {
 	// register: 6
 	register unsigned char rv;
@@ -18056,11 +20824,15 @@ unsigned char WitchRechargeOk__Fi(int i) {
 
 
 // address: 0x800662CC
+// line start: 1078
+// line end:   1087
 void AddStoreHoldRecharge__FG10ItemStructi(struct ItemStruct itm, int i) {
 }
 
 
 // address: 0x8006644C
+// line start: 1093
+// line end:   1134
 void S_StartWRecharge__Fv() {
 	// register: 16
 	register int i;
@@ -18070,16 +20842,22 @@ void S_StartWRecharge__Fv() {
 
 
 // address: 0x8006686C
+// line start: 1143
+// line end:   1149
 void S_StartNoMoney__Fv() {
 }
 
 
 // address: 0x800668D4
+// line start: 1155
+// line end:   1160
 void S_StartNoRoom__Fv() {
 }
 
 
 // address: 0x80066934
+// line start: 1166
+// line end:   1226
 void S_StartConfirm__Fv() {
 	// register: 16
 	register char iclr;
@@ -18089,11 +20867,15 @@ void S_StartConfirm__Fv() {
 
 
 // address: 0x80066C84
+// line start: 1232
+// line end:   1250
 void S_StartBoy__Fv() {
 }
 
 
 // address: 0x80066E14
+// line start: 1257
+// line end:   1286
 void S_StartBBoy__Fv() {
 	// register: 17
 	register int iclr;
@@ -18103,11 +20885,15 @@ void S_StartBBoy__Fv() {
 
 
 // address: 0x80066F9C
+// line start: 1294
+// line end:   1314
 void S_StartHealer__Fv() {
 }
 
 
 // address: 0x80067170
+// line start: 1320
+// line end:   1342
 void S_ScrollHBuy__Fi(int idx) {
 	// register: 19
 	register int l;
@@ -18115,26 +20901,36 @@ void S_ScrollHBuy__Fi(int idx) {
 
 
 // address: 0x800672DC
+// line start: 1348
+// line end:   1365
 void S_StartHBuy__Fv() {
 }
 
 
 // address: 0x800673FC
+// line start: 1371
+// line end:   1380
 void S_StartStory__Fv() {
 }
 
 
 // address: 0x800674EC
+// line start: 1386
+// line end:   1390
 unsigned char IdItemOk__FP10ItemStruct(struct ItemStruct *i) {
 }
 
 
 // address: 0x80067520
+// line start: 1398
+// line end:   1403
 void AddStoreHoldId__FG10ItemStructi(struct ItemStruct itm, int i) {
 }
 
 
 // address: 0x800675F4
+// line start: 1409
+// line end:   1480
 void S_StartSIdentify__Fv() {
 	// register: 16
 	register int i;
@@ -18144,6 +20940,8 @@ void S_StartSIdentify__Fv() {
 
 
 // address: 0x80068054
+// line start: 1489
+// line end:   1513
 void S_StartIdShow__Fv() {
 	// register: 17
 	register char iclr;
@@ -18153,6 +20951,8 @@ void S_StartIdShow__Fv() {
 
 
 // address: 0x80068228
+// line start: 1519
+// line end:   1553
 void S_StartTalk__Fv() {
 	// register: 18
 	register int i;
@@ -18168,21 +20968,29 @@ void S_StartTalk__Fv() {
 
 
 // address: 0x80068458
+// line start: 1560
+// line end:   1570
 void S_StartTavern__Fv() {
 }
 
 
 // address: 0x80068550
+// line start: 1576
+// line end:   1585
 void S_StartBarMaid__Fv() {
 }
 
 
 // address: 0x80068624
+// line start: 1591
+// line end:   1600
 void S_StartDrunk__Fv() {
 }
 
 
 // address: 0x800686F8
+// line start: 1606
+// line end:   1680
 void StartStore__Fc(char s) {
 	// register: 3
 	register int i;
@@ -18190,16 +20998,22 @@ void StartStore__Fc(char s) {
 
 
 // address: 0x800689E8
+// line start: 1687
+// line end:   1691
 void DrawSText__Fv() {
 }
 
 
 // address: 0x80068A28
+// line start: 1696
+// line end:   1710
 void DrawSTextTSK__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80068AF0
+// line start: 1714
+// line end:   1767
 void DoThatDrawSText__Fv() {
 	// register: 17
 	register int i;
@@ -18207,36 +21021,50 @@ void DoThatDrawSText__Fv() {
 
 
 // address: 0x80068C9C
+// line start: 1775
+// line end:   1840
 void STextESC__Fv() {
 }
 
 
 // address: 0x80068DF8
+// line start: 1847
+// line end:   1882
 void STextUp__Fv() {
 }
 
 
 // address: 0x80068F90
+// line start: 1892
+// line end:   1925
 void STextDown__Fv() {
 }
 
 
 // address: 0x80069140
+// line start: 1937
+// line end:   1959
 void S_SmithEnter__Fv() {
 }
 
 
 // address: 0x80069214
+// line start: 1966
+// line end:   1977
 void SetGoldCurs__Fii(int pnum, int i) {
 }
 
 
 // address: 0x80069290
+// line start: 1985
+// line end:   1995
 void SetSpdbarGoldCurs__Fii(int pnum, int i) {
 }
 
 
 // address: 0x8006930C
+// line start: 2003
+// line end:   2094
 void TakePlrsMoney__Fl(long cost) {
 	// register: 16
 	register int i;
@@ -18244,6 +21072,8 @@ void TakePlrsMoney__Fl(long cost) {
 
 
 // address: 0x80069758
+// line start: 2103
+// line end:   2127
 void SmithBuyItem__Fv() {
 	// register: 10
 	register int idx;
@@ -18251,6 +21081,8 @@ void SmithBuyItem__Fv() {
 
 
 // address: 0x8006994C
+// line start: 2133
+// line end:   2167
 void S_SBuyEnter__Fv() {
 	// register: 4
 	register int idx;
@@ -18262,6 +21094,8 @@ void S_SBuyEnter__Fv() {
 
 
 // address: 0x80069B70
+// line start: 2175
+// line end:   2201
 void SmithBuyPItem__Fv() {
 	// register: 6
 	register int idx;
@@ -18273,6 +21107,8 @@ void SmithBuyPItem__Fv() {
 
 
 // address: 0x80069CF8
+// line start: 2208
+// line end:   2247
 void S_SPBuyEnter__Fv() {
 	// register: 5
 	register int idx;
@@ -18288,6 +21124,8 @@ void S_SPBuyEnter__Fv() {
 
 
 // address: 0x80069F28
+// line start: 2254
+// line end:   2284
 unsigned char StoreGoldFit__Fi(int idx) {
 	// register: 18
 	register int sz;
@@ -18301,6 +21139,8 @@ unsigned char StoreGoldFit__Fi(int idx) {
 
 
 // address: 0x8006A1E0
+// line start: 2293
+// line end:   2317
 void PlaceStoreGold__Fl(long v) {
 	// register: 16
 	register int i;
@@ -18324,6 +21164,8 @@ void PlaceStoreGold__Fl(long v) {
 
 
 // address: 0x8006A444
+// line start: 2323
+// line end:   2379
 void StoreSellItem__Fv() {
 	// register: 16
 	register int idx;
@@ -18335,6 +21177,8 @@ void StoreSellItem__Fv() {
 
 
 // address: 0x8006A738
+// line start: 2386
+// line end:   2403
 void S_SSellEnter__Fv() {
 	// register: 8
 	register int idx;
@@ -18342,6 +21186,8 @@ void S_SSellEnter__Fv() {
 
 
 // address: 0x8006A83C
+// line start: 2410
+// line end:   2428
 void SmithRepairItem__Fv() {
 	// register: 5
 	register int i;
@@ -18351,6 +21197,8 @@ void SmithRepairItem__Fv() {
 
 
 // address: 0x8006AAAC
+// line start: 2434
+// line end:   2453
 void S_SRepairEnter__Fv() {
 	// register: 8
 	register int idx;
@@ -18358,11 +21206,15 @@ void S_SRepairEnter__Fv() {
 
 
 // address: 0x8006AC08
+// line start: 2460
+// line end:   2477
 void S_WitchEnter__Fv() {
 }
 
 
 // address: 0x8006ACB8
+// line start: 2484
+// line end:   2517
 void WitchBuyItem__Fv() {
 	// register: 16
 	register int idx;
@@ -18370,6 +21222,8 @@ void WitchBuyItem__Fv() {
 
 
 // address: 0x8006AEB8
+// line start: 2522
+// line end:   2553
 void S_WBuyEnter__Fv() {
 	// register: 4
 	register int idx;
@@ -18381,6 +21235,8 @@ void S_WBuyEnter__Fv() {
 
 
 // address: 0x8006B0A4
+// line start: 2561
+// line end:   2578
 void S_WSellEnter__Fv() {
 	// register: 8
 	register int idx;
@@ -18388,6 +21244,8 @@ void S_WSellEnter__Fv() {
 
 
 // address: 0x8006B1A8
+// line start: 2585
+// line end:   2600
 void WitchRechargeItem__Fv() {
 	// register: 2
 	register int i;
@@ -18397,6 +21255,8 @@ void WitchRechargeItem__Fv() {
 
 
 // address: 0x8006B320
+// line start: 2606
+// line end:   2625
 void S_WRechargeEnter__Fv() {
 	// register: 8
 	register int idx;
@@ -18404,16 +21264,22 @@ void S_WRechargeEnter__Fv() {
 
 
 // address: 0x8006B47C
+// line start: 2632
+// line end:   2660
 void S_BoyEnter__Fv() {
 }
 
 
 // address: 0x8006B5B4
+// line start: 2667
+// line end:   2678
 void BoyBuyItem__Fv() {
 }
 
 
 // address: 0x8006B638
+// line start: 2684
+// line end:   2731
 void HealerBuyItem__Fv() {
 	// register: 16
 	register int idx;
@@ -18421,6 +21287,8 @@ void HealerBuyItem__Fv() {
 
 
 // address: 0x8006B8DC
+// line start: 2736
+// line end:   2770
 void S_BBuyEnter__Fv() {
 	// register: 16
 	register int i;
@@ -18430,6 +21298,8 @@ void S_BBuyEnter__Fv() {
 
 
 // address: 0x8006BAB4
+// line start: 2776
+// line end:   2798
 void StoryIdItem__Fv() {
 	// register: 5
 	register int i;
@@ -18439,16 +21309,22 @@ void StoryIdItem__Fv() {
 
 
 // address: 0x8006BE00
+// line start: 2805
+// line end:   2840
 void S_ConfirmEnter__Fv() {
 }
 
 
 // address: 0x8006BF1C
+// line start: 2845
+// line end:   2863
 void S_HealerEnter__Fv() {
 }
 
 
 // address: 0x8006BFB4
+// line start: 2870
+// line end:   2901
 void S_HBuyEnter__Fv() {
 	// register: 4
 	register int idx;
@@ -18460,11 +21336,15 @@ void S_HBuyEnter__Fv() {
 
 
 // address: 0x8006C1C0
+// line start: 2909
+// line end:   2922
 void S_StoryEnter__Fv() {
 }
 
 
 // address: 0x8006C258
+// line start: 2929
+// line end:   2948
 void S_SIDEnter__Fv() {
 	// register: 8
 	register int idx;
@@ -18472,6 +21352,8 @@ void S_SIDEnter__Fv() {
 
 
 // address: 0x8006C3D4
+// line start: 2955
+// line end:   2997
 void S_TalkEnter__Fv() {
 	// register: 16
 	register int i;
@@ -18493,26 +21375,36 @@ void S_TalkEnter__Fv() {
 
 
 // address: 0x8006C5CC
+// line start: 3006
+// line end:   3017
 void S_TavernEnter__Fv() {
 }
 
 
 // address: 0x8006C63C
+// line start: 3024
+// line end:   3036
 void S_BarmaidEnter__Fv() {
 }
 
 
 // address: 0x8006C6AC
+// line start: 3043
+// line end:   3054
 void S_DrunkEnter__Fv() {
 }
 
 
 // address: 0x8006C71C
+// line start: 3061
+// line end:   3123
 void STextEnter__Fv() {
 }
 
 
 // address: 0x8006C91C
+// line start: 3128
+// line end:   3218
 void CheckStoreBtn__Fv() {
 	// register: 16
 	// size: 0x6C
@@ -18521,52 +21413,72 @@ void CheckStoreBtn__Fv() {
 
 
 // address: 0x8006CA50
+// line start: 3223
+// line end:   3225
 void ReleaseStoreBtn__Fv() {
 }
 
 
 // address: 0x8006CA64
+// line start: 3304
+// line end:   3304
 void _GLOBAL__D_pSTextBoxCels() {
 }
 
 
 // address: 0x8006CA8C
+// line start: 3304
+// line end:   3304
 void _GLOBAL__I_pSTextBoxCels() {
 }
 
 
 // address: 0x8006CAB4
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad_addr_8006CAB4(struct CPad *this) {
 }
 
 
 // address: 0x8006CADC
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_8006CADC(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x8006CAFC
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_8006CAFC(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8006CB04
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_8006CB04(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x8006CB2C
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_8006CB2C(struct Dialog *this) {
 }
 
 
 // address: 0x8006CB88
+// line start: 129
+// line end:   202
 void T_DrawView__Fii(int StartX, int StartY) {
 }
 
 
 // address: 0x8006CCFC
+// line start: 212
+// line end:   265
 void T_FillSector__FPUcT0iiiib(unsigned char *P3Tiles, unsigned char *pSector, int xi, int yi, int w, int h, bool AddSec) {
 	// register: 9
 	register int i;
@@ -18606,6 +21518,8 @@ void T_FillSector__FPUcT0iiiib(unsigned char *P3Tiles, unsigned char *pSector, i
 
 
 // address: 0x8006CEF4
+// line start: 272
+// line end:   319
 void T_FillTile__FPUciii(unsigned char *P3Tiles, int xx, int yy, int t) {
 	// register: 4
 	register long v1;
@@ -18619,6 +21533,8 @@ void T_FillTile__FPUciii(unsigned char *P3Tiles, int xx, int yy, int t) {
 
 
 // address: 0x8006CFE4
+// line start: 326
+// line end:   402
 void T_Pass3__Fv() {
 	// register: 19
 	register unsigned char *pSector;
@@ -18652,6 +21568,8 @@ void T_Pass3__Fv() {
 
 
 // address: 0x8006D3A4
+// line start: 411
+// line end:   464
 void CreateTown__Fi(int entry) {
 	{
 		// register: 6
@@ -18667,6 +21585,8 @@ void CreateTown__Fi(int entry) {
 
 
 // address: 0x8006D50C
+// line start: 526
+// line end:   558
 unsigned char *GRL_LoadFileInMemSig__FPCcPUl(char *Name, unsigned long *Len) {
 	// register: 18
 	// size: 0x14
@@ -18682,6 +21602,8 @@ unsigned char *GRL_LoadFileInMemSig__FPCcPUl(char *Name, unsigned long *Len) {
 
 
 // address: 0x8006D5F0
+// line start: 570
+// line end:   597
 void GRL_StripDir__FPcPCc(char *Dest, char *Src) {
 	// register: 17
 	register char *BSlash;
@@ -18697,6 +21619,8 @@ void GRL_StripDir__FPcPCc(char *Dest, char *Src) {
 
 
 // address: 0x8006D688
+// line start: 76
+// line end:   117
 unsigned char ForceTownTrig__Fv() {
 	// register: 5
 	register int i;
@@ -18704,6 +21628,8 @@ unsigned char ForceTownTrig__Fv() {
 
 
 // address: 0x8006D9A0
+// line start: 122
+// line end:   150
 unsigned char ForceL1Trig__Fv() {
 	// register: 3
 	register int j;
@@ -18711,6 +21637,8 @@ unsigned char ForceL1Trig__Fv() {
 
 
 // address: 0x8006DC50
+// line start: 157
+// line end:   206
 unsigned char ForceL2Trig__Fv() {
 	// register: 17
 	register int j;
@@ -18722,6 +21650,8 @@ unsigned char ForceL2Trig__Fv() {
 
 
 // address: 0x8006E0B0
+// line start: 213
+// line end:   260
 unsigned char ForceL3Trig__Fv() {
 	// register: 17
 	register int j;
@@ -18733,6 +21663,8 @@ unsigned char ForceL3Trig__Fv() {
 
 
 // address: 0x8006E52C
+// line start: 267
+// line end:   326
 unsigned char ForceL4Trig__Fv() {
 	// register: 17
 	register int j;
@@ -18744,6 +21676,8 @@ unsigned char ForceL4Trig__Fv() {
 
 
 // address: 0x8006EA38
+// line start: 332
+// line end:   342
 void Freeupstairs__Fv() {
 	// register: 8
 	register int j;
@@ -18759,21 +21693,29 @@ void Freeupstairs__Fv() {
 
 
 // address: 0x8006EAF8
+// line start: 349
+// line end:   360
 unsigned char ForceSKingTrig__Fv() {
 }
 
 
 // address: 0x8006EBEC
+// line start: 367
+// line end:   378
 unsigned char ForceSChambTrig__Fv() {
 }
 
 
 // address: 0x8006ECE0
+// line start: 385
+// line end:   396
 unsigned char ForcePWaterTrig__Fv() {
 }
 
 
 // address: 0x8006EDD4
+// line start: 414
+// line end:   466
 void CheckTrigForce__Fv() {
 	// register: 21
 	register int ocursmx;
@@ -18797,11 +21739,15 @@ void CheckTrigForce__Fv() {
 
 
 // address: 0x8006F0F0
+// line start: 476
+// line end:   497
 void FadeGameOut__Fv() {
 }
 
 
 // address: 0x8006F18C
+// line start: 502
+// line end:   509
 bool IsTrigger__Fii(int x, int y) {
 	{
 	}
@@ -18809,6 +21755,8 @@ bool IsTrigger__Fii(int x, int y) {
 
 
 // address: 0x8006F1F0
+// line start: 513
+// line end:   655
 void CheckTriggers__Fi(int pnum) {
 	// register: 17
 	register int x;
@@ -18840,6 +21788,8 @@ void CheckTriggers__Fi(int pnum) {
 
 
 // address: 0x8006F700
+// line start: 45
+// line end:   94
 int GetManaAmount__Fii(int id, int sn) {
 	// register: 3
 	register int i;
@@ -18853,6 +21803,8 @@ int GetManaAmount__Fii(int id, int sn) {
 
 
 // address: 0x8006F9C8
+// line start: 101
+// line end:   138
 void UseMana__Fii(int id, int sn) {
 	// register: 2
 	register int ma;
@@ -18860,11 +21812,15 @@ void UseMana__Fii(int id, int sn) {
 
 
 // address: 0x8006FB0C
+// line start: 144
+// line end:   165
 unsigned char CheckSpell__FiicUc(int id, int sn, char st, unsigned char manaonly) {
 }
 
 
 // address: 0x8006FBAC
+// line start: 172
+// line end:   204
 void CastSpell__Fiiiiiiii(int id, int spl, int sx, int sy, int dx, int dy, int caster, int spllvl) {
 	// register: 17
 	register int i;
@@ -18874,11 +21830,15 @@ void CastSpell__Fiiiiiiii(int id, int spl, int sx, int sy, int dx, int dy, int c
 
 
 // address: 0x8006FE58
+// line start: 209
+// line end:   244
 void DoResurrect__Fii(int pnum, int rid) {
 }
 
 
 // address: 0x8007010C
+// line start: 249
+// line end:   272
 void DoHealOther__Fii(int pnum, int rid) {
 	// register: 16
 	register int i;
@@ -18888,11 +21848,15 @@ void DoHealOther__Fii(int pnum, int rid) {
 
 
 // address: 0x80070370
+// line start: 106
+// line end:   107
 void snd_update__FUc(unsigned char bStopAll) {
 }
 
 
 // address: 0x80070378
+// line start: 113
+// line end:   121
 void snd_get_volume__FPCcPl(char *pszKey, long *plVolume) {
 	// register: 2
 	register unsigned long dwTemp;
@@ -18900,36 +21864,50 @@ void snd_get_volume__FPCcPl(char *pszKey, long *plVolume) {
 
 
 // address: 0x800703E0
+// line start: 128
+// line end:   130
 void snd_stop_snd__FP4TSnd(struct TSnd *pSnd) {
 }
 
 
 // address: 0x80070400
+// line start: 141
+// line end:   158
 void snd_play_snd__FP4TSFXll(struct TSFX *pSnd, long lVolume, long lPan) {
 }
 
 
 // address: 0x80070470
+// line start: 167
+// line end:   195
 void snd_play_msnd__FUsll(unsigned short pszName, long lVolume, long lPan) {
 }
 
 
 // address: 0x8007050C
+// line start: 209
+// line end:   216
 void snd_init__FUl(unsigned long hWnd) {
 }
 
 
 // address: 0x80070568
+// line start: 227
+// line end:   233
 void music_stop__Fv() {
 }
 
 
 // address: 0x800705AC
+// line start: 245
+// line end:   251
 void music_fade__Fv() {
 }
 
 
 // address: 0x800705EC
+// line start: 261
+// line end:   275
 void music_start__Fi(int nTrack) {
 	{
 		{
@@ -18941,16 +21919,22 @@ void music_start__Fi(int nTrack) {
 
 
 // address: 0x80070678
+// line start: 284
+// line end:   290
 void music_hold__Fv() {
 }
 
 
 // address: 0x800706D8
+// line start: 299
+// line end:   305
 void music_release__Fv() {
 }
 
 
 // address: 0x80070728
+// line start: 97
+// line end:   160
 void flyabout__7GamePad(struct GamePad *this) {
 	// register: 16
 	register int cp;
@@ -18971,11 +21955,15 @@ void flyabout__7GamePad(struct GamePad *this) {
 
 
 // address: 0x80070BE4
+// line start: 171
+// line end:   175
 void CloseInvChr__Fv() {
 }
 
 
 // address: 0x80070C2C
+// line start: 184
+// line end:   195
 void WorldToOffset__Fiii(int pnum, int WorldX, int WorldY) {
 	// register: 8
 	register int x;
@@ -18988,6 +21976,8 @@ void WorldToOffset__Fiii(int pnum, int WorldX, int WorldY) {
 
 
 // address: 0x80070CD8
+// line start: 204
+// line end:   235
 char pad_UpIsUp__Fi(int pval) {
 	// register: 3
 	register int walk_dir;
@@ -18995,6 +21985,8 @@ char pad_UpIsUp__Fi(int pval) {
 
 
 // address: 0x80070D48
+// line start: 244
+// line end:   274
 char pad_UpIsUpRight__Fi(int pval) {
 	// register: 3
 	register int walk_dir;
@@ -19003,26 +21995,36 @@ char pad_UpIsUpRight__Fi(int pval) {
 
 // address: 0x80070DB8
 // size: 0x9C
+// line start: 287
+// line end:   314
 struct GamePad *__7GamePadi(struct GamePad *this, int player_num) {
 }
 
 
 // address: 0x80070EE8
+// line start: 323
+// line end:   325
 void SetMoveStyle__7GamePadc(struct GamePad *this, char style_num) {
 }
 
 
 // address: 0x80070F28
+// line start: 334
+// line end:   337
 void SetDownButton__7GamePadiPFi_v(struct GamePad *this, int pad_val, void (*func)()) {
 }
 
 
 // address: 0x80070F6C
+// line start: 346
+// line end:   349
 void SetComboDownButton__7GamePadiPFi_v(struct GamePad *this, int pad_val, void (*func)()) {
 }
 
 
 // address: 0x80070FB0
+// line start: 390
+// line end:   448
 void SetAllButtons__7GamePadP11KEY_ASSIGNS(struct GamePad *this, struct KEY_ASSIGNS *actions) {
 	// register: 18
 	register int i;
@@ -19030,6 +22032,8 @@ void SetAllButtons__7GamePadP11KEY_ASSIGNS(struct GamePad *this, struct KEY_ASSI
 
 
 // address: 0x80071210
+// line start: 458
+// line end:   511
 void GetAllButtons__7GamePadP11KEY_ASSIGNS(struct GamePad *this, struct KEY_ASSIGNS *actions) {
 	// register: 19
 	register int i;
@@ -19039,6 +22043,8 @@ void GetAllButtons__7GamePadP11KEY_ASSIGNS(struct GamePad *this, struct KEY_ASSI
 
 
 // address: 0x800713C0
+// line start: 519
+// line end:   538
 int GetActionButton__7GamePadPFi_v(struct GamePad *this, void (*func)()) {
 	{
 	}
@@ -19046,11 +22052,15 @@ int GetActionButton__7GamePadPFi_v(struct GamePad *this, void (*func)()) {
 
 
 // address: 0x8007141C
+// line start: 546
+// line end:   549
 void SetUpAction__7GamePadPFi_vT1(struct GamePad *this, void (*func)(), void (*upfunc)()) {
 }
 
 
 // address: 0x80071458
+// line start: 558
+// line end:   578
 void RunFunc__7GamePadi(struct GamePad *this, int pad) {
 	// register: 2
 	register int i;
@@ -19058,6 +22068,8 @@ void RunFunc__7GamePadi(struct GamePad *this, int pad) {
 
 
 // address: 0x800714F8
+// line start: 586
+// line end:   709
 void ButtonDown__7GamePadi(struct GamePad *this, int button) {
 	{
 		{
@@ -19075,6 +22087,8 @@ void ButtonDown__7GamePadi(struct GamePad *this, int button) {
 
 
 // address: 0x80071904
+// line start: 719
+// line end:   753
 void TestButtons__7GamePad(struct GamePad *this) {
 	// register: 17
 	register int hand;
@@ -19086,6 +22100,8 @@ void TestButtons__7GamePad(struct GamePad *this) {
 
 
 // address: 0x80071A48
+// line start: 761
+// line end:   807
 int CheckDirs__7GamePadi(struct GamePad *this, int dir) {
 	// register: 3
 	register int wx;
@@ -19095,6 +22111,8 @@ int CheckDirs__7GamePadi(struct GamePad *this, int dir) {
 
 
 // address: 0x80071B60
+// line start: 818
+// line end:   827
 int CheckSide__7GamePadi(struct GamePad *this, int dir) {
 	// register: 5
 	register int lnd;
@@ -19102,6 +22120,8 @@ int CheckSide__7GamePadi(struct GamePad *this, int dir) {
 
 
 // address: 0x80071BA4
+// line start: 835
+// line end:   931
 int CheckBodge__7GamePadi(struct GamePad *this, int dir) {
 	// register: 20
 	register int x;
@@ -19121,6 +22141,8 @@ int CheckBodge__7GamePadi(struct GamePad *this, int dir) {
 
 
 // address: 0x80071EA8
+// line start: 941
+// line end:   1003
 void walk__7GamePadc(struct GamePad *this, char cmd) {
 	// register: 18
 	register int xv;
@@ -19132,6 +22154,8 @@ void walk__7GamePadc(struct GamePad *this, char cmd) {
 
 
 // address: 0x800721B4
+// line start: 1011
+// line end:   1075
 void check_around_player__7GamePad(struct GamePad *this) {
 	// register: 18
 	register int x;
@@ -19148,6 +22172,8 @@ void check_around_player__7GamePad(struct GamePad *this) {
 
 
 // address: 0x80072554
+// line start: 1085
+// line end:   1107
 void show_combos__7GamePad(struct GamePad *this) {
 	// register: 22
 	register int x;
@@ -19161,6 +22187,8 @@ void show_combos__7GamePad(struct GamePad *this) {
 
 
 // address: 0x80072714
+// line start: 1175
+// line end:   1410
 void Handle__7GamePad(struct GamePad *this) {
 	// register: 17
 	register int cp;
@@ -19198,6 +22226,8 @@ void Handle__7GamePad(struct GamePad *this) {
 
 
 // address: 0x80072D9C
+// line start: 1415
+// line end:   1444
 void GamePadTask__FP4TASK(struct TASK *T) {
 	// address: 0xFFFFFEB0
 	// size: 0x9C
@@ -19213,6 +22243,8 @@ void GamePadTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80072E6C
+// line start: 1450
+// line end:   1506
 void PostGamePad__Fiiii(int val, int var1, int var2, int var3) {
 	// register: 4
 	// size: 0x9C
@@ -19224,16 +22256,22 @@ void PostGamePad__Fiiii(int val, int var1, int var2, int var3) {
 
 
 // address: 0x80072F50
+// line start: 1512
+// line end:   1514
 void Init_GamePad__Fv() {
 }
 
 
 // address: 0x80072F80
+// line start: 1519
+// line end:   1533
 void InitGamePadVars__Fv() {
 }
 
 
 // address: 0x80073010
+// line start: 1537
+// line end:   1546
 int SetWalkStyle__Fii(int pnum, int style) {
 	// register: 17
 	register int ret;
@@ -19244,51 +22282,71 @@ int SetWalkStyle__Fii(int pnum, int style) {
 
 
 // address: 0x80073080
+// line start: 128
+// line end:   128
 void MoveToScrollTarget__7CBlocks_addr_80073080(struct CBlocks *this) {
 }
 
 
 // address: 0x80073094
+// line start: 114
+// line end:   118
 unsigned short GetDown__C4CPad_addr_80073094(struct CPad *this) {
 }
 
 
 // address: 0x800730BC
+// line start: 107
+// line end:   111
 unsigned short GetUp__C4CPad_addr_800730BC(struct CPad *this) {
 }
 
 
 // address: 0x800730E4
+// line start: 100
+// line end:   104
 unsigned short GetCur__C4CPad_addr_800730E4(struct CPad *this) {
 }
 
 
 // address: 0x8007310C
+// line start: 66
+// line end:   69
 void DoGameTestStuff__Fv() {
 }
 
 
 // address: 0x80073138
+// line start: 73
+// line end:   76
 void DoInitGameStuff__Fv() {
 }
 
 
 // address: 0x8007316C
+// line start: 63
+// line end:   64
 void *SMemAlloc(unsigned long bytes, char *filename, int linenumber, unsigned long flags) {
 }
 
 
 // address: 0x8007318C
+// line start: 74
+// line end:   76
 unsigned char SMemFree(void *ptr, char *filename, int linenumber, unsigned long flags) {
 }
 
 
 // address: 0x800731AC
+// line start: 94
+// line end:   95
 void GRL_InitGwin__Fv() {
 }
 
 
 // address: 0x800731B8
+// line start: 106
+// line end:   110
 unsigned long (*GRL_SetWindowProc__FPFUlUilUl_Ul(unsigned long (*NewProc)()))() {
 	// register: 2
 	register unsigned long (*OldProc)();
@@ -19296,16 +22354,22 @@ unsigned long (*GRL_SetWindowProc__FPFUlUilUl_Ul(unsigned long (*NewProc)()))() 
 
 
 // address: 0x800731C8
+// line start: 121
+// line end:   123
 void GRL_CallWindowProc__FUlUilUl(unsigned long hw, unsigned int msg, long wp, unsigned long lp) {
 }
 
 
 // address: 0x800731F0
+// line start: 133
+// line end:   150
 unsigned char GRL_PostMessage__FUlUilUl(unsigned long hWnd, unsigned int Msg, long wParam, unsigned long lParam) {
 }
 
 
 // address: 0x8007329C
+// line start: 160
+// line end:   167
 char *Msg2Txt__Fi(int Msg) {
 	{
 	}
@@ -19314,11 +22378,15 @@ char *Msg2Txt__Fi(int Msg) {
 
 // address: 0x800732E4
 // size: 0x4
+// line start: 83
+// line end:   84
 enum LANG_TYPE LANG_GetLang__Fv() {
 }
 
 
 // address: 0x800732F0
+// line start: 91
+// line end:   136
 void LANG_SetDb__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 	{
 		{
@@ -19338,16 +22406,22 @@ void LANG_SetDb__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 
 
 // address: 0x80073470
+// line start: 146
+// line end:   166
 char *GetStr__Fi(int StrId) {
 }
 
 
 // address: 0x800734D8
+// line start: 172
+// line end:   173
 void LANG_ReloadMainTXT__Fv() {
 }
 
 
 // address: 0x800734F8
+// line start: 184
+// line end:   219
 void LANG_SetLang__F9LANG_TYPE(enum LANG_TYPE NewLanguageType) {
 	{
 		{
@@ -19367,6 +22441,8 @@ void LANG_SetLang__F9LANG_TYPE(enum LANG_TYPE NewLanguageType) {
 
 
 // address: 0x80073670
+// line start: 231
+// line end:   240
 void DumpCurrentText__Fv() {
 	{
 		{
@@ -19376,11 +22452,15 @@ void DumpCurrentText__Fv() {
 
 
 // address: 0x800736C8
+// line start: 249
+// line end:   251
 int CalcNumOfStrings__FPPc(char **TPtr) {
 }
 
 
 // address: 0x800736D4
+// line start: 261
+// line end:   279
 void GetLangFileName__F9LANG_TYPEPc(enum LANG_TYPE NewLanguageType, char *Dest) {
 	// register: 17
 	register char *Ext;
@@ -19388,11 +22468,15 @@ void GetLangFileName__F9LANG_TYPEPc(enum LANG_TYPE NewLanguageType, char *Dest) 
 
 
 // address: 0x800737F4
+// line start: 287
+// line end:   313
 char *GetLangFileNameExt__F9LANG_TYPE(enum LANG_TYPE NewLanguageType) {
 }
 
 
 // address: 0x80073874
+// line start: 97
+// line end:   176
 void TempPrintMissile__FiiiiiiiiccUcUcUcc(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
 	// address: 0xFFFFFFA8
 	// size: 0x28
@@ -19431,6 +22515,8 @@ void TempPrintMissile__FiiiiiiiiccUcUcUcc(int ScrX, int ScrY, int OtPos, int spe
 
 
 // address: 0x80073DB8
+// line start: 179
+// line end:   203
 void FuncTOWN__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 16
 	register int anim;
@@ -19443,6 +22529,8 @@ void FuncTOWN__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY
 
 
 // address: 0x80073F38
+// line start: 207
+// line end:   225
 void FuncRPORTAL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 16
 	register int anim;
@@ -19455,6 +22543,8 @@ void FuncRPORTAL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int S
 
 
 // address: 0x80074098
+// line start: 229
+// line end:   244
 void FuncFIREBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -19466,6 +22556,8 @@ void FuncFIREBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int 
 
 
 // address: 0x80074130
+// line start: 251
+// line end:   266
 void FuncHBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -19477,16 +22569,22 @@ void FuncHBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 
 
 // address: 0x800741E0
+// line start: 273
+// line end:   274
 void FuncLIGHTNING__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074244
+// line start: 278
+// line end:   281
 void FuncGUARDIAN__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x8007435C
+// line start: 285
+// line end:   287
 void FuncFIREWALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 3
 	register int frame;
@@ -19494,6 +22592,8 @@ void FuncFIREWALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int 
 
 
 // address: 0x800743F4
+// line start: 291
+// line end:   293
 void FuncFIREMOVE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 3
 	register int frame;
@@ -19501,11 +22601,15 @@ void FuncFIREMOVE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int 
 
 
 // address: 0x8007448C
+// line start: 297
+// line end:   298
 void FuncFLAME__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800744F4
+// line start: 302
+// line end:   313
 void FuncARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 10
 	register char xflip;
@@ -19517,6 +22621,8 @@ void FuncARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 
 
 // address: 0x80074594
+// line start: 317
+// line end:   332
 void FuncFARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -19532,6 +22638,8 @@ void FuncFARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Sc
 
 
 // address: 0x80074674
+// line start: 337
+// line end:   352
 void FuncLARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -19547,6 +22655,8 @@ void FuncLARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Sc
 
 
 // address: 0x8007474C
+// line start: 357
+// line end:   369
 void FuncMAGMABALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 10
 	register char xflip;
@@ -19558,6 +22668,8 @@ void FuncMAGMABALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int
 
 
 // address: 0x800747DC
+// line start: 373
+// line end:   387
 void FuncBONESPIRIT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 22
 	register char xflip;
@@ -19571,6 +22683,8 @@ void FuncBONESPIRIT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, in
 
 
 // address: 0x800748F8
+// line start: 391
+// line end:   403
 void FuncACID__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 10
 	register char xflip;
@@ -19582,16 +22696,22 @@ void FuncACID__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY
 
 
 // address: 0x80074994
+// line start: 407
+// line end:   408
 void FuncACIDSPLAT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800749FC
+// line start: 412
+// line end:   413
 void FuncACIDPUD__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074A64
+// line start: 417
+// line end:   426
 void FuncFLARE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 17
 	register unsigned char red;
@@ -19603,6 +22723,8 @@ void FuncFLARE__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 
 
 // address: 0x80074B98
+// line start: 430
+// line end:   439
 void FuncFLAREXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 18
 	register unsigned char red;
@@ -19614,16 +22736,22 @@ void FuncFLAREXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int S
 
 
 // address: 0x80074CDC
+// line start: 443
+// line end:   444
 void FuncCBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074D44
+// line start: 448
+// line end:   449
 void FuncBOOM__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074D9C
+// line start: 453
+// line end:   463
 void FuncELEMENT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
@@ -19637,16 +22765,22 @@ void FuncELEMENT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int S
 
 
 // address: 0x80074E68
+// line start: 468
+// line end:   469
 void FuncMISEXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074ECC
+// line start: 473
+// line end:   475
 void FuncRHINO__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x80074ED4
+// line start: 478
+// line end:   553
 void FuncFLASH__FP13MissileStructiii(struct MissileStruct *Ms, int x, int y, int OtPos) {
 	// register: 16
 	register int size;
@@ -19703,58 +22837,80 @@ void FuncFLASH__FP13MissileStructiii(struct MissileStruct *Ms, int x, int y, int
 
 
 // address: 0x800753FC
+// line start: 558
+// line end:   563
 void FuncMANASHIELD__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800754A4
+// line start: 567
+// line end:   568
 void FuncFLASH2__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800754AC
+// line start: 571
+// line end:   572
 void FuncRESURRECTBEAM__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x800754E0
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_800754E0(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x8007555C
 // size: 0x84
+// line start: 63
+// line end:   65
 struct CPlayer *GetPlayer__7CPlayeri_addr_8007555C(int PNum) {
 }
 
 
 // address: 0x800755AC
+// line start: 60
+// line end:   60
 int GetLastOtPos__C7CPlayer_addr_800755AC(struct CPlayer *this) {
 }
 
 
 // address: 0x800755B8
+// line start: 59
+// line end:   59
 int GetLastScrY__C7CPlayer_addr_800755B8(struct CPlayer *this) {
 }
 
 
 // address: 0x800755C4
+// line start: 58
+// line end:   58
 int GetLastScrX__C7CPlayer_addr_800755C4(struct CPlayer *this) {
 }
 
 
 // address: 0x800755D0
+// line start: 225
+// line end:   225
 int GetNumOfFrames__7TextDat_addr_800755D0(struct TextDat *this) {
 }
 
 
 // address: 0x800755E4
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_800755E4(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80075600
+// line start: 67
+// line end:   72
 void ML_Init__Fv() {
 	{
 		// register: 3
@@ -19764,6 +22920,8 @@ void ML_Init__Fv() {
 
 
 // address: 0x80075638
+// line start: 81
+// line end:   96
 int ML_GetList__Fi(int Level) {
 	// register: 2
 	register int RetVal;
@@ -19771,6 +22929,8 @@ int ML_GetList__Fi(int Level) {
 
 
 // address: 0x800756B8
+// line start: 105
+// line end:   120
 int ML_SetRandomList__Fi(int Level) {
 	// register: 4
 	register int NumOfLists;
@@ -19778,6 +22938,8 @@ int ML_SetRandomList__Fi(int Level) {
 
 
 // address: 0x80075750
+// line start: 131
+// line end:   147
 int ML_SetList__Fii(int Level, int List) {
 	// register: 2
 	register int NumOfLists;
@@ -19785,6 +22947,8 @@ int ML_SetList__Fii(int Level, int List) {
 
 
 // address: 0x80075800
+// line start: 156
+// line end:   199
 int ML_GetPresetMonsters__FiPiUl(int currlevel, int *typelist, unsigned long QuestsNeededMask) {
 	// register: 10
 	// size: 0x10
@@ -19822,6 +22986,8 @@ int ML_GetPresetMonsters__FiPiUl(int currlevel, int *typelist, unsigned long Que
 
 // address: 0x800759BC
 // size: 0x28
+// line start: 287
+// line end:   314
 struct POLY_FT4 *DefaultObjPrint__FP12ObjectStructiiP7TextDatiii(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos, int XOffSet, int YOffSet) {
 	// register: 16
 	register int AnimFrame;
@@ -19850,6 +23016,8 @@ struct POLY_FT4 *DefaultObjPrint__FP12ObjectStructiiP7TextDatiii(struct ObjectSt
 
 // address: 0x80075B50
 // size: 0x28
+// line start: 319
+// line end:   338
 struct POLY_FT4 *LightObjPrint__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 19
 	// size: 0x28
@@ -19867,6 +23035,8 @@ struct POLY_FT4 *LightObjPrint__FP12ObjectStructiiP7TextDati(struct ObjectStruct
 
 // address: 0x80075C08
 // size: 0x28
+// line start: 354
+// line end:   430
 struct POLY_FT4 *DoorObjPrint__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 22
 	register int AnimFrame;
@@ -19895,12 +23065,16 @@ struct POLY_FT4 *DoorObjPrint__FP12ObjectStructiiP7TextDati(struct ObjectStruct 
 
 
 // address: 0x80075E9C
+// line start: 441
+// line end:   448
 void DrawLightSpark__Fiii(int xo, int yo, int ot) {
 }
 
 
 // address: 0x80075F74
 // size: 0x28
+// line start: 459
+// line end:   467
 struct POLY_FT4 *PrintOBJ_L1LIGHT__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 2
 	// size: 0x28
@@ -19910,239 +23084,319 @@ struct POLY_FT4 *PrintOBJ_L1LIGHT__FP12ObjectStructiiP7TextDati(struct ObjectStr
 
 // address: 0x80075FFC
 // size: 0x28
+// line start: 477
+// line end:   478
 struct POLY_FT4 *PrintOBJ_SKFIRE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076028
 // size: 0x28
+// line start: 488
+// line end:   489
 struct POLY_FT4 *PrintOBJ_LEVER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076054
 // size: 0x28
+// line start: 499
+// line end:   500
 struct POLY_FT4 *PrintOBJ_CHEST1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076080
 // size: 0x28
+// line start: 510
+// line end:   511
 struct POLY_FT4 *PrintOBJ_CHEST2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800760AC
 // size: 0x28
+// line start: 521
+// line end:   522
 struct POLY_FT4 *PrintOBJ_CHEST3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800760D8
 // size: 0x28
+// line start: 532
+// line end:   533
 struct POLY_FT4 *PrintOBJ_CANDLE1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800760FC
 // size: 0x28
+// line start: 543
+// line end:   544
 struct POLY_FT4 *PrintOBJ_CANDLE2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076120
 // size: 0x28
+// line start: 554
+// line end:   555
 struct POLY_FT4 *PrintOBJ_CANDLEO__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007614C
 // size: 0x28
+// line start: 565
+// line end:   566
 struct POLY_FT4 *PrintOBJ_BANNERL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076178
 // size: 0x28
+// line start: 576
+// line end:   577
 struct POLY_FT4 *PrintOBJ_BANNERM__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800761A4
 // size: 0x28
+// line start: 587
+// line end:   588
 struct POLY_FT4 *PrintOBJ_BANNERR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800761D0
 // size: 0x28
+// line start: 598
+// line end:   599
 struct POLY_FT4 *PrintOBJ_SKPILE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800761FC
 // size: 0x28
+// line start: 609
+// line end:   610
 struct POLY_FT4 *PrintOBJ_SKSTICK1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076228
 // size: 0x28
+// line start: 620
+// line end:   621
 struct POLY_FT4 *PrintOBJ_SKSTICK2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076254
 // size: 0x28
+// line start: 631
+// line end:   632
 struct POLY_FT4 *PrintOBJ_SKSTICK3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076280
 // size: 0x28
+// line start: 642
+// line end:   643
 struct POLY_FT4 *PrintOBJ_SKSTICK4__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800762AC
 // size: 0x28
+// line start: 653
+// line end:   654
 struct POLY_FT4 *PrintOBJ_SKSTICK5__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800762D8
 // size: 0x28
+// line start: 664
+// line end:   665
 struct POLY_FT4 *PrintOBJ_CRUX1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076304
 // size: 0x28
+// line start: 675
+// line end:   676
 struct POLY_FT4 *PrintOBJ_CRUX2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076330
 // size: 0x28
+// line start: 686
+// line end:   687
 struct POLY_FT4 *PrintOBJ_CRUX3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007635C
 // size: 0x28
+// line start: 697
+// line end:   698
 struct POLY_FT4 *PrintOBJ_STAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076388
 // size: 0x28
+// line start: 708
+// line end:   709
 struct POLY_FT4 *PrintOBJ_ANGEL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800763B4
 // size: 0x28
+// line start: 719
+// line end:   720
 struct POLY_FT4 *PrintOBJ_BOOK2L__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800763E0
 // size: 0x28
+// line start: 730
+// line end:   731
 struct POLY_FT4 *PrintOBJ_BCROSS__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007640C
 // size: 0x28
+// line start: 741
+// line end:   742
 struct POLY_FT4 *PrintOBJ_NUDEW2R__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076438
 // size: 0x28
+// line start: 752
+// line end:   753
 struct POLY_FT4 *PrintOBJ_SWITCHSKL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076464
 // size: 0x28
+// line start: 763
+// line end:   764
 struct POLY_FT4 *PrintOBJ_TNUDEM1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076490
 // size: 0x28
+// line start: 774
+// line end:   775
 struct POLY_FT4 *PrintOBJ_TNUDEM2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800764BC
 // size: 0x28
+// line start: 785
+// line end:   786
 struct POLY_FT4 *PrintOBJ_TNUDEM3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800764E8
 // size: 0x28
+// line start: 796
+// line end:   797
 struct POLY_FT4 *PrintOBJ_TNUDEM4__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076514
 // size: 0x28
+// line start: 807
+// line end:   808
 struct POLY_FT4 *PrintOBJ_TNUDEW1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076540
 // size: 0x28
+// line start: 818
+// line end:   819
 struct POLY_FT4 *PrintOBJ_TNUDEW2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007656C
 // size: 0x28
+// line start: 829
+// line end:   830
 struct POLY_FT4 *PrintOBJ_TNUDEW3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076598
 // size: 0x28
+// line start: 840
+// line end:   841
 struct POLY_FT4 *PrintOBJ_TORTURE1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800765C4
 // size: 0x28
+// line start: 851
+// line end:   852
 struct POLY_FT4 *PrintOBJ_TORTURE2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800765F0
 // size: 0x28
+// line start: 862
+// line end:   863
 struct POLY_FT4 *PrintOBJ_TORTURE3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007661C
 // size: 0x28
+// line start: 873
+// line end:   874
 struct POLY_FT4 *PrintOBJ_TORTURE4__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076648
 // size: 0x28
+// line start: 884
+// line end:   885
 struct POLY_FT4 *PrintOBJ_TORTURE5__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076674
 // size: 0x28
+// line start: 895
+// line end:   896
 struct POLY_FT4 *PrintOBJ_BOOK2R__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800766A0
+// line start: 906
+// line end:   911
 void PrintTorchStick__Fiiii(int x, int y, int f, int OtPos) {
 	// register: 16
 	// size: 0x6C
@@ -20152,6 +23406,8 @@ void PrintTorchStick__Fiiii(int x, int y, int f, int OtPos) {
 
 // address: 0x80076734
 // size: 0x28
+// line start: 915
+// line end:   921
 struct POLY_FT4 *PrintOBJ_TORCHL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 16
 	// size: 0x28
@@ -20161,6 +23417,8 @@ struct POLY_FT4 *PrintOBJ_TORCHL__FP12ObjectStructiiP7TextDati(struct ObjectStru
 
 // address: 0x800767C4
 // size: 0x28
+// line start: 931
+// line end:   937
 struct POLY_FT4 *PrintOBJ_TORCHR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 16
 	// size: 0x28
@@ -20170,6 +23428,8 @@ struct POLY_FT4 *PrintOBJ_TORCHR__FP12ObjectStructiiP7TextDati(struct ObjectStru
 
 // address: 0x80076854
 // size: 0x28
+// line start: 947
+// line end:   953
 struct POLY_FT4 *PrintOBJ_TORCHL2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 16
 	// size: 0x28
@@ -20179,6 +23439,8 @@ struct POLY_FT4 *PrintOBJ_TORCHL2__FP12ObjectStructiiP7TextDati(struct ObjectStr
 
 // address: 0x800768E4
 // size: 0x28
+// line start: 963
+// line end:   969
 struct POLY_FT4 *PrintOBJ_TORCHR2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 16
 	// size: 0x28
@@ -20188,66 +23450,88 @@ struct POLY_FT4 *PrintOBJ_TORCHR2__FP12ObjectStructiiP7TextDati(struct ObjectStr
 
 // address: 0x80076974
 // size: 0x28
+// line start: 979
+// line end:   980
 struct POLY_FT4 *PrintOBJ_SARC__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800769A0
 // size: 0x28
+// line start: 990
+// line end:   991
 struct POLY_FT4 *PrintOBJ_FLAMEHOLE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800769CC
 // size: 0x28
+// line start: 1001
+// line end:   1002
 struct POLY_FT4 *PrintOBJ_FLAMELVR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800769F8
 // size: 0x28
+// line start: 1012
+// line end:   1013
 struct POLY_FT4 *PrintOBJ_WATER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076A24
 // size: 0x28
+// line start: 1023
+// line end:   1024
 struct POLY_FT4 *PrintOBJ_BOOKLVR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076A50
 // size: 0x28
+// line start: 1034
+// line end:   1035
 struct POLY_FT4 *PrintOBJ_TRAPL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076A7C
 // size: 0x28
+// line start: 1045
+// line end:   1046
 struct POLY_FT4 *PrintOBJ_TRAPR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076AA8
 // size: 0x28
+// line start: 1056
+// line end:   1057
 struct POLY_FT4 *PrintOBJ_BOOKSHELF__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076AD4
 // size: 0x28
+// line start: 1067
+// line end:   1068
 struct POLY_FT4 *PrintOBJ_WEAPRACK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076B00
 // size: 0x28
+// line start: 1078
+// line end:   1079
 struct POLY_FT4 *PrintOBJ_BARREL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076B2C
 // size: 0x28
+// line start: 1089
+// line end:   1115
 struct POLY_FT4 *PrintOBJ_BARRELEX__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 16
 	register int AnimFrame;
@@ -20272,6 +23556,8 @@ struct POLY_FT4 *PrintOBJ_BARRELEX__FP12ObjectStructiiP7TextDati(struct ObjectSt
 
 // address: 0x80076C84
 // size: 0x28
+// line start: 1125
+// line end:   1132
 struct POLY_FT4 *PrintOBJ_SHRINEL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 3
 	register int AnimFrame;
@@ -20280,6 +23566,8 @@ struct POLY_FT4 *PrintOBJ_SHRINEL__FP12ObjectStructiiP7TextDati(struct ObjectStr
 
 // address: 0x80076D50
 // size: 0x28
+// line start: 1142
+// line end:   1149
 struct POLY_FT4 *PrintOBJ_SHRINER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 3
 	register int AnimFrame;
@@ -20288,132 +23576,176 @@ struct POLY_FT4 *PrintOBJ_SHRINER__FP12ObjectStructiiP7TextDati(struct ObjectStr
 
 // address: 0x80076E1C
 // size: 0x28
+// line start: 1159
+// line end:   1160
 struct POLY_FT4 *PrintOBJ_SKELBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076E48
 // size: 0x28
+// line start: 1170
+// line end:   1171
 struct POLY_FT4 *PrintOBJ_BOOKCASEL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076E74
 // size: 0x28
+// line start: 1181
+// line end:   1182
 struct POLY_FT4 *PrintOBJ_BOOKCASER__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076EA0
 // size: 0x28
+// line start: 1192
+// line end:   1193
 struct POLY_FT4 *PrintOBJ_BOOKSTAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076ECC
 // size: 0x28
+// line start: 1203
+// line end:   1204
 struct POLY_FT4 *PrintOBJ_BOOKCANDLE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076EF0
 // size: 0x28
+// line start: 1214
+// line end:   1215
 struct POLY_FT4 *PrintOBJ_BLOODFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076F1C
 // size: 0x28
+// line start: 1225
+// line end:   1226
 struct POLY_FT4 *PrintOBJ_DECAP__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076F48
 // size: 0x28
+// line start: 1236
+// line end:   1237
 struct POLY_FT4 *PrintOBJ_TCHEST1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076F74
 // size: 0x28
+// line start: 1247
+// line end:   1248
 struct POLY_FT4 *PrintOBJ_TCHEST2__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076FA0
 // size: 0x28
+// line start: 1258
+// line end:   1259
 struct POLY_FT4 *PrintOBJ_TCHEST3__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076FCC
 // size: 0x28
+// line start: 1269
+// line end:   1270
 struct POLY_FT4 *PrintOBJ_BLINDBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80076FF8
 // size: 0x28
+// line start: 1280
+// line end:   1281
 struct POLY_FT4 *PrintOBJ_BLOODBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077024
 // size: 0x28
+// line start: 1291
+// line end:   1292
 struct POLY_FT4 *PrintOBJ_PEDISTAL__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077050
 // size: 0x28
+// line start: 1302
+// line end:   1303
 struct POLY_FT4 *PrintOBJ_PURIFYINGFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007707C
 // size: 0x28
+// line start: 1313
+// line end:   1314
 struct POLY_FT4 *PrintOBJ_ARMORSTAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800770A8
 // size: 0x28
+// line start: 1324
+// line end:   1325
 struct POLY_FT4 *PrintOBJ_ARMORSTANDN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800770D4
 // size: 0x28
+// line start: 1335
+// line end:   1336
 struct POLY_FT4 *PrintOBJ_GOATSHRINE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077100
 // size: 0x28
+// line start: 1346
+// line end:   1347
 struct POLY_FT4 *PrintOBJ_CAULDRON__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007712C
 // size: 0x28
+// line start: 1357
+// line end:   1358
 struct POLY_FT4 *PrintOBJ_MURKYFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077158
 // size: 0x28
+// line start: 1368
+// line end:   1369
 struct POLY_FT4 *PrintOBJ_TEARFTN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077184
 // size: 0x28
+// line start: 1379
+// line end:   1380
 struct POLY_FT4 *PrintOBJ_ALTBOY__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800771B0
 // size: 0x28
+// line start: 1390
+// line end:   1422
 struct POLY_FT4 *PrintOBJ_MCIRCLE1__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 19
 	register int AnimFrame;
@@ -20440,6 +23772,8 @@ struct POLY_FT4 *PrintOBJ_MCIRCLE1__FP12ObjectStructiiP7TextDati(struct ObjectSt
 
 // address: 0x80077344
 // size: 0x28
+// line start: 1446
+// line end:   1470
 struct POLY_FT4 *PrintOBJ_STORYBOOK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 	// register: 16
 	register int AnimFrame;
@@ -20464,72 +23798,96 @@ struct POLY_FT4 *PrintOBJ_STORYBOOK__FP12ObjectStructiiP7TextDati(struct ObjectS
 
 // address: 0x800774CC
 // size: 0x28
+// line start: 1480
+// line end:   1481
 struct POLY_FT4 *PrintOBJ_STORYCANDLE__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800774F0
 // size: 0x28
+// line start: 1491
+// line end:   1492
 struct POLY_FT4 *PrintOBJ_STEELTOME__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007751C
 // size: 0x28
+// line start: 1502
+// line end:   1503
 struct POLY_FT4 *PrintOBJ_WARARMOR__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077548
 // size: 0x28
+// line start: 1513
+// line end:   1514
 struct POLY_FT4 *PrintOBJ_WARWEAP__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077574
 // size: 0x28
+// line start: 1524
+// line end:   1525
 struct POLY_FT4 *PrintOBJ_TBCROSS__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800775A0
 // size: 0x28
+// line start: 1535
+// line end:   1536
 struct POLY_FT4 *PrintOBJ_WEAPONRACK__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800775CC
 // size: 0x28
+// line start: 1546
+// line end:   1547
 struct POLY_FT4 *PrintOBJ_WEAPONRACKN__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800775F8
 // size: 0x28
+// line start: 1557
+// line end:   1558
 struct POLY_FT4 *PrintOBJ_MUSHPATCH__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077624
 // size: 0x28
+// line start: 1568
+// line end:   1569
 struct POLY_FT4 *PrintOBJ_LAZSTAND__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x80077650
 // size: 0x28
+// line start: 1579
+// line end:   1580
 struct POLY_FT4 *PrintOBJ_SLAINHERO__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x8007767C
 // size: 0x28
+// line start: 1590
+// line end:   1591
 struct POLY_FT4 *PrintOBJ_SIGNCHEST__FP12ObjectStructiiP7TextDati(struct ObjectStruct *OStr, int ScrX, int ScrY, struct TextDat *ObjDat, int OtPos) {
 }
 
 
 // address: 0x800776A8
 // size: 0x28
+// line start: 84
+// line end:   89
 struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_800776A8(struct POLY_FT4 *Prim) {
 	// address: 0xFFFFFFF0
 	// size: 0x28
@@ -20538,6 +23896,8 @@ struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_800776A8(struct POLY_FT4 *Prim) 
 
 
 // address: 0x800776E4
+// line start: 75
+// line end:   80
 void PRIM_CopyPrim__FP8POLY_FT4T0_addr_800776E4(struct POLY_FT4 *Dest, struct POLY_FT4 *Source) {
 	// register: 4
 	register unsigned long *Dest32;
@@ -20551,64 +23911,88 @@ void PRIM_CopyPrim__FP8POLY_FT4T0_addr_800776E4(struct POLY_FT4 *Dest, struct PO
 
 
 // address: 0x8007770C
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_8007770C(struct POLY_FT4 **Prim) {
 }
 
 
 // address: 0x80077788
 // size: 0x6C
+// line start: 151
+// line end:   151
 struct TextDat *GetBlockTexDat__7CBlocks_addr_80077788(struct CBlocks *this) {
 }
 
 
 // address: 0x80077794
+// line start: 237
+// line end:   237
 int GetNumOfFrames__7TextDatii_addr_80077794(struct TextDat *this, int Creature, int Action) {
 }
 
 
 // address: 0x800777CC
 // size: 0x14
+// line start: 271
+// line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_800777CC(struct TextDat *this, int Creature) {
 }
 
 
 // address: 0x80077844
+// line start: 235
+// line end:   235
 int GetNumOfCreatures__7TextDat_addr_80077844(struct TextDat *this) {
 }
 
 
 // address: 0x80077858
 // size: 0xC
+// line start: 221
+// line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_80077858(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80077874
+// line start: 48
+// line end:   58
 void gamemenu_on__Fv() {
 }
 
 
 // address: 0x8007787C
+// line start: 63
+// line end:   65
 void gamemenu_off__Fv() {
 }
 
 
 // address: 0x80077884
+// line start: 74
+// line end:   96
 void LoadPalette__FPCc(char *pszFileName) {
 }
 
 
 // address: 0x8007788C
+// line start: 101
+// line end:   114
 void LoadRndLvlPal__Fi(int l) {
 }
 
 
 // address: 0x80077894
+// line start: 119
+// line end:   125
 void ResetPal__Fv() {
 }
 
 
 // address: 0x8007789C
+// line start: 133
+// line end:   140
 void SetFadeLevel__Fi(int fadeval) {
 	// register: 3
 	register int nval;
@@ -20616,11 +24000,15 @@ void SetFadeLevel__Fi(int fadeval) {
 
 
 // address: 0x800778CC
+// line start: 175
+// line end:   176
 bool GetFadeState__Fv() {
 }
 
 
 // address: 0x800778D8
+// line start: 203
+// line end:   227
 void SetPolyXY__FP8POLY_GT4PUc(struct POLY_GT4 *gt4, unsigned char *coords) {
 	// register: 3
 	register unsigned char bright2;
@@ -20628,16 +24016,22 @@ void SetPolyXY__FP8POLY_GT4PUc(struct POLY_GT4 *gt4, unsigned char *coords) {
 
 
 // address: 0x800779DC
+// line start: 235
+// line end:   258
 void SmearScreen__Fv() {
 }
 
 
 // address: 0x800779E4
+// line start: 261
+// line end:   266
 void DrawFadedScreen__Fv() {
 }
 
 
 // address: 0x80077A38
+// line start: 285
+// line end:   297
 void BlackPalette__Fv() {
 	// register: 2
 	// size: 0x28
@@ -20646,6 +24040,8 @@ void BlackPalette__Fv() {
 
 
 // address: 0x80077AF4
+// line start: 304
+// line end:   332
 void PaletteFadeInTask__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int i;
@@ -20655,11 +24051,15 @@ void PaletteFadeInTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80077B84
+// line start: 339
+// line end:   346
 bool PaletteFadeIn__Fi(int fr) {
 }
 
 
 // address: 0x80077BDC
+// line start: 354
+// line end:   389
 void PaletteFadeOutTask__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int i;
@@ -20669,16 +24069,22 @@ void PaletteFadeOutTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80077C8C
+// line start: 396
+// line end:   406
 bool PaletteFadeOut__Fi(int fr) {
 }
 
 
 // address: 0x80077CE0
+// line start: 110
+// line end:   135
 void M_CheckEFlag__Fi(int i) {
 }
 
 
 // address: 0x80077D00
+// line start: 139
+// line end:   163
 void M_ClearSquares__Fi(int i) {
 	// register: 8
 	register int mx;
@@ -20702,11 +24108,15 @@ void M_ClearSquares__Fi(int i) {
 
 
 // address: 0x80077E6C
+// line start: 168
+// line end:   171
 unsigned char IsSkel__Fi(int mt) {
 }
 
 
 // address: 0x80077EA8
+// line start: 176
+// line end:   188
 void NewMonsterAnim__FiR10AnimStructii(int i, struct AnimStruct *anim, int md, int AnimType) {
 	// register: 2
 	// size: 0x70
@@ -20715,11 +24125,15 @@ void NewMonsterAnim__FiR10AnimStructii(int i, struct AnimStruct *anim, int md, i
 
 
 // address: 0x80077EF4
+// line start: 192
+// line end:   201
 unsigned char M_Ranged__Fi(int i) {
 }
 
 
 // address: 0x80077F3C
+// line start: 205
+// line end:   217
 unsigned char M_Talker__Fi(int i) {
 	// register: 4
 	register unsigned char _mAi;
@@ -20727,6 +24141,8 @@ unsigned char M_Talker__Fi(int i) {
 
 
 // address: 0x80077F9C
+// line start: 221
+// line end:   304
 void M_Enemy__Fi(int i) {
 	// address: 0xFFFFFFA8
 	auto int j;
@@ -20767,11 +24183,15 @@ void M_Enemy__Fi(int i) {
 
 
 // address: 0x80078510
+// line start: 309
+// line end:   318
 void ClearMVars__Fi(int i) {
 }
 
 
 // address: 0x80078584
+// line start: 322
+// line end:   429
 void InitMonster__Fiiiii(int i, int rd, int mtype, int x, int y) {
 	// register: 17
 	// size: 0x1C
@@ -20783,6 +24203,8 @@ void InitMonster__Fiiiii(int i, int rd, int mtype, int x, int y) {
 
 
 // address: 0x800789D0
+// line start: 434
+// line end:   442
 int AddMonster__FiiiiUc(int x, int y, int dir, int mtype, int InMap) {
 	// register: 16
 	register int i;
@@ -20790,6 +24212,8 @@ int AddMonster__FiiiiUc(int x, int y, int dir, int mtype, int InMap) {
 
 
 // address: 0x80078A80
+// line start: 447
+// line end:   475
 void M_StartStand__Fii(int i, int md) {
 	// register: 3
 	// size: 0x70
@@ -20802,6 +24226,8 @@ void M_StartStand__Fii(int i, int md) {
 
 
 // address: 0x80078BC4
+// line start: 479
+// line end:   498
 void M_UpdateLeader__Fi(int i) {
 	// register: 5
 	register int x;
@@ -20811,11 +24237,15 @@ void M_UpdateLeader__Fi(int i) {
 
 
 // address: 0x80078CBC
+// line start: 502
+// line end:   510
 void ActivateSpawn__Fiiii(int i, int x, int y, int dir) {
 }
 
 
 // address: 0x80078D64
+// line start: 514
+// line end:   559
 unsigned char SpawnSkeleton__Fiii(int ii, int x, int y) {
 	// address: 0xFFFFFF98
 	// size: 0x24
@@ -20836,6 +24266,8 @@ unsigned char SpawnSkeleton__Fiii(int ii, int x, int y) {
 
 
 // address: 0x80078F54
+// line start: 563
+// line end:   580
 void M_StartSpStand__Fii(int i, int md) {
 	// register: 2
 	// size: 0x70
@@ -20848,6 +24280,8 @@ void M_StartSpStand__Fii(int i, int md) {
 
 
 // address: 0x80079034
+// line start: 584
+// line end:   613
 unsigned char PosOkMonst__Fiii(int i, int x, int y) {
 	// register: 18
 	register unsigned char ret;
@@ -20861,6 +24295,8 @@ unsigned char PosOkMonst__Fiii(int i, int x, int y) {
 
 
 // address: 0x800792B0
+// line start: 618
+// line end:   649
 unsigned char CanPut__Fii(int i, int j) {
 	// register: 3
 	register int oi;
@@ -20868,6 +24304,8 @@ unsigned char CanPut__Fii(int i, int j) {
 
 
 // address: 0x800795B8
+// line start: 110
+// line end:   198
 unsigned short GetAutomapType__FiiUc(int x, int y, unsigned char view) {
 	// register: 5
 	register unsigned short rv;
@@ -20877,6 +24315,8 @@ unsigned short GetAutomapType__FiiUc(int x, int y, unsigned char view) {
 
 
 // address: 0x800798B4
+// line start: 203
+// line end:   276
 void SetAutomapView__Fii(int x, int y) {
 	// register: 16
 	register int xx;
@@ -20890,6 +24330,8 @@ void SetAutomapView__Fii(int x, int y) {
 
 
 // address: 0x80079D04
+// line start: 70
+// line end:   140
 int lAddMissile__Fiiici(int sx, int sy, int midir, char micaster, int id) {
 	// register: 16
 	// size: 0x50
@@ -20900,6 +24342,8 @@ int lAddMissile__Fiiici(int sx, int sy, int midir, char micaster, int id) {
 
 
 // address: 0x80079ED8
+// line start: 149
+// line end:   178
 void AddWarpMissile__Fiii(int i, int x, int y) {
 	// register: 3
 	register int mi;
@@ -20907,6 +24351,8 @@ void AddWarpMissile__Fiii(int i, int x, int y) {
 
 
 // address: 0x8007A020
+// line start: 184
+// line end:   198
 void SyncPortals__Fv() {
 	{
 		// register: 16
@@ -20916,31 +24362,43 @@ void SyncPortals__Fv() {
 
 
 // address: 0x8007A128
+// line start: 206
+// line end:   207
 void AddInTownPortal__Fi(int i) {
 }
 
 
 // address: 0x8007A160
+// line start: 214
+// line end:   222
 void ActivatePortal__FiiiiiUc(int i, int x, int y, int lvl, int lvltype, int sp) {
 }
 
 
 // address: 0x8007A1D0
+// line start: 230
+// line end:   232
 void DeactivatePortal__Fi(int i) {
 }
 
 
 // address: 0x8007A1F0
+// line start: 239
+// line end:   243
 unsigned char PortalOnLevel__Fi(int i) {
 }
 
 
 // address: 0x8007A228
+// line start: 249
+// line end:   256
 void DelMis__Fii(int mi, int i) {
 }
 
 
 // address: 0x8007A288
+// line start: 262
+// line end:   277
 void RemovePortalMissile__Fi(int id) {
 	// register: 17
 	register int i;
@@ -20953,32 +24411,44 @@ void RemovePortalMissile__Fi(int id) {
 
 
 // address: 0x8007A404
+// line start: 283
+// line end:   284
 void SetCurrentPortal__Fi(int p) {
 }
 
 
 // address: 0x8007A410
+// line start: 289
+// line end:   315
 void GetPortalLevel__Fv() {
 }
 
 
 // address: 0x8007A5B4
+// line start: 321
+// line end:   334
 void GetPortalLvlPos__Fv() {
 }
 
 
 // address: 0x8007A664
 // size: 0xB8
+// line start: 61
+// line end:   62
 struct CompLevelMaps *__13CompLevelMaps(struct CompLevelMaps *this) {
 }
 
 
 // address: 0x8007A690
+// line start: 70
+// line end:   70
 void ___13CompLevelMaps(struct CompLevelMaps *this, int __in_chrg) {
 }
 
 
 // address: 0x8007A6B8
+// line start: 78
+// line end:   84
 void Init__13CompLevelMaps(struct CompLevelMaps *this) {
 	{
 		// register: 3
@@ -20988,6 +24458,8 @@ void Init__13CompLevelMaps(struct CompLevelMaps *this) {
 
 
 // address: 0x8007A6E8
+// line start: 92
+// line end:   108
 void Dump__13CompLevelMaps(struct CompLevelMaps *this) {
 	{
 		{
@@ -21001,6 +24473,8 @@ void Dump__13CompLevelMaps(struct CompLevelMaps *this) {
 
 
 // address: 0x8007A78C
+// line start: 117
+// line end:   123
 void DumpMap__13CompLevelMapsi(struct CompLevelMaps *this, int MapNum) {
 	{
 		{
@@ -21011,21 +24485,29 @@ void DumpMap__13CompLevelMapsi(struct CompLevelMaps *this, int MapNum) {
 
 // address: 0x8007A7F4
 // size: 0xF1C
+// line start: 132
+// line end:   152
 struct DLevel *UseMap__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 }
 
 
 // address: 0x8007A8C8
+// line start: 160
+// line end:   171
 void ReleaseMap__13CompLevelMapsP6DLevel(struct CompLevelMaps *this, struct DLevel *Map) {
 }
 
 
 // address: 0x8007A938
+// line start: 179
+// line end:   185
 bool IsMapCached__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 }
 
 
 // address: 0x8007A9AC
+// line start: 195
+// line end:   250
 void WriteBackCachedMap__13CompLevelMaps(struct CompLevelMaps *this) {
 	// register: 16
 	register unsigned char *DecDest;
@@ -21043,6 +24525,8 @@ void WriteBackCachedMap__13CompLevelMaps(struct CompLevelMaps *this) {
 
 
 // address: 0x8007ABC0
+// line start: 258
+// line end:   302
 void DecompToCached__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 	// register: 17
 	// size: 0xF1C
@@ -21057,6 +24541,8 @@ void DecompToCached__13CompLevelMapsi(struct CompLevelMaps *this, int Val) {
 
 
 // address: 0x8007AD60
+// line start: 310
+// line end:   356
 void BuildCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLevelMaps *this, struct CompLevelMemImage *Dest) {
 	// register: 20
 	register unsigned char *DestPtr;
@@ -21078,6 +24564,8 @@ void BuildCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLevelMa
 
 
 // address: 0x8007AEC0
+// line start: 364
+// line end:   401
 void InitFromCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLevelMaps *this, struct CompLevelMemImage *Src) {
 	{
 		// register: 20
@@ -21099,21 +24587,29 @@ void InitFromCompLevelImage__13CompLevelMapsP17CompLevelMemImage(struct CompLeve
 
 
 // address: 0x8007B000
+// line start: 408
+// line end:   414
 int DoComp__13CompLevelMapsPUcT1i(struct CompLevelMaps *this, unsigned char *Dest, unsigned char *Source, int SourceSize) {
 }
 
 
 // address: 0x8007B038
+// line start: 418
+// line end:   420
 int DoDecomp__13CompLevelMapsPUcT1ii(struct CompLevelMaps *this, unsigned char *Dest, unsigned char *Source, int DestSize, int SourceSize) {
 }
 
 
 // address: 0x8007B070
+// line start: 73
+// line end:   75
 void GO_DoGameOver__Fv() {
 }
 
 
 // address: 0x8007B0B4
+// line start: 85
+// line end:   116
 void GameOverTask__FP4TASK(struct TASK *T) {
 	// register: 17
 	register bool OldPause;
@@ -21125,6 +24621,8 @@ void GameOverTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8007B170
+// line start: 126
+// line end:   140
 void PrintGameOver__Fv() {
 	// address: 0xFFFFFFE0
 	// size: 0x10
@@ -21136,32 +24634,44 @@ void PrintGameOver__Fv() {
 
 
 // address: 0x8007B24C
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc_addr_8007B24C(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x8007B26C
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi_addr_8007B26C(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8007B274
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi_addr_8007B274(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8007B27C
+// line start: 77
+// line end:   77
 void ___6Dialog_addr_8007B27C(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x8007B2A4
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog_addr_8007B2A4(struct Dialog *this) {
 }
 
 
 // address: 0x8007B300
+// line start: 230
+// line end:   236
 void VER_InitVersion__Fv() {
 	// address: 0xFFFFFF80
 	// size: 0x78
@@ -21170,40 +24680,62 @@ void VER_InitVersion__Fv() {
 
 
 // address: 0x8007B344
+// line start: 240
+// line end:   241
 char *VER_GetVerString__Fv() {
 }
 
 
 // address: 0x8007B354
+// line start: 284
+// line end:   285
 int CharPair2Num__FPc(char *Str) {
 }
 
 
 // address: 0x8001E698
+// line start: 32
+// line end:   33
 void TICK_InitModule();
 
 // address: 0x8001E6B8
+// line start: 41
+// line end:   42
 void TICK_Set(unsigned long Val);
 
 // address: 0x8001E6C8
+// line start: 49
+// line end:   50
 unsigned long TICK_Get();
 
 // address: 0x8001E6D8
+// line start: 58
+// line end:   59
 void TICK_Update();
 
 // address: 0x8001E6F8
+// line start: 66
+// line end:   67
 unsigned long TICK_GetAge(unsigned long OldTick);
 
 // address: 0x8001E724
+// line start: 71
+// line end:   72
 char *TICK_GetDateString();
 
 // address: 0x8001E734
+// line start: 76
+// line end:   77
 char *TICK_GetTimeString();
 
 // address: 0x8001E744
+// line start: 55
+// line end:   57
 unsigned char GU_InitModule();
 
 // address: 0x8001E770
+// line start: 65
+// line end:   70
 void GU_SetRndSeed(unsigned long *Tab) {
 	// register: 5
 	register int f;
@@ -21211,6 +24743,8 @@ void GU_SetRndSeed(unsigned long *Tab) {
 
 
 // address: 0x8001E7A0
+// line start: 76
+// line end:   95
 unsigned long GU_GetRnd() {
 	// register: 6
 	register unsigned long RetVal;
@@ -21218,51 +24752,83 @@ unsigned long GU_GetRnd() {
 
 
 // address: 0x8001E830
+// line start: 103
+// line end:   104
 long GU_GetSRnd();
 
 // address: 0x8001E850
+// line start: 114
+// line end:   115
 unsigned long GU_GetRndRange(unsigned int Range);
 
 // address: 0x8001E88C
+// line start: 126
+// line end:   128
 unsigned int GU_AlignVal(unsigned int w, unsigned int round);
 
 // address: 0x8001E8B0
+// line start: 31
+// line end:   39
 void main();
 
 // address: 0x8001E900
+// line start: 53
+// line end:   60
 unsigned char DBG_OpenModule();
 
 // address: 0x8001E908
+// line start: 72
+// line end:   79
 void DBG_PollHost();
 
 // address: 0x8001E910
+// line start: 88
+// line end:   92
 void DBG_Halt();
 
 // address: 0x8001E918
+// line start: 108
+// line end:   126
 void DBG_SendMessage(char *e);
 
 // address: 0x8001E930
+// line start: 135
+// line end:   136
 void DBG_SetMessageHandler(void (*Func)());
 
 // address: 0x8001E940
+// line start: 146
+// line end:   158
 void DBG_Error(char *Text, char *File, int Line);
 
 // address: 0x8001E96C
+// line start: 164
+// line end:   165
 void DBG_SetErrorFunc(void (*EFunc)());
 
 // address: 0x8001E97C
+// line start: 175
+// line end:   179
 void SendPsyqString(char *e);
 
 // address: 0x8001E984
+// line start: 188
+// line end:   189
 void DBG_SetPollRoutine(void (*Func)());
 
 // address: 0x8001E994
+// line start: 52
+// line end:   53
 unsigned long GTIMSYS_GetTimer();
 
 // address: 0x8001E9B8
+// line start: 57
+// line end:   58
 void GTIMSYS_ResetTimer();
 
 // address: 0x8001E9DC
+// line start: 63
+// line end:   91
 unsigned long GTIMSYS_InitTimer() {
 	// register: 17
 	register int f;
@@ -21272,16 +24838,24 @@ unsigned long GTIMSYS_InitTimer() {
 
 
 // address: 0x8001EC10
+// line start: 88
+// line end:   91
 void DoEpi(struct TASK *T);
 
 // address: 0x8001EC60
+// line start: 99
+// line end:   102
 void DoPro(struct TASK *T);
 
 // address: 0x8001ECB0
+// line start: 115
+// line end:   129
 unsigned char TSK_OpenModule(unsigned long MemType);
 
 // address: 0x8001ED24
 // size: 0x5C
+// line start: 141
+// line end:   211
 struct TASK *TSK_AddTask(unsigned long Id, void (*Main)(), int StackSize, int DataSize) {
 	// register: 16
 	// size: 0x5C
@@ -21295,6 +24869,8 @@ struct TASK *TSK_AddTask(unsigned long Id, void (*Main)(), int StackSize, int Da
 
 
 // address: 0x8001EF0C
+// line start: 218
+// line end:   277
 void TSK_DoTasks() {
 	{
 		// register: 16
@@ -21305,6 +24881,8 @@ void TSK_DoTasks() {
 
 
 // address: 0x8001F0CC
+// line start: 287
+// line end:   313
 void TSK_Sleep(int Frames) {
 	// address: 0xFFFFFFF0
 	// size: 0x5C
@@ -21313,19 +24891,29 @@ void TSK_Sleep(int Frames) {
 
 
 // address: 0x8001F1A8
+// line start: 321
+// line end:   330
 void ReturnToSchedulerIfCurrentTask(struct TASK *T);
 
 // address: 0x8001F230
+// line start: 338
+// line end:   340
 void TSK_Die();
 
 // address: 0x8001F25C
+// line start: 350
+// line end:   357
 void TSK_Kill(struct TASK *T);
 
 // address: 0x8001F2AC
 // size: 0x5C
+// line start: 371
+// line end:   372
 struct TASK *TSK_GetFirstActive();
 
 // address: 0x8001F2BC
+// line start: 385
+// line end:   395
 unsigned char TSK_IsStackCorrupted(struct TASK *T) {
 	{
 		// register: 4
@@ -21335,6 +24923,8 @@ unsigned char TSK_IsStackCorrupted(struct TASK *T) {
 
 
 // address: 0x8001F338
+// line start: 408
+// line end:   418
 void TSK_JumpAndResetStack(void (*RunFunc)()) {
 	// register: 6
 	// size: 0x5C
@@ -21343,17 +24933,25 @@ void TSK_JumpAndResetStack(void (*RunFunc)()) {
 
 
 // address: 0x8001F380
+// line start: 430
+// line end:   440
 void TSK_RepointProc(struct TASK *T, void (*Func)());
 
 // address: 0x8001F3C4
 // size: 0x5C
+// line start: 454
+// line end:   455
 struct TASK *TSK_GetCurrentTask();
 
 // address: 0x8001F3D4
+// line start: 467
+// line end:   468
 unsigned char TSK_IsCurrentTask(struct TASK *T);
 
 // address: 0x8001F3EC
 // size: 0x5C
+// line start: 482
+// line end:   498
 struct TASK *TSK_Exist(struct TASK *T, unsigned long Id, unsigned long Mask) {
 	// register: 3
 	// size: 0x5C
@@ -21365,12 +24963,18 @@ struct TASK *TSK_Exist(struct TASK *T, unsigned long Id, unsigned long Mask) {
 
 
 // address: 0x8001F444
+// line start: 512
+// line end:   514
 void TSK_SetExecFilter(unsigned long Id, unsigned long Mask);
 
 // address: 0x8001F45C
+// line start: 525
+// line end:   526
 void TSK_ClearExecFilter();
 
 // address: 0x8001F480
+// line start: 543
+// line end:   583
 int TSK_KillTasks(struct TASK *CallingT, unsigned long Id, unsigned long Mask) {
 	// register: 17
 	register int TasksKilled;
@@ -21388,6 +24992,8 @@ int TSK_KillTasks(struct TASK *CallingT, unsigned long Id, unsigned long Mask) {
 
 
 // address: 0x8001F580
+// line start: 594
+// line end:   610
 void TSK_IterateTasks(unsigned long Id, unsigned long Mask, void (*CallBack)()) {
 	// register: 4
 	// size: 0x5C
@@ -21401,38 +25007,60 @@ void TSK_IterateTasks(unsigned long Id, unsigned long Mask, void (*CallBack)()) 
 
 
 // address: 0x8001F5F8
+// line start: 619
+// line end:   620
 void TSK_MakeTaskInactive(struct TASK *T);
 
 // address: 0x8001F60C
+// line start: 630
+// line end:   631
 void TSK_MakeTaskActive(struct TASK *T);
 
 // address: 0x8001F620
+// line start: 642
+// line end:   643
 void TSK_MakeTaskImmortal(struct TASK *T);
 
 // address: 0x8001F634
+// line start: 653
+// line end:   654
 void TSK_MakeTaskMortal(struct TASK *T);
 
 // address: 0x8001F648
+// line start: 665
+// line end:   666
 unsigned char TSK_IsTaskActive(struct TASK *T);
 
 // address: 0x8001F65C
+// line start: 677
+// line end:   678
 unsigned char TSK_IsTaskMortal(struct TASK *T);
 
 // address: 0x8001F670
+// line start: 689
+// line end:   696
 void DetachFromList(struct TASK **Head, struct TASK *ThisObj);
 
 // address: 0x8001F6BC
+// line start: 707
+// line end:   713
 void AddToList(struct TASK **Head, struct TASK *ThisObj);
 
 // address: 0x8001F6DC
+// line start: 722
+// line end:   734
 void LoTskKill(struct TASK *T) {
 }
 
 
 // address: 0x8001F74C
+// line start: 744
+// line end:   748
 void ExecuteTask(struct TASK *T);
 
 // address: 0x8001F79C
+// line start: 756
+// line end:   762
 void (*TSK_SetDoTasksPrologue(void (*Func)()))() {
 	// register: 2
 	register void (*Old)();
@@ -21440,6 +25068,8 @@ void (*TSK_SetDoTasksPrologue(void (*Func)()))() {
 
 
 // address: 0x8001F7B4
+// line start: 765
+// line end:   771
 void (*TSK_SetDoTasksEpilogue(void (*Func)()))() {
 	// register: 2
 	register void (*Old)();
@@ -21447,6 +25077,8 @@ void (*TSK_SetDoTasksEpilogue(void (*Func)()))() {
 
 
 // address: 0x8001F7CC
+// line start: 775
+// line end:   781
 void (*TSK_SetTaskPrologue(void (*Pro)()))() {
 	// register: 2
 	register void (*Old)();
@@ -21454,6 +25086,8 @@ void (*TSK_SetTaskPrologue(void (*Pro)()))() {
 
 
 // address: 0x8001F7E4
+// line start: 784
+// line end:   790
 void (*TSK_SetTaskEpilogue(void (*Epi)()))() {
 	// register: 2
 	register void (*Old)();
@@ -21461,15 +25095,23 @@ void (*TSK_SetTaskEpilogue(void (*Epi)()))() {
 
 
 // address: 0x8001F7FC
+// line start: 793
+// line end:   795
 void TSK_SetEpiProFilter(unsigned long Id, unsigned long Mask);
 
 // address: 0x8001F814
+// line start: 799
+// line end:   802
 void TSK_ClearEpiProFilter();
 
 // address: 0x8001F848
+// line start: 810
+// line end:   811
 void TSK_SetExtraStackProtection(unsigned char OnOff);
 
 // address: 0x8001F858
+// line start: 819
+// line end:   826
 void (*TSK_SetStackFloodCallback(void (*Func)()))() {
 	// register: 2
 	register void (*OldFunc)();
@@ -21477,6 +25119,8 @@ void (*TSK_SetStackFloodCallback(void (*Func)()))() {
 
 
 // address: 0x8001F870
+// line start: 833
+// line end:   838
 int TSK_SetExtraStackSize(int Size) {
 	// register: 3
 	register int OldSize;
@@ -21484,6 +25128,8 @@ int TSK_SetExtraStackSize(int Size) {
 
 
 // address: 0x8001F898
+// line start: 841
+// line end:   845
 void ExtraMarkStack(unsigned long *Stack, int SizeLongs) {
 	// register: 3
 	register int f;
@@ -21491,6 +25137,8 @@ void ExtraMarkStack(unsigned long *Stack, int SizeLongs) {
 
 
 // address: 0x8001F8C4
+// line start: 848
+// line end:   857
 int CheckExtraStack(unsigned long *Stack, int LongsToCheck) {
 	// register: 3
 	register unsigned long f;
@@ -21499,30 +25147,44 @@ int CheckExtraStack(unsigned long *Stack, int LongsToCheck) {
 
 // address: 0x8001F900
 // size: 0x8
+// line start: 74
+// line end:   75
 struct MEM_INFO *GSYS_GetWorkMemInfo();
 
 // address: 0x8001F910
+// line start: 89
+// line end:   91
 void GSYS_SetStackAndJump(void *Stack, void (*Func)(), void *Param);
 
 // address: 0x8001F94C
+// line start: 110
+// line end:   115
 void GSYS_MarkStack(void *Stack, unsigned long StackSize) {
 }
 
 
 // address: 0x8001F95C
+// line start: 130
+// line end:   135
 unsigned char GSYS_IsStackCorrupted(void *Stack, unsigned long StackSize) {
 }
 
 
 // address: 0x8001F974
+// line start: 147
+// line end:   151
 unsigned char GSYS_InitMachine();
 
 // address: 0x8001F9C8
+// line start: 170
+// line end:   184
 unsigned char GSYS_CheckPtr(void *Ptr) {
 }
 
 
 // address: 0x8001F9FC
+// line start: 195
+// line end:   199
 unsigned char GSYS_IsStackOutOfBounds(void *Stack, unsigned long StackSize) {
 	// register: 3
 	register unsigned long ThisSp;
@@ -21530,9 +25192,13 @@ unsigned char GSYS_IsStackOutOfBounds(void *Stack, unsigned long StackSize) {
 
 
 // address: 0x8001FA78
+// line start: 174
+// line end:   175
 void GAL_SetErrorChecking(unsigned char OnOff);
 
 // address: 0x8001FA88
+// line start: 194
+// line end:   245
 long GAL_SplitBlock(long CurBlock, unsigned long Size) {
 	// register: 19
 	// size: 0x28
@@ -21547,6 +25213,8 @@ long GAL_SplitBlock(long CurBlock, unsigned long Size) {
 
 
 // address: 0x8001FBBC
+// line start: 253
+// line end:   275
 void GAL_InitModule() {
 	// register: 17
 	register int f;
@@ -21554,6 +25222,8 @@ void GAL_InitModule() {
 
 
 // address: 0x8001FC74
+// line start: 288
+// line end:   358
 unsigned char GAL_AddMemType(struct MEM_INIT_INFO *M) {
 	// register: 4
 	// size: 0x28
@@ -21569,6 +25239,8 @@ unsigned char GAL_AddMemType(struct MEM_INIT_INFO *M) {
 
 
 // address: 0x8001FD94
+// line start: 373
+// line end:   450
 long GAL_Alloc(unsigned long Size, unsigned long Type, char *Name) {
 	// register: 16
 	// size: 0x20
@@ -21589,6 +25261,8 @@ long GAL_Alloc(unsigned long Size, unsigned long Type, char *Name) {
 
 
 // address: 0x8001FF2C
+// line start: 464
+// line end:   486
 void *GAL_Lock(long Handle) {
 	// register: 3
 	// size: 0x20
@@ -21597,6 +25271,8 @@ void *GAL_Lock(long Handle) {
 
 
 // address: 0x8001FF8C
+// line start: 499
+// line end:   530
 unsigned char GAL_Unlock(long Handle) {
 	// register: 4
 	// size: 0x20
@@ -21605,6 +25281,8 @@ unsigned char GAL_Unlock(long Handle) {
 
 
 // address: 0x80020008
+// line start: 542
+// line end:   581
 unsigned char GAL_Free(long Handle) {
 	// register: 16
 	// size: 0x28
@@ -21616,6 +25294,8 @@ unsigned char GAL_Free(long Handle) {
 
 
 // address: 0x800200A8
+// line start: 594
+// line end:   618
 unsigned long GAL_GetFreeMem(unsigned long Type) {
 	// register: 16
 	register unsigned long FreeMem;
@@ -21631,6 +25311,8 @@ unsigned long GAL_GetFreeMem(unsigned long Type) {
 
 
 // address: 0x8002011C
+// line start: 632
+// line end:   656
 unsigned long GAL_GetUsedMem(unsigned long Type) {
 	// register: 16
 	register unsigned long FreeMem;
@@ -21646,6 +25328,8 @@ unsigned long GAL_GetUsedMem(unsigned long Type) {
 
 
 // address: 0x80020190
+// line start: 671
+// line end:   697
 unsigned long GAL_LargestFreeBlock(unsigned long Type) {
 	// register: 5
 	register unsigned long Largest;
@@ -21659,17 +25343,25 @@ unsigned long GAL_LargestFreeBlock(unsigned long Type) {
 
 
 // address: 0x8002020C
+// line start: 709
+// line end:   715
 void AttachHdrToList(struct MEM_HDR **Head, struct MEM_HDR *Block);
 
 // address: 0x8002022C
+// line start: 729
+// line end:   736
 void DetachHdrFromList(struct MEM_HDR **Head, struct MEM_HDR *Block);
 
 // address: 0x80020278
+// line start: 751
+// line end:   764
 unsigned char IsActiveValidHandle(long Handle) {
 }
 
 
 // address: 0x800202A8
+// line start: 778
+// line end:   788
 void *AlignPtr(void *P, unsigned long Align) {
 	// register: 4
 	register unsigned long Addr;
@@ -21679,10 +25371,14 @@ void *AlignPtr(void *P, unsigned long Align) {
 
 
 // address: 0x800202D8
+// line start: 801
+// line end:   802
 unsigned long AlignSize(unsigned long Size, unsigned long Align);
 
 // address: 0x80020308
 // size: 0x20
+// line start: 816
+// line end:   841
 struct MEM_HDR *FindClosestSizedBlock(struct MEM_HDR *Head, unsigned long Size) {
 	// register: 6
 	// size: 0x20
@@ -21695,6 +25391,8 @@ struct MEM_HDR *FindClosestSizedBlock(struct MEM_HDR *Head, unsigned long Size) 
 
 // address: 0x80020360
 // size: 0x20
+// line start: 853
+// line end:   886
 struct MEM_HDR *FindHighestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 	// register: 6
 	// size: 0x20
@@ -21709,6 +25407,8 @@ struct MEM_HDR *FindHighestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 
 // address: 0x800203C8
 // size: 0x20
+// line start: 897
+// line end:   932
 struct MEM_HDR *FindLowestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 	// register: 6
 	// size: 0x20
@@ -21723,6 +25423,8 @@ struct MEM_HDR *FindLowestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 
 // address: 0x80020430
 // size: 0x28
+// line start: 944
+// line end:   965
 struct MEM_INIT_INFO *GetMemInitInfoBlockFromType(unsigned long Type) {
 	// register: 3
 	// size: 0x28
@@ -21731,6 +25433,8 @@ struct MEM_INIT_INFO *GetMemInitInfoBlockFromType(unsigned long Type) {
 
 
 // address: 0x8002046C
+// line start: 978
+// line end:   1031
 void MergeToEmptyList(struct MEM_INIT_INFO *MI, struct MEM_HDR *M) {
 	// register: 16
 	// size: 0x20
@@ -21752,6 +25456,8 @@ void MergeToEmptyList(struct MEM_INIT_INFO *MI, struct MEM_HDR *M) {
 
 
 // address: 0x80020540
+// line start: 1053
+// line end:   1083
 long GAL_AllocAt(unsigned long Size, void *Addr, unsigned long Type, char *Name) {
 	// register: 16
 	// size: 0x20
@@ -21763,6 +25469,8 @@ long GAL_AllocAt(unsigned long Size, void *Addr, unsigned long Type, char *Name)
 
 
 // address: 0x8002061C
+// line start: 1107
+// line end:   1194
 long LoAlloc(struct MEM_INIT_INFO *M, struct MEM_HDR *Block, void *Addr, unsigned long Size, char *Name) {
 	// register: 16
 	// size: 0x20
@@ -21774,6 +25482,8 @@ long LoAlloc(struct MEM_INIT_INFO *M, struct MEM_HDR *Block, void *Addr, unsigne
 
 // address: 0x800207B4
 // size: 0x20
+// line start: 1210
+// line end:   1237
 struct MEM_HDR *FindBlockInTheseBounds(struct MEM_HDR *Head, void *Addr, unsigned long Size) {
 	// register: 4
 	// size: 0x20
@@ -21793,6 +25503,8 @@ struct MEM_HDR *FindBlockInTheseBounds(struct MEM_HDR *Head, void *Addr, unsigne
 
 // address: 0x80020820
 // size: 0x20
+// line start: 1249
+// line end:   1266
 struct MEM_HDR *GetFreeMemHdrBlock() {
 	// register: 16
 	// size: 0x20
@@ -21801,9 +25513,13 @@ struct MEM_HDR *GetFreeMemHdrBlock() {
 
 
 // address: 0x800208A8
+// line start: 1279
+// line end:   1281
 void ReleaseMemHdrBlock(struct MEM_HDR *Index);
 
 // address: 0x800208E8
+// line start: 1293
+// line end:   1313
 void GAL_IterateEmptyMem(unsigned long MemType, void (*Func)()) {
 	// register: 2
 	// size: 0x28
@@ -21817,6 +25533,8 @@ void GAL_IterateEmptyMem(unsigned long MemType, void (*Func)()) {
 
 
 // address: 0x8002096C
+// line start: 1323
+// line end:   1343
 void GAL_IterateUsedMem(unsigned long MemType, void (*Func)()) {
 	// register: 2
 	// size: 0x28
@@ -21830,9 +25548,13 @@ void GAL_IterateUsedMem(unsigned long MemType, void (*Func)()) {
 
 
 // address: 0x80020A08
+// line start: 1354
+// line end:   1358
 unsigned char GAL_SetMemName(long Hnd, char *Text);
 
 // address: 0x80020A70
+// line start: 1378
+// line end:   1392
 unsigned long GAL_TotalMem(unsigned long Type) {
 	// register: 16
 	register unsigned long TotalMem;
@@ -21843,6 +25565,8 @@ unsigned long GAL_TotalMem(unsigned long Type) {
 
 
 // address: 0x80020AC4
+// line start: 1406
+// line end:   1422
 void *GAL_MemBase(unsigned long Type) {
 	// register: 16
 	register void *Ret;
@@ -21853,14 +25577,20 @@ void *GAL_MemBase(unsigned long Type) {
 
 
 // address: 0x80020B18
+// line start: 1436
+// line end:   1453
 unsigned char GAL_DefragMem(unsigned long type) {
 }
 
 
 // address: 0x80020B9C
+// line start: 1466
+// line end:   1471
 unsigned char GSetError(enum GAL_ERROR_CODE Err);
 
 // address: 0x80020BF8
+// line start: 1486
+// line end:   1538
 unsigned char GAL_CheckMem(unsigned long Type) {
 	// register: 17
 	// size: 0x28
@@ -21874,6 +25604,8 @@ unsigned char GAL_CheckMem(unsigned long Type) {
 
 
 // address: 0x80020CF4
+// line start: 1553
+// line end:   1578
 unsigned char CheckCollisions(struct MEM_INIT_INFO *M, struct MEM_HDR *MemHdr) {
 	// register: 16
 	// size: 0x20
@@ -21882,6 +25614,8 @@ unsigned char CheckCollisions(struct MEM_INIT_INFO *M, struct MEM_HDR *MemHdr) {
 
 
 // address: 0x80020DA0
+// line start: 1591
+// line end:   1606
 unsigned char AreBlocksColliding(struct MEM_HDR *Hdr1, struct MEM_HDR *Hdr2) {
 	// register: 5
 	register unsigned long Addr1;
@@ -21891,16 +25625,24 @@ unsigned char AreBlocksColliding(struct MEM_HDR *Hdr1, struct MEM_HDR *Hdr2) {
 
 
 // address: 0x80020DF8
+// line start: 1618
+// line end:   1620
 char *GAL_GetErrorText(enum GAL_ERROR_CODE Err);
 
 // address: 0x80020E28
 // size: 0x4
+// line start: 1633
+// line end:   1634
 enum GAL_ERROR_CODE GAL_GetLastErrorCode();
 
 // address: 0x80020E38
+// line start: 1645
+// line end:   1646
 char *GAL_GetLastErrorText();
 
 // address: 0x80020E60
+// line start: 1658
+// line end:   1685
 int GAL_HowManyEmptyRegions(unsigned long Type) {
 	// register: 2
 	// size: 0x28
@@ -21916,6 +25658,8 @@ int GAL_HowManyEmptyRegions(unsigned long Type) {
 
 
 // address: 0x80020EC8
+// line start: 1695
+// line end:   1720
 int GAL_HowManyUsedRegions(unsigned long Type) {
 	// register: 2
 	// size: 0x28
@@ -21931,15 +25675,23 @@ int GAL_HowManyUsedRegions(unsigned long Type) {
 
 
 // address: 0x80020F30
+// line start: 1729
+// line end:   1730
 void GAL_SetTimeStamp(int Time);
 
 // address: 0x80020F40
+// line start: 1740
+// line end:   1741
 void GAL_IncTimeStamp();
 
 // address: 0x80020F60
+// line start: 1750
+// line end:   1751
 int GAL_GetTimeStamp();
 
 // address: 0x80020F70
+// line start: 1767
+// line end:   1778
 long GAL_AlignSizeToType(unsigned long Size, unsigned long MemType) {
 	// register: 2
 	// size: 0x28
@@ -21948,11 +25700,15 @@ long GAL_AlignSizeToType(unsigned long Size, unsigned long MemType) {
 
 
 // address: 0x80020FC0
+// line start: 1798
+// line end:   1803
 long GAL_AllocMultiStruct(struct GAL_STRUCT *G, unsigned long Type, char *Name) {
 }
 
 
 // address: 0x80021010
+// line start: 1818
+// line end:   1835
 unsigned int GAL_ProcessMultiStruct(struct GAL_STRUCT *G, unsigned long Type) {
 	// register: 17
 	register unsigned int TotalMem;
@@ -21962,11 +25718,15 @@ unsigned int GAL_ProcessMultiStruct(struct GAL_STRUCT *G, unsigned long Type) {
 
 
 // address: 0x800210BC
+// line start: 1846
+// line end:   1857
 long GAL_GetSize(long hnd) {
 }
 
 
 // address: 0x80021110
+// line start: 1871
+// line end:   1963
 unsigned char GazDefragMem(unsigned long MemType) {
 	// address: 0xFFFFFFE0
 	// size: 0x20
@@ -21993,6 +25753,8 @@ unsigned char GazDefragMem(unsigned long MemType) {
 
 
 // address: 0x80021278
+// line start: 1976
+// line end:   2000
 void PutBlocksInRegionIntoList(struct MEM_REG *Reg, struct MEM_HDR **ToList, struct MEM_HDR **FromList) {
 	// register: 16
 	// size: 0x20
@@ -22009,9 +25771,13 @@ void PutBlocksInRegionIntoList(struct MEM_REG *Reg, struct MEM_HDR **ToList, str
 
 
 // address: 0x8002131C
+// line start: 2013
+// line end:   2019
 unsigned char CollideRegions(struct MEM_REG *Reg1, struct MEM_REG *Reg2);
 
 // address: 0x80021350
+// line start: 2032
+// line end:   2042
 void DeleteEmptyBlocks(struct MEM_INIT_INFO *M) {
 	{
 		// register: 16
@@ -22022,6 +25788,8 @@ void DeleteEmptyBlocks(struct MEM_INIT_INFO *M) {
 
 
 // address: 0x800213BC
+// line start: 2060
+// line end:   2095
 unsigned char GetRegion(struct MEM_REG *Reg, struct MEM_HDR *LockedBlocks, struct MEM_INIT_INFO *M) {
 	// register: 3
 	// size: 0x20
@@ -22037,6 +25805,8 @@ unsigned char GetRegion(struct MEM_REG *Reg, struct MEM_HDR *LockedBlocks, struc
 
 // address: 0x800214B4
 // size: 0x20
+// line start: 2134
+// line end:   2153
 struct MEM_HDR *FindNextBlock(void *Addr, struct MEM_HDR *Blocks) {
 	{
 		// register: 2
@@ -22046,6 +25816,8 @@ struct MEM_HDR *FindNextBlock(void *Addr, struct MEM_HDR *Blocks) {
 
 
 // address: 0x800214F0
+// line start: 2167
+// line end:   2196
 unsigned long ShuffleBlocks(struct MEM_HDR *Blocks, struct MEM_REG *Reg, struct MEM_INIT_INFO *M) {
 	// register: 18
 	register unsigned long NewSize;
@@ -22058,6 +25830,8 @@ unsigned long ShuffleBlocks(struct MEM_HDR *Blocks, struct MEM_REG *Reg, struct 
 
 
 // address: 0x80021580
+// line start: 2208
+// line end:   2227
 void PutAllLockedBlocksOntoList(struct MEM_HDR **ToHead, struct MEM_HDR **FromHead) {
 	// register: 16
 	// size: 0x20
@@ -22071,6 +25845,8 @@ void PutAllLockedBlocksOntoList(struct MEM_HDR **ToHead, struct MEM_HDR **FromHe
 
 
 // address: 0x800215FC
+// line start: 2240
+// line end:   2290
 void SortMemHdrListByAddr(struct MEM_HDR **Head) {
 	// register: 7
 	register unsigned char DidASwap;
@@ -22089,6 +25865,8 @@ void SortMemHdrListByAddr(struct MEM_HDR **Head) {
 
 
 // address: 0x800216B0
+// line start: 2301
+// line end:   2324
 void GraftMemHdrList(struct MEM_HDR **ToList, struct MEM_HDR **FromList) {
 	// register: 6
 	// size: 0x20
@@ -22102,12 +25880,18 @@ void GraftMemHdrList(struct MEM_HDR **ToList, struct MEM_HDR **FromList) {
 
 
 // address: 0x8002170C
+// line start: 2335
+// line end:   2340
 void GAL_MemDump(unsigned long Type);
 
 // address: 0x80021780
+// line start: 2354
+// line end:   2355
 void GAL_SetVerbosity(enum GAL_VERB_LEV G);
 
 // address: 0x80021790
+// line start: 2368
+// line end:   2382
 int CountFreeBlocks() {
 	// register: 3
 	// size: 0x20
@@ -22118,6 +25902,8 @@ int CountFreeBlocks() {
 
 
 // address: 0x800217BC
+// line start: 2394
+// line end:   2406
 void SetBlockName(struct MEM_HDR *MemHdr, char *NewName) {
 	// register: 6
 	register int IndexSoFar;
@@ -22125,12 +25911,18 @@ void SetBlockName(struct MEM_HDR *MemHdr, char *NewName) {
 
 
 // address: 0x80021804
+// line start: 2415
+// line end:   2416
 int GAL_GetNumFreeHeaders();
 
 // address: 0x80021814
+// line start: 2420
+// line end:   2421
 unsigned long GAL_GetLastTypeAlloced();
 
 // address: 0x80021824
+// line start: 2431
+// line end:   2438
 void (*GAL_SetAllocFilter(void (*NewFilter)()))() {
 	// register: 2
 	register void (*OldFilter)();
@@ -22138,6 +25930,8 @@ void (*GAL_SetAllocFilter(void (*NewFilter)()))() {
 
 
 // address: 0x8002183C
+// line start: 2447
+// line end:   2459
 unsigned char GAL_SortUsedRegionsBySize(unsigned long MemType) {
 	// register: 2
 	// size: 0x28
@@ -22146,9 +25940,13 @@ unsigned char GAL_SortUsedRegionsBySize(unsigned long MemType) {
 
 
 // address: 0x80021890
+// line start: 2462
+// line end:   2463
 unsigned char SortSize(struct MEM_HDR *B1, struct MEM_HDR *B2);
 
 // address: 0x800218A0
+// line start: 2476
+// line end:   2525
 void SortMemHdrList(struct MEM_HDR **Head, unsigned char (*CompFunc)()) {
 	// register: 18
 	register unsigned char DidASwap;
@@ -22167,6 +25965,8 @@ void SortMemHdrList(struct MEM_HDR **Head, unsigned char (*CompFunc)()) {
 
 
 // address: 0x80023C5C
+// line start: 157
+// line end:   167
 int vsprintf(char *str, char *fmt, char *ap) {
 	// address: 0xFFFFFFD8
 	// size: 0x1C
@@ -22175,6 +25975,8 @@ int vsprintf(char *str, char *fmt, char *ap) {
 
 
 // address: 0x80023CA8
+// line start: 172
+// line end:   479
 int _doprnt(char *fmt0, char *argp, struct FILE *fp) {
 	// register: 22
 	register char *fmt;

@@ -3,9 +3,13 @@
 #include "types.h"
 
 // address: 0x8001F9D0
+// line start: 170
+// line end:   171
 void GAL_SetErrorChecking(unsigned char OnOff);
 
 // address: 0x8001F9E0
+// line start: 190
+// line end:   241
 long GAL_SplitBlock(long CurBlock, unsigned long Size) {
 	// register: 19
 	// size: 0x28
@@ -20,6 +24,8 @@ long GAL_SplitBlock(long CurBlock, unsigned long Size) {
 
 
 // address: 0x8001FB14
+// line start: 249
+// line end:   271
 void GAL_InitModule() {
 	// register: 17
 	register int f;
@@ -27,6 +33,8 @@ void GAL_InitModule() {
 
 
 // address: 0x8001FBCC
+// line start: 284
+// line end:   354
 unsigned char GAL_AddMemType(struct MEM_INIT_INFO *M) {
 	// register: 4
 	// size: 0x28
@@ -42,6 +50,8 @@ unsigned char GAL_AddMemType(struct MEM_INIT_INFO *M) {
 
 
 // address: 0x8001FCEC
+// line start: 369
+// line end:   446
 long GAL_Alloc(unsigned long Size, unsigned long Type, char *Name) {
 	// register: 16
 	// size: 0x20
@@ -62,6 +72,8 @@ long GAL_Alloc(unsigned long Size, unsigned long Type, char *Name) {
 
 
 // address: 0x8001FE84
+// line start: 460
+// line end:   482
 void *GAL_Lock(long Handle) {
 	// register: 3
 	// size: 0x20
@@ -70,6 +82,8 @@ void *GAL_Lock(long Handle) {
 
 
 // address: 0x8001FEE4
+// line start: 495
+// line end:   526
 unsigned char GAL_Unlock(long Handle) {
 	// register: 4
 	// size: 0x20
@@ -78,6 +92,8 @@ unsigned char GAL_Unlock(long Handle) {
 
 
 // address: 0x8001FF60
+// line start: 538
+// line end:   577
 unsigned char GAL_Free(long Handle) {
 	// register: 16
 	// size: 0x28
@@ -89,6 +105,8 @@ unsigned char GAL_Free(long Handle) {
 
 
 // address: 0x80020000
+// line start: 590
+// line end:   614
 unsigned long GAL_GetFreeMem(unsigned long Type) {
 	// register: 16
 	register unsigned long FreeMem;
@@ -104,6 +122,8 @@ unsigned long GAL_GetFreeMem(unsigned long Type) {
 
 
 // address: 0x80020074
+// line start: 628
+// line end:   652
 unsigned long GAL_GetUsedMem(unsigned long Type) {
 	// register: 16
 	register unsigned long FreeMem;
@@ -119,6 +139,8 @@ unsigned long GAL_GetUsedMem(unsigned long Type) {
 
 
 // address: 0x800200E8
+// line start: 667
+// line end:   693
 unsigned long GAL_LargestFreeBlock(unsigned long Type) {
 	// register: 5
 	register unsigned long Largest;
@@ -132,17 +154,25 @@ unsigned long GAL_LargestFreeBlock(unsigned long Type) {
 
 
 // address: 0x80020164
+// line start: 705
+// line end:   711
 void AttachHdrToList(struct MEM_HDR **Head, struct MEM_HDR *Block);
 
 // address: 0x80020184
+// line start: 725
+// line end:   732
 void DetachHdrFromList(struct MEM_HDR **Head, struct MEM_HDR *Block);
 
 // address: 0x800201D0
+// line start: 747
+// line end:   760
 unsigned char IsActiveValidHandle(long Handle) {
 }
 
 
 // address: 0x80020200
+// line start: 774
+// line end:   784
 void *AlignPtr(void *P, unsigned long Align) {
 	// register: 4
 	register unsigned long Addr;
@@ -152,10 +182,14 @@ void *AlignPtr(void *P, unsigned long Align) {
 
 
 // address: 0x80020230
+// line start: 797
+// line end:   798
 unsigned long AlignSize(unsigned long Size, unsigned long Align);
 
 // address: 0x80020260
 // size: 0x20
+// line start: 812
+// line end:   837
 struct MEM_HDR *FindClosestSizedBlock(struct MEM_HDR *Head, unsigned long Size) {
 	// register: 6
 	// size: 0x20
@@ -168,6 +202,8 @@ struct MEM_HDR *FindClosestSizedBlock(struct MEM_HDR *Head, unsigned long Size) 
 
 // address: 0x800202B8
 // size: 0x20
+// line start: 849
+// line end:   882
 struct MEM_HDR *FindHighestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 	// register: 6
 	// size: 0x20
@@ -182,6 +218,8 @@ struct MEM_HDR *FindHighestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 
 // address: 0x80020320
 // size: 0x20
+// line start: 893
+// line end:   928
 struct MEM_HDR *FindLowestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 	// register: 6
 	// size: 0x20
@@ -196,6 +234,8 @@ struct MEM_HDR *FindLowestMemBlock(struct MEM_HDR *Head, unsigned long Size) {
 
 // address: 0x80020388
 // size: 0x28
+// line start: 940
+// line end:   961
 struct MEM_INIT_INFO *GetMemInitInfoBlockFromType(unsigned long Type) {
 	// register: 3
 	// size: 0x28
@@ -204,6 +244,8 @@ struct MEM_INIT_INFO *GetMemInitInfoBlockFromType(unsigned long Type) {
 
 
 // address: 0x800203C4
+// line start: 974
+// line end:   1027
 void MergeToEmptyList(struct MEM_INIT_INFO *MI, struct MEM_HDR *M) {
 	// register: 16
 	// size: 0x20
@@ -225,6 +267,8 @@ void MergeToEmptyList(struct MEM_INIT_INFO *MI, struct MEM_HDR *M) {
 
 
 // address: 0x80020498
+// line start: 1049
+// line end:   1079
 long GAL_AllocAt(unsigned long Size, void *Addr, unsigned long Type, char *Name) {
 	// register: 16
 	// size: 0x20
@@ -236,6 +280,8 @@ long GAL_AllocAt(unsigned long Size, void *Addr, unsigned long Type, char *Name)
 
 
 // address: 0x80020574
+// line start: 1103
+// line end:   1190
 long LoAlloc(struct MEM_INIT_INFO *M, struct MEM_HDR *Block, void *Addr, unsigned long Size, char *Name) {
 	// register: 16
 	// size: 0x20
@@ -247,6 +293,8 @@ long LoAlloc(struct MEM_INIT_INFO *M, struct MEM_HDR *Block, void *Addr, unsigne
 
 // address: 0x8002070C
 // size: 0x20
+// line start: 1206
+// line end:   1233
 struct MEM_HDR *FindBlockInTheseBounds(struct MEM_HDR *Head, void *Addr, unsigned long Size) {
 	// register: 4
 	// size: 0x20
@@ -266,6 +314,8 @@ struct MEM_HDR *FindBlockInTheseBounds(struct MEM_HDR *Head, void *Addr, unsigne
 
 // address: 0x80020778
 // size: 0x20
+// line start: 1245
+// line end:   1262
 struct MEM_HDR *GetFreeMemHdrBlock() {
 	// register: 16
 	// size: 0x20
@@ -274,9 +324,13 @@ struct MEM_HDR *GetFreeMemHdrBlock() {
 
 
 // address: 0x80020800
+// line start: 1275
+// line end:   1277
 void ReleaseMemHdrBlock(struct MEM_HDR *Index);
 
 // address: 0x80020840
+// line start: 1289
+// line end:   1309
 void GAL_IterateEmptyMem(unsigned long MemType, void (*Func)()) {
 	// register: 2
 	// size: 0x28
@@ -290,6 +344,8 @@ void GAL_IterateEmptyMem(unsigned long MemType, void (*Func)()) {
 
 
 // address: 0x800208C4
+// line start: 1319
+// line end:   1339
 void GAL_IterateUsedMem(unsigned long MemType, void (*Func)()) {
 	// register: 2
 	// size: 0x28
@@ -303,9 +359,13 @@ void GAL_IterateUsedMem(unsigned long MemType, void (*Func)()) {
 
 
 // address: 0x80020960
+// line start: 1350
+// line end:   1354
 unsigned char GAL_SetMemName(long Hnd, char *Text);
 
 // address: 0x800209C8
+// line start: 1374
+// line end:   1388
 unsigned long GAL_TotalMem(unsigned long Type) {
 	// register: 16
 	register unsigned long TotalMem;
@@ -316,6 +376,8 @@ unsigned long GAL_TotalMem(unsigned long Type) {
 
 
 // address: 0x80020A1C
+// line start: 1402
+// line end:   1418
 void *GAL_MemBase(unsigned long Type) {
 	// register: 16
 	register void *Ret;
@@ -326,14 +388,20 @@ void *GAL_MemBase(unsigned long Type) {
 
 
 // address: 0x80020A70
+// line start: 1432
+// line end:   1449
 unsigned char GAL_DefragMem(unsigned long type) {
 }
 
 
 // address: 0x80020AF4
+// line start: 1462
+// line end:   1467
 unsigned char GSetError(enum GAL_ERROR_CODE Err);
 
 // address: 0x80020B50
+// line start: 1482
+// line end:   1534
 unsigned char GAL_CheckMem(unsigned long Type) {
 	// register: 17
 	// size: 0x28
@@ -347,6 +415,8 @@ unsigned char GAL_CheckMem(unsigned long Type) {
 
 
 // address: 0x80020C4C
+// line start: 1549
+// line end:   1574
 unsigned char CheckCollisions(struct MEM_INIT_INFO *M, struct MEM_HDR *MemHdr) {
 	// register: 16
 	// size: 0x20
@@ -355,6 +425,8 @@ unsigned char CheckCollisions(struct MEM_INIT_INFO *M, struct MEM_HDR *MemHdr) {
 
 
 // address: 0x80020CF8
+// line start: 1587
+// line end:   1602
 unsigned char AreBlocksColliding(struct MEM_HDR *Hdr1, struct MEM_HDR *Hdr2) {
 	// register: 5
 	register unsigned long Addr1;
@@ -364,16 +436,24 @@ unsigned char AreBlocksColliding(struct MEM_HDR *Hdr1, struct MEM_HDR *Hdr2) {
 
 
 // address: 0x80020D50
+// line start: 1614
+// line end:   1616
 char *GAL_GetErrorText(enum GAL_ERROR_CODE Err);
 
 // address: 0x80020D80
 // size: 0x4
+// line start: 1629
+// line end:   1630
 enum GAL_ERROR_CODE GAL_GetLastErrorCode();
 
 // address: 0x80020D90
+// line start: 1641
+// line end:   1642
 char *GAL_GetLastErrorText();
 
 // address: 0x80020DB8
+// line start: 1654
+// line end:   1681
 int GAL_HowManyEmptyRegions(unsigned long Type) {
 	// register: 2
 	// size: 0x28
@@ -389,6 +469,8 @@ int GAL_HowManyEmptyRegions(unsigned long Type) {
 
 
 // address: 0x80020E20
+// line start: 1691
+// line end:   1716
 int GAL_HowManyUsedRegions(unsigned long Type) {
 	// register: 2
 	// size: 0x28
@@ -404,15 +486,23 @@ int GAL_HowManyUsedRegions(unsigned long Type) {
 
 
 // address: 0x80020E88
+// line start: 1725
+// line end:   1726
 void GAL_SetTimeStamp(int Time);
 
 // address: 0x80020E98
+// line start: 1736
+// line end:   1737
 void GAL_IncTimeStamp();
 
 // address: 0x80020EB8
+// line start: 1746
+// line end:   1747
 int GAL_GetTimeStamp();
 
 // address: 0x80020EC8
+// line start: 1763
+// line end:   1774
 long GAL_AlignSizeToType(unsigned long Size, unsigned long MemType) {
 	// register: 2
 	// size: 0x28
@@ -421,11 +511,15 @@ long GAL_AlignSizeToType(unsigned long Size, unsigned long MemType) {
 
 
 // address: 0x80020F18
+// line start: 1794
+// line end:   1799
 long GAL_AllocMultiStruct(struct GAL_STRUCT *G, unsigned long Type, char *Name) {
 }
 
 
 // address: 0x80020F68
+// line start: 1814
+// line end:   1831
 unsigned int GAL_ProcessMultiStruct(struct GAL_STRUCT *G, unsigned long Type) {
 	// register: 17
 	register unsigned int TotalMem;
@@ -435,11 +529,15 @@ unsigned int GAL_ProcessMultiStruct(struct GAL_STRUCT *G, unsigned long Type) {
 
 
 // address: 0x80021014
+// line start: 1842
+// line end:   1853
 long GAL_GetSize(long hnd) {
 }
 
 
 // address: 0x80021068
+// line start: 1867
+// line end:   1959
 unsigned char GazDefragMem(unsigned long MemType) {
 	// address: 0xFFFFFFE0
 	// size: 0x20
@@ -466,6 +564,8 @@ unsigned char GazDefragMem(unsigned long MemType) {
 
 
 // address: 0x800211D0
+// line start: 1972
+// line end:   1996
 void PutBlocksInRegionIntoList(struct MEM_REG *Reg, struct MEM_HDR **ToList, struct MEM_HDR **FromList) {
 	// register: 16
 	// size: 0x20
@@ -482,9 +582,13 @@ void PutBlocksInRegionIntoList(struct MEM_REG *Reg, struct MEM_HDR **ToList, str
 
 
 // address: 0x80021274
+// line start: 2009
+// line end:   2015
 unsigned char CollideRegions(struct MEM_REG *Reg1, struct MEM_REG *Reg2);
 
 // address: 0x800212A8
+// line start: 2028
+// line end:   2038
 void DeleteEmptyBlocks(struct MEM_INIT_INFO *M) {
 	{
 		// register: 16
@@ -495,6 +599,8 @@ void DeleteEmptyBlocks(struct MEM_INIT_INFO *M) {
 
 
 // address: 0x80021314
+// line start: 2056
+// line end:   2091
 unsigned char GetRegion(struct MEM_REG *Reg, struct MEM_HDR *LockedBlocks, struct MEM_INIT_INFO *M) {
 	// register: 3
 	// size: 0x20
@@ -510,6 +616,8 @@ unsigned char GetRegion(struct MEM_REG *Reg, struct MEM_HDR *LockedBlocks, struc
 
 // address: 0x8002140C
 // size: 0x20
+// line start: 2130
+// line end:   2149
 struct MEM_HDR *FindNextBlock(void *Addr, struct MEM_HDR *Blocks) {
 	{
 		// register: 2
@@ -519,6 +627,8 @@ struct MEM_HDR *FindNextBlock(void *Addr, struct MEM_HDR *Blocks) {
 
 
 // address: 0x80021448
+// line start: 2163
+// line end:   2192
 unsigned long ShuffleBlocks(struct MEM_HDR *Blocks, struct MEM_REG *Reg, struct MEM_INIT_INFO *M) {
 	// register: 18
 	register unsigned long NewSize;
@@ -531,6 +641,8 @@ unsigned long ShuffleBlocks(struct MEM_HDR *Blocks, struct MEM_REG *Reg, struct 
 
 
 // address: 0x800214D8
+// line start: 2204
+// line end:   2223
 void PutAllLockedBlocksOntoList(struct MEM_HDR **ToHead, struct MEM_HDR **FromHead) {
 	// register: 16
 	// size: 0x20
@@ -544,6 +656,8 @@ void PutAllLockedBlocksOntoList(struct MEM_HDR **ToHead, struct MEM_HDR **FromHe
 
 
 // address: 0x80021554
+// line start: 2236
+// line end:   2286
 void SortMemHdrListByAddr(struct MEM_HDR **Head) {
 	// register: 7
 	register unsigned char DidASwap;
@@ -562,6 +676,8 @@ void SortMemHdrListByAddr(struct MEM_HDR **Head) {
 
 
 // address: 0x80021608
+// line start: 2297
+// line end:   2320
 void GraftMemHdrList(struct MEM_HDR **ToList, struct MEM_HDR **FromList) {
 	// register: 6
 	// size: 0x20
@@ -575,12 +691,18 @@ void GraftMemHdrList(struct MEM_HDR **ToList, struct MEM_HDR **FromList) {
 
 
 // address: 0x80021664
+// line start: 2331
+// line end:   2336
 void GAL_MemDump(unsigned long Type);
 
 // address: 0x800216D8
+// line start: 2350
+// line end:   2351
 void GAL_SetVerbosity(enum GAL_VERB_LEV G);
 
 // address: 0x800216E8
+// line start: 2364
+// line end:   2378
 int CountFreeBlocks() {
 	// register: 3
 	// size: 0x20
@@ -591,6 +713,8 @@ int CountFreeBlocks() {
 
 
 // address: 0x80021714
+// line start: 2390
+// line end:   2402
 void SetBlockName(struct MEM_HDR *MemHdr, char *NewName) {
 	// register: 6
 	register int IndexSoFar;
@@ -598,12 +722,18 @@ void SetBlockName(struct MEM_HDR *MemHdr, char *NewName) {
 
 
 // address: 0x8002175C
+// line start: 2411
+// line end:   2412
 int GAL_GetNumFreeHeaders();
 
 // address: 0x8002176C
+// line start: 2416
+// line end:   2417
 unsigned long GAL_GetLastTypeAlloced();
 
 // address: 0x8002177C
+// line start: 2427
+// line end:   2434
 void (*GAL_SetAllocFilter(void (*NewFilter)()))() {
 	// register: 2
 	register void (*OldFilter)();
@@ -611,6 +741,8 @@ void (*GAL_SetAllocFilter(void (*NewFilter)()))() {
 
 
 // address: 0x80021794
+// line start: 2443
+// line end:   2455
 unsigned char GAL_SortUsedRegionsBySize(unsigned long MemType) {
 	// register: 2
 	// size: 0x28
@@ -619,9 +751,13 @@ unsigned char GAL_SortUsedRegionsBySize(unsigned long MemType) {
 
 
 // address: 0x800217E8
+// line start: 2458
+// line end:   2459
 unsigned char SortSize(struct MEM_HDR *B1, struct MEM_HDR *B2);
 
 // address: 0x800217F8
+// line start: 2472
+// line end:   2521
 void SortMemHdrList(struct MEM_HDR **Head, unsigned char (*CompFunc)()) {
 	// register: 18
 	register unsigned char DidASwap;

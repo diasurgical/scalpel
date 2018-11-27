@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80095B90
+// line start: 95
+// line end:   122
 void DrawArrow__Fii(int x1, int y1) {
 	// register: 22
 	// size: 0x24
@@ -25,6 +27,8 @@ void DrawArrow__Fii(int x1, int y1) {
 
 
 // address: 0x80095D94
+// line start: 130
+// line end:   237
 void show_spell_dir__Fi(int pnum) {
 	// address: 0xFFFFFFB8
 	// size: 0x23A8
@@ -54,6 +58,8 @@ void show_spell_dir__Fi(int pnum) {
 
 
 // address: 0x800961F8
+// line start: 251
+// line end:   300
 void release_spell__Fi(int pnum) {
 	// register: 2
 	// size: 0x24
@@ -62,11 +68,15 @@ void release_spell__Fi(int pnum) {
 
 
 // address: 0x8009626C
+// line start: 308
+// line end:   317
 void select_belt_item__Fi(int pnum) {
 }
 
 
 // address: 0x80096274
+// line start: 325
+// line end:   334
 unsigned char any_belt_items__Fv() {
 	// register: 4
 	register int i;
@@ -74,6 +84,8 @@ unsigned char any_belt_items__Fv() {
 
 
 // address: 0x800962DC
+// line start: 341
+// line end:   359
 void get_last_inv__Fv() {
 	// register: 4
 	register int i;
@@ -81,6 +93,8 @@ void get_last_inv__Fv() {
 
 
 // address: 0x8009640C
+// line start: 365
+// line end:   385
 void get_next_inv__Fv() {
 	// register: 4
 	register int i;
@@ -88,31 +102,43 @@ void get_next_inv__Fv() {
 
 
 // address: 0x80096544
+// line start: 394
+// line end:   396
 void pad_func_up__Fi(int pnum) {
 }
 
 
 // address: 0x80096570
+// line start: 404
+// line end:   406
 void pad_func_down__Fi(int pnum) {
 }
 
 
 // address: 0x8009659C
+// line start: 414
+// line end:   415
 void pad_func_left__Fi(int pnum) {
 }
 
 
 // address: 0x800965A4
+// line start: 422
+// line end:   423
 void pad_func_right__Fi(int pnum) {
 }
 
 
 // address: 0x800965AC
+// line start: 441
+// line end:   454
 void pad_func_select__Fi(int pnum) {
 }
 
 
 // address: 0x8009669C
+// line start: 466
+// line end:   541
 void pad_func_Attack__Fi(int pnum) {
 	// register: 18
 	// size: 0x23A8
@@ -125,6 +151,8 @@ void pad_func_Attack__Fi(int pnum) {
 
 
 // address: 0x80096A80
+// line start: 548
+// line end:   599
 void pad_func_Action__Fi(int pnum) {
 	// register: 16
 	// size: 0x23A8
@@ -140,6 +168,8 @@ void pad_func_Action__Fi(int pnum) {
 
 
 // address: 0x80096DA8
+// line start: 603
+// line end:   626
 void InitTargetCursor__Fi(int pnum) {
 	// register: 2
 	// size: 0x23A8
@@ -155,6 +185,8 @@ void InitTargetCursor__Fi(int pnum) {
 
 
 // address: 0x80096EB0
+// line start: 630
+// line end:   649
 void RemoveTargetCursor__Fi(int pnum) {
 	// register: 16
 	// size: 0x24
@@ -163,6 +195,8 @@ void RemoveTargetCursor__Fi(int pnum) {
 
 
 // address: 0x80096F40
+// line start: 656
+// line end:   816
 void pad_func_Cast_Spell__Fi(int pnum) {
 	// register: 16
 	// size: 0x23A8
@@ -191,41 +225,57 @@ void pad_func_Cast_Spell__Fi(int pnum) {
 
 
 // address: 0x800975CC
+// line start: 823
+// line end:   830
 void pad_func_Use_Item__Fi(int pnum) {
 }
 
 
 // address: 0x800976C0
+// line start: 842
+// line end:   855
 void pad_func_Chr__Fi(int pnum) {
 }
 
 
 // address: 0x800977FC
+// line start: 878
+// line end:   890
 void pad_func_Inv__Fi(int pnum) {
 }
 
 
 // address: 0x8009791C
+// line start: 895
+// line end:   906
 void pad_func_SplBook__Fi(int pnum) {
 }
 
 
 // address: 0x80097A34
+// line start: 911
+// line end:   915
 void pad_func_QLog__Fi(int pnum) {
 }
 
 
 // address: 0x80097AE0
+// line start: 929
+// line end:   951
 void pad_func_SpellBook__Fi(int pnum) {
 }
 
 
 // address: 0x80097BAC
+// line start: 989
+// line end:   1000
 void pad_func_AutoMap__Fi(int pnum) {
 }
 
 
 // address: 0x80097CC4
+// line start: 1026
+// line end:   1036
 void pad_func_Quick_Spell__Fi(int pnum) {
 	// register: 2
 	// size: 0x23A8
@@ -238,6 +288,8 @@ void pad_func_Quick_Spell__Fi(int pnum) {
 
 
 // address: 0x80097D40
+// line start: 1064
+// line end:   1100
 void check_inv__FiPci(int pnum, char *ilist, int entries) {
 	// register: 17
 	register int i;
@@ -249,16 +301,22 @@ void check_inv__FiPci(int pnum, char *ilist, int entries) {
 
 
 // address: 0x80097F18
+// line start: 1108
+// line end:   1109
 void pad_func_Quick_Use_Health__Fi(int pnum) {
 }
 
 
 // address: 0x80097F40
+// line start: 1119
+// line end:   1120
 void pad_func_Quick_Use_Mana__Fi(int pnum) {
 }
 
 
 // address: 0x80097F68
+// line start: 1125
+// line end:   1140
 int get_max_find_size__FPici(int *lsize, char mask, int pnum) {
 	// register: 19
 	register int maxlen;
@@ -280,6 +338,8 @@ int get_max_find_size__FPici(int *lsize, char mask, int pnum) {
 
 
 // address: 0x800980A8
+// line start: 1144
+// line end:   1171
 int sort_gold__Fi(int pnum) {
 	// register: 17
 	register int num_gold_items;
@@ -291,6 +351,8 @@ int sort_gold__Fi(int pnum) {
 
 
 // address: 0x800981B4
+// line start: 1175
+// line end:   1317
 void DrawObjSelector__Fi(int pnum) {
 	// register: 23
 	// size: 0x23A8
@@ -331,6 +393,8 @@ void DrawObjSelector__Fi(int pnum) {
 
 
 // address: 0x80098A78
+// line start: 1321
+// line end:   1345
 void DrawObjTask__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -345,11 +409,15 @@ void DrawObjTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80098B54
+// line start: 1354
+// line end:   1360
 void add_area_find_object__Fciii(char type, int index, int x, int y) {
 }
 
 
 // address: 0x80098C60
+// line start: 1369
+// line end:   1439
 unsigned char CheckRangeObject__Fiici(int x, int y, char cmask, int distance) {
 	// register: 3
 	register char co;
@@ -357,6 +425,8 @@ unsigned char CheckRangeObject__Fiici(int x, int y, char cmask, int distance) {
 
 
 // address: 0x80099020
+// line start: 1444
+// line end:   1498
 unsigned char CheckArea__FiiicUci(int xx, int yy, int range, char c_mask, int allflag, int pnum) {
 	// register: 2
 	// size: 0x23A8
@@ -395,6 +465,8 @@ unsigned char CheckArea__FiiicUci(int xx, int yy, int range, char c_mask, int al
 
 
 // address: 0x80099274
+// line start: 1543
+// line end:   1568
 void PlacePlayer__FiiiUc(int pnum, int x, int y, unsigned char do_current) {
 	// register: 18
 	// size: 0x23A8
@@ -403,11 +475,15 @@ void PlacePlayer__FiiiUc(int pnum, int x, int y, unsigned char do_current) {
 
 
 // address: 0x80099498
+// line start: 1569
+// line end:   1569
 void _GLOBAL__D_gplayer() {
 }
 
 
 // address: 0x800994C0
+// line start: 1569
+// line end:   1569
 void _GLOBAL__I_gplayer() {
 }
 

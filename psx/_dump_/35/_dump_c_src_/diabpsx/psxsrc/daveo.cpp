@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8007CD18
+// line start: 65
+// line end:   113
 void ReadPad__Fi(int NoDeb) {
 	// register: 16
 	// size: 0x6C
@@ -25,11 +27,15 @@ void ReadPad__Fi(int NoDeb) {
 
 
 // address: 0x8007CE74
+// line start: 118
+// line end:   121
 void DummyPoll__Fv() {
 }
 
 
 // address: 0x8007CE7C
+// line start: 124
+// line end:   125
 void DaveOwens__Fv() {
 }
 

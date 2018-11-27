@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x801581D8
+// line start: 160
+// line end:   205
 void FillSolidBlockTbls__Fv() {
 	// address: 0xFFFFFFF0
 	auto unsigned long dwTiles;
@@ -24,11 +26,15 @@ void FillSolidBlockTbls__Fv() {
 
 
 // address: 0x80158384
+// line start: 217
+// line end:   218
 void SetDungeonMicros__Fv() {
 }
 
 
 // address: 0x8015838C
+// line start: 224
+// line end:   235
 void DRLG_InitTrans__Fv() {
 	// register: 3
 	register int x;
@@ -38,6 +44,8 @@ void DRLG_InitTrans__Fv() {
 
 
 // address: 0x80158400
+// line start: 243
+// line end:   249
 void DRLG_RectTrans__Fiiii(int x1, int y1, int x2, int y2) {
 	// register: 3
 	register int i;
@@ -47,11 +55,15 @@ void DRLG_RectTrans__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x80158480
+// line start: 257
+// line end:   258
 void DRLG_CopyTrans__Fiiii(int sx, int sy, int dx, int dy) {
 }
 
 
 // address: 0x801584E8
+// line start: 265
+// line end:   275
 void DRLG_ListTrans__FiPUc(int num, unsigned char *List) {
 	// register: 17
 	register int i;
@@ -67,6 +79,8 @@ void DRLG_ListTrans__FiPUc(int num, unsigned char *List) {
 
 
 // address: 0x8015855C
+// line start: 282
+// line end:   294
 void DRLG_AreaTrans__FiPUc(int num, unsigned char *List) {
 	// register: 17
 	register int i;
@@ -82,11 +96,15 @@ void DRLG_AreaTrans__FiPUc(int num, unsigned char *List) {
 
 
 // address: 0x801585EC
+// line start: 302
+// line end:   306
 void DRLG_InitSetPC__Fv() {
 }
 
 
 // address: 0x80158604
+// line start: 314
+// line end:   324
 void DRLG_SetPC__Fv() {
 	// register: 4
 	register int i;
@@ -104,6 +122,8 @@ void DRLG_SetPC__Fv() {
 
 
 // address: 0x801586B4
+// line start: 331
+// line end:   341
 void Make_SetPC__Fiiii(int x, int y, int w, int h) {
 	// register: 8
 	register int i;
@@ -121,6 +141,8 @@ void Make_SetPC__Fiiii(int x, int y, int w, int h) {
 
 
 // address: 0x80158754
+// line start: 375
+// line end:   446
 unsigned char DRLG_WillThemeRoomFit__FiiiiiPiT5(int floor, int x, int y, int minSize, int maxSize, int *width, int *height) {
 	// register: 7
 	register int ii;
@@ -150,6 +172,8 @@ unsigned char DRLG_WillThemeRoomFit__FiiiiiPiT5(int floor, int x, int y, int min
 
 
 // address: 0x80158A1C
+// line start: 458
+// line end:   561
 void DRLG_CreateThemeRoom__Fi(int themeIndex) {
 	// register: 6
 	register int xx;
@@ -159,6 +183,8 @@ void DRLG_CreateThemeRoom__Fi(int themeIndex) {
 
 
 // address: 0x80159A24
+// line start: 585
+// line end:   640
 void DRLG_PlaceThemeRooms__FiiiiUc(int minSize, int maxSize, int floor, int freq, int rndSize) {
 	// register: 18
 	register int i;
@@ -198,6 +224,8 @@ void DRLG_PlaceThemeRooms__FiiiiUc(int minSize, int maxSize, int floor, int freq
 
 
 // address: 0x80159CCC
+// line start: 652
+// line end:   668
 void DRLG_HoldThemeRooms__Fv() {
 	// register: 25
 	register int i;
@@ -209,6 +237,8 @@ void DRLG_HoldThemeRooms__Fv() {
 
 
 // address: 0x80159E80
+// line start: 682
+// line end:   693
 unsigned char SkipThemeRoom__Fii(int x, int y) {
 	// register: 7
 	register int i;
@@ -216,6 +246,8 @@ unsigned char SkipThemeRoom__Fii(int x, int y) {
 
 
 // address: 0x80159F4C
+// line start: 699
+// line end:   726
 void InitLevels__Fv() {
 	{
 		// register: 5

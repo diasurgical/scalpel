@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80070674
+// line start: 303
+// line end:   377
 void sync_monster__FiPC12TSyncMonster(int pnum, struct TSyncMonster *p) {
 	// register: 19
 	register int ndx;
@@ -30,6 +32,8 @@ void sync_monster__FiPC12TSyncMonster(int pnum, struct TSyncMonster *p) {
 
 
 // address: 0x80070A50
+// line start: 418
+// line end:   450
 unsigned long sync_update__FiPCUc(int pnum, unsigned char *pbBuf) {
 	// register: 19
 	// size: 0x30
@@ -40,6 +44,8 @@ unsigned long sync_update__FiPCUc(int pnum, unsigned char *pbBuf) {
 
 
 // address: 0x80070B88
+// line start: 456
+// line end:   461
 void sync_init__Fv() {
 }
 

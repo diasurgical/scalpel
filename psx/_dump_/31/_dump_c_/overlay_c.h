@@ -3,21 +3,29 @@
 // === [ Overlay ID c ] ===
 
 // address: 0x80137CD4
+// line start: 63
+// line end:   66
 void GameOnlyTestRoutine__Fv() {
 }
 
 
 // address: 0x80137CDC
+// line start: 106
+// line end:   107
 int vecleny__Fii(int a, int b) {
 }
 
 
 // address: 0x80137D00
+// line start: 111
+// line end:   112
 int veclenx__Fii(int a, int b) {
 }
 
 
 // address: 0x80137D2C
+// line start: 265
+// line end:   416
 void GetDamageAmt__FiPiT1(int i, int *mind, int *maxd) {
 	// register: 4
 	register int k;
@@ -36,6 +44,8 @@ void GetDamageAmt__FiPiT1(int i, int *mind, int *maxd) {
 
 
 // address: 0x80138324
+// line start: 434
+// line end:   450
 int CheckBlock__Fiiii(int fx, int fy, int tx, int ty) {
 	// register: 2
 	register int pn;
@@ -45,6 +55,8 @@ int CheckBlock__Fiiii(int fx, int fy, int tx, int ty) {
 
 
 // address: 0x8013840C
+// line start: 456
+// line end:   478
 int FindClosest__Fiii(int sx, int sy, int rad) {
 	// register: 19
 	register int cr;
@@ -67,6 +79,8 @@ int FindClosest__Fiii(int sx, int sy, int rad) {
 
 
 // address: 0x801385A8
+// line start: 485
+// line end:   495
 int GetSpellLevel__Fii(int id, int sn) {
 	// register: 2
 	register int rv;
@@ -74,6 +88,8 @@ int GetSpellLevel__Fii(int id, int sn) {
 
 
 // address: 0x8013861C
+// line start: 517
+// line end:   557
 int GetDirection8__Fiiii(int x1, int y1, int x2, int y2) {
 	// address: 0xFFFFFEB8
 	// size: 0x100
@@ -100,6 +116,8 @@ int GetDirection8__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x80138838
+// line start: 563
+// line end:   603
 int GetDirection16__Fiiii(int x1, int y1, int x2, int y2) {
 	// address: 0xFFFFFEB8
 	// size: 0x100
@@ -126,11 +144,15 @@ int GetDirection16__Fiiii(int x1, int y1, int x2, int y2) {
 
 
 // address: 0x80138A54
+// line start: 609
+// line end:   616
 void DeleteMissile__Fii(int mi, int i) {
 }
 
 
 // address: 0x80138AAC
+// line start: 623
+// line end:   634
 void GetMissileVel__Fiiiiii(int i, int sx, int sy, int dx, int dy, int v) {
 	// register: 16
 	register long dxp;
@@ -142,6 +164,8 @@ void GetMissileVel__Fiiiiii(int i, int sx, int sy, int dx, int dy, int v) {
 
 
 // address: 0x80138C60
+// line start: 640
+// line end:   654
 void PutMissile__Fi(int i) {
 	// register: 6
 	register int mx;
@@ -151,6 +175,8 @@ void PutMissile__Fi(int i) {
 
 
 // address: 0x80138D64
+// line start: 671
+// line end:   702
 void GetMissilePos__Fi(int i) {
 	// register: 8
 	register long mx;
@@ -168,6 +194,8 @@ void GetMissilePos__Fi(int i) {
 
 
 // address: 0x80138E8C
+// line start: 713
+// line end:   770
 void MoveMissilePos__Fi(int i) {
 	// register: 18
 	register int dx;
@@ -177,6 +205,8 @@ void MoveMissilePos__Fi(int i) {
 
 
 // address: 0x80138FF4
+// line start: 778
+// line end:   851
 unsigned char MonsterTrapHit__FiiiiiUc(int m, int mindam, int maxdam, int dist, int t, int shift) {
 	// register: 19
 	register int hit;
@@ -196,6 +226,8 @@ unsigned char MonsterTrapHit__FiiiiiUc(int m, int mindam, int maxdam, int dist, 
 
 
 // address: 0x80139368
+// line start: 858
+// line end:   966
 unsigned char MonsterMHit__FiiiiiiUc(int pnum, int m, int mindam, int maxdam, int dist, int t, int shift) {
 	// register: 21
 	register int hit;
@@ -215,6 +247,8 @@ unsigned char MonsterMHit__FiiiiiiUc(int pnum, int m, int mindam, int maxdam, in
 
 
 // address: 0x80139AC8
+// line start: 973
+// line end:   1096
 unsigned char PlayerMHit__FiiiiiiUcUc(int pnum, int m, int dist, int mind, int maxd, int mtype, int shift, int earflag) {
 	// address: 0xFFFFFFD0
 	auto int hit;
@@ -236,6 +270,8 @@ unsigned char PlayerMHit__FiiiiiiUcUc(int pnum, int m, int dist, int mind, int m
 
 
 // address: 0x8013A534
+// line start: 1103
+// line end:   1195
 unsigned char Plr2PlrMHit__FiiiiiiUc(int pnum, int p, int mindam, int maxdam, int dist, int mtype, int shift) {
 	// register: 7
 	register int hit;
@@ -255,6 +291,8 @@ unsigned char Plr2PlrMHit__FiiiiiiUc(int pnum, int p, int mindam, int maxdam, in
 
 
 // address: 0x8013AD10
+// line start: 1202
+// line end:   1293
 void CheckMissileCol__FiiiUciiUc(int i, int mindam, int maxdam, unsigned char shift, int mx, int my, int nodel) {
 	// register: 2
 	register int pn;
@@ -270,6 +308,8 @@ void CheckMissileCol__FiiiUciiUc(int i, int mindam, int maxdam, unsigned char sh
 
 
 // address: 0x8013B18C
+// line start: 1296
+// line end:   1310
 unsigned char GetTableValue__FUci(unsigned char code, int dir) {
 	// register: 3
 	register unsigned char hicode;
@@ -279,6 +319,8 @@ unsigned char GetTableValue__FUci(unsigned char code, int dir) {
 
 
 // address: 0x8013B220
+// line start: 1316
+// line end:   1335
 void SetMissAnim__Fii(int mi, int animtype) {
 	// register: 18
 	register int dir;
@@ -286,16 +328,22 @@ void SetMissAnim__Fii(int mi, int animtype) {
 
 
 // address: 0x8013B2F0
+// line start: 1340
+// line end:   1343
 void SetMissDir__Fii(int mi, int dir) {
 }
 
 
 // address: 0x8013B334
+// line start: 1496
+// line end:   1516
 void AddLArrow__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013B514
+// line start: 1522
+// line end:   1541
 void AddArrow__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 3
 	register int av;
@@ -303,6 +351,8 @@ void AddArrow__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013B6D0
+// line start: 1547
+// line end:   1566
 void GetVileMissPos__Fiii(int mi, int dx, int dy) {
 	// register: 17
 	register int xx;
@@ -328,6 +378,8 @@ void GetVileMissPos__Fiii(int mi, int dx, int dy) {
 
 
 // address: 0x8013B7F4
+// line start: 1577
+// line end:   1628
 void AddRndTeleport__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 2
 	register int pn;
@@ -349,6 +401,8 @@ void AddRndTeleport__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midi
 
 
 // address: 0x8013BB64
+// line start: 1639
+// line end:   1681
 void AddFirebolt__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int micaster, int id, int dam) {
 	// register: 3
 	register int sp;
@@ -360,11 +414,15 @@ void AddFirebolt__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, 
 
 
 // address: 0x8013BDD0
+// line start: 1689
+// line end:   1703
 void AddMagmaball__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013BEE4
+// line start: 1723
+// line end:   1759
 void AddTeleport__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 10
 	register int i;
@@ -387,11 +445,15 @@ void AddTeleport__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, 
 
 
 // address: 0x8013C0DC
+// line start: 1767
+// line end:   1783
 void AddLightball__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013C230
+// line start: 1789
+// line end:   1805
 void AddFirewall__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 4
 	register int i;
@@ -399,6 +461,8 @@ void AddFirewall__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, 
 
 
 // address: 0x8013C418
+// line start: 1814
+// line end:   1852
 void AddFireball__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 17
 	register int i;
@@ -406,21 +470,29 @@ void AddFireball__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, 
 
 
 // address: 0x8013C674
+// line start: 1860
+// line end:   1871
 void AddLightctrl__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013C75C
+// line start: 1875
+// line end:   1902
 void AddLightning__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013C924
+// line start: 1911
+// line end:   1935
 void AddMisexp__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013CB30
+// line start: 1959
+// line end:   1967
 unsigned char CheckIfTrig__Fii(int x, int y) {
 	// register: 18
 	register int i;
@@ -428,6 +500,8 @@ unsigned char CheckIfTrig__Fii(int x, int y) {
 
 
 // address: 0x8013CC14
+// line start: 1971
+// line end:   2036
 void AddTown__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 17
 	register int i;
@@ -452,6 +526,8 @@ void AddTown__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int 
 
 
 // address: 0x8013D038
+// line start: 2044
+// line end:   2063
 void AddFlash__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 16
 	register int i;
@@ -459,6 +535,8 @@ void AddFlash__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013D248
+// line start: 2072
+// line end:   2099
 void AddFlash2__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 16
 	register int i;
@@ -466,16 +544,22 @@ void AddFlash2__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, in
 
 
 // address: 0x8013D428
+// line start: 2103
+// line end:   2113
 void AddManashield__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013D4F0
+// line start: 2122
+// line end:   2134
 void AddFiremove__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013D64C
+// line start: 2139
+// line end:   2197
 void AddGuardian__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 20
 	register int i;
@@ -498,11 +582,15 @@ void AddGuardian__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, 
 
 
 // address: 0x8013DAB8
+// line start: 2200
+// line end:   2207
 void AddChain__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013DB14
+// line start: 2343
+// line end:   2380
 void AddRhino__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 16
 	// size: 0x2
@@ -511,16 +599,22 @@ void AddRhino__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013DCD0
+// line start: 2418
+// line end:   2463
 void AddFlare__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013DFC8
+// line start: 2471
+// line end:   2483
 void AddAcid__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013E0CC
+// line start: 2553
+// line end:   2577
 void AddAcidpud__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 17
 	register int monst;
@@ -528,6 +622,8 @@ void AddAcidpud__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, i
 
 
 // address: 0x8013E1A4
+// line start: 2581
+// line end:   2642
 void AddStone__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 6
 	register int i;
@@ -550,6 +646,8 @@ void AddStone__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013E49C
+// line start: 2656
+// line end:   2701
 void AddGolem__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 5
 	register int i;
@@ -562,11 +660,15 @@ void AddGolem__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013E654
+// line start: 2780
+// line end:   2791
 void AddBoom__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013E6E8
+// line start: 2797
+// line end:   2816
 void AddHeal__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 16
 	register int i;
@@ -576,11 +678,15 @@ void AddHeal__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int 
 
 
 // address: 0x8013E910
+// line start: 2824
+// line end:   2830
 void AddHealOther__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013E978
+// line start: 2838
+// line end:   2868
 void AddElement__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 5
 	register int i;
@@ -588,11 +694,15 @@ void AddElement__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, i
 
 
 // address: 0x8013EBA4
+// line start: 2876
+// line end:   2885
 void AddIdentify__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013EC54
+// line start: 2893
+// line end:   2940
 void AddFirewallC__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 22
 	register int i;
@@ -615,6 +725,8 @@ void AddFirewallC__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir,
 
 
 // address: 0x8013EF04
+// line start: 2943
+// line end:   2952
 void AddInfra__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 4
 	register int i;
@@ -622,11 +734,15 @@ void AddInfra__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013F000
+// line start: 2959
+// line end:   2967
 void AddWave__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013F084
+// line start: 2974
+// line end:   2991
 void AddNova__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 5
 	register int k;
@@ -634,21 +750,29 @@ void AddNova__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int 
 
 
 // address: 0x8013F29C
+// line start: 3014
+// line end:   3023
 void AddRepair__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013F34C
+// line start: 3031
+// line end:   3040
 void AddRecharge__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013F3FC
+// line start: 3048
+// line end:   3054
 void AddDisarm__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013F464
+// line start: 3062
+// line end:   3084
 void AddApoca__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 16
 	register int i;
@@ -656,6 +780,8 @@ void AddApoca__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013F6A0
+// line start: 3091
+// line end:   3120
 void AddFlame__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int seqno) {
 	// register: 8
 	register int i;
@@ -663,16 +789,22 @@ void AddFlame__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013F8BC
+// line start: 3128
+// line end:   3145
 void AddFlamec__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013F9AC
+// line start: 3152
+// line end:   3187
 void AddCbolt__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int micaster, int id, int dam) {
 }
 
 
 // address: 0x8013FBA0
+// line start: 3196
+// line end:   3220
 void AddHbolt__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int micaster, int id, int dam) {
 	// register: 3
 	register int sp;
@@ -680,31 +812,43 @@ void AddHbolt__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int
 
 
 // address: 0x8013FD60
+// line start: 3229
+// line end:   3237
 void AddResurrect__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013FDD4
+// line start: 3241
+// line end:   3251
 void AddResurrectBeam__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013FE5C
+// line start: 3258
+// line end:   3264
 void AddTelekinesis__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x8013FEC4
+// line start: 3272
+// line end:   3309
 void AddBoneSpirit__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x801400C0
+// line start: 3319
+// line end:   3330
 void AddRportal__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 }
 
 
 // address: 0x80140160
+// line start: 3334
+// line end:   3345
 void AddDiabApoca__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir, int mienemy, int id, int dam) {
 	// register: 18
 	register int pnum;
@@ -712,6 +856,8 @@ void AddDiabApoca__Fiiiiiicii(int mi, int sx, int sy, int dx, int dy, int midir,
 
 
 // address: 0x8014029C
+// line start: 3349
+// line end:   3417
 int AddMissile__Fiiiiiiciii(int sx, int sy, int v1, int v2, int midir, int mitype, int micaster, int id, int v3, int spllvl) {
 	// register: 16
 	register int mi;
@@ -719,6 +865,8 @@ int AddMissile__Fiiiiiiciii(int sx, int sy, int v1, int v2, int midir, int mityp
 
 
 // address: 0x801405E8
+// line start: 3453
+// line end:   3473
 int Sentfire__Fiii(int i, int sx, int sy) {
 	// register: 21
 	register int ex;
@@ -728,11 +876,15 @@ int Sentfire__Fiii(int i, int sx, int sy) {
 
 
 // address: 0x801407CC
+// line start: 3479
+// line end:   3480
 void MI_Dummy__Fi(int i) {
 }
 
 
 // address: 0x801407D4
+// line start: 3483
+// line end:   3513
 void MI_Golem__Fi(int i) {
 	// address: 0xFFFFFFD0
 	auto int id;
@@ -757,11 +909,15 @@ void MI_Golem__Fi(int i) {
 
 
 // address: 0x80140A30
+// line start: 3518
+// line end:   3521
 void MI_SetManashield__Fi(int i) {
 }
 
 
 // address: 0x80140A6C
+// line start: 3526
+// line end:   3612
 void MI_LArrow__Fi(int i) {
 	// register: 17
 	register int p;
@@ -775,6 +931,8 @@ void MI_LArrow__Fi(int i) {
 
 
 // address: 0x80141228
+// line start: 3616
+// line end:   3641
 void MI_Arrow__Fi(int i) {
 	// register: 3
 	register int p;
@@ -786,6 +944,8 @@ void MI_Arrow__Fi(int i) {
 
 
 // address: 0x80141444
+// line start: 3645
+// line end:   3732
 void MI_Firebolt__Fi(int i) {
 	// register: 20
 	register int omx;
@@ -799,6 +959,8 @@ void MI_Firebolt__Fi(int i) {
 
 
 // address: 0x80141B10
+// line start: 3735
+// line end:   3763
 void MI_Lightball__Fi(int i) {
 	// register: 20
 	register int j;
@@ -812,6 +974,8 @@ void MI_Lightball__Fi(int i) {
 
 
 // address: 0x80141D98
+// line start: 3781
+// line end:   3806
 void MI_Acidpud__Fi(int i) {
 	// register: 16
 	register int range;
@@ -819,6 +983,8 @@ void MI_Acidpud__Fi(int i) {
 
 
 // address: 0x80141EA8
+// line start: 3810
+// line end:   3844
 void MI_Firewall__Fi(int i) {
 	// address: 0xFFFFFFB8
 	// size: 0x38
@@ -827,6 +993,8 @@ void MI_Firewall__Fi(int i) {
 
 
 // address: 0x8014216C
+// line start: 3849
+// line end:   3941
 void MI_Fireball__Fi(int i) {
 	// register: 18
 	register int dam;
@@ -844,6 +1012,8 @@ void MI_Fireball__Fi(int i) {
 
 
 // address: 0x80142B30
+// line start: 3944
+// line end:   4003
 void MI_Lightctrl__Fi(int i) {
 	// register: 3
 	register int pn;
@@ -862,6 +1032,8 @@ void MI_Lightctrl__Fi(int i) {
 
 
 // address: 0x80142EAC
+// line start: 4006
+// line end:   4024
 void MI_Lightning__Fi(int i) {
 	// register: 18
 	register int j;
@@ -872,6 +1044,8 @@ void MI_Lightning__Fi(int i) {
 
 
 // address: 0x80142F98
+// line start: 4029
+// line end:   4069
 void MI_Town__Fi(int i) {
 	// register: 17
 	register int p;
@@ -889,6 +1063,8 @@ void MI_Town__Fi(int i) {
 
 
 // address: 0x801431D0
+// line start: 4074
+// line end:   4107
 void MI_Flash__Fi(int i) {
 	// register: 17
 	// size: 0x50
@@ -897,6 +1073,8 @@ void MI_Flash__Fi(int i) {
 
 
 // address: 0x80143524
+// line start: 4112
+// line end:   4137
 void MI_Flash2__Fi(int i) {
 	// register: 17
 	// size: 0x50
@@ -905,6 +1083,8 @@ void MI_Flash2__Fi(int i) {
 
 
 // address: 0x801436EC
+// line start: 4142
+// line end:   4217
 void MI_Manashield__Fi(int i) {
 	// register: 3
 	register int j;
@@ -924,6 +1104,8 @@ void MI_Manashield__Fi(int i) {
 
 
 // address: 0x80143A10
+// line start: 4261
+// line end:   4304
 void MI_Firemove__Fi(int i) {
 	// register: 17
 	register int j;
@@ -937,6 +1119,8 @@ void MI_Firemove__Fi(int i) {
 
 
 // address: 0x80143C9C
+// line start: 4308
+// line end:   4375
 void MI_Guardian__Fi(int i) {
 	// register: 18
 	register int j;
@@ -955,6 +1139,8 @@ void MI_Guardian__Fi(int i) {
 
 
 // address: 0x80143F4C
+// line start: 4380
+// line end:   4416
 void MI_Chain__Fi(int i) {
 	// register: 20
 	// size: 0x50
@@ -986,6 +1172,8 @@ void MI_Chain__Fi(int i) {
 
 
 // address: 0x801441B8
+// line start: 4547
+// line end:   4575
 void MI_Misexp__Fi(int i) {
 	// address: 0xFFFFFFC8
 	// size: 0x28
@@ -994,6 +1182,8 @@ void MI_Misexp__Fi(int i) {
 
 
 // address: 0x801444B8
+// line start: 4578
+// line end:   4599
 void MI_Acidsplat__Fi(int i) {
 	// register: 3
 	register int monst;
@@ -1003,6 +1193,8 @@ void MI_Acidsplat__Fi(int i) {
 
 
 // address: 0x80144654
+// line start: 4602
+// line end:   4651
 void MI_Teleport__Fi(int i) {
 	// register: 18
 	register int id;
@@ -1013,6 +1205,8 @@ void MI_Teleport__Fi(int i) {
 
 
 // address: 0x80144A1C
+// line start: 4768
+// line end:   4795
 void MI_Stone__Fi(int i) {
 	// register: 5
 	register int m;
@@ -1020,11 +1214,15 @@ void MI_Stone__Fi(int i) {
 
 
 // address: 0x80144BC8
+// line start: 4801
+// line end:   4808
 void MI_Boom__Fi(int i) {
 }
 
 
 // address: 0x80144CC0
+// line start: 4812
+// line end:   4883
 void MI_Rhino__Fi(int i) {
 	// register: 16
 	register int mix;
@@ -1044,6 +1242,8 @@ void MI_Rhino__Fi(int i) {
 
 
 // address: 0x8014506C
+// line start: 4965
+// line end:   4999
 void MI_FirewallC__Fi(int i) {
 	// register: 16
 	// size: 0x50
@@ -1060,11 +1260,15 @@ void MI_FirewallC__Fi(int i) {
 
 
 // address: 0x801452F4
+// line start: 5005
+// line end:   5013
 void MI_Infra__Fi(int i) {
 }
 
 
 // address: 0x801453AC
+// line start: 5019
+// line end:   5043
 void MI_Apoca__Fi(int i) {
 	// register: 19
 	register int j;
@@ -1078,6 +1282,8 @@ void MI_Apoca__Fi(int i) {
 
 
 // address: 0x80145640
+// line start: 5048
+// line end:   5103
 void MI_Wave__Fi(int i) {
 	// address: 0xFFFFFF80
 	auto int dira;
@@ -1111,6 +1317,8 @@ void MI_Wave__Fi(int i) {
 
 
 // address: 0x80145B3C
+// line start: 5110
+// line end:   5155
 void MI_Nova__Fi(int i) {
 	// address: 0xFFFFFFD0
 	auto int k;
@@ -1134,6 +1342,8 @@ void MI_Nova__Fi(int i) {
 
 
 // address: 0x80145DFC
+// line start: 5220
+// line end:   5243
 void MI_Flame__Fi(int i) {
 	// register: 17
 	register int k;
@@ -1141,6 +1351,8 @@ void MI_Flame__Fi(int i) {
 
 
 // address: 0x80145FF4
+// line start: 5248
+// line end:   5274
 void MI_Flamec__Fi(int i) {
 	// register: 18
 	register int id;
@@ -1150,6 +1362,8 @@ void MI_Flamec__Fi(int i) {
 
 
 // address: 0x8014627C
+// line start: 5279
+// line end:   5321
 void MI_Cbolt__Fi(int i) {
 	// address: 0xFFFFFFA8
 	// size: 0x40
@@ -1166,6 +1380,8 @@ void MI_Cbolt__Fi(int i) {
 
 
 // address: 0x80146580
+// line start: 5326
+// line end:   5363
 void MI_Hbolt__Fi(int i) {
 	// register: 5
 	register int dam;
@@ -1173,6 +1389,8 @@ void MI_Hbolt__Fi(int i) {
 
 
 // address: 0x8014688C
+// line start: 5368
+// line end:   5448
 void MI_Element__Fi(int i) {
 	// register: 2
 	register int mid;
@@ -1194,6 +1412,8 @@ void MI_Element__Fi(int i) {
 
 
 // address: 0x80146F44
+// line start: 5451
+// line end:   5521
 void MI_Bonespirit__Fi(int i) {
 	// register: 2
 	register int mid;
@@ -1211,11 +1431,15 @@ void MI_Bonespirit__Fi(int i) {
 
 
 // address: 0x8014734C
+// line start: 5524
+// line end:   5529
 void MI_ResurrectBeam__Fi(int i) {
 }
 
 
 // address: 0x801473BC
+// line start: 5534
+// line end:   5554
 void MI_Rportal__Fi(int i) {
 	// address: 0xFFFFFFA8
 	// size: 0x44
@@ -1224,6 +1448,8 @@ void MI_Rportal__Fi(int i) {
 
 
 // address: 0x801475E0
+// line start: 5561
+// line end:   5613
 void ProcessMissiles__Fv() {
 	// register: 17
 	register int i;
@@ -1233,16 +1459,22 @@ void ProcessMissiles__Fv() {
 
 
 // address: 0x801479D4
+// line start: 5653
+// line end:   5656
 void ClearMissileSpot__Fi(int mi) {
 }
 
 
 // address: 0x80147A8C
+// line start: 128
+// line end:   128
 void MoveToScrollTarget__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x80147AA0
+// line start: 447
+// line end:   466
 void MonstPartJump__Fi(int m) {
 	// register: 17
 	register int ScrX;
@@ -1261,6 +1493,8 @@ void MonstPartJump__Fi(int m) {
 
 
 // address: 0x80147C34
+// line start: 485
+// line end:   492
 void DeleteMonster__Fi(int i) {
 	// register: 6
 	register int temp;
@@ -1268,16 +1502,22 @@ void DeleteMonster__Fi(int i) {
 
 
 // address: 0x80147C6C
+// line start: 511
+// line end:   513
 int M_GetDir__Fi(int i) {
 }
 
 
 // address: 0x80147CC8
+// line start: 532
+// line end:   540
 void M_StartDelay__Fii(int i, int len) {
 }
 
 
 // address: 0x80147D10
+// line start: 555
+// line end:   577
 void M_StartRAttack__Fiii(int i, int missile_type, int dam) {
 	// register: 18
 	register int md;
@@ -1292,6 +1532,8 @@ void M_StartRAttack__Fiii(int i, int missile_type, int dam) {
 
 
 // address: 0x80147E28
+// line start: 585
+// line end:   608
 void M_StartRSpAttack__Fiii(int i, int missile_type, int dam) {
 	// register: 18
 	register int md;
@@ -1306,6 +1548,8 @@ void M_StartRSpAttack__Fiii(int i, int missile_type, int dam) {
 
 
 // address: 0x80147F4C
+// line start: 615
+// line end:   635
 void M_StartSpAttack__Fi(int i) {
 	// register: 18
 	register int md;
@@ -1320,6 +1564,8 @@ void M_StartSpAttack__Fi(int i) {
 
 
 // address: 0x80148034
+// line start: 643
+// line end:   659
 void M_StartEat__Fi(int i) {
 	// register: 2
 	// size: 0x70
@@ -1332,6 +1578,8 @@ void M_StartEat__Fi(int i) {
 
 
 // address: 0x80148104
+// line start: 666
+// line end:   695
 void M_GetKnockback__Fi(int i) {
 	// register: 16
 	register int d;
@@ -1350,6 +1598,8 @@ void M_GetKnockback__Fi(int i) {
 
 
 // address: 0x801482DC
+// line start: 702
+// line end:   758
 void M_StartHit__Fiii(int i, int pnum, int dam) {
 	{
 		{
@@ -1366,6 +1616,8 @@ void M_StartHit__Fiii(int i, int pnum, int dam) {
 
 
 // address: 0x801485D4
+// line start: 763
+// line end:   819
 void M_DiabloDeath__FiUc(int i, unsigned char sendmsg) {
 	// register: 22
 	// size: 0x70
@@ -1399,6 +1651,8 @@ void M_DiabloDeath__FiUc(int i, unsigned char sendmsg) {
 
 
 // address: 0x801488F8
+// line start: 826
+// line end:   878
 void M2MStartHit__Fiii(int mid, int i, int dam) {
 	// register: 3
 	// size: 0x70
@@ -1411,6 +1665,8 @@ void M2MStartHit__Fiii(int mid, int i, int dam) {
 
 
 // address: 0x80148BA4
+// line start: 884
+// line end:   948
 void MonstStartKill__FiiUc(int i, int pnum, unsigned char sendmsg) {
 	// register: 2
 	register int md;
@@ -1434,6 +1690,8 @@ void MonstStartKill__FiiUc(int i, int pnum, unsigned char sendmsg) {
 
 
 // address: 0x80148E78
+// line start: 955
+// line end:   1018
 void M2MStartKill__Fii(int i, int mid) {
 	// register: 6
 	register int md;
@@ -1454,6 +1712,8 @@ void M2MStartKill__Fii(int i, int mid) {
 
 
 // address: 0x80149240
+// line start: 1025
+// line end:   1044
 void M_StartKill__Fii(int i, int pnum) {
 	// register: 3
 	// size: 0x70
@@ -1466,16 +1726,22 @@ void M_StartKill__Fii(int i, int pnum) {
 
 
 // address: 0x80149330
+// line start: 1078
+// line end:   1098
 void M_StartFadein__FiiUc(int i, int md, unsigned char backwards) {
 }
 
 
 // address: 0x80149484
+// line start: 1106
+// line end:   1124
 void M_StartFadeout__FiiUc(int i, int md, unsigned char backwards) {
 }
 
 
 // address: 0x801495CC
+// line start: 1132
+// line end:   1143
 void M_StartHeal__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -1484,6 +1750,8 @@ void M_StartHeal__Fi(int i) {
 
 
 // address: 0x8014964C
+// line start: 1150
+// line end:   1185
 void M_ChangeLightOffset__Fi(int monst) {
 	// register: 5
 	register int lx;
@@ -1502,6 +1770,8 @@ void M_ChangeLightOffset__Fi(int monst) {
 
 
 // address: 0x801496EC
+// line start: 1192
+// line end:   1210
 int M_DoStand__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -1510,6 +1780,8 @@ int M_DoStand__Fi(int i) {
 
 
 // address: 0x80149754
+// line start: 1217
+// line end:   1248
 int M_DoWalk__Fi(int i) {
 	// register: 16
 	register int rv;
@@ -1517,6 +1789,8 @@ int M_DoWalk__Fi(int i) {
 
 
 // address: 0x801499D8
+// line start: 1255
+// line end:   1282
 int M_DoWalk2__Fi(int i) {
 	// register: 16
 	register int rv;
@@ -1524,6 +1798,8 @@ int M_DoWalk2__Fi(int i) {
 
 
 // address: 0x80149BC4
+// line start: 1289
+// line end:   1320
 int M_DoWalk3__Fi(int i) {
 	// register: 16
 	register int rv;
@@ -1531,6 +1807,8 @@ int M_DoWalk3__Fi(int i) {
 
 
 // address: 0x80149E88
+// line start: 1327
+// line end:   1364
 void M_TryM2MHit__Fiiiii(int i, int mid, int hper, int mind, int maxd) {
 	// register: 18
 	register int hit;
@@ -1542,6 +1820,8 @@ void M_TryM2MHit__Fiiiii(int i, int mid, int hper, int mind, int maxd) {
 
 
 // address: 0x8014A050
+// line start: 1370
+// line end:   1500
 void M_TryH2HHit__Fiiiii(int i, int pnum, int Hit, int MinDam, int MaxDam) {
 	// register: 17
 	// size: 0x23A8
@@ -1603,6 +1883,8 @@ void M_TryH2HHit__Fiiiii(int i, int pnum, int Hit, int MinDam, int MaxDam) {
 
 
 // address: 0x8014A664
+// line start: 1506
+// line end:   1545
 int M_DoAttack__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -1619,6 +1901,8 @@ int M_DoAttack__Fi(int i) {
 
 
 // address: 0x8014A808
+// line start: 1553
+// line end:   1575
 int M_DoRAttack__Fi(int i) {
 	// register: 19
 	register int multimissiles;
@@ -1628,21 +1912,29 @@ int M_DoRAttack__Fi(int i) {
 
 
 // address: 0x8014A980
+// line start: 1583
+// line end:   1605
 int M_DoRSpAttack__Fi(int i) {
 }
 
 
 // address: 0x8014AB70
+// line start: 1613
+// line end:   1623
 int M_DoSAttack__Fi(int i) {
 }
 
 
 // address: 0x8014AC44
+// line start: 1631
+// line end:   1640
 int M_DoFadein__Fi(int i) {
 }
 
 
 // address: 0x8014AD14
+// line start: 1647
+// line end:   1665
 int M_DoFadeout__Fi(int i) {
 	// register: 2
 	register int mtype;
@@ -1650,6 +1942,8 @@ int M_DoFadeout__Fi(int i) {
 
 
 // address: 0x8014AE28
+// line start: 1672
+// line end:   1692
 int M_DoHeal__Fi(int i) {
 	// register: 5
 	// size: 0x70
@@ -1658,6 +1952,8 @@ int M_DoHeal__Fi(int i) {
 
 
 // address: 0x8014AED4
+// line start: 1699
+// line end:   1789
 int M_DoTalk__Fi(int i) {
 	// register: 16
 	register int tren;
@@ -1674,6 +1970,8 @@ int M_DoTalk__Fi(int i) {
 
 
 // address: 0x8014B340
+// line start: 1799
+// line end:   1845
 void M_Teleport__Fi(int i) {
 	// register: 23
 	// size: 0x70
@@ -1700,11 +1998,15 @@ void M_Teleport__Fi(int i) {
 
 
 // address: 0x8014B574
+// line start: 1851
+// line end:   1859
 int M_DoGotHit__Fi(int i) {
 }
 
 
 // address: 0x8014B5D4
+// line start: 1871
+// line end:   1914
 void DoEnding__Fv() {
 	// register: 16
 	register unsigned char bMusicOn;
@@ -1712,6 +2014,8 @@ void DoEnding__Fv() {
 
 
 // address: 0x8014B68C
+// line start: 1920
+// line end:   1942
 void PrepDoEnding__Fv() {
 	{
 		// register: 6
@@ -1721,6 +2025,8 @@ void PrepDoEnding__Fv() {
 
 
 // address: 0x8014B7B0
+// line start: 1949
+// line end:   1979
 int M_DoDeath__Fi(int i) {
 	// register: 3
 	// size: 0x70
@@ -1733,11 +2039,15 @@ int M_DoDeath__Fi(int i) {
 
 
 // address: 0x8014B980
+// line start: 1986
+// line end:   1996
 int M_DoSpStand__Fi(int i) {
 }
 
 
 // address: 0x8014BA24
+// line start: 2001
+// line end:   2020
 int M_DoDelay__Fi(int i) {
 	{
 		{
@@ -1749,11 +2059,15 @@ int M_DoDelay__Fi(int i) {
 
 
 // address: 0x8014BB14
+// line start: 2027
+// line end:   2034
 int M_DoStone__Fi(int i) {
 }
 
 
 // address: 0x8014BB98
+// line start: 2041
+// line end:   2100
 void M_WalkDir__Fii(int i, int md) {
 	// register: 3
 	register int mwi;
@@ -1761,6 +2075,8 @@ void M_WalkDir__Fii(int i, int md) {
 
 
 // address: 0x8014BDC0
+// line start: 2109
+// line end:   2185
 void GroupUnity__Fi(int i) {
 	// register: 19
 	register int leader;
@@ -1779,6 +2095,8 @@ void GroupUnity__Fi(int i) {
 
 
 // address: 0x8014C1AC
+// line start: 2194
+// line end:   2212
 unsigned char M_CallWalk__Fii(int i, int md) {
 	// register: 19
 	register int mdtemp;
@@ -1788,6 +2106,8 @@ unsigned char M_CallWalk__Fii(int i, int md) {
 
 
 // address: 0x8014C398
+// line start: 2220
+// line end:   2234
 unsigned char M_PathWalk__Fi(int i, char plr2monst[9], unsigned char (*Check)()) {
 	// address: 0xFFFFFFD8
 	// size: 0x19
@@ -1796,6 +2116,8 @@ unsigned char M_PathWalk__Fi(int i, char plr2monst[9], unsigned char (*Check)())
 
 
 // address: 0x8014C45C
+// line start: 2245
+// line end:   2258
 unsigned char M_CallWalk2__Fii(int i, int md) {
 	// register: 20
 	register int mdtemp;
@@ -1805,11 +2127,15 @@ unsigned char M_CallWalk2__Fii(int i, int md) {
 
 
 // address: 0x8014C570
+// line start: 2266
+// line end:   2273
 unsigned char M_DumbWalk__Fii(int i, int md) {
 }
 
 
 // address: 0x8014C5C4
+// line start: 2280
+// line end:   2312
 unsigned char M_RoundWalk__FiiRi(int i, int md, int *dir) {
 	// register: 19
 	register int mdtemp;
@@ -1819,6 +2145,8 @@ unsigned char M_RoundWalk__FiiRi(int i, int md, int *dir) {
 
 
 // address: 0x8014C764
+// line start: 2324
+// line end:   2351
 void MAI_Zombie__Fi(int i) {
 	// register: 17
 	// size: 0x70
@@ -1835,6 +2163,8 @@ void MAI_Zombie__Fi(int i) {
 
 
 // address: 0x8014C95C
+// line start: 2365
+// line end:   2387
 void MAI_SkelSd__Fi(int i) {
 	// register: 17
 	// size: 0x70
@@ -1849,6 +2179,8 @@ void MAI_SkelSd__Fi(int i) {
 
 
 // address: 0x8014CAF4
+// line start: 2402
+// line end:   2459
 void MAI_Snake__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -1874,6 +2206,8 @@ void MAI_Snake__Fi(int i) {
 
 
 // address: 0x8014CED8
+// line start: 2471
+// line end:   2538
 void MAI_Bat__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -1896,6 +2230,8 @@ void MAI_Bat__Fi(int i) {
 
 
 // address: 0x8014D290
+// line start: 2551
+// line end:   2583
 void MAI_SkelBow__Fi(int i) {
 	// register: 16
 	register int mx;
@@ -1918,6 +2254,8 @@ void MAI_SkelBow__Fi(int i) {
 
 
 // address: 0x8014D474
+// line start: 2594
+// line end:   2615
 void MAI_Fat__Fi(int i) {
 	// register: 16
 	register int mx;
@@ -1934,6 +2272,8 @@ void MAI_Fat__Fi(int i) {
 
 
 // address: 0x8014D624
+// line start: 2628
+// line end:   2709
 void MAI_Sneak__Fi(int i) {
 	// register: 20
 	register int mx;
@@ -1952,6 +2292,8 @@ void MAI_Sneak__Fi(int i) {
 
 
 // address: 0x8014DA10
+// line start: 2721
+// line end:   2797
 void MAI_Fireman__Fi(int i) {
 	// register: 22
 	register int mx;
@@ -1972,6 +2314,8 @@ void MAI_Fireman__Fi(int i) {
 
 
 // address: 0x8014DD08
+// line start: 2809
+// line end:   2887
 void MAI_Fallen__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -1996,6 +2340,8 @@ void MAI_Fallen__Fi(int i) {
 
 
 // address: 0x8014E024
+// line start: 2895
+// line end:   2911
 void MAI_Cleaver__Fi(int i) {
 	// register: 17
 	// size: 0x70
@@ -2010,6 +2356,8 @@ void MAI_Cleaver__Fi(int i) {
 
 
 // address: 0x8014E10C
+// line start: 2922
+// line end:   2989
 void MAI_Round__FiUc(int i, unsigned char special) {
 	// register: 21
 	register int mx;
@@ -2032,11 +2380,15 @@ void MAI_Round__FiUc(int i, unsigned char special) {
 
 
 // address: 0x8014E578
+// line start: 2999
+// line end:   3000
 void MAI_GoatMc__Fi(int i) {
 }
 
 
 // address: 0x8014E598
+// line start: 3007
+// line end:   3060
 void MAI_Ranged__FiiUc(int i, int missile_type, unsigned char special) {
 	// register: 22
 	register int fx;
@@ -2055,21 +2407,29 @@ void MAI_Ranged__FiiUc(int i, int missile_type, unsigned char special) {
 
 
 // address: 0x8014E7B8
+// line start: 3066
+// line end:   3067
 void MAI_GoatBow__Fi(int i) {
 }
 
 
 // address: 0x8014E7DC
+// line start: 3071
+// line end:   3072
 void MAI_Succ__Fi(int i) {
 }
 
 
 // address: 0x8014E800
+// line start: 3076
+// line end:   3077
 void MAI_AcidUniq__Fi(int i) {
 }
 
 
 // address: 0x8014E824
+// line start: 3091
+// line end:   3177
 void MAI_Scav__Fi(int i) {
 	// register: 18
 	// size: 0x70
@@ -2084,6 +2444,8 @@ void MAI_Scav__Fi(int i) {
 
 
 // address: 0x8014EC3C
+// line start: 3187
+// line end:   3227
 void MAI_Garg__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -2098,6 +2460,8 @@ void MAI_Garg__Fi(int i) {
 
 
 // address: 0x8014EE1C
+// line start: 3240
+// line end:   3331
 void MAI_RoundRanged__FiiUciUc(int i, int missile_type, unsigned char checkdoors, int dam, int lessmissiles) {
 	// register: 21
 	register int fx;
@@ -2120,26 +2484,36 @@ void MAI_RoundRanged__FiiUciUc(int i, int missile_type, unsigned char checkdoors
 
 
 // address: 0x8014F330
+// line start: 3336
+// line end:   3337
 void MAI_Magma__Fi(int i) {
 }
 
 
 // address: 0x8014F35C
+// line start: 3341
+// line end:   3342
 void MAI_Storm__Fi(int i) {
 }
 
 
 // address: 0x8014F388
+// line start: 3346
+// line end:   3347
 void MAI_Acid__Fi(int i) {
 }
 
 
 // address: 0x8014F3B8
+// line start: 3352
+// line end:   3353
 void MAI_Diablo__Fi(int i) {
 }
 
 
 // address: 0x8014F3E4
+// line start: 3357
+// line end:   3449
 void MAI_RR2__Fiii(int i, int mistype, int dam) {
 	// register: 22
 	register int fx;
@@ -2162,11 +2536,15 @@ void MAI_RR2__Fiii(int i, int mistype, int dam) {
 
 
 // address: 0x8014F8E4
+// line start: 3454
+// line end:   3455
 void MAI_Mega__Fi(int i) {
 }
 
 
 // address: 0x8014F908
+// line start: 3462
+// line end:   3552
 void MAI_SkelKing__Fi(int i) {
 	// register: 19
 	register int fx;
@@ -2197,6 +2575,8 @@ void MAI_SkelKing__Fi(int i) {
 
 
 // address: 0x8014FE44
+// line start: 3566
+// line end:   3644
 void MAI_Rhino__Fi(int i) {
 	// register: 23
 	register int fx;
@@ -2223,6 +2603,8 @@ void MAI_Rhino__Fi(int i) {
 
 
 // address: 0x801502EC
+// line start: 3657
+// line end:   3751
 void MAI_Counselor__Fi(int i, unsigned char counsmiss[4], int _mx, int _my) {
 	// address: 0xFFFFFFB8
 	auto int fx;
@@ -2245,6 +2627,8 @@ void MAI_Counselor__Fi(int i, unsigned char counsmiss[4], int _mx, int _my) {
 
 
 // address: 0x801507B8
+// line start: 3759
+// line end:   3788
 void MAI_Garbud__Fi(int i) {
 	// register: 20
 	register int md;
@@ -2259,6 +2643,8 @@ void MAI_Garbud__Fi(int i) {
 
 
 // address: 0x80150968
+// line start: 3797
+// line end:   3828
 void MAI_Zhar__Fi(int i) {
 	// register: 19
 	register int mx;
@@ -2277,6 +2663,8 @@ void MAI_Zhar__Fi(int i) {
 
 
 // address: 0x80150B60
+// line start: 3837
+// line end:   3879
 void MAI_SnotSpil__Fi(int i) {
 	// register: 20
 	register int md;
@@ -2303,6 +2691,8 @@ void MAI_SnotSpil__Fi(int i) {
 
 
 // address: 0x80150D94
+// line start: 3888
+// line end:   3936
 void MAI_Lazurus__Fi(int i) {
 	// register: 17
 	register int md;
@@ -2317,6 +2707,8 @@ void MAI_Lazurus__Fi(int i) {
 
 
 // address: 0x80150FD4
+// line start: 3945
+// line end:   3975
 void MAI_Lazhelp__Fi(int i) {
 	// register: 17
 	register int md;
@@ -2331,6 +2723,8 @@ void MAI_Lazhelp__Fi(int i) {
 
 
 // address: 0x801510F4
+// line start: 3983
+// line end:   4013
 void MAI_Lachdanan__Fi(int i) {
 	// register: 20
 	register int md;
@@ -2345,6 +2739,8 @@ void MAI_Lachdanan__Fi(int i) {
 
 
 // address: 0x80151284
+// line start: 4022
+// line end:   4054
 void MAI_Warlord__Fi(int i) {
 	// register: 17
 	register int md;
@@ -2367,6 +2763,8 @@ void MAI_Warlord__Fi(int i) {
 
 
 // address: 0x801513D0
+// line start: 4063
+// line end:   4086
 void DeleteMonsterList__Fv() {
 	// register: 4
 	register int i;
@@ -2376,6 +2774,8 @@ void DeleteMonsterList__Fv() {
 
 
 // address: 0x801514EC
+// line start: 4094
+// line end:   4289
 void ProcessMonsters__Fv() {
 	// register: 23
 	register int i;
@@ -2398,6 +2798,8 @@ void ProcessMonsters__Fv() {
 
 
 // address: 0x80151A74
+// line start: 4298
+// line end:   4360
 unsigned char DirOK__Fii(int i, int mdir) {
 	// register: 17
 	register long fx;
@@ -2425,16 +2827,22 @@ unsigned char DirOK__Fii(int i, int mdir) {
 
 
 // address: 0x80151E5C
+// line start: 4367
+// line end:   4368
 unsigned char PosOkMissile__Fii(int x, int y) {
 }
 
 
 // address: 0x80151EC4
+// line start: 4375
+// line end:   4376
 unsigned char CheckNoSolid__Fii(int x, int y) {
 }
 
 
 // address: 0x80151F08
+// line start: 4403
+// line end:   4522
 unsigned char LineClearF__FPFii_Uciiii(unsigned char (*Clear)(), int x1, int y1, int x2, int y2) {
 	// register: 18
 	register int dx;
@@ -2462,11 +2870,15 @@ unsigned char LineClearF__FPFii_Uciiii(unsigned char (*Clear)(), int x1, int y1,
 
 
 // address: 0x80152190
+// line start: 4530
+// line end:   4531
 unsigned char LineClear__Fiiii(int x1, int y1, int x2, int y2) {
 }
 
 
 // address: 0x801521D0
+// line start: 4542
+// line end:   4657
 unsigned char LineClearF1__FPFiii_Uciiiii(unsigned char (*Clear)(), int monst, int x1, int y1, int x2, int y2) {
 	// register: 18
 	register int dx;
@@ -2494,6 +2906,8 @@ unsigned char LineClearF1__FPFiii_Uciiiii(unsigned char (*Clear)(), int monst, i
 
 
 // address: 0x80152464
+// line start: 4754
+// line end:   4794
 void M_FallenFear__Fii(int x, int y) {
 	// register: 19
 	register int i;
@@ -2507,6 +2921,8 @@ void M_FallenFear__Fii(int x, int y) {
 
 
 // address: 0x80152634
+// line start: 4801
+// line end:   4884
 void PrintMonstHistory__Fi(int mt) {
 	// register: 17
 	register int res;
@@ -2514,6 +2930,8 @@ void PrintMonstHistory__Fi(int mt) {
 
 
 // address: 0x801528E8
+// line start: 4891
+// line end:   4917
 void PrintUniqueHistory__Fv() {
 	// register: 16
 	register int res;
@@ -2521,6 +2939,8 @@ void PrintUniqueHistory__Fv() {
 
 
 // address: 0x80152A0C
+// line start: 4927
+// line end:   5008
 void MissToMonst__Fiii(int i, int x, int y) {
 	// register: 20
 	register int oldx;
@@ -2544,6 +2964,8 @@ void MissToMonst__Fiii(int i, int x, int y) {
 
 
 // address: 0x80152E70
+// line start: 5030
+// line end:   5059
 unsigned char PosOkMonst2__Fiii(int i, int x, int y) {
 	// register: 7
 	register unsigned char ret;
@@ -2557,6 +2979,8 @@ unsigned char PosOkMonst2__Fiii(int i, int x, int y) {
 
 
 // address: 0x8015308C
+// line start: 5070
+// line end:   5110
 unsigned char PosOkMonst3__Fiii(int i, int x, int y) {
 	// register: 19
 	register unsigned char ret;
@@ -2574,6 +2998,8 @@ unsigned char PosOkMonst3__Fiii(int i, int x, int y) {
 
 
 // address: 0x80153380
+// line start: 5123
+// line end:   5146
 int M_SpawnSkel__Fiii(int x, int y, int dir) {
 	// register: 16
 	register int i;
@@ -2587,6 +3013,8 @@ int M_SpawnSkel__Fiii(int x, int y, int dir) {
 
 
 // address: 0x801534D8
+// line start: 5162
+// line end:   5189
 void TalktoMonster__Fi(int i) {
 	// register: 17
 	register int pnum;
@@ -2599,21 +3027,29 @@ void TalktoMonster__Fi(int i) {
 
 
 // address: 0x801535F8
+// line start: 5196
+// line end:   5221
 void SpawnGolum__Fiiii(int i, int x, int y, int mi) {
 }
 
 
 // address: 0x80153850
+// line start: 5228
+// line end:   5233
 unsigned char CanTalkToMonst__Fi(int m) {
 }
 
 
 // address: 0x80153888
+// line start: 5240
+// line end:   5256
 unsigned char CheckMonsterHit__FiRUc(int m, unsigned char *ret) {
 }
 
 
 // address: 0x80153954
+// line start: 5265
+// line end:   5329
 void MAI_Golum__Fi(int i) {
 	// register: 3
 	register int ok;
@@ -2644,6 +3080,8 @@ void MAI_Golum__Fi(int i) {
 
 
 // address: 0x80153CC8
+// line start: 5337
+// line end:   5368
 unsigned char MAI_Path__Fi(int i) {
 	// register: 16
 	// size: 0x70
@@ -2652,6 +3090,8 @@ unsigned char MAI_Path__Fi(int i) {
 
 
 // address: 0x80153E2C
+// line start: 5372
+// line end:   5392
 void M_StartAttack__Fi(int i) {
 	// register: 18
 	register int md;
@@ -2666,6 +3106,8 @@ void M_StartAttack__Fi(int i) {
 
 
 // address: 0x80153F14
+// line start: 5396
+// line end:   5427
 void M_StartWalk__Fiiiiii(int i, int xvel, int yvel, int xadd, int yadd, int EndDir) {
 	// register: 8
 	register long fx;
@@ -2682,11 +3124,15 @@ void M_StartWalk__Fiiiiii(int i, int xvel, int yvel, int xadd, int yadd, int End
 
 
 // address: 0x80154074
+// line start: 432
+// line end:   433
 void FreeInvGFX__Fv() {
 }
 
 
 // address: 0x8015407C
+// line start: 438
+// line end:   445
 void InvDrawSlot__Fiii(int X, int Y, int Frame) {
 	// register: 2
 	// size: 0x28
@@ -2695,6 +3141,8 @@ void InvDrawSlot__Fiii(int X, int Y, int Frame) {
 
 
 // address: 0x80154100
+// line start: 450
+// line end:   481
 void InvDrawSlotBack__FiiiiUc(int X, int Y, int W, int H, int Flag) {
 	// register: 4
 	// size: 0x28
@@ -2703,6 +3151,8 @@ void InvDrawSlotBack__FiiiiUc(int X, int Y, int W, int H, int Flag) {
 
 
 // address: 0x80154354
+// line start: 487
+// line end:   500
 void InvDrawItem__FiiiUci(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
 	// register: 3
 	// size: 0x28
@@ -2714,6 +3164,8 @@ void InvDrawItem__FiiiUci(int ItemX, int ItemY, int ItemNo, unsigned char StatFl
 
 
 // address: 0x80154424
+// line start: 505
+// line end:   550
 void InvDrawSlots__Fv() {
 	// register: 16
 	register int Bx;
@@ -2723,11 +3175,15 @@ void InvDrawSlots__Fv() {
 
 
 // address: 0x801546FC
+// line start: 560
+// line end:   562
 void PrintStat__FiiPcUc(int Y, int Txt0, char *Txt1, unsigned char Col) {
 }
 
 
 // address: 0x801547C8
+// line start: 567
+// line end:   716
 void DrawInvStats__Fv() {
 	// address: 0xFFFFFFC8
 	// size: 0x10
@@ -2749,6 +3205,8 @@ void DrawInvStats__Fv() {
 
 
 // address: 0x80155354
+// line start: 721
+// line end:   728
 void DrawInvBack__Fv() {
 	// address: 0xFFFFFFE8
 	// size: 0x10
@@ -2757,6 +3215,8 @@ void DrawInvBack__Fv() {
 
 
 // address: 0x801553DC
+// line start: 733
+// line end:   836
 void DrawInvCursor__Fv() {
 	// register: 6
 	register int ItemX;
@@ -2776,6 +3236,8 @@ void DrawInvCursor__Fv() {
 
 
 // address: 0x801558B8
+// line start: 842
+// line end:   873
 void DrawInvMsg__Fv() {
 	// register: 2
 	// size: 0x28
@@ -2794,6 +3256,8 @@ void DrawInvMsg__Fv() {
 
 
 // address: 0x80155A80
+// line start: 879
+// line end:   910
 void DrawInvUnique__Fv() {
 	// register: 19
 	// size: 0x6C
@@ -2811,11 +3275,15 @@ void DrawInvUnique__Fv() {
 
 
 // address: 0x80155BA4
+// line start: 927
+// line end:   931
 void DrawInv__Fv() {
 }
 
 
 // address: 0x80155BE4
+// line start: 938
+// line end:   1034
 void DrawInvTSK__FP4TASK(struct TASK *T) {
 	// register: 18
 	register int omp;
@@ -2828,6 +3296,8 @@ void DrawInvTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80155F48
+// line start: 1041
+// line end:   1245
 void DoThatDrawInv__Fv() {
 	// register: 16
 	register int Loop;
@@ -2843,6 +3313,8 @@ void DoThatDrawInv__Fv() {
 
 
 // address: 0x80156710
+// line start: 1250
+// line end:   1297
 unsigned char AutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int saveflag) {
 	// register: 5
 	register int i;
@@ -2858,6 +3330,8 @@ unsigned char AutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int saveflag)
 
 
 // address: 0x80156A30
+// line start: 1302
+// line end:   1366
 unsigned char SpecialAutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int saveflag) {
 	// register: 5
 	register int i;
@@ -2873,6 +3347,8 @@ unsigned char SpecialAutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int sa
 
 
 // address: 0x80156DCC
+// line start: 1371
+// line end:   1464
 unsigned char GoldAutoPlace__Fi(int pnum) {
 	// register: 16
 	register int i;
@@ -2890,11 +3366,15 @@ unsigned char GoldAutoPlace__Fi(int pnum) {
 
 
 // address: 0x8015729C
+// line start: 1469
+// line end:   1496
 unsigned char WeaponAutoPlace__Fi(int pnum) {
 }
 
 
 // address: 0x80157528
+// line start: 1502
+// line end:   1508
 int SwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b) {
 	// address: 0xFFFFFF68
 	// size: 0x98
@@ -2903,6 +3383,8 @@ int SwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b) {
 
 
 // address: 0x80157624
+// line start: 1515
+// line end:   1922
 void CheckInvPaste__Fiii(int pnum, int mx, int my) {
 	// register: 21
 	register int r;
@@ -2943,6 +3425,8 @@ void CheckInvPaste__Fiii(int pnum, int mx, int my) {
 
 
 // address: 0x80159310
+// line start: 1964
+// line end:   2080
 void CheckInvCut__Fiii(int pnum, int mx, int my) {
 	// register: 18
 	register int r;
@@ -2954,21 +3438,29 @@ void CheckInvCut__Fiii(int pnum, int mx, int my) {
 
 
 // address: 0x80159DC0
+// line start: 2105
+// line end:   2126
 void RemoveInvItem__Fii(int pnum, int iv) {
 }
 
 
 // address: 0x8015A068
+// line start: 2134
+// line end:   2138
 void RemoveSpdBarItem__Fii(int pnum, int iv) {
 }
 
 
 // address: 0x8015A15C
+// line start: 2146
+// line end:   2150
 void CheckInvScrn__Fv() {
 }
 
 
 // address: 0x8015A1D4
+// line start: 2164
+// line end:   2173
 void CheckItemStats__Fi(int pnum) {
 	// register: 4
 	// size: 0x23A8
@@ -2977,6 +3469,8 @@ void CheckItemStats__Fi(int pnum) {
 
 
 // address: 0x8015A258
+// line start: 2179
+// line end:   2191
 void CheckBookLevel__Fi(int pnum) {
 	// register: 6
 	register int slvl;
@@ -2984,11 +3478,15 @@ void CheckBookLevel__Fi(int pnum) {
 
 
 // address: 0x8015A38C
+// line start: 2197
+// line end:   2255
 void CheckQuestItem__Fi(int pnum) {
 }
 
 
 // address: 0x8015A7B4
+// line start: 2265
+// line end:   2324
 void InvGetItem__Fii(int pnum, int ii) {
 	// register: 5
 	register int j;
@@ -2998,6 +3496,8 @@ void InvGetItem__Fii(int pnum, int ii) {
 
 
 // address: 0x8015AAB0
+// line start: 2331
+// line end:   2466
 void AutoGetItem__Fii(int pnum, int ii) {
 	// register: 16
 	register int i;
@@ -3023,6 +3523,8 @@ void AutoGetItem__Fii(int pnum, int ii) {
 
 
 // address: 0x8015B520
+// line start: 2510
+// line end:   2524
 int FindGetItem__FiUsi(int idx, unsigned short ci, int iseed) {
 	// register: 8
 	register int i;
@@ -3032,6 +3534,8 @@ int FindGetItem__FiUsi(int idx, unsigned short ci, int iseed) {
 
 
 // address: 0x8015B5D4
+// line start: 2530
+// line end:   2591
 void SyncGetItem__FiiiUsi(int x, int y, int idx, unsigned short ci, int iseed) {
 	// register: 16
 	register int ii;
@@ -3047,6 +3551,8 @@ void SyncGetItem__FiiiUsi(int x, int y, int idx, unsigned short ci, int iseed) {
 
 
 // address: 0x8015B760
+// line start: 2606
+// line end:   2628
 unsigned char TryInvPut__Fv() {
 	{
 		{
@@ -3056,6 +3562,8 @@ unsigned char TryInvPut__Fv() {
 
 
 // address: 0x8015B928
+// line start: 2658
+// line end:   2758
 int InvPutItem__Fiii(int pnum, int x, int y) {
 	// register: 16
 	register int ii;
@@ -3107,6 +3615,8 @@ int InvPutItem__Fiii(int pnum, int x, int y) {
 
 
 // address: 0x8015BDD0
+// line start: 2770
+// line end:   2874
 int SyncPutItem__FiiiiUsiUciiiiiUl(int pnum, int x, int y, int idx, int icreateinfo, int iseed, int Id, int dur, int mdur, int ch, int mch, int ivalue, unsigned long ibuff) {
 	// register: 16
 	register int ii;
@@ -3154,6 +3664,8 @@ int SyncPutItem__FiiiiUsiUciiiiiUl(int pnum, int x, int y, int idx, int icreatei
 
 
 // address: 0x8015C32C
+// line start: 2879
+// line end:   2988
 char CheckInvHLight__Fv() {
 	// register: 16
 	register int r;
@@ -3175,6 +3687,8 @@ char CheckInvHLight__Fv() {
 
 
 // address: 0x8015C674
+// line start: 2995
+// line end:   3018
 void RemoveScroll__Fi(int pnum) {
 	// register: 5
 	register int i;
@@ -3182,6 +3696,8 @@ void RemoveScroll__Fi(int pnum) {
 
 
 // address: 0x8015C858
+// line start: 3024
+// line end:   3046
 unsigned char UseScroll__Fv() {
 	// register: 5
 	register int i;
@@ -3189,21 +3705,29 @@ unsigned char UseScroll__Fv() {
 
 
 // address: 0x8015CAC0
+// line start: 3053
+// line end:   3060
 void UseStaffCharge__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x8015CB28
+// line start: 3068
+// line end:   3076
 unsigned char UseStaff__Fv() {
 }
 
 
 // address: 0x8015CBE8
+// line start: 3127
+// line end:   3141
 void StartGoldDrop__Fv() {
 }
 
 
 // address: 0x8015CCE4
+// line start: 3150
+// line end:   3236
 unsigned char UseInvItem__Fii(int pnum, int cii) {
 	// register: 18
 	register int c;
@@ -3220,11 +3744,15 @@ unsigned char UseInvItem__Fii(int pnum, int cii) {
 
 
 // address: 0x8015D208
+// line start: 3242
+// line end:   3254
 void DoTelekinesis__Fv() {
 }
 
 
 // address: 0x8015D330
+// line start: 3261
+// line end:   3280
 long CalculateGold__Fi(int pnum) {
 	// register: 6
 	register int i;
@@ -3234,26 +3762,36 @@ long CalculateGold__Fi(int pnum) {
 
 
 // address: 0x8015D468
+// line start: 3294
+// line end:   3301
 unsigned char DropItemBeforeTrig__Fv() {
 }
 
 
 // address: 0x8015D4C0
+// line start: 3418
+// line end:   3495
 void ControlInv__Fv() {
 }
 
 
 // address: 0x8015D7A0
+// line start: 3501
+// line end:   3510
 void InvGetItemWH__Fi(int Pos) {
 }
 
 
 // address: 0x8015D894
+// line start: 3516
+// line end:   3535
 void InvAlignObject__Fv() {
 }
 
 
 // address: 0x8015DA48
+// line start: 3542
+// line end:   3560
 void InvSetItemCurs__Fv() {
 	// register: 5
 	register int ItemNo;
@@ -3261,6 +3799,8 @@ void InvSetItemCurs__Fv() {
 
 
 // address: 0x8015DBDC
+// line start: 3567
+// line end:   3650
 void InvMoveCursLeft__Fv() {
 	// register: 5
 	register int ItemInc;
@@ -3270,6 +3810,8 @@ void InvMoveCursLeft__Fv() {
 
 
 // address: 0x8015DDC8
+// line start: 3656
+// line end:   3745
 void InvMoveCursRight__Fv() {
 	// register: 4
 	register int ItemInc;
@@ -3279,6 +3821,8 @@ void InvMoveCursRight__Fv() {
 
 
 // address: 0x8015E0F0
+// line start: 3750
+// line end:   3843
 void InvMoveCursUp__Fv() {
 	// register: 4
 	register int ItemInc;
@@ -3288,6 +3832,8 @@ void InvMoveCursUp__Fv() {
 
 
 // address: 0x8015E2E8
+// line start: 3848
+// line end:   3948
 void InvMoveCursDown__Fv() {
 	// register: 17
 	register int ItemInc;
@@ -3297,31 +3843,43 @@ void InvMoveCursDown__Fv() {
 
 
 // address: 0x8015E610
+// line start: 156
+// line end:   156
 void DumpMonsters__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x8015E638
+// line start: 128
+// line end:   132
 void Flush__4CPad(struct CPad *this) {
 }
 
 
 // address: 0x8015E65C
+// line start: 102
+// line end:   105
 void SetRGB__6DialogUcUcUc(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
 // address: 0x8015E67C
+// line start: 97
+// line end:   97
 void SetBack__6Dialogi(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8015E684
+// line start: 94
+// line end:   94
 void SetBorder__6Dialogi(struct Dialog *this, int Type) {
 }
 
 
 // address: 0x8015E68C
+// line start: 84
+// line end:   87
 int SetOTpos__6Dialogi(struct Dialog *this, int OT) {
 	// register: 2
 	register int OldOT;
@@ -3329,43 +3887,59 @@ int SetOTpos__6Dialogi(struct Dialog *this, int OT) {
 
 
 // address: 0x8015E698
+// line start: 77
+// line end:   77
 void ___6Dialog(struct Dialog *this, int __in_chrg) {
 }
 
 
 // address: 0x8015E6C0
 // size: 0x10
+// line start: 60
+// line end:   73
 struct Dialog *__6Dialog(struct Dialog *this) {
 }
 
 
 // address: 0x8015E71C
+// line start: 109
+// line end:   112
 void StartAutomap__Fv() {
 }
 
 
 // address: 0x8015E734
+// line start: 117
+// line end:   118
 void AutomapUp__Fv() {
 }
 
 
 // address: 0x8015E74C
+// line start: 123
+// line end:   124
 void AutomapDown__Fv() {
 }
 
 
 // address: 0x8015E764
+// line start: 129
+// line end:   130
 void AutomapLeft__Fv() {
 }
 
 
 // address: 0x8015E77C
+// line start: 135
+// line end:   136
 void AutomapRight__Fv() {
 }
 
 
 // address: 0x8015E794
 // size: 0x10
+// line start: 157
+// line end:   164
 struct LINE_F2 *AMGetLine__FUcUcUc(unsigned char R, unsigned char G, unsigned char B) {
 	// address: 0xFFFFFFE8
 	// size: 0x10
@@ -3374,6 +3948,8 @@ struct LINE_F2 *AMGetLine__FUcUcUc(unsigned char R, unsigned char G, unsigned ch
 
 
 // address: 0x8015E840
+// line start: 169
+// line end:   176
 void AmDrawLine__Fiiii(int x0, int y0, int x1, int y1) {
 	// register: 2
 	// size: 0x10
@@ -3382,6 +3958,8 @@ void AmDrawLine__Fiiii(int x0, int y0, int x1, int y1) {
 
 
 // address: 0x8015E8A8
+// line start: 183
+// line end:   190
 void AmDrawPlayer__Fiiii(int x0, int y0, int x1, int y1) {
 	// register: 2
 	// size: 0x10
@@ -3390,6 +3968,8 @@ void AmDrawPlayer__Fiiii(int x0, int y0, int x1, int y1) {
 
 
 // address: 0x8015E910
+// line start: 203
+// line end:   280
 void DrawAutomapPlr__Fv() {
 	// register: 2
 	register int Px;
@@ -3413,6 +3993,8 @@ void DrawAutomapPlr__Fv() {
 
 
 // address: 0x8015EC94
+// line start: 285
+// line end:   301
 void DrawAutoMapVertWall__Fiii(int X, int Y, int Length) {
 	// register: 2
 	// size: 0x10
@@ -3425,6 +4007,8 @@ void DrawAutoMapVertWall__Fiii(int X, int Y, int Length) {
 
 
 // address: 0x8015ED68
+// line start: 308
+// line end:   324
 void DrawAutoMapHorzWall__Fiii(int X, int Y, int Length) {
 	// register: 2
 	// size: 0x10
@@ -3437,6 +4021,8 @@ void DrawAutoMapHorzWall__Fiii(int X, int Y, int Length) {
 
 
 // address: 0x8015EE3C
+// line start: 330
+// line end:   394
 void DrawAutoMapVertDoor__Fii(int X, int Y) {
 	// register: 8
 	// size: 0x10
@@ -3461,6 +4047,8 @@ void DrawAutoMapVertDoor__Fii(int X, int Y) {
 
 
 // address: 0x8015F010
+// line start: 401
+// line end:   466
 void DrawAutoMapHorzDoor__Fii(int X, int Y) {
 	// register: 9
 	// size: 0x10
@@ -3485,6 +4073,8 @@ void DrawAutoMapHorzDoor__Fii(int X, int Y) {
 
 
 // address: 0x8015F1E8
+// line start: 473
+// line end:   489
 void DrawAutoMapVertGrate__Fii(int X, int Y) {
 	// register: 2
 	// size: 0x10
@@ -3497,6 +4087,8 @@ void DrawAutoMapVertGrate__Fii(int X, int Y) {
 
 
 // address: 0x8015F29C
+// line start: 496
+// line end:   512
 void DrawAutoMapHorzGrate__Fii(int X, int Y) {
 	// register: 2
 	// size: 0x10
@@ -3509,6 +4101,8 @@ void DrawAutoMapHorzGrate__Fii(int X, int Y) {
 
 
 // address: 0x8015F350
+// line start: 518
+// line end:   567
 void DrawAutoMapSquare__Fii(int X, int Y) {
 	// register: 2
 	// size: 0x10
@@ -3533,6 +4127,8 @@ void DrawAutoMapSquare__Fii(int X, int Y) {
 
 
 // address: 0x8015F498
+// line start: 574
+// line end:   643
 void DrawAutoMapStairs__Fii(int X, int Y) {
 	// register: 3
 	// size: 0x10
@@ -3555,6 +4151,8 @@ void DrawAutoMapStairs__Fii(int X, int Y) {
 
 
 // address: 0x8015F698
+// line start: 650
+// line end:   768
 void DrawAutomap__Fv() {
 	// register: 20
 	register int MapX;
@@ -3591,6 +4189,8 @@ void DrawAutomap__Fv() {
 
 
 // address: 0x8015FAB4
+// line start: 65
+// line end:   71
 void PRIM_GetPrim__FPP7LINE_F2(struct LINE_F2 **Prim) {
 }
 

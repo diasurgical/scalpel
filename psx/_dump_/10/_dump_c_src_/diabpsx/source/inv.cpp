@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x8014037C
+// line start: 423
+// line end:   424
 void FreeInvGFX__Fv() {
 }
 
 
 // address: 0x80140384
+// line start: 429
+// line end:   436
 void InvDrawSlot__Fiii(int X, int Y, int Frame) {
 	// register: 2
 	// size: 0x28
@@ -16,6 +20,8 @@ void InvDrawSlot__Fiii(int X, int Y, int Frame) {
 
 
 // address: 0x80140408
+// line start: 441
+// line end:   472
 void InvDrawSlotBack__FiiiiUc(int X, int Y, int W, int H, int Flag) {
 	// register: 4
 	// size: 0x28
@@ -24,6 +30,8 @@ void InvDrawSlotBack__FiiiiUc(int X, int Y, int W, int H, int Flag) {
 
 
 // address: 0x8014065C
+// line start: 478
+// line end:   491
 void InvDrawItem__FiiiUci(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
 	// register: 3
 	// size: 0x28
@@ -35,6 +43,8 @@ void InvDrawItem__FiiiUci(int ItemX, int ItemY, int ItemNo, unsigned char StatFl
 
 
 // address: 0x8014072C
+// line start: 496
+// line end:   545
 void InvDrawSlots__Fv() {
 	// register: 16
 	register int Bx;
@@ -44,11 +54,15 @@ void InvDrawSlots__Fv() {
 
 
 // address: 0x80140A40
+// line start: 551
+// line end:   553
 void PrintStat__FiiPcUc(int Y, int Txt0, char *Txt1, unsigned char Col) {
 }
 
 
 // address: 0x80140B0C
+// line start: 558
+// line end:   707
 void DrawInvStats__Fv() {
 	// address: 0xFFFFFFC8
 	// size: 0x10
@@ -70,6 +84,8 @@ void DrawInvStats__Fv() {
 
 
 // address: 0x80141698
+// line start: 712
+// line end:   719
 void DrawInvBack__Fv() {
 	// address: 0xFFFFFFE8
 	// size: 0x10
@@ -78,6 +94,8 @@ void DrawInvBack__Fv() {
 
 
 // address: 0x80141720
+// line start: 724
+// line end:   827
 void DrawInvCursor__Fv() {
 	// register: 6
 	register int ItemX;
@@ -97,6 +115,8 @@ void DrawInvCursor__Fv() {
 
 
 // address: 0x80141BFC
+// line start: 833
+// line end:   864
 void DrawInvMsg__Fv() {
 	// register: 2
 	// size: 0x28
@@ -115,11 +135,15 @@ void DrawInvMsg__Fv() {
 
 
 // address: 0x80141DC4
+// line start: 877
+// line end:   878
 void DrawInv__Fv() {
 }
 
 
 // address: 0x80141DF4
+// line start: 883
+// line end:   957
 void DrawInvTSK__FP4TASK(struct TASK *T) {
 	// register: 18
 	// size: 0xE0
@@ -132,6 +156,8 @@ void DrawInvTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x801420D4
+// line start: 962
+// line end:   1165
 void DoThatDrawInv__Fv() {
 	// register: 16
 	register int Loop;
@@ -147,6 +173,8 @@ void DoThatDrawInv__Fv() {
 
 
 // address: 0x80142928
+// line start: 1170
+// line end:   1217
 unsigned char AutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int saveflag) {
 	// register: 5
 	register int i;
@@ -162,6 +190,8 @@ unsigned char AutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int saveflag)
 
 
 // address: 0x80142C44
+// line start: 1222
+// line end:   1286
 unsigned char SpecialAutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int saveflag) {
 	// register: 5
 	register int i;
@@ -177,6 +207,8 @@ unsigned char SpecialAutoPlace__FiiiiUc(int pnum, int ii, int sx, int sy, int sa
 
 
 // address: 0x80142FDC
+// line start: 1291
+// line end:   1384
 unsigned char GoldAutoPlace__Fi(int pnum) {
 	// register: 16
 	register int i;
@@ -194,11 +226,15 @@ unsigned char GoldAutoPlace__Fi(int pnum) {
 
 
 // address: 0x801434A8
+// line start: 1389
+// line end:   1416
 unsigned char WeaponAutoPlace__Fi(int pnum) {
 }
 
 
 // address: 0x80143730
+// line start: 1422
+// line end:   1428
 int SwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b) {
 	// address: 0xFFFFFF68
 	// size: 0x94
@@ -207,6 +243,8 @@ int SwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b) {
 
 
 // address: 0x80143820
+// line start: 1435
+// line end:   1842
 void CheckInvPaste__Fiii(int pnum, int mx, int my) {
 	// register: 21
 	register int r;
@@ -247,6 +285,8 @@ void CheckInvPaste__Fiii(int pnum, int mx, int my) {
 
 
 // address: 0x801454AC
+// line start: 1884
+// line end:   2000
 void CheckInvCut__Fiii(int pnum, int mx, int my) {
 	// register: 18
 	register int r;
@@ -258,21 +298,29 @@ void CheckInvCut__Fiii(int pnum, int mx, int my) {
 
 
 // address: 0x80145F38
+// line start: 2025
+// line end:   2046
 void RemoveInvItem__Fii(int pnum, int iv) {
 }
 
 
 // address: 0x801461DC
+// line start: 2054
+// line end:   2060
 void RemoveSpdBarItem__Fii(int pnum, int iv) {
 }
 
 
 // address: 0x801462DC
+// line start: 2066
+// line end:   2070
 void CheckInvScrn__Fv() {
 }
 
 
 // address: 0x80146354
+// line start: 2084
+// line end:   2093
 void CheckItemStats__Fi(int pnum) {
 	// register: 4
 	// size: 0x22D0
@@ -281,6 +329,8 @@ void CheckItemStats__Fi(int pnum) {
 
 
 // address: 0x801463D8
+// line start: 2099
+// line end:   2111
 void CheckBookLevel__Fi(int pnum) {
 	// register: 6
 	register int slvl;
@@ -288,11 +338,15 @@ void CheckBookLevel__Fi(int pnum) {
 
 
 // address: 0x8014650C
+// line start: 2117
+// line end:   2175
 void CheckQuestItem__Fi(int pnum) {
 }
 
 
 // address: 0x80146934
+// line start: 2185
+// line end:   2243
 void InvGetItem__Fii(int pnum, int ii) {
 	// register: 5
 	register int j;
@@ -302,6 +356,8 @@ void InvGetItem__Fii(int pnum, int ii) {
 
 
 // address: 0x80146C2C
+// line start: 2250
+// line end:   2385
 void AutoGetItem__Fii(int pnum, int ii) {
 	// register: 16
 	register int i;
@@ -327,6 +383,8 @@ void AutoGetItem__Fii(int pnum, int ii) {
 
 
 // address: 0x80147690
+// line start: 2429
+// line end:   2443
 int FindGetItem__FiUsi(int idx, unsigned short ci, int iseed) {
 	// register: 8
 	register int i;
@@ -336,6 +394,8 @@ int FindGetItem__FiUsi(int idx, unsigned short ci, int iseed) {
 
 
 // address: 0x80147744
+// line start: 2449
+// line end:   2510
 void SyncGetItem__FiiiUsi(int x, int y, int idx, unsigned short ci, int iseed) {
 	// register: 16
 	register int ii;
@@ -351,6 +411,8 @@ void SyncGetItem__FiiiUsi(int x, int y, int idx, unsigned short ci, int iseed) {
 
 
 // address: 0x801478D0
+// line start: 2525
+// line end:   2547
 unsigned char TryInvPut__Fv() {
 	{
 		{
@@ -360,6 +422,8 @@ unsigned char TryInvPut__Fv() {
 
 
 // address: 0x80147A98
+// line start: 2577
+// line end:   2676
 int InvPutItem__Fiii(int pnum, int x, int y) {
 	// register: 16
 	register int ii;
@@ -411,6 +475,8 @@ int InvPutItem__Fiii(int pnum, int x, int y) {
 
 
 // address: 0x80147F3C
+// line start: 2688
+// line end:   2792
 int SyncPutItem__FiiiiUsiUciiiiiUl(int pnum, int x, int y, int idx, int icreateinfo, int iseed, int Id, int dur, int mdur, int ch, int mch, int ivalue, unsigned long ibuff) {
 	// register: 16
 	register int ii;
@@ -458,6 +524,8 @@ int SyncPutItem__FiiiiUsiUciiiiiUl(int pnum, int x, int y, int idx, int icreatei
 
 
 // address: 0x80148498
+// line start: 2797
+// line end:   2906
 char CheckInvHLight__Fv() {
 	// register: 16
 	register int r;
@@ -479,6 +547,8 @@ char CheckInvHLight__Fv() {
 
 
 // address: 0x801487DC
+// line start: 2913
+// line end:   2936
 void RemoveScroll__Fi(int pnum) {
 	// register: 5
 	register int i;
@@ -486,6 +556,8 @@ void RemoveScroll__Fi(int pnum) {
 
 
 // address: 0x801489C0
+// line start: 2942
+// line end:   2964
 unsigned char UseScroll__Fv() {
 	// register: 5
 	register int i;
@@ -493,21 +565,29 @@ unsigned char UseScroll__Fv() {
 
 
 // address: 0x80148C28
+// line start: 2971
+// line end:   2978
 void UseStaffCharge__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
 // address: 0x80148C90
+// line start: 2986
+// line end:   2994
 unsigned char UseStaff__Fv() {
 }
 
 
 // address: 0x80148D50
+// line start: 3045
+// line end:   3059
 void StartGoldDrop__Fv() {
 }
 
 
 // address: 0x80148E54
+// line start: 3068
+// line end:   3154
 unsigned char UseInvItem__Fii(int pnum, int cii) {
 	// register: 18
 	register int c;
@@ -524,11 +604,15 @@ unsigned char UseInvItem__Fii(int pnum, int cii) {
 
 
 // address: 0x8014937C
+// line start: 3160
+// line end:   3172
 void DoTelekinesis__Fv() {
 }
 
 
 // address: 0x801494A4
+// line start: 3179
+// line end:   3198
 long CalculateGold__Fi(int pnum) {
 	// register: 6
 	register int i;
@@ -538,26 +622,36 @@ long CalculateGold__Fi(int pnum) {
 
 
 // address: 0x801495DC
+// line start: 3212
+// line end:   3219
 unsigned char DropItemBeforeTrig__Fv() {
 }
 
 
 // address: 0x80149634
+// line start: 3333
+// line end:   3393
 void ControlInv__Fv() {
 }
 
 
 // address: 0x801499BC
+// line start: 3399
+// line end:   3408
 void InvGetItemWH__Fi(int Pos) {
 }
 
 
 // address: 0x80149AB4
+// line start: 3414
+// line end:   3433
 void InvAlignObject__Fv() {
 }
 
 
 // address: 0x80149C68
+// line start: 3440
+// line end:   3458
 void InvSetItemCurs__Fv() {
 	// register: 5
 	register int ItemNo;
@@ -565,6 +659,8 @@ void InvSetItemCurs__Fv() {
 
 
 // address: 0x80149DFC
+// line start: 3465
+// line end:   3546
 void InvMoveCursLeft__Fv() {
 	// register: 5
 	register int ItemInc;
@@ -572,6 +668,8 @@ void InvMoveCursLeft__Fv() {
 
 
 // address: 0x80149FD8
+// line start: 3551
+// line end:   3638
 void InvMoveCursRight__Fv() {
 	// register: 4
 	register int ItemInc;
@@ -579,6 +677,8 @@ void InvMoveCursRight__Fv() {
 
 
 // address: 0x8014A2F0
+// line start: 3643
+// line end:   3734
 void InvMoveCursUp__Fv() {
 	// register: 4
 	register int ItemInc;
@@ -586,6 +686,8 @@ void InvMoveCursUp__Fv() {
 
 
 // address: 0x8014A4D8
+// line start: 3739
+// line end:   3837
 void InvMoveCursDown__Fv() {
 	// register: 16
 	register int ItemInc;

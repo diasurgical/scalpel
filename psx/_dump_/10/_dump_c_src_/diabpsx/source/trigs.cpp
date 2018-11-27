@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8006DC14
+// line start: 76
+// line end:   117
 unsigned char ForceTownTrig__Fv() {
 	// register: 5
 	register int i;
@@ -10,6 +12,8 @@ unsigned char ForceTownTrig__Fv() {
 
 
 // address: 0x8006DF2C
+// line start: 122
+// line end:   150
 unsigned char ForceL1Trig__Fv() {
 	// register: 3
 	register int j;
@@ -17,6 +21,8 @@ unsigned char ForceL1Trig__Fv() {
 
 
 // address: 0x8006E1DC
+// line start: 157
+// line end:   206
 unsigned char ForceL2Trig__Fv() {
 	// register: 17
 	register int j;
@@ -28,6 +34,8 @@ unsigned char ForceL2Trig__Fv() {
 
 
 // address: 0x8006E63C
+// line start: 213
+// line end:   260
 unsigned char ForceL3Trig__Fv() {
 	// register: 17
 	register int j;
@@ -39,6 +47,8 @@ unsigned char ForceL3Trig__Fv() {
 
 
 // address: 0x8006EAB8
+// line start: 267
+// line end:   326
 unsigned char ForceL4Trig__Fv() {
 	// register: 17
 	register int j;
@@ -50,6 +60,8 @@ unsigned char ForceL4Trig__Fv() {
 
 
 // address: 0x8006EFC4
+// line start: 332
+// line end:   342
 void Freeupstairs__Fv() {
 	// register: 8
 	register int j;
@@ -65,21 +77,29 @@ void Freeupstairs__Fv() {
 
 
 // address: 0x8006F084
+// line start: 349
+// line end:   360
 unsigned char ForceSKingTrig__Fv() {
 }
 
 
 // address: 0x8006F178
+// line start: 367
+// line end:   378
 unsigned char ForceSChambTrig__Fv() {
 }
 
 
 // address: 0x8006F26C
+// line start: 385
+// line end:   396
 unsigned char ForcePWaterTrig__Fv() {
 }
 
 
 // address: 0x8006F360
+// line start: 414
+// line end:   466
 void CheckTrigForce__Fv() {
 	// register: 21
 	register int ocursmx;
@@ -103,11 +123,15 @@ void CheckTrigForce__Fv() {
 
 
 // address: 0x8006F67C
+// line start: 476
+// line end:   497
 void FadeGameOut__Fv() {
 }
 
 
 // address: 0x8006F718
+// line start: 501
+// line end:   640
 void CheckTriggers__Fi(int pnum) {
 	// register: 17
 	register int x;

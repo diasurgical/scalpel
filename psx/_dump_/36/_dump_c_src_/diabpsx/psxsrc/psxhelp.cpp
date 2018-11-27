@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x800A0158
+// line start: 67
+// line end:   99
 void HelpPad__Fv() {
 	// register: 16
 	// size: 0x6C
@@ -11,11 +13,15 @@ void HelpPad__Fv() {
 
 
 // address: 0x800A0268
+// line start: 105
+// line end:   108
 void InitHelp__Fv() {
 }
 
 
 // address: 0x800A02AC
+// line start: 112
+// line end:   132
 int GetControlKey__FiPb(int str, bool *iscombo) {
 	// register: 6
 	// size: 0x10
@@ -28,6 +34,8 @@ int GetControlKey__FiPb(int str, bool *iscombo) {
 
 
 // address: 0x800A0354
+// line start: 137
+// line end:   174
 void CheckStr__FPcT0i(char *s, char *d, int pos) {
 	// register: 20
 	register char c;
@@ -37,6 +45,8 @@ void CheckStr__FPcT0i(char *s, char *d, int pos) {
 
 
 // address: 0x800A049C
+// line start: 177
+// line end:   252
 void DisplayHelp__Fv() {
 	// register: 22
 	// size: 0x8
@@ -65,16 +75,22 @@ void DisplayHelp__Fv() {
 
 
 // address: 0x800A0878
+// line start: 256
+// line end:   269
 void DrawHelp__Fv() {
 }
 
 
 // address: 0x800A0914
+// line start: 270
+// line end:   270
 void _GLOBAL__D_DrawHelp__Fv() {
 }
 
 
 // address: 0x800A093C
+// line start: 270
+// line end:   270
 void _GLOBAL__I_DrawHelp__Fv() {
 }
 

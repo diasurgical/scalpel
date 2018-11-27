@@ -3,36 +3,50 @@
 #include "types.h"
 
 // address: 0x80034F64
+// line start: 126
+// line end:   132
 void InitCursor__Fv() {
 }
 
 
 // address: 0x80034F6C
+// line start: 137
+// line end:   142
 void FreeCursor__Fv() {
 }
 
 
 // address: 0x80034F74
+// line start: 148
+// line end:   158
 void SetICursor__Fi(int i) {
 }
 
 
 // address: 0x80034FD0
+// line start: 165
+// line end:   173
 void SetCursor__Fi(int i) {
 }
 
 
 // address: 0x80035034
+// line start: 179
+// line end:   180
 void NewCursor__Fi(int i) {
 }
 
 
 // address: 0x80035054
+// line start: 186
+// line end:   201
 void InitLevelCursor__Fv() {
 }
 
 
 // address: 0x800350B4
+// line start: 211
+// line end:   231
 void CheckTown__Fv() {
 	{
 		// register: 18
@@ -46,6 +60,8 @@ void CheckTown__Fv() {
 
 
 // address: 0x8003530C
+// line start: 237
+// line end:   258
 void CheckRportal__Fv() {
 	{
 		// register: 17
@@ -59,6 +75,8 @@ void CheckRportal__Fv() {
 
 
 // address: 0x80035534
+// line start: 264
+// line end:   756
 void CheckCursMove__Fv() {
 }
 

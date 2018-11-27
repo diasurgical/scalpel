@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8008CF28
+// line start: 150
+// line end:   163
 void PrintCDWaitTask__FP4TASK(struct TASK *T) {
 	// register: 17
 	// size: 0x6C
@@ -14,21 +16,29 @@ void PrintCDWaitTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8008CFE0
+// line start: 169
+// line end:   171
 void InitCDWaitIcon__Fv() {
 }
 
 
 // address: 0x8008D014
+// line start: 181
+// line end:   198
 void STR_Debug__FP6SFXHDRPce(struct SFXHDR *sfh, char *e) {
 }
 
 
 // address: 0x8008D028
+// line start: 394
+// line end:   417
 void STR_SystemTask__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x8008D070
+// line start: 427
+// line end:   437
 void STR_AllocBuffer__Fv() {
 	{
 		{
@@ -42,6 +52,8 @@ void STR_AllocBuffer__Fv() {
 
 
 // address: 0x8008D0C4
+// line start: 443
+// line end:   485
 void STR_Init__Fv() {
 	{
 		{
@@ -61,6 +73,8 @@ void STR_Init__Fv() {
 
 // address: 0x8008D1E4
 // size: 0x80
+// line start: 496
+// line end:   554
 struct SFXHDR *STR_InitStream__Fv() {
 	// register: 18
 	// size: 0x80
@@ -74,6 +88,8 @@ struct SFXHDR *STR_InitStream__Fv() {
 
 // address: 0x8008D31C
 // size: 0x80
+// line start: 564
+// line end:   624
 struct SFXHDR *STR_PlaySound__FUscic(unsigned short Name, char flag, int volume, char loop) {
 	// register: 16
 	// size: 0x80
@@ -85,11 +101,15 @@ struct SFXHDR *STR_PlaySound__FUscic(unsigned short Name, char flag, int volume,
 
 
 // address: 0x8008D458
+// line start: 634
+// line end:   639
 void STR_setvolume__FP6SFXHDR(struct SFXHDR *sfh) {
 }
 
 
 // address: 0x8008D4B0
+// line start: 664
+// line end:   695
 void STR_PlaySFX__FP6SFXHDR(struct SFXHDR *sfh) {
 	// register: 5
 	register int offs;
@@ -97,6 +117,8 @@ void STR_PlaySFX__FP6SFXHDR(struct SFXHDR *sfh) {
 
 
 // address: 0x8008D5BC
+// line start: 705
+// line end:   709
 void STR_pauseall__Fv() {
 	{
 		// register: 17
@@ -106,6 +128,8 @@ void STR_pauseall__Fv() {
 
 
 // address: 0x8008D60C
+// line start: 719
+// line end:   723
 void STR_resumeall__Fv() {
 	{
 		// register: 17
@@ -115,21 +139,29 @@ void STR_resumeall__Fv() {
 
 
 // address: 0x8008D65C
+// line start: 733
+// line end:   754
 void STR_CloseStream__FP6SFXHDR(struct SFXHDR *sfh) {
 }
 
 
 // address: 0x8008D6E0
+// line start: 763
+// line end:   805
 void STR_SoundCommand__FP6SFXHDRi(struct SFXHDR *sfh, int Command) {
 }
 
 
 // address: 0x8008D7EC
+// line start: 814
+// line end:   883
 char STR_Command__FP6SFXHDR(struct SFXHDR *sfh) {
 }
 
 
 // address: 0x8008D998
+// line start: 893
+// line end:   912
 void STR_DMAControl__FP6SFXHDR(struct SFXHDR *sfh) {
 	// register: 17
 	register unsigned char *ptr;
@@ -141,6 +173,8 @@ void STR_DMAControl__FP6SFXHDR(struct SFXHDR *sfh) {
 
 
 // address: 0x8008DA60
+// line start: 923
+// line end:   1000
 void STR_PlayStream__FP6SFXHDRPUci(struct SFXHDR *sfh, unsigned char *Src, int size) {
 	// register: 19
 	register int sec_num;
@@ -152,6 +186,8 @@ void STR_PlayStream__FP6SFXHDRPUci(struct SFXHDR *sfh, unsigned char *Src, int s
 
 
 // address: 0x8008DC3C
+// line start: 1012
+// line end:   1137
 void STR_AsyncWeeTASK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -179,6 +215,8 @@ void STR_AsyncWeeTASK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8008DF3C
+// line start: 1150
+// line end:   1321
 void STR_AsyncTASK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -208,6 +246,8 @@ void STR_AsyncTASK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8008E370
+// line start: 1335
+// line end:   1370
 void STR_StreamMainTask__FP6SFXHDRc(struct SFXHDR *sfh, char FileType) {
 	// register: 18
 	// size: 0x14

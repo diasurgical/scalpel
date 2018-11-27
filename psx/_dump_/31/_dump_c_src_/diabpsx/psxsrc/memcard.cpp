@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80140480
+// line start: 144
+// line end:   148
 void endian_swap__FPUci(unsigned char *b, int byts) {
 	// register: 3
 	register unsigned char t;
@@ -10,6 +12,8 @@ void endian_swap__FPUci(unsigned char *b, int byts) {
 
 
 // address: 0x801404B4
+// line start: 160
+// line end:   179
 unsigned short to_sjis__Fc(char asc) {
 	// register: 6
 	// size: 0x4
@@ -18,6 +22,8 @@ unsigned short to_sjis__Fc(char asc) {
 
 
 // address: 0x80140534
+// line start: 191
+// line end:   208
 char to_ascii__FUs(unsigned short sjis) {
 	// register: 8
 	// size: 0x4
@@ -26,21 +32,29 @@ char to_ascii__FUs(unsigned short sjis) {
 
 
 // address: 0x801405B4
+// line start: 219
+// line end:   231
 void ascii_to_sjis__FPcPUs(char *asc, unsigned short *sjis) {
 }
 
 
 // address: 0x80140648
+// line start: 236
+// line end:   248
 void sjis_to_ascii__FPUsPc(unsigned short *sjis, char *asc) {
 }
 
 
 // address: 0x801406D0
+// line start: 267
+// line end:   273
 int test_hw_event__Fv() {
 }
 
 
 // address: 0x80140760
+// line start: 283
+// line end:   373
 void read_card_directory__Fi(int card_number) {
 	// address: 0xFFFFFF78
 	// size: 0x50
@@ -58,11 +72,15 @@ void read_card_directory__Fi(int card_number) {
 
 
 // address: 0x80140998
+// line start: 396
+// line end:   435
 int test_card_format__Fi(int card_number) {
 }
 
 
 // address: 0x80140A28
+// line start: 455
+// line end:   459
 int checksum_data__FPci(char *buf, int size) {
 	// register: 6
 	register int chk;
@@ -70,6 +88,8 @@ int checksum_data__FPci(char *buf, int size) {
 
 
 // address: 0x80140A64
+// line start: 472
+// line end:   510
 int delete_card_file__Fii(int card_number, int file) {
 	// address: 0xFFFFFFA0
 	// size: 0x50
@@ -78,6 +98,8 @@ int delete_card_file__Fii(int card_number, int file) {
 
 
 // address: 0x80140B5C
+// line start: 524
+// line end:   627
 int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
 	// register: 20
 	register int okay;
@@ -97,6 +119,8 @@ int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
 
 
 // address: 0x80140D14
+// line start: 639
+// line end:   669
 int format_card__Fi(int card_number) {
 	// address: 0xFFFFFFA8
 	// size: 0x50
@@ -105,6 +129,8 @@ int format_card__Fi(int card_number) {
 
 
 // address: 0x80140DC4
+// line start: 694
+// line end:   827
 int write_card_file__FiiPcT2PUcPUsiT4(int card_number, int id, char *name, char *title, unsigned char *icon, unsigned short *clut, int size, unsigned char *buf) {
 	// address: 0xFFFFFD88
 	// size: 0x200
@@ -122,11 +148,15 @@ int write_card_file__FiiPcT2PUcPUsiT4(int card_number, int id, char *name, char 
 
 
 // address: 0x8014110C
+// line start: 837
+// line end:   864
 void new_card__Fi(int card_number) {
 }
 
 
 // address: 0x80141188
+// line start: 875
+// line end:   940
 void service_card__Fi(int card_number) {
 	// register: 19
 	register int old_status;

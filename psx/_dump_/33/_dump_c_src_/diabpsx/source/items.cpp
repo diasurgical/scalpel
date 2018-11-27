@@ -3,16 +3,22 @@
 #include "types.h"
 
 // address: 0x8003B13C
+// line start: 508
+// line end:   519
 void InitItemGFX__Fv() {
 }
 
 
 // address: 0x8003B168
+// line start: 525
+// line end:   532
 unsigned char ItemPlace__Fii(int xp, int yp) {
 }
 
 
 // address: 0x8003B230
+// line start: 539
+// line end:   576
 void AddInitItems__Fv() {
 	// register: 22
 	register int j;
@@ -32,6 +38,8 @@ void AddInitItems__Fv() {
 
 
 // address: 0x8003B448
+// line start: 583
+// line end:   630
 void InitItems__Fv() {
 	// register: 4
 	register int i;
@@ -43,6 +51,8 @@ void InitItems__Fv() {
 
 
 // address: 0x8003B60C
+// line start: 637
+// line end:   890
 void CalcPlrItemVals__FiUc(int p, unsigned char Loadgfx) {
 	// register: 11
 	register int mind;
@@ -124,6 +134,8 @@ void CalcPlrItemVals__FiUc(int p, unsigned char Loadgfx) {
 
 
 // address: 0x8003C0BC
+// line start: 895
+// line end:   925
 void CalcPlrScrolls__Fi(int p) {
 	// register: 11
 	register int i;
@@ -133,6 +145,8 @@ void CalcPlrScrolls__Fi(int p) {
 
 
 // address: 0x8003C43C
+// line start: 934
+// line end:   942
 void CalcPlrStaff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 	{
 		{
@@ -144,6 +158,8 @@ void CalcPlrStaff__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 
 
 // address: 0x8003C4D8
+// line start: 946
+// line end:   986
 void CalcSelfItems__Fi(int pnum) {
 	// register: 6
 	register int i;
@@ -164,11 +180,15 @@ void CalcSelfItems__Fi(int pnum) {
 
 
 // address: 0x8003C638
+// line start: 992
+// line end:   996
 unsigned char ItemMinStats__FPC12PlayerStructPC10ItemStruct(struct PlayerStruct *p, struct ItemStruct *x) {
 }
 
 
 // address: 0x8003C684
+// line start: 1002
+// line end:   1017
 void CalcPlrItemMin__Fi(int pnum) {
 	// register: 16
 	register int i;
@@ -182,6 +202,8 @@ void CalcPlrItemMin__Fi(int pnum) {
 
 
 // address: 0x8003C764
+// line start: 1023
+// line end:   1046
 void CalcPlrBookVals__Fi(int p) {
 	// register: 18
 	register int i;
@@ -191,11 +213,15 @@ void CalcPlrBookVals__Fi(int p) {
 
 
 // address: 0x8003C9F8
+// line start: 1051
+// line end:   1061
 void CalcPlrInv__FiUc(int p, unsigned char Loadgfx) {
 }
 
 
 // address: 0x8003CABC
+// line start: 1067
+// line end:   1098
 void SetPlrHandItem__FP10ItemStructi(struct ItemStruct *h, int idata) {
 	// register: 17
 	// size: 0x20
@@ -204,11 +230,15 @@ void SetPlrHandItem__FP10ItemStructi(struct ItemStruct *h, int idata) {
 
 
 // address: 0x8003CBD4
+// line start: 1104
+// line end:   1105
 void GetPlrHandSeed__FP10ItemStruct(struct ItemStruct *h) {
 }
 
 
 // address: 0x8003CC00
+// line start: 1111
+// line end:   1127
 void GetGoldSeed__FiP10ItemStruct(int pnum, struct ItemStruct *h) {
 	// register: 4
 	register int i;
@@ -222,16 +252,22 @@ void GetGoldSeed__FiP10ItemStruct(int pnum, struct ItemStruct *h) {
 
 
 // address: 0x8003CD7C
+// line start: 1133
+// line end:   1134
 void SetPlrHandSeed__FP10ItemStructi(struct ItemStruct *h, int iseed) {
 }
 
 
 // address: 0x8003CD84
+// line start: 1140
+// line end:   1145
 void SetPlrHandGoldCurs__FP10ItemStruct(struct ItemStruct *h) {
 }
 
 
 // address: 0x8003CDB4
+// line start: 1151
+// line end:   1262
 void CreatePlrItems__Fi(int p) {
 	// register: 3
 	register int i;
@@ -242,6 +278,8 @@ void CreatePlrItems__Fi(int p) {
 
 
 // address: 0x8003D1F0
+// line start: 1269
+// line end:   1298
 unsigned char ItemSpaceOk__Fii(int i, int j) {
 	// register: 2
 	register int pn;
@@ -251,6 +289,8 @@ unsigned char ItemSpaceOk__Fii(int i, int j) {
 
 
 // address: 0x8003D4C8
+// line start: 1306
+// line end:   1354
 unsigned char GetItemSpace__Fiic(int x, int y, char inum) {
 	// register: 16
 	register int i;
@@ -268,6 +308,8 @@ unsigned char GetItemSpace__Fiic(int x, int y, char inum) {
 
 
 // address: 0x8003D6F4
+// line start: 1361
+// line end:   1384
 void GetSuperItemSpace__Fiic(int x, int y, char inum) {
 	// register: 16
 	register int xx;
@@ -293,6 +335,8 @@ void GetSuperItemSpace__Fiic(int x, int y, char inum) {
 
 
 // address: 0x8003D85C
+// line start: 1390
+// line end:   1402
 void GetSuperItemLoc__FiiRiT2(int x, int y, int *xx, int *yy) {
 	{
 		// register: 17
@@ -314,6 +358,8 @@ void GetSuperItemLoc__FiiRiT2(int x, int y, int *xx, int *yy) {
 
 
 // address: 0x8003D924
+// line start: 1408
+// line end:   1414
 void CalcItemValue__Fi(int i) {
 	// register: 4
 	register int v;
@@ -321,6 +367,8 @@ void CalcItemValue__Fi(int i) {
 
 
 // address: 0x8003D9DC
+// line start: 1421
+// line end:   1466
 void GetBookSpell__Fii(int i, int lvl) {
 	// register: 5
 	register int rv;
@@ -332,6 +380,8 @@ void GetBookSpell__Fii(int i, int lvl) {
 
 
 // address: 0x8003DC44
+// line start: 1473
+// line end:   1533
 void GetStaffPower__FiiiUc(int i, int lvl, int bs, unsigned char onlygood) {
 	// address: 0xFFFFFB68
 	// size: 0x400
@@ -351,6 +401,8 @@ void GetStaffPower__FiiiUc(int i, int lvl, int bs, unsigned char onlygood) {
 
 
 // address: 0x8003DE34
+// line start: 1541
+// line end:   1609
 void GetStaffSpell__FiiUc(int i, int lvl, unsigned char onlygood) {
 	// register: 5
 	register int rv;
@@ -374,6 +426,8 @@ void GetStaffSpell__FiiUc(int i, int lvl, unsigned char onlygood) {
 
 
 // address: 0x8003E0E8
+// line start: 1650
+// line end:   1740
 void GetItemAttrs__Fiii(int i, int idata, int lvl) {
 	// register: 20
 	register int rndv;
@@ -381,16 +435,22 @@ void GetItemAttrs__Fiii(int i, int idata, int lvl) {
 
 
 // address: 0x8003E634
+// line start: 1749
+// line end:   1750
 int RndPL__Fii(int param1, int param2) {
 }
 
 
 // address: 0x8003E66C
+// line start: 1757
+// line end:   1760
 int PLVal__Fiiiii(int pv, int p1, int p2, int minv, int maxv) {
 }
 
 
 // address: 0x8003E6E0
+// line start: 1767
+// line end:   2049
 void SaveItemPower__Fiiiiiii(int i, int power, int param1, int param2, int minval, int maxval, int multval) {
 	// register: 19
 	register int r;
@@ -400,6 +460,8 @@ void SaveItemPower__Fiiiiiii(int i, int power, int param1, int param2, int minva
 
 
 // address: 0x8003FE0C
+// line start: 2057
+// line end:   2155
 void GetItemPower__FiiilUc(int i, int minlvl, int maxlvl, long flgs, int onlygood) {
 	// register: 16
 	register int pre;
@@ -425,11 +487,15 @@ void GetItemPower__FiiilUc(int i, int minlvl, int maxlvl, long flgs, int onlygoo
 
 
 // address: 0x80040274
+// line start: 2162
+// line end:   2192
 void GetItemBonus__FiiiiUc(int i, int idata, int minlvl, int maxlvl, int onlygood) {
 }
 
 
 // address: 0x80040370
+// line start: 2198
+// line end:   2225
 void SetupItem__Fi(int i) {
 	// register: 2
 	register int it;
@@ -437,6 +503,8 @@ void SetupItem__Fi(int i) {
 
 
 // address: 0x80040478
+// line start: 2234
+// line end:   2270
 int RndItem__Fi(int m) {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -449,6 +517,8 @@ int RndItem__Fi(int m) {
 
 
 // address: 0x800406BC
+// line start: 2278
+// line end:   2309
 int RndUItem__Fi(int m) {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -463,6 +533,8 @@ int RndUItem__Fi(int m) {
 
 
 // address: 0x800408FC
+// line start: 2317
+// line end:   2340
 int RndAllItems__Fv() {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -475,6 +547,8 @@ int RndAllItems__Fv() {
 
 
 // address: 0x80040A70
+// line start: 2348
+// line end:   2363
 int RndTypeItems__Fii(int itype, int imid) {
 	// address: 0xFFFFF7F8
 	// size: 0x800
@@ -489,6 +563,8 @@ int RndTypeItems__Fii(int itype, int imid) {
 
 
 // address: 0x80040B70
+// line start: 2370
+// line end:   2404
 int CheckUnique__FiiiUc(int i, int lvl, int uper, unsigned char recreate) {
 	// register: 4
 	register int j;
@@ -503,11 +579,15 @@ int CheckUnique__FiiiUc(int i, int lvl, int uper, unsigned char recreate) {
 
 
 // address: 0x80040D20
+// line start: 2411
+// line end:   2433
 void GetUniqueItem__Fii(int i, int uid) {
 }
 
 
 // address: 0x80040FC8
+// line start: 2440
+// line end:   2453
 void SpawnUnique__Fiii(int uid, int x, int y) {
 	// register: 17
 	register int ii;
@@ -517,11 +597,15 @@ void SpawnUnique__Fiii(int uid, int x, int y) {
 
 
 // address: 0x800410D4
+// line start: 2463
+// line end:   2467
 void ItemRndDur__Fi(int ii) {
 }
 
 
 // address: 0x80041164
+// line start: 2474
+// line end:   2512
 void SetupAllItems__FiiiiiUcUcUc(int ii, int idx, int iseed, int lvl, int uper, int onlygood, int recreate, int pregen) {
 	// register: 16
 	register int iblvl;
@@ -531,6 +615,8 @@ void SetupAllItems__FiiiiiUcUcUc(int ii, int idx, int iseed, int lvl, int uper, 
 
 
 // address: 0x80041470
+// line start: 2520
+// line end:   2563
 void SpawnItem__FiiiUc(int m, int x, int y, unsigned char sendmsg) {
 	// register: 19
 	register int ii;
@@ -542,6 +628,8 @@ void SpawnItem__FiiiUc(int m, int x, int y, unsigned char sendmsg) {
 
 
 // address: 0x800416B8
+// line start: 2571
+// line end:   2585
 void CreateItem__Fiii(int uid, int x, int y) {
 	// register: 17
 	register int ii;
@@ -551,6 +639,8 @@ void CreateItem__Fiii(int uid, int x, int y) {
 
 
 // address: 0x800417E8
+// line start: 2595
+// line end:   2610
 void CreateRndItem__FiiUcUcUc(int x, int y, unsigned char onlygood, unsigned char sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -560,6 +650,8 @@ void CreateRndItem__FiiUcUcUc(int x, int y, unsigned char onlygood, unsigned cha
 
 
 // address: 0x80041930
+// line start: 2622
+// line end:   2632
 void SetupAllUseful__Fiii(int ii, int iseed, int lvl) {
 	// register: 17
 	register int idx;
@@ -567,6 +659,8 @@ void SetupAllUseful__Fiii(int ii, int iseed, int lvl) {
 
 
 // address: 0x80041A08
+// line start: 2636
+// line end:   2646
 void CreateRndUseful__FiiiUc(int pnum, int x, int y, unsigned char sendmsg) {
 	// register: 17
 	register int ii;
@@ -574,6 +668,8 @@ void CreateRndUseful__FiiiUc(int pnum, int x, int y, unsigned char sendmsg) {
 
 
 // address: 0x80041AC8
+// line start: 2655
+// line end:   2670
 void CreateTypeItem__FiiUciiUcUc(int x, int y, unsigned char onlygood, int itype, int imisc, int sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -583,11 +679,15 @@ void CreateTypeItem__FiiUciiUcUc(int x, int y, unsigned char onlygood, int itype
 
 
 // address: 0x80041C0C
+// line start: 2682
+// line end:   2706
 void RecreateEar__FiUsiUciiiiii(int ii, unsigned short ic, int iseed, unsigned char Id, int dur, int mdur, int ch, int mch, int ivalue, int ibuff) {
 }
 
 
 // address: 0x80041DF8
+// line start: 2713
+// line end:   2749
 void SpawnQuestItem__Fiiiii(int itemid, int x, int y, int randarea, int selflag) {
 	// register: 18
 	register int i;
@@ -605,6 +705,8 @@ void SpawnQuestItem__Fiiiii(int itemid, int x, int y, int randarea, int selflag)
 
 
 // address: 0x80042038
+// line start: 2756
+// line end:   2781
 void SpawnRock__Fv() {
 	// register: 3
 	register int i;
@@ -622,6 +724,8 @@ void SpawnRock__Fv() {
 
 
 // address: 0x800421F8
+// line start: 2789
+// line end:   2821
 void RespawnItem__FiUc(int i, unsigned char FlipFlag) {
 	// register: 7
 	register int it;
@@ -629,11 +733,15 @@ void RespawnItem__FiUc(int i, unsigned char FlipFlag) {
 
 
 // address: 0x800423B0
+// line start: 2828
+// line end:   2832
 void DeleteItem__Fii(int ii, int i) {
 }
 
 
 // address: 0x80042404
+// line start: 2842
+// line end:   2857
 void ItemDoppel__Fv() {
 	// register: 5
 	register int idoppelx;
@@ -644,6 +752,8 @@ void ItemDoppel__Fv() {
 
 
 // address: 0x800424CC
+// line start: 2872
+// line end:   2922
 void ProcessItems__Fv() {
 	// register: 19
 	register int i;
@@ -675,11 +785,15 @@ void ProcessItems__Fv() {
 
 
 // address: 0x80042700
+// line start: 2929
+// line end:   2934
 void FreeItemGFX__Fv() {
 }
 
 
 // address: 0x80042708
+// line start: 2953
+// line end:   2978
 void GetItemStr__Fi(int i) {
 	{
 		{
@@ -693,6 +807,8 @@ void GetItemStr__Fi(int i) {
 
 
 // address: 0x800428B0
+// line start: 2984
+// line end:   2994
 void CheckIdentify__Fii(int pnum, int cii) {
 	// register: 3
 	// size: 0x98
@@ -701,6 +817,8 @@ void CheckIdentify__Fii(int pnum, int cii) {
 
 
 // address: 0x800429A0
+// line start: 2999
+// line end:   3023
 void RepairItem__FP10ItemStructi(struct ItemStruct *i, int lvl) {
 	// register: 4
 	register int d;
@@ -710,6 +828,8 @@ void RepairItem__FP10ItemStructi(struct ItemStruct *i, int lvl) {
 
 
 // address: 0x80042A70
+// line start: 3027
+// line end:   3040
 void DoRepair__Fii(int pnum, int cii) {
 	// register: 18
 	// size: 0x23A8
@@ -721,11 +841,15 @@ void DoRepair__Fii(int pnum, int cii) {
 
 
 // address: 0x80042B34
+// line start: 3045
+// line end:   3058
 void RechargeItem__FP10ItemStructi(struct ItemStruct *i, int r) {
 }
 
 
 // address: 0x80042BA4
+// line start: 3062
+// line end:   3080
 void DoRecharge__Fii(int pnum, int cii) {
 	// register: 4
 	// size: 0x23A8
@@ -743,11 +867,15 @@ void DoRecharge__Fii(int pnum, int cii) {
 
 
 // address: 0x80042CA4
+// line start: 3185
+// line end:   3309
 void PrintItemOil__Fc(char IDidx) {
 }
 
 
 // address: 0x80042D98
+// line start: 3315
+// line end:   3527
 void PrintItemPower__FcPC10ItemStruct(char plidx, struct ItemStruct *x) {
 	// register: 16
 	register int v;
@@ -755,31 +883,43 @@ void PrintItemPower__FcPC10ItemStruct(char plidx, struct ItemStruct *x) {
 
 
 // address: 0x8004344C
+// line start: 3571
+// line end:   3599
 void PrintUString__FiiUcPcc(int x, int y, unsigned char cjustflag, char *str, int col) {
 }
 
 
 // address: 0x80043454
+// line start: 3612
+// line end:   3655
 void PrintItemMisc__FPC10ItemStruct(struct ItemStruct *x) {
 }
 
 
 // address: 0x800435E0
+// line start: 3662
+// line end:   3707
 void PrintItemDetails__FPC10ItemStruct(struct ItemStruct *x) {
 }
 
 
 // address: 0x80043950
+// line start: 3713
+// line end:   3753
 void PrintItemDur__FPC10ItemStruct(struct ItemStruct *x) {
 }
 
 
 // address: 0x80043C60
+// line start: 3760
+// line end:   3763
 void CastScroll__Fii(int pnum, int Spell) {
 }
 
 
 // address: 0x80043C70
+// line start: 3771
+// line end:   3961
 void UseItem__Fiii(int p, int Mid, int spl) {
 	// register: 4
 	register long l;
@@ -792,6 +932,8 @@ void UseItem__Fiii(int p, int Mid, int spl) {
 
 
 // address: 0x80044288
+// line start: 3970
+// line end:   3975
 unsigned char StoreStatOk__FP10ItemStruct(struct ItemStruct *h) {
 	// register: 5
 	register unsigned char sf;
@@ -799,6 +941,8 @@ unsigned char StoreStatOk__FP10ItemStruct(struct ItemStruct *h) {
 
 
 // address: 0x8004431C
+// line start: 3994
+// line end:   4009
 unsigned char PremiumItemOk__Fi(int i) {
 	// register: 4
 	register unsigned char rv;
@@ -806,6 +950,8 @@ unsigned char PremiumItemOk__Fi(int i) {
 
 
 // address: 0x80044398
+// line start: 4015
+// line end:   4034
 int RndPremiumItem__Fii(int minlvl, int maxlvl) {
 	// address: 0xFFFFF7E0
 	// size: 0x800
@@ -818,6 +964,8 @@ int RndPremiumItem__Fii(int minlvl, int maxlvl) {
 
 
 // address: 0x800444A0
+// line start: 4042
+// line end:   4067
 void SpawnOnePremium__Fii(int i, int plvl) {
 	// register: 16
 	register int itype;
@@ -830,6 +978,8 @@ void SpawnOnePremium__Fii(int i, int plvl) {
 
 
 // address: 0x800446C0
+// line start: 4076
+// line end:   4095
 void SpawnPremium__Fi(int lvl) {
 	// register: 16
 	register int i;
@@ -837,6 +987,8 @@ void SpawnPremium__Fi(int lvl) {
 
 
 // address: 0x80044904
+// line start: 4108
+// line end:   4123
 void WitchBookLevel__Fi(int ii) {
 	// register: 6
 	register int slvl;
@@ -844,11 +996,15 @@ void WitchBookLevel__Fi(int ii) {
 
 
 // address: 0x80044A54
+// line start: 4154
+// line end:   4158
 void SpawnStoreGold__Fv() {
 }
 
 
 // address: 0x80044AD8
+// line start: 4207
+// line end:   4218
 void RecalcStoreStats__Fv() {
 	// register: 17
 	register int i;
@@ -856,6 +1012,8 @@ void RecalcStoreStats__Fv() {
 
 
 // address: 0x80044C78
+// line start: 4230
+// line end:   4238
 int ItemNoFlippy__Fv() {
 	// register: 2
 	register int r;
@@ -863,6 +1021,8 @@ int ItemNoFlippy__Fv() {
 
 
 // address: 0x80044CDC
+// line start: 4257
+// line end:   4279
 void CreateSpellBook__FiiiUcUc(int x, int y, int ispell, unsigned char sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -874,6 +1034,8 @@ void CreateSpellBook__FiiiUcUc(int x, int y, int ispell, unsigned char sendmsg, 
 
 
 // address: 0x80044E6C
+// line start: 4287
+// line end:   4308
 void CreateMagicArmor__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -885,6 +1047,8 @@ void CreateMagicArmor__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendmsg
 
 
 // address: 0x80044FE8
+// line start: 4316
+// line end:   4337
 void CreateMagicWeapon__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendmsg, int delta) {
 	// register: 17
 	register int ii;
@@ -896,6 +1060,8 @@ void CreateMagicWeapon__FiiiiUcUc(int x, int y, int imisc, int icurs, int sendms
 
 
 // address: 0x80045164
+// line start: 4476
+// line end:   4517
 void DrawUniqueInfo__Fv() {
 	// register: 3
 	register int u;
@@ -903,6 +1069,8 @@ void DrawUniqueInfo__Fv() {
 
 
 // address: 0x800452D8
+// line start: 4671
+// line end:   4769
 char *MakeItemStr__FP10ItemStructUsUs(struct ItemStruct *ItemPtr, unsigned short ItemNo, unsigned short MaxLen) {
 	// register: 3
 	register int PreIdx;

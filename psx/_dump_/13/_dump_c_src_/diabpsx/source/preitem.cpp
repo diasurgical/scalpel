@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80149AA4
+// line start: 111
+// line end:   127
 unsigned char SmithItemOk__Fi(int i) {
 	// register: 3
 	register unsigned char rv;
@@ -10,6 +12,8 @@ unsigned char SmithItemOk__Fi(int i) {
 
 
 // address: 0x80149B08
+// line start: 134
+// line end:   154
 int RndSmithItem__Fi(int lvl) {
 	// address: 0xFFFFF7E0
 	// size: 0x800
@@ -22,6 +26,8 @@ int RndSmithItem__Fi(int lvl) {
 
 
 // address: 0x80149C14
+// line start: 160
+// line end:   181
 unsigned char WitchItemOk__Fi(int i) {
 	// register: 5
 	register unsigned char rv;
@@ -29,6 +35,8 @@ unsigned char WitchItemOk__Fi(int i) {
 
 
 // address: 0x80149D54
+// line start: 186
+// line end:   207
 int RndWitchItem__Fi(int lvl) {
 	// address: 0xFFFFF7E0
 	// size: 0x800
@@ -41,6 +49,8 @@ int RndWitchItem__Fi(int lvl) {
 
 
 // address: 0x80149E54
+// line start: 213
+// line end:   218
 void BubbleSwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b) {
 	// address: 0xFFFFFF68
 	// size: 0x94
@@ -49,6 +59,8 @@ void BubbleSwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b
 
 
 // address: 0x80149F38
+// line start: 223
+// line end:   238
 void SortWitch__Fv() {
 	// register: 3
 	register int j;
@@ -60,6 +72,8 @@ void SortWitch__Fv() {
 
 
 // address: 0x8014A058
+// line start: 244
+// line end:   268
 int RndBoyItem__Fi(int lvl) {
 	// address: 0xFFFFF7E0
 	// size: 0x800
@@ -72,6 +86,8 @@ int RndBoyItem__Fi(int lvl) {
 
 
 // address: 0x8014A17C
+// line start: 274
+// line end:   302
 unsigned char HealerItemOk__Fi(int i) {
 	// register: 6
 	register unsigned char rv;
@@ -79,6 +95,8 @@ unsigned char HealerItemOk__Fi(int i) {
 
 
 // address: 0x8014A330
+// line start: 306
+// line end:   321
 int RndHealerItem__Fi(int lvl) {
 	// address: 0xFFFFF7E0
 	// size: 0x800
@@ -91,6 +109,8 @@ int RndHealerItem__Fi(int lvl) {
 
 
 // address: 0x8014A430
+// line start: 326
+// line end:   333
 void RecreatePremiumItem__Fiiii(int ii, int idx, int plvl, int iseed) {
 	// register: 17
 	register int itype;
@@ -98,6 +118,8 @@ void RecreatePremiumItem__Fiiii(int ii, int idx, int plvl, int iseed) {
 
 
 // address: 0x8014A4F8
+// line start: 338
+// line end:   357
 void RecreateWitchItem__Fiiii(int ii, int idx, int lvl, int iseed) {
 	{
 		{
@@ -111,11 +133,15 @@ void RecreateWitchItem__Fiiii(int ii, int idx, int lvl, int iseed) {
 
 
 // address: 0x8014A650
+// line start: 362
+// line end:   368
 void RecreateSmithItem__Fiiii(int ii, int idx, int lvl, int iseed) {
 }
 
 
 // address: 0x8014A6EC
+// line start: 377
+// line end:   387
 void RecreateHealerItem__Fiiii(int ii, int idx, int lvl, int iseed) {
 	{
 		{
@@ -125,6 +151,8 @@ void RecreateHealerItem__Fiiii(int ii, int idx, int lvl, int iseed) {
 
 
 // address: 0x8014A7AC
+// line start: 391
+// line end:   399
 void RecreateBoyItem__Fiiii(int ii, int idx, int lvl, int iseed) {
 	// register: 17
 	register int itype;
@@ -132,11 +160,15 @@ void RecreateBoyItem__Fiiii(int ii, int idx, int lvl, int iseed) {
 
 
 // address: 0x8014A870
+// line start: 404
+// line end:   409
 void RecreateTownItem__FiiUsii(int ii, int idx, unsigned short icreateinfo, int iseed, int ivalue) {
 }
 
 
 // address: 0x8014A8FC
+// line start: 414
+// line end:   435
 void SpawnSmith__Fi(int lvl) {
 	// register: 16
 	register int i;
@@ -146,6 +178,8 @@ void SpawnSmith__Fi(int lvl) {
 
 
 // address: 0x8014AA98
+// line start: 440
+// line end:   491
 void SpawnWitch__Fi(int lvl) {
 	// register: 17
 	register int itype;
@@ -159,6 +193,8 @@ void SpawnWitch__Fi(int lvl) {
 
 
 // address: 0x8014AE04
+// line start: 495
+// line end:   528
 void SpawnHealer__Fi(int lvl) {
 	// register: 3
 	register int i;
@@ -170,6 +206,8 @@ void SpawnHealer__Fi(int lvl) {
 
 
 // address: 0x8014B120
+// line start: 532
+// line end:   550
 void SpawnBoy__Fi(int lvl) {
 	// register: 16
 	register int itype;
@@ -177,6 +215,8 @@ void SpawnBoy__Fi(int lvl) {
 
 
 // address: 0x8014B274
+// line start: 555
+// line end:   572
 void SortSmith__Fv() {
 	// register: 3
 	register int j;
@@ -188,6 +228,8 @@ void SortSmith__Fv() {
 
 
 // address: 0x8014B388
+// line start: 577
+// line end:   591
 void SortHealer__Fv() {
 	// register: 3
 	register int j;
@@ -199,6 +241,8 @@ void SortHealer__Fv() {
 
 
 // address: 0x8014B4A8
+// line start: 597
+// line end:   650
 void RecreateItem__FiiUsii(int ii, int idx, unsigned short icreateinfo, int iseed, int ivalue) {
 	// register: 3
 	register int uper;

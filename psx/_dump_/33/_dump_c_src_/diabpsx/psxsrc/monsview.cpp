@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x800A06A4
+// line start: 130
+// line end:   216
 void DisplayMonsterTypes__Fv() {
 	// address: 0xFFFFFED8
 	// size: 0x100

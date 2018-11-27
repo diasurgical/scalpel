@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x8002E8A0
+// line start: 520
+// line end:   523
 unsigned char TrimCol__Fs_addr_8002E8A0(short col) {
 }
 
 
 // address: 0x8002E8D8
+// line start: 527
+// line end:   695
 void DrawSpellCel__FllUclUc(long xp, long yp, unsigned char Trans, long nCel, int w) {
 	// address: 0xFFFFFF78
 	// size: 0x6C
@@ -95,11 +99,15 @@ void DrawSpellCel__FllUclUc(long xp, long yp, unsigned char Trans, long nCel, in
 
 
 // address: 0x8002F3F8
+// line start: 709
+// line end:   710
 void SetSpellTrans__Fc(char t) {
 }
 
 
 // address: 0x8002F404
+// line start: 718
+// line end:   735
 void DrawSpellBookTSK__FP4TASK(struct TASK *T) {
 	{
 		// register: 16
@@ -109,6 +117,8 @@ void DrawSpellBookTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8002F4A0
+// line start: 740
+// line end:   751
 void DrawSpeedSpellTSK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -123,6 +133,8 @@ void DrawSpeedSpellTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x8002F544
+// line start: 757
+// line end:   789
 void ToggleSpell__Fi(int pnum) {
 	// register: 2
 	// size: 0x10
@@ -131,6 +143,8 @@ void ToggleSpell__Fi(int pnum) {
 
 
 // address: 0x8002F5F8
+// line start: 815
+// line end:   1113
 void DrawSpellList__Fv() {
 	// register: 18
 	register int x;
@@ -188,26 +202,36 @@ void DrawSpellList__Fv() {
 
 
 // address: 0x800301BC
+// line start: 1119
+// line end:   1131
 void SetSpell__Fi(int pnum) {
 }
 
 
 // address: 0x80030290
+// line start: 1142
+// line end:   1145
 void AddPanelString__FPCci(char *str, int just) {
 }
 
 
 // address: 0x80030340
+// line start: 1152
+// line end:   1154
 void ClearPanel__Fv() {
 }
 
 
 // address: 0x80030370
+// line start: 1207
+// line end:   1208
 void InitPanelStr__Fv() {
 }
 
 
 // address: 0x80030390
+// line start: 1294
+// line end:   1441
 void InitControlPan__Fv() {
 	// register: 3
 	register int i;
@@ -215,16 +239,22 @@ void InitControlPan__Fv() {
 
 
 // address: 0x800305B0
+// line start: 1447
+// line end:   1450
 void DrawCtrlPan__Fv() {
 }
 
 
 // address: 0x800305DC
+// line start: 1530
+// line end:   1542
 void DoAutoMap__Fv() {
 }
 
 
 // address: 0x80030650
+// line start: 1549
+// line end:   1640
 void CheckPanelInfo__Fv() {
 	// register: 17
 	// size: 0x4
@@ -263,6 +293,8 @@ void CheckPanelInfo__Fv() {
 
 
 // address: 0x80030D70
+// line start: 1714
+// line end:   1730
 void FreeControlPan__Fv() {
 	{
 		// register: 4
@@ -328,6 +360,8 @@ void FreeControlPan__Fv() {
 
 
 // address: 0x80030E80
+// line start: 1752
+// line end:   1780
 int CPrintString__FiPci(int No, char *pszStr, int Just) {
 	// register: 6
 	// size: 0x4
@@ -342,6 +376,8 @@ int CPrintString__FiPci(int No, char *pszStr, int Just) {
 
 
 // address: 0x80030F9C
+// line start: 1823
+// line end:   1866
 void PrintInfo__Fv() {
 	// register: 20
 	register int nOffset1;
@@ -365,6 +401,8 @@ void PrintInfo__Fv() {
 
 
 // address: 0x80031258
+// line start: 1872
+// line end:   1991
 void DrawInfoBox__FP4RECT(struct RECT *InfoRect) {
 	// register: 16
 	register int pnum;
@@ -404,6 +442,8 @@ void DrawInfoBox__FP4RECT(struct RECT *InfoRect) {
 
 
 // address: 0x8003190C
+// line start: 2044
+// line end:   2156
 void MY_PlrStringXY__Fv() {
 	// register: 21
 	// size: 0x28
@@ -426,6 +466,8 @@ void MY_PlrStringXY__Fv() {
 
 
 // address: 0x80031E5C
+// line start: 2162
+// line end:   2178
 void ADD_PlrStringXY__FPCcc(char *pszStr, char col) {
 	// register: 16
 	// size: 0x28
@@ -434,6 +476,8 @@ void ADD_PlrStringXY__FPCcc(char *pszStr, char col) {
 
 
 // address: 0x80031F04
+// line start: 2201
+// line end:   2237
 void DrawPlus__Fii(int n, int pnum) {
 	// register: 16
 	// size: 0x6C
@@ -449,11 +493,15 @@ void DrawPlus__Fii(int n, int pnum) {
 
 
 // address: 0x8003206C
+// line start: 2244
+// line end:   2257
 void ChrCheckValidButton__Fi(int move) {
 }
 
 
 // address: 0x80032148
+// line start: 2265
+// line end:   2286
 void DrawArrows__Fv() {
 	// register: 18
 	// size: 0x6C
@@ -469,6 +517,8 @@ void DrawArrows__Fv() {
 
 
 // address: 0x80032240
+// line start: 2291
+// line end:   2485
 void BuildChr__Fv() {
 	// register: 18
 	register char c;
@@ -491,6 +541,8 @@ void BuildChr__Fv() {
 
 
 // address: 0x80033518
+// line start: 2490
+// line end:   2583
 void DrawChr__Fv() {
 	// address: 0xFFFFFFB0
 	// size: 0x40
@@ -512,6 +564,8 @@ void DrawChr__Fv() {
 
 
 // address: 0x80033974
+// line start: 2637
+// line end:   2658
 void DrawChrTSK__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int omp;
@@ -519,11 +573,15 @@ void DrawChrTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80033A58
+// line start: 2667
+// line end:   2675
 void DrawLevelUpIcon__Fi(int pnum) {
 }
 
 
 // address: 0x80033AEC
+// line start: 2680
+// line end:   2717
 void CheckChrBtns__Fv() {
 	// register: 16
 	register int pc;
@@ -531,11 +589,15 @@ void CheckChrBtns__Fv() {
 
 
 // address: 0x80033E58
+// line start: 2724
+// line end:   2764
 int DrawDurIcon4Item__FPC10ItemStructii(struct ItemStruct *pItem, int x, int c) {
 }
 
 
 // address: 0x80033EDC
+// line start: 2772
+// line end:   2786
 void RedBack__Fv() {
 	// register: 7
 	// size: 0x28
@@ -544,11 +606,15 @@ void RedBack__Fv() {
 
 
 // address: 0x80033FC4
+// line start: 2792
+// line end:   2799
 void PrintSBookStr__FiiUcPCcUc(int x, int y, unsigned char cjustflag, char *pszStr, int bright) {
 }
 
 
 // address: 0x8003405C
+// line start: 2806
+// line end:   2818
 char GetSBookTrans__FiUc(int ii, unsigned char townok) {
 	// register: 16
 	register char st;
@@ -556,6 +622,8 @@ char GetSBookTrans__FiUc(int ii, unsigned char townok) {
 
 
 // address: 0x80034274
+// line start: 2845
+// line end:   3030
 void DrawSpellBook__Fv() {
 	// register: 18
 	register int i;
@@ -597,6 +665,8 @@ void DrawSpellBook__Fv() {
 
 
 // address: 0x80034C2C
+// line start: 3039
+// line end:   3082
 void CheckSBook__Fv() {
 	// register: 6
 	register unsigned long tspls;
@@ -620,16 +690,22 @@ void CheckSBook__Fv() {
 
 
 // address: 0x80034E60
+// line start: 3096
+// line end:   3098
 char *get_pieces_str__Fi(int nGold) {
 }
 
 
 // address: 0x80034E94
+// line start: 3607
+// line end:   3607
 void _GLOBAL__D_DrawLevelUpFlag() {
 }
 
 
 // address: 0x80034EBC
+// line start: 3607
+// line end:   3607
 void _GLOBAL__I_DrawLevelUpFlag() {
 }
 

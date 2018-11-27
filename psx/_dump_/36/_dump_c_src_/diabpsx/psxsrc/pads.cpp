@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x800A0EB8
+// line start: 98
+// line end:   105
 void PAD_Open__Fv() {
 }
 
 
 // address: 0x80081E9C
+// line start: 111
+// line end:   141
 unsigned long ReadPadStream__Fv() {
 	// register: 19
 	register unsigned char *p0;
@@ -19,6 +23,8 @@ unsigned long ReadPadStream__Fv() {
 
 
 // address: 0x80081FB4
+// line start: 152
+// line end:   201
 void PAD_Handler__Fv() {
 	// register: 20
 	register unsigned long JVal;
@@ -31,11 +37,15 @@ void PAD_Handler__Fv() {
 
 // address: 0x8008217C
 // size: 0x6C
+// line start: 215
+// line end:   226
 struct CPad *PAD_GetPad__FiUc(int PadNum, unsigned char both) {
 }
 
 
 // address: 0x80082218
+// line start: 238
+// line end:   269
 void NewVal__4CPadUs(struct CPad *this, unsigned short New) {
 	{
 		// register: 7
@@ -47,6 +57,8 @@ void NewVal__4CPadUs(struct CPad *this, unsigned short New) {
 
 
 // address: 0x80082350
+// line start: 273
+// line end:   305
 void BothNewVal__4CPadUsUs(struct CPad *this, unsigned short New, unsigned short New2) {
 	{
 		// register: 7
@@ -58,6 +70,8 @@ void BothNewVal__4CPadUsUs(struct CPad *this, unsigned short New, unsigned short
 
 
 // address: 0x800824AC
+// line start: 315
+// line end:   339
 unsigned short Trans__4CPadUs(struct CPad *this, unsigned short PadVal) {
 	// register: 2
 	register unsigned short RetVal;
@@ -65,6 +79,8 @@ unsigned short Trans__4CPadUs(struct CPad *this, unsigned short PadVal) {
 
 
 // address: 0x800825D0
+// line start: 343
+// line end:   343
 void _GLOBAL__I_Pad0() {
 }
 

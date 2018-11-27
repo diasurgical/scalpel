@@ -3,16 +3,22 @@
 #include "types.h"
 
 // address: 0x80085944
+// line start: 230
+// line end:   236
 void UpdateSel__FPUsUsPUc(unsigned short *Col, unsigned short Add, unsigned char *Count) {
 }
 
 
 // address: 0x80085984
+// line start: 241
+// line end:   270
 void CycleSelCols__Fv() {
 }
 
 
 // address: 0x80085B3C
+// line start: 278
+// line end:   286
 int FindTownCreature__7CBlocksi(struct CBlocks *this, int GameEqu) {
 	{
 		// register: 17
@@ -26,6 +32,8 @@ int FindTownCreature__7CBlocksi(struct CBlocks *this, int GameEqu) {
 
 
 // address: 0x80085BB0
+// line start: 295
+// line end:   301
 int FindCreature__7CBlocksi(struct CBlocks *this, int MgNum) {
 	{
 		// register: 3
@@ -36,16 +44,22 @@ int FindCreature__7CBlocksi(struct CBlocks *this, int MgNum) {
 
 // address: 0x80085C04
 // size: 0xE0
+// line start: 310
+// line end:   364
 struct CBlocks *__7CBlocksiiiii(struct CBlocks *this, int BgId, int ObjId, int ItemId, int Level, int List) {
 }
 
 
 // address: 0x80085D58
+// line start: 374
+// line end:   376
 void SetTownersGraphics__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x80085D90
+// line start: 385
+// line end:   396
 void SetMonsterGraphics__7CBlocksii(struct CBlocks *this, int Level, int List) {
 	// register: 16
 	// size: 0x8
@@ -57,11 +71,15 @@ void SetMonsterGraphics__7CBlocksii(struct CBlocks *this, int Level, int List) {
 
 
 // address: 0x80085E58
+// line start: 406
+// line end:   418
 void ___7CBlocks(struct CBlocks *this, int __in_chrg) {
 }
 
 
 // address: 0x80085EE0
+// line start: 428
+// line end:   435
 void DumpGt4s__7CBlocks(struct CBlocks *this) {
 	{
 		{
@@ -71,6 +89,8 @@ void DumpGt4s__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x80085F48
+// line start: 444
+// line end:   451
 void DumpRects__7CBlocks(struct CBlocks *this) {
 	{
 		{
@@ -80,16 +100,22 @@ void DumpRects__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x80085FB0
+// line start: 461
+// line end:   466
 void SetGraphics__7CBlocksPP7TextDatPii(struct CBlocks *this, struct TextDat **TDat, int *pId, int Id) {
 }
 
 
 // address: 0x8008600C
+// line start: 476
+// line end:   482
 void DumpGraphics__7CBlocksPP7TextDatPi(struct CBlocks *this, struct TextDat **TDat, int *Id) {
 }
 
 
 // address: 0x8008605C
+// line start: 490
+// line end:   525
 void PrintBlockOutline__7CBlocksiiiii(struct CBlocks *this, int x, int y, int r, int g, int b) {
 	// address: 0xFFFFFFC8
 	// size: 0x10
@@ -98,6 +124,8 @@ void PrintBlockOutline__7CBlocksiiiii(struct CBlocks *this, int x, int y, int r,
 
 
 // address: 0x800863A8
+// line start: 536
+// line end:   546
 void Load__7CBlocksi(struct CBlocks *this, int Id) {
 	{
 		{
@@ -107,6 +135,8 @@ void Load__7CBlocksi(struct CBlocks *this, int Id) {
 
 
 // address: 0x80086454
+// line start: 557
+// line end:   568
 void MakeRectTable__7CBlocks(struct CBlocks *this) {
 	{
 		// register: 16
@@ -116,6 +146,8 @@ void MakeRectTable__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x80086528
+// line start: 578
+// line end:   589
 void MakeGt4Table__7CBlocks(struct CBlocks *this) {
 	{
 		// register: 17
@@ -130,6 +162,8 @@ void MakeGt4Table__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x80086630
+// line start: 599
+// line end:   657
 void MakeGt4__7CBlocksP8POLY_GT4P9FRAME_HDR(struct CBlocks *this, struct POLY_GT4 *GT4, struct FRAME_HDR *Fr) {
 	// register: 2
 	register int H;
@@ -150,26 +184,36 @@ void MakeGt4__7CBlocksP8POLY_GT4P9FRAME_HDR(struct CBlocks *this, struct POLY_GT
 
 // address: 0x80086770
 // size: 0xC
+// line start: 667
+// line end:   669
 struct CBlock *GetBlock__7CBlocksi(struct CBlocks *this, int num) {
 }
 
 
 // address: 0x800867E8
+// line start: 680
+// line end:   681
 void Print__7CBlocks(struct CBlocks *this) {
 }
 
 
 // address: 0x80086810
+// line start: 691
+// line end:   694
 void SetXY__7CBlocksii(struct CBlocks *this, int nx, int ny) {
 }
 
 
 // address: 0x80086838
+// line start: 704
+// line end:   706
 void GetXY__7CBlocksPiT1(struct CBlocks *this, int *nx, int *ny) {
 }
 
 
 // address: 0x80086850
+// line start: 749
+// line end:   1234
 void PrintMap__7CBlocksii(struct CBlocks *this, int x, int y) {
 	// address: 0xFFFFFF00
 	auto int XPos;
@@ -327,6 +371,8 @@ void PrintMap__7CBlocksii(struct CBlocks *this, int x, int y) {
 
 
 // address: 0x80087D40
+// line start: 1246
+// line end:   1269
 void PrintGameSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int ThisYPos, int OtPos, int ScrX, int ScrY) {
 	// register: 17
 	// size: 0xC
@@ -341,6 +387,8 @@ void PrintGameSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int Thi
 
 
 // address: 0x80087EB0
+// line start: 1279
+// line end:   1675
 void PrintGameSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct map_info *piece, int OtPos, int ScrX, int ScrY, int R, int G, int B) {
 	// address: 0xFFFFFFA0
 	auto int nMonster;
@@ -505,6 +553,8 @@ void PrintGameSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct ma
 
 
 // address: 0x80088CB4
+// line start: 1684
+// line end:   1864
 void PrintSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct map_info *piece, int OtPos, int ScrX, int ScrY, int R, int G, int B) {
 	// address: 0xFFFFFFC8
 	auto int Monster;
@@ -596,6 +646,8 @@ void PrintSprites__7CBlocksP8map_infoiiiiiii(struct CBlocks *this, struct map_in
 
 
 // address: 0x800893E8
+// line start: 1872
+// line end:   1892
 void PrintSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int ThisYPos, int OtPos, int ScrX, int ScrY) {
 	// register: 17
 	// size: 0xC
@@ -610,21 +662,29 @@ void PrintSprites__7CBlocksiiiii(struct CBlocks *this, int ThisXPos, int ThisYPo
 
 
 // address: 0x80089558
+// line start: 1902
+// line end:   1903
 int ScrToWorldX__7CBlocksii(struct CBlocks *this, int sx, int sy) {
 }
 
 
 // address: 0x8008956C
+// line start: 1913
+// line end:   1914
 int ScrToWorldY__7CBlocksii(struct CBlocks *this, int sx, int sy) {
 }
 
 
 // address: 0x80089580
+// line start: 1924
+// line end:   1926
 void SetScrollTarget__7CBlocksii(struct CBlocks *this, int x, int y) {
 }
 
 
 // address: 0x80089644
+// line start: 1936
+// line end:   1944
 void DoScroll__7CBlocks(struct CBlocks *this) {
 	// register: 4
 	register int XDiff;
@@ -636,11 +696,15 @@ void DoScroll__7CBlocks(struct CBlocks *this) {
 
 
 // address: 0x800896C8
+// line start: 1954
+// line end:   1964
 void SetPlayerPosBlocks__7CBlocksiii(struct CBlocks *this, int PlayerNum, int bx, int by) {
 }
 
 
 // address: 0x80089768
+// line start: 1975
+// line end:   1986
 void GetScrXY__7CBlocksR4RECTiiii(struct CBlocks *this, struct RECT *R, int x, int y, int sxoff, int syoff) {
 	// register: 16
 	register int Sx;
@@ -650,6 +714,8 @@ void GetScrXY__7CBlocksR4RECTiiii(struct CBlocks *this, struct RECT *R, int x, i
 
 
 // address: 0x8008983C
+// line start: 2043
+// line end:   2070
 void ShadScaleSkew__7CBlocksP8POLY_FT4(struct POLY_FT4 *Ft4) {
 	// register: 5
 	register int H;
@@ -661,32 +727,44 @@ void ShadScaleSkew__7CBlocksP8POLY_FT4(struct POLY_FT4 *Ft4) {
 
 
 // address: 0x800898BC
+// line start: 2082
+// line end:   2083
 int WorldToScrX__7CBlocksii(struct CBlocks *this, int x, int y) {
 }
 
 
 // address: 0x800898C4
+// line start: 2093
+// line end:   2094
 int WorldToScrY__7CBlocksii(struct CBlocks *this, int x, int y) {
 }
 
 
 // address: 0x800898D8
 // size: 0xE0
+// line start: 2130
+// line end:   2137
 struct CBlocks *BL_GetCurrentBlocks__Fv() {
 }
 
 
 // address: 0x80089960
+// line start: 103
+// line end:   111
 int GetHighlightCol__FiPiUsUsUs(int Index, int *SelList, unsigned short P1Col, unsigned short P2Col, int P12Col) {
 }
 
 
 // address: 0x800899E4
+// line start: 103
+// line end:   111
 int GetHighlightCol__FiPcUsUsUs(int Index, char *SelList, unsigned short P1Col, unsigned short P2Col, int P12Col) {
 }
 
 
 // address: 0x80089B4C
+// line start: 169
+// line end:   171
 int GetCreature__14TownToCreaturei(struct TownToCreature *this, int GameCreature) {
 }
 

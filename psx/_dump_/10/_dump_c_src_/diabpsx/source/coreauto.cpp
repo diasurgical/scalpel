@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80079390
+// line start: 108
+// line end:   200
 unsigned short GetAutomapType__FiiUc(int x, int y, unsigned char view) {
 	// register: 5
 	register unsigned short rv;
@@ -12,6 +14,8 @@ unsigned short GetAutomapType__FiiUc(int x, int y, unsigned char view) {
 
 
 // address: 0x8007969C
+// line start: 205
+// line end:   278
 void SetAutomapView__Fii(int x, int y) {
 	// register: 16
 	register int xx;

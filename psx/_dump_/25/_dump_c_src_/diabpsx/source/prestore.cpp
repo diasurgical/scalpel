@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8014E604
+// line start: 116
+// line end:   129
 void InitStores__Fv() {
 	{
 	}
@@ -10,6 +12,8 @@ void InitStores__Fv() {
 
 
 // address: 0x8014E684
+// line start: 135
+// line end:   182
 void SetupTownStores__Fv() {
 	// register: 4
 	register int i;

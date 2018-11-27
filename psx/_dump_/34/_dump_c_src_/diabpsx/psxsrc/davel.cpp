@@ -3,16 +3,22 @@
 #include "types.h"
 
 // address: 0x80094A88
+// line start: 90
+// line end:   91
 void DaveLDummyPoll__Fv() {
 }
 
 
 // address: 0x80094A90
+// line start: 94
+// line end:   96
 void DaveL__Fv() {
 }
 
 
 // address: 0x80094AB8
+// line start: 107
+// line end:   167
 void DoReflection__FP8POLY_FT4iii(struct POLY_FT4 *Ft4, int R, int G, int B) {
 	// register: 3
 	register unsigned char zV0;
@@ -48,6 +54,8 @@ void DoReflection__FP8POLY_FT4iii(struct POLY_FT4 *Ft4, int R, int G, int B) {
 
 
 // address: 0x80094DA4
+// line start: 171
+// line end:   202
 void mteleportfx__Fv() {
 	// register: 20
 	register int plr;
@@ -67,6 +75,8 @@ void mteleportfx__Fv() {
 
 
 // address: 0x800950A4
+// line start: 207
+// line end:   221
 void invistimer__Fv() {
 	// register: 7
 	register int plr;
@@ -74,6 +84,8 @@ void invistimer__Fv() {
 
 
 // address: 0x8009517C
+// line start: 224
+// line end:   259
 void setUVparams__FP8POLY_FT4P9FRAME_HDR(struct POLY_FT4 *Ft4, struct FRAME_HDR *Fr) {
 	// register: 5
 	register int zU;
@@ -87,6 +99,8 @@ void setUVparams__FP8POLY_FT4P9FRAME_HDR(struct POLY_FT4 *Ft4, struct FRAME_HDR 
 
 
 // address: 0x80095204
+// line start: 265
+// line end:   296
 void drawparticle__Fiiiiii(int x, int y, int scale, int anim, int colour, int OtPos) {
 	// register: 30
 	// size: 0x6C
@@ -113,6 +127,8 @@ void drawparticle__Fiiiiii(int x, int y, int scale, int anim, int colour, int Ot
 
 
 // address: 0x800953F4
+// line start: 301
+// line end:   314
 void drawpolyF4__Fiiiiii(int x, int y, int w, int h, int colour, int OtPos) {
 	// address: 0xFFFFFFD0
 	// size: 0x18
@@ -127,6 +143,8 @@ void drawpolyF4__Fiiiiii(int x, int y, int w, int h, int colour, int OtPos) {
 
 
 // address: 0x80095528
+// line start: 319
+// line end:   340
 void drawpolyG4__Fiiiiiiii(int x, int y, int w, int h1, int h2, int colour0, int colour1, int OtPos) {
 	// address: 0xFFFFFFC0
 	// size: 0x24
@@ -147,6 +165,8 @@ void drawpolyG4__Fiiiiiiii(int x, int y, int w, int h1, int h2, int colour0, int
 
 
 // address: 0x800956F8
+// line start: 345
+// line end:   371
 void particlejump__Fv() {
 	// register: 23
 	register int n;
@@ -156,6 +176,8 @@ void particlejump__Fv() {
 
 
 // address: 0x800958A8
+// line start: 375
+// line end:   388
 void particleglow__Fv() {
 	// register: 17
 	register int n;
@@ -163,11 +185,15 @@ void particleglow__Fv() {
 
 
 // address: 0x8009599C
+// line start: 393
+// line end:   395
 void doparticlejump__Fv() {
 }
 
 
 // address: 0x800959DC
+// line start: 399
+// line end:   418
 void StartPartJump__Fiiiiii(int sx, int sy, int height, int scale, int colour, int OtPos) {
 	// register: 17
 	register int n;
@@ -175,6 +201,8 @@ void StartPartJump__Fiiiiii(int sx, int sy, int height, int scale, int colour, i
 
 
 // address: 0x80095B44
+// line start: 423
+// line end:   505
 void doparticlechain__Fiiiiiiiiiiii(int sx, int sy, int dx, int dy, int count, int scale, int scaledec, int semitrans, int randomize, int colour, int OtPos, int source) {
 	// address: 0xFFFFFF90
 	// size: 0x6C
@@ -233,16 +261,22 @@ void doparticlechain__Fiiiiiiiiiiii(int sx, int sy, int dx, int dy, int count, i
 
 
 // address: 0x80095F5C
+// line start: 510
+// line end:   525
 void ParticleBlob__FP13MissileStructiiii(struct MissileStruct *Ms, int ScrX, int ScrY, int colour, int OtPos) {
 }
 
 
 // address: 0x80095FF4
+// line start: 529
+// line end:   546
 void ParticleMissile__FP13MissileStructiiii(struct MissileStruct *Ms, int ScrX, int ScrY, int colour, int OtPos) {
 }
 
 
 // address: 0x800960B4
+// line start: 550
+// line end:   599
 void Teleportfx__Fiiiiiiii(int scrnx, int scrny, int width, int height, int scale, int colmask, int numpart, int OtPos) {
 	// register: 30
 	// size: 0x6C
@@ -288,6 +322,8 @@ void Teleportfx__Fiiiiiiii(int scrnx, int scrny, int width, int height, int scal
 
 
 // address: 0x800963A8
+// line start: 604
+// line end:   619
 void ResurrectFX__Fiiii(int x, int height, int scale, int OtPos) {
 	// register: 18
 	register int t;
@@ -295,11 +331,15 @@ void ResurrectFX__Fiiii(int x, int height, int scale, int OtPos) {
 
 
 // address: 0x800965D0
+// line start: 624
+// line end:   639
 void ParticleExp__FP13MissileStructiiii(struct MissileStruct *Ms, int ScrX, int ScrY, int colour, int OtPos) {
 }
 
 
 // address: 0x8009666C
+// line start: 644
+// line end:   661
 void GetPlrPos__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct PlayerStruct *ptrplr) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
@@ -312,6 +352,8 @@ void GetPlrPos__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct Pl
 
 
 // address: 0x80096790
+// line start: 665
+// line end:   680
 void healFX__Fv() {
 	// register: 17
 	register int plr;
@@ -327,31 +369,43 @@ void healFX__Fv() {
 
 
 // address: 0x800968CC
+// line start: 685
+// line end:   687
 void HealStart__Fi(int plr) {
 }
 
 
 // address: 0x80096900
+// line start: 691
+// line end:   694
 void HealotherStart__Fi(int plr) {
 }
 
 
 // address: 0x80096938
+// line start: 698
+// line end:   701
 void TeleStart__Fi(int plr) {
 }
 
 
 // address: 0x80096994
+// line start: 706
+// line end:   708
 void PhaseStart__Fi(int plr) {
 }
 
 
 // address: 0x800969C8
+// line start: 713
+// line end:   715
 void PhaseEnd__Fi(int plr) {
 }
 
 
 // address: 0x800969F4
+// line start: 721
+// line end:   744
 void ApocInit__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct PlayerStruct *ptrplr) {
 	// address: 0xFFFFFFD8
 	// size: 0x8
@@ -369,11 +423,15 @@ void ApocInit__11SPELLFX_DATP12PlayerStruct(struct SPELLFX_DAT *this, struct Pla
 
 
 // address: 0x80096BD0
+// line start: 749
+// line end:   752
 void ApocaStart__Fi(int plr) {
 }
 
 
 // address: 0x80096C28
+// line start: 757
+// line end:   775
 void DaveLTask__FP4TASK(struct TASK *T) {
 }
 

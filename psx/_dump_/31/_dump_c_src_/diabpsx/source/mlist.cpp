@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80075600
+// line start: 67
+// line end:   72
 void ML_Init__Fv() {
 	{
 		// register: 3
@@ -12,6 +14,8 @@ void ML_Init__Fv() {
 
 
 // address: 0x80075638
+// line start: 81
+// line end:   96
 int ML_GetList__Fi(int Level) {
 	// register: 2
 	register int RetVal;
@@ -19,6 +23,8 @@ int ML_GetList__Fi(int Level) {
 
 
 // address: 0x800756B8
+// line start: 105
+// line end:   120
 int ML_SetRandomList__Fi(int Level) {
 	// register: 4
 	register int NumOfLists;
@@ -26,6 +32,8 @@ int ML_SetRandomList__Fi(int Level) {
 
 
 // address: 0x80075750
+// line start: 131
+// line end:   147
 int ML_SetList__Fii(int Level, int List) {
 	// register: 2
 	register int NumOfLists;
@@ -33,6 +41,8 @@ int ML_SetList__Fii(int Level, int List) {
 
 
 // address: 0x80075800
+// line start: 156
+// line end:   199
 int ML_GetPresetMonsters__FiPiUl(int currlevel, int *typelist, unsigned long QuestsNeededMask) {
 	// register: 10
 	// size: 0x10

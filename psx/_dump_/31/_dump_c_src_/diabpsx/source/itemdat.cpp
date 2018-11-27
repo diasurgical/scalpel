@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x8003B09C
+// line start: 969
+// line end:   971
 void InitAllItemsUseable__Fv() {
 	{
 		// register: 3

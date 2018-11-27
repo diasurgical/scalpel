@@ -3,6 +3,8 @@
 #include "types.h"
 
 // address: 0x80093634
+// line start: 50
+// line end:   82
 void DrawFlameLogo__Fv() {
 	// register: 4
 	// size: 0x28
@@ -13,6 +15,8 @@ void DrawFlameLogo__Fv() {
 
 
 // address: 0x80093884
+// line start: 87
+// line end:   90
 void TitleScreen__FP7CScreen(struct CScreen *FeScreen) {
 }
 

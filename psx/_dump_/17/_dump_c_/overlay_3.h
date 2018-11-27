@@ -19,26 +19,36 @@ extern char *Words[117];
 extern struct MONTH_DAYS MonDays[12];
 
 // address: 0x8009DE14
+// line start: 84
+// line end:   111
 void VID_OpenModule__Fv() {
 }
 
 
 // address: 0x8009DED4
+// line start: 154
+// line end:   175
 void InitScreens__Fv() {
 }
 
 
 // address: 0x8009DFC4
+// line start: 85
+// line end:   87
 void MEM_SetupMem__Fv() {
 }
 
 
 // address: 0x8009DFF0
+// line start: 123
+// line end:   135
 void SetupWorkRam__Fv() {
 }
 
 
 // address: 0x8009E080
+// line start: 92
+// line end:   155
 void SYSI_Init__Fv() {
 	// address: 0xFFFFFFF0
 	// size: 0x8
@@ -47,6 +57,8 @@ void SYSI_Init__Fv() {
 
 
 // address: 0x8009E18C
+// line start: 1294
+// line end:   1299
 void GM_Open__Fv() {
 	{
 		// register: 3
@@ -56,26 +68,36 @@ void GM_Open__Fv() {
 
 
 // address: 0x8009E1B0
+// line start: 526
+// line end:   529
 void PA_Open__Fv() {
 }
 
 
 // address: 0x8009E1E8
+// line start: 98
+// line end:   105
 void PAD_Open__Fv() {
 }
 
 
 // address: 0x8009E22C
+// line start: 110
+// line end:   111
 void OVR_Open__Fv() {
 }
 
 
 // address: 0x8009E24C
+// line start: 157
+// line end:   158
 void SCR_Open__Fv() {
 }
 
 
 // address: 0x8009E27C
+// line start: 61
+// line end:   63
 void DEC_Open__Fv() {
 	{
 		// register: 3
@@ -85,6 +107,8 @@ void DEC_Open__Fv() {
 
 
 // address: 0x8009E4EC
+// line start: 250
+// line end:   273
 char *GetVersionString__FPc(char *VersionString2) {
 	// address: 0xFFFFFFC8
 	// size: 0x28
@@ -93,6 +117,8 @@ char *GetVersionString__FPc(char *VersionString2) {
 
 
 // address: 0x8009E5C0
+// line start: 297
+// line end:   336
 char *GetWord__FPc(char *VStr) {
 	// register: 18
 	register bool Found;

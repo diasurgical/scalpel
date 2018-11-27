@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x80155420
+// line start: 103
+// line end:   110
 unsigned char MonstPlace__Fii(int xp, int yp) {
 }
 
 
 // address: 0x801554DC
+// line start: 114
+// line end:   170
 void InitMonsterGFX__Fi(int monst) {
 	// register: 5
 	register int anim;
@@ -23,11 +27,15 @@ void InitMonsterGFX__Fi(int monst) {
 
 
 // address: 0x801555E4
+// line start: 246
+// line end:   251
 void PlaceMonster__Fiiii(int i, int mtype, int x, int y) {
 }
 
 
 // address: 0x80155684
+// line start: 255
+// line end:   276
 int AddMonsterType__Fii(int type, int placeflag) {
 	// register: 16
 	register int i;
@@ -37,6 +45,8 @@ int AddMonsterType__Fii(int type, int placeflag) {
 
 
 // address: 0x801557B8
+// line start: 286
+// line end:   298
 void GetMonsterTypes__FUl(unsigned long QuestMask) {
 	// address: 0xFFFFFCC8
 	// size: 0x320
@@ -47,6 +57,8 @@ void GetMonsterTypes__FUl(unsigned long QuestMask) {
 
 
 // address: 0x80155868
+// line start: 304
+// line end:   340
 void ClrAllMonsters__Fv() {
 	// register: 17
 	register int i;
@@ -57,6 +69,8 @@ void ClrAllMonsters__Fv() {
 
 
 // address: 0x801559A8
+// line start: 344
+// line end:   362
 void InitLevelMonsters__Fv() {
 	// register: 3
 	register int i;
@@ -64,6 +78,8 @@ void InitLevelMonsters__Fv() {
 
 
 // address: 0x80155A2C
+// line start: 366
+// line end:   549
 void GetLevelMTypes__Fv() {
 	// register: 16
 	register int i;
@@ -97,6 +113,8 @@ void GetLevelMTypes__Fv() {
 
 
 // address: 0x80155E74
+// line start: 555
+// line end:   632
 void PlaceQuestMonsters__Fv() {
 	// register: 16
 	register int skeltype;
@@ -146,6 +164,8 @@ void PlaceQuestMonsters__Fv() {
 
 
 // address: 0x8015628C
+// line start: 641
+// line end:   667
 void LoadDiabMonsts__Fv() {
 	// register: 16
 	register unsigned char *lpSetPiece;
@@ -161,6 +181,8 @@ void LoadDiabMonsts__Fv() {
 
 
 // address: 0x8015639C
+// line start: 675
+// line end:   752
 void PlaceGroup__FiiUci(int mtype, int num, unsigned char leaderf, int leader) {
 	// register: 16
 	register int xp;
@@ -184,6 +206,8 @@ void PlaceGroup__FiiUci(int mtype, int num, unsigned char leaderf, int leader) {
 
 
 // address: 0x801569AC
+// line start: 757
+// line end:   809
 void SetMapMonsters__FPUcii(unsigned char *pMap, int startx, int starty) {
 	// register: 16
 	register int i;
@@ -199,6 +223,8 @@ void SetMapMonsters__FPUcii(unsigned char *pMap, int startx, int starty) {
 
 
 // address: 0x80156BD0
+// line start: 814
+// line end:   916
 void InitMonsters__Fv() {
 	// register: 18
 	register int i;
@@ -227,6 +253,8 @@ void InitMonsters__Fv() {
 
 
 // address: 0x80156FAC
+// line start: 920
+// line end:   1107
 void PlaceUniqueMonst__Fiii(int uniqindex, int miniontype, int unpackfilesize) {
 	// address: 0xFFFFFF98
 	// size: 0x18
@@ -265,6 +293,8 @@ void PlaceUniqueMonst__Fiii(int uniqindex, int miniontype, int unpackfilesize) {
 
 
 // address: 0x801577CC
+// line start: 1113
+// line end:   1147
 void PlaceUniques__Fv() {
 	// register: 17
 	register int u;
@@ -276,6 +306,8 @@ void PlaceUniques__Fv() {
 
 
 // address: 0x80157990
+// line start: 1152
+// line end:   1177
 int PreSpawnSkeleton__Fv() {
 	// register: 16
 	register int i;
@@ -289,16 +321,22 @@ int PreSpawnSkeleton__Fv() {
 
 
 // address: 0x80157AF8
+// line start: 1183
+// line end:   1188
 int encode_enemy__Fi(int m) {
 }
 
 
 // address: 0x80157B50
+// line start: 1191
+// line end:   1203
 void decode_enemy__Fii(int m, int enemy) {
 }
 
 
 // address: 0x80157C68
+// line start: 1207
+// line end:   1209
 unsigned char IsGoat__Fi(int mt) {
 }
 

@@ -3,16 +3,22 @@
 #include "types.h"
 
 // address: 0x800912FC
+// line start: 222
+// line end:   223
 void GLUE_SetMonsterList__Fi(int List) {
 }
 
 
 // address: 0x80091308
+// line start: 233
+// line end:   234
 int GLUE_GetMonsterList__Fv() {
 }
 
 
 // address: 0x80091314
+// line start: 244
+// line end:   249
 void GLUE_SuspendGame__Fv() {
 	// register: 16
 	// size: 0x5C
@@ -21,6 +27,8 @@ void GLUE_SuspendGame__Fv() {
 
 
 // address: 0x80091368
+// line start: 259
+// line end:   264
 void GLUE_ResumeGame__Fv() {
 	// register: 16
 	// size: 0x5C
@@ -29,26 +37,36 @@ void GLUE_ResumeGame__Fv() {
 
 
 // address: 0x800913BC
+// line start: 274
+// line end:   281
 void GLUE_PreTown__Fv() {
 }
 
 
 // address: 0x80091420
+// line start: 290
+// line end:   296
 void GLUE_PreDun__Fv() {
 }
 
 
 // address: 0x8009146C
+// line start: 316
+// line end:   317
 bool GLUE_Finished__Fv() {
 }
 
 
 // address: 0x80091478
+// line start: 327
+// line end:   328
 void GLUE_SetFinished__Fb(bool NewFinished) {
 }
 
 
 // address: 0x80091484
+// line start: 338
+// line end:   350
 void GLUE_StartBg__Fibi(int TextId, bool IsTown, int Level) {
 	// register: 2
 	// size: 0x10
@@ -57,6 +75,8 @@ void GLUE_StartBg__Fibi(int TextId, bool IsTown, int Level) {
 
 
 // address: 0x80091508
+// line start: 359
+// line end:   363
 bool GLUE_SetShowGameScreenFlag__Fb(bool NewFlag) {
 	// register: 2
 	register bool OldFlag;
@@ -64,6 +84,8 @@ bool GLUE_SetShowGameScreenFlag__Fb(bool NewFlag) {
 
 
 // address: 0x80091518
+// line start: 371
+// line end:   375
 bool GLUE_SetHomingScrollFlag__Fb(bool NewFlag) {
 	// register: 2
 	register bool OldFlag;
@@ -71,6 +93,8 @@ bool GLUE_SetHomingScrollFlag__Fb(bool NewFlag) {
 
 
 // address: 0x80091528
+// line start: 383
+// line end:   387
 bool GLUE_SetShowPanelFlag__Fb(bool NewFlag) {
 	// register: 2
 	register bool OldFlag;
@@ -78,11 +102,15 @@ bool GLUE_SetShowPanelFlag__Fb(bool NewFlag) {
 
 
 // address: 0x80091538
+// line start: 397
+// line end:   417
 void DoShowPanelGFX__FP6GPanelT0(struct GPanel *P1, struct GPanel *P2) {
 }
 
 
 // address: 0x80091610
+// line start: 428
+// line end:   589
 void BgTask__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
@@ -117,6 +145,8 @@ void BgTask__FP4TASK(struct TASK *T) {
 
 // address: 0x80091AD4
 // size: 0x8
+// line start: 599
+// line end:   609
 struct PInf *FindPlayerChar__FPc(char *Id) {
 	{
 	}
@@ -125,6 +155,8 @@ struct PInf *FindPlayerChar__FPc(char *Id) {
 
 // address: 0x80091B5C
 // size: 0x8
+// line start: 614
+// line end:   620
 struct PInf *FindPlayerChar__Fiii(int Char, int Wep, int Arm) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
@@ -134,11 +166,15 @@ struct PInf *FindPlayerChar__Fiii(int Char, int Wep, int Arm) {
 
 // address: 0x80091BB8
 // size: 0x8
+// line start: 624
+// line end:   629
 struct PInf *FindPlayerChar__FP12PlayerStruct(struct PlayerStruct *P) {
 }
 
 
 // address: 0x80091BE8
+// line start: 633
+// line end:   639
 int FindPlayerChar__FP12PlayerStructb(struct PlayerStruct *P, bool InTown) {
 	// register: 2
 	// size: 0x8
@@ -147,6 +183,8 @@ int FindPlayerChar__FP12PlayerStructb(struct PlayerStruct *P, bool InTown) {
 
 
 // address: 0x80091C28
+// line start: 649
+// line end:   655
 void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb(struct CPlayer *Player, struct PlayerStruct *Plr, bool InTown) {
 	// register: 16
 	register int Id;
@@ -155,6 +193,8 @@ void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb(struct CPlayer *P
 
 // address: 0x80091C7C
 // size: 0x10
+// line start: 666
+// line end:   673
 struct MonstList *GLUE_GetCurrentList__Fi(int Level) {
 	// register: 17
 	// size: 0x8

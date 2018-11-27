@@ -3,11 +3,15 @@
 #include "types.h"
 
 // address: 0x80079378
+// line start: 73
+// line end:   75
 void GO_DoGameOver__Fv() {
 }
 
 
 // address: 0x800793BC
+// line start: 85
+// line end:   116
 void GameOverTask__FP4TASK(struct TASK *T) {
 	// register: 17
 	register bool OldPause;
@@ -19,6 +23,8 @@ void GameOverTask__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80079478
+// line start: 126
+// line end:   141
 void PrintGameOver__Fv() {
 	// address: 0xFFFFFFE0
 	// size: 0x10

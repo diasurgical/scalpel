@@ -3,16 +3,22 @@
 #include "types.h"
 
 // address: 0x80045294
+// line start: 110
+// line end:   113
 void FreeQuestText__Fv() {
 }
 
 
 // address: 0x8004529C
+// line start: 117
+// line end:   121
 void InitQuestText__Fv() {
 }
 
 
 // address: 0x800452A8
+// line start: 129
+// line end:   167
 void CalcTextSpeed__FPCc(char *Name) {
 	// register: 16
 	register char *ptr;
@@ -31,6 +37,8 @@ void CalcTextSpeed__FPCc(char *Name) {
 
 
 // address: 0x800453F8
+// line start: 176
+// line end:   225
 void InitQTextMsg__Fi(int m) {
 	// address: 0xFFFFFFE0
 	// size: 0xE
@@ -39,11 +47,15 @@ void InitQTextMsg__Fi(int m) {
 
 
 // address: 0x800455A0
+// line start: 230
+// line end:   236
 void DrawQTextBack__Fv() {
 }
 
 
 // address: 0x80045610
+// line start: 246
+// line end:   301
 void DrawQTextTSK__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int quest_pad;
@@ -53,6 +65,8 @@ void DrawQTextTSK__FP4TASK(struct TASK *T) {
 
 
 // address: 0x80045774
+// line start: 306
+// line end:   435
 void DrawQText__Fv() {
 	// register: 18
 	register char *p;
@@ -82,11 +96,15 @@ void DrawQText__Fv() {
 
 
 // address: 0x80045AFC
+// line start: 438
+// line end:   438
 void _GLOBAL__D_QBack() {
 }
 
 
 // address: 0x80045B24
+// line start: 438
+// line end:   438
 void _GLOBAL__I_QBack() {
 }
 
