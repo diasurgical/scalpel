@@ -1,23 +1,23 @@
 typedef int bool;
 
-enum B_PER_PIX_dup_0 {
+enum B_PER_PIX {
 	BITS_4 = 0,
 	BITS_5 = 1,
 	BITS_8 = 2,
 };
 
-enum DEV_KIT_dup_0 {
+enum DEV_KIT {
 	DK_SONY_ISA = 0,
 	DK_SONY_PCI = 1,
 	DK_CLIMAX   = 2,
 };
 
-enum FILE_SYSTEM_dup_0 {
+enum FILE_SYSTEM {
 	FS_PC = 0,
 	FS_CD = 1,
 };
 
-enum GAL_ERROR_CODE_dup_0 {
+enum GAL_ERROR_CODE {
 	ERR_GAL_NO_ERROR             = 0,
 	ERR_RUN_OUT_OF_MEM_HDRS      = 1,
 	ERR_GAL_MEM_TYPE_EXISTS      = 2,
@@ -31,19 +31,19 @@ enum GAL_ERROR_CODE_dup_0 {
 	NUM_OF_ERROR_MESSAGES        = 10,
 };
 
-enum GAL_VERB_LEV_dup_0 {
+enum GAL_VERB_LEV {
 	GAL_SILENT  = 0,
 	GAL_AVERAGE = 1,
 	GAL_NOISY   = 2,
 };
 
-enum LANG_DB_NO_dup_0 {
+enum LANG_DB_NO {
 	LANG_DB_MAIN  = 0,
 	LANG_DB_QUEST = 1,
 	LANG_DB_BACK  = 2,
 };
 
-enum LANG_TYPE_dup_0 {
+enum LANG_TYPE {
 	LANG_ENGLISH = 0,
 	LANG_FRENCH  = 1,
 	LANG_GERMAN  = 2,
@@ -52,7 +52,7 @@ enum LANG_TYPE_dup_0 {
 	LANG_NONE    = 5,
 };
 
-enum OVER_TYPE_dup_0 {
+enum OVER_TYPE {
 	OVR_NONE     = 0,
 	OVR_PREGAME  = 1,
 	OVR_GAME     = 2,
@@ -60,7 +60,7 @@ enum OVER_TYPE_dup_0 {
 	OVR_FMV      = 4,
 };
 
-enum PACTION_dup_0 {
+enum PACTION {
 	PL_NOACTION = 0,
 	PL_WALK     = 1,
 	PL_STAND    = 2,
@@ -75,19 +75,19 @@ enum PACTION_dup_0 {
 	PL_FMAGIC   = 11,
 };
 
-enum TPAGE_TYPES_dup_0 {
+enum TPAGE_TYPES {
 	TPAGE_4BIT  = 0,
 	TPAGE_8BIT  = 1,
 	TPAGE_16BIT = 2,
 };
 
-enum TXT_JUST_dup_0 {
+enum TXT_JUST {
 	JustLeft   = 0,
 	JustCentre = 1,
 	JustRight  = 2,
 };
 
-enum _artfonts_dup_0 {
+enum _artfonts {
 	AF_SMALL     = 0,
 	AF_SMALLGRAY = 1,
 	AF_MED       = 2,
@@ -98,25 +98,25 @@ enum _artfonts_dup_0 {
 	AF_HUGEGRAY  = 7,
 };
 
-enum _copyprot_results_dup_0 {
+enum _copyprot_results {
 	COPYPROT_OK     = 1,
 	COPYPROT_CANCEL = 2,
 };
 
-enum _dialmodes_dup_0 {
+enum _dialmodes {
 	MODE_ANSWER  = 3,
 	MODE_DIALOLD = 4,
 	MODE_DIALNEW = 5,
 };
 
-enum _difficulty_dup_0 {
+enum _difficulty {
 	DIFF_NORMAL      = 0,
 	DIFF_NIGHTMARE   = 1,
 	DIFF_HELL        = 2,
 	NUM_DIFFICULTIES = 3,
 };
 
-enum _item_indexes_dup_0 {
+enum _item_indexes {
 	IDI_GOLD       = 0,
 	IDI_WARRIOR    = 1,
 	IDI_WARRSHLD   = 2,
@@ -156,7 +156,7 @@ enum _item_indexes_dup_0 {
 	IDI_RESURRECT  = 34,
 };
 
-enum _mainmenu_selections_dup_0 {
+enum _mainmenu_selections {
 	MAINMENU_SINGLE_PLAYER = 1,
 	MAINMENU_MULTIPLAYER   = 2,
 	MAINMENU_REPLAY_INTRO  = 3,
@@ -165,19 +165,19 @@ enum _mainmenu_selections_dup_0 {
 	MAINMENU_ATTRACT_MODE  = 6,
 };
 
-enum _modes_dup_0 {
+enum _modes {
 	SINGLEPLAYER = 0,
 	MULTIPLAYER  = 1,
 };
 
-enum _selhero_selections_dup_0 {
+enum _selhero_selections {
 	SELHERO_NEW_DUNGEON = 1,
 	SELHERO_CONTINUE    = 2,
 	SELHERO_CONNECT     = 3,
 	SELHERO_PREVIOUS    = 4,
 };
 
-enum _setlevels_dup_0 {
+enum _setlevels {
 	SL_SKELKING     = 1,
 	SL_BONECHAMB    = 2,
 	SL_MAZE         = 3,
@@ -185,14 +185,14 @@ enum _setlevels_dup_0 {
 	SL_VILEBETRAYER = 5,
 };
 
-enum _ui_classes_dup_0 {
+enum _ui_classes {
 	UI_WARRIOR     = 0,
 	UI_ROGUE       = 1,
 	UI_SORCERER    = 2,
 	UI_NUM_CLASSES = 3,
 };
 
-enum card_events_dup_0 {
+enum card_events {
 	cardevent_directory  = 0,
 	cardevent_inserted   = 1,
 	cardevent_saving     = 2,
@@ -3638,7 +3638,7 @@ enum enum_fake_8_173 {
 	IS_TITERR     = 979,
 };
 
-enum hw_event_dup_0 {
+enum hw_event {
 	hw_end     = 0,
 	hw_empty   = 1,
 	hw_new     = 2,
@@ -3646,7 +3646,7 @@ enum hw_event_dup_0 {
 	hw_silence = 4,
 };
 
-enum ping_status_dup_0 {
+enum ping_status {
 	ping_ok      = 0,
 	ping_error   = 1,
 	ping_empty   = 2,
@@ -3654,14 +3654,14 @@ enum ping_status_dup_0 {
 	ping_silence = 4,
 };
 
-enum read_ret_dup_0 {
+enum read_ret {
 	read_ok      = 0,
 	read_error   = 1,
 	read_invalid = 2,
 	read_no_card = 3,
 };
 
-enum write_ret_dup_0 {
+enum write_ret {
 	write_ok       = 0,
 	write_error    = 1,
 	write_no_space = 2,
@@ -5210,7 +5210,7 @@ struct FeMenuTable {
 	// offset: 0004
 	int Y;
 	// offset: 0008 (4 bytes)
-	enum TXT_JUST_dup_0 Just;
+	enum TXT_JUST Just;
 	// offset: 000C
 	int Str;
 	// offset: 0010 (28 bytes)
@@ -5268,22 +5268,6 @@ struct FeMenuTable_dup_14 {
 };
 
 // size: 0x18
-struct FeMenuTable_dup_2 {
-	// offset: 0000
-	int X;
-	// offset: 0004
-	int Y;
-	// offset: 0008 (4 bytes)
-	enum TXT_JUST Just;
-	// offset: 000C
-	int Str;
-	// offset: 0010 (28 bytes)
-	struct FeTable *MenuPtr;
-	// offset: 0014 (536 bytes)
-	struct CFont *Font;
-};
-
-// size: 0x18
 struct FeMenuTable_dup_7 {
 	// offset: 0000
 	int X;
@@ -5306,7 +5290,7 @@ struct FeStruct {
 	// offset: 0004
 	int Y;
 	// offset: 0008 (4 bytes)
-	enum TXT_JUST_dup_0 Just;
+	enum TXT_JUST Just;
 	// offset: 000C
 	int Str;
 	// offset: 0010 (536 bytes)
@@ -5375,22 +5359,6 @@ struct FeStruct_dup_14 {
 	int Str;
 	// offset: 0010 (540 bytes)
 	struct CFont_dup_14 *Font;
-	// offset: 0014 (28 bytes)
-	struct FeTable *MenuPtr;
-};
-
-// size: 0x18
-struct FeStruct_dup_2 {
-	// offset: 0000
-	int X;
-	// offset: 0004
-	int Y;
-	// offset: 0008 (4 bytes)
-	enum TXT_JUST Just;
-	// offset: 000C
-	int Str;
-	// offset: 0010 (536 bytes)
-	struct CFont *Font;
 	// offset: 0014 (28 bytes)
 	struct FeTable *MenuPtr;
 };
@@ -7814,24 +7782,6 @@ struct LNK_OPTS {
 	// offset: 0010
 	unsigned long FreeMemSize;
 	// offset: 0014 (4 bytes)
-	enum FILE_SYSTEM_dup_0 FileSystem;
-	// offset: 0018 (4 bytes)
-	enum DEV_KIT_dup_0 DevKit;
-};
-
-// size: 0x1C
-struct LNK_OPTS_dup_1 {
-	// offset: 0000
-	unsigned long RamSize;
-	// offset: 0004
-	unsigned long StackSize;
-	// offset: 0008
-	void *OrgAddress;
-	// offset: 000C
-	void *FreeMemAddress;
-	// offset: 0010
-	unsigned long FreeMemSize;
-	// offset: 0014 (4 bytes)
 	enum FILE_SYSTEM FileSystem;
 	// offset: 0018 (4 bytes)
 	enum DEV_KIT DevKit;
@@ -8735,22 +8685,6 @@ struct OMENUITEM {
 	// offset: 0004
 	char *Text;
 	// offset: 0008 (4 bytes)
-	enum TXT_JUST_dup_0 Just;
-	// offset: 000C
-	int len;
-	// offset: 0010
-	unsigned long *var;
-	// offset: 0014
-	int Link;
-};
-
-// size: 0x18
-struct OMENUITEM_dup_1 {
-	// offset: 0000
-	unsigned char y;
-	// offset: 0004
-	char *Text;
-	// offset: 0008 (4 bytes)
 	enum TXT_JUST Just;
 	// offset: 000C
 	int len;
@@ -8790,22 +8724,6 @@ struct OMENULIST {
 	unsigned char NoEntries;
 	// offset: 0008 (24 bytes)
 	struct OMENUITEM *Item;
-};
-
-// size: 0xC
-struct OMENULIST_dup_1 {
-	// offset: 0000
-	unsigned short x;
-	// offset: 0002
-	unsigned char y;
-	// offset: 0004
-	unsigned short w;
-	// offset: 0006
-	unsigned char h;
-	// offset: 0007
-	unsigned char NoEntries;
-	// offset: 0008 (24 bytes)
-	struct OMENUITEM_dup_1 *Item;
 };
 
 // size: 0x8
@@ -8959,7 +8877,7 @@ struct Overlay {
 	// offset: 0008
 	char *FileName;
 	// offset: 000C (4 bytes)
-	enum OVER_TYPE_dup_0 Over;
+	enum OVER_TYPE Over;
 };
 
 // size: 0xC
@@ -8970,18 +8888,6 @@ struct Overlay_dup_1 {
 	int Size;
 	// offset: 0008
 	char *FileName;
-};
-
-// size: 0x10
-struct Overlay_dup_2 {
-	// offset: 0000
-	unsigned char *Addr;
-	// offset: 0004
-	int Size;
-	// offset: 0008
-	char *FileName;
-	// offset: 000C (4 bytes)
-	enum OVER_TYPE Over;
 };
 
 // size: 0x20
@@ -16362,8 +16268,6 @@ typedef unsigned char BOOL;
 
 typedef unsigned char BYTE;
 
-typedef enum B_PER_PIX_dup_0 B_PER_PIX;
-
 typedef enum B_PER_PIX B_PER_PIX;
 
 typedef struct BIRDSTRUCT Bird;
@@ -16374,9 +16278,9 @@ typedef struct CBlockHdr CBlockHdr;
 
 typedef struct CBlocks_dup_14 CBlocks;
 
-typedef struct CBlocks CBlocks;
-
 typedef struct CBlocks_dup_1 CBlocks;
+
+typedef struct CBlocks CBlocks;
 
 typedef struct CBlocks_dup_4 CBlocks;
 
@@ -16388,13 +16292,13 @@ typedef struct CCritSect CCritSect;
 
 typedef struct cdstreamstruct CDSTREAM;
 
-typedef struct CFont_dup_10 CFont;
-
 typedef struct CFont_dup_1 CFont;
 
-typedef struct CFont_dup_14 CFont;
-
 typedef struct CFont CFont;
+
+typedef struct CFont_dup_10 CFont;
+
+typedef struct CFont_dup_14 CFont;
 
 typedef char CHAR;
 
@@ -16418,19 +16322,19 @@ typedef unsigned long COLORREF;
 
 typedef struct coordsdef COORDS;
 
-typedef struct CPad CPad;
-
 typedef struct CPad_dup_4 CPad;
+
+typedef struct CPad CPad;
 
 typedef struct CPart CPart;
 
 typedef struct CPauseMessages CPauseMessages;
 
-typedef struct CPlayer_dup_14 CPlayer;
-
 typedef struct CPlayer_dup_1 CPlayer;
 
 typedef struct CPlayer CPlayer;
+
+typedef struct CPlayer_dup_14 CPlayer;
 
 typedef unsigned char (*CREATEHERO)();
 
@@ -16442,15 +16346,15 @@ typedef struct CRVECTOR4 CRVECTOR4;
 
 typedef struct CSDATA CSDATA;
 
-typedef struct CScreen_dup_14 CScreen;
-
 typedef struct CScreen CScreen;
+
+typedef struct CScreen_dup_14 CScreen;
 
 typedef struct CScreen_dup_1 CScreen;
 
-typedef struct CTempPauseMessage CTempPauseMessage;
-
 typedef struct CTempPauseMessage_dup_14 CTempPauseMessage;
+
+typedef struct CTempPauseMessage CTempPauseMessage;
 
 typedef struct CTempPauseMessage_dup_1 CTempPauseMessage;
 
@@ -16470,11 +16374,11 @@ typedef struct CdlFILTER CdlFILTER;
 
 typedef struct CdlLOC CdlLOC;
 
-typedef struct CompLevelMaps_dup_14 CompLevelMaps;
-
 typedef struct CompLevelMaps CompLevelMaps;
 
 typedef struct CompLevelMaps_dup_6 CompLevelMaps;
+
+typedef struct CompLevelMaps_dup_14 CompLevelMaps;
 
 typedef struct CompLevelMaps_dup_5 CompLevelMaps;
 
@@ -16493,8 +16397,6 @@ typedef struct DECOMP_BUFFER DECOMP_BUFFER;
 typedef struct DEF_ARGS DEF_ARGS;
 
 typedef unsigned char (*DELETEHERO)();
-
-typedef enum DEV_KIT_dup_0 DEV_KIT;
 
 typedef enum DEV_KIT DEV_KIT;
 
@@ -16516,9 +16418,9 @@ typedef void *DLGPROC;
 
 typedef struct DLevel_dup_4 DLevel;
 
-typedef struct DLevel_dup_5 DLevel;
-
 typedef struct DLevel DLevel;
+
+typedef struct DLevel_dup_5 DLevel;
 
 typedef struct DList DList;
 
@@ -16598,8 +16500,6 @@ typedef struct FILETIME FILETIME;
 
 typedef enum FILE_SYSTEM FILE_SYSTEM;
 
-typedef enum FILE_SYSTEM_dup_0 FILE_SYSTEM;
-
 typedef struct MEM_HDR *(*FIND_ROUTINE)();
 
 typedef struct FMVDAT FMVDAT;
@@ -16608,57 +16508,51 @@ typedef struct FONTFILE FONTFILE;
 
 typedef unsigned long FOURCC;
 
-typedef struct FRAME_HDR_dup_14 FRAME_HDR;
-
 typedef struct FRAME_HDR FRAME_HDR;
+
+typedef struct FRAME_HDR_dup_14 FRAME_HDR;
 
 typedef void (*FeFuncPtr)();
 
-typedef struct FeMenuTable_dup_10 FeMenuTable;
-
 typedef struct FeMenuTable_dup_14 FeMenuTable;
-
-typedef struct FeMenuTable FeMenuTable;
-
-typedef struct FeMenuTable_dup_11 FeMenuTable;
 
 typedef struct FeMenuTable_dup_7 FeMenuTable;
 
-typedef struct FeMenuTable_dup_2 FeMenuTable;
+typedef struct FeMenuTable_dup_10 FeMenuTable;
 
-typedef struct FeStruct FeStruct;
+typedef struct FeMenuTable_dup_11 FeMenuTable;
 
-typedef struct FeStruct_dup_1 FeStruct;
+typedef struct FeMenuTable FeMenuTable;
 
 typedef struct FeStruct_dup_14 FeStruct;
 
+typedef struct FeStruct FeStruct;
+
 typedef struct FeStruct_dup_10 FeStruct;
 
-typedef struct FeStruct_dup_2 FeStruct;
-
 typedef struct FeStruct_dup_11 FeStruct;
+
+typedef struct FeStruct_dup_1 FeStruct;
 
 typedef struct FeTable FeTable;
 
 typedef struct FileIO FileIO;
 
-typedef struct FontItem FontItem;
-
 typedef struct FontItem_dup_15 FontItem;
 
-typedef struct FontTab_dup_14 FontTab;
-
-typedef struct FontTab_dup_10 FontTab;
+typedef struct FontItem FontItem;
 
 typedef struct FontTab_dup_1 FontTab;
 
-typedef struct FontTab FontTab;
+typedef struct FontTab_dup_15 FontTab;
+
+typedef struct FontTab_dup_14 FontTab;
 
 typedef struct FontTab_dup_11 FontTab;
 
-typedef struct FontTab_dup_15 FontTab;
+typedef struct FontTab_dup_10 FontTab;
 
-typedef enum GAL_ERROR_CODE_dup_0 GAL_ERROR_CODE;
+typedef struct FontTab FontTab;
 
 typedef enum GAL_ERROR_CODE GAL_ERROR_CODE;
 
@@ -16666,37 +16560,35 @@ typedef void (*GAL_FILTER)();
 
 typedef struct GAL_STRUCT GAL_STRUCT;
 
-typedef enum GAL_VERB_LEV_dup_0 GAL_VERB_LEV;
-
 typedef enum GAL_VERB_LEV GAL_VERB_LEV;
 
 typedef unsigned char (*GETDEFHERO)();
 
 typedef struct GPanel_dup_14 GPanel;
 
-typedef struct GPanel_dup_1 GPanel;
-
 typedef struct GPanel GPanel;
+
+typedef struct GPanel_dup_1 GPanel;
 
 typedef struct graphicsmodeinfostruct GRAPHICSMODEINFO;
 
 typedef struct GUID GUID;
 
-typedef struct GamePad_dup_8 GamePad;
-
-typedef struct GamePad_dup_7 GamePad;
-
-typedef struct GamePad_dup_11 GamePad;
+typedef struct GamePad GamePad;
 
 typedef struct GamePad_dup_4 GamePad;
 
-typedef struct GamePad_dup_5 GamePad;
+typedef struct GamePad_dup_11 GamePad;
+
+typedef struct GamePad_dup_13 GamePad;
+
+typedef struct GamePad_dup_7 GamePad;
 
 typedef struct GamePad_dup_14 GamePad;
 
-typedef struct GamePad GamePad;
+typedef struct GamePad_dup_8 GamePad;
 
-typedef struct GamePad_dup_13 GamePad;
+typedef struct GamePad_dup_5 GamePad;
 
 typedef struct GamePad_dup_6 GamePad;
 
@@ -16880,9 +16772,9 @@ typedef struct ItemDataStruct ItemDataStruct;
 
 typedef struct ItemGetRecordStruct ItemGetRecordStruct;
 
-typedef struct ItemStruct ItemStruct;
-
 typedef struct ItemStruct_dup_6 ItemStruct;
+
+typedef struct ItemStruct ItemStruct;
 
 typedef struct ItemStruct_dup_11 ItemStruct;
 
@@ -16892,11 +16784,7 @@ typedef struct KEY_ASSIGNS KEY_ASSIGNS;
 
 typedef enum LANG_DB_NO LANG_DB_NO;
 
-typedef enum LANG_DB_NO_dup_0 LANG_DB_NO;
-
 typedef enum LANG_TYPE LANG_TYPE;
-
-typedef enum LANG_TYPE_dup_0 LANG_TYPE;
 
 typedef struct LARGE_INTEGER LARGE_INTEGER;
 
@@ -16919,8 +16807,6 @@ typedef struct LINE_G2 LINE_G2;
 typedef struct LINE_G3 LINE_G3;
 
 typedef struct LINE_G4 LINE_G4;
-
-typedef struct LNK_OPTS_dup_1 LNK_OPTS;
 
 typedef struct LNK_OPTS LNK_OPTS;
 
@@ -17072,27 +16958,19 @@ typedef struct OMENUITEM OMENUITEM;
 
 typedef struct OMENUITEM_dup_4 OMENUITEM;
 
-typedef struct OMENUITEM_dup_1 OMENUITEM;
-
-typedef struct OMENULIST_dup_1 OMENULIST;
-
-typedef struct OMENULIST_dup_4 OMENULIST;
+typedef struct OMENULIST OMENULIST;
 
 typedef struct OMENULIST_dup_5 OMENULIST;
 
-typedef struct OMENULIST OMENULIST;
+typedef struct OMENULIST_dup_4 OMENULIST;
 
 typedef enum OVER_TYPE OVER_TYPE;
-
-typedef enum OVER_TYPE_dup_0 OVER_TYPE;
 
 typedef struct ObjDataStruct ObjDataStruct;
 
 typedef struct ObjectStruct ObjectStruct;
 
 typedef struct OrigPkItemStruct OrigPkItemStruct;
-
-typedef struct Overlay_dup_2 Overlay;
 
 typedef struct Overlay_dup_1 Overlay;
 
@@ -17101,8 +16979,6 @@ typedef struct Overlay Overlay;
 typedef unsigned char PACKET;
 
 typedef enum PACTION PACTION;
-
-typedef enum PACTION_dup_0 PACTION;
 
 typedef struct PAINTSTRUCT PAINTSTRUCT;
 
@@ -17126,9 +17002,9 @@ typedef struct FILETIME *PFILETIME;
 
 typedef char **PHKEY;
 
-typedef struct PInf PInf;
-
 typedef struct PInf_dup_12 PInf;
+
+typedef struct PInf PInf;
 
 typedef void (*PLAYSND)();
 
@@ -17190,21 +17066,21 @@ typedef struct PkItemStruct PkItemStruct;
 
 typedef struct PkPlayerStruct PkPlayerStruct;
 
+typedef struct PlayerStruct_dup_11 PlayerStruct;
+
 typedef struct PlayerStruct_dup_7 PlayerStruct;
+
+typedef struct PlayerStruct_dup_6 PlayerStruct;
 
 typedef struct PlayerStruct PlayerStruct;
 
 typedef struct PlayerStruct_dup_13 PlayerStruct;
 
-typedef struct PlayerStruct_dup_6 PlayerStruct;
-
 typedef struct PlayerStruct_dup_4 PlayerStruct;
 
-typedef struct PlayerStruct_dup_11 PlayerStruct;
+typedef struct PortalStruct_dup_7 PortalStruct;
 
 typedef struct PortalStruct PortalStruct;
-
-typedef struct PortalStruct_dup_7 PortalStruct;
 
 typedef struct ProgAtr ProgAtr;
 
@@ -17408,13 +17284,13 @@ typedef struct SndVolume2 SndVolume2;
 
 typedef struct SpellData SpellData;
 
-typedef struct Spell_Target_dup_13 Spell_Target;
-
-typedef struct Spell_Target_dup_12 Spell_Target;
-
 typedef struct Spell_Target Spell_Target;
 
 typedef struct Spell_Target_dup_4 Spell_Target;
+
+typedef struct Spell_Target_dup_12 Spell_Target;
+
+typedef struct Spell_Target_dup_13 Spell_Target;
 
 typedef struct SpuCommonAttr SpuCommonAttr;
 
@@ -17472,13 +17348,13 @@ typedef struct TCmdDamage TCmdDamage;
 
 typedef struct TCmdDelItem TCmdDelItem;
 
-typedef struct TCmdGItem TCmdGItem;
-
 typedef struct TCmdGItem_dup_4 TCmdGItem;
 
-typedef struct TCmdGolem TCmdGolem;
+typedef struct TCmdGItem TCmdGItem;
 
 typedef struct TCmdGolem_dup_4 TCmdGolem;
+
+typedef struct TCmdGolem TCmdGolem;
 
 typedef struct TCmdLoc TCmdLoc;
 
@@ -17488,9 +17364,9 @@ typedef struct TCmdLocParam2 TCmdLocParam2;
 
 typedef struct TCmdLocParam3 TCmdLocParam3;
 
-typedef struct TCmdPItem TCmdPItem;
-
 typedef struct TCmdPItem_dup_4 TCmdPItem;
+
+typedef struct TCmdPItem TCmdPItem;
 
 typedef struct TCmdParam1 TCmdParam1;
 
@@ -17596,8 +17472,6 @@ typedef struct TPAGE_DEF TPAGE_DEF;
 
 typedef enum TPAGE_TYPES TPAGE_TYPES;
 
-typedef enum TPAGE_TYPES_dup_0 TPAGE_TYPES;
-
 typedef struct _artfont *TPARTFONT;
 
 typedef struct TBMP *TPBMP;
@@ -17638,13 +17512,11 @@ typedef struct _uiheroinfo TUIHEROINFO;
 
 typedef enum TXT_JUST TXT_JUST;
 
-typedef enum TXT_JUST_dup_0 TXT_JUST;
+typedef struct TextDat TextDat;
 
 typedef struct TextDat_dup_1 TextDat;
 
 typedef struct TextDat_dup_14 TextDat;
-
-typedef struct TextDat TextDat;
 
 typedef struct TextDataStruct TextDataStruct;
 
@@ -17792,19 +17664,11 @@ typedef unsigned long __int64;
 
 typedef struct _artfont _artfont;
 
-typedef enum _artfonts_dup_0 _artfonts;
-
 typedef enum _artfonts _artfonts;
 
 typedef enum _copyprot_results _copyprot_results;
 
-typedef enum _copyprot_results_dup_0 _copyprot_results;
-
-typedef enum _dialmodes_dup_0 _dialmodes;
-
 typedef enum _dialmodes _dialmodes;
-
-typedef enum _difficulty_dup_0 _difficulty;
 
 typedef enum _difficulty _difficulty;
 
@@ -17812,11 +17676,7 @@ typedef struct _fontspecs _fontspecs;
 
 typedef struct _gamedata _gamedata;
 
-typedef enum _item_indexes_dup_0 _item_indexes;
-
 typedef enum _item_indexes _item_indexes;
-
-typedef enum _mainmenu_selections_dup_0 _mainmenu_selections;
 
 typedef enum _mainmenu_selections _mainmenu_selections;
 
@@ -17826,21 +17686,13 @@ typedef struct _modeminfo _modeminfo;
 
 typedef enum _modes _modes;
 
-typedef enum _modes_dup_0 _modes;
-
 typedef struct _physadr _physadr;
 
 typedef struct _quad _quad;
 
-typedef enum _selhero_selections_dup_0 _selhero_selections;
-
 typedef enum _selhero_selections _selhero_selections;
 
-typedef enum _setlevels_dup_0 _setlevels;
-
 typedef enum _setlevels _setlevels;
-
-typedef enum _ui_classes_dup_0 _ui_classes;
 
 typedef enum _ui_classes _ui_classes;
 
@@ -17865,8 +17717,6 @@ typedef struct block block;
 typedef unsigned char byte;
 
 typedef char *caddr_t;
-
-typedef enum card_events_dup_0 card_events;
 
 typedef enum card_events_dup_14 card_events;
 
@@ -17899,8 +17749,6 @@ typedef struct found_objects found_objects;
 typedef unsigned short gid_t;
 
 typedef struct graphicsmodeinfostruct graphicsmodeinfostruct;
-
-typedef enum hw_event_dup_0 hw_event;
 
 typedef enum hw_event hw_event;
 
@@ -17946,8 +17794,6 @@ typedef struct _physadr *physadr;
 
 typedef enum ping_status ping_status;
 
-typedef enum ping_status_dup_0 ping_status;
-
 typedef long *qaddr_t;
 
 typedef struct _quad quad;
@@ -17955,8 +17801,6 @@ typedef struct _quad quad;
 typedef unsigned long qword;
 
 typedef struct radialsymdef radialsymdef;
-
-typedef enum read_ret_dup_0 read_ret;
 
 typedef enum read_ret read_ret;
 
@@ -18039,8 +17883,6 @@ typedef unsigned char wchar_t;
 typedef struct windowtbl windowtbl;
 
 typedef unsigned short word;
-
-typedef enum write_ret_dup_0 write_ret;
 
 typedef enum write_ret write_ret;
 
