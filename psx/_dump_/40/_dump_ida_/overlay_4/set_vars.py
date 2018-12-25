@@ -1,0 +1,8 @@
+del_items(0x800B04FC)
+SetType(0x800B04FC, "char StrDate[12]")
+del_items(0x800B0508)
+SetType(0x800B0508, "char StrTime[9]")
+del_items(0x800B0514)
+SetType(0x800B0514, "char *Words[118]")
+del_items(0x800B06EC)
+SetType(0x800B06EC, "struct MONTH_DAYS MonDays[12]")
