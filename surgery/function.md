@@ -1,4 +1,5 @@
 | **Beta** | **Debug** | **Hellfire** | **Diablo** | **`APPFAT.CPP`** |  |
+| --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | 401000 | j_appfat_cpp_init |  |
 | N/A | N/A | N/A | 401005 | appfat_cpp_init |  |
 | N/A | N/A | N/A | 401010 | appfat_cpp_free |  |
