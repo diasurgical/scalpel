@@ -1,3 +1,4 @@
+
 | Beta | Debug | Hellfire | Diablo | APPFAT.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | 401000 | j_appfat_cpp_init |  |
@@ -23,6 +24,7 @@
 | N/A | 40D23D | 401C96 | 401CE1 | DiskFreeDlg | assert |
 | N/A | 40D27D | 401CD2 | 401D1D | InsertCDDlg | assert |
 | N/A | N/A | N/A | 401D68 | DirErrDlg |  |
+
 | Beta | Debug | Hellfire | Diablo | AUTOMAP.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 4599E0 | 44142C | 401D1D | 401DA4 | InitAutomapOnce |  |
@@ -44,6 +46,7 @@
 | N/A | 442699 | 403080 | 402E4A | DrawAutomapGame |  |
 | 45B28E | 44278C | 403189 | 402F27 | SetAutomapView |  |
 | 45B666 | 4429B9 | 40332A | 4030DD | AutomapZoomReset |  |
+
 | Beta | Debug | Hellfire | Diablo | CAPTURE.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 435DE0 | 42764B | 403368 | 40311B | CaptureScreen |  |
@@ -53,6 +56,7 @@
 | 4361DC | 4278EC | 4035C9 | 40336A | CaptureEnc |  |
 | 436286 | 42792C | 403605 | 4033A8 | CaptureFile |  |
 | 4363EF | 4279FE | 4036CF | 403470 | RedPalette |  |
+
 | Beta | Debug | Hellfire | Diablo | CODEC.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 47AFD0 | 456A1A | 403722 | 4034D9 | codec_decode |  |
@@ -60,6 +64,7 @@
 | 47B20B | 456B5D | 40382D | 4035DB | codec_init_key |  |
 | 47B3E4 | 456C40 | 403901 | 4036AC | codec_get_encoded_len |  |
 | 47B439 | 456C6C | 403913 | 4036BE | codec_encode |  |
+
 | Beta | Debug | Hellfire | Diablo | CONTROL.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 414980 | 40FB08 | 403A2C | 4037D4 | DrawSpellCel |  |
@@ -135,6 +140,7 @@
 | 41B30C | 413935 | 4078B4 | 40729A | control_presskeys |  |
 | 41B33D | 4139B5 | 40791E | 407304 | control_press_enter |  |
 | N/A | 413A93 | 4079F9 | 4073C2 | control_up_down |  |
+
 | Beta | Debug | Hellfire | Diablo | CURSOR.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 485990 | 45D812 | 407A46 | 40740A | InitCursor |  |
@@ -146,11 +152,13 @@
 | 485BA5 | 45D914 | 407B2F | 4074D0 | CheckTown |  |
 | N/A | 45DA77 | 407C73 | 4075FD | CheckRportal |  |
 | 485E8F | 45DBEB | 407DA9 | 407729 | CheckCursMove |  |
+
 | Beta | Debug | Hellfire | Diablo | DEAD.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 466F10 | 44C56B | 408BD8 | 4084A6 | InitDead |  |
 | 46735F | 44C739 | 408D88 | 40865C | AddDead |  |
 | 4673A9 | 44C75A | 408DA9 | 40867D | SetDead |  |
+
 | Beta | Debug | Hellfire | Diablo | DEBUG.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 44E3D0 | ? | 408E2D | 4086F4 | LoadDebugGFX |  |
@@ -159,6 +167,7 @@
 | 44E493 | ? | N/A | N/A | debug_44E493 |  |
 | 44E4D4 | ? | N/A | N/A | debug_44E4D4 |  |
 | 44E516 | ? | N/A | N/A | debug_44E516 |  |
+
 | Beta | Debug | Hellfire | Diablo | DIABLO.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | 4087B1 | j_diablo_cpp_init |  |
@@ -204,6 +213,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 493EC9 | 469874 | 40B884 | 40AC6B | diablo_color_cyc_logic |  |
 | N/A | N/A | 40B8D7 | N/A | diablo_40B8D7 |  |
 | N/A | N/A | 40B908 | N/A | diablo_40B908 |  |
+
 | Beta | Debug | Hellfire | Diablo | DOOM.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 40B95F | 40ACAD | doom_get_frame_from_time |  |
@@ -213,6 +223,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 40B997 | 40AD34 | doom_init |  |
 | N/A | ? | 40BA18 | 40AD5E | doom_close |  |
 | N/A | ? | 40BA24 | 40AD74 | doom_draw |  |
+
 | Beta | Debug | Hellfire | Diablo | DRLG_L1.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 49AE30 | 46E69D | 40BA48 | 40ADD6 | DRLG_Init_Globals |  |
@@ -265,6 +276,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | N/A | 40F122 | N/A | drlg_l1_40F122 |  |
 | N/A | N/A | 40F19F | N/A | drlg_l1_40F19F |  |
 | N/A | N/A | 40F2DC | N/A | drlg_l1_40F2DC |  |
+
 | Beta | Debug | Hellfire | Diablo | DRLG_L2.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 47D27C | ? | 40F311 | 40D357 | InitDungeon |  |
@@ -306,6 +318,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 480FDF | ? | N/A | N/A | drlg_l2_480FDF |  |
 | 4819A0 | ? | 411EC9 | 40FEBF | DRLG_InitL2Vals |  |
 | 482168 | ? | N/A | N/A | drlg_l2_482168 |  |
+
 | Beta | Debug | Hellfire | Diablo | DRLG_L3.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 411F8B | 40FF81 | AddFenceDoors |  |
@@ -343,6 +356,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 43A69B | ? | 414974 | 41235E | DRLG_L3Pass3 |  |
 | 43A370 | ? | 414A7C | 412466 | LoadL3Dungeon |  |
 | 43A986 | ? | 414BC7 | 4125B0 | LoadPreL3Dungeon |  |
+
 | Beta | Debug | Hellfire | Diablo | DRLG_L4.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 414C6D | 412655 | DRLG_LoadL4SP |  |
@@ -380,6 +394,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 417846 | 414EA3 | DRLG_L4TransFix |  |
 | N/A | ? | 417911 | 414F5B | DRLG_L4Corners |  |
 | N/A | ? | 417946 | 414F90 | DRLG_L4Pass3 |  |
+
 | Beta | Debug | Hellfire | Diablo | DTHREAD.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | 415098 | j_dthread_cpp_init_1 |  |
@@ -393,6 +408,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | 4161D3 | 417B2C | 415186 | dthread_start |  |
 | N/A | 4162BC | 417B99 | 4151F3 | dthread_handler |  |
 | N/A | 4163B0 | 417C66 | 4152C0 | dthread_cleanup |  |
+
 | Beta | Debug | Hellfire | Diablo | DX.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | 415362 | j_dx_cpp_init_1 |  |
@@ -412,6 +428,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | 469EFC | 41813E | 4157A0 | dx_cleanup |  |
 | N/A | 469FF0 | 4181E6 | 415848 | dx_reinit |  |
 | N/A | 46A070 | 418246 | 4158A4 | j_dx_reinit |  |
+
 | Beta | Debug | Hellfire | Diablo | EFFECTS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 4158A9 | j_effects_cpp_init |  |
@@ -441,6 +458,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 41884D | 415E77 | priv_sound_init |  |
 | N/A | ? | 4188A4 | 415ED8 | sound_init |  |
 | N/A | ? | 4188AB | 415EDF | effects_play_sound |  |
+
 | Beta | Debug | Hellfire | Diablo | ENCRYPT.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 47AAE0 | ? | 418910 | 415F43 | encrypt_decrypt_block |  |
@@ -451,6 +469,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 47AE4D | ? | 418B14 | 416133 | encrypt_pkware_read |  |
 | 47AEAC | ? | 418B48 | 416167 | encrypt_pkware_write |  |
 | 47AEEF | ? | 418B6F | 41618E | encrypt_decompress |  |
+
 | Beta | Debug | Hellfire | Diablo | ENGINE.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 4161FC | j_engine_cpp_init_1 |  |
@@ -511,11 +530,13 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 41A906 | 417EBB | Cl2DecDatLightTbl2 |  |
 | N/A | ? | 41A9C3 | 417F78 | Cl2DecodeFrm6 |  |
 | N/A | ? | 41AA65 | 418012 | PlayInGameMovie |  |
+
 | Beta | Debug | Hellfire | Diablo | ERROR.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 45C280 | ? | 41AAA1 | 41804E | InitDiabloMsg |  |
 | 45C30C | ? | 41AAE2 | 41808F | ClrDiabloMsg |  |
 | 45C355 | ? | 41AAFD | 4180AA | DrawDiabloMsg |  |
+
 | Beta | Debug | Hellfire | Diablo | FAULT.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 41AD00 | 4182AD | exception_cpp_init |  |
@@ -533,6 +554,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 41AD2A | N/A | log_create |  |
 | N/A | ? | 41AF1D | N/A | log_printf |  |
 | N/A | ? | 41B20D | N/A | log_reset |  |
+
 | Beta | Debug | Hellfire | Diablo | GAMEMENU.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 466750 | ? | 41B279 | 418866 | gamemenu_previous |  |
@@ -560,6 +582,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 466E8A | ? | 41B6EE | 418C30 | gamemenu_gamma |  |
 | 466EEB | ? | 41B71D | 418C5A | gamemenu_slider_gamma |  |
 | N/A | ? | N/A | 418C6A | gamemenu_color_cycling |  |
+
 | Beta | Debug | Hellfire | Diablo | GENDUNG.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 4119D0 | 40D2AE | 41B72D | 418C8B | FillSolidBlockTbls | assert |
@@ -586,6 +609,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | 40E660 | 41C894 | 419D92 | DRLG_HoldThemeRooms |  |
 | N/A | 40E6EB | 41C92E | 419E1F | SkipThemeRoom |  |
 | N/A | 40E741 | 41C980 | 419E71 | InitLevels |  |
+
 | Beta | Debug | Hellfire | Diablo | GMENU.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 479D70 | ? | 41C99A | 419E8B | gmenu_draw_pause |  |
@@ -608,6 +632,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 47A92A | ? | 41D015 | 41A4C6 | gmenu_slider_1 |  |
 | 47A9C8 | ? | 41D057 | 41A508 | gmenu_slider_get |  |
 | 47AA5C | ? | 41D094 | 41A545 | gmenu_slider_3 |  |
+
 | Beta | Debug | Hellfire | Diablo | HELP.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 44E5C0 | ? | 41D0A9 | 41A553 | InitHelp |  |
@@ -622,6 +647,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 44EEA8 | ? | 41D2BF | 41A773 | DisplayHelp |  |
 | 44EED6 | ? | 41D2DB | 41A78F | HelpScrollUp |  |
 | 44EEF9 | ? | 41D2EB | 41A79F | HelpScrollDown |  |
+
 | Beta | Debug | Hellfire | Diablo | INIT.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 41A7B3 | j_init_cpp_init |  |
@@ -650,6 +676,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 41DDCA | 41B105 | init_activate_window |  |
 | 42E2B0 | ? | 41DE24 | 41B15F | init_redraw_window |  |
 | 42E2FF | ? | 41DE49 | 41B184 | SetWindowProc |  |
+
 | Beta | Debug | Hellfire | Diablo | INTERFAC.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 41B190 | j_interfac_cpp_init |  |
@@ -662,6 +689,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 41EAD8 | ? | 41E2C3 | 41B5F5 | FreeInterface |  |
 | 41EB07 | ? | 41E2D5 | 41B607 | InitCutscene |  |
 | 41F03E | ? | N/A | N/A | interfac_41F03E |  |
+
 | Beta | Debug | Hellfire | Diablo | INV.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 44EF20 | ? | 41E584 | 41B814 | FreeInvGFX |  |
@@ -708,6 +736,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 45780A | ? | 4230CD | 41EFA1 | DoTelekinesis |  |
 | 45789F | ? | 42313F | 41F013 | CalculateGold |  |
 | N/A | ? | 42319C | 41F068 | DropItemBeforeTrig |  |
+
 | Beta | Debug | Hellfire | Diablo | ITEMS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 4231CA | N/A | items_4231CA |  |
@@ -848,6 +877,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 42BB35 | 425311 | NextItemRecord |  |
 | N/A | ? | 42BB7B | 425357 | SetItemRecord |  |
 | N/A | ? | 42BBC2 | 42539E | PutItemRecord |  |
+
 | Beta | Debug | Hellfire | Diablo | LIGHTING.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 437B50 | ? | 42BC67 | 425443 | SetLightFX |  |
@@ -878,6 +908,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 439DC0 | ? | N/A | N/A | lighting_439DC0 |  |
 | 439EE4 | ? | 42CCD6 | 42642B | ProcessVisionList |  |
 | N/A | ? | N/A | 42651F | lighting_color_cycling |  |
+
 | Beta | Debug | Hellfire | Diablo | LOADSAVE.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 43ADB0 | ? | 42CE32 | 426564 | LoadGame |  |
@@ -912,6 +943,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | 42DCFC | 427448 | SavePortal |  |
 | 43ADD6 | ? | 42DD1F | 42746B | SaveLevel |  |
 | 43ADE6 | ? | 42E007 | 42772F | LoadLevel |  |
+
 | Beta | Debug | Hellfire | Diablo | LOGGING.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 4279F2 | j_log_cpp_init_1 |  |
@@ -925,6 +957,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | N/A | ? | N/A | 427C18 | log_get_version |  |
 | N/A | ? | N/A | 427CC9 | log_printf |  |
 | N/A | ? | N/A | 427D75 | log_dump_computer_info |  |
+
 | Beta | Debug | Hellfire | Diablo | MAINMENU.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 427E0E | j_mainmenu_cpp_init |  |
@@ -939,6 +972,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 43A325 | ? | 42E439 | 427FFA | mainmenu_init_menu |  |
 | 43A2BB | ? | N/A | 428030 | mainmenu_multi_player |  |
 | N/A | ? | 42E4DE | 42803F | mainmenu_play_intro |  |
+
 | Beta | Debug | Hellfire | Diablo | MINITEXT.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 4129D0 | ? | N/A | N/A | j_minitext_4129E5 |  |
@@ -949,6 +983,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 412C1E | ? | 42E5A4 | 428104 | DrawQTextBack |  |
 | 412C8D | ? | 42E600 | 428160 | PrintQTextChr |  |
 | 412D69 | ? | 42E6A2 | 428202 | DrawQText |  |
+
 | Beta | Debug | Hellfire | Diablo | MISSILES.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 42E856 | 4283C0 | GetDamageAmt |  |
@@ -1132,6 +1167,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 44A1D8 | ? | 43A6A5 | 430DDA | ProcessMissiles |  |
 | N/A | ? | 43A851 | 430F35 | missiles_process_charge |  |
 | N/A | ? | 43A8DD | 430FB9 | ClearMissileSpot |  |
+
 | Beta | Debug | Hellfire | Diablo | MONSTER.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | 430FDF | j_monster_cpp_init |  |
@@ -1297,6 +1333,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | 40C26B | 4450B5 | 43AC43 | CheckMonsterHit | assert |
 | N/A | 40C2E4 | 445118 | 43ACB5 | encode_enemy | psx |
 | N/A | 40C2FD | 445138 | 43ACCE | decode_enemy | psx |
+
 | Beta | Debug | Hellfire | Diablo | MOVIE.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 43AD33 | j_movie_cpp_init |  |
@@ -1307,6 +1344,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 482539 | ? | N/A | N/A | movie_related_new |  |
 | 482640 | ? | N/A | N/A | paint_movie |  |
 | 4826A8 | ? | N/A | N/A | display_preview_screens |  |
+
 | Beta | Debug | Hellfire | Diablo | MPQAPI.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | N/A | N/A | 43AE90 | j_mpqapi_cpp_init |  |
@@ -1343,6 +1381,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 41F3A8 | 41858F | 445FD4 | 43BB79 | mpqapi_can_seek |  |
 | 420545 | N/A | N/A | N/A | mpqapi_420545 |  |
 | 420560 | N/A | N/A | N/A | mpqapi_420560 |  |
+
 | Beta | Debug | Hellfire | Diablo | MSG.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 43BBA4 | j_msg_cpp_init |  |
@@ -1488,6 +1527,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 49A784 | ? | N/A | N/A | msg_49A784 |  |
 | 49AC05 | ? | N/A | N/A | msg_49AC05 |  |
 | 49AD47 | ? | N/A | N/A | msg_49AD47 |  |
+
 | Beta | Debug | Hellfire | Diablo | MSGCMD.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 43F849 | j_msgcmd_cpp_init_1 |  |
@@ -1508,6 +1548,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | N/A | 43FA14 | msgcmd_event_type |  |
 | N/A | ? | N/A | 43FA85 | msgcmd_cleanup_chatcmd_1 |  |
 | N/A | ? | N/A | 43FA98 | msgcmd_cleanup_extern_msg |  |
+
 | Beta | Debug | Hellfire | Diablo | MULTI.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 43FAC4 | j_multi_cpp_init |  |
@@ -1554,6 +1595,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | N/A | 440B09 | multi_init_multi |  |
 | 41DFFB | ? | 44B6BD | 440BDB | multi_upgrade |  |
 | 41E098 | ? | 44B6F9 | 440C17 | multi_player_joins |  |
+
 | Beta | Debug | Hellfire | Diablo | NTHREAD.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 440DAE | j_nthread_cpp_init_1 |  |
@@ -1572,6 +1614,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 41BA75 | ? | 44BC59 | 441145 | nthread_cleanup |  |
 | 41BB1C | ? | 44BCD8 | 4411C4 | nthread_ignore_mutex |  |
 | 41BB95 | ? | 44BD03 | 4411EF | nthread_has_500ms_passed |  |
+
 | Beta | Debug | Hellfire | Diablo | OBJECTS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 45C890 | ? | 44BD31 | 44121D | InitObjectGFX |  |
@@ -1725,6 +1768,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 454B46 | N/A | operate_lv24_lever |  |
 | N/A | ? | 454BA8 | N/A | objects_454BA8 |  |
 | N/A | ? | 454BEA | N/A | objects_rnd_454BEA |  |
+
 | Beta | Debug | Hellfire | Diablo | PACK.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 448755 | j_pack_cpp_init |  |
@@ -1734,6 +1778,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 455083 | 448A5E | VerifyGoldSeeds |  |
 | 4687E5 | ? | 4550F2 | 448AD0 | UnPackPlayer |  |
 | 468B93 | ? | 454FD6 | 448D48 | UnPackItem |  |
+
 | Beta | Debug | Hellfire | Diablo | PALETTE.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 448DF5 | j_palette_cpp_init |  |
@@ -1761,6 +1806,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 48E692 | ? | 455AD2 | 449398 | palette_update_quest_palette |  |
 | N/A | ? | N/A | 4493C6 | palette_get_colour_cycling |  |
 | N/A | ? | N/A | 4493CC | palette_set_color_cycling |  |
+
 | Beta | Debug | Hellfire | Diablo | PATH.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 413020 | ? | 455B00 | 4493D4 | FindPath |  |
@@ -1777,6 +1823,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 413AB7 | ? | 455FD8 | 449890 | path_push_active_step |  |
 | 413AE3 | ? | 455FEB | 4498A3 | path_pop_active_step |  |
 | 413B05 | ? | 455FFE | 4498B6 | path_new_step |  |
+
 | Beta | Debug | Hellfire | Diablo | PFILE.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 4498EC | j_pfile_cpp_init |  |
@@ -1822,6 +1869,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | N/A | 44A727 | pfile_strcpy |  |
 | 437919 | ? | 456C9F | 44A731 | pfile_read |  |
 | 437AE8 | ? | N/A | 44A8B3 | pfile_update |  |
+
 | Beta | Debug | Hellfire | Diablo | PLAYER.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 44A8E6 | j_player_cpp_init |  |
@@ -1923,6 +1971,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 45EFA1 | N/A | player_45EFA1 |  |
 | N/A | ? | 45EFAB | N/A | player_45EFAB |  |
 | N/A | ? | 45EFB5 | N/A | player_45EFB5 |  |
+
 | Beta | Debug | Hellfire | Diablo | PLRMSG.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 45EFBF | 450D33 | plrmsg_delay |  |
@@ -1933,6 +1982,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 41BE55 | ? | 45F12F | 450E8E | InitPlrMsg |  |
 | 41BE80 | ? | 45F14B | 450EAA | DrawPlrMsg |  |
 | 41BF81 | ? | 45F1D8 | 450F37 | PrintPlrMsg |  |
+
 | Beta | Debug | Hellfire | Diablo | PORTAL.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 493F10 | 46A075 | 45F29F | 450FFE | InitPortals |  |
@@ -1948,6 +1998,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 494366 | 46A2F7 | 45F4EF | 45123B | GetPortalLevel |  |
 | 4944AF | 46A3C6 | 45F5A4 | 4512E3 | GetPortalLvlPos |  |
 | N/A | N/A | N/A | 451346 | portal_pos_ok |  |
+
 | Beta | Debug | Hellfire | Diablo | QUESTS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 478720 | ? | 45F607 | 45138E | InitQuests |  |
@@ -1976,11 +2027,13 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 479CBA | ? | 460BD2 | 45279C | QuestlogESC |  |
 | 479D47 | ? | N/A | N/A | QuestlogOff |  |
 | N/A | ? | 460C27 | 4527F1 | SetMultiQuest |  |
+
 | Beta | Debug | Hellfire | Diablo | RESTRICT.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 452831 | SystemSupported |  |
 | N/A | ? | N/A | 452885 | RestrictedTest |  |
 | N/A | ? | N/A | 4528F7 | ReadOnlyTest |  |
+
 | Beta | Debug | Hellfire | Diablo | SCROLLRT.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 452975 | j_scrollrt_cpp_init |  |
@@ -2017,6 +2070,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 48DA46 | ? | N/A | N/A | DrawFPS |  |
 | N/A | ? | 46AE25 | 4563B3 | DoBlitScreen |  |
 | 48DB65 | ? | 46AF66 | 4564F9 | DrawAndBlit |  |
+
 | Beta | Debug | Hellfire | Diablo | SETMAPS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 4364A0 | 427A4F | 46B092 | 456625 | ObjIndex | assert |
@@ -2025,6 +2079,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 46B1C7 | 456755 | AddVileObjs |  |
 | 436686 | ? | 46B21F | 4567AD | DRLG_SetMapTrans |  |
 | 436770 | ? | 46B28C | 456819 | LoadSetMap |  |
+
 | Beta | Debug | Hellfire | Diablo | SHA.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 4846A0 | ? | 46B48C | 456A16 | SHA1Clear |  |
@@ -2034,6 +2089,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 4847FC | ? | 46B53A | 456AC4 | SHA1ProcessMessageBlock |  |
 | 484B5E | ? | N/A | N/A | j_SHA1Reset |  |
 | 484B8D | ? | 46B737 | 456C82 | SHA1Reset |  |
+
 | Beta | Debug | Hellfire | Diablo | SOUND.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 456CBB | j_sound_cpp_init |  |
@@ -2060,6 +2116,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 46BEA5 | 4573FE | sound_disable_music |  |
 | 41486D | ? | 46BEBF | 457418 | sound_get_or_set_music_volume |  |
 | 414903 | ? | 46BEE2 | 45743B | sound_get_or_set_sound_volume |  |
+
 | Beta | Debug | Hellfire | Diablo | SPELLS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 45B6D0 | ? | 46BEF5 | 45744E | GetManaAmount |  |
@@ -2069,6 +2126,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 45BCDF | ? | 46C1AE | 4576B1 | DoResurrect |  |
 | N/A | ? | N/A | 4577CB | PlacePlayer |  |
 | 45BFC4 | ? | 46C2DF | 4578EE | DoHealOther |  |
+
 | Beta | Debug | Hellfire | Diablo | STORES.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 42E330 | ? | 46C43D | 457A01 | InitStores |  |
@@ -2167,6 +2225,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 435A60 | ? | 471198 | 45BF34 | STextEnter |  |
 | 435BB4 | ? | 4712B7 | 45C053 | CheckStoreBtn |  |
 | 435DB3 | ? | 47140A | 45C18A | ReleaseStoreBtn |  |
+
 | Beta | Debug | Hellfire | Diablo | SYNC.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 484BF0 | ? | 471419 | 45C199 | sync_all_monsters |  |
@@ -2178,6 +2237,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 485315 | ? | 471880 | 45C5C7 | SyncData |  |
 | 48544D | ? | 4718F3 | 45C63B | sync_monster_data |  |
 | 48594F | ? | 471B0E | 45C84B | sync_clear_pkt |  |
+
 | Beta | Debug | Hellfire | Diablo | THEMES.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 482730 | ? | N/A | N/A | themes_482730 |  |
@@ -2213,11 +2273,13 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 4730FE | 45DE20 | Theme_WeaponRack |  |
 | N/A | ? | 4731EF | 45DF11 | UpdateL4Trans |  |
 | 48457F | ? | 47320F | 45DF31 | CreateThemeRooms |  |
+
 | Beta | Debug | Hellfire | Diablo | TMSG.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | 47336E | 45E08C | tmsg_get |  |
 | N/A | ? | 4733B9 | 45E0D7 | tmsg_add |  |
 | N/A | ? | 47340C | 45E12A | tmsg_cleanup |  |
+
 | Beta | Debug | Hellfire | Diablo | TOWN.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 44A530 | ? | 473433 | 45E151 | town_clear_upper_buf |  |
@@ -2245,6 +2307,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 475595 | N/A | town_475595 |  |
 | 44DDEC | ? | 4755FE | 45FDE6 | T_Pass3 |  |
 | 44DFCE | ? | 47587C | 45FF83 | CreateTown |  |
+
 | Beta | Debug | Hellfire | Diablo | TOWNERS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 4579F0 | ? | 475AE0 | 46019B | GetActiveTowner |  |
@@ -2286,6 +2349,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 4768C1 | 460CAC | TownerTalk |  |
 | 45906E | ? | 4768DE | 460CC9 | TalkToTowner |  |
 | N/A | ? | 4779D0 | 4617E8 | CowSFX |  |
+
 | Beta | Debug | Hellfire | Diablo | TRACK.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 4618A5 | j_track_cpp_init |  |
@@ -2294,6 +2358,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 4681A4 | ? | 477A95 | 4618B5 | track_process |  |
 | 4683C9 | ? | 477B33 | 461953 | track_repeat_walk |  |
 | N/A | ? | 477B7F | 46199F | track_isscrolling |  |
+
 | Beta | Debug | Hellfire | Diablo | TRIGS.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 47B670 | ? | 477B87 | 4619A7 | InitNoTriggers |  |
@@ -2317,6 +2382,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 479248 | 462987 | ForcePWaterTrig |  |
 | 47C4B0 | ? | 4792B1 | 4629EF | CheckTrigForce |  |
 | 47C59E | ? | 47935E | 462A9D | CheckTriggers |  |
+
 | Beta | Debug | Hellfire | Diablo | WAVE.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | N/A | ? | N/A | 462C6D | j_wave_cpp_init |  |
@@ -2337,6 +2403,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 4798A2 | 462FCC | ReadWaveSection |  |
 | N/A | ? | 4798FD | 463023 | LoadWaveFile |  |
 | N/A | ? | 479935 | 46305B | j_mem_free_dbg |  |
+
 | Beta | Debug | Hellfire | Diablo | RENDER.CPP |  |
 | --- | --- | --- | --- | --- | --- |
 | 4A048C | ? | 460C68 | 463060 | drawTopArchesUpperScreen |  |
