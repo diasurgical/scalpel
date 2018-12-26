@@ -173,6 +173,7 @@ N/A | 466343 | N/A | N/A | diablo_clear_key_and_mouse_events |  | Could also | b
 N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interfac.cpp in debug release
 | 49115A | 466EF6 | 409A1A | 409131 | GM_Game | assert |
 | 491497 | 4671FE | 409C92 | 4093B2 | LeftMouseDown |  |
+| ? | ? | ? | 4095A5 | LeftMouseCmd |  |
 | 491753 | 467423 | 409E8C | N/A | diablo_491753 |  |
 | 491B3A | 46773A | 40A0D9 | 4097EC | TryIconCurs |  |
 | 491E07 | 467929 | 40A2C9 | 409963 | LeftMouseUp |  |
@@ -419,6 +420,7 @@ N/A | 416773 | 409951 | 40905E | DisableInputWndProc | assert | Part of | interf
 | 467E94 | ? | N/A | N/A | effects_467E94 |  |
 | 467F5C | ? | N/A | N/A | effects_467F5C |  |
 | 467F8A | ? | 41877D | 415DBA | sound_update |  |
+| ? | ? | ? | 415DD0 | stream_update |  psx |
 | 467FE5 | ? | N/A | N/A | effects_467FE5 |  |
 | 468090 | ? | 4187C2 | 415DFF | effects_cleanup_sfx |  |
 | N/A | ? | 4187E8 | 415E2A | stream_update |  |
@@ -1357,6 +1359,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | 496811 | ? | 447603 | 43D064 | NetSendCmdString |  |
 | 49ADA0 | ? | 44763C | 43D09D | RemovePlrPortal |  |
 | 49689B | ? | 44765B | 43D0BC | ParseCmd |  |
+| ? | ? | ? | 43D56F | On_DLEVEL |  |
 | N/A | ? | 447B88 | N/A | msg_447B88 |  |
 | 49A462 | ? | 447C46 | 43D632 | DeltaImportData |  |
 | 49A582 | ? | 447CCE | 43D6BA | DeltaImportItem |  |
@@ -1436,6 +1439,7 @@ N/A | 406469 | 43EEDE | 435697 | DoEnding | psx | DoEnding and PrepDoEnding | ar
 | N/A | ? | 44A0FF | 43F645 | On_SETMAG |  |
 | N/A | ? | 44A138 | 43F67E | On_SETVIT |  |
 | 49ACFD | ? | 44A171 | 43F6B7 | On_STRING |  |
+| ? | ? | ? | 43F6C2 | On_STRING2 |  |
 | N/A | ? | 44A1A6 | 43F6EC | On_SYNCQUEST |  |
 | N/A | ? | 44A1E8 | 43F72E | On_ENDSHIELD |  |
 | N/A | ? | 44A26F | N/A | On_cmd_99 |  |
