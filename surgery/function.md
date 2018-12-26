@@ -1,3 +1,5 @@
+# Functions
+
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`APPFAT.CPP`**                        | **Certainty** |
 | ------------ | ------------ | ------------ | ------------ | --------------------------------------- | ------------- |
 | N/A          | N/A          | N/A          | 401000       | j_appfat_cpp_init                       |               |
@@ -2284,3 +2286,9 @@
 | 4A4D75       | ?            | 465551       | 467949       | drawBottomArchesLowerScreen             |               |
 | 4A5C97       | ?            | 466473       | 46886B       | drawLowerScreen                         |               |
 | 4A6AEA       | ?            | 4672C6       | 4696BE       | world_draw_black_tile                   |               |
+
+## Additional notes
+
+* `466343` (`diablo_clear_key_and_mouse_events`): Could also be part of engine.cpp in the debug release.
+* `416773` (`DisableInputWndProc`): Part of interfac.cpp in the debug release
+*  `406469` (`DoEnding`): `DoEnding` and `PrepDoEnding` are merged into one function in the debug release
