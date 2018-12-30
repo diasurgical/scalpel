@@ -1986,6 +1986,7 @@
 | 4847FC       | ?            | 46B53A       | 456AC4       | SHA1ProcessMessageBlock                 |               |
 | 484B5E       | ?            | N/A          | N/A          | j_SHA1Reset                             |               |
 | 484B8D       | ?            | 46B737       | 456C82       | SHA1Reset                               |               |
+| ?            | ?            | ?            | 456C90       | SHA1Init                                |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`SOUND.CPP`**                         | **Certainty** |
 | N/A          | ?            | N/A          | 456CBB       | j_sound_cpp_init                        |               |
 | N/A          | ?            | N/A          | 456CC0       | sound_cpp_init                          |               |
