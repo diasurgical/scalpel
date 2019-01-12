@@ -2,6 +2,20 @@
 
 #include "types.h"
 
+// address: 0x80038E94
+// line start: 2690
+// line end:   2703
+void AddQuestItems__Fv() {
+}
+
+
+// address: 0x80038F34
+// line start: 2710
+// line end:   2712
+void AllSolid__Fii(int x, int y) {
+}
+
+
 // address: 0x80037464
 // line start: 2531
 // line end:   2556
@@ -15,6 +29,63 @@ void ClearOutDungeonMap__Fv() {
 			{
 				// register: 6
 				register int y;
+			}
+		}
+	}
+}
+
+
+// address: 0x80038C94
+// line start: 2592
+// line end:   2661
+void ClearOutDungeonMap__Fv_addr_80038C94() {
+	// register: 17
+	register bool istown;
+	// register: 16
+	register unsigned short val;
+	{
+		// register: 6
+		register int x;
+		{
+			{
+				// register: 4
+				register int y;
+				{
+					// register: 7
+					register int y;
+					// register: 6
+					register int x;
+					{
+						{
+							// register: 4
+							register int x;
+							{
+								// register: 5
+								register int y;
+								// register: 6
+								register int x;
+								{
+									{
+										// register: 4
+										register int x;
+										{
+											// register: 5
+											register int y;
+											// register: 6
+											register int x;
+											{
+												{
+													// register: 4
+													register int x;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -51,10 +122,61 @@ void DoMemCardFromInGame__Fv() {
 }
 
 
+// address: 0x80038F74
+// line start: 2716
+// line end:   2750
+void FillCrapBits__Fv() {
+	// register: 18
+	// size: 0x14
+	register struct QuestStruct *qs;
+	{
+		{
+			{
+				{
+					// register: 16
+					register int x;
+					// register: 17
+					register int y;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80038F74
+// line start: 2716
+// line end:   2750
+void FillCrapBits__Fv_addr_80038F74() {
+	// register: 18
+	// size: 0x14
+	register struct QuestStruct_dup_17 *qs;
+	{
+		{
+			{
+				{
+					// register: 16
+					register int x;
+					// register: 17
+					register int y;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80037F4C
+// line start: 292
+// line end:   305
+void FreeGameMem__Fv() {
+}
+
+
 // address: 0x80036804
 // line start: 282
 // line end:   295
-void FreeGameMem__Fv() {
+void FreeGameMem__Fv_addr_80036804() {
 	{
 		// register: 4
 		register void *p__p;
@@ -66,6 +188,14 @@ void FreeGameMem__Fv() {
 // line start: 2169
 // line end:   2329
 unsigned long GM_Game__FUlUilUl(unsigned long hWnd, unsigned int uMsg, long wParam, unsigned long lParam) {
+}
+
+
+// address: 0x80039B5C
+// size: 0x4
+// line start: 3169
+// line end:   3170
+enum GM_SPEEDS GetSpeed__Fv() {
 }
 
 
@@ -85,6 +215,15 @@ void LittleStart__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 // line end:   2527
 void LoCreateLevel__FPv() {
 	// register: 16
+	register int lvldir;
+}
+
+
+// address: 0x80038B30
+// line start: 2534
+// line end:   2587
+void LoCreateLevel__FPv_addr_80038B30() {
+	// register: 5
 	register int lvldir;
 }
 
@@ -134,6 +273,46 @@ void LoadGameLevel__FUci_addr_80037570(unsigned char firstflag, int lvldir) {
 // line start: 2336
 // line end:   2403
 void LoadLvlGFX__Fv() {
+}
+
+
+// address: 0x800388D0
+// line start: 2413
+// line end:   2447
+void LoadLvlGFX__Fv_addr_800388D0() {
+	// register: 16
+	register char *LoadFile;
+}
+
+
+// address: 0x80038988
+// line start: 2452
+// line end:   2464
+void LoadMegaTiles__FPCc(char *LoadFile) {
+	// register: 16
+	// size: 0x14
+	register struct FileIO *MyIo;
+}
+
+
+// address: 0x800391C0
+// line start: 2776
+// line end:   2780
+void Lrestoreplrpos__Fv() {
+}
+
+
+// address: 0x80039114
+// line start: 2755
+// line end:   2771
+void Lsaveplrpos__Fv() {
+}
+
+
+// address: 0x80039B48
+// line start: 3163
+// line end:   3165
+void SetSpeed__F9GM_SPEEDS(enum GM_SPEEDS Speed) {
 }
 
 
@@ -196,10 +375,23 @@ void free_game__Fv() {
 }
 
 
+// address: 0x80039B68
+// line start: 3175
+// line end:   3273
+void game_logic__Fv() {
+	// register: 17
+	register int Frames;
+	// register: 18
+	register int ThisTick;
+	// register: 16
+	register int SinceLast;
+}
+
+
 // address: 0x80037E7C
 // line start: 2897
 // line end:   2949
-void game_logic__Fv() {
+void game_logic__Fv_addr_80037E7C() {
 }
 
 

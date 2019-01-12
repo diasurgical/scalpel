@@ -102,31 +102,10 @@ void DrawButcher__Fv() {
 }
 
 
-// address: 0x801484C4
-// line start: 279
-// line end:   304
-void DrawLTBanner__Fii(int x, int y) {
-	// register: 10
-	register int rw;
-	// register: 11
-	register int rh;
-	// register: 5
-	register int i;
-	// register: 7
-	register int j;
-	// register: 8
-	register unsigned char *sp;
-	// register: 4
-	register unsigned char *setp;
-	{
-	}
-}
-
-
 // address: 0x80154CE0
 // line start: 279
 // line end:   304
-void DrawLTBanner__Fii_addr_80154CE0(int x, int y) {
+void DrawLTBanner__Fii(int x, int y) {
 	// register: 17
 	register int rw;
 	// register: 18
@@ -144,25 +123,21 @@ void DrawLTBanner__Fii_addr_80154CE0(int x, int y) {
 }
 
 
-// address: 0x80154B10
-// line start: 242
-// line end:   272
-void DrawSChamber__Fiii(int q, int x, int y) {
-	// register: 6
+// address: 0x801484C4
+// line start: 279
+// line end:   304
+void DrawLTBanner__Fii_addr_801484C4(int x, int y) {
+	// register: 10
+	register int rw;
+	// register: 11
+	register int rh;
+	// register: 5
 	register int i;
 	// register: 7
 	register int j;
-	// register: 21
-	register int rw;
-	// register: 20
-	register int rh;
-	// register: 17
-	register int xx;
-	// register: 16
-	register int yy;
-	// register: 17
+	// register: 8
 	register unsigned char *sp;
-	// register: 22
+	// register: 4
 	register unsigned char *setp;
 	{
 	}
@@ -172,7 +147,7 @@ void DrawSChamber__Fiii(int q, int x, int y) {
 // address: 0x80148388
 // line start: 242
 // line end:   272
-void DrawSChamber__Fiii_addr_80148388(int q, int x, int y) {
+void DrawSChamber__Fiii(int q, int x, int y) {
 	// register: 7
 	register int i;
 	// register: 9
@@ -188,6 +163,31 @@ void DrawSChamber__Fiii_addr_80148388(int q, int x, int y) {
 	// register: 8
 	register unsigned char *sp;
 	// register: 4
+	register unsigned char *setp;
+	{
+	}
+}
+
+
+// address: 0x80154B10
+// line start: 242
+// line end:   272
+void DrawSChamber__Fiii_addr_80154B10(int q, int x, int y) {
+	// register: 6
+	register int i;
+	// register: 7
+	register int j;
+	// register: 21
+	register int rw;
+	// register: 20
+	register int rh;
+	// register: 17
+	register int xx;
+	// register: 16
+	register int yy;
+	// register: 17
+	register unsigned char *sp;
+	// register: 22
 	register unsigned char *setp;
 	{
 	}
@@ -253,6 +253,46 @@ void InitQuests__Fv() {
 	register int gri;
 	// register: 19
 	register int deltaq;
+}
+
+
+// address: 0x8015EC38
+// line start: 108
+// line end:   197
+void InitQuests__Fv_addr_8015EC38() {
+	// address: 0xFFFFFFE8
+	auto int i;
+	// register: 3
+	register int gri;
+	// register: 16
+	register int deltaq;
+	{
+		{
+			// register: 4
+			// size: 0x6C
+			register struct ItemStruct_dup_17 *Item;
+		}
+	}
+}
+
+
+// address: 0x8015EB30
+// line start: 108
+// line end:   197
+void InitQuests__Fv_addr_8015EB30() {
+	// address: 0xFFFFFFE8
+	auto int i;
+	// register: 3
+	register int gri;
+	// register: 16
+	register int deltaq;
+	{
+		{
+			// register: 4
+			// size: 0x6C
+			register struct ItemStruct *Item;
+		}
+	}
 }
 
 

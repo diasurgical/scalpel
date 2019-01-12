@@ -31,10 +31,40 @@ void DoHealOther__Fii(int pnum, int rid) {
 }
 
 
+// address: 0x80077398
+// line start: 250
+// line end:   312
+void DoResurrect__Fii(int pnum, int rid) {
+	// register: 16
+	// size: 0x19E8
+	register struct PlayerStruct *ptrplr;
+}
+
+
+// address: 0x80077460
+// line start: 250
+// line end:   312
+void DoResurrect__Fii_addr_80077460(int pnum, int rid) {
+	// register: 16
+	// size: 0x19E8
+	register struct PlayerStruct_dup_18 *ptrplr;
+}
+
+
+// address: 0x80077530
+// line start: 250
+// line end:   312
+void DoResurrect__Fii_addr_80077530(int pnum, int rid) {
+	// register: 16
+	// size: 0x19E8
+	register struct PlayerStruct_dup_17 *ptrplr;
+}
+
+
 // address: 0x80070CB4
 // line start: 201
 // line end:   236
-void DoResurrect__Fii(int pnum, int rid) {
+void DoResurrect__Fii_addr_80070CB4(int pnum, int rid) {
 }
 
 

@@ -222,3 +222,33 @@ void ShowTask__FP4TASK_addr_8013E9DC(struct TASK *T) {
 }
 
 
+// address: 0x80155D68
+// line start: 227
+// line end:   244
+void CM_ShowMonsterList__Fii_addr_80155D68(int Level, int List) {
+}
+
+
+// address: 0x80155E18
+// line start: 304
+// line end:   473
+void ChooseTask__FP4TASK_addr_80155E18(struct TASK *T) {
+	// register: 2
+	// size: 0x10
+	register struct DEF_ARGS *A;
+	// register: 18
+	register int *List;
+	// register: 16
+	register int Level;
+	// register: 16
+	register unsigned int NumOfLists;
+	// register: 17
+	register unsigned long QuestsNeededMask;
+	// address: 0xFFFFFFB8
+	// size: 0x32
+	auto unsigned char ListsToChooseFrom[50];
+	// register: 2
+	register unsigned int Selection;
+}
+
+

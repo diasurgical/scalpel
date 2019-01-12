@@ -2,13 +2,13 @@
 
 #include "types.h"
 
-// address: 0x8014CAE0
+// address: 0x80161D80
 // line start: 213
 // line end:   218
-void BubbleSwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b) {
+void BubbleSwapItem__FP10ItemStructT0(struct ItemStruct_dup_11 *a, struct ItemStruct_dup_11 *b) {
 	// address: 0xFFFFFF68
-	// size: 0x94
-	auto struct ItemStruct h;
+	// size: 0x98
+	auto struct ItemStruct_dup_11 h;
 }
 
 
@@ -22,22 +22,12 @@ void BubbleSwapItem__FP10ItemStructT0_addr_80159DF0(struct ItemStruct_dup_6 *a, 
 }
 
 
-// address: 0x80161D80
+// address: 0x8014CAE0
 // line start: 213
 // line end:   218
-void BubbleSwapItem__FP10ItemStructT0_addr_80161D80(struct ItemStruct_dup_11 *a, struct ItemStruct_dup_11 *b) {
+void BubbleSwapItem__FP10ItemStructT0_addr_8014CAE0(struct ItemStruct *a, struct ItemStruct *b) {
 	// address: 0xFFFFFF68
-	// size: 0x98
-	auto struct ItemStruct_dup_11 h;
-}
-
-
-// address: 0x8014EB94
-// line start: 213
-// line end:   218
-void BubbleSwapItem__FP10ItemStructT0_addr_8014EB94(struct ItemStruct *a, struct ItemStruct *b) {
-	// address: 0xFFFFFF68
-	// size: 0x98
+	// size: 0x94
 	auto struct ItemStruct h;
 }
 
@@ -49,6 +39,16 @@ void BubbleSwapItem__FP10ItemStructT0_addr_80163480(struct ItemStruct_dup_13 *a,
 	// address: 0xFFFFFF68
 	// size: 0x98
 	auto struct ItemStruct_dup_13 h;
+}
+
+
+// address: 0x8014EB94
+// line start: 213
+// line end:   218
+void BubbleSwapItem__FP10ItemStructT0_addr_8014EB94(struct ItemStruct *a, struct ItemStruct *b) {
+	// address: 0xFFFFFF68
+	// size: 0x98
+	auto struct ItemStruct h;
 }
 
 

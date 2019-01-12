@@ -23,10 +23,19 @@ void VID_AfterDisplay__Fv() {
 }
 
 
+// address: 0x80083E4C
+// line start: 270
+// line end:   282
+void VID_DispEnvSend() {
+	// register: 16
+	register unsigned long OldGp;
+}
+
+
 // address: 0x8007B170
 // line start: 224
 // line end:   230
-void VID_DispEnvSend() {
+void VID_DispEnvSend_addr_8007B170() {
 }
 
 
@@ -58,6 +67,13 @@ int VID_GetYOff__Fv() {
 }
 
 
+// address: 0x80083ECC
+// line start: 304
+// line end:   306
+bool VID_IsDbuffer__Fv() {
+}
+
+
 // address: 0x8007B158
 // line start: 213
 // line end:   214
@@ -72,12 +88,14 @@ void VID_ScrOn__Fv() {
 }
 
 
-// address: 0x8007CA08
-// line start: 252
-// line end:   292
+// address: 0x8007ED40
+// line start: 274
+// line end:   316
 void VID_SetDBuffer__Fb(bool DBuf) {
 	{
 		{
+			// register: 16
+			register unsigned short scr;
 		}
 	}
 }
@@ -87,6 +105,17 @@ void VID_SetDBuffer__Fb(bool DBuf) {
 // line start: 252
 // line end:   285
 void VID_SetDBuffer__Fb_addr_8007AA68(bool DBuf) {
+}
+
+
+// address: 0x8007CA08
+// line start: 252
+// line end:   292
+void VID_SetDBuffer__Fb_addr_8007CA08(bool DBuf) {
+	{
+		{
+		}
+	}
 }
 
 

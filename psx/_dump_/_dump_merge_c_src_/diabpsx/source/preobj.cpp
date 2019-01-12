@@ -373,22 +373,22 @@ void AddSCambBook__Fi(int i) {
 }
 
 
-// address: 0x8013F2DC
+// address: 0x8014B34C
 // line start: 229
 // line end:   238
 void AddSarc__Fi(int i) {
-	// register: 5
+	// register: 6
 	register int x;
 	// register: 2
 	register int y;
 }
 
 
-// address: 0x8014B34C
+// address: 0x8013F2DC
 // line start: 229
 // line end:   238
-void AddSarc__Fi_addr_8014B34C(int i) {
-	// register: 6
+void AddSarc__Fi_addr_8013F2DC(int i) {
+	// register: 5
 	register int x;
 	// register: 2
 	register int y;
@@ -736,9 +736,9 @@ unsigned char RoomLocOk__Fii(int xp, int yp) {
 }
 
 
-// address: 0x8014CDA0
-// line start: 719
-// line end:   788
+// address: 0x801409E4
+// line start: 725
+// line end:   794
 void SetMapObjects__FPUcii(unsigned char *pMap, int startx, int starty) {
 	// register: 16
 	register int i;
@@ -746,11 +746,11 @@ void SetMapObjects__FPUcii(unsigned char *pMap, int startx, int starty) {
 	register int j;
 	// register: 19
 	register int rw;
-	// register: 21
+	// register: 20
 	register int rh;
 	// register: 17
 	register unsigned char *lm;
-	// register: 20
+	// register: 7
 	register unsigned char *h;
 	// register: 2
 	register long mapoff;
@@ -765,21 +765,21 @@ void SetMapObjects__FPUcii(unsigned char *pMap, int startx, int starty) {
 }
 
 
-// address: 0x801409E4
-// line start: 725
-// line end:   794
-void SetMapObjects__FPUcii_addr_801409E4(unsigned char *pMap, int startx, int starty) {
+// address: 0x8014CDA0
+// line start: 719
+// line end:   788
+void SetMapObjects__FPUcii_addr_8014CDA0(unsigned char *pMap, int startx, int starty) {
 	// register: 16
 	register int i;
 	// register: 18
 	register int j;
 	// register: 19
 	register int rw;
-	// register: 20
+	// register: 21
 	register int rh;
 	// register: 17
 	register unsigned char *lm;
-	// register: 7
+	// register: 20
 	register unsigned char *h;
 	// register: 2
 	register long mapoff;
@@ -812,6 +812,118 @@ unsigned char TrapLocOk__Fii(int xp, int yp) {
 // line start: 1168
 // line end:   1171
 unsigned char WallTrapLocOk__Fii(int xp, int yp) {
+}
+
+
+// address: 0x80158E9C
+// line start: 1364
+// line end:   1383
+void AddChestTraps__Fv_addr_80158E9C() {
+	// register: 18
+	register int i;
+	// register: 19
+	register int j;
+}
+
+
+// address: 0x80158A68
+// line start: 1261
+// line end:   1276
+void AddL2Torches__Fv_addr_80158A68() {
+	// register: 16
+	register int i;
+	// register: 17
+	register int j;
+	// register: 18
+	register int pn;
+}
+
+
+// address: 0x80158900
+// line start: 1225
+// line end:   1236
+void AddL3Objs__Fiiii_addr_80158900(int x1, int y1, int x2, int y2) {
+	// register: 16
+	register int i;
+	// register: 18
+	register int j;
+	// register: 17
+	register int pn;
+}
+
+
+// address: 0x80156F58
+// line start: 464
+// line end:   475
+void AddMurkyFountain__Fi_addr_80156F58(int i) {
+	// register: 3
+	register int x;
+	// register: 5
+	register int y;
+}
+
+
+// address: 0x80158C10
+// line start: 1287
+// line end:   1357
+void AddObjTraps__Fv_addr_80158C10() {
+	// register: 18
+	register int i;
+	// register: 19
+	register int j;
+	// register: 16
+	register int x;
+	// register: 17
+	register int y;
+	// register: 21
+	register int rndv;
+	// register: 20
+	register char oi;
+}
+
+
+// address: 0x80156E0C
+// line start: 418
+// line end:   429
+void AddPurifyingFountain__Fi_addr_80156E0C(int i) {
+	// register: 3
+	register int x;
+	// register: 5
+	register int y;
+}
+
+
+// address: 0x801567B4
+// line start: 240
+// line end:   253
+void AddSarc__Fi_addr_801567B4(int i) {
+	// register: 5
+	register int x;
+	// register: 3
+	register int y;
+}
+
+
+// address: 0x80157288
+// line start: 573
+// line end:   590
+void AddStoryBook__Fi_addr_80157288(int i) {
+	// register: 3
+	register int bookframe;
+}
+
+
+// address: 0x801598E8
+// line start: 1615
+// line end:   1621
+void restoreplrpos__Fv() {
+}
+
+
+// address: 0x8015982C
+// line start: 1593
+// line end:   1611
+void saveplrpos__Fv() {
 }
 
 

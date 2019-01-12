@@ -2,10 +2,99 @@
 
 #include "types.h"
 
+// address: 0x80090234
+// line start: 647
+// line end:   719
+void DrawCtrlSetup__Fv() {
+	// register: 16
+	register int i;
+	// register: 22
+	register int pnum;
+	{
+		{
+			{
+				{
+					{
+						// register: 17
+						register int lena;
+						// register: 2
+						register int len;
+						{
+							{
+								// register: 19
+								register int oldDot;
+								// register: 18
+								register int OldPrintOT;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800931F4
+// line start: 691
+// line end:   766
+void DrawCtrlSetup__Fv_addr_800931F4() {
+	// register: 16
+	register int i;
+	// register: 20
+	register int pnum;
+	{
+		{
+			// register: 17
+			register int lena;
+			// register: 2
+			register int len;
+			{
+				{
+					// register: 19
+					register int oldDot;
+					// register: 18
+					register int OldPrintOT;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009D2DC
+// line start: 918
+// line end:   1002
+void DrawCtrlSetup__Fv_addr_8009D2DC() {
+	// register: 16
+	register int i;
+	// register: 2
+	register int pnum;
+	{
+		{
+			// register: 16
+			register int otpos;
+			// register: 21
+			register int oldDot;
+			// register: 20
+			register int OldPrintOT;
+			{
+				{
+					// register: 17
+					register int lena;
+					// register: 2
+					register int len;
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x80092554
 // line start: 738
 // line end:   814
-void DrawCtrlSetup__Fv() {
+void DrawCtrlSetup__Fv_addr_80092554() {
 	// register: 16
 	register int i;
 	// register: 20
@@ -112,39 +201,6 @@ void DrawCtrlSetup__Fv_addr_800936E4() {
 }
 
 
-// address: 0x80090234
-// line start: 647
-// line end:   719
-void DrawCtrlSetup__Fv_addr_80090234() {
-	// register: 16
-	register int i;
-	// register: 22
-	register int pnum;
-	{
-		{
-			{
-				{
-					{
-						// register: 17
-						register int lena;
-						// register: 2
-						register int len;
-						{
-							{
-								// register: 19
-								register int oldDot;
-								// register: 18
-								register int OldPrintOT;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x800918B8
 // line start: 275
 // line end:   376
@@ -152,13 +208,13 @@ unsigned char Init_ctrl_pos__Fv() {
 }
 
 
-// address: 0x8008F190
-// line start: 236
-// line end:   333
-unsigned char Init_ctrl_pos__Fv_addr_8008F190() {
+// address: 0x8008F834
+// line start: 173
+// line end:   285
+unsigned char Init_ctrl_pos__Fv_addr_8008F834() {
 	// register: 22
 	// size: 0x6C
-	register struct CPad_dup_4 *Pad;
+	register struct CPad *Pad;
 	// register: 18
 	register char *pstr1;
 	// register: 20
@@ -186,13 +242,13 @@ unsigned char Init_ctrl_pos__Fv_addr_8008F190() {
 }
 
 
-// address: 0x8008F834
-// line start: 173
-// line end:   285
-unsigned char Init_ctrl_pos__Fv_addr_8008F834() {
+// address: 0x8008F190
+// line start: 236
+// line end:   333
+unsigned char Init_ctrl_pos__Fv_addr_8008F190() {
 	// register: 22
 	// size: 0x6C
-	register struct CPad *Pad;
+	register struct CPad_dup_4 *Pad;
 	// register: 18
 	register char *pstr1;
 	// register: 20
@@ -250,27 +306,64 @@ void PrintCtrlString__FiiUcic(int x, int y, unsigned char cjustflag, int str_num
 }
 
 
-// address: 0x80090338
-// line start: 495
-// line end:   615
-void PrintCtrlString__FiiUcic_addr_80090338(int x, int y, unsigned char cjustflag, int str_num, int col) {
-	// register: 6
+// address: 0x8009CD88
+// line start: 793
+// line end:   914
+void PrintCtrlString__FiiUcic_addr_8009CD88(int x, int y, unsigned char cjustflag, int str_num, int col) {
+	// register: 17
+	// size: 0x10
+	register struct KEY_ASSIGNS *ta;
+	// register: 2
+	register int i;
+	// address: 0xFFFFFFC8
+	auto unsigned char r;
+	// address: 0xFFFFFFD0
+	auto unsigned char g;
+	// register: 30
+	register unsigned char b;
+	// register: 18
+	register int str;
+	// register: 21
+	register int len;
+	{
+		{
+			// register: 16
+			register int x1;
+			// register: 23
+			register int x2;
+			// register: 4
+			register int nlen;
+			// register: 22
+			register int otpos;
+		}
+	}
+}
+
+
+// address: 0x80091CA8
+// line start: 615
+// line end:   726
+void PrintCtrlString__FiiUcic_addr_80091CA8(int x, int y, unsigned char cjustflag, int str_num, int col) {
+	// address: 0xFFFFFFB8
+	// size: 0x10
+	auto struct KEY_ASSIGNS *ta;
+	// register: 2
 	register int i;
 	// address: 0xFFFFFFC0
 	auto unsigned char r;
 	// address: 0xFFFFFFC8
 	auto unsigned char g;
+	// register: 23
+	register unsigned char b;
 	// address: 0xFFFFFFD0
-	auto unsigned char b;
-	// register: 4
-	register int str;
-	// register: 18
+	auto int str;
+	// register: 5
 	register int len;
 	{
 		{
 			// register: 4
 			register int x1;
-			// register: 30
+			// register: 22
 			register int x2;
 		}
 	}
@@ -304,6 +397,33 @@ void PrintCtrlString__FiiUcic_addr_80092018(int x, int y, unsigned char cjustfla
 			register int x2;
 			// register: 5
 			register int nlen;
+		}
+	}
+}
+
+
+// address: 0x80090338
+// line start: 495
+// line end:   615
+void PrintCtrlString__FiiUcic_addr_80090338(int x, int y, unsigned char cjustflag, int str_num, int col) {
+	// register: 6
+	register int i;
+	// address: 0xFFFFFFC0
+	auto unsigned char r;
+	// address: 0xFFFFFFC8
+	auto unsigned char g;
+	// address: 0xFFFFFFD0
+	auto unsigned char b;
+	// register: 4
+	register int str;
+	// register: 18
+	register int len;
+	{
+		{
+			// register: 4
+			register int x1;
+			// register: 30
+			register int x2;
 		}
 	}
 }
@@ -351,6 +471,13 @@ void SetDemoKeys__FPi(int *buffer) {
 }
 
 
+// address: 0x8009C730
+// line start: 569
+// line end:   580
+int SwapJap__Fi(int p) {
+}
+
+
 // address: 0x80090D8C
 // line start: 761
 // line end:   761
@@ -394,10 +521,21 @@ bool checkvalid__Fv() {
 }
 
 
+// address: 0x8008F730
+// line start: 108
+// line end:   122
+char *get_action_str__Fii(int pval, int combo) {
+	{
+		// register: 6
+		register int i;
+	}
+}
+
+
 // address: 0x8008F090
 // line start: 164
 // line end:   181
-char *get_action_str__Fii(int pval, int combo) {
+char *get_action_str__Fii_addr_8008F090(int pval, int combo) {
 	// register: 4
 	// size: 0x10
 	register struct KEY_ASSIGNS *ac;
@@ -408,35 +546,24 @@ char *get_action_str__Fii(int pval, int combo) {
 }
 
 
-// address: 0x8008F730
-// line start: 108
-// line end:   122
-char *get_action_str__Fii_addr_8008F730(int pval, int combo) {
-	{
-		// register: 6
-		register int i;
-	}
+// address: 0x8008FA30
+// line start: 210
+// line end:   220
+int get_key_pad__Fi(int n) {
+	// register: 3
+	register int i;
+	// register: 5
+	// size: 0xC
+	register struct pad_assigns *pa;
 }
 
 
 // address: 0x8008F7B0
 // line start: 152
 // line end:   158
-int get_key_pad__Fi(int n) {
+int get_key_pad__Fi_addr_8008F7B0(int n) {
 	// register: 3
 	register int i;
-}
-
-
-// address: 0x8008FA30
-// line start: 210
-// line end:   220
-int get_key_pad__Fi_addr_8008FA30(int n) {
-	// register: 3
-	register int i;
-	// register: 5
-	// size: 0xC
-	register struct pad_assigns *pa;
 }
 
 
@@ -452,14 +579,14 @@ int get_key_pad__Fi_addr_8008F108(int n) {
 }
 
 
-// address: 0x8008F9BC
-// line start: 432
-// line end:   532
+// address: 0x80092C7C
+// line start: 436
+// line end:   586
 unsigned char main_ctrl_setup__Fv() {
-	// register: 16
+	// register: 17
 	// size: 0x6C
-	register struct CPad_dup_4 *Pad;
-	// register: 5
+	register struct CPad *Pad;
+	// register: 16
 	register int lv;
 }
 
@@ -476,13 +603,37 @@ unsigned char main_ctrl_setup__Fv_addr_800900A8() {
 }
 
 
-// address: 0x80092C7C
-// line start: 436
-// line end:   586
-unsigned char main_ctrl_setup__Fv_addr_80092C7C() {
-	// register: 17
+// address: 0x8008F9BC
+// line start: 432
+// line end:   532
+unsigned char main_ctrl_setup__Fv_addr_8008F9BC() {
+	// register: 16
 	// size: 0x6C
+	register struct CPad_dup_4 *Pad;
+	// register: 5
+	register int lv;
+}
+
+
+// address: 0x8009C7D8
+// line start: 587
+// line end:   786
+unsigned char main_ctrl_setup__Fv_addr_8009C7D8() {
+	// register: 17
+	// size: 0xEC
 	register struct CPad *Pad;
+	// register: 16
+	register int lv;
+}
+
+
+// address: 0x8009C8AC
+// line start: 587
+// line end:   786
+unsigned char main_ctrl_setup__Fv_addr_8009C8AC() {
+	// register: 17
+	// size: 0xEC
+	register struct CPad_dup_17 *Pad;
 	// register: 16
 	register int lv;
 }
@@ -524,6 +675,19 @@ int remove_comboval__Fi(int p) {
 }
 
 
+// address: 0x8009C61C
+// line start: 450
+// line end:   463
+int remove_comboval__Fib(int p, bool all) {
+	// register: 7
+	register int n;
+	{
+		// register: 6
+		register int i;
+	}
+}
+
+
 // address: 0x8008FE38
 // line start: 303
 // line end:   312
@@ -531,6 +695,24 @@ int remove_padval__Fi(int p) {
 	{
 		// register: 5
 		register int i;
+	}
+}
+
+
+// address: 0x8009C7DC
+// line start: 521
+// line end:   542
+void restore_controller_settings__F8CTRL_SET(enum CTRL_SET s) {
+	// register: 5
+	// size: 0x10
+	register struct KEY_ASSIGNS *ta;
+	{
+		{
+			{
+				{
+				}
+			}
+		}
 	}
 }
 

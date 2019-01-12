@@ -2,17 +2,10 @@
 
 #include "types.h"
 
-// address: 0x8013DB70
-// line start: 1687
-// line end:   1714
-void CreateL4Dungeon__FUii(unsigned int rseed, int entry) {
-}
-
-
 // address: 0x8013CA04
 // line start: 1694
 // line end:   1732
-void CreateL4Dungeon__FUii_addr_8013CA04(unsigned int rseed, int entry) {
+void CreateL4Dungeon__FUii(unsigned int rseed, int entry) {
 	{
 		// register: 4
 		register void *p__p;
@@ -32,21 +25,28 @@ void CreateL4Dungeon__FUii_addr_8013CA04(unsigned int rseed, int entry) {
 }
 
 
-// address: 0x8014F60C
-// line start: 197
-// line end:   199
-void DRLG_FreeL4SP__Fv() {
-	{
-		// register: 4
-		register void *p__p;
-	}
+// address: 0x8013DB70
+// line start: 1687
+// line end:   1714
+void CreateL4Dungeon__FUii_addr_8013DB70(unsigned int rseed, int entry) {
 }
 
 
 // address: 0x80138244
 // line start: 202
 // line end:   203
-void DRLG_FreeL4SP__Fv_addr_80138244() {
+void DRLG_FreeL4SP__Fv() {
+}
+
+
+// address: 0x8014F60C
+// line start: 197
+// line end:   199
+void DRLG_FreeL4SP__Fv_addr_8014F60C() {
+	{
+		// register: 4
+		register void *p__p;
+	}
 }
 
 
@@ -94,10 +94,35 @@ void DRLG_L4GeneralFix__Fv() {
 }
 
 
+// address: 0x8014A1CC
+// line start: 1620
+// line end:   1708
+void DRLG_L4Pass3__Fv() {
+	// register: 11
+	register int i;
+	// register: 14
+	register int j;
+	// register: 8
+	register int xx;
+	// register: 15
+	register int yy;
+	// register: 10
+	register long v1;
+	// register: 4
+	register long v2;
+	// register: 9
+	register long v3;
+	// register: 3
+	register long v4;
+	// register: 2
+	register long lv;
+}
+
+
 // address: 0x8013D9CC
 // line start: 1592
 // line end:   1680
-void DRLG_L4Pass3__Fv() {
+void DRLG_L4Pass3__Fv_addr_8013D9CC() {
 	// register: 11
 	register int i;
 	// register: 14
@@ -236,12 +261,10 @@ void DRLG_L4__Fi(int entry) {
 }
 
 
-// address: 0x801533AC
+// address: 0x8013AE5C
 // line start: 1076
-// line end:   1128
+// line end:   1107
 void DRLG_LoadDiabQuads__FUc(unsigned char preflag) {
-	// register: 4
-	register unsigned char *ptrSetPiece;
 }
 
 
@@ -262,10 +285,12 @@ void DRLG_LoadDiabQuads__FUc_addr_8013BFDC(unsigned char preflag) {
 }
 
 
-// address: 0x8013AE5C
+// address: 0x801533AC
 // line start: 1076
-// line end:   1107
-void DRLG_LoadDiabQuads__FUc_addr_8013AE5C(unsigned char preflag) {
+// line end:   1128
+void DRLG_LoadDiabQuads__FUc_addr_801533AC(unsigned char preflag) {
+	// register: 4
+	register unsigned char *ptrSetPiece;
 }
 
 
@@ -532,6 +557,162 @@ void uShape__Fv() {
 	register int i;
 	// register: 4
 	register int rv;
+}
+
+
+// address: 0x80154164
+// line start: 1343
+// line end:   1381
+void DRLG_L4FloodTVal__Fv_addr_80154164() {
+	// register: 16
+	register int i;
+	// register: 19
+	register int j;
+	// register: 20
+	register int xx;
+	// register: 21
+	register int yy;
+}
+
+
+// address: 0x8015526C
+// line start: 1696
+// line end:   1794
+void DRLG_L4Pass3__Fv_addr_8015526C() {
+	// register: 23
+	register int i;
+	// register: 30
+	register int j;
+	// register: 17
+	register int xx;
+	// register: 18
+	register int yy;
+	// register: 6
+	register long v1;
+	// register: 22
+	register long v2;
+	// register: 20
+	register long v3;
+	// register: 21
+	register long v4;
+	// register: 2
+	register long lv;
+}
+
+
+// address: 0x8015388C
+// line start: 1141
+// line end:   1289
+unsigned char DRLG_L4PlaceMiniSet__FPCUciiiiii_addr_8015388C(unsigned char *miniset, int tmin, int tmax, int cx, int cy, int setview, int ldir) {
+	// register: 17
+	register int sx;
+	// register: 16
+	register int sy;
+	// register: 18
+	register int sw;
+	// register: 20
+	register int sh;
+	// register: 5
+	register int xx;
+	// register: 7
+	register int yy;
+	// register: 30
+	register int i;
+	// register: 9
+	register int ii;
+	// address: 0xFFFFFFA0
+	auto int numt;
+	// register: 8
+	register int found;
+	// register: 19
+	register int bailcnt;
+}
+
+
+// address: 0x801548BC
+// line start: 1493
+// line end:   1524
+void DRLG_L4SetWalls__Fv() {
+	// register: 5
+	register int i;
+	// register: 6
+	register int j;
+	// register: 8
+	register int yy;
+	{
+		{
+			{
+				{
+					// register: 2
+					register int v;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x801543DC
+// line start: 1407
+// line end:   1448
+void DRLG_L4TransFix__Fv_addr_801543DC() {
+	// register: 7
+	register int j;
+	// address: 0xFFFFFFB8
+	auto int yy;
+}
+
+
+// address: 0x8014F774
+// line start: 166
+// line end:   179
+void InitL4Dungeon__Fv_addr_8014F774() {
+	{
+		// register: 5
+		register int j;
+		{
+			{
+				// register: 4
+				register int i;
+				{
+					// register: 7
+					register int j;
+					{
+						{
+							// register: 4
+							register int i;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x801534FC
+// line start: 1027
+// line end:   1039
+void L4SaveQuads__Fv_addr_801534FC() {
+	// register: 6
+	register int i;
+	// register: 9
+	register int j;
+	// register: 11
+	register int x;
+	// register: 12
+	register int y;
+}
+
+
+// address: 0x8014FBF0
+// line start: 291
+// line end:   311
+int L4VWallOk__Fii_addr_8014FBF0(int i, int j) {
+	// register: 10
+	register int y;
+	// register: 3
+	register unsigned char wallok;
 }
 
 

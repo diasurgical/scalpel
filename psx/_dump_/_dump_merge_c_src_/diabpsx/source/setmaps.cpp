@@ -64,3 +64,20 @@ int ObjIndex__Fii(int x, int y) {
 }
 
 
+// address: 0x80155934
+// line start: 198
+// line end:   263
+void LoadSetMap__Fv_addr_80155934() {
+	{
+		{
+			// register: 3
+			register bool isdone;
+			// register: 18
+			register int x;
+			// register: 17
+			register int y;
+		}
+	}
+}
+
+

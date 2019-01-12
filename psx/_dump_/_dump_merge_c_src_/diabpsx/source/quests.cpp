@@ -33,6 +33,37 @@ void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 }
 
 
+// address: 0x80067918
+// line start: 317
+// line end:   424
+void CheckQuestKill__FiUc_addr_80067918(int m, unsigned char sendmsg) {
+	{
+		{
+			{
+				{
+					{
+						{
+							{
+								{
+									{
+										{
+											// register: 16
+											register int i;
+											// register: 17
+											register int j;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x80062570
 // line start: 336
 // line end:   434
@@ -105,6 +136,101 @@ void CheckQuests__Fv_addr_80061628() {
 }
 
 
+// address: 0x80067144
+// line start: 185
+// line end:   269
+void CheckQuests__Fv_addr_80067144() {
+	// register: 20
+	register int i;
+	// address: 0xFFFFFFD8
+	auto int rportx;
+	// address: 0xFFFFFFDC
+	auto int rporty;
+	// register: 21
+	register int omp;
+	{
+		{
+			{
+				// register: 17
+				register int pl;
+				{
+					// register: 4
+					// size: 0x19E8
+					register struct PlayerStruct_dup_18 *player;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8006707C
+// line start: 185
+// line end:   269
+void CheckQuests__Fv_addr_8006707C() {
+	// register: 20
+	register int i;
+	// address: 0xFFFFFFD8
+	auto int rportx;
+	// address: 0xFFFFFFDC
+	auto int rporty;
+	// register: 21
+	register int omp;
+	{
+		{
+			{
+				// register: 17
+				register int pl;
+				{
+					// register: 4
+					// size: 0x19E8
+					register struct PlayerStruct *player;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80067208
+// line start: 185
+// line end:   269
+void CheckQuests__Fv_addr_80067208() {
+	// register: 20
+	register int i;
+	// address: 0xFFFFFFD8
+	auto int rportx;
+	// address: 0xFFFFFFDC
+	auto int rporty;
+	// register: 21
+	register int omp;
+	{
+		{
+			{
+				// register: 17
+				register int pl;
+				{
+					// register: 4
+					// size: 0x19E8
+					register struct PlayerStruct_dup_17 *player;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800671C8
+// line start: 166
+// line end:   173
+void CheckRPortalOK__FPiT0(int *rx, int *ry) {
+	// register: 6
+	register int nx;
+	// register: 3
+	register int ny;
+}
+
+
 // address: 0x800637B4
 // line start: 733
 // line end:   750
@@ -122,6 +248,21 @@ void DrawQuestLog__Fv() {
 	register int l;
 	// register: 2
 	register int q;
+}
+
+
+// address: 0x80068784
+// line start: 696
+// line end:   735
+void DrawQuestLog__Fv_addr_80068784() {
+	// register: 16
+	register int i;
+	// register: 17
+	register int l;
+	// register: 2
+	register int q;
+	// register: 18
+	register int totlines;
 }
 
 
@@ -204,6 +345,15 @@ void QuestlogEnter__Fv() {
 }
 
 
+// address: 0x80068D8C
+// line start: 909
+// line end:   928
+void QuestlogEnter__Fv_addr_80068D8C() {
+	// register: 16
+	register int q;
+}
+
+
 // address: 0x80063944
 // line start: 785
 // line end:   793
@@ -259,10 +409,17 @@ void StartQuestlog__Fv() {
 }
 
 
+// address: 0x800649D0
+// line start: 156
+// line end:   217
+void TSK_Lava2Water__FP4TASK(struct TASK *T) {
+}
+
+
 // address: 0x80061C30
 // line start: 157
 // line end:   217
-void TSK_Lava2Water__FP4TASK(struct TASK *T) {
+void TSK_Lava2Water__FP4TASK_addr_80061C30(struct TASK *T) {
 	// address: 0xFFFFFFB0
 	// size: 0x20
 	auto unsigned short LAVAPAL[16];
@@ -376,13 +533,6 @@ void TSK_Lava2Water__FP4TASK_addr_800613DC(struct TASK *T) {
 			}
 		}
 	}
-}
-
-
-// address: 0x800649D0
-// line start: 156
-// line end:   217
-void TSK_Lava2Water__FP4TASK_addr_800649D0(struct TASK *T) {
 }
 
 

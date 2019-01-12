@@ -25,10 +25,21 @@ short PlayFMV(struct StrInfo *str) {
 }
 
 
+// address: 0x8014BA48
+// line start: 521
+// line end:   550
+void CD_stream_handler(struct TASK *T) {
+	// register: 16
+	register int chunkcount;
+	{
+	}
+}
+
+
 // address: 0x80123ED0
 // line start: 496
 // line end:   517
-void CD_stream_handler(struct TASK *T) {
+void CD_stream_handler_addr_80123ED0(struct TASK *T) {
 }
 
 
@@ -36,17 +47,6 @@ void CD_stream_handler(struct TASK *T) {
 // line start: 517
 // line end:   538
 void CD_stream_handler_addr_80137730(struct TASK *T) {
-	{
-	}
-}
-
-
-// address: 0x8014BA48
-// line start: 521
-// line end:   550
-void CD_stream_handler_addr_8014BA48(struct TASK *T) {
-	// register: 16
-	register int chunkcount;
 	{
 	}
 }
@@ -121,10 +121,44 @@ void MY_CdGetSector(unsigned long *src, unsigned long *dst, int size) {
 }
 
 
+// address: 0x80126128
+// line start: 1682
+// line end:   1860
+short PlayFMVOverLay(char *filename, int w, int h) {
+	// address: 0xFFFFFFF0
+	// size: 0x8
+	auto struct RECT r;
+}
+
+
 // address: 0x8013016C
 // line start: 83
 // line end:   84
-short PlayFMVOverLay(char *filename, int w, int h) {
+short PlayFMVOverLay_addr_8013016C(char *filename, int w, int h) {
+}
+
+
+// address: 0x80149F00
+// line start: 1681
+// line end:   1859
+short PlayFMVOverLay_addr_80149F00(char *filename, int w, int h) {
+	// register: 20
+	register int start_time;
+	// register: 22
+	register int start_frame;
+	// register: 2
+	register int afrm;
+	// register: 4
+	register int efrm;
+	// register: 19
+	register int br;
+	// register: 21
+	register int fade;
+	// register: 23
+	register int user_quit;
+	// address: 0xFFFFFFD0
+	// size: 0x8
+	auto struct RECT r;
 }
 
 
@@ -175,30 +209,6 @@ short PlayFMVOverLay_addr_80135E98(struct StrInfo *str) {
 }
 
 
-// address: 0x80149F00
-// line start: 1681
-// line end:   1859
-short PlayFMVOverLay_addr_80149F00(char *filename, int w, int h) {
-	// register: 20
-	register int start_time;
-	// register: 22
-	register int start_frame;
-	// register: 2
-	register int afrm;
-	// register: 4
-	register int efrm;
-	// register: 19
-	register int br;
-	// register: 21
-	register int fade;
-	// register: 23
-	register int user_quit;
-	// address: 0xFFFFFFD0
-	// size: 0x8
-	auto struct RECT r;
-}
-
-
 // address: 0x8013A0AC
 // line start: 1696
 // line end:   1886
@@ -226,16 +236,6 @@ short PlayFMVOverLay_addr_8013A0AC(char *filename, int w, int h) {
 	// register: 18
 	// size: 0x6C
 	register struct CPad *P2;
-}
-
-
-// address: 0x80126128
-// line start: 1682
-// line end:   1860
-short PlayFMVOverLay_addr_80126128(char *filename, int w, int h) {
-	// address: 0xFFFFFFF0
-	// size: 0x8
-	auto struct RECT r;
 }
 
 
@@ -546,20 +546,10 @@ void init_mdec(unsigned char *vlc_buffer, unsigned char *vlc_table) {
 }
 
 
-// address: 0x8012566C
-// line start: 1249
-// line end:   1279
-void init_mdec_audio(int rate) {
-	// address: 0xFFFFFFD0
-	// size: 0x28
-	auto struct SpuCommonAttr comm_attr;
-}
-
-
 // address: 0x8014D0F8
 // line start: 1280
 // line end:   1318
-void init_mdec_audio_addr_8014D0F8(int rate) {
+void init_mdec_audio(int rate) {
 	// address: 0xFFFFFFD0
 	// size: 0x28
 	auto struct SpuCommonAttr comm_attr;
@@ -570,6 +560,16 @@ void init_mdec_audio_addr_8014D0F8(int rate) {
 }
 
 
+// address: 0x8012566C
+// line start: 1249
+// line end:   1279
+void init_mdec_audio_addr_8012566C(int rate) {
+	// address: 0xFFFFFFD0
+	// size: 0x28
+	auto struct SpuCommonAttr comm_attr;
+}
+
+
 // address: 0x80124874
 // line start: 953
 // line end:   956
@@ -577,28 +577,28 @@ void init_mdec_buffer(char *buf, int size) {
 }
 
 
+// address: 0x80138964
+// line start: 1180
+// line end:   1223
+void init_mdec_polys(int x, int y, int w, int h, int bx1, int by1, int bx2, int by2, int correct) {
+	// address: 0xFFFFFFB0
+	// size: 0x8
+	auto struct RECT r;
+	// register: 9
+	register int i;
+}
+
+
 // address: 0x80125164
 // line start: 1158
 // line end:   1212
-void init_mdec_polys(int x, int y, int w, int h, int bx1, int by1, int bx2, int by2, int correct) {
+void init_mdec_polys_addr_80125164(int x, int y, int w, int h, int bx1, int by1, int bx2, int by2, int correct) {
 	// address: 0xFFFFFF50
 	// size: 0x8
 	auto struct RECT r;
 	// address: 0xFFFFFF58
 	// size: 0x5C
 	auto struct DRAWENV de;
-	// register: 9
-	register int i;
-}
-
-
-// address: 0x80138964
-// line start: 1180
-// line end:   1223
-void init_mdec_polys_addr_80138964(int x, int y, int w, int h, int bx1, int by1, int bx2, int by2, int correct) {
-	// address: 0xFFFFFFB0
-	// size: 0x8
-	auto struct RECT r;
 	// register: 9
 	register int i;
 }
@@ -655,10 +655,30 @@ int open_cdstream(char *fname, int secoffs, int seclen) {
 }
 
 
+// address: 0x80125778
+// line start: 1300
+// line end:   1410
+void play_mdec_audio(unsigned char *data, struct asec *h) {
+	// register: 16
+	register int i;
+	// register: 7
+	register int b;
+	// register: 19
+	register int offs;
+	// address: 0xFFFFFF90
+	// size: 0x40
+	auto struct SpuVoiceAttr voice_attr;
+	// register: 5
+	register unsigned char *dp;
+	// register: 20
+	register int hsize;
+}
+
+
 // address: 0x8014D250
 // line start: 1338
 // line end:   1448
-void play_mdec_audio(unsigned char *data, struct asec *h) {
+void play_mdec_audio_addr_8014D250(unsigned char *data, struct asec *h) {
 	// register: 16
 	register int i;
 	// register: 6
@@ -675,20 +695,20 @@ void play_mdec_audio(unsigned char *data, struct asec *h) {
 }
 
 
-// address: 0x80125778
-// line start: 1300
-// line end:   1410
-void play_mdec_audio_addr_80125778(unsigned char *data, struct asec *h) {
+// address: 0x8014D004
+// line start: 1333
+// line end:   1438
+void play_mdec_audio_addr_8014D004(unsigned char *data, struct asec *h) {
 	// register: 16
 	register int i;
-	// register: 7
+	// register: 6
 	register int b;
 	// register: 19
 	register int offs;
 	// address: 0xFFFFFF90
 	// size: 0x40
 	auto struct SpuVoiceAttr voice_attr;
-	// register: 5
+	// register: 4
 	register unsigned char *dp;
 	// register: 20
 	register int hsize;
@@ -766,37 +786,10 @@ void set_mdec_poly_bright(int br) {
 }
 
 
-// address: 0x80124890
-// line start: 970
-// line end:   1038
-int split_poly_area(struct POLY_FT4 *p, struct POLY_FT4 *bp, int offs, struct RECT *r, int sx, int sy, int correct) {
-	// register: 30
-	register int xx;
-	// register: 20
-	register int x;
-	// register: 23
-	register int y;
-	// register: 22
-	register int xs;
-	// register: 15
-	register int ys;
-	// register: 19
-	register int w;
-	// register: 21
-	register int h;
-	// address: 0xFFFFFF98
-	auto int n;
-	// register: 9
-	register int ox;
-	// register: 13
-	register int oy;
-}
-
-
 // address: 0x80138028
 // line start: 998
 // line end:   1067
-int split_poly_area_addr_80138028(struct POLY_FT4 *p, struct POLY_FT4 *bp, int offs, struct RECT *r, int sx, int sy, int correct) {
+int split_poly_area(struct POLY_FT4 *p, struct POLY_FT4 *bp, int offs, struct RECT *r, int sx, int sy, int correct) {
 	// register: 30
 	register int xx;
 	// register: 20
@@ -817,6 +810,33 @@ int split_poly_area_addr_80138028(struct POLY_FT4 *p, struct POLY_FT4 *bp, int o
 	auto int ox;
 	// address: 0xFFFFFFC0
 	auto int oy;
+}
+
+
+// address: 0x80124890
+// line start: 970
+// line end:   1038
+int split_poly_area_addr_80124890(struct POLY_FT4 *p, struct POLY_FT4 *bp, int offs, struct RECT *r, int sx, int sy, int correct) {
+	// register: 30
+	register int xx;
+	// register: 20
+	register int x;
+	// register: 23
+	register int y;
+	// register: 22
+	register int xs;
+	// register: 15
+	register int ys;
+	// register: 19
+	register int w;
+	// register: 21
+	register int h;
+	// address: 0xFFFFFF98
+	auto int n;
+	// register: 9
+	register int ox;
+	// register: 13
+	register int oy;
 }
 
 
@@ -843,10 +863,17 @@ void stop_mdec_stream() {
 }
 
 
+// address: 0x80145498
+// line start: 396
+// line end:   505
+void stream_cdready_handler(unsigned char status, unsigned char *result, int idx, int i, int sec, struct CdlLOC subcode[3]) {
+}
+
+
 // address: 0x80123CF0
 // line start: 369
 // line end:   492
-void stream_cdready_handler(unsigned long *addr, int idx, int i, int sec) {
+void stream_cdready_handler_addr_80123CF0(unsigned long *addr, int idx, int i, int sec) {
 	{
 		{
 			// register: 2
@@ -856,12 +883,221 @@ void stream_cdready_handler(unsigned long *addr, int idx, int i, int sec) {
 }
 
 
+// address: 0x8014BCE0
+// line start: 705
+// line end:   720
+void wait_cdstream() {
+}
+
+
 // address: 0x80124398
 // line start: 729
 // line end:   740
-void wait_cdstream() {
+void wait_cdstream_addr_80124398() {
 	// address: 0xFFFFFFF0
 	auto int start_wait;
+}
+
+
+// address: 0x80156B08
+// line start: 860
+// line end:   873
+void DCT_out_handler_addr_80156B08() {
+	// register: 17
+	register unsigned long OldGp;
+}
+
+
+// address: 0x80158640
+// line start: 1737
+// line end:   1992
+void LoPlayFMVOverLay() {
+	// register: 23
+	register int start;
+	// register: 30
+	register int end;
+	// register: 20
+	register int start_time;
+	// register: 19
+	register int br;
+	// register: 21
+	register int fade;
+	// register: 2
+	register int user_quit;
+	// address: 0xFFFFFFD0
+	// size: 0x8
+	auto struct RECT r;
+	// register: 17
+	// size: 0xEC
+	register struct CPad_dup_17 *P1;
+	// register: 18
+	// size: 0xEC
+	register struct CPad_dup_17 *P2;
+	// register: 17
+	register char *filename;
+	// register: 18
+	register int w;
+	// register: 22
+	register int h;
+	// register: 3
+	register long vm;
+	{
+		// register: 16
+		register int i;
+	}
+}
+
+
+// address: 0x80158538
+// line start: 1737
+// line end:   1992
+void LoPlayFMVOverLay_addr_80158538() {
+	// register: 23
+	register int start;
+	// register: 30
+	register int end;
+	// register: 20
+	register int start_time;
+	// register: 19
+	register int br;
+	// register: 21
+	register int fade;
+	// register: 2
+	register int user_quit;
+	// address: 0xFFFFFFD0
+	// size: 0x8
+	auto struct RECT r;
+	// register: 17
+	// size: 0xEC
+	register struct CPad *P1;
+	// register: 18
+	// size: 0xEC
+	register struct CPad *P2;
+	// register: 17
+	register char *filename;
+	// register: 18
+	register int w;
+	// register: 22
+	register int h;
+	// register: 3
+	register long vm;
+	{
+		// register: 16
+		register int i;
+	}
+}
+
+
+// address: 0x80156074
+// line start: 295
+// line end:   301
+void _cd_seek(int sec) {
+	// address: 0xFFFFFFE0
+	// size: 0x18
+	auto struct CdlFILE RetFile;
+}
+
+
+// address: 0x80156508
+// line start: 581
+// line end:   605
+int cdstream_get_chunk_addr_80156508(unsigned char **data, struct strheader **h) {
+}
+
+
+// address: 0x80156418
+// line start: 525
+// line end:   563
+void cdstream_service_addr_80156418() {
+	// register: 16
+	register int timeout_occured;
+}
+
+
+// address: 0x80157214
+// line start: 1044
+// line end:   1081
+void draw_mdec_polys_addr_80157214(int bright) {
+	// register: 10
+	register int i;
+	// register: 17
+	register unsigned char cdbuf;
+}
+
+
+// address: 0x801579F4
+// line start: 1191
+// line end:   1244
+void init_mdec_audio_addr_801579F4(int rate) {
+	// address: 0xFFFFFFC8
+	// size: 0x28
+	auto struct SpuCommonAttr comm_attr;
+	{
+		// register: 16
+		register int f;
+	}
+}
+
+
+// address: 0x80156850
+// line start: 718
+// line end:   772
+int open_cdstream_addr_80156850(char *fname, int secoffs, int seclen) {
+	// register: 16
+	register int len;
+	// address: 0xFFFFFFD8
+	// size: 0x18
+	auto struct CdlFILE RetFile;
+}
+
+
+// address: 0x80157A58
+// line start: 1298
+// line end:   1411
+void play_mdec_audio_addr_80157A58(unsigned char *data, struct asec *h) {
+	// register: 16
+	register int i;
+	// register: 6
+	register int b;
+	// register: 19
+	register int offs;
+	// address: 0xFFFFFF98
+	// size: 0x40
+	auto struct SpuVoiceAttr voice_attr;
+	// register: 4
+	register unsigned char *dp;
+}
+
+
+// address: 0x80157B60
+// line start: 1298
+// line end:   1411
+void play_mdec_audio_addr_80157B60(unsigned char *data, struct asec_dup_17 *h) {
+	// register: 16
+	register int i;
+	// register: 6
+	register int b;
+	// register: 19
+	register int offs;
+	// address: 0xFFFFFF98
+	// size: 0x40
+	auto struct SpuVoiceAttr voice_attr;
+	// register: 4
+	register unsigned char *dp;
+}
+
+
+// address: 0x801569AC
+// line start: 816
+// line end:   852
+void start_mdec_decode_addr_801569AC(unsigned char *data, int x, int y, int w, int h) {
+}
+
+
+// address: 0x80156188
+// line start: 384
+// line end:   506
+void stream_cdready_handler_addr_80156188(unsigned char status, unsigned char *result, int idx, int i, int sec, struct CdlLOC subcode[3], unsigned long OldGp) {
 }
 
 

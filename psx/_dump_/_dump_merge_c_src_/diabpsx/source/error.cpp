@@ -13,10 +13,20 @@ void ClrDiabloMsg__Fv() {
 }
 
 
+// address: 0x8003DC98
+// line start: 185
+// line end:   282
+void DrawDiabloMsg__Fv() {
+	// address: 0xFFFFFFE8
+	// size: 0x8
+	auto struct RECT MsgBox;
+}
+
+
 // address: 0x8003BA08
 // line start: 183
 // line end:   266
-void DrawDiabloMsg__Fv() {
+void DrawDiabloMsg__Fv_addr_8003BA08() {
 	// address: 0xFFFFFEE8
 	// size: 0x100
 	auto char tempstr[256];

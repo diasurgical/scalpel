@@ -50,10 +50,24 @@ void PRIM_Clip__FP4RECTi(struct RECT *R, int Depth) {
 }
 
 
+// address: 0x800838A4
+// line start: 279
+// line end:   349
+void PRIM_Flush__Fv() {
+	// register: 17
+	// size: 0x1C
+	register struct PRIM_BUFFER *Pb;
+	{
+		{
+		}
+	}
+}
+
+
 // address: 0x8007AC18
 // line start: 267
 // line end:   330
-void PRIM_Flush__Fv() {
+void PRIM_Flush__Fv_addr_8007AC18() {
 	// register: 16
 	// size: 0x1C
 	register struct PRIM_BUFFER *Pb;

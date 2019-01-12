@@ -218,6 +218,13 @@ int DoFrontEndLoadCharacter__FPc(char *loadfilenameptr) {
 }
 
 
+// address: 0x801481D0
+// line start: 228
+// line end:   232
+void DoLoadGame__Fv() {
+}
+
+
 // address: 0x8015911C
 // line start: 241
 // line end:   259
@@ -230,13 +237,6 @@ void DoLoadGame__Fv() {
 			}
 		}
 	}
-}
-
-
-// address: 0x801481D0
-// line start: 228
-// line end:   232
-void DoLoadGame__Fv() {
 }
 
 
@@ -273,16 +273,6 @@ int DoSaveOptions__Fv() {
 }
 
 
-// address: 0x8013C018
-// line start: 1161
-// line end:   1190
-void DrawBackTSK__FP4TASK(struct TASK *T) {
-	// address: 0xFFFFFF80
-	// size: 0x78
-	auto struct CScreen_dup_14 BackScreen;
-}
-
-
 // address: 0x8013AB4C
 // line start: 1212
 // line end:   1239
@@ -290,6 +280,16 @@ void DrawBackTSK__FP4TASK(struct TASK *T) {
 	// address: 0xFFFFFF80
 	// size: 0x78
 	auto struct CScreen BackScreen;
+}
+
+
+// address: 0x8013C018
+// line start: 1161
+// line end:   1190
+void DrawBackTSK__FP4TASK(struct TASK *T) {
+	// address: 0xFFFFFF80
+	// size: 0x78
+	auto struct CScreen_dup_14 BackScreen;
 }
 
 
@@ -356,17 +356,17 @@ void FeAddEntry__Fii8TXT_JUSTUsP7FeTableP5CFont(int X, int Y, enum TXT_JUST Just
 }
 
 
-// address: 0x80124F5C
-// line start: 167
-// line end:   174
-void FeAddEntry__Fii8TXT_JUSTUsP7FeTableP5CFont(int X, int Y, enum TXT_JUST Just, unsigned short Str, struct FeTable *MenuPtr, struct CFont *Font) {
-}
-
-
 // address: 0x80137A14
 // line start: 168
 // line end:   175
 void FeAddEntry__Fii8TXT_JUSTUsP7FeTableP5CFont(int X, int Y, enum TXT_JUST Just, unsigned short Str, struct FeTable *MenuPtr, struct CFont_dup_10 *Font) {
+}
+
+
+// address: 0x80124F5C
+// line start: 167
+// line end:   174
+void FeAddEntry__Fii8TXT_JUSTUsP7FeTableP5CFont(int X, int Y, enum TXT_JUST Just, unsigned short Str, struct FeTable *MenuPtr, struct CFont *Font) {
 }
 
 
@@ -394,10 +394,10 @@ void FeAddNameTable__FPUci(unsigned char *Table, int Count) {
 }
 
 
-// address: 0x80137D98
+// address: 0x80137A88
 // line start: 179
 // line end:   184
-void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_11 *Table, int Count) {
+void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_10 *Table, int Count) {
 	{
 		// register: 17
 		register int Loop;
@@ -416,10 +416,10 @@ void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_14 *Table, int Count) {
 }
 
 
-// address: 0x80124FD0
-// line start: 178
-// line end:   183
-void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_7 *Table, int Count) {
+// address: 0x80137D98
+// line start: 179
+// line end:   184
+void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_11 *Table, int Count) {
 	{
 		// register: 17
 		register int Loop;
@@ -438,10 +438,10 @@ void FeAddTable__FP11FeMenuTablei(struct FeMenuTable *Table, int Count) {
 }
 
 
-// address: 0x80137A88
-// line start: 179
-// line end:   184
-void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_10 *Table, int Count) {
+// address: 0x80124FD0
+// line start: 178
+// line end:   183
+void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_7 *Table, int Count) {
 	{
 		// register: 17
 		register int Loop;
@@ -453,6 +453,17 @@ void FeAddTable__FP11FeMenuTablei(struct FeMenuTable_dup_10 *Table, int Count) {
 // line start: 909
 // line end:   942
 void FeBackBookMenuCtrl__Fv() {
+}
+
+
+// address: 0x80124390
+// line start: 731
+// line end:   738
+void FeCopyPlayerInfoForReturn__Fv() {
+	{
+		// register: 16
+		register int Loop;
+	}
 }
 
 
@@ -473,17 +484,6 @@ void FeCopyPlayerInfoForReturn__Fv() {
 }
 
 
-// address: 0x80124390
-// line start: 731
-// line end:   738
-void FeCopyPlayerInfoForReturn__Fv() {
-	{
-		// register: 16
-		register int Loop;
-	}
-}
-
-
 // address: 0x801245C0
 // line start: 826
 // line end:   841
@@ -491,19 +491,16 @@ void FeDifficultyMenuCtrl__Fv() {
 }
 
 
-// address: 0x80125834
-// line start: 188
-// line end:   259
+// address: 0x80122CF4
+// line start: 195
+// line end:   251
 void FeDrawBuffer__Fv() {
-	// address: 0xFFFFFFA8
+	// address: 0xFFFFFFB0
 	// size: 0x10
 	auto struct Dialog FeBack;
-	// address: 0xFFFFFFB8
-	// size: 0x8
-	auto struct RECT FeRect;
 	// address: 0xFFFFFFC0
 	// size: 0x8
-	auto struct RECT ARect;
+	auto struct RECT FeRect;
 	// register: 16
 	register int X;
 	// register: 17
@@ -522,18 +519,8 @@ void FeDrawBuffer__Fv() {
 		{
 			{
 				{
-					{
-						{
-							{
-								// register: 21
-								register int Loop;
-								{
-									{
-									}
-								}
-							}
-						}
-					}
+					// register: 21
+					register int Loop;
 				}
 			}
 		}
@@ -587,87 +574,6 @@ void FeDrawBuffer__Fv() {
 }
 
 
-// address: 0x80122CF4
-// line start: 195
-// line end:   251
-void FeDrawBuffer__Fv() {
-	// address: 0xFFFFFFB0
-	// size: 0x10
-	auto struct Dialog FeBack;
-	// address: 0xFFFFFFC0
-	// size: 0x8
-	auto struct RECT FeRect;
-	// register: 16
-	register int X;
-	// register: 17
-	register int Y;
-	// register: 18
-	// size: 0x4
-	register enum TXT_JUST Just;
-	// register: 18
-	register int SelX;
-	// register: 20
-	register int SelY;
-	// address: 0xFFFFFFC8
-	// size: 0x2
-	auto char Text[2];
-	{
-		{
-			{
-				{
-					// register: 21
-					register int Loop;
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x8012504C
-// line start: 188
-// line end:   257
-void FeDrawBuffer__Fv() {
-	// address: 0xFFFFFFA8
-	// size: 0x10
-	auto struct Dialog FeBack;
-	// address: 0xFFFFFFB8
-	// size: 0x8
-	auto struct RECT FeRect;
-	// address: 0xFFFFFFC0
-	// size: 0x8
-	auto struct RECT ARect;
-	// register: 16
-	register int X;
-	// register: 17
-	register int Y;
-	// register: 18
-	// size: 0x4
-	register enum TXT_JUST Just;
-	// register: 18
-	register int SelX;
-	// register: 20
-	register int SelY;
-	// address: 0xFFFFFFC8
-	// size: 0x2
-	auto char Text[2];
-	{
-		{
-			{
-				{
-					// register: 21
-					register int Loop;
-					{
-						{
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x80137B04
 // line start: 189
 // line end:   265
@@ -702,6 +608,93 @@ void FeDrawBuffer__Fv() {
 							{
 								// register: 20
 								register int Loop;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80141A64
+// line start: 289
+// line end:   346
+void FeDrawBuffer__Fv() {
+	// address: 0xFFFFFFB0
+	// size: 0x10
+	auto struct Dialog FeBack;
+	// address: 0xFFFFFFC0
+	// size: 0x8
+	auto struct RECT FeRect;
+	// register: 5
+	register int X;
+	// register: 6
+	register int Y;
+	// register: 3
+	// size: 0x4
+	register enum TXT_JUST Just;
+	// register: 17
+	register int SelX;
+	// register: 20
+	register int SelY;
+	// address: 0xFFFFFFC8
+	// size: 0x2
+	auto char Text[2];
+	{
+		{
+			{
+				{
+					// register: 21
+					register int Loop;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80125834
+// line start: 188
+// line end:   259
+void FeDrawBuffer__Fv() {
+	// address: 0xFFFFFFA8
+	// size: 0x10
+	auto struct Dialog FeBack;
+	// address: 0xFFFFFFB8
+	// size: 0x8
+	auto struct RECT FeRect;
+	// address: 0xFFFFFFC0
+	// size: 0x8
+	auto struct RECT ARect;
+	// register: 16
+	register int X;
+	// register: 17
+	register int Y;
+	// register: 18
+	// size: 0x4
+	register enum TXT_JUST Just;
+	// register: 18
+	register int SelX;
+	// register: 20
+	register int SelY;
+	// address: 0xFFFFFFC8
+	// size: 0x2
+	auto char Text[2];
+	{
+		{
+			{
+				{
+					{
+						{
+							{
+								// register: 21
+								register int Loop;
+								{
+									{
+									}
+								}
 							}
 						}
 					}
@@ -753,24 +746,27 @@ void FeDrawBuffer__Fv() {
 }
 
 
-// address: 0x80141A64
-// line start: 289
-// line end:   346
+// address: 0x8012504C
+// line start: 188
+// line end:   257
 void FeDrawBuffer__Fv() {
-	// address: 0xFFFFFFB0
+	// address: 0xFFFFFFA8
 	// size: 0x10
 	auto struct Dialog FeBack;
-	// address: 0xFFFFFFC0
+	// address: 0xFFFFFFB8
 	// size: 0x8
 	auto struct RECT FeRect;
-	// register: 5
+	// address: 0xFFFFFFC0
+	// size: 0x8
+	auto struct RECT ARect;
+	// register: 16
 	register int X;
-	// register: 6
+	// register: 17
 	register int Y;
-	// register: 3
+	// register: 18
 	// size: 0x4
 	register enum TXT_JUST Just;
-	// register: 17
+	// register: 18
 	register int SelX;
 	// register: 20
 	register int SelY;
@@ -783,6 +779,10 @@ void FeDrawBuffer__Fv() {
 				{
 					// register: 21
 					register int Loop;
+					{
+						{
+						}
+					}
 				}
 			}
 		}
@@ -932,13 +932,6 @@ void FeInitPlayer2ClassMenu__Fv() {
 }
 
 
-// address: 0x8013A900
-// line start: 386
-// line end:   437
-void FeMainKeyCtrl__FP7CScreen(struct CScreen_dup_14 *FeScreen) {
-}
-
-
 // address: 0x8014211C
 // line start: 435
 // line end:   489
@@ -953,6 +946,20 @@ void FeMainKeyCtrl__FP7CScreen(struct CScreen *FeScreen) {
 }
 
 
+// address: 0x8013A900
+// line start: 386
+// line end:   437
+void FeMainKeyCtrl__FP7CScreen(struct CScreen_dup_14 *FeScreen) {
+}
+
+
+// address: 0x801237F0
+// line start: 467
+// line end:   489
+void FeNewGameMenuCtrl__Fv() {
+}
+
+
 // address: 0x801397DC
 // line start: 500
 // line end:   533
@@ -961,13 +968,6 @@ void FeNewGameMenuCtrl__Fv() {
 		{
 		}
 	}
-}
-
-
-// address: 0x801237F0
-// line start: 467
-// line end:   489
-void FeNewGameMenuCtrl__Fv() {
 }
 
 
@@ -995,6 +995,32 @@ void FeNewMenu__FP7FeTable(struct FeTable *Menu) {
 }
 
 
+// address: 0x80123F08
+// line start: 645
+// line end:   722
+void FeNewNameMenuCtrl__Fv() {
+	{
+		{
+			{
+				{
+					{
+						{
+							{
+								{
+									// address: 0xFFFFFFD8
+									// size: 0x2
+									auto char asd[2];
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x80126378
 // line start: 789
 // line end:   895
@@ -1014,32 +1040,6 @@ void FeNewNameMenuCtrl__Fv() {
 											auto char asd[2];
 										}
 									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x80123F08
-// line start: 645
-// line end:   722
-void FeNewNameMenuCtrl__Fv() {
-	{
-		{
-			{
-				{
-					{
-						{
-							{
-								{
-									// address: 0xFFFFFFD8
-									// size: 0x2
-									auto char asd[2];
 								}
 							}
 						}
@@ -1092,38 +1092,6 @@ void FeSelect__Fv() {
 }
 
 
-// address: 0x801442F8
-// line start: 1085
-// line end:   1222
-void FrontEndTask__FP4TASK(struct TASK *T) {
-	// register: 16
-	register int AttractNo;
-	// address: 0xFFFFFF80
-	// size: 0x74
-	auto struct CScreen_dup_1 FeScreen;
-	{
-		{
-			{
-				{
-					{
-						{
-							{
-								{
-									{
-										{
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x80139C04
 // line start: 1188
 // line end:   1322
@@ -1158,15 +1126,35 @@ void FrontEndTask__FP4TASK(struct TASK *T) {
 }
 
 
-// address: 0x8013AC3C
-// line start: 1248
-// line end:   1384
+// address: 0x801442F8
+// line start: 1085
+// line end:   1222
 void FrontEndTask__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int AttractNo;
-	// register: 17
-	// size: 0x5C
-	register struct TASK *T2;
+	// address: 0xFFFFFF80
+	// size: 0x74
+	auto struct CScreen_dup_1 FeScreen;
+	{
+		{
+			{
+				{
+					{
+						{
+							{
+								{
+									{
+										{
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 
@@ -1201,6 +1189,18 @@ void FrontEndTask__FP4TASK(struct TASK *T) {
 			}
 		}
 	}
+}
+
+
+// address: 0x8013AC3C
+// line start: 1248
+// line end:   1384
+void FrontEndTask__FP4TASK(struct TASK *T) {
+	// register: 16
+	register int AttractNo;
+	// register: 17
+	// size: 0x5C
+	register struct TASK *T2;
 }
 
 
@@ -1243,13 +1243,6 @@ int GetCharHeight__5CFontUc(struct CFont *this, unsigned char ch) {
 }
 
 
-// address: 0x8013E2AC
-// line start: 82
-// line end:   82
-int GetCharHeight__5CFontc(struct CFont_dup_14 *this, char ch) {
-}
-
-
 // address: 0x80146224
 // line start: 79
 // line end:   79
@@ -1271,6 +1264,13 @@ int GetCharHeight__5CFontc(struct CFont_dup_10 *this, char ch) {
 }
 
 
+// address: 0x8013E2AC
+// line start: 82
+// line end:   82
+int GetCharHeight__5CFontc(struct CFont_dup_14 *this, char ch) {
+}
+
+
 // address: 0x80139934
 // line start: 71
 // line end:   78
@@ -1278,17 +1278,17 @@ int GetCharWidth__5CFontUc(struct CFont *this, unsigned char ch) {
 }
 
 
-// address: 0x8013E2EC
-// line start: 71
-// line end:   78
-int GetCharWidth__5CFontc(struct CFont_dup_14 *this, char ch) {
-}
-
-
 // address: 0x8014625C
 // line start: 71
 // line end:   75
 int GetCharWidth__5CFontc(struct CFont_dup_1 *this, char ch) {
+}
+
+
+// address: 0x8013E2EC
+// line start: 71
+// line end:   78
+int GetCharWidth__5CFontc(struct CFont_dup_14 *this, char ch) {
 }
 
 
@@ -1315,11 +1315,11 @@ int GetFileNumber__FiPc(int side, char *file_name) {
 }
 
 
-// address: 0x801462D4
+// address: 0x8012694C
 // size: 0xC
-// line start: 223
-// line end:   223
-struct FRAME_HDR *GetFr__7TextDati(struct TextDat_dup_1 *this, int FrNum) {
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati(struct TextDat *this, int FrNum) {
 }
 
 
@@ -1331,11 +1331,11 @@ struct FRAME_HDR_dup_14 *GetFr__7TextDati(struct TextDat_dup_14 *this, int FrNum
 }
 
 
-// address: 0x8012694C
+// address: 0x801462D4
 // size: 0xC
-// line start: 221
-// line end:   221
-struct FRAME_HDR *GetFr__7TextDati(struct TextDat *this, int FrNum) {
+// line start: 223
+// line end:   223
+struct FRAME_HDR *GetFr__7TextDati(struct TextDat_dup_1 *this, int FrNum) {
 }
 
 
@@ -1443,25 +1443,6 @@ void McInitLoadGameMenu__Fv() {
 }
 
 
-// address: 0x801225C8
-// line start: 1154
-// line end:   1276
-void McMainCharKeyCtrl__Fv() {
-	// register: 19
-	register int j;
-	// register: 22
-	register int Spacing;
-	// register: 3
-	register int fileno;
-	// register: 18
-	register int sr;
-	// register: 17
-	register int sg;
-	// register: 16
-	register int sb;
-}
-
-
 // address: 0x80139CC4
 // line start: 1331
 // line end:   1464
@@ -1504,13 +1485,22 @@ void McMainCharKeyCtrl__Fv() {
 }
 
 
-// address: 0x8015DD94
-// line start: 386
-// line end:   429
-void McMainKeyCtrl__Fv() {
-	// address: 0xFFFFFFE0
-	// size: 0x8
-	auto struct RECT um;
+// address: 0x801225C8
+// line start: 1154
+// line end:   1276
+void McMainCharKeyCtrl__Fv() {
+	// register: 19
+	register int j;
+	// register: 22
+	register int Spacing;
+	// register: 3
+	register int fileno;
+	// register: 18
+	register int sr;
+	// register: 17
+	register int sg;
+	// register: 16
+	register int sb;
 }
 
 
@@ -1535,21 +1525,20 @@ void McMainKeyCtrl__Fv() {
 }
 
 
+// address: 0x8015DD94
+// line start: 386
+// line end:   429
+void McMainKeyCtrl__Fv() {
+	// address: 0xFFFFFFE0
+	// size: 0x8
+	auto struct RECT um;
+}
+
+
 // address: 0x80126820
 // line start: 65
 // line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4(struct POLY_FT4 **Prim) {
-}
-
-
-// address: 0x80149064
-// line start: 1003
-// line end:   1019
-int PSX_CH_LoadGame__Fii(int card_number, int file) {
-	// register: 17
-	register int result;
-	// register: 16
-	register unsigned char *LoadBuff;
 }
 
 
@@ -1560,6 +1549,17 @@ int PSX_CH_LoadGame__Fii(int card_number, int file) {
 	// register: 16
 	register int result;
 	// register: 7
+	register unsigned char *LoadBuff;
+}
+
+
+// address: 0x80149064
+// line start: 1003
+// line end:   1019
+int PSX_CH_LoadGame__Fii(int card_number, int file) {
+	// register: 17
+	register int result;
+	// register: 16
 	register unsigned char *LoadBuff;
 }
 
@@ -1583,21 +1583,6 @@ int PSX_CH_SaveGame__FiPcT1(int card_number, char *name, char *title) {
 	register int result;
 	// register: 16
 	register unsigned char *SaveBuff;
-}
-
-
-// address: 0x8015EA74
-// line start: 945
-// line end:   1044
-int PSX_GM_LoadGame__FUcii(unsigned char firstflag, int card_number, int file) {
-	// register: 17
-	register int i;
-	// register: 18
-	register int result;
-	// register: 19
-	register int DataSize;
-	// register: 20
-	register unsigned char *LoadBuff;
 }
 
 
@@ -1640,16 +1625,42 @@ int PSX_GM_LoadGame__FUcii(unsigned char firstflag, int card_number, int file) {
 }
 
 
-// address: 0x8014441C
-// line start: 844
-// line end:   923
-int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
-	// register: 17
-	register int i;
-	// register: 16
+// address: 0x80154188
+// line start: 982
+// line end:   1028
+int PSX_GM_LoadGame__FUcii(unsigned char firstflag, int card_number, int file) {
+	// register: 2
 	register int result;
 	// register: 18
+	register unsigned char *LoadBuff;
+}
+
+
+// address: 0x8015EA74
+// line start: 945
+// line end:   1044
+int PSX_GM_LoadGame__FUcii(unsigned char firstflag, int card_number, int file) {
+	// register: 17
+	register int i;
+	// register: 18
+	register int result;
+	// register: 19
+	register int DataSize;
+	// register: 20
+	register unsigned char *LoadBuff;
+}
+
+
+// address: 0x80153BAC
+// line start: 846
+// line end:   978
+int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
+	// register: 16
+	register int i;
+	// register: 18
 	register unsigned char *SaveBuff;
+	// register: 17
+	register int SaveSize;
 }
 
 
@@ -1665,6 +1676,34 @@ int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
 	register unsigned char *SaveBuff;
 	// register: 17
 	register int SaveSize;
+}
+
+
+// address: 0x8014D928
+// line start: 850
+// line end:   947
+int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
+	// register: 17
+	register int i;
+	// register: 16
+	register int result;
+	// register: 19
+	register unsigned char *SaveBuff;
+	// register: 16
+	register int SaveSize;
+}
+
+
+// address: 0x8014441C
+// line start: 844
+// line end:   923
+int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
+	// register: 17
+	register int i;
+	// register: 16
+	register int result;
+	// register: 18
+	register unsigned char *SaveBuff;
 }
 
 
@@ -1830,6 +1869,32 @@ int PrintCredits__FPciiiii(char *Str, int Y, int CharFade, int RFlag, int GFlag,
 }
 
 
+// address: 0x801548DC
+// line start: 1227
+// line end:   1318
+int RestoreLoadedData__Fv() {
+	// register: 2
+	register unsigned char *LoadBuff;
+	// register: 18
+	register int DataSize;
+	// register: 16
+	register int i;
+}
+
+
+// address: 0x8014E428
+// line start: 1192
+// line end:   1267
+int RestoreLoadedData__Fv() {
+	// register: 2
+	register unsigned char *LoadBuff;
+	// register: 18
+	register int DataSize;
+	// register: 17
+	register int i;
+}
+
+
 // address: 0x80144C34
 // line start: 1067
 // line end:   1083
@@ -1872,33 +1937,6 @@ void SetRGB__6DialogUcUcUc(struct Dialog *this, unsigned char R, unsigned char G
 }
 
 
-// address: 0x80143E1C
-// line start: 425
-// line end:   452
-void ShowAlertBox__Fv() {
-	// address: 0xFFFFFFC0
-	// size: 0x10
-	auto struct Dialog SBack;
-	// address: 0xFFFFFFD0
-	// size: 0x8
-	auto struct RECT um;
-	// register: 2
-	register int X;
-	// register: 2
-	register int Y;
-	// register: 2
-	register int W;
-	// register: 16
-	register int H;
-	// register: 23
-	register int oldBot;
-	// register: 22
-	register int oldTot;
-	// register: 16
-	register int lines;
-}
-
-
 // address: 0x8015DED0
 // line start: 434
 // line end:   463
@@ -1925,6 +1963,33 @@ void ShowAlertBox__Fv() {
 	register int lines;
 	// register: 17
 	register int yprintpos;
+}
+
+
+// address: 0x80143E1C
+// line start: 425
+// line end:   452
+void ShowAlertBox__Fv() {
+	// address: 0xFFFFFFC0
+	// size: 0x10
+	auto struct Dialog SBack;
+	// address: 0xFFFFFFD0
+	// size: 0x8
+	auto struct RECT um;
+	// register: 2
+	register int X;
+	// register: 2
+	register int Y;
+	// register: 2
+	register int W;
+	// register: 16
+	register int H;
+	// register: 23
+	register int oldBot;
+	// register: 22
+	register int oldTot;
+	// register: 16
+	register int lines;
 }
 
 
@@ -2012,59 +2077,11 @@ struct Dialog *__6Dialog(struct Dialog *this) {
 }
 
 
-// address: 0x80144178
+// address: 0x8014D61C
 // size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_80144178(struct Dialog *this) {
-}
-
-
-// address: 0x80145930
-// size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_80145930(struct Dialog *this) {
-}
-
-
-// address: 0x801488FC
-// size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_801488FC(struct Dialog *this) {
-}
-
-
-// address: 0x80148A58
-// size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_80148A58(struct Dialog *this) {
-}
-
-
-// address: 0x80148EA0
-// size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_80148EA0(struct Dialog *this) {
-}
-
-
-// address: 0x8014923C
-// size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_8014923C(struct Dialog *this) {
-}
-
-
-// address: 0x801496B8
-// size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_801496B8(struct Dialog *this) {
+// line start: 61
+// line end:   74
+struct Dialog *__6Dialog_addr_8014D61C(struct Dialog *this) {
 }
 
 
@@ -2073,22 +2090,6 @@ struct Dialog *__6Dialog_addr_801496B8(struct Dialog *this) {
 // line start: 60
 // line end:   73
 struct Dialog *__6Dialog_addr_8014D850(struct Dialog *this) {
-}
-
-
-// address: 0x80154088
-// size: 0x10
-// line start: 60
-// line end:   73
-struct Dialog *__6Dialog_addr_80154088(struct Dialog *this) {
-}
-
-
-// address: 0x80159B90
-// size: 0x10
-// line start: 61
-// line end:   74
-struct Dialog *__6Dialog_addr_80159B90(struct Dialog *this) {
 }
 
 
@@ -2116,11 +2117,27 @@ struct Dialog *__6Dialog_addr_8015BD68(struct Dialog *this) {
 }
 
 
+// address: 0x8015C578
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_8015C578(struct Dialog *this) {
+}
+
+
 // address: 0x8015CD54
 // size: 0x10
 // line start: 61
 // line end:   74
 struct Dialog *__6Dialog_addr_8015CD54(struct Dialog *this) {
+}
+
+
+// address: 0x8015CD88
+// size: 0x10
+// line start: 61
+// line end:   74
+struct Dialog *__6Dialog_addr_8015CD88(struct Dialog *this) {
 }
 
 
@@ -2132,11 +2149,107 @@ struct Dialog *__6Dialog_addr_8015D5B4(struct Dialog *this) {
 }
 
 
+// address: 0x8015D318
+// size: 0x10
+// line start: 61
+// line end:   74
+struct Dialog *__6Dialog_addr_8015D318(struct Dialog *this) {
+}
+
+
 // address: 0x8015E530
 // size: 0x10
 // line start: 61
 // line end:   74
 struct Dialog *__6Dialog_addr_8015E530(struct Dialog *this) {
+}
+
+
+// address: 0x80148A58
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80148A58(struct Dialog *this) {
+}
+
+
+// address: 0x80148EA0
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80148EA0(struct Dialog *this) {
+}
+
+
+// address: 0x80159B90
+// size: 0x10
+// line start: 61
+// line end:   74
+struct Dialog *__6Dialog_addr_80159B90(struct Dialog *this) {
+}
+
+
+// address: 0x801481A0
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_801481A0(struct Dialog *this) {
+}
+
+
+// address: 0x801488FC
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_801488FC(struct Dialog *this) {
+}
+
+
+// address: 0x801496B8
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_801496B8(struct Dialog *this) {
+}
+
+
+// address: 0x8014923C
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_8014923C(struct Dialog *this) {
+}
+
+
+// address: 0x8015386C
+// size: 0x10
+// line start: 61
+// line end:   74
+struct Dialog *__6Dialog_addr_8015386C(struct Dialog *this) {
+}
+
+
+// address: 0x80144178
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80144178(struct Dialog *this) {
+}
+
+
+// address: 0x80145930
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80145930(struct Dialog *this) {
+}
+
+
+// address: 0x80154088
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80154088(struct Dialog *this) {
 }
 
 
@@ -2147,52 +2260,10 @@ void ___6Dialog(struct Dialog *this, int __in_chrg) {
 }
 
 
-// address: 0x80144150
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_80144150(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x80145908
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_80145908(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x801488D4
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_801488D4(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x80148A30
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_80148A30(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x80148E78
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_80148E78(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x80149214
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_80149214(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x80149690
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_80149690(struct Dialog *this, int __in_chrg) {
+// address: 0x8014D5F4
+// line start: 78
+// line end:   78
+void ___6Dialog_addr_8014D5F4(struct Dialog *this, int __in_chrg) {
 }
 
 
@@ -2200,20 +2271,6 @@ void ___6Dialog_addr_80149690(struct Dialog *this, int __in_chrg) {
 // line start: 77
 // line end:   77
 void ___6Dialog_addr_8014D828(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x80154060
-// line start: 77
-// line end:   77
-void ___6Dialog_addr_80154060(struct Dialog *this, int __in_chrg) {
-}
-
-
-// address: 0x80159B68
-// line start: 78
-// line end:   78
-void ___6Dialog_addr_80159B68(struct Dialog *this, int __in_chrg) {
 }
 
 
@@ -2238,10 +2295,31 @@ void ___6Dialog_addr_8015BD40(struct Dialog *this, int __in_chrg) {
 }
 
 
+// address: 0x8015C550
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_8015C550(struct Dialog *this, int __in_chrg) {
+}
+
+
 // address: 0x8015CD2C
 // line start: 78
 // line end:   78
 void ___6Dialog_addr_8015CD2C(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x8015CD60
+// line start: 78
+// line end:   78
+void ___6Dialog_addr_8015CD60(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x8015D2F0
+// line start: 78
+// line end:   78
+void ___6Dialog_addr_8015D2F0(struct Dialog *this, int __in_chrg) {
 }
 
 
@@ -2259,65 +2337,102 @@ void ___6Dialog_addr_8015E508(struct Dialog *this, int __in_chrg) {
 }
 
 
-// address: 0x801449DC
-// line start: 372
-// line end:   1338
-void ___7CScreen(struct CScreen_dup_1 *this, int __in_chrg);
+// address: 0x80148A30
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80148A30(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80148E78
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80148E78(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80159B68
+// line start: 78
+// line end:   78
+void ___6Dialog_addr_80159B68(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x801488D4
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_801488D4(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80144150
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80144150(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80145908
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80145908(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80148178
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80148178(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80149214
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80149214(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80149690
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80149690(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80153844
+// line start: 78
+// line end:   78
+void ___6Dialog_addr_80153844(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80154060
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80154060(struct Dialog *this, int __in_chrg) {
+}
+
 
 // address: 0x80125054
 // line start: 345
 // line end:   1235
 void ___7CScreen(struct CScreen *this, int __in_chrg);
 
+// address: 0x801449DC
+// line start: 372
+// line end:   1338
+void ___7CScreen(struct CScreen_dup_1 *this, int __in_chrg);
+
 // address: 0x8013C9D4
 // line start: 345
 // line end:   1484
 void ___7CScreen(struct CScreen_dup_14 *this, int __in_chrg);
 
-// address: 0x801242A4
-// line start: 345
-// line end:   449
-void ___7CScreen_addr_801242A4(struct CScreen *this, int __in_chrg);
-
-// address: 0x80125A5C
-// line start: 345
-// line end:   465
-void ___7CScreen_addr_80125A5C(struct CScreen *this, int __in_chrg);
-
-// address: 0x8012692C
-// line start: 345
-// line end:   445
-void ___7CScreen_addr_8012692C(struct CScreen *this, int __in_chrg);
-
-// address: 0x80126A88
-// line start: 345
-// line end:   445
-void ___7CScreen_addr_80126A88(struct CScreen *this, int __in_chrg);
-
-// address: 0x8012726C
-// line start: 345
-// line end:   445
-void ___7CScreen_addr_8012726C(struct CScreen *this, int __in_chrg);
-
-// address: 0x80128FD0
-// line start: 345
-// line end:   469
-void ___7CScreen_addr_80128FD0(struct CScreen *this, int __in_chrg);
-
-// address: 0x801297E8
-// line start: 345
-// line end:   469
-void ___7CScreen_addr_801297E8(struct CScreen *this, int __in_chrg);
-
-// address: 0x801341A4
-// line start: 345
-// line end:   469
-void ___7CScreen_addr_801341A4(struct CScreen *this, int __in_chrg);
-
-// address: 0x80139988
+// address: 0x8012D42C
 // line start: 345
 // line end:   475
-void ___7CScreen_addr_80139988(struct CScreen *this, int __in_chrg);
+void ___7CScreen_addr_8012D42C(struct CScreen *this, int __in_chrg);
 
 // address: 0x8013BB58
 // line start: 345
@@ -2334,10 +2449,25 @@ void ___7CScreen_addr_8013BCB8(struct CScreen *this, int __in_chrg);
 // line end:   469
 void ___7CScreen_addr_8013BE68(struct CScreen *this, int __in_chrg);
 
+// address: 0x8013C678
+// line start: 345
+// line end:   469
+void ___7CScreen_addr_8013C678(struct CScreen *this, int __in_chrg);
+
 // address: 0x8013CE54
 // line start: 345
 // line end:   469
 void ___7CScreen_addr_8013CE54(struct CScreen *this, int __in_chrg);
+
+// address: 0x8013CE80
+// line start: 345
+// line end:   475
+void ___7CScreen_addr_8013CE80(struct CScreen *this, int __in_chrg);
+
+// address: 0x8013D3C0
+// line start: 345
+// line end:   475
+void ___7CScreen_addr_8013D3C0(struct CScreen *this, int __in_chrg);
 
 // address: 0x8013D608
 // line start: 345
@@ -2349,10 +2479,65 @@ void ___7CScreen_addr_8013D608(struct CScreen *this, int __in_chrg);
 // line end:   475
 void ___7CScreen_addr_8013E344(struct CScreen_dup_14 *this, int __in_chrg);
 
+// address: 0x80125A5C
+// line start: 345
+// line end:   465
+void ___7CScreen_addr_80125A5C(struct CScreen *this, int __in_chrg);
+
+// address: 0x80126A88
+// line start: 345
+// line end:   445
+void ___7CScreen_addr_80126A88(struct CScreen *this, int __in_chrg);
+
+// address: 0x80128FD0
+// line start: 345
+// line end:   469
+void ___7CScreen_addr_80128FD0(struct CScreen *this, int __in_chrg);
+
+// address: 0x801242A4
+// line start: 345
+// line end:   449
+void ___7CScreen_addr_801242A4(struct CScreen *this, int __in_chrg);
+
+// address: 0x801282BC
+// line start: 345
+// line end:   469
+void ___7CScreen_addr_801282BC(struct CScreen *this, int __in_chrg);
+
+// address: 0x801297E8
+// line start: 345
+// line end:   469
+void ___7CScreen_addr_801297E8(struct CScreen *this, int __in_chrg);
+
+// address: 0x801341A4
+// line start: 345
+// line end:   469
+void ___7CScreen_addr_801341A4(struct CScreen *this, int __in_chrg);
+
 // address: 0x801462B4
 // line start: 372
 // line end:   445
 void ___7CScreen_addr_801462B4(struct CScreen_dup_1 *this, int __in_chrg);
+
+// address: 0x8012692C
+// line start: 345
+// line end:   445
+void ___7CScreen_addr_8012692C(struct CScreen *this, int __in_chrg);
+
+// address: 0x8012726C
+// line start: 345
+// line end:   445
+void ___7CScreen_addr_8012726C(struct CScreen *this, int __in_chrg);
+
+// address: 0x8013367C
+// line start: 345
+// line end:   475
+void ___7CScreen_addr_8013367C(struct CScreen *this, int __in_chrg);
+
+// address: 0x80139988
+// line start: 345
+// line end:   475
+void ___7CScreen_addr_80139988(struct CScreen *this, int __in_chrg);
 
 // address: 0x8012B078
 // line start: 219
@@ -2389,21 +2574,21 @@ void endian_swap__FPUci(unsigned char *b, int byts) {
 }
 
 
-// address: 0x80143144
-// line start: 652
-// line end:   682
-int format_card__Fi(int card_number) {
-	// address: 0xFFFFFFA0
-	// size: 0x50
-	auto char path[80];
-}
-
-
 // address: 0x8012B7D8
 // line start: 639
 // line end:   669
 int format_card__Fi(int card_number) {
 	// address: 0xFFFFFFA8
+	// size: 0x50
+	auto char path[80];
+}
+
+
+// address: 0x80143144
+// line start: 652
+// line end:   682
+int format_card__Fi(int card_number) {
+	// address: 0xFFFFFFA0
 	// size: 0x50
 	auto char path[80];
 }
@@ -2454,6 +2639,27 @@ void read_card_directory__Fi(int card_number) {
 }
 
 
+// address: 0x8012B620
+// line start: 524
+// line end:   627
+int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
+	// register: 20
+	register int okay;
+	// register: 19
+	register int tries;
+	// register: 16
+	register int fd;
+	// register: 6
+	register int size;
+	// address: 0xFFFFFD90
+	// size: 0x200
+	auto struct file_header h;
+	// address: 0xFFFFFF90
+	// size: 0x50
+	auto char path[80];
+}
+
+
 // address: 0x80142F80
 // line start: 529
 // line end:   640
@@ -2477,24 +2683,12 @@ int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
 }
 
 
-// address: 0x8012B620
-// line start: 524
-// line end:   627
-int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
-	// register: 20
-	register int okay;
+// address: 0x8012BC4C
+// line start: 875
+// line end:   940
+void service_card__Fi(int card_number) {
 	// register: 19
-	register int tries;
-	// register: 16
-	register int fd;
-	// register: 6
-	register int size;
-	// address: 0xFFFFFD90
-	// size: 0x200
-	auto struct file_header h;
-	// address: 0xFFFFFF90
-	// size: 0x50
-	auto char path[80];
+	register int old_status;
 }
 
 
@@ -2503,15 +2697,6 @@ int read_card_file__FiiiPc(int card_number, int file, int id, char *buf) {
 // line end:   974
 void service_card__Fi(int card_number) {
 	// register: 18
-	register int old_status;
-}
-
-
-// address: 0x8012BC4C
-// line start: 875
-// line end:   940
-void service_card__Fi(int card_number) {
-	// register: 19
 	register int old_status;
 }
 

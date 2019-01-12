@@ -38,23 +38,30 @@ unsigned short GetClut__C8PalEntry(struct PalEntry *this) {
 }
 
 
-// address: 0x8008E59C
+// address: 0x8008DE44
 // line start: 304
 // line end:   315
-unsigned short GetHighlightPal__13PalCollectionUsUsi(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
+unsigned short GetHighlightPal__13PalCollectionUsUsi(struct PalCollection_dup_4 *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *RetPal;
 }
 
 
-// address: 0x8008DE44
+// address: 0x8008E59C
 // line start: 304
 // line end:   315
-unsigned short GetHighlightPal__13PalCollectionUsUsi_addr_8008DE44(struct PalCollection_dup_4 *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
+unsigned short GetHighlightPal__13PalCollectionUsUsi_addr_8008E59C(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *RetPal;
+}
+
+
+// address: 0x8008E86C
+// line start: 79
+// line end:   79
+void Init__8PalEntry(struct PalEntry *this) {
 }
 
 
@@ -80,13 +87,6 @@ void Init__13PalCollectionPC7InitPos_addr_8008DBB8(struct PalCollection_dup_4 *t
 }
 
 
-// address: 0x8008E86C
-// line start: 79
-// line end:   79
-void Init__8PalEntry(struct PalEntry *this) {
-}
-
-
 // address: 0x8008E880
 // line start: 73
 // line end:   73
@@ -104,25 +104,51 @@ void MakePal__8PalEntryUsUsi(struct PalEntry *this, unsigned short _SourceClut, 
 }
 
 
-// address: 0x8008E47C
+// address: 0x8008DD24
 // size: 0x18
 // line start: 247
 // line end:   269
-struct PalEntry *NewPal__13PalCollectionUsUsi(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
+struct PalEntry *NewPal__13PalCollectionUsUsi(struct PalCollection_dup_4 *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *RetPal;
 }
 
 
-// address: 0x8008DD24
+// address: 0x8008E47C
 // size: 0x18
 // line start: 247
 // line end:   269
-struct PalEntry *NewPal__13PalCollectionUsUsi_addr_8008DD24(struct PalCollection_dup_4 *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
+struct PalEntry *NewPal__13PalCollectionUsUsi_addr_8008E47C(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *RetPal;
+}
+
+
+// address: 0x8009A9F8
+// line start: 181
+// line end:   199
+void SCR_DumpClut__Fv() {
+	// address: 0xFFFFFF70
+	// size: 0x8
+	auto struct RECT R;
+	// register: 4
+	register unsigned short ColVal;
+	// address: 0xFFFFFF78
+	// size: 0x80
+	auto unsigned short BlankPal[64];
+	{
+		// register: 3
+		register int f;
+	}
+}
+
+
+// address: 0x8009A9B4
+// line start: 162
+// line end:   163
+unsigned short SCR_GetBlackClut__Fv() {
 }
 
 

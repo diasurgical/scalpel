@@ -23,13 +23,13 @@ void music_release__Fv() {
 }
 
 
-// address: 0x80070868
-// line start: 260
-// line end:   274
+// address: 0x80077BB8
+// line start: 261
+// line end:   276
 void music_start__Fi(int nTrack) {
 	{
 		{
-			// register: 6
+			// register: 3
 			register int MusicVolume;
 		}
 	}
@@ -43,6 +43,19 @@ void music_start__Fi_addr_80070818(int nTrack) {
 	{
 		{
 			// register: 2
+			register int MusicVolume;
+		}
+	}
+}
+
+
+// address: 0x80070868
+// line start: 260
+// line end:   274
+void music_start__Fi_addr_80070868(int nTrack) {
+	{
+		{
+			// register: 6
 			register int MusicVolume;
 		}
 	}
@@ -72,6 +85,13 @@ void snd_get_volume__FPCcPl(char *pszKey, long *plVolume) {
 }
 
 
+// address: 0x80072AD0
+// line start: 113
+// line end:   123
+void snd_get_volume__FPCcPl_addr_80072AD0(char *pszKey, long *plVolume) {
+}
+
+
 // address: 0x80071368
 // line start: 209
 // line end:   216
@@ -86,17 +106,26 @@ void snd_play_msnd__FUsll(unsigned short pszName, long lVolume, long lPan) {
 }
 
 
-// address: 0x8007125C
-// line start: 141
-// line end:   158
-void snd_play_snd__FP4TSFXll(struct TSFX *pSnd, long lVolume, long lPan) {
+// address: 0x80077A88
+// line start: 172
+// line end:   201
+void snd_play_msnd__FUsll_addr_80077A88(unsigned short pszName, long lVolume, long lPan) {
+	// register: 18
+	register int padj;
 }
 
 
 // address: 0x80070B78
 // line start: 141
 // line end:   158
-void snd_play_snd__FP4TSFXll_addr_80070B78(struct TSFX_dup_13 *pSnd, long lVolume, long lPan) {
+void snd_play_snd__FP4TSFXll(struct TSFX_dup_13 *pSnd, long lVolume, long lPan) {
+}
+
+
+// address: 0x8007125C
+// line start: 141
+// line end:   158
+void snd_play_snd__FP4TSFXll_addr_8007125C(struct TSFX *pSnd, long lVolume, long lPan) {
 }
 
 
@@ -111,6 +140,17 @@ unsigned char snd_playing__Fi(int SFXNo) {
 // line start: 128
 // line end:   130
 void snd_stop_snd__FP4TSnd(struct TSnd *pSnd) {
+}
+
+
+// address: 0x80077A04
+// line start: 132
+// line end:   136
+void snd_stop_snd__FP4TSnd_addr_80077A04(struct TSnd *pSnd) {
+	{
+		// register: 16
+		register int v;
+	}
 }
 
 

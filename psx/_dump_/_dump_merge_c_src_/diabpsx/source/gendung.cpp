@@ -267,3 +267,61 @@ unsigned char SkipThemeRoom__Fii(int x, int y) {
 }
 
 
+// address: 0x8015BCE8
+// line start: 657
+// line end:   673
+void DRLG_HoldThemeRooms__Fv_addr_8015BCE8() {
+	// register: 25
+	register int i;
+	// register: 7
+	register int x;
+	// register: 8
+	register int y;
+}
+
+
+// address: 0x8015A3F4
+// line start: 229
+// line end:   240
+void DRLG_InitTrans__Fv_addr_8015A3F4() {
+	// register: 4
+	register int x;
+	// register: 5
+	register int y;
+}
+
+
+// address: 0x8015A468
+// line start: 248
+// line end:   254
+void DRLG_RectTrans__Fiiii_addr_8015A468(int x1, int y1, int x2, int y2) {
+	// register: 8
+	register int i;
+	// register: 5
+	register int j;
+}
+
+
+// address: 0x8015A260
+// line start: 162
+// line end:   210
+void FillSolidBlockTbls__Fv_addr_8015A260() {
+	// address: 0xFFFFFFF0
+	auto unsigned long dwTiles;
+	// register: 16
+	register unsigned char *pSBFile;
+	// register: 6
+	register unsigned char *pTmp;
+	{
+		// register: 4
+		register unsigned long d;
+		{
+			// register: 3
+			register unsigned char bv;
+			{
+			}
+		}
+	}
+}
+
+

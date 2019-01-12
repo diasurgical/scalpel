@@ -112,6 +112,51 @@ void RemovePortalMissile__Fi_addr_8007A3B0(int id) {
 }
 
 
+// address: 0x80080FD0
+// line start: 285
+// line end:   300
+void RemovePortalMissile__Fi_addr_80080FD0(int id) {
+	// register: 17
+	register int i;
+	// register: 18
+	register int mi;
+	// register: 16
+	// size: 0x50
+	register struct MissileStruct_dup_17 *m;
+}
+
+
+// address: 0x80080D38
+// line start: 189
+// line end:   219
+void SyncPortals__Fv_addr_80080D38() {
+	{
+		// register: 17
+		register int i;
+		{
+			{
+				{
+					{
+						{
+							{
+								// register: 6
+								register int x;
+								{
+									{
+										// register: 4
+										register int y;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x80079E2C
 // line start: 70
 // line end:   140

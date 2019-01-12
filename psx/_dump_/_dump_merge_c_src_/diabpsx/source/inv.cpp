@@ -106,33 +106,10 @@ void CheckInvCut__Fiii(int pnum, int mx, int my) {
 }
 
 
-// address: 0x8015C32C
-// line start: 2879
-// line end:   2988
-char CheckInvHLight__Fv() {
-	// register: 16
-	register int r;
-	// register: 19
-	register char rv;
-	// register: 17
-	// size: 0x98
-	register struct ItemStruct_dup_11 *pi;
-	// register: 18
-	// size: 0x23A8
-	register struct PlayerStruct_dup_11 *p;
-	{
-		{
-			// register: 17
-			register int nGold;
-		}
-	}
-}
-
-
 // address: 0x80155360
 // line start: 2850
 // line end:   2959
-char CheckInvHLight__Fv_addr_80155360() {
+char CheckInvHLight__Fv() {
 	// register: 16
 	register int r;
 	// register: 19
@@ -143,75 +120,6 @@ char CheckInvHLight__Fv_addr_80155360() {
 	// register: 18
 	// size: 0x23A8
 	register struct PlayerStruct_dup_6 *p;
-	{
-		{
-			// register: 17
-			register int nGold;
-		}
-	}
-}
-
-
-// address: 0x8015DD54
-// line start: 2890
-// line end:   2999
-char CheckInvHLight__Fv_addr_8015DD54() {
-	// register: 16
-	register int r;
-	// register: 19
-	register char rv;
-	// register: 17
-	// size: 0x98
-	register struct ItemStruct_dup_13 *pi;
-	// register: 18
-	// size: 0x23A8
-	register struct PlayerStruct_dup_13 *p;
-	{
-		{
-			// register: 17
-			register int nGold;
-		}
-	}
-}
-
-
-// address: 0x80149A88
-// line start: 2866
-// line end:   2975
-char CheckInvHLight__Fv_addr_80149A88() {
-	// register: 16
-	register int r;
-	// register: 19
-	register char rv;
-	// register: 17
-	// size: 0x98
-	register struct ItemStruct *pi;
-	// register: 18
-	// size: 0x23A8
-	register struct PlayerStruct *p;
-	{
-		{
-			// register: 17
-			register int nGold;
-		}
-	}
-}
-
-
-// address: 0x801483A4
-// line start: 2797
-// line end:   2900
-char CheckInvHLight__Fv_addr_801483A4() {
-	// register: 16
-	register int r;
-	// register: 19
-	register char rv;
-	// register: 17
-	// size: 0x94
-	register struct ItemStruct *pi;
-	// register: 18
-	// size: 0x22D0
-	register struct PlayerStruct *p;
 	{
 		{
 			// register: 17
@@ -244,10 +152,33 @@ char CheckInvHLight__Fv_addr_80145314() {
 }
 
 
-// address: 0x8014A098
+// address: 0x801483A4
+// line start: 2797
+// line end:   2900
+char CheckInvHLight__Fv_addr_801483A4() {
+	// register: 16
+	register int r;
+	// register: 19
+	register char rv;
+	// register: 17
+	// size: 0x94
+	register struct ItemStruct *pi;
+	// register: 18
+	// size: 0x22D0
+	register struct PlayerStruct *p;
+	{
+		{
+			// register: 17
+			register int nGold;
+		}
+	}
+}
+
+
+// address: 0x80149A88
 // line start: 2866
 // line end:   2975
-char CheckInvHLight__Fv_addr_8014A098() {
+char CheckInvHLight__Fv_addr_80149A88() {
 	// register: 16
 	register int r;
 	// register: 19
@@ -257,7 +188,7 @@ char CheckInvHLight__Fv_addr_8014A098() {
 	register struct ItemStruct *pi;
 	// register: 18
 	// size: 0x23A8
-	register struct PlayerStruct_dup_7 *p;
+	register struct PlayerStruct *p;
 	{
 		{
 			// register: 17
@@ -290,94 +221,79 @@ char CheckInvHLight__Fv_addr_80146374() {
 }
 
 
-// address: 0x801409AC
-// line start: 1473
-// line end:   1880
-void CheckInvPaste__Fiii(int pnum, int mx, int my) {
-	// register: 21
-	register int r;
-	// register: 23
-	register int sx;
-	// register: 30
-	register int sy;
+// address: 0x8015C32C
+// line start: 2879
+// line end:   2988
+char CheckInvHLight__Fv_addr_8015C32C() {
 	// register: 16
-	register int i;
-	// register: 9
-	register int j;
-	// register: 7
-	register int xx;
-	// register: 10
-	register int yy;
-	// register: 8
-	register int ii;
+	register int r;
+	// register: 19
+	register char rv;
 	// register: 17
-	register unsigned char done;
-	// register: 17
-	register unsigned char done2h;
-	// register: 20
-	register int il;
-	// register: 22
-	register int cn;
-	// register: 2
-	register int it;
+	// size: 0x98
+	register struct ItemStruct_dup_11 *pi;
 	// register: 18
-	register int iv;
-	// register: 5
-	register int ig;
-	// register: 5
-	register long gt;
-	// address: 0xFFFFFED8
-	// size: 0x94
-	auto struct ItemStruct tempitem;
+	// size: 0x23A8
+	register struct PlayerStruct_dup_11 *p;
+	{
+		{
+			// register: 17
+			register int nGold;
+		}
+	}
 }
 
 
-// address: 0x8014372C
-// line start: 1435
-// line end:   1842
-void CheckInvPaste__Fiii_addr_8014372C(int pnum, int mx, int my) {
-	// register: 21
-	register int r;
-	// register: 23
-	register int sx;
-	// register: 30
-	register int sy;
+// address: 0x8014A098
+// line start: 2866
+// line end:   2975
+char CheckInvHLight__Fv_addr_8014A098() {
 	// register: 16
-	register int i;
-	// register: 9
-	register int j;
-	// register: 7
-	register int xx;
-	// register: 10
-	register int yy;
-	// register: 8
-	register int ii;
-	// register: 17
-	register unsigned char done;
-	// register: 17
-	register unsigned char done2h;
-	// register: 20
-	register int il;
-	// register: 22
-	register int cn;
-	// register: 2
-	register int it;
+	register int r;
 	// register: 19
-	register int iv;
-	// register: 5
-	register int ig;
-	// register: 5
-	register long gt;
-	// address: 0xFFFFFED8
-	// size: 0x94
-	auto struct ItemStruct tempitem;
+	register char rv;
+	// register: 17
+	// size: 0x98
+	register struct ItemStruct *pi;
+	// register: 18
+	// size: 0x23A8
+	register struct PlayerStruct_dup_7 *p;
+	{
+		{
+			// register: 17
+			register int nGold;
+		}
+	}
+}
+
+
+// address: 0x8015DD54
+// line start: 2890
+// line end:   2999
+char CheckInvHLight__Fv_addr_8015DD54() {
+	// register: 16
+	register int r;
+	// register: 19
+	register char rv;
+	// register: 17
+	// size: 0x98
+	register struct ItemStruct_dup_13 *pi;
+	// register: 18
+	// size: 0x23A8
+	register struct PlayerStruct_dup_13 *p;
+	{
+		{
+			// register: 17
+			register int nGold;
+		}
+	}
 }
 
 
 // address: 0x80145384
 // line start: 1502
 // line end:   1909
-void CheckInvPaste__Fiii_addr_80145384(int pnum, int mx, int my) {
+void CheckInvPaste__Fiii(int pnum, int mx, int my) {
 	// register: 21
 	register int r;
 	// register: 23
@@ -412,6 +328,90 @@ void CheckInvPaste__Fiii_addr_80145384(int pnum, int mx, int my) {
 	register long gt;
 	// address: 0xFFFFFED8
 	// size: 0x98
+	auto struct ItemStruct tempitem;
+}
+
+
+// address: 0x8015904C
+// line start: 1526
+// line end:   1933
+void CheckInvPaste__Fiii_addr_8015904C(int pnum, int mx, int my) {
+	// register: 21
+	register int r;
+	// register: 23
+	register int sx;
+	// register: 30
+	register int sy;
+	// register: 16
+	register int i;
+	// register: 9
+	register int j;
+	// register: 7
+	register int xx;
+	// register: 10
+	register int yy;
+	// register: 8
+	register int ii;
+	// register: 17
+	register unsigned char done;
+	// register: 17
+	register unsigned char done2h;
+	// register: 20
+	register int il;
+	// register: 22
+	register int cn;
+	// register: 2
+	register int it;
+	// register: 19
+	register int iv;
+	// register: 5
+	register int ig;
+	// register: 5
+	register long gt;
+	// address: 0xFFFFFED8
+	// size: 0x98
+	auto struct ItemStruct_dup_13 tempitem;
+}
+
+
+// address: 0x801409AC
+// line start: 1473
+// line end:   1880
+void CheckInvPaste__Fiii_addr_801409AC(int pnum, int mx, int my) {
+	// register: 21
+	register int r;
+	// register: 23
+	register int sx;
+	// register: 30
+	register int sy;
+	// register: 16
+	register int i;
+	// register: 9
+	register int j;
+	// register: 7
+	register int xx;
+	// register: 10
+	register int yy;
+	// register: 8
+	register int ii;
+	// register: 17
+	register unsigned char done;
+	// register: 17
+	register unsigned char done2h;
+	// register: 20
+	register int il;
+	// register: 22
+	register int cn;
+	// register: 2
+	register int it;
+	// register: 18
+	register int iv;
+	// register: 5
+	register int ig;
+	// register: 5
+	register long gt;
+	// address: 0xFFFFFED8
+	// size: 0x94
 	auto struct ItemStruct tempitem;
 }
 
@@ -458,10 +458,10 @@ void CheckInvPaste__Fiii_addr_80157624(int pnum, int mx, int my) {
 }
 
 
-// address: 0x8015904C
-// line start: 1526
-// line end:   1933
-void CheckInvPaste__Fiii_addr_8015904C(int pnum, int mx, int my) {
+// address: 0x8014372C
+// line start: 1435
+// line end:   1842
+void CheckInvPaste__Fiii_addr_8014372C(int pnum, int mx, int my) {
 	// register: 21
 	register int r;
 	// register: 23
@@ -495,8 +495,8 @@ void CheckInvPaste__Fiii_addr_8015904C(int pnum, int mx, int my) {
 	// register: 5
 	register long gt;
 	// address: 0xFFFFFED8
-	// size: 0x98
-	auto struct ItemStruct_dup_13 tempitem;
+	// size: 0x94
+	auto struct ItemStruct tempitem;
 }
 
 
@@ -549,63 +549,13 @@ void CheckInvScrn__Fv() {
 }
 
 
-// address: 0x80144338
-// line start: 2126
-// line end:   2135
-void CheckItemStats__Fi(int pnum) {
-	// register: 4
-	// size: 0x22C8
-	register struct PlayerStruct *p;
-}
-
-
-// address: 0x8015BBFC
-// line start: 2175
-// line end:   2184
-void CheckItemStats__Fi_addr_8015BBFC(int pnum) {
-	// register: 4
-	// size: 0x23A8
-	register struct PlayerStruct_dup_13 *p;
-}
-
-
-// address: 0x80147930
-// line start: 2151
-// line end:   2160
-void CheckItemStats__Fi_addr_80147930(int pnum) {
-	// register: 4
-	// size: 0x23A8
-	register struct PlayerStruct *p;
-}
-
-
 // address: 0x80153208
 // line start: 2135
 // line end:   2144
-void CheckItemStats__Fi_addr_80153208(int pnum) {
+void CheckItemStats__Fi(int pnum) {
 	// register: 4
 	// size: 0x23A8
 	register struct PlayerStruct_dup_6 *p;
-}
-
-
-// address: 0x80146260
-// line start: 2084
-// line end:   2093
-void CheckItemStats__Fi_addr_80146260(int pnum) {
-	// register: 4
-	// size: 0x22D0
-	register struct PlayerStruct *p;
-}
-
-
-// address: 0x801432D8
-// line start: 2122
-// line end:   2131
-void CheckItemStats__Fi_addr_801432D8(int pnum) {
-	// register: 4
-	// size: 0x22C8
-	register struct PlayerStruct_dup_4 *p;
 }
 
 
@@ -619,6 +569,26 @@ void CheckItemStats__Fi_addr_8015A1D4(int pnum) {
 }
 
 
+// address: 0x80146260
+// line start: 2084
+// line end:   2093
+void CheckItemStats__Fi_addr_80146260(int pnum) {
+	// register: 4
+	// size: 0x22D0
+	register struct PlayerStruct *p;
+}
+
+
+// address: 0x80147930
+// line start: 2151
+// line end:   2160
+void CheckItemStats__Fi_addr_80147930(int pnum) {
+	// register: 4
+	// size: 0x23A8
+	register struct PlayerStruct *p;
+}
+
+
 // address: 0x80147F40
 // line start: 2151
 // line end:   2160
@@ -626,6 +596,36 @@ void CheckItemStats__Fi_addr_80147F40(int pnum) {
 	// register: 4
 	// size: 0x23A8
 	register struct PlayerStruct_dup_7 *p;
+}
+
+
+// address: 0x8015BBFC
+// line start: 2175
+// line end:   2184
+void CheckItemStats__Fi_addr_8015BBFC(int pnum) {
+	// register: 4
+	// size: 0x23A8
+	register struct PlayerStruct_dup_13 *p;
+}
+
+
+// address: 0x80144338
+// line start: 2126
+// line end:   2135
+void CheckItemStats__Fi_addr_80144338(int pnum) {
+	// register: 4
+	// size: 0x22C8
+	register struct PlayerStruct *p;
+}
+
+
+// address: 0x801432D8
+// line start: 2122
+// line end:   2131
+void CheckItemStats__Fi_addr_801432D8(int pnum) {
+	// register: 4
+	// size: 0x22C8
+	register struct PlayerStruct_dup_4 *p;
 }
 
 
@@ -650,27 +650,10 @@ void DoTelekinesis__Fv() {
 }
 
 
-// address: 0x8013F3E4
-// line start: 999
-// line end:   1203
-void DoThatDrawInv__Fv() {
-	// register: 16
-	register int Loop;
-	// register: 3
-	register int ii;
-	// register: 9
-	register int ItemX;
-	// register: 5
-	register int ItemY;
-	// register: 6
-	register int ItemNo;
-}
-
-
 // address: 0x80150744
 // line start: 959
 // line end:   1162
-void DoThatDrawInv__Fv_addr_80150744() {
+void DoThatDrawInv__Fv() {
 	// register: 16
 	register int Loop;
 	// register: 4
@@ -678,6 +661,23 @@ void DoThatDrawInv__Fv_addr_80150744() {
 	// register: 9
 	register int ItemX;
 	// register: 8
+	register int ItemY;
+	// register: 6
+	register int ItemNo;
+}
+
+
+// address: 0x8013F3E4
+// line start: 999
+// line end:   1203
+void DoThatDrawInv__Fv_addr_8013F3E4() {
+	// register: 16
+	register int Loop;
+	// register: 3
+	register int ii;
+	// register: 9
+	register int ItemX;
+	// register: 5
 	register int ItemY;
 	// register: 6
 	register int ItemNo;
@@ -732,27 +732,6 @@ void DrawInvCursor__Fv() {
 }
 
 
-// address: 0x80157BE4
-// line start: 737
-// line end:   840
-void DrawInvCursor__Fv_addr_80157BE4() {
-	// register: 6
-	register int ItemX;
-	// register: 8
-	register int ItemY;
-	// register: 4
-	register int LoopX;
-	// register: 5
-	register int LoopY;
-	// register: 4
-	// size: 0x28
-	register struct POLY_FT4 *Ft4;
-	// register: 4
-	// size: 0x6C
-	register struct TextDat_dup_14 *TData;
-}
-
-
 // address: 0x8014162C
 // line start: 724
 // line end:   827
@@ -771,6 +750,27 @@ void DrawInvCursor__Fv_addr_8014162C() {
 	// register: 4
 	// size: 0x6C
 	register struct TextDat *TData;
+}
+
+
+// address: 0x80157BE4
+// line start: 737
+// line end:   840
+void DrawInvCursor__Fv_addr_80157BE4() {
+	// register: 6
+	register int ItemX;
+	// register: 8
+	register int ItemY;
+	// register: 4
+	register int LoopX;
+	// register: 5
+	register int LoopY;
+	// register: 4
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 4
+	// size: 0x6C
+	register struct TextDat_dup_14 *TData;
 }
 
 
@@ -845,20 +845,6 @@ void DrawInvTSK__FP4TASK_addr_80150478(struct TASK *T) {
 }
 
 
-// address: 0x801583EC
-// line start: 942
-// line end:   1046
-void DrawInvTSK__FP4TASK_addr_801583EC(struct TASK *T) {
-	// register: 18
-	register int omp;
-	// register: 19
-	register int osel;
-	// register: 16
-	// size: 0xE0
-	register struct CBlocks_dup_14 *BgBlocks;
-}
-
-
 // address: 0x8013F0FC
 // line start: 919
 // line end:   994
@@ -870,6 +856,20 @@ void DrawInvTSK__FP4TASK_addr_8013F0FC(struct TASK *T) {
 	register int omp;
 	// register: 16
 	register int osel;
+}
+
+
+// address: 0x801583EC
+// line start: 942
+// line end:   1046
+void DrawInvTSK__FP4TASK_addr_801583EC(struct TASK *T) {
+	// register: 18
+	register int omp;
+	// register: 19
+	register int osel;
+	// register: 16
+	// size: 0xE0
+	register struct CBlocks_dup_14 *BgBlocks;
 }
 
 
@@ -983,7 +983,7 @@ void InvAlignObject__Fv() {
 }
 
 
-// address: 0x8014ECE0
+// address: 0x80140568
 // line start: 478
 // line end:   491
 void InvDrawItem__FiiiUci(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
@@ -991,21 +991,21 @@ void InvDrawItem__FiiiUci(int ItemX, int ItemY, int ItemNo, unsigned char StatFl
 	// size: 0x28
 	register struct POLY_FT4 *Ft4;
 	// register: 4
-	// size: 0x68
-	register struct TextDat_dup_1 *TData;
+	// size: 0x6C
+	register struct TextDat *TData;
 }
 
 
-// address: 0x80140568
+// address: 0x8014ECE0
 // line start: 478
 // line end:   491
-void InvDrawItem__FiiiUci_addr_80140568(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
+void InvDrawItem__FiiiUci_addr_8014ECE0(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
 	// register: 3
 	// size: 0x28
 	register struct POLY_FT4 *Ft4;
 	// register: 4
-	// size: 0x6C
-	register struct TextDat *TData;
+	// size: 0x68
+	register struct TextDat_dup_1 *TData;
 }
 
 
@@ -1091,23 +1091,23 @@ void InvMoveCursDown__Fv_addr_8014823C() {
 }
 
 
+// address: 0x80149CD8
+// line start: 3459
+// line end:   3540
+void InvMoveCursLeft__Fv() {
+	// register: 5
+	register int ItemInc;
+}
+
+
 // address: 0x80147B4C
 // line start: 3520
 // line end:   3603
-void InvMoveCursLeft__Fv() {
+void InvMoveCursLeft__Fv_addr_80147B4C() {
 	// register: 5
 	register int ItemInc;
 	// register: 16
 	register int OldPos;
-}
-
-
-// address: 0x80149CD8
-// line start: 3459
-// line end:   3540
-void InvMoveCursLeft__Fv_addr_80149CD8() {
-	// register: 5
-	register int ItemInc;
 }
 
 
@@ -1131,6 +1131,15 @@ void InvMoveCursRight__Fv_addr_80149EB4() {
 }
 
 
+// address: 0x80146CC8
+// line start: 3600
+// line end:   3687
+void InvMoveCursRight__Fv_addr_80146CC8() {
+	// register: 6
+	register int ItemInc;
+}
+
+
 // address: 0x80156DFC
 // line start: 3618
 // line end:   3707
@@ -1139,15 +1148,6 @@ void InvMoveCursRight__Fv_addr_80156DFC() {
 	register int ItemInc;
 	// register: 16
 	register int OldPos;
-}
-
-
-// address: 0x80146CC8
-// line start: 3600
-// line end:   3687
-void InvMoveCursRight__Fv_addr_80146CC8() {
-	// register: 6
-	register int ItemInc;
 }
 
 
@@ -1224,20 +1224,20 @@ int InvPutItem__Fiii(int pnum, int x, int y) {
 }
 
 
-// address: 0x80149B44
-// line start: 3434
-// line end:   3452
+// address: 0x8015F49C
+// line start: 3553
+// line end:   3573
 void InvSetItemCurs__Fv() {
-	// register: 5
+	// register: 6
 	register int ItemNo;
 }
 
 
-// address: 0x8015F49C
-// line start: 3553
-// line end:   3573
-void InvSetItemCurs__Fv_addr_8015F49C() {
-	// register: 6
+// address: 0x80149B44
+// line start: 3434
+// line end:   3452
+void InvSetItemCurs__Fv_addr_80149B44() {
+	// register: 5
 	register int ItemNo;
 }
 
@@ -1296,30 +1296,10 @@ void StartGoldDrop__Fv() {
 }
 
 
-// address: 0x80150550
-// line start: 1473
-// line end:   1479
-int SwapItem__FP10ItemStructT0(struct ItemStruct_dup_6 *a, struct ItemStruct_dup_6 *b) {
-	// address: 0xFFFFFF68
-	// size: 0x98
-	auto struct ItemStruct_dup_6 h;
-}
-
-
-// address: 0x80158F50
-// line start: 1513
-// line end:   1519
-int SwapItem__FP10ItemStructT0_addr_80158F50(struct ItemStruct_dup_13 *a, struct ItemStruct_dup_13 *b) {
-	// address: 0xFFFFFF68
-	// size: 0x98
-	auto struct ItemStruct_dup_13 h;
-}
-
-
 // address: 0x8014363C
 // line start: 1422
 // line end:   1428
-int SwapItem__FP10ItemStructT0_addr_8014363C(struct ItemStruct *a, struct ItemStruct *b) {
+int SwapItem__FP10ItemStructT0(struct ItemStruct *a, struct ItemStruct *b) {
 	// address: 0xFFFFFF68
 	// size: 0x94
 	auto struct ItemStruct h;
@@ -1336,6 +1316,16 @@ int SwapItem__FP10ItemStructT0_addr_80145288(struct ItemStruct *a, struct ItemSt
 }
 
 
+// address: 0x80158F50
+// line start: 1513
+// line end:   1519
+int SwapItem__FP10ItemStructT0_addr_80158F50(struct ItemStruct_dup_13 *a, struct ItemStruct_dup_13 *b) {
+	// address: 0xFFFFFF68
+	// size: 0x98
+	auto struct ItemStruct_dup_13 h;
+}
+
+
 // address: 0x80157528
 // line start: 1502
 // line end:   1508
@@ -1343,6 +1333,16 @@ int SwapItem__FP10ItemStructT0_addr_80157528(struct ItemStruct_dup_11 *a, struct
 	// address: 0xFFFFFF68
 	// size: 0x98
 	auto struct ItemStruct_dup_11 h;
+}
+
+
+// address: 0x80150550
+// line start: 1473
+// line end:   1479
+int SwapItem__FP10ItemStructT0_addr_80150550(struct ItemStruct_dup_6 *a, struct ItemStruct_dup_6 *b) {
+	// address: 0xFFFFFF68
+	// size: 0x98
+	auto struct ItemStruct_dup_6 h;
 }
 
 
@@ -1423,9 +1423,9 @@ unsigned char TryInvPut__Fv() {
 }
 
 
-// address: 0x8014AA50
-// line start: 3137
-// line end:   3223
+// address: 0x80155D18
+// line start: 3121
+// line end:   3207
 unsigned char UseInvItem__Fii(int pnum, int cii) {
 	// register: 18
 	register int c;
@@ -1435,25 +1435,7 @@ unsigned char UseInvItem__Fii(int pnum, int cii) {
 	register int it;
 	// register: 17
 	// size: 0x98
-	register struct ItemStruct *Item;
-	// register: 19
-	register unsigned char speedlist;
-}
-
-
-// address: 0x80148D30
-// line start: 3062
-// line end:   3148
-unsigned char UseInvItem__Fii_addr_80148D30(int pnum, int cii) {
-	// register: 18
-	register int c;
-	// register: 3
-	register int idata;
-	// register: 3
-	register int it;
-	// register: 17
-	// size: 0x94
-	register struct ItemStruct *Item;
+	register struct ItemStruct_dup_6 *Item;
 	// register: 19
 	register unsigned char speedlist;
 }
@@ -1477,10 +1459,10 @@ unsigned char UseInvItem__Fii_addr_8015CCE4(int pnum, int cii) {
 }
 
 
-// address: 0x80155D18
-// line start: 3121
-// line end:   3207
-unsigned char UseInvItem__Fii_addr_80155D18(int pnum, int cii) {
+// address: 0x8014AA50
+// line start: 3137
+// line end:   3223
+unsigned char UseInvItem__Fii_addr_8014AA50(int pnum, int cii) {
 	// register: 18
 	register int c;
 	// register: 3
@@ -1489,7 +1471,7 @@ unsigned char UseInvItem__Fii_addr_80155D18(int pnum, int cii) {
 	register int it;
 	// register: 17
 	// size: 0x98
-	register struct ItemStruct_dup_6 *Item;
+	register struct ItemStruct *Item;
 	// register: 19
 	register unsigned char speedlist;
 }
@@ -1513,6 +1495,24 @@ unsigned char UseInvItem__Fii_addr_8015E70C(int pnum, int cii) {
 }
 
 
+// address: 0x80148D30
+// line start: 3062
+// line end:   3148
+unsigned char UseInvItem__Fii_addr_80148D30(int pnum, int cii) {
+	// register: 18
+	register int c;
+	// register: 3
+	register int idata;
+	// register: 3
+	register int it;
+	// register: 17
+	// size: 0x94
+	register struct ItemStruct *Item;
+	// register: 19
+	register unsigned char speedlist;
+}
+
+
 // address: 0x8014889C
 // line start: 2936
 // line end:   2958
@@ -1522,31 +1522,17 @@ unsigned char UseScroll__Fv() {
 }
 
 
-// address: 0x8015CAC0
-// line start: 3053
-// line end:   3060
-void UseStaffCharge__FP12PlayerStruct(struct PlayerStruct_dup_11 *ptrplr) {
-}
-
-
 // address: 0x8015E4E8
 // line start: 3064
 // line end:   3071
-void UseStaffCharge__FP12PlayerStruct_addr_8015E4E8(struct PlayerStruct_dup_13 *ptrplr) {
+void UseStaffCharge__FP12PlayerStruct(struct PlayerStruct_dup_13 *ptrplr) {
 }
 
 
-// address: 0x80145A54
-// line start: 3009
-// line end:   3016
-void UseStaffCharge__FP12PlayerStruct_addr_80145A54(struct PlayerStruct_dup_4 *ptrplr) {
-}
-
-
-// address: 0x8014A82C
-// line start: 3040
-// line end:   3047
-void UseStaffCharge__FP12PlayerStruct_addr_8014A82C(struct PlayerStruct_dup_7 *ptrplr) {
+// address: 0x8015CAC0
+// line start: 3053
+// line end:   3060
+void UseStaffCharge__FP12PlayerStruct_addr_8015CAC0(struct PlayerStruct_dup_11 *ptrplr) {
 }
 
 
@@ -1557,10 +1543,24 @@ void UseStaffCharge__FP12PlayerStruct_addr_80148B04(struct PlayerStruct *ptrplr)
 }
 
 
+// address: 0x80145A54
+// line start: 3009
+// line end:   3016
+void UseStaffCharge__FP12PlayerStruct_addr_80145A54(struct PlayerStruct_dup_4 *ptrplr) {
+}
+
+
 // address: 0x80155AF4
 // line start: 3024
 // line end:   3031
 void UseStaffCharge__FP12PlayerStruct_addr_80155AF4(struct PlayerStruct_dup_6 *ptrplr) {
+}
+
+
+// address: 0x8014A82C
+// line start: 3040
+// line end:   3047
+void UseStaffCharge__FP12PlayerStruct_addr_8014A82C(struct PlayerStruct_dup_7 *ptrplr) {
 }
 
 
@@ -1582,6 +1582,611 @@ unsigned char UseStaff__Fv() {
 // line start: 1389
 // line end:   1416
 unsigned char WeaponAutoPlace__Fi(int pnum) {
+}
+
+
+// address: 0x8015F460
+// line start: 3207
+// line end:   3330
+char CheckInvHLight__Fv_addr_8015F460() {
+	// register: 16
+	register int r;
+	// register: 19
+	register char rv;
+	// register: 17
+	// size: 0x6C
+	register struct ItemStruct *pi;
+	// register: 18
+	// size: 0x19E8
+	register struct PlayerStruct_dup_18 *p;
+	{
+		{
+			// register: 17
+			register int nGold;
+		}
+	}
+}
+
+
+// address: 0x8015ADD8
+// line start: 3207
+// line end:   3330
+char CheckInvHLight__Fv_addr_8015ADD8() {
+	// register: 16
+	register int r;
+	// register: 19
+	register char rv;
+	// register: 17
+	// size: 0x6C
+	register struct ItemStruct *pi;
+	// register: 18
+	// size: 0x19E8
+	register struct PlayerStruct *p;
+	{
+		{
+			// register: 17
+			register int nGold;
+		}
+	}
+}
+
+
+// address: 0x8015F568
+// line start: 3207
+// line end:   3330
+char CheckInvHLight__Fv_addr_8015F568() {
+	// register: 16
+	register int r;
+	// register: 19
+	register char rv;
+	// register: 17
+	// size: 0x6C
+	register struct ItemStruct_dup_17 *pi;
+	// register: 18
+	// size: 0x19E8
+	register struct PlayerStruct_dup_17 *p;
+	{
+		{
+			// register: 17
+			register int nGold;
+		}
+	}
+}
+
+
+// address: 0x8015A884
+// line start: 1754
+// line end:   2185
+void CheckInvPaste__Fiii_addr_8015A884(int pnum, int mx, int my) {
+	// register: 20
+	register int r;
+	// register: 22
+	register int sx;
+	// register: 23
+	register int sy;
+	// register: 16
+	register int i;
+	// register: 9
+	register int j;
+	// register: 7
+	register int xx;
+	// register: 10
+	register int yy;
+	// register: 8
+	register int ii;
+	// address: 0xFFFFFF68
+	auto unsigned char done;
+	// register: 17
+	register unsigned char done2h;
+	// register: 19
+	register int il;
+	// register: 21
+	register int cn;
+	// register: 2
+	register int it;
+	// register: 17
+	register int iv;
+	// register: 5
+	register int ig;
+	// register: 5
+	register long gt;
+	// address: 0xFFFFFEF8
+	// size: 0x6C
+	auto struct ItemStruct tempitem;
+}
+
+
+// address: 0x8015A98C
+// line start: 1754
+// line end:   2185
+void CheckInvPaste__Fiii_addr_8015A98C(int pnum, int mx, int my) {
+	// register: 20
+	register int r;
+	// register: 22
+	register int sx;
+	// register: 23
+	register int sy;
+	// register: 16
+	register int i;
+	// register: 9
+	register int j;
+	// register: 7
+	register int xx;
+	// register: 10
+	register int yy;
+	// register: 8
+	register int ii;
+	// address: 0xFFFFFF68
+	auto unsigned char done;
+	// register: 17
+	register unsigned char done2h;
+	// register: 19
+	register int il;
+	// register: 21
+	register int cn;
+	// register: 2
+	register int it;
+	// register: 17
+	register int iv;
+	// register: 5
+	register int ig;
+	// register: 5
+	register long gt;
+	// address: 0xFFFFFEF8
+	// size: 0x6C
+	auto struct ItemStruct_dup_17 tempitem;
+}
+
+
+// address: 0x8015D52C
+// line start: 2430
+// line end:   2439
+void CheckItemStats__Fi_addr_8015D52C(int pnum) {
+	// register: 4
+	// size: 0x19E8
+	register struct PlayerStruct_dup_18 *p;
+}
+
+
+// address: 0x8015D634
+// line start: 2430
+// line end:   2439
+void CheckItemStats__Fi_addr_8015D634(int pnum) {
+	// register: 4
+	// size: 0x19E8
+	register struct PlayerStruct_dup_17 *p;
+}
+
+
+// address: 0x80158EA4
+// line start: 2430
+// line end:   2439
+void CheckItemStats__Fi_addr_80158EA4(int pnum) {
+	// register: 4
+	// size: 0x19E8
+	register struct PlayerStruct *p;
+}
+
+
+// address: 0x80159230
+// line start: 1249
+// line end:   1482
+void DoThatDrawInv__Fv_addr_80159230() {
+	// register: 16
+	register int Loop;
+	// register: 3
+	register int ii;
+	// register: 8
+	register int ItemX;
+	// register: 5
+	register int ItemY;
+	// register: 6
+	register int ItemNo;
+	// address: 0xFFFFFFE0
+	// size: 0x8
+	auto struct RECT ClipRect;
+}
+
+
+// address: 0x80158144
+// line start: 783
+// line end:   904
+void DrawInvCursor__Fv_addr_80158144() {
+	// register: 17
+	register int ItemX;
+	// register: 16
+	register int ItemY;
+	// register: 4
+	register int LoopX;
+	// register: 5
+	register int LoopY;
+	// register: 4
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 18
+	// size: 0x70
+	register struct TextDat_dup_17 *TData;
+	{
+		{
+			{
+				{
+					{
+						{
+							// register: 3
+							register int GoldAmount;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8015803C
+// line start: 783
+// line end:   904
+void DrawInvCursor__Fv_addr_8015803C() {
+	// register: 17
+	register int ItemX;
+	// register: 16
+	register int ItemY;
+	// register: 4
+	register int LoopX;
+	// register: 5
+	register int LoopY;
+	// register: 4
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 18
+	// size: 0x70
+	register struct TextDat_dup_18 *TData;
+	{
+		{
+			{
+				{
+					{
+						{
+							// register: 3
+							register int GoldAmount;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x801539B4
+// line start: 783
+// line end:   904
+void DrawInvCursor__Fv_addr_801539B4() {
+	// register: 17
+	register int ItemX;
+	// register: 16
+	register int ItemY;
+	// register: 4
+	register int LoopX;
+	// register: 5
+	register int LoopY;
+	// register: 4
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 18
+	// size: 0x70
+	register struct TextDat *TData;
+	{
+		{
+			{
+				{
+					{
+						{
+							// register: 3
+							register int GoldAmount;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x801588DC
+// line start: 966
+// line end:   1021
+void DrawInvHelpTxt__Fv() {
+	// address: 0xFFFFFF78
+	// size: 0x80
+	auto char TempStr[128];
+}
+
+
+// address: 0x80158710
+// line start: 910
+// line end:   958
+void DrawInvMsg__Fv_addr_80158710() {
+	// register: 2
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// address: 0xFFFFFFD0
+	// size: 0x8
+	auto struct RECT InfoRect;
+	// register: 2
+	register int InfoY;
+	// register: 2
+	register int InfoW;
+	// register: 20
+	register int InfoH;
+	// address: 0xFFFFFFD8
+	// size: 0x10
+	auto struct Dialog InvBack;
+	// register: 17
+	register int OldOt;
+}
+
+
+// address: 0x80158C0C
+// line start: 1053
+// line end:   1242
+void DrawInvTSK__FP4TASK_addr_80158C0C(struct TASK *T) {
+	// register: 21
+	register int omp;
+	// register: 20
+	register int osel;
+	// register: 19
+	// size: 0x108
+	register struct CBlocks_dup_17 *BgBlocks;
+	{
+		// register: 16
+		register int OldOt;
+		{
+			{
+				{
+					{
+						// register: 16
+						register int PInvNo;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80158B04
+// line start: 1053
+// line end:   1242
+void DrawInvTSK__FP4TASK_addr_80158B04(struct TASK *T) {
+	// register: 21
+	register int omp;
+	// register: 20
+	register int osel;
+	// register: 19
+	// size: 0x108
+	register struct CBlocks_dup_18 *BgBlocks;
+	{
+		// register: 16
+		register int OldOt;
+		{
+			{
+				{
+					{
+						// register: 16
+						register int PInvNo;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x801544C4
+// line start: 1053
+// line end:   1242
+void DrawInvTSK__FP4TASK_addr_801544C4(struct TASK *T) {
+	// register: 21
+	register int omp;
+	// register: 20
+	register int osel;
+	// register: 19
+	// size: 0x108
+	register struct CBlocks *BgBlocks;
+	{
+		// register: 16
+		register int OldOt;
+		{
+			{
+				{
+					{
+						// register: 16
+						register int PInvNo;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8015447C
+// line start: 1053
+// line end:   1242
+void DrawInvTSK__FP4TASK_addr_8015447C(struct TASK *T) {
+	// register: 21
+	register int omp;
+	// register: 20
+	register int osel;
+	// register: 19
+	// size: 0x108
+	register struct CBlocks_dup_19 *BgBlocks;
+	{
+		// register: 16
+		register int OldOt;
+		{
+			{
+				{
+					{
+						// register: 16
+						register int PInvNo;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80152938
+// line start: 508
+// line end:   523
+void InvDrawItem__FiiiUci_addr_80152938(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
+	// register: 3
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 4
+	// size: 0x70
+	register struct TextDat *TData;
+}
+
+
+// address: 0x80156FC0
+// line start: 508
+// line end:   523
+void InvDrawItem__FiiiUci_addr_80156FC0(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
+	// register: 3
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 4
+	// size: 0x70
+	register struct TextDat_dup_18 *TData;
+}
+
+
+// address: 0x801570C8
+// line start: 508
+// line end:   523
+void InvDrawItem__FiiiUci_addr_801570C8(int ItemX, int ItemY, int ItemNo, unsigned char StatFlag, int TransFlag) {
+	// register: 3
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 4
+	// size: 0x70
+	register struct TextDat_dup_17 *TData;
+}
+
+
+// address: 0x8015EC88
+// line start: 2953
+// line end:   3086
+int InvPutItem__Fiii_addr_8015EC88(int pnum, int x, int y) {
+	// register: 16
+	register int ii;
+	// register: 18
+	register unsigned char done;
+	{
+		{
+			{
+				// register: 17
+				register int Dist;
+				{
+					{
+						// register: 16
+						register int d;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8015A878
+// line start: 1741
+// line end:   1747
+int SwapItem__FP10ItemStructT0_addr_8015A878(struct ItemStruct_dup_17 *a, struct ItemStruct_dup_17 *b) {
+	// address: 0xFFFFFF90
+	// size: 0x6C
+	auto struct ItemStruct_dup_17 h;
+}
+
+
+// address: 0x8015A770
+// line start: 1741
+// line end:   1747
+int SwapItem__FP10ItemStructT0_addr_8015A770(struct ItemStruct *a, struct ItemStruct *b) {
+	// address: 0xFFFFFF90
+	// size: 0x6C
+	auto struct ItemStruct h;
+}
+
+
+// address: 0x8015EB48
+// line start: 2897
+// line end:   2923
+unsigned char TryInvPut__Fv_addr_8015EB48() {
+	// register: 17
+	register int Dist;
+	{
+		{
+			// register: 16
+			register int d;
+			{
+			}
+		}
+	}
+}
+
+
+// address: 0x8015FF74
+// line start: 3492
+// line end:   3622
+unsigned char UseInvItem__Fii_addr_8015FF74(int pnum, int cii) {
+	// register: 18
+	register int c;
+	// register: 3
+	register int idata;
+	// register: 3
+	register int it;
+	// register: 17
+	// size: 0x6C
+	register struct ItemStruct_dup_17 *Item;
+	// register: 19
+	register unsigned char speedlist;
+}
+
+
+// address: 0x8015FE6C
+// line start: 3492
+// line end:   3622
+unsigned char UseInvItem__Fii_addr_8015FE6C(int pnum, int cii) {
+	// register: 18
+	register int c;
+	// register: 3
+	register int idata;
+	// register: 3
+	register int it;
+	// register: 17
+	// size: 0x6C
+	register struct ItemStruct *Item;
+	// register: 19
+	register unsigned char speedlist;
+}
+
+
+// address: 0x8015FD4C
+// line start: 3395
+// line end:   3402
+void UseStaffCharge__FP12PlayerStruct_addr_8015FD4C(struct PlayerStruct_dup_17 *ptrplr) {
+}
+
+
+// address: 0x8015FC44
+// line start: 3395
+// line end:   3402
+void UseStaffCharge__FP12PlayerStruct_addr_8015FC44(struct PlayerStruct_dup_18 *ptrplr) {
 }
 
 

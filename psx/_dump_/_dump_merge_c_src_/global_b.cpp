@@ -2,13 +2,13 @@
 
 #include "types.h"
 
+// address: 0x801596E8
+// size: 0x80
+extern char AlertStr[128];
+
 // address: 0x8012A4B8
 // size: 0xA
 extern unsigned char BIG1[10];
-
-// address: 0x8012A4F4
-// size: 0xA
-extern unsigned char BIG10[10];
 
 // address: 0x8012A4C4
 // size: 0xA
@@ -25,6 +25,10 @@ extern unsigned char BIG8[10];
 // address: 0x8012A4E8
 // size: 0xA
 extern unsigned char BIG9[10];
+
+// address: 0x8012A4F4
+// size: 0xA
+extern unsigned char BIG10[10];
 
 // address: 0x8012310C
 // size: 0xCE
@@ -74,6 +78,26 @@ extern unsigned char CTRDOOR7[20];
 // size: 0x14
 extern unsigned char CTRDOOR8[20];
 
+// address: 0x801577C0
+// size: 0x1DE0
+extern struct CharDataStructDef_dup_18 CharDataStruct;
+
+// address: 0x801578C8
+// size: 0x1DE0
+extern struct CharDataStructDef CharDataStruct_addr_801578C8;
+
+// address: 0x801437D0
+// size: 0xC
+extern int ClassStrTbl[3];
+
+// address: 0x8013CCB0
+// size: 0x258
+extern struct Creds CreditsText[50];
+
+// address: 0x8013CDB8
+// size: 0x258
+extern struct Creds_dup_17 CreditsText_addr_8013CDB8[50];
+
 // address: 0x8012A45C
 // size: 0x22
 extern unsigned char DSTAIRS[34];
@@ -89,6 +113,38 @@ extern int Dir_Yadd[5];
 // address: 0x8012A1B8
 // size: 0xE
 extern unsigned char HARCH1[14];
+
+// address: 0x8012A1C8
+// size: 0xE
+extern unsigned char HARCH2[14];
+
+// address: 0x8012A1D8
+// size: 0xE
+extern unsigned char HARCH3[14];
+
+// address: 0x8012A1E8
+// size: 0xE
+extern unsigned char HARCH4[14];
+
+// address: 0x8012A1F8
+// size: 0xE
+extern unsigned char HARCH5[14];
+
+// address: 0x8012A208
+// size: 0xE
+extern unsigned char HARCH6[14];
+
+// address: 0x8012A218
+// size: 0xE
+extern unsigned char HARCH7[14];
+
+// address: 0x8012A228
+// size: 0xE
+extern unsigned char HARCH8[14];
+
+// address: 0x8012A238
+// size: 0xE
+extern unsigned char HARCH9[14];
 
 // address: 0x8012A248
 // size: 0xE
@@ -130,10 +186,6 @@ extern unsigned char HARCH18[14];
 // size: 0xE
 extern unsigned char HARCH19[14];
 
-// address: 0x8012A1C8
-// size: 0xE
-extern unsigned char HARCH2[14];
-
 // address: 0x8012A2E8
 // size: 0xE
 extern unsigned char HARCH20[14];
@@ -173,10 +225,6 @@ extern unsigned char HARCH28[14];
 // address: 0x8012A378
 // size: 0xE
 extern unsigned char HARCH29[14];
-
-// address: 0x8012A1D8
-// size: 0xE
-extern unsigned char HARCH3[14];
 
 // address: 0x8012A388
 // size: 0xE
@@ -218,33 +266,9 @@ extern unsigned char HARCH38[14];
 // size: 0xE
 extern unsigned char HARCH39[14];
 
-// address: 0x8012A1E8
-// size: 0xE
-extern unsigned char HARCH4[14];
-
 // address: 0x8012A428
 // size: 0xE
 extern unsigned char HARCH40[14];
-
-// address: 0x8012A1F8
-// size: 0xE
-extern unsigned char HARCH5[14];
-
-// address: 0x8012A208
-// size: 0xE
-extern unsigned char HARCH6[14];
-
-// address: 0x8012A218
-// size: 0xE
-extern unsigned char HARCH7[14];
-
-// address: 0x8012A228
-// size: 0xE
-extern unsigned char HARCH8[14];
-
-// address: 0x8012A238
-// size: 0xE
-extern unsigned char HARCH9[14];
 
 // address: 0x801314FC
 // size: 0xF4
@@ -286,14 +310,6 @@ static unsigned char L3ISLE5[10];
 // size: 0x22
 static unsigned char L3TITE1[34];
 
-// address: 0x80131488
-// size: 0x14
-static unsigned char L3TITE10[20];
-
-// address: 0x8013149C
-// size: 0x14
-static unsigned char L3TITE11[20];
-
 // address: 0x801313C0
 // size: 0x22
 static unsigned char L3TITE2[34];
@@ -317,6 +333,14 @@ static unsigned char L3TITE8[20];
 // address: 0x80131474
 // size: 0x14
 static unsigned char L3TITE9[20];
+
+// address: 0x80131488
+// size: 0x14
+static unsigned char L3TITE10[20];
+
+// address: 0x8013149C
+// size: 0x14
+static unsigned char L3TITE11[20];
 
 // address: 0x80131360
 // size: 0x14
@@ -414,6 +438,10 @@ static unsigned char STAIRSDOWN[26];
 // size: 0x22
 static unsigned char STAIRSUP[34];
 
+// address: 0x801596A8
+// size: 0x40
+extern char TempStr[64];
+
 // address: 0x8012A438
 // size: 0x22
 extern unsigned char USTAIRS[34];
@@ -421,6 +449,38 @@ extern unsigned char USTAIRS[34];
 // address: 0x80129EB8
 // size: 0x12
 extern unsigned char VARCH1[18];
+
+// address: 0x80129ECC
+// size: 0x12
+extern unsigned char VARCH2[18];
+
+// address: 0x80129EE0
+// size: 0x12
+extern unsigned char VARCH3[18];
+
+// address: 0x80129EF4
+// size: 0x12
+extern unsigned char VARCH4[18];
+
+// address: 0x80129F08
+// size: 0x12
+extern unsigned char VARCH5[18];
+
+// address: 0x80129F1C
+// size: 0x12
+extern unsigned char VARCH6[18];
+
+// address: 0x80129F30
+// size: 0x12
+extern unsigned char VARCH7[18];
+
+// address: 0x80129F44
+// size: 0x12
+extern unsigned char VARCH8[18];
+
+// address: 0x80129F58
+// size: 0x12
+extern unsigned char VARCH9[18];
 
 // address: 0x80129F6C
 // size: 0x12
@@ -462,10 +522,6 @@ extern unsigned char VARCH18[14];
 // size: 0xE
 extern unsigned char VARCH19[14];
 
-// address: 0x80129ECC
-// size: 0x12
-extern unsigned char VARCH2[18];
-
 // address: 0x8012A028
 // size: 0xE
 extern unsigned char VARCH20[14];
@@ -505,10 +561,6 @@ extern unsigned char VARCH28[18];
 // address: 0x8012A0C8
 // size: 0x12
 extern unsigned char VARCH29[18];
-
-// address: 0x80129EE0
-// size: 0x12
-extern unsigned char VARCH3[18];
 
 // address: 0x8012A0DC
 // size: 0x12
@@ -550,33 +602,9 @@ extern unsigned char VARCH38[18];
 // size: 0x12
 extern unsigned char VARCH39[18];
 
-// address: 0x80129EF4
-// size: 0x12
-extern unsigned char VARCH4[18];
-
 // address: 0x8012A1A4
 // size: 0x12
 extern unsigned char VARCH40[18];
-
-// address: 0x80129F08
-// size: 0x12
-extern unsigned char VARCH5[18];
-
-// address: 0x80129F1C
-// size: 0x12
-extern unsigned char VARCH6[18];
-
-// address: 0x80129F30
-// size: 0x12
-extern unsigned char VARCH7[18];
-
-// address: 0x80129F44
-// size: 0x12
-extern unsigned char VARCH8[18];
-
-// address: 0x80129F58
-// size: 0x12
-extern unsigned char VARCH9[18];
 
 // address: 0x8012A480
 // size: 0x22
@@ -597,6 +625,10 @@ extern unsigned char lockout[40][40];
 // address: 0x8012BBFC
 // size: 0x640
 extern unsigned char predungeon[40][40];
+
+// address: 0x801438C4
+// size: 0x14000
+extern unsigned char save_buffer[81920];
 
 // address: 0x80122C20
 // size: 0x3E8

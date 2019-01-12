@@ -233,10 +233,35 @@ void DRLG_L2FloodTVal__Fv() {
 }
 
 
+// address: 0x8013BBE0
+// line start: 2413
+// line end:   2496
+void DRLG_L2Pass3__Fv() {
+	// register: 12
+	register int i;
+	// register: 24
+	register int j;
+	// register: 8
+	register int xx;
+	// register: 15
+	register int yy;
+	// register: 13
+	register long v1;
+	// register: 4
+	register long v2;
+	// register: 9
+	register long v3;
+	// register: 3
+	register long v4;
+	// register: 2
+	register long lv;
+}
+
+
 // address: 0x8012F4B8
 // line start: 2408
 // line end:   2491
-void DRLG_L2Pass3__Fv() {
+void DRLG_L2Pass3__Fv_addr_8012F4B8() {
 	// register: 11
 	register int i;
 	// register: 24
@@ -536,6 +561,199 @@ void LoadPreL2Dungeon__FPcii(char *sFileName, int vx, int vy) {
 // line start: 1620
 // line end:   1622
 void PlaceHallExt__Fii(int nX, int nY) {
+}
+
+
+// address: 0x8014682C
+// line start: 2484
+// line end:   2578
+void DRLG_L2Pass3__Fv_addr_8014682C() {
+	// register: 20
+	register int i;
+	// register: 30
+	register int j;
+	// register: 17
+	register int xx;
+	// register: 18
+	register int yy;
+	// register: 7
+	register long v1;
+	// register: 22
+	register long v2;
+	// register: 21
+	register long v3;
+	// register: 23
+	register long v4;
+	// register: 2
+	register long lv;
+}
+
+
+// address: 0x801436C4
+// line start: 1205
+// line end:   1347
+unsigned char DRLG_L2PlaceMiniSet__FPUciiiiii_addr_801436C4(unsigned char *miniset, int tmin, int tmax, int cx, int cy, int setview, int ldir) {
+	// register: 10
+	register int sx;
+	// register: 11
+	register int sy;
+	// register: 17
+	register int sw;
+	// register: 18
+	register int sh;
+	// register: 5
+	register int xx;
+	// register: 7
+	register int yy;
+	// register: 16
+	register int i;
+	// register: 8
+	register int ii;
+	// register: 22
+	register int numt;
+	// register: 6
+	register int found;
+	// address: 0xFFFFFDB8
+	// size: 0x200
+	auto int randxy[128];
+	// register: 19
+	register int rcount;
+	// register: 13
+	register int failed;
+	{
+		{
+		}
+	}
+}
+
+
+// address: 0x80147764
+// line start: 2778
+// line end:   2810
+void DRLG_L2SetWalls__Fv() {
+	// register: 8
+	register int i;
+	// register: 10
+	register int j;
+	// register: 14
+	register int yy;
+	{
+		{
+			{
+				{
+					// register: 3
+					register int v;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80146FA4
+// line start: 2653
+// line end:   2685
+void DRLG_L2TransFix__Fv_addr_80146FA4() {
+	// register: 13
+	register int j;
+	// register: 14
+	register int yy;
+}
+
+
+// address: 0x80144274
+// line start: 1565
+// line end:   1608
+void DefineRoom__Fiiiii_addr_80144274(int nX1, int nY1, int nX2, int nY2, int ForceHW) {
+	// register: 5
+	register int i;
+	// register: 3
+	register int j;
+	// register: 13
+	register unsigned char ft;
+}
+
+
+// address: 0x801453F4
+// line start: 1987
+// line end:   2056
+void DoPatternCheck__Fii_addr_801453F4(int i, int j) {
+	// register: 25
+	register int k;
+	// register: 8
+	register int l;
+	// register: 4
+	register int x;
+	// register: 7
+	register int y;
+	// register: 6
+	register int nOk;
+}
+
+
+// address: 0x8014405C
+// line start: 1482
+// line end:   1491
+void InitDungeon__Fv_addr_8014405C() {
+	// register: 5
+	register int i;
+	// register: 4
+	register int j;
+}
+
+
+// address: 0x80147330
+// line start: 2716
+// line end:   2758
+void L2LockoutFix__Fv_addr_80147330() {
+	// register: 11
+	register int i;
+	// register: 12
+	register int j;
+	// register: 8
+	register unsigned char doorok;
+}
+
+
+// address: 0x80148378
+// line start: 3068
+// line end:   3147
+void LoadL2Dungeon__FPcii_addr_80148378(char *sFileName, int vx, int vy) {
+	// register: 5
+	register int i;
+	// register: 7
+	register int j;
+	// register: 11
+	register int rw;
+	// register: 12
+	register int rh;
+	// register: 16
+	register unsigned char *pLevelMap;
+	// register: 8
+	register unsigned char *lm;
+	{
+	}
+}
+
+
+// address: 0x80148570
+// line start: 3155
+// line end:   3196
+void LoadPreL2Dungeon__FPcii_addr_80148570(char *sFileName, int vx, int vy) {
+	// register: 5
+	register int i;
+	// register: 7
+	register int j;
+	// register: 11
+	register int rw;
+	// register: 12
+	register int rh;
+	// register: 15
+	register unsigned char *pLevelMap;
+	// register: 8
+	register unsigned char *lm;
+	{
+	}
 }
 
 

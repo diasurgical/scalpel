@@ -102,3 +102,47 @@ void InitVPTriggers__Fv() {
 }
 
 
+// address: 0x801629D0
+// line start: 161
+// line end:   183
+void InitL1Triggers__Fv_addr_801629D0() {
+	// register: 16
+	register int i;
+	// register: 17
+	register int j;
+}
+
+
+// address: 0x80162AFC
+// line start: 190
+// line end:   222
+void InitL2Triggers__Fv_addr_80162AFC() {
+	// register: 16
+	register int i;
+	// register: 17
+	register int j;
+}
+
+
+// address: 0x80162CC4
+// line start: 229
+// line end:   258
+void InitL3Triggers__Fv_addr_80162CC4() {
+	// register: 16
+	register int i;
+	// register: 17
+	register int j;
+}
+
+
+// address: 0x80162E50
+// line start: 265
+// line end:   309
+void InitL4Triggers__Fv_addr_80162E50() {
+	// register: 16
+	register int i;
+	// register: 17
+	register int j;
+}
+
+

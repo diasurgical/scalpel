@@ -2,24 +2,24 @@
 
 #include "types.h"
 
-// address: 0x80155684
+// address: 0x80148D00
 // line start: 255
 // line end:   276
 int AddMonsterType__Fii(int type, int placeflag) {
 	// register: 16
 	register int i;
-	// register: 17
+	// register: 4
 	register unsigned char done;
 }
 
 
-// address: 0x80148D00
+// address: 0x80155684
 // line start: 255
 // line end:   276
-int AddMonsterType__Fii_addr_80148D00(int type, int placeflag) {
+int AddMonsterType__Fii_addr_80155684(int type, int placeflag) {
 	// register: 16
 	register int i;
-	// register: 4
+	// register: 17
 	register unsigned char done;
 }
 
@@ -92,27 +92,10 @@ void InitLevelMonsters__Fv() {
 }
 
 
-// address: 0x801554DC
-// line start: 114
-// line end:   170
-void InitMonsterGFX__Fi(int monst) {
-	// register: 5
-	register int anim;
-	// address: 0xFFFFFEF8
-	// size: 0x100
-	auto char strBuff[256];
-	// register: 3
-	register int mtype;
-	// register: 6
-	// size: 0x3C
-	register struct MonsterData *pmonsterdata;
-}
-
-
 // address: 0x80148B88
 // line start: 114
 // line end:   170
-void InitMonsterGFX__Fi_addr_80148B88(int monst) {
+void InitMonsterGFX__Fi(int monst) {
 	// register: 6
 	register int anim;
 	// address: 0xFFFFFF00
@@ -121,6 +104,23 @@ void InitMonsterGFX__Fi_addr_80148B88(int monst) {
 	// register: 3
 	register int mtype;
 	// register: 7
+	// size: 0x3C
+	register struct MonsterData *pmonsterdata;
+}
+
+
+// address: 0x801554DC
+// line start: 114
+// line end:   170
+void InitMonsterGFX__Fi_addr_801554DC(int monst) {
+	// register: 5
+	register int anim;
+	// address: 0xFFFFFEF8
+	// size: 0x100
+	auto char strBuff[256];
+	// register: 3
+	register int mtype;
+	// register: 6
 	// size: 0x3C
 	register struct MonsterData *pmonsterdata;
 }
@@ -350,28 +350,28 @@ void PlaceUniqueMonst__Fiii_addr_8015C664(int uniqindex, int miniontype, int unp
 }
 
 
-// address: 0x801577CC
-// line start: 1113
-// line end:   1147
-void PlaceUniques__Fv() {
-	// register: 17
-	register int u;
-	// register: 5
-	register int mt;
-	// register: 16
-	register unsigned char done;
-}
-
-
 // address: 0x8014AC00
 // line start: 1113
 // line end:   1147
-void PlaceUniques__Fv_addr_8014AC00() {
+void PlaceUniques__Fv() {
 	// register: 16
 	register int u;
 	// register: 5
 	register int mt;
 	// register: 4
+	register unsigned char done;
+}
+
+
+// address: 0x801577CC
+// line start: 1113
+// line end:   1147
+void PlaceUniques__Fv_addr_801577CC() {
+	// register: 17
+	register int u;
+	// register: 5
+	register int mt;
+	// register: 16
 	register unsigned char done;
 }
 
@@ -419,6 +419,249 @@ void decode_enemy__Fii(int m, int enemy) {
 // line start: 1183
 // line end:   1188
 int encode_enemy__Fi(int m) {
+}
+
+
+// address: 0x8015FEB0
+// line start: 339
+// line end:   376
+void ClrAllMonsters__Fv_addr_8015FEB0() {
+	// register: 17
+	register int i;
+	// register: 16
+	// size: 0x6C
+	register struct MonsterStruct *Monst;
+}
+
+
+// address: 0x8015FFB8
+// line start: 339
+// line end:   376
+void ClrAllMonsters__Fv_addr_8015FFB8() {
+	// register: 17
+	register int i;
+	// register: 16
+	// size: 0x6C
+	register struct MonsterStruct_dup_17 *Monst;
+}
+
+
+// address: 0x8016017C
+// line start: 402
+// line end:   606
+void GetLevelMTypes__Fv_addr_8016017C() {
+	// register: 17
+	register int i;
+	// register: 4
+	register int minl;
+	// register: 2
+	register int maxl;
+	// address: 0xFFFFFB20
+	// size: 0x2F8
+	auto int typelist[190];
+	// address: 0xFFFFFFD8
+	auto int mt;
+	// register: 17
+	register int nt;
+	// register: 20
+	register char mamask;
+	// register: 18
+	register unsigned long QuestMask;
+	{
+		{
+			{
+				{
+					// address: 0xFFFFFE18
+					// size: 0x1BC
+					auto int skeltypes[111];
+					// register: 19
+					register int numskeltypes;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8015FEF8
+// line start: 318
+// line end:   333
+void GetMonsterTypes__FUl_addr_8015FEF8(unsigned long QuestMask) {
+	// address: 0xFFFFFCE8
+	// size: 0x2F8
+	auto int typelist[190];
+	// address: 0xFFFFFFE0
+	auto int mt;
+	// register: 17
+	register int nt;
+}
+
+
+// address: 0x80160B28
+// line start: 732
+// line end:   820
+void PlaceGroup__FiiUci_addr_80160B28(int mtype, int num, unsigned char leaderf, int leader) {
+	// register: 16
+	register int xp;
+	// register: 18
+	register int yp;
+	// register: 21
+	register int x1;
+	// register: 23
+	register int y1;
+	// register: 20
+	register int j;
+	// register: 19
+	register int placed;
+	// address: 0xFFFFFFA8
+	auto int try1;
+	// register: 22
+	register int try2;
+	// register: 2
+	register int rd;
+}
+
+
+// address: 0x8016160C
+// line start: 1005
+// line end:   1273
+void PlaceUniqueMonst__Fiii_addr_8016160C(int uniqindex, int miniontype, int unpackfilesize) {
+	// address: 0xFFFFFFA0
+	// size: 0x18
+	auto struct UniqMonstStruct *Uniq;
+	// register: 20
+	// size: 0x6C
+	register struct MonsterStruct *Monst;
+	// register: 23
+	register int xp;
+	// register: 18
+	register int yp;
+	// register: 17
+	register int x;
+	// register: 16
+	register int y;
+	// register: 3
+	register unsigned char done;
+	// register: 19
+	register int count;
+	// address: 0xFFFFFFA8
+	auto int count2;
+	// address: 0xFFFFFF40
+	// size: 0x40
+	auto char filestr[64];
+	// address: 0xFFFFFFB0
+	auto int uniqtype;
+	// register: 5
+	register int i;
+	// address: 0xFFFFFFB8
+	auto unsigned char zharflag;
+	// register: 16
+	register int mMinDamage;
+	// register: 17
+	register int mMaxDamage;
+	{
+		{
+			// address: 0xFFFFFF80
+			auto int monstype;
+		}
+	}
+}
+
+
+// address: 0x80161714
+// line start: 1005
+// line end:   1273
+void PlaceUniqueMonst__Fiii_addr_80161714(int uniqindex, int miniontype, int unpackfilesize) {
+	// address: 0xFFFFFFA0
+	// size: 0x18
+	auto struct UniqMonstStruct *Uniq;
+	// register: 20
+	// size: 0x6C
+	register struct MonsterStruct_dup_17 *Monst;
+	// register: 23
+	register int xp;
+	// register: 18
+	register int yp;
+	// register: 17
+	register int x;
+	// register: 16
+	register int y;
+	// register: 3
+	register unsigned char done;
+	// register: 19
+	register int count;
+	// address: 0xFFFFFFA8
+	auto int count2;
+	// address: 0xFFFFFF40
+	// size: 0x40
+	auto char filestr[64];
+	// address: 0xFFFFFFB0
+	auto int uniqtype;
+	// register: 5
+	register int i;
+	// address: 0xFFFFFFB8
+	auto unsigned char zharflag;
+	// register: 16
+	register int mMinDamage;
+	// register: 17
+	register int mMaxDamage;
+	{
+		{
+			// address: 0xFFFFFF80
+			auto int monstype;
+		}
+	}
+}
+
+
+// address: 0x80162060
+// line start: 1279
+// line end:   1323
+void PlaceUniques__Fv_addr_80162060() {
+	// register: 17
+	register int u;
+	// register: 5
+	register int mt;
+	// register: 16
+	register unsigned char done;
+	{
+		{
+			{
+				{
+					// address: 0xFFFFFFE0
+					auto int monsttype;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8016112C
+// line start: 825
+// line end:   880
+void SetMapMonsters__FPUcii_addr_8016112C(unsigned char *pMap, int startx, int starty) {
+	// register: 16
+	register int i;
+	// register: 18
+	register int j;
+	// register: 2
+	register unsigned short rw;
+	// register: 20
+	register unsigned short rh;
+	// register: 17
+	register unsigned short *lm;
+	// address: 0xFFFFFFC8
+	auto int mt;
+}
+
+
+// address: 0x8015FB54
+// line start: 111
+// line end:   128
+void SwapMonsterType__FPi(int *oldmt) {
+	// register: 5
+	register int mt;
 }
 
 

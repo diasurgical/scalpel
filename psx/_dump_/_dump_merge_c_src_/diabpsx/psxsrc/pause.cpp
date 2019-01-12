@@ -93,6 +93,21 @@ void DoPause__14CPauseMessagesi_addr_8008079C(struct CPauseMessages *this, int n
 }
 
 
+// address: 0x800883E4
+// line start: 268
+// line end:   328
+void DoPause__14CPauseMessagesi_addr_800883E4(struct CPauseMessages *this, int nPadNum) {
+	{
+		{
+			{
+				{
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x800813E8
 // line start: 294
 // line end:   393
@@ -116,6 +131,19 @@ bool DoPausedMessage__14CPauseMessages(struct CPauseMessages *this) {
 				}
 			}
 		}
+	}
+}
+
+
+// address: 0x800885F4
+// line start: 339
+// line end:   451
+bool DoPausedMessage__14CPauseMessages_addr_800885F4(struct CPauseMessages *this) {
+	// register: 18
+	register bool RetVal;
+	// register: 17
+	register bool Done;
+	{
 	}
 }
 
@@ -337,10 +365,17 @@ int GetPausePad__Fv_addr_80082FB4() {
 }
 
 
-// address: 0x80084F10
-// line start: 567
-// line end:   568
-void InitPrintAreYouSure__17CTempPauseMessage(struct CTempPauseMessage_dup_1 *this) {
+// address: 0x800819A0
+// line start: 569
+// line end:   570
+void InitPrintAreYouSure__17CTempPauseMessage(struct CTempPauseMessage *this) {
+}
+
+
+// address: 0x80088C80
+// line start: 673
+// line end:   674
+void InitPrintAreYouSure__17CTempPauseMessage_addr_80088C80(struct CTempPauseMessage_dup_18 *this) {
 }
 
 
@@ -351,17 +386,45 @@ void InitPrintAreYouSure__17CTempPauseMessage_addr_80083BA8(struct CTempPauseMes
 }
 
 
-// address: 0x800819A0
-// line start: 569
-// line end:   570
-void InitPrintAreYouSure__17CTempPauseMessage_addr_800819A0(struct CTempPauseMessage *this) {
+// address: 0x80088BD8
+// line start: 673
+// line end:   674
+void InitPrintAreYouSure__17CTempPauseMessage_addr_80088BD8(struct CTempPauseMessage_dup_19 *this) {
+}
+
+
+// address: 0x80084F10
+// line start: 567
+// line end:   568
+void InitPrintAreYouSure__17CTempPauseMessage_addr_80084F10(struct CTempPauseMessage_dup_1 *this) {
+}
+
+
+// address: 0x80088D50
+// line start: 673
+// line end:   674
+void InitPrintAreYouSure__17CTempPauseMessage_addr_80088D50(struct CTempPauseMessage_dup_17 *this) {
+}
+
+
+// address: 0x80081AB0
+// line start: 595
+// line end:   596
+void InitPrintPaused__17CTempPauseMessage(struct CTempPauseMessage *this) {
 }
 
 
 // address: 0x80085020
 // line start: 593
 // line end:   594
-void InitPrintPaused__17CTempPauseMessage(struct CTempPauseMessage_dup_1 *this) {
+void InitPrintPaused__17CTempPauseMessage_addr_80085020(struct CTempPauseMessage_dup_1 *this) {
+}
+
+
+// address: 0x80088D60
+// line start: 710
+// line end:   711
+void InitPrintPaused__17CTempPauseMessage_addr_80088D60(struct CTempPauseMessage_dup_19 *this) {
 }
 
 
@@ -372,24 +435,24 @@ void InitPrintPaused__17CTempPauseMessage_addr_80083CD4(struct CTempPauseMessage
 }
 
 
-// address: 0x80081AB0
-// line start: 595
-// line end:   596
-void InitPrintPaused__17CTempPauseMessage_addr_80081AB0(struct CTempPauseMessage *this) {
+// address: 0x80088ED8
+// line start: 710
+// line end:   711
+void InitPrintPaused__17CTempPauseMessage_addr_80088ED8(struct CTempPauseMessage_dup_17 *this) {
 }
 
 
-// address: 0x80084E00
-// line start: 541
-// line end:   542
-void InitPrintQuitMessage__17CTempPauseMessage(struct CTempPauseMessage_dup_1 *this) {
+// address: 0x80088E08
+// line start: 710
+// line end:   711
+void InitPrintPaused__17CTempPauseMessage_addr_80088E08(struct CTempPauseMessage_dup_18 *this) {
 }
 
 
-// address: 0x80083A7C
-// line start: 600
-// line end:   601
-void InitPrintQuitMessage__17CTempPauseMessage_addr_80083A7C(struct CTempPauseMessage_dup_14 *this) {
+// address: 0x80088AF8
+// line start: 637
+// line end:   638
+void InitPrintQuitMessage__17CTempPauseMessage(struct CTempPauseMessage_dup_18 *this) {
 }
 
 
@@ -400,17 +463,66 @@ void InitPrintQuitMessage__17CTempPauseMessage_addr_80081890(struct CTempPauseMe
 }
 
 
-// address: 0x80085018
-// line start: 589
-// line end:   590
-void LeavePrintAreYouSure__17CTempPauseMessagei(struct CTempPauseMessage_dup_1 *this, int Menu) {
+// address: 0x80088A50
+// line start: 637
+// line end:   638
+void InitPrintQuitMessage__17CTempPauseMessage_addr_80088A50(struct CTempPauseMessage_dup_19 *this) {
+}
+
+
+// address: 0x80084E00
+// line start: 541
+// line end:   542
+void InitPrintQuitMessage__17CTempPauseMessage_addr_80084E00(struct CTempPauseMessage_dup_1 *this) {
+}
+
+
+// address: 0x80088BC8
+// line start: 637
+// line end:   638
+void InitPrintQuitMessage__17CTempPauseMessage_addr_80088BC8(struct CTempPauseMessage_dup_17 *this) {
+}
+
+
+// address: 0x80083A7C
+// line start: 600
+// line end:   601
+void InitPrintQuitMessage__17CTempPauseMessage_addr_80083A7C(struct CTempPauseMessage_dup_14 *this) {
 }
 
 
 // address: 0x80083CCC
 // line start: 652
 // line end:   653
-void LeavePrintAreYouSure__17CTempPauseMessagei_addr_80083CCC(struct CTempPauseMessage_dup_14 *this, int Menu) {
+void LeavePrintAreYouSure__17CTempPauseMessagei(struct CTempPauseMessage_dup_14 *this, int Menu) {
+}
+
+
+// address: 0x80088ED0
+// line start: 706
+// line end:   707
+void LeavePrintAreYouSure__17CTempPauseMessagei_addr_80088ED0(struct CTempPauseMessage_dup_17 *this, int Menu) {
+}
+
+
+// address: 0x80085018
+// line start: 589
+// line end:   590
+void LeavePrintAreYouSure__17CTempPauseMessagei_addr_80085018(struct CTempPauseMessage_dup_1 *this, int Menu) {
+}
+
+
+// address: 0x80088E00
+// line start: 706
+// line end:   707
+void LeavePrintAreYouSure__17CTempPauseMessagei_addr_80088E00(struct CTempPauseMessage_dup_18 *this, int Menu) {
+}
+
+
+// address: 0x80088D58
+// line start: 706
+// line end:   707
+void LeavePrintAreYouSure__17CTempPauseMessagei_addr_80088D58(struct CTempPauseMessage_dup_19 *this, int Menu) {
 }
 
 
@@ -421,10 +533,31 @@ void LeavePrintAreYouSure__17CTempPauseMessagei_addr_80081AA8(struct CTempPauseM
 }
 
 
+// address: 0x80089030
+// line start: 761
+// line end:   762
+void LeavePrintPaused__17CTempPauseMessage(struct CTempPauseMessage_dup_17 *this) {
+}
+
+
+// address: 0x80088EB8
+// line start: 761
+// line end:   762
+void LeavePrintPaused__17CTempPauseMessage_addr_80088EB8(struct CTempPauseMessage_dup_19 *this) {
+}
+
+
 // address: 0x8008510C
 // line start: 610
 // line end:   611
-void LeavePrintPaused__17CTempPauseMessage(struct CTempPauseMessage_dup_1 *this) {
+void LeavePrintPaused__17CTempPauseMessage_addr_8008510C(struct CTempPauseMessage_dup_1 *this) {
+}
+
+
+// address: 0x80088F60
+// line start: 761
+// line end:   762
+void LeavePrintPaused__17CTempPauseMessage_addr_80088F60(struct CTempPauseMessage_dup_18 *this) {
 }
 
 
@@ -442,17 +575,31 @@ void LeavePrintPaused__17CTempPauseMessage_addr_80083F0C(struct CTempPauseMessag
 }
 
 
-// address: 0x80081998
-// line start: 565
-// line end:   566
-void LeavePrintQuitMessage__17CTempPauseMessagei(struct CTempPauseMessage *this, int Menu) {
-}
-
-
 // address: 0x80084F08
 // line start: 563
 // line end:   564
-void LeavePrintQuitMessage__17CTempPauseMessagei_addr_80084F08(struct CTempPauseMessage_dup_1 *this, int Menu) {
+void LeavePrintQuitMessage__17CTempPauseMessagei(struct CTempPauseMessage_dup_1 *this, int Menu) {
+}
+
+
+// address: 0x80088D48
+// line start: 669
+// line end:   670
+void LeavePrintQuitMessage__17CTempPauseMessagei_addr_80088D48(struct CTempPauseMessage_dup_17 *this, int Menu) {
+}
+
+
+// address: 0x80088BD0
+// line start: 669
+// line end:   670
+void LeavePrintQuitMessage__17CTempPauseMessagei_addr_80088BD0(struct CTempPauseMessage_dup_19 *this, int Menu) {
+}
+
+
+// address: 0x80088C78
+// line start: 669
+// line end:   670
+void LeavePrintQuitMessage__17CTempPauseMessagei_addr_80088C78(struct CTempPauseMessage_dup_18 *this, int Menu) {
 }
 
 
@@ -463,10 +610,30 @@ void LeavePrintQuitMessage__17CTempPauseMessagei_addr_80083BA0(struct CTempPause
 }
 
 
+// address: 0x80081998
+// line start: 565
+// line end:   566
+void LeavePrintQuitMessage__17CTempPauseMessagei_addr_80081998(struct CTempPauseMessage *this, int Menu) {
+}
+
+
+// address: 0x80081740
+// line start: 529
+// line end:   538
+void MY_PausePrint__17CTempPauseMessageiPci(struct CTempPauseMessage *this, int s, char *Txt, int Menu) {
+	{
+		{
+			// register: 17
+			register int len;
+		}
+	}
+}
+
+
 // address: 0x80084CB0
 // line start: 527
 // line end:   536
-void MY_PausePrint__17CTempPauseMessageiPci(struct CTempPauseMessage_dup_1 *this, int s, char *Txt, int Menu) {
+void MY_PausePrint__17CTempPauseMessageiPci_addr_80084CB0(struct CTempPauseMessage_dup_1 *this, int s, char *Txt, int Menu) {
 	{
 		{
 			// register: 17
@@ -483,19 +650,6 @@ void MY_PausePrint__17CTempPauseMessageiPci_addr_80083074(struct CTempPauseMessa
 	// address: 0xFFFFFFD0
 	// size: 0x8
 	auto struct RECT PRect;
-	{
-		{
-			// register: 17
-			register int len;
-		}
-	}
-}
-
-
-// address: 0x80081740
-// line start: 529
-// line end:   538
-void MY_PausePrint__17CTempPauseMessageiPci_addr_80081740(struct CTempPauseMessage *this, int s, char *Txt, int Menu) {
 	{
 		{
 			// register: 17
@@ -546,6 +700,74 @@ void MY_PausePrint__17CTempPauseMessageiPciP4RECT_addr_80083930(struct CTempPaus
 }
 
 
+// address: 0x80088810
+// line start: 610
+// line end:   634
+void MY_PausePrint__17CTempPauseMessageiiiP4RECT(struct CTempPauseMessage_dup_19 *this, int s, int Txt, int Menu, struct RECT *PRect) {
+	// register: 23
+	register int y;
+	// register: 30
+	register int otpos;
+	{
+		{
+			// register: 17
+			register int len;
+		}
+	}
+}
+
+
+// address: 0x80088858
+// line start: 610
+// line end:   634
+void MY_PausePrint__17CTempPauseMessageiiiP4RECT_addr_80088858(struct CTempPauseMessage *this, int s, int Txt, int Menu, struct RECT *PRect) {
+	// register: 23
+	register int y;
+	// register: 30
+	register int otpos;
+	{
+		{
+			// register: 17
+			register int len;
+		}
+	}
+}
+
+
+// address: 0x800888B8
+// line start: 610
+// line end:   634
+void MY_PausePrint__17CTempPauseMessageiiiP4RECT_addr_800888B8(struct CTempPauseMessage_dup_18 *this, int s, int Txt, int Menu, struct RECT *PRect) {
+	// register: 23
+	register int y;
+	// register: 30
+	register int otpos;
+	{
+		{
+			// register: 17
+			register int len;
+		}
+	}
+}
+
+
+// address: 0x80088988
+// line start: 610
+// line end:   634
+void MY_PausePrint__17CTempPauseMessageiiiP4RECT_addr_80088988(struct CTempPauseMessage_dup_17 *this, int s, int Txt, int Menu, struct RECT *PRect) {
+	// register: 23
+	register int y;
+	// register: 30
+	register int otpos;
+	{
+		{
+			// register: 17
+			register int len;
+		}
+	}
+}
+
+
 // address: 0x80081734
 // line start: 505
 // line end:   506
@@ -562,14 +784,26 @@ bool PA_SetPauseOk__Fb(bool NewPause) {
 }
 
 
-// address: 0x80084528
-// line start: 166
-// line end:   178
+// address: 0x80088170
+// line start: 181
+// line end:   199
 void PauseTask__FP4TASK(struct TASK *T) {
 	{
 		// address: 0xFFFFFFE8
 		// size: 0xC
-		auto struct CTempPauseMessage_dup_1 Cpm;
+		auto struct CTempPauseMessage_dup_18 Cpm;
+	}
+}
+
+
+// address: 0x800880C8
+// line start: 181
+// line end:   199
+void PauseTask__FP4TASK_addr_800880C8(struct TASK *T) {
+	{
+		// address: 0xFFFFFFE8
+		// size: 0xC
+		auto struct CTempPauseMessage_dup_19 Cpm;
 	}
 }
 
@@ -586,6 +820,30 @@ void PauseTask__FP4TASK_addr_80082FEC(struct TASK *T) {
 }
 
 
+// address: 0x80084528
+// line start: 166
+// line end:   178
+void PauseTask__FP4TASK_addr_80084528(struct TASK *T) {
+	{
+		// address: 0xFFFFFFE8
+		// size: 0xC
+		auto struct CTempPauseMessage_dup_1 Cpm;
+	}
+}
+
+
+// address: 0x80088240
+// line start: 181
+// line end:   199
+void PauseTask__FP4TASK_addr_80088240(struct TASK *T) {
+	{
+		// address: 0xFFFFFFE8
+		// size: 0xC
+		auto struct CTempPauseMessage_dup_17 Cpm;
+	}
+}
+
+
 // address: 0x80081104
 // line start: 168
 // line end:   180
@@ -598,17 +856,10 @@ void PauseTask__FP4TASK_addr_80081104(struct TASK *T) {
 }
 
 
-// address: 0x80084F18
-// line start: 571
-// line end:   582
-void PrintAreYouSure__17CTempPauseMessagei(struct CTempPauseMessage_dup_1 *this, int Menu) {
-}
-
-
 // address: 0x80083BB0
 // line start: 632
 // line end:   645
-void PrintAreYouSure__17CTempPauseMessagei_addr_80083BB0(struct CTempPauseMessage_dup_14 *this, int Menu) {
+void PrintAreYouSure__17CTempPauseMessagei(struct CTempPauseMessage_dup_14 *this, int Menu) {
 	// address: 0xFFFFFFE8
 	// size: 0x8
 	auto struct RECT PRect;
@@ -632,10 +883,90 @@ void PrintAreYouSure__17CTempPauseMessagei_addr_800832D8(struct CTempPauseMessag
 }
 
 
-// address: 0x80081AB8
-// line start: 599
-// line end:   608
-void PrintPaused__17CTempPauseMessage(struct CTempPauseMessage *this) {
+// address: 0x80088C28
+// line start: 677
+// line end:   699
+void PrintAreYouSure__17CTempPauseMessagei_addr_80088C28(struct CTempPauseMessage *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
+}
+
+
+// address: 0x80088C88
+// line start: 677
+// line end:   699
+void PrintAreYouSure__17CTempPauseMessagei_addr_80088C88(struct CTempPauseMessage_dup_18 *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
+}
+
+
+// address: 0x80088D58
+// line start: 677
+// line end:   699
+void PrintAreYouSure__17CTempPauseMessagei_addr_80088D58(struct CTempPauseMessage_dup_17 *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
+}
+
+
+// address: 0x80088BE0
+// line start: 677
+// line end:   699
+void PrintAreYouSure__17CTempPauseMessagei_addr_80088BE0(struct CTempPauseMessage_dup_19 *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
+}
+
+
+// address: 0x80084F18
+// line start: 571
+// line end:   582
+void PrintAreYouSure__17CTempPauseMessagei_addr_80084F18(struct CTempPauseMessage_dup_1 *this, int Menu) {
+}
+
+
+// address: 0x80088D68
+// line start: 715
+// line end:   758
+void PrintPaused__17CTempPauseMessage(struct CTempPauseMessage_dup_19 *this) {
+	// address: 0xFFFFFFE0
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 19
+	register int oldDotpos;
+	// register: 16
+	register int oldTotpos;
 }
 
 
@@ -646,6 +977,13 @@ void PrintPaused__17CTempPauseMessage_addr_80085028(struct CTempPauseMessage_dup
 }
 
 
+// address: 0x80081AB8
+// line start: 599
+// line end:   608
+void PrintPaused__17CTempPauseMessage_addr_80081AB8(struct CTempPauseMessage *this) {
+}
+
+
 // address: 0x800833E8
 // line start: 654
 // line end:   667
@@ -653,6 +991,54 @@ void PrintPaused__17CTempPauseMessage_addr_800833E8(struct CTempPauseMessage *th
 	// address: 0xFFFFFFE8
 	// size: 0x8
 	auto struct RECT PRect;
+}
+
+
+// address: 0x80088EE0
+// line start: 715
+// line end:   758
+void PrintPaused__17CTempPauseMessage_addr_80088EE0(struct CTempPauseMessage_dup_17 *this) {
+	// address: 0xFFFFFFE0
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 19
+	register int oldDotpos;
+	// register: 16
+	register int oldTotpos;
+}
+
+
+// address: 0x80088E10
+// line start: 715
+// line end:   758
+void PrintPaused__17CTempPauseMessage_addr_80088E10(struct CTempPauseMessage_dup_18 *this) {
+	// address: 0xFFFFFFE0
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 19
+	register int oldDotpos;
+	// register: 16
+	register int oldTotpos;
+}
+
+
+// address: 0x80088DB0
+// line start: 715
+// line end:   758
+void PrintPaused__17CTempPauseMessage_addr_80088DB0(struct CTempPauseMessage *this) {
+	// address: 0xFFFFFFE0
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 19
+	register int oldDotpos;
+	// register: 16
+	register int oldTotpos;
 }
 
 
@@ -683,10 +1069,74 @@ void PrintQuitMessage__17CTempPauseMessagei_addr_800831C8(struct CTempPauseMessa
 }
 
 
+// address: 0x80088A58
+// line start: 641
+// line end:   662
+void PrintQuitMessage__17CTempPauseMessagei_addr_80088A58(struct CTempPauseMessage_dup_19 *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
+}
+
+
 // address: 0x80084E08
 // line start: 545
 // line end:   556
 void PrintQuitMessage__17CTempPauseMessagei_addr_80084E08(struct CTempPauseMessage_dup_1 *this, int Menu) {
+}
+
+
+// address: 0x80088BD0
+// line start: 641
+// line end:   662
+void PrintQuitMessage__17CTempPauseMessagei_addr_80088BD0(struct CTempPauseMessage_dup_17 *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
+}
+
+
+// address: 0x80088AA0
+// line start: 641
+// line end:   662
+void PrintQuitMessage__17CTempPauseMessagei_addr_80088AA0(struct CTempPauseMessage *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
+}
+
+
+// address: 0x80088B00
+// line start: 641
+// line end:   662
+void PrintQuitMessage__17CTempPauseMessagei_addr_80088B00(struct CTempPauseMessage_dup_18 *this, int Menu) {
+	// address: 0xFFFFFFD8
+	// size: 0x8
+	auto struct RECT PRect;
+	// register: 16
+	register int otpos;
+	// register: 22
+	register int oldDotpos;
+	// register: 21
+	register int oldTotpos;
 }
 
 
@@ -749,19 +1199,35 @@ struct CPauseMessages *__14CPauseMessages(struct CPauseMessages *this) {
 }
 
 
-// address: 0x80083F8C
-// size: 0xC
-// line start: 112
-// line end:   112
-struct CTempPauseMessage_dup_14 *__17CTempPauseMessage(struct CTempPauseMessage_dup_14 *this) {
-}
-
-
 // address: 0x80081C1C
 // size: 0xC
 // line start: 103
 // line end:   103
-struct CTempPauseMessage *__17CTempPauseMessage_addr_80081C1C(struct CTempPauseMessage *this) {
+struct CTempPauseMessage *__17CTempPauseMessage(struct CTempPauseMessage *this) {
+}
+
+
+// address: 0x80088F38
+// size: 0xC
+// line start: 115
+// line end:   115
+struct CTempPauseMessage_dup_19 *__17CTempPauseMessage_addr_80088F38(struct CTempPauseMessage_dup_19 *this) {
+}
+
+
+// address: 0x80083F8C
+// size: 0xC
+// line start: 112
+// line end:   112
+struct CTempPauseMessage_dup_14 *__17CTempPauseMessage_addr_80083F8C(struct CTempPauseMessage_dup_14 *this) {
+}
+
+
+// address: 0x80088FE0
+// size: 0xC
+// line start: 115
+// line end:   115
+struct CTempPauseMessage_dup_18 *__17CTempPauseMessage_addr_80088FE0(struct CTempPauseMessage_dup_18 *this) {
 }
 
 
@@ -773,6 +1239,14 @@ struct CTempPauseMessage_dup_1 *__17CTempPauseMessage_addr_8008518C(struct CTemp
 }
 
 
+// address: 0x800890B0
+// size: 0xC
+// line start: 115
+// line end:   115
+struct CTempPauseMessage_dup_17 *__17CTempPauseMessage_addr_800890B0(struct CTempPauseMessage_dup_17 *this) {
+}
+
+
 // address: 0x80081C60
 // line start: 74
 // line end:   74
@@ -780,17 +1254,10 @@ void ___14CPauseMessages(struct CPauseMessages *this, int __in_chrg) {
 }
 
 
-// address: 0x80085114
-// line start: 614
-// line end:   614
-void ___17CTempPauseMessage(struct CTempPauseMessage_dup_1 *this, int __in_chrg) {
-}
-
-
-// address: 0x80081BA4
-// line start: 616
-// line end:   616
-void ___17CTempPauseMessage_addr_80081BA4(struct CTempPauseMessage *this, int __in_chrg) {
+// address: 0x80089038
+// line start: 765
+// line end:   765
+void ___17CTempPauseMessage(struct CTempPauseMessage_dup_17 *this, int __in_chrg) {
 }
 
 
@@ -798,6 +1265,34 @@ void ___17CTempPauseMessage_addr_80081BA4(struct CTempPauseMessage *this, int __
 // line start: 709
 // line end:   709
 void ___17CTempPauseMessage_addr_80083F14(struct CTempPauseMessage_dup_14 *this, int __in_chrg) {
+}
+
+
+// address: 0x80085114
+// line start: 614
+// line end:   614
+void ___17CTempPauseMessage_addr_80085114(struct CTempPauseMessage_dup_1 *this, int __in_chrg) {
+}
+
+
+// address: 0x80088F68
+// line start: 765
+// line end:   765
+void ___17CTempPauseMessage_addr_80088F68(struct CTempPauseMessage_dup_18 *this, int __in_chrg) {
+}
+
+
+// address: 0x80088EC0
+// line start: 765
+// line end:   765
+void ___17CTempPauseMessage_addr_80088EC0(struct CTempPauseMessage_dup_19 *this, int __in_chrg) {
+}
+
+
+// address: 0x80081BA4
+// line start: 616
+// line end:   616
+void ___17CTempPauseMessage_addr_80081BA4(struct CTempPauseMessage *this, int __in_chrg) {
 }
 
 

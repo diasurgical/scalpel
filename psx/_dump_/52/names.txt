@@ -2,14 +2,14 @@
 
 
 
-__13CompLevelMaps
-__13CompLevelMaps
 _._13CompLevelMaps
 _._13CompLevelMaps
-__17CTempPauseMessage
-__17CTempPauseMessage
+__13CompLevelMaps
+__13CompLevelMaps
 _._17CTempPauseMessage
 _._17CTempPauseMessage
+__17CTempPauseMessage
+__17CTempPauseMessage
 _._4CdIO
 _._4CdIO
 __4CdIOUl
@@ -48,10 +48,10 @@ __7CScreen
 __7CScreen
 __7GamePadi
 __7GamePadi
-__7TextDat
-__7TextDat
 _._7TextDat
 _._7TextDat
+__7TextDat
+__7TextDat
 _96_init
 _96_init
 _96_remove
@@ -17183,10 +17183,10 @@ _spu_FgetRXXa
 _spu_FgetRXXa
 _spu_FiDMA
 _spu_FiDMA
-_spu_Fr_
-_spu_Fr_
 _spu_Fr
 _spu_Fr
+_spu_Fr_
+_spu_Fr_
 SpuFree
 SpuFree
 _spu_FsetPCR
@@ -17219,10 +17219,10 @@ _spu_IRQCallback
 _spu_IRQCallback
 _spu_isCalled
 _spu_isCalled
-_SpuIsInAllocateArea_
-_SpuIsInAllocateArea_
 _SpuIsInAllocateArea
 _SpuIsInAllocateArea
+_SpuIsInAllocateArea_
+_SpuIsInAllocateArea_
 SpuIsTransferCompleted
 SpuIsTransferCompleted
 _spu_keystat

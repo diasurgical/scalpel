@@ -13,19 +13,37 @@ void DEC_Open__Fv() {
 }
 
 
-// address: 0x80097764
+// address: 0x8009A584
 // line start: 71
 // line end:   80
-void DEC_AddAsDecRequestor__FP7TextDat(struct TextDat *Td) {
+void DEC_AddAsDecRequestor__FP7TextDat(struct TextDat_dup_14 *Td) {
 	// register: 16
 	register int TdIndex;
 }
 
 
-// address: 0x8009A584
+// address: 0x80097764
 // line start: 71
 // line end:   80
-void DEC_AddAsDecRequestor__FP7TextDat_addr_8009A584(struct TextDat_dup_14 *Td) {
+void DEC_AddAsDecRequestor__FP7TextDat_addr_80097764(struct TextDat *Td) {
+	// register: 16
+	register int TdIndex;
+}
+
+
+// address: 0x800A4048
+// line start: 71
+// line end:   80
+void DEC_AddAsDecRequestor__FP7TextDat_addr_800A4048(struct TextDat_dup_17 *Td) {
+	// register: 16
+	register int TdIndex;
+}
+
+
+// address: 0x800A3F74
+// line start: 71
+// line end:   80
+void DEC_AddAsDecRequestor__FP7TextDat_addr_800A3F74(struct TextDat_dup_18 *Td) {
 	// register: 16
 	register int TdIndex;
 }
@@ -64,6 +82,24 @@ void DEC_RemoveAsDecRequestor__FP7TextDat(struct TextDat *Td) {
 // line start: 90
 // line end:   94
 void DEC_RemoveAsDecRequestor__FP7TextDat_addr_8009AEDC(struct TextDat_dup_1 *Td) {
+	// register: 16
+	register int TdIndex;
+}
+
+
+// address: 0x800A40C4
+// line start: 90
+// line end:   94
+void DEC_RemoveAsDecRequestor__FP7TextDat_addr_800A40C4(struct TextDat_dup_17 *Td) {
+	// register: 16
+	register int TdIndex;
+}
+
+
+// address: 0x800A3FF0
+// line start: 90
+// line end:   94
+void DEC_RemoveAsDecRequestor__FP7TextDat_addr_800A3FF0(struct TextDat_dup_18 *Td) {
 	// register: 16
 	register int TdIndex;
 }
@@ -115,6 +151,28 @@ int FindThisTd__FP7TextDat_addr_80097894(struct TextDat *Td) {
 // line start: 116
 // line end:   122
 int FindThisTd__FP7TextDat_addr_8009AF90(struct TextDat_dup_1 *Td) {
+	{
+		// register: 3
+		register int f;
+	}
+}
+
+
+// address: 0x800A40A4
+// line start: 116
+// line end:   122
+int FindThisTd__FP7TextDat_addr_800A40A4(struct TextDat_dup_18 *Td) {
+	{
+		// register: 3
+		register int f;
+	}
+}
+
+
+// address: 0x800A4178
+// line start: 116
+// line end:   122
+int FindThisTd__FP7TextDat_addr_800A4178(struct TextDat_dup_17 *Td) {
 	{
 		// register: 3
 		register int f;

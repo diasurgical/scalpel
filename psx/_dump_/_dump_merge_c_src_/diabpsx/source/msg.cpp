@@ -2,31 +2,79 @@
 
 #include "types.h"
 
-// address: 0x80048FC8
-// line start: 461
-// line end:   504
+// address: 0x8004F074
+// line start: 653
+// line end:   724
 void DeltaAddItem__Fi(int ii) {
-	// register: 5
+	// register: 7
 	// size: 0x18
 	register struct TCmdPItem *pD;
+	// register: 10
+	// size: 0x18
+	register struct TCmdPItem *OpD;
+	// register: 4
+	// size: 0x1258
+	register struct DLevel_dup_18 *Dl;
 	// register: 8
 	register int i;
 }
 
 
-// address: 0x800480E4
-// line start: 572
-// line end:   635
-void DeltaAddItem__Fi_addr_800480E4(int ii) {
+// address: 0x8004F04C
+// line start: 653
+// line end:   724
+void DeltaAddItem__Fi_addr_8004F04C(int ii) {
 	// register: 7
-	// size: 0x14
+	// size: 0x18
 	register struct TCmdPItem *pD;
 	// register: 10
-	// size: 0x14
+	// size: 0x18
 	register struct TCmdPItem *OpD;
 	// register: 4
+	// size: 0x1258
+	register struct DLevel *Dl;
+	// register: 8
+	register int i;
+}
+
+
+// address: 0x80048108
+// line start: 572
+// line end:   635
+void DeltaAddItem__Fi_addr_80048108(int ii) {
+	// register: 7
+	// size: 0x14
+	register struct TCmdPItem_dup_4 *pD;
+	// register: 10
+	// size: 0x14
+	register struct TCmdPItem_dup_4 *OpD;
+	// register: 4
 	// size: 0xF1C
-	register struct DLevel_dup_5 *Dl;
+	register struct DLevel_dup_4 *Dl;
+	// register: 8
+	register int i;
+}
+
+
+// address: 0x8004A3C0
+// line start: 1000
+// line end:   1043
+void DeltaAddItem__Fi_addr_8004A3C0(int ii) {
+	// register: 4
+	// size: 0x18
+	register struct TCmdPItem *pD;
+	// register: 7
+	register int i;
+}
+
+
+// address: 0x80048FC8
+// line start: 461
+// line end:   504
+void DeltaAddItem__Fi_addr_80048FC8(int ii) {
+	// register: 5
+	// size: 0x18
+	register struct TCmdPItem *pD;
 	// register: 8
 	register int i;
 }
@@ -50,40 +98,52 @@ void DeltaAddItem__Fi_addr_800486A0(int ii) {
 }
 
 
-// address: 0x8004A3C0
-// line start: 1000
-// line end:   1043
-void DeltaAddItem__Fi_addr_8004A3C0(int ii) {
-	// register: 4
+// address: 0x8004F138
+// line start: 653
+// line end:   724
+void DeltaAddItem__Fi_addr_8004F138(int ii) {
+	// register: 7
 	// size: 0x18
-	register struct TCmdPItem *pD;
-	// register: 7
-	register int i;
-}
-
-
-// address: 0x80048108
-// line start: 572
-// line end:   635
-void DeltaAddItem__Fi_addr_80048108(int ii) {
-	// register: 7
-	// size: 0x14
-	register struct TCmdPItem_dup_4 *pD;
+	register struct TCmdPItem_dup_17 *pD;
 	// register: 10
-	// size: 0x14
-	register struct TCmdPItem_dup_4 *OpD;
+	// size: 0x18
+	register struct TCmdPItem_dup_17 *OpD;
 	// register: 4
-	// size: 0xF1C
-	register struct DLevel_dup_4 *Dl;
+	// size: 0x1258
+	register struct DLevel_dup_17 *Dl;
 	// register: 8
 	register int i;
 }
 
 
-// address: 0x80049208
-// line start: 509
-// line end:   516
+// address: 0x800480E4
+// line start: 572
+// line end:   635
+void DeltaAddItem__Fi_addr_800480E4(int ii) {
+	// register: 7
+	// size: 0x14
+	register struct TCmdPItem *pD;
+	// register: 10
+	// size: 0x14
+	register struct TCmdPItem *OpD;
+	// register: 4
+	// size: 0xF1C
+	register struct DLevel_dup_5 *Dl;
+	// register: 8
+	register int i;
+}
+
+
+// address: 0x8004A5E4
+// line start: 703
+// line end:   727
 int DeltaExportData__FPc(char *Dst) {
+	// register: 8
+	register int osize;
+	{
+		// register: 6
+		register int i;
+	}
 }
 
 
@@ -100,10 +160,26 @@ int DeltaExportData__FPc_addr_80048734(char *Dst) {
 }
 
 
+// address: 0x80049208
+// line start: 509
+// line end:   516
+int DeltaExportData__FPc_addr_80049208(char *Dst) {
+}
+
+
+// address: 0x8004F38C
+// line start: 752
+// line end:   773
+int DeltaImportData__FPc(char *Src) {
+	// register: 16
+	register int osize;
+}
+
+
 // address: 0x800487DC
 // line start: 668
 // line end:   685
-int DeltaImportData__FPc(char *Src) {
+int DeltaImportData__FPc_addr_800487DC(char *Src) {
 	// register: 16
 	register int osize;
 	{
@@ -120,21 +196,10 @@ int DeltaImportData__FPc_addr_80049238(char *Src) {
 }
 
 
-// address: 0x8004926C
-// line start: 534
-// line end:   544
-void DeltaSaveLevel__Fv() {
-	{
-		// register: 3
-		register int i;
-	}
-}
-
-
 // address: 0x8004A698
 // line start: 1073
 // line end:   1141
-void DeltaSaveLevel__Fv_addr_8004A698() {
+void DeltaSaveLevel__Fv() {
 	// register: 18
 	register int osize;
 	// register: 17
@@ -158,11 +223,96 @@ void DeltaSaveLevel__Fv_addr_8004A698() {
 }
 
 
+// address: 0x8004926C
+// line start: 534
+// line end:   544
+void DeltaSaveLevel__Fv_addr_8004926C() {
+	{
+		// register: 3
+		register int i;
+	}
+}
+
+
+// address: 0x8005293C
+// line start: 109
+// line end:   111
+int DoComp__C6NoCompPUcPCUci(struct NoComp *this, unsigned char *Dest, unsigned char *Src, int SrcLen) {
+}
+
+
+// address: 0x800528E8
+// line start: 127
+// line end:   130
+int DoComp__C7PakCompPUcPCUci(struct PakComp *this, unsigned char *Dest, unsigned char *Src, int SrcLen) {
+}
+
+
+// address: 0x8005289C
+// line start: 146
+// line end:   149
+int DoComp__C10CrunchCompPUcPCUci(struct CrunchComp *this, unsigned char *Dest, unsigned char *Src, int SrcLen) {
+}
+
+
+// address: 0x80052910
+// line start: 115
+// line end:   116
+void DoDecomp__C6NoCompPUcPCUcii(struct NoComp *this, unsigned char *Dest, unsigned char *Src, int DstLen, int SrcLen) {
+}
+
+
+// address: 0x800528C4
+// line start: 134
+// line end:   135
+void DoDecomp__C7PakCompPUcPCUcii(struct PakComp *this, unsigned char *Dest, unsigned char *Src, int DstLen, int SrcLen) {
+}
+
+
+// address: 0x80052874
+// line start: 153
+// line end:   154
+void DoDecomp__C10CrunchCompPUcPCUcii(struct CrunchComp *this, unsigned char *Dest, unsigned char *Src, int DstLen, int SrcLen) {
+}
+
+
 // address: 0x8004BB38
 // size: 0xF1C
 // line start: 2568
 // line end:   2576
 struct DLevel_dup_5 *GetDLevel__Fib(int LevNum, bool SetLevel) {
+}
+
+
+// address: 0x8004BB5C
+// size: 0xF1C
+// line start: 2568
+// line end:   2576
+struct DLevel_dup_4 *GetDLevel__Fib_addr_8004BB5C(int LevNum, bool SetLevel) {
+}
+
+
+// address: 0x80052658
+// size: 0x1258
+// line start: 2779
+// line end:   2791
+struct DLevel_dup_17 *GetDLevel__Fib_addr_80052658(int LevNum, bool SetLevel) {
+}
+
+
+// address: 0x8005256C
+// size: 0x1258
+// line start: 2779
+// line end:   2791
+struct DLevel *GetDLevel__Fib_addr_8005256C(int LevNum, bool SetLevel) {
+}
+
+
+// address: 0x80052594
+// size: 0x1258
+// line start: 2779
+// line end:   2791
+struct DLevel_dup_18 *GetDLevel__Fib_addr_80052594(int LevNum, bool SetLevel) {
 }
 
 
@@ -174,11 +324,10 @@ struct DLevel *GetDLevel__Fib_addr_8004C2B4(int LevNum, bool SetLevel) {
 }
 
 
-// address: 0x8004BB5C
-// size: 0xF1C
-// line start: 2568
-// line end:   2576
-struct DLevel_dup_4 *GetDLevel__Fib_addr_8004BB5C(int LevNum, bool SetLevel) {
+// address: 0x800526CC
+// line start: 2810
+// line end:   2812
+void MSG_ClearOutCompMap__Fv() {
 }
 
 
@@ -192,13 +341,23 @@ void NetSendCmdChItem__FUcUc(unsigned char bHiPri, unsigned char bLoc) {
 }
 
 
-// address: 0x80048B14
-// line start: 1094
-// line end:   1136
+// address: 0x8004FBC8
+// line start: 1221
+// line end:   1267
 void NetSendCmdDItem__FUci(unsigned char bHiPri, int ii) {
 	// address: 0xFFFFFFE0
-	// size: 0x14
-	auto struct TCmdPItem_dup_4 cmd;
+	// size: 0x18
+	auto struct TCmdPItem_dup_17 cmd;
+}
+
+
+// address: 0x800499E4
+// line start: 958
+// line end:   1000
+void NetSendCmdDItem__FUci_addr_800499E4(unsigned char bHiPri, int ii) {
+	// address: 0xFFFFFFE0
+	// size: 0x18
+	auto struct TCmdPItem cmd;
 }
 
 
@@ -212,13 +371,13 @@ void NetSendCmdDItem__FUci_addr_80048AF0(unsigned char bHiPri, int ii) {
 }
 
 
-// address: 0x800499E4
-// line start: 958
-// line end:   1000
-void NetSendCmdDItem__FUci_addr_800499E4(unsigned char bHiPri, int ii) {
+// address: 0x80048B14
+// line start: 1094
+// line end:   1136
+void NetSendCmdDItem__FUci_addr_80048B14(unsigned char bHiPri, int ii) {
 	// address: 0xFFFFFFE0
-	// size: 0x18
-	auto struct TCmdPItem cmd;
+	// size: 0x14
+	auto struct TCmdPItem_dup_4 cmd;
 }
 
 
@@ -252,10 +411,30 @@ void NetSendCmdDelItem__FUcUc(unsigned char bHiPri, unsigned char bLoc) {
 }
 
 
+// address: 0x8004F968
+// line start: 1124
+// line end:   1131
+void NetSendCmdExtra__FPC9TCmdGItem(struct TCmdGItem_dup_17 *p) {
+	// address: 0xFFFFFFD8
+	// size: 0x20
+	auto struct TCmdGItem_dup_17 cmd;
+}
+
+
+// address: 0x800488E0
+// line start: 1005
+// line end:   1012
+void NetSendCmdExtra__FPC9TCmdGItem_addr_800488E0(struct TCmdGItem_dup_4 *p) {
+	// address: 0xFFFFFFD8
+	// size: 0x1C
+	auto struct TCmdGItem_dup_4 cmd;
+}
+
+
 // address: 0x800488BC
 // line start: 1005
 // line end:   1012
-void NetSendCmdExtra__FPC9TCmdGItem(struct TCmdGItem *p) {
+void NetSendCmdExtra__FPC9TCmdGItem_addr_800488BC(struct TCmdGItem *p) {
 	// address: 0xFFFFFFD8
 	// size: 0x1C
 	auto struct TCmdGItem cmd;
@@ -269,16 +448,6 @@ void NetSendCmdExtra__FPC9TCmdGItem_addr_80049798(struct TCmdGItem *p) {
 	// address: 0xFFFFFFD8
 	// size: 0x20
 	auto struct TCmdGItem cmd;
-}
-
-
-// address: 0x800488E0
-// line start: 1005
-// line end:   1012
-void NetSendCmdExtra__FPC9TCmdGItem_addr_800488E0(struct TCmdGItem_dup_4 *p) {
-	// address: 0xFFFFFFD8
-	// size: 0x1C
-	auto struct TCmdGItem_dup_4 cmd;
 }
 
 
@@ -302,16 +471,6 @@ void NetSendCmdGItem2__FUcUcUcUcPC9TCmdGItem_addr_800487E8(unsigned char usonly,
 }
 
 
-// address: 0x8004AF1C
-// line start: 1350
-// line end:   1365
-void NetSendCmdGItem2__FUcUcUcUcPC9TCmdGItem_addr_8004AF1C(unsigned char usonly, unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem *p) {
-	// address: 0xFFFFFFC8
-	// size: 0x20
-	auto struct TCmdGItem cmd;
-}
-
-
 // address: 0x8004880C
 // line start: 948
 // line end:   963
@@ -322,33 +481,43 @@ void NetSendCmdGItem2__FUcUcUcUcPC9TCmdGItem_addr_8004880C(unsigned char usonly,
 }
 
 
-// address: 0x8004AD78
-// line start: 1298
-// line end:   1344
-void NetSendCmdGItem__FUcUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
+// address: 0x8004AF1C
+// line start: 1350
+// line end:   1365
+void NetSendCmdGItem2__FUcUcUcUcPC9TCmdGItem_addr_8004AF1C(unsigned char usonly, unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem *p) {
 	// address: 0xFFFFFFC8
 	// size: 0x20
 	auto struct TCmdGItem cmd;
 }
 
 
-// address: 0x800486B4
-// line start: 896
-// line end:   942
-void NetSendCmdGItem__FUcUcUcUcUc_addr_800486B4(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
+// address: 0x8004F884
+// line start: 1067
+// line end:   1082
+void NetSendCmdGItem2__FUcUcUcUcPC9TCmdGItem_addr_8004F884(unsigned char usonly, unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem_dup_17 *p) {
 	// address: 0xFFFFFFD8
-	// size: 0x1C
-	auto struct TCmdGItem cmd;
+	// size: 0x20
+	auto struct TCmdGItem_dup_17 cmd;
 }
 
 
 // address: 0x800486D8
 // line start: 896
 // line end:   942
-void NetSendCmdGItem__FUcUcUcUcUc_addr_800486D8(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
+void NetSendCmdGItem__FUcUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
 	// address: 0xFFFFFFD8
 	// size: 0x1C
 	auto struct TCmdGItem_dup_4 cmd;
+}
+
+
+// address: 0x8004AD78
+// line start: 1298
+// line end:   1344
+void NetSendCmdGItem__FUcUcUcUcUc_addr_8004AD78(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
+	// address: 0xFFFFFFC8
+	// size: 0x20
+	auto struct TCmdGItem cmd;
 }
 
 
@@ -358,6 +527,26 @@ void NetSendCmdGItem__FUcUcUcUcUc_addr_800486D8(unsigned char bHiPri, unsigned c
 void NetSendCmdGItem__FUcUcUcUcUc_addr_80049580(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
 	// address: 0xFFFFFFD8
 	// size: 0x20
+	auto struct TCmdGItem cmd;
+}
+
+
+// address: 0x8004F73C
+// line start: 1009
+// line end:   1061
+void NetSendCmdGItem__FUcUcUcUcUc_addr_8004F73C(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
+	// address: 0xFFFFFFD8
+	// size: 0x20
+	auto struct TCmdGItem_dup_17 cmd;
+}
+
+
+// address: 0x800486B4
+// line start: 896
+// line end:   942
+void NetSendCmdGItem__FUcUcUcUcUc_addr_800486B4(unsigned char bHiPri, unsigned char bCmd, unsigned char mast, unsigned char pnum, int ii) {
+	// address: 0xFFFFFFD8
+	// size: 0x1C
 	auto struct TCmdGItem cmd;
 }
 
@@ -372,16 +561,6 @@ void NetSendCmdGolem__FUcUcUcUclUc(unsigned char mx, unsigned char my, unsigned 
 }
 
 
-// address: 0x8004A8E0
-// line start: 1167
-// line end:   1181
-void NetSendCmdGolem__FUcUcUcUclUc_addr_8004A8E0(unsigned char mx, unsigned char my, unsigned char dir, unsigned char menemy, long hp, int cl) {
-	// address: 0xFFFFFFD0
-	// size: 0x10
-	auto struct TCmdGolem cmd;
-}
-
-
 // address: 0x80048494
 // line start: 765
 // line end:   779
@@ -389,6 +568,16 @@ void NetSendCmdGolem__FUcUcUcUclUc_addr_80048494(unsigned char mx, unsigned char
 	// address: 0xFFFFFFF0
 	// size: 0x8
 	auto struct TCmdGolem_dup_4 cmd;
+}
+
+
+// address: 0x8004A8E0
+// line start: 1167
+// line end:   1181
+void NetSendCmdGolem__FUcUcUcUclUc_addr_8004A8E0(unsigned char mx, unsigned char my, unsigned char dir, unsigned char menemy, long hp, int cl) {
+	// address: 0xFFFFFFD0
+	// size: 0x10
+	auto struct TCmdGolem cmd;
 }
 
 
@@ -402,21 +591,21 @@ void NetSendCmdGolem__FUcUcUcUclUc_addr_8004933C(unsigned char mx, unsigned char
 }
 
 
-// address: 0x800493B8
-// line start: 665
-// line end:   674
+// address: 0x8004AA48
+// line start: 1203
+// line end:   1212
 void NetSendCmdLocParam1__FUcUcUcUcUs(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y, int wParam1) {
-	// address: 0xFFFFFFF0
+	// address: 0xFFFFFFE0
 	// size: 0x6
 	auto struct TCmdLocParam1 cmd;
 }
 
 
-// address: 0x8004AA48
-// line start: 1203
-// line end:   1212
-void NetSendCmdLocParam1__FUcUcUcUcUs_addr_8004AA48(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y, int wParam1) {
-	// address: 0xFFFFFFE0
+// address: 0x800493B8
+// line start: 665
+// line end:   674
+void NetSendCmdLocParam1__FUcUcUcUcUs_addr_800493B8(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y, int wParam1) {
+	// address: 0xFFFFFFF0
 	// size: 0x6
 	auto struct TCmdLocParam1 cmd;
 }
@@ -462,32 +651,52 @@ void NetSendCmdLocParam3__FUcUcUcUcUsUsUs_addr_80049430(unsigned char bHiPri, un
 }
 
 
-// address: 0x8004A9B0
-// line start: 1187
-// line end:   1197
-void NetSendCmdLoc__FUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
-	// address: 0xFFFFFFE8
-	// size: 0x3
-	auto struct TCmdLoc cmd;
-}
-
-
 // address: 0x80049388
 // line start: 649
 // line end:   659
-void NetSendCmdLoc__FUcUcUcUc_addr_80049388(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
+void NetSendCmdLoc__FUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
 	// address: 0xFFFFFFF0
 	// size: 0x3
 	auto struct TCmdLoc cmd;
 }
 
 
-// address: 0x80048924
+// address: 0x8004A9B0
+// line start: 1187
+// line end:   1197
+void NetSendCmdLoc__FUcUcUcUc_addr_8004A9B0(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
+	// address: 0xFFFFFFE8
+	// size: 0x3
+	auto struct TCmdLoc cmd;
+}
+
+
+// address: 0x80048948
 // line start: 1017
 // line end:   1060
 void NetSendCmdPItem__FUcUcUcUc(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
+	auto struct TCmdPItem_dup_4 cmd;
+}
+
+
+// address: 0x80048924
+// line start: 1017
+// line end:   1060
+void NetSendCmdPItem__FUcUcUcUc_addr_80048924(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
+	// address: 0xFFFFFFE0
+	// size: 0x14
+	auto struct TCmdPItem cmd;
+}
+
+
+// address: 0x8004B170
+// line start: 1419
+// line end:   1462
+void NetSendCmdPItem__FUcUcUcUc_addr_8004B170(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
+	// address: 0xFFFFFFD8
+	// size: 0x18
 	auto struct TCmdPItem cmd;
 }
 
@@ -502,23 +711,13 @@ void NetSendCmdPItem__FUcUcUcUc_addr_80049808(unsigned char bHiPri, unsigned cha
 }
 
 
-// address: 0x80048948
-// line start: 1017
-// line end:   1060
-void NetSendCmdPItem__FUcUcUcUc_addr_80048948(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
+// address: 0x8004F9D8
+// line start: 1136
+// line end:   1184
+void NetSendCmdPItem__FUcUcUcUc_addr_8004F9D8(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
 	// address: 0xFFFFFFE0
-	// size: 0x14
-	auto struct TCmdPItem_dup_4 cmd;
-}
-
-
-// address: 0x8004B170
-// line start: 1419
-// line end:   1462
-void NetSendCmdPItem__FUcUcUcUc_addr_8004B170(unsigned char bHiPri, unsigned char bCmd, unsigned char x, unsigned char y) {
-	// address: 0xFFFFFFD8
 	// size: 0x18
-	auto struct TCmdPItem cmd;
+	auto struct TCmdPItem_dup_17 cmd;
 }
 
 
@@ -562,13 +761,13 @@ void NetSendCmdQuest__FUcUc(unsigned char bHiPri, unsigned char q) {
 }
 
 
-// address: 0x80048888
-// line start: 979
-// line end:   998
-unsigned char NetSendCmdReq2__FUcUcUcPC9TCmdGItem(unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem_dup_4 *p) {
+// address: 0x8004F908
+// line start: 1098
+// line end:   1117
+unsigned char NetSendCmdReq2__FUcUcUcPC9TCmdGItem(unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem_dup_17 *p) {
 	// address: 0xFFFFFFE0
-	// size: 0x1C
-	auto struct TCmdGItem_dup_4 cmd;
+	// size: 0x20
+	auto struct TCmdGItem_dup_17 cmd;
 }
 
 
@@ -599,6 +798,16 @@ unsigned char NetSendCmdReq2__FUcUcUcPC9TCmdGItem_addr_80049738(unsigned char bC
 	// address: 0xFFFFFFE0
 	// size: 0x20
 	auto struct TCmdGItem cmd;
+}
+
+
+// address: 0x80048888
+// line start: 979
+// line end:   998
+unsigned char NetSendCmdReq2__FUcUcUcPC9TCmdGItem_addr_80048888(unsigned char bCmd, unsigned char mast, unsigned char pnum, struct TCmdGItem_dup_4 *p) {
+	// address: 0xFFFFFFE0
+	// size: 0x1C
+	auto struct TCmdGItem_dup_4 cmd;
 }
 
 
@@ -670,19 +879,26 @@ unsigned long On_ACTIVATEPORTAL__FPC4TCmdi_addr_8004C3C0(struct TCmd *pCmd, int 
 }
 
 
-// address: 0x80048E04
-// line start: 1280
-// line end:   1293
-void On_ADDDEX__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x80051F44
+// line start: 2476
+// line end:   2480
+void On_ACTIVATEPORTAL__FPC4TCmdi_addr_80051F44(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x80049CF0
 // line start: 1164
 // line end:   1188
-unsigned long On_ADDDEX__FPC4TCmdi_addr_80049CF0(struct TCmd *pCmd, int pnum) {
+unsigned long On_ADDDEX__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 	}
+}
+
+
+// address: 0x80048E04
+// line start: 1280
+// line end:   1293
+void On_ADDDEX__FPC4TCmdi_addr_80048E04(struct TCmd *pCmd, int pnum) {
 }
 
 
@@ -718,30 +934,30 @@ unsigned long On_ADDSTR__FPC4TCmdi_addr_80049C90(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x80048E34
-// line start: 1299
-// line end:   1312
-void On_ADDVIT__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-}
-
-
 // address: 0x80049D20
 // line start: 1194
 // line end:   1218
-unsigned long On_ADDVIT__FPC4TCmdi_addr_80049D20(struct TCmd *pCmd, int pnum) {
+unsigned long On_ADDVIT__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 	}
 }
 
 
-// address: 0x8004A368
-// line start: 1505
-// line end:   1594
-unsigned long On_AGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x80048E34
+// line start: 1299
+// line end:   1312
+void On_ADDVIT__FPC4TCmdi_addr_80048E34(struct TCmd *pCmd, int pnum) {
+}
+
+
+// address: 0x80050480
+// line start: 1651
+// line end:   1706
+void On_AGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+	// register: 17
+	// size: 0x20
+	register struct TCmdGItem_dup_17 *p;
 	{
-		// register: 17
-		// size: 0x20
-		register struct TCmdGItem *p;
 		{
 			{
 				{
@@ -751,10 +967,8 @@ unsigned long On_AGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 								{
 									{
 										{
-											{
-												// register: 5
-												register int hitem;
-											}
+											// register: 5
+											register int hitem;
 										}
 									}
 								}
@@ -775,6 +989,38 @@ void On_AGETITEM__FPC4TCmdi_addr_80049434(struct TCmd *pCmd, int pnum) {
 	// register: 17
 	// size: 0x1C
 	register struct TCmdGItem_dup_4 *p;
+	{
+		{
+			{
+				{
+					{
+						{
+							{
+								{
+									{
+										{
+											// register: 5
+											register int hitem;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800503BC
+// line start: 1651
+// line end:   1706
+void On_AGETITEM__FPC4TCmdi_addr_800503BC(struct TCmd *pCmd, int pnum) {
+	// register: 17
+	// size: 0x20
+	register struct TCmdGItem *p;
 	{
 		{
 			{
@@ -832,6 +1078,40 @@ void On_AGETITEM__FPC4TCmdi_addr_80049410(struct TCmd *pCmd, int pnum) {
 }
 
 
+// address: 0x8004A368
+// line start: 1505
+// line end:   1594
+unsigned long On_AGETITEM__FPC4TCmdi_addr_8004A368(struct TCmd *pCmd, int pnum) {
+	{
+		// register: 17
+		// size: 0x20
+		register struct TCmdGItem *p;
+		{
+			{
+				{
+					{
+						{
+							{
+								{
+									{
+										{
+											{
+												// register: 5
+												register int hitem;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x8004A118
 // line start: 1800
 // line end:   1812
@@ -843,24 +1123,6 @@ void On_ATTACKID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	register int dx;
 	// register: 2
 	register int dy;
-}
-
-
-// address: 0x8004A07C
-// line start: 1787
-// line end:   1799
-void On_ATTACKID__FPC4TCmdi_addr_8004A07C(struct TCmd *pCmd, int pnum) {
-	{
-		{
-			// register: 19
-			// size: 0x4
-			register struct TCmdParam1 *p;
-			// register: 16
-			register int dx;
-			// register: 2
-			register int dy;
-		}
-	}
 }
 
 
@@ -882,21 +1144,43 @@ unsigned long On_ATTACKID__FPC4TCmdi_addr_8004B04C(struct TCmd *pCmd, int pnum) 
 }
 
 
-// address: 0x8004A878
-// line start: 1997
-// line end:   2017
-void On_AWAKEGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x8004A07C
+// line start: 1787
+// line end:   1799
+void On_ATTACKID__FPC4TCmdi_addr_8004A07C(struct TCmd *pCmd, int pnum) {
+	{
+		{
+			// register: 19
+			// size: 0x4
+			register struct TCmdParam1 *p;
+			// register: 16
+			register int dx;
+			// register: 2
+			register int dy;
+		}
+	}
+}
+
+
+// address: 0x8004B928
+// line start: 2464
+// line end:   2486
+unsigned long On_AWAKEGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
 			{
-				// register: 7
-				register unsigned char addok;
 				{
-					// register: 5
-					register int i;
 					{
-						// register: 2
-						register int mi;
+						// register: 6
+						register unsigned char addok;
+						{
+							// register: 5
+							register int i;
+							{
+								// register: 2
+								register int mi;
+							}
+						}
 					}
 				}
 			}
@@ -930,25 +1214,21 @@ void On_AWAKEGOLEM__FPC4TCmdi_addr_8004A8C8(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004B928
-// line start: 2464
-// line end:   2486
-unsigned long On_AWAKEGOLEM__FPC4TCmdi_addr_8004B928(struct TCmd *pCmd, int pnum) {
+// address: 0x8004A878
+// line start: 1997
+// line end:   2017
+void On_AWAKEGOLEM__FPC4TCmdi_addr_8004A878(struct TCmd *pCmd, int pnum) {
 	{
 		{
 			{
+				// register: 7
+				register unsigned char addok;
 				{
+					// register: 5
+					register int i;
 					{
-						// register: 6
-						register unsigned char addok;
-						{
-							// register: 5
-							register int i;
-							{
-								// register: 2
-								register int mi;
-							}
-						}
+						// register: 2
+						register int mi;
 					}
 				}
 			}
@@ -1040,19 +1320,19 @@ unsigned long On_DEBUG__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004C0C0
-// line start: 2719
-// line end:   2731
-unsigned long On_DELPLRITEMS__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-	{
-	}
-}
-
-
 // address: 0x8004AFE4
 // line start: 2188
 // line end:   2191
-void On_DELPLRITEMS__FPC4TCmdi_addr_8004AFE4(struct TCmd *pCmd, int pnum) {
+void On_DELPLRITEMS__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+}
+
+
+// address: 0x8004C0C0
+// line start: 2719
+// line end:   2731
+unsigned long On_DELPLRITEMS__FPC4TCmdi_addr_8004C0C0(struct TCmd *pCmd, int pnum) {
+	{
+	}
 }
 
 
@@ -1094,26 +1374,45 @@ void On_DISARMXY__FPC4TCmdi_addr_80049FEC(struct TCmd *pCmd, int pnum) {
 }
 
 
+// address: 0x8004AFF4
+// line start: 2207
+// line end:   2212
+void On_DROPITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+}
+
+
 // address: 0x8004C0D0
 // line start: 2755
 // line end:   2770
-unsigned long On_DROPITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+unsigned long On_DROPITEM__FPC4TCmdi_addr_8004C0D0(struct TCmd *pCmd, int pnum) {
 	{
 	}
 }
 
 
-// address: 0x8004AFF4
-// line start: 2207
-// line end:   2212
-void On_DROPITEM__FPC4TCmdi_addr_8004AFF4(struct TCmd *pCmd, int pnum) {
+// address: 0x8004B628
+// line start: 2405
+// line end:   2417
+void On_ENDSHIELD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+	{
+		{
+			{
+				// register: 17
+				register int i;
+				{
+					// register: 16
+					register int mi;
+				}
+			}
+		}
+	}
 }
 
 
 // address: 0x8004C73C
 // line start: 3048
 // line end:   3067
-unsigned long On_ENDSHIELD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+unsigned long On_ENDSHIELD__FPC4TCmdi_addr_8004C73C(struct TCmd *pCmd, int pnum) {
 	{
 		{
 			{
@@ -1131,32 +1430,13 @@ unsigned long On_ENDSHIELD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004B628
-// line start: 2405
-// line end:   2417
-void On_ENDSHIELD__FPC4TCmdi_addr_8004B628(struct TCmd *pCmd, int pnum) {
-	{
-		{
-			{
-				// register: 17
-				register int i;
-				{
-					// register: 16
-					register int mi;
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x800490A4
-// line start: 1389
-// line end:   1426
+// address: 0x800500F0
+// line start: 1530
+// line end:   1578
 void On_GETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	// register: 17
-	// size: 0x1C
-	register struct TCmdGItem_dup_4 *p;
+	// size: 0x20
+	register struct TCmdGItem_dup_17 *p;
 	// register: 21
 	register int nIndex;
 	{
@@ -1184,12 +1464,12 @@ void On_GETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x80049080
-// line start: 1389
-// line end:   1426
-void On_GETITEM__FPC4TCmdi_addr_80049080(struct TCmd *pCmd, int pnum) {
+// address: 0x8005002C
+// line start: 1530
+// line end:   1578
+void On_GETITEM__FPC4TCmdi_addr_8005002C(struct TCmd *pCmd, int pnum) {
 	// register: 17
-	// size: 0x1C
+	// size: 0x20
 	register struct TCmdGItem *p;
 	// register: 21
 	register int nIndex;
@@ -1254,14 +1534,78 @@ unsigned long On_GETITEM__FPC4TCmdi_addr_80049FB0(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004A188
-// line start: 1431
-// line end:   1447
-unsigned long On_GOTOAGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x800490A4
+// line start: 1389
+// line end:   1426
+void On_GETITEM__FPC4TCmdi_addr_800490A4(struct TCmd *pCmd, int pnum) {
+	// register: 17
+	// size: 0x1C
+	register struct TCmdGItem_dup_4 *p;
+	// register: 21
+	register int nIndex;
 	{
 		{
+			{
+				{
+					{
+						{
+							{
+								{
+									{
+										{
+											// register: 5
+											register int hitem;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
+}
+
+
+// address: 0x80049080
+// line start: 1389
+// line end:   1426
+void On_GETITEM__FPC4TCmdi_addr_80049080(struct TCmd *pCmd, int pnum) {
+	// register: 17
+	// size: 0x1C
+	register struct TCmdGItem *p;
+	// register: 21
+	register int nIndex;
+	{
+		{
+			{
+				{
+					{
+						{
+							{
+								{
+									{
+										{
+											// register: 5
+											register int hitem;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800495A4
+// line start: 1448
+// line end:   1454
+void On_GOTOAGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
@@ -1276,21 +1620,21 @@ void On_GOTOAGETITEM__FPC4TCmdi_addr_8004926C(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x800495A4
-// line start: 1448
-// line end:   1454
-void On_GOTOAGETITEM__FPC4TCmdi_addr_800495A4(struct TCmd *pCmd, int pnum) {
-}
-
-
-// address: 0x80049DC4
-// line start: 1261
-// line end:   1279
-unsigned long On_GOTOGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x8004A188
+// line start: 1431
+// line end:   1447
+unsigned long On_GOTOAGETITEM__FPC4TCmdi_addr_8004A188(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
 	}
+}
+
+
+// address: 0x8004920C
+// line start: 1346
+// line end:   1352
+void On_GOTOGETITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
@@ -1305,17 +1649,10 @@ void On_GOTOGETITEM__FPC4TCmdi_addr_80048ED0(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004920C
-// line start: 1346
-// line end:   1352
-void On_GOTOGETITEM__FPC4TCmdi_addr_8004920C(struct TCmd *pCmd, int pnum) {
-}
-
-
-// address: 0x8004B614
-// line start: 2336
-// line end:   2350
-unsigned long On_HEALOTHER__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x80049DC4
+// line start: 1261
+// line end:   1279
+unsigned long On_GOTOGETITEM__FPC4TCmdi_addr_80049DC4(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1326,7 +1663,7 @@ unsigned long On_HEALOTHER__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 // address: 0x8004A5F0
 // line start: 1904
 // line end:   1908
-void On_HEALOTHER__FPC4TCmdi_addr_8004A5F0(struct TCmd *pCmd, int pnum) {
+void On_HEALOTHER__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1341,26 +1678,10 @@ void On_HEALOTHER__FPC4TCmdi_addr_8004A5DC(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x800495F4
-// line start: 1542
-// line end:   1555
-void On_ITEMEXTRA__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-}
-
-
-// address: 0x8004A538
-// line start: 1599
-// line end:   1623
-unsigned long On_ITEMEXTRA__FPC4TCmdi_addr_8004A538(struct TCmd *pCmd, int pnum) {
-	{
-	}
-}
-
-
-// address: 0x8004A864
-// line start: 1971
-// line end:   1977
-void On_KILLGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x8004B614
+// line start: 2336
+// line end:   2350
+unsigned long On_HEALOTHER__FPC4TCmdi_addr_8004B614(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1368,10 +1689,37 @@ void On_KILLGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
+// address: 0x8004A538
+// line start: 1599
+// line end:   1623
+unsigned long On_ITEMEXTRA__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+	{
+	}
+}
+
+
+// address: 0x800495F4
+// line start: 1542
+// line end:   1555
+void On_ITEMEXTRA__FPC4TCmdi_addr_800495F4(struct TCmd *pCmd, int pnum) {
+}
+
+
 // address: 0x8004B8BC
 // line start: 2445
 // line end:   2459
-unsigned long On_KILLGOLEM__FPC4TCmdi_addr_8004B8BC(struct TCmd *pCmd, int pnum) {
+unsigned long On_KILLGOLEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+	{
+		{
+		}
+	}
+}
+
+
+// address: 0x8004A864
+// line start: 1971
+// line end:   1977
+void On_KILLGOLEM__FPC4TCmdi_addr_8004A864(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1417,21 +1765,10 @@ unsigned long On_MONSTDAMAGE__FPC4TCmdi_addr_8004BA9C(struct TCmd *pCmd, int pnu
 }
 
 
-// address: 0x8004A800
-// line start: 1958
-// line end:   1964
-void On_MONSTDEATH__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-	{
-		{
-		}
-	}
-}
-
-
 // address: 0x8004B850
 // line start: 2426
 // line end:   2440
-unsigned long On_MONSTDEATH__FPC4TCmdi_addr_8004B850(struct TCmd *pCmd, int pnum) {
+unsigned long On_MONSTDEATH__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1439,17 +1776,10 @@ unsigned long On_MONSTDEATH__FPC4TCmdi_addr_8004B850(struct TCmd *pCmd, int pnum
 }
 
 
-// address: 0x8004A68C
-// line start: 1943
-// line end:   1947
-void On_NEWLVL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-}
-
-
-// address: 0x8004A6F4
-// line start: 1930
-// line end:   1934
-void On_NEWLVL__FPC4TCmdi_addr_8004A6F4(struct TCmd *pCmd, int pnum) {
+// address: 0x8004A800
+// line start: 1958
+// line end:   1964
+void On_MONSTDEATH__FPC4TCmdi_addr_8004A800(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1460,7 +1790,25 @@ void On_NEWLVL__FPC4TCmdi_addr_8004A6F4(struct TCmd *pCmd, int pnum) {
 // address: 0x8004B72C
 // line start: 2379
 // line end:   2394
-unsigned long On_NEWLVL__FPC4TCmdi_addr_8004B72C(struct TCmd *pCmd, int pnum) {
+unsigned long On_NEWLVL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+	{
+		{
+		}
+	}
+}
+
+
+// address: 0x8004A68C
+// line start: 1943
+// line end:   1947
+void On_NEWLVL__FPC4TCmdi_addr_8004A68C(struct TCmd *pCmd, int pnum) {
+}
+
+
+// address: 0x8004A6F4
+// line start: 1930
+// line end:   1934
+void On_NEWLVL__FPC4TCmdi_addr_8004A6F4(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1484,19 +1832,19 @@ void On_OPENDOOR__FPC4TCmdi_addr_8004AD14(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004BEEC
-// line start: 2641
-// line end:   2655
-unsigned long On_OPERATEOBJ__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-	{
-	}
-}
-
-
 // address: 0x8004AE34
 // line start: 2139
 // line end:   2145
-void On_OPERATEOBJ__FPC4TCmdi_addr_8004AE34(struct TCmd *pCmd, int pnum) {
+void On_OPERATEOBJ__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+}
+
+
+// address: 0x8004BEEC
+// line start: 2641
+// line end:   2655
+unsigned long On_OPERATEOBJ__FPC4TCmdi_addr_8004BEEC(struct TCmd *pCmd, int pnum) {
+	{
+	}
 }
 
 
@@ -1529,24 +1877,10 @@ void On_OPOBJT__FPC4TCmdi_addr_8004A0CC(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x80049DE4
-// line start: 1737
-// line end:   1748
-void On_OPOBJXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-	{
-		{
-			// register: 17
-			// size: 0x6
-			register struct TCmdLocParam1 *p;
-		}
-	}
-}
-
-
 // address: 0x8004AD80
 // line start: 1975
 // line end:   1995
-unsigned long On_OPOBJXY__FPC4TCmdi_addr_8004AD80(struct TCmd *pCmd, int pnum) {
+unsigned long On_OPOBJXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
 			// register: 17
@@ -1567,14 +1901,15 @@ void On_OPOBJXY__FPC4TCmdi_addr_80049F0C(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004C128
-// line start: 2775
-// line end:   2834
-unsigned long On_PLAYER_JOINLEVEL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x80049DE4
+// line start: 1737
+// line end:   1748
+void On_OPOBJXY__FPC4TCmdi_addr_80049DE4(struct TCmd *pCmd, int pnum) {
 	{
 		{
-			{
-			}
+			// register: 17
+			// size: 0x6
+			register struct TCmdLocParam1 *p;
 		}
 	}
 }
@@ -1583,9 +1918,22 @@ unsigned long On_PLAYER_JOINLEVEL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 // address: 0x8004B044
 // line start: 2218
 // line end:   2266
-void On_PLAYER_JOINLEVEL__FPC4TCmdi_addr_8004B044(struct TCmd *pCmd, int pnum) {
+void On_PLAYER_JOINLEVEL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
+		}
+	}
+}
+
+
+// address: 0x8004C128
+// line start: 2775
+// line end:   2834
+unsigned long On_PLAYER_JOINLEVEL__FPC4TCmdi_addr_8004C128(struct TCmd *pCmd, int pnum) {
+	{
+		{
+			{
+			}
 		}
 	}
 }
@@ -1605,10 +1953,40 @@ unsigned long On_PLRDAMAGE__FPC4TCmdi_addr_8004BBEC(struct TCmd *pCmd, int pnum)
 }
 
 
-// address: 0x8004BBA4
-// line start: 2523
-// line end:   2541
-unsigned long On_PLRDEAD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x80051950
+// line start: 2249
+// line end:   2302
+void On_PLRDAMAGE__FPC4TCmdi_addr_80051950(struct TCmd *pCmd, int pnum) {
+	// register: 6
+	// size: 0x19E8
+	register struct PlayerStruct_dup_17 *player;
+}
+
+
+// address: 0x80051864
+// line start: 2249
+// line end:   2302
+void On_PLRDAMAGE__FPC4TCmdi_addr_80051864(struct TCmd *pCmd, int pnum) {
+	// register: 6
+	// size: 0x19E8
+	register struct PlayerStruct *player;
+}
+
+
+// address: 0x8005188C
+// line start: 2249
+// line end:   2302
+void On_PLRDAMAGE__FPC4TCmdi_addr_8005188C(struct TCmd *pCmd, int pnum) {
+	// register: 6
+	// size: 0x19E8
+	register struct PlayerStruct_dup_18 *player;
+}
+
+
+// address: 0x8004AB28
+// line start: 2043
+// line end:   2050
+void On_PLRDEAD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1616,10 +1994,10 @@ unsigned long On_PLRDEAD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004AB28
-// line start: 2043
-// line end:   2050
-void On_PLRDEAD__FPC4TCmdi_addr_8004AB28(struct TCmd *pCmd, int pnum) {
+// address: 0x8004BBA4
+// line start: 2523
+// line end:   2541
+unsigned long On_PLRDEAD__FPC4TCmdi_addr_8004BBA4(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -1668,12 +2046,12 @@ void On_PUTITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004A5D8
-// line start: 1629
-// line end:   1688
-unsigned long On_PUTITEM__FPC4TCmdi_addr_8004A5D8(struct TCmd *pCmd, int pnum) {
+// address: 0x8004C324
+// line start: 2257
+// line end:   2316
+unsigned long On_PUTITEM__FPC4TCmdi_addr_8004C324(struct TCmd *pCmd, int pnum) {
 	{
-		// register: 17
+		// register: 18
 		// size: 0x18
 		register struct TCmdPItem *p;
 		{
@@ -1702,6 +2080,24 @@ void On_PUTITEM__FPC4TCmdi_addr_80049664(struct TCmd *pCmd, int pnum) {
 }
 
 
+// address: 0x8004A5D8
+// line start: 1629
+// line end:   1688
+unsigned long On_PUTITEM__FPC4TCmdi_addr_8004A5D8(struct TCmd *pCmd, int pnum) {
+	{
+		// register: 17
+		// size: 0x18
+		register struct TCmdPItem *p;
+		{
+			{
+				// register: 3
+				register int ii;
+			}
+		}
+	}
+}
+
+
 // address: 0x80049688
 // line start: 1562
 // line end:   1593
@@ -1713,24 +2109,6 @@ void On_PUTITEM__FPC4TCmdi_addr_80049688(struct TCmd *pCmd, int pnum) {
 		{
 			// register: 3
 			register int ii;
-		}
-	}
-}
-
-
-// address: 0x8004C324
-// line start: 2257
-// line end:   2316
-unsigned long On_PUTITEM__FPC4TCmdi_addr_8004C324(struct TCmd *pCmd, int pnum) {
-	{
-		// register: 18
-		// size: 0x18
-		register struct TCmdPItem *p;
-		{
-			{
-				// register: 3
-				register int ii;
-			}
 		}
 	}
 }
@@ -1831,6 +2209,26 @@ void On_RESPAWNITEM__FPC4TCmdi_addr_80049930(struct TCmd *pCmd, int pnum) {
 }
 
 
+// address: 0x8005085C
+// line start: 1823
+// line end:   1833
+void On_RESPAWNITEM__FPC4TCmdi_addr_8005085C(struct TCmd *pCmd, int pnum) {
+	// register: 16
+	// size: 0x18
+	register struct TCmdPItem_dup_17 *p;
+}
+
+
+// address: 0x80050798
+// line start: 1823
+// line end:   1833
+void On_RESPAWNITEM__FPC4TCmdi_addr_80050798(struct TCmd *pCmd, int pnum) {
+	// register: 16
+	// size: 0x18
+	register struct TCmdPItem *p;
+}
+
+
 // address: 0x8004A5B8
 // line start: 1894
 // line end:   1898
@@ -1890,67 +2288,67 @@ void On_SATTACKXY__FPC4TCmdi_addr_80049A5C(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x80048E64
-// line start: 1318
-// line end:   1324
-void On_SBSPELL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-}
-
-
 // address: 0x80049D50
 // line start: 1224
 // line end:   1254
-unsigned long On_SBSPELL__FPC4TCmdi_addr_80049D50(struct TCmd *pCmd, int pnum) {
+unsigned long On_SBSPELL__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 	}
 }
 
 
-// address: 0x8004C634
-// line start: 2939
-// line end:   2957
-unsigned long On_SETDEX__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-	{
-	}
+// address: 0x80048E64
+// line start: 1318
+// line end:   1324
+void On_SBSPELL__FPC4TCmdi_addr_80048E64(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B520
 // line start: 2349
 // line end:   2357
-void On_SETDEX__FPC4TCmdi_addr_8004B520(struct TCmd *pCmd, int pnum) {
+void On_SETDEX__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004B560
-// line start: 2363
-// line end:   2371
-void On_SETMAG__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x8004C634
+// line start: 2939
+// line end:   2957
+unsigned long On_SETDEX__FPC4TCmdi_addr_8004C634(struct TCmd *pCmd, int pnum) {
+	{
+	}
 }
 
 
 // address: 0x8004C674
 // line start: 2963
 // line end:   2983
-unsigned long On_SETMAG__FPC4TCmdi_addr_8004C674(struct TCmd *pCmd, int pnum) {
+unsigned long On_SETMAG__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 	}
 }
 
 
-// address: 0x8004C5F4
-// line start: 2916
-// line end:   2934
-unsigned long On_SETSTR__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-	{
-	}
+// address: 0x8004B560
+// line start: 2363
+// line end:   2371
+void On_SETMAG__FPC4TCmdi_addr_8004B560(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004B4E0
 // line start: 2336
 // line end:   2344
-void On_SETSTR__FPC4TCmdi_addr_8004B4E0(struct TCmd *pCmd, int pnum) {
+void On_SETSTR__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+}
+
+
+// address: 0x8004C5F4
+// line start: 2916
+// line end:   2934
+unsigned long On_SETSTR__FPC4TCmdi_addr_8004C5F4(struct TCmd *pCmd, int pnum) {
+	{
+	}
 }
 
 
@@ -1999,10 +2397,14 @@ void On_SPELLID__FPC4TCmdi_addr_8004A1C0(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004A314
-// line start: 1840
-// line end:   1851
+// address: 0x8004A2A0
+// line start: 1827
+// line end:   1838
 void On_SPELLPID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+	{
+		{
+		}
+	}
 }
 
 
@@ -2017,10 +2419,17 @@ unsigned long On_SPELLPID__FPC4TCmdi_addr_8004B294(struct TCmd *pCmd, int pnum) 
 }
 
 
-// address: 0x8004A2A0
-// line start: 1827
-// line end:   1838
-void On_SPELLPID__FPC4TCmdi_addr_8004A2A0(struct TCmd *pCmd, int pnum) {
+// address: 0x8004A314
+// line start: 1840
+// line end:   1851
+void On_SPELLPID__FPC4TCmdi_addr_8004A314(struct TCmd *pCmd, int pnum) {
+}
+
+
+// address: 0x8004AA78
+// line start: 1860
+// line end:   1894
+unsigned long On_SPELLXYD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -2031,7 +2440,7 @@ void On_SPELLPID__FPC4TCmdi_addr_8004A2A0(struct TCmd *pCmd, int pnum) {
 // address: 0x80049B00
 // line start: 1669
 // line end:   1685
-void On_SPELLXYD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+void On_SPELLXYD__FPC4TCmdi_addr_80049B00(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -2043,17 +2452,6 @@ void On_SPELLXYD__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 // line start: 1682
 // line end:   1698
 void On_SPELLXYD__FPC4TCmdi_addr_80049C70(struct TCmd *pCmd, int pnum) {
-}
-
-
-// address: 0x8004AA78
-// line start: 1860
-// line end:   1894
-unsigned long On_SPELLXYD__FPC4TCmdi_addr_8004AA78(struct TCmd *pCmd, int pnum) {
-	{
-		{
-		}
-	}
 }
 
 
@@ -2108,15 +2506,6 @@ unsigned long On_SYNCPUTITEM__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x80049A8C
-// line start: 1615
-// line end:   1630
-void On_SYNCPUTITEM__FPC4TCmdi_addr_80049A8C(struct TCmd *pCmd, int pnum) {
-	// register: 3
-	register int ii;
-}
-
-
 // address: 0x80049820
 // line start: 1602
 // line end:   1628
@@ -2127,6 +2516,15 @@ void On_SYNCPUTITEM__FPC4TCmdi_addr_80049820(struct TCmd *pCmd, int pnum) {
 			register int ii;
 		}
 	}
+}
+
+
+// address: 0x80049A8C
+// line start: 1615
+// line end:   1630
+void On_SYNCPUTITEM__FPC4TCmdi_addr_80049A8C(struct TCmd *pCmd, int pnum) {
+	// register: 3
+	register int ii;
 }
 
 
@@ -2154,10 +2552,17 @@ unsigned long On_SYNCQUEST__FPC4TCmdi_addr_8004C6F4(struct TCmd *pCmd, int pnum)
 }
 
 
+// address: 0x8004A604
+// line start: 1928
+// line end:   1935
+void On_TALKXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+}
+
+
 // address: 0x8004B684
 // line start: 2355
 // line end:   2373
-unsigned long On_TALKXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+unsigned long On_TALKXY__FPC4TCmdi_addr_8004B684(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -2176,24 +2581,10 @@ void On_TALKXY__FPC4TCmdi_addr_8004A658(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004A604
-// line start: 1928
-// line end:   1935
-void On_TALKXY__FPC4TCmdi_addr_8004A604(struct TCmd *pCmd, int pnum) {
-}
-
-
-// address: 0x8004A3D4
-// line start: 1859
-// line end:   1869
-void On_TSPELLID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-}
-
-
 // address: 0x8004A378
 // line start: 1846
 // line end:   1856
-void On_TSPELLID__FPC4TCmdi_addr_8004A378(struct TCmd *pCmd, int pnum) {
+void On_TSPELLID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -2212,21 +2603,17 @@ unsigned long On_TSPELLID__FPC4TCmdi_addr_8004B378(struct TCmd *pCmd, int pnum) 
 }
 
 
-// address: 0x8004B460
-// line start: 2254
-// line end:   2287
-unsigned long On_TSPELLPID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
-	{
-		{
-		}
-	}
+// address: 0x8004A3D4
+// line start: 1859
+// line end:   1869
+void On_TSPELLID__FPC4TCmdi_addr_8004A3D4(struct TCmd *pCmd, int pnum) {
 }
 
 
 // address: 0x8004A498
 // line start: 1876
 // line end:   1887
-void On_TSPELLPID__FPC4TCmdi_addr_8004A498(struct TCmd *pCmd, int pnum) {
+void On_TSPELLPID__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 }
 
 
@@ -2241,10 +2628,10 @@ void On_TSPELLPID__FPC4TCmdi_addr_8004A454(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004AC80
-// line start: 1937
-// line end:   1970
-unsigned long On_TSPELLXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+// address: 0x8004B460
+// line start: 2254
+// line end:   2287
+unsigned long On_TSPELLPID__FPC4TCmdi_addr_8004B460(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -2255,7 +2642,18 @@ unsigned long On_TSPELLXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
 // address: 0x80049CF0
 // line start: 1715
 // line end:   1730
-void On_TSPELLXY__FPC4TCmdi_addr_80049CF0(struct TCmd *pCmd, int pnum) {
+void On_TSPELLXY__FPC4TCmdi(struct TCmd *pCmd, int pnum) {
+	{
+		{
+		}
+	}
+}
+
+
+// address: 0x8004AC80
+// line start: 1937
+// line end:   1970
+unsigned long On_TSPELLXY__FPC4TCmdi_addr_8004AC80(struct TCmd *pCmd, int pnum) {
 	{
 		{
 		}
@@ -2319,47 +2717,11 @@ unsigned long On_WARP__FPC4TCmdi_addr_8004B764(struct TCmd *pCmd, int pnum) {
 }
 
 
-// address: 0x8004E844
-// line start: 3778
-// line end:   3866
-unsigned long ParseCmd__FiPC4TCmd(int pnum, struct TCmd *pCmd) {
-	// address: 0x80121908
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004BC84
+// address: 0x8004BC68
 // line start: 2470
 // line end:   2572
-unsigned long ParseCmd__FiPC4TCmd_addr_8004BC84(int pnum, struct TCmd *pCmd) {
-	// address: 0x801199F0
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004B7F4
-// line start: 2489
-// line end:   2591
-unsigned long ParseCmd__FiPC4TCmd_addr_8004B7F4(int pnum, struct TCmd *pCmd) {
-	// address: 0x8012DCE0
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004C934
-// line start: 3121
-// line end:   3211
-unsigned long ParseCmd__FiPC4TCmd_addr_8004C934(int pnum, struct TCmd *pCmd) {
-	// address: 0x80117D70
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004B718
-// line start: 2457
-// line end:   2559
-unsigned long ParseCmd__FiPC4TCmd_addr_8004B718(int pnum, struct TCmd *pCmd) {
-	// address: 0x8011652C
+unsigned long ParseCmd__FiPC4TCmd(int pnum, struct TCmd *pCmd) {
+	// address: 0x8011A1D4
 	static unsigned char sbLastCmd;
 }
 
@@ -2373,65 +2735,20 @@ unsigned long ParseCmd__FiPC4TCmd_addr_8004B73C(int pnum, struct TCmd *pCmd) {
 }
 
 
+// address: 0x80052174
+// line start: 2665
+// line end:   2767
+unsigned long ParseCmd__FiPC4TCmd_addr_80052174(int pnum, struct TCmd *pCmd) {
+	// address: 0x8011C978
+	static unsigned char sbLastCmd;
+}
+
+
 // address: 0x8004BE08
 // line start: 2470
 // line end:   2572
 unsigned long ParseCmd__FiPC4TCmd_addr_8004BE08(int pnum, struct TCmd *pCmd) {
 	// address: 0x8012C6C8
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004B758
-// line start: 2470
-// line end:   2572
-unsigned long ParseCmd__FiPC4TCmd_addr_8004B758(int pnum, struct TCmd *pCmd) {
-	// address: 0x8012D704
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004C878
-// line start: 3121
-// line end:   3211
-unsigned long ParseCmd__FiPC4TCmd_addr_8004C878(int pnum, struct TCmd *pCmd) {
-	// address: 0x80117C48
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004BA08
-// line start: 2491
-// line end:   2593
-unsigned long ParseCmd__FiPC4TCmd_addr_8004BA08(int pnum, struct TCmd *pCmd) {
-	// address: 0x8012E884
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x800498B4
-// line start: 2491
-// line end:   2593
-unsigned long ParseCmd__FiPC4TCmd_addr_800498B4(int pnum, struct TCmd *pCmd) {
-	// address: 0x8012B220
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004BC68
-// line start: 2470
-// line end:   2572
-unsigned long ParseCmd__FiPC4TCmd_addr_8004BC68(int pnum, struct TCmd *pCmd) {
-	// address: 0x8011A1D4
-	static unsigned char sbLastCmd;
-}
-
-
-// address: 0x8004BE94
-// line start: 2457
-// line end:   2559
-unsigned long ParseCmd__FiPC4TCmd_addr_8004BE94(int pnum, struct TCmd *pCmd) {
-	// address: 0x80118364
 	static unsigned char sbLastCmd;
 }
 
@@ -2454,6 +2771,105 @@ unsigned long ParseCmd__FiPC4TCmd_addr_8004B724(int pnum, struct TCmd *pCmd) {
 }
 
 
+// address: 0x8004D648
+// line start: 2562
+// line end:   2664
+unsigned long ParseCmd__FiPC4TCmd_addr_8004D648(int pnum, struct TCmd *pCmd) {
+	// address: 0x80123D64
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004B718
+// line start: 2457
+// line end:   2559
+unsigned long ParseCmd__FiPC4TCmd_addr_8004B718(int pnum, struct TCmd *pCmd) {
+	// address: 0x8011652C
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004BC84
+// line start: 2470
+// line end:   2572
+unsigned long ParseCmd__FiPC4TCmd_addr_8004BC84(int pnum, struct TCmd *pCmd) {
+	// address: 0x801199F0
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004B7F4
+// line start: 2489
+// line end:   2591
+unsigned long ParseCmd__FiPC4TCmd_addr_8004B7F4(int pnum, struct TCmd *pCmd) {
+	// address: 0x8012DCE0
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004B758
+// line start: 2470
+// line end:   2572
+unsigned long ParseCmd__FiPC4TCmd_addr_8004B758(int pnum, struct TCmd *pCmd) {
+	// address: 0x8012D704
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004C934
+// line start: 3121
+// line end:   3211
+unsigned long ParseCmd__FiPC4TCmd_addr_8004C934(int pnum, struct TCmd *pCmd) {
+	// address: 0x80117D70
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004B5E0
+// line start: 2470
+// line end:   2572
+unsigned long ParseCmd__FiPC4TCmd_addr_8004B5E0(int pnum, struct TCmd *pCmd) {
+	// address: 0x8012CFBC
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004E844
+// line start: 3778
+// line end:   3866
+unsigned long ParseCmd__FiPC4TCmd_addr_8004E844(int pnum, struct TCmd *pCmd) {
+	// address: 0x80121908
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004B7EC
+// line start: 2489
+// line end:   2591
+unsigned long ParseCmd__FiPC4TCmd_addr_8004B7EC(int pnum, struct TCmd *pCmd) {
+	// address: 0x8012DA98
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x80052238
+// line start: 2665
+// line end:   2767
+unsigned long ParseCmd__FiPC4TCmd_addr_80052238(int pnum, struct TCmd *pCmd) {
+	// address: 0x8011CA80
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004BE94
+// line start: 2457
+// line end:   2559
+unsigned long ParseCmd__FiPC4TCmd_addr_8004BE94(int pnum, struct TCmd *pCmd) {
+	// address: 0x80118364
+	static unsigned char sbLastCmd;
+}
+
+
 // address: 0x8004B61C
 // line start: 2470
 // line end:   2572
@@ -2463,10 +2879,89 @@ unsigned long ParseCmd__FiPC4TCmd_addr_8004B61C(int pnum, struct TCmd *pCmd) {
 }
 
 
+// address: 0x8004BE54
+// line start: 2470
+// line end:   2572
+unsigned long ParseCmd__FiPC4TCmd_addr_8004BE54(int pnum, struct TCmd *pCmd) {
+	// address: 0x80118D78
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004D3A4
+// line start: 2561
+// line end:   2663
+unsigned long ParseCmd__FiPC4TCmd_addr_8004D3A4(int pnum, struct TCmd *pCmd) {
+	// address: 0x8011DB0C
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x800520B4
+// line start: 2665
+// line end:   2767
+unsigned long ParseCmd__FiPC4TCmd_addr_800520B4(int pnum, struct TCmd *pCmd) {
+	// address: 0x8011CA8C
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004C878
+// line start: 3121
+// line end:   3211
+unsigned long ParseCmd__FiPC4TCmd_addr_8004C878(int pnum, struct TCmd *pCmd) {
+	// address: 0x80117C48
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004B760
+// line start: 2470
+// line end:   2572
+unsigned long ParseCmd__FiPC4TCmd_addr_8004B760(int pnum, struct TCmd *pCmd) {
+	// address: 0x8012D5CC
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x800498B4
+// line start: 2491
+// line end:   2593
+unsigned long ParseCmd__FiPC4TCmd_addr_800498B4(int pnum, struct TCmd *pCmd) {
+	// address: 0x8012B220
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8005214C
+// line start: 2665
+// line end:   2767
+unsigned long ParseCmd__FiPC4TCmd_addr_8005214C(int pnum, struct TCmd *pCmd) {
+	// address: 0x8011CA40
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x8004BA08
+// line start: 2491
+// line end:   2593
+unsigned long ParseCmd__FiPC4TCmd_addr_8004BA08(int pnum, struct TCmd *pCmd) {
+	// address: 0x8012E884
+	static unsigned char sbLastCmd;
+}
+
+
+// address: 0x800525DC
+// line start: 2796
+// line end:   2804
+void ReleaseDLevel__FP6DLevel(struct DLevel_dup_18 *Dl) {
+}
+
+
 // address: 0x8004BBC8
 // line start: 2580
 // line end:   2582
-void ReleaseDLevel__FP6DLevel(struct DLevel_dup_5 *Dl) {
+void ReleaseDLevel__FP6DLevel_addr_8004BBC8(struct DLevel_dup_5 *Dl) {
 }
 
 
@@ -2484,6 +2979,45 @@ void ReleaseDLevel__FP6DLevel_addr_8004C344(struct DLevel *Dl) {
 }
 
 
+// address: 0x800526A0
+// line start: 2796
+// line end:   2804
+void ReleaseDLevel__FP6DLevel_addr_800526A0(struct DLevel_dup_17 *Dl) {
+}
+
+
+// address: 0x800526F4
+// line start: 2817
+// line end:   2817
+void _GLOBAL__D_deltaload() {
+}
+
+
+// address: 0x8005271C
+// line start: 2817
+// line end:   2817
+void _GLOBAL__I_deltaload() {
+}
+
+
+// address: 0x800527EC
+// size: 0x4
+// line start: 118
+// line end:   178
+struct NoComp *__6NoComp(struct NoComp *this);
+
+// address: 0x800527B4
+// size: 0x4
+// line start: 137
+// line end:   178
+struct PakComp *__7PakComp(struct PakComp *this);
+
+// address: 0x8005277C
+// size: 0x4
+// line start: 156
+// line end:   178
+struct CrunchComp *__10CrunchComp(struct CrunchComp *this);
+
 // address: 0x80049BD0
 // line start: 1076
 // line end:   1085
@@ -2498,12 +3032,57 @@ void delta_close_portal__Fi(int pnum) {
 }
 
 
+// address: 0x8004ECAC
+// line start: 437
+// line end:   559
+unsigned char delta_get_item__FPC9TCmdGItemUc(struct TCmdGItem *pI, unsigned char bLevel) {
+	// register: 4
+	// size: 0x1258
+	register struct DLevel *Dl;
+	// register: 24
+	// size: 0x18
+	register struct TCmdPItem *pD;
+	// register: 7
+	register int i;
+}
+
+
+// address: 0x8004ED98
+// line start: 437
+// line end:   559
+unsigned char delta_get_item__FPC9TCmdGItemUc_addr_8004ED98(struct TCmdGItem_dup_17 *pI, unsigned char bLevel) {
+	// register: 4
+	// size: 0x1258
+	register struct DLevel_dup_17 *Dl;
+	// register: 24
+	// size: 0x18
+	register struct TCmdPItem_dup_17 *pD;
+	// register: 7
+	register int i;
+}
+
+
 // address: 0x80048C54
 // line start: 297
 // line end:   390
-unsigned char delta_get_item__FPC9TCmdGItemUc(struct TCmdGItem *pI, unsigned char bLevel) {
+unsigned char delta_get_item__FPC9TCmdGItemUc_addr_80048C54(struct TCmdGItem *pI, unsigned char bLevel) {
 	// register: 24
 	// size: 0x18
+	register struct TCmdPItem *pD;
+	// register: 7
+	register int i;
+}
+
+
+// address: 0x8004830C
+// line start: 360
+// line end:   479
+unsigned char delta_get_item__FPC9TCmdGItemUc_addr_8004830C(struct TCmdGItem *pI, unsigned char bLevel) {
+	// register: 4
+	// size: 0xF1C
+	register struct DLevel *Dl;
+	// register: 15
+	// size: 0x14
 	register struct TCmdPItem *pD;
 	// register: 7
 	register int i;
@@ -2519,6 +3098,21 @@ unsigned char delta_get_item__FPC9TCmdGItemUc_addr_80047D50(struct TCmdGItem *pI
 	register struct DLevel_dup_5 *Dl;
 	// register: 15
 	// size: 0x14
+	register struct TCmdPItem *pD;
+	// register: 7
+	register int i;
+}
+
+
+// address: 0x8004ECD4
+// line start: 437
+// line end:   559
+unsigned char delta_get_item__FPC9TCmdGItemUc_addr_8004ECD4(struct TCmdGItem *pI, unsigned char bLevel) {
+	// register: 4
+	// size: 0x1258
+	register struct DLevel_dup_18 *Dl;
+	// register: 24
+	// size: 0x18
 	register struct TCmdPItem *pD;
 	// register: 7
 	register int i;
@@ -2552,21 +3146,6 @@ unsigned char delta_get_item__FPC9TCmdGItemUc_addr_80047D74(struct TCmdGItem_dup
 }
 
 
-// address: 0x8004830C
-// line start: 360
-// line end:   479
-unsigned char delta_get_item__FPC9TCmdGItemUc_addr_8004830C(struct TCmdGItem *pI, unsigned char bLevel) {
-	// register: 4
-	// size: 0xF1C
-	register struct DLevel *Dl;
-	// register: 15
-	// size: 0x14
-	register struct TCmdPItem *pD;
-	// register: 7
-	register int i;
-}
-
-
 // address: 0x80048814
 // line start: 166
 // line end:   171
@@ -2574,26 +3153,16 @@ void delta_init__Fv() {
 }
 
 
-// address: 0x80047838
+// address: 0x80047DD0
 // line start: 183
 // line end:   204
 void delta_kill_monster__FiUcUcUc(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
 	// register: 5
 	// size: 0x6
-	register struct DMonsterStr_dup_4 *p;
+	register struct DMonsterStr *p;
 	// register: 2
 	// size: 0xF1C
-	register struct DLevel_dup_4 *Dl;
-}
-
-
-// address: 0x80048874
-// line start: 177
-// line end:   189
-void delta_kill_monster__FiUcUcUc_addr_80048874(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
-	// register: 2
-	// size: 0xC
-	register struct DMonsterStr *p;
+	register struct DLevel *Dl;
 }
 
 
@@ -2610,44 +3179,72 @@ void delta_kill_monster__FiUcUcUc_addr_80047814(int mi, unsigned char x, unsigne
 }
 
 
-// address: 0x80047DD0
-// line start: 183
-// line end:   204
-void delta_kill_monster__FiUcUcUc_addr_80047DD0(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
+// address: 0x8004E838
+// line start: 282
+// line end:   303
+void delta_kill_monster__FiUcUcUc_addr_8004E838(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
 	// register: 5
-	// size: 0x6
+	// size: 0x8
 	register struct DMonsterStr *p;
 	// register: 2
+	// size: 0x1258
+	register struct DLevel_dup_18 *Dl;
+}
+
+
+// address: 0x80048874
+// line start: 177
+// line end:   189
+void delta_kill_monster__FiUcUcUc_addr_80048874(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
+	// register: 2
+	// size: 0xC
+	register struct DMonsterStr *p;
+}
+
+
+// address: 0x80047838
+// line start: 183
+// line end:   204
+void delta_kill_monster__FiUcUcUc_addr_80047838(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
+	// register: 5
+	// size: 0x6
+	register struct DMonsterStr_dup_4 *p;
+	// register: 2
 	// size: 0xF1C
+	register struct DLevel_dup_4 *Dl;
+}
+
+
+// address: 0x8004E810
+// line start: 282
+// line end:   303
+void delta_kill_monster__FiUcUcUc_addr_8004E810(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
+	// register: 5
+	// size: 0x8
+	register struct DMonsterStr *p;
+	// register: 2
+	// size: 0x1258
 	register struct DLevel *Dl;
 }
 
 
-// address: 0x800479E8
-// line start: 290
-// line end:   331
-void delta_leave_sync__FUc(unsigned char bLevel) {
-	// register: 20
-	// size: 0xF1C
-	register struct DLevel_dup_4 *Dl;
-	{
-		// register: 19
-		register int i;
-		{
-			// register: 4
-			register int ii;
-			// register: 16
-			// size: 0x6
-			register struct DMonsterStr_dup_4 *pD;
-		}
-	}
+// address: 0x8004E8FC
+// line start: 282
+// line end:   303
+void delta_kill_monster__FiUcUcUc_addr_8004E8FC(int mi, unsigned char x, unsigned char y, unsigned char bLevel) {
+	// register: 5
+	// size: 0x8
+	register struct DMonsterStr_dup_17 *p;
+	// register: 2
+	// size: 0x1258
+	register struct DLevel_dup_17 *Dl;
 }
 
 
 // address: 0x800479C4
 // line start: 290
 // line end:   331
-void delta_leave_sync__FUc_addr_800479C4(unsigned char bLevel) {
+void delta_leave_sync__FUc(unsigned char bLevel) {
 	// register: 20
 	// size: 0xF1C
 	register struct DLevel_dup_5 *Dl;
@@ -2660,6 +3257,27 @@ void delta_leave_sync__FUc_addr_800479C4(unsigned char bLevel) {
 			// register: 16
 			// size: 0x6
 			register struct DMonsterStr *pD;
+		}
+	}
+}
+
+
+// address: 0x8004EA10
+// line start: 367
+// line end:   408
+void delta_leave_sync__FUc_addr_8004EA10(unsigned char bLevel) {
+	// register: 20
+	// size: 0x1258
+	register struct DLevel_dup_17 *Dl;
+	{
+		// register: 19
+		register int i;
+		{
+			// register: 4
+			register int ii;
+			// register: 16
+			// size: 0x8
+			register struct DMonsterStr_dup_17 *pD;
 		}
 	}
 }
@@ -2704,16 +3322,76 @@ void delta_leave_sync__FUc_addr_800489BC(unsigned char bLevel) {
 }
 
 
-// address: 0x800478B0
-// line start: 211
-// line end:   227
-void delta_monster_hp__FilUc(int mi, long hp, unsigned char bLevel) {
-	// register: 3
-	// size: 0x6
-	register struct DMonsterStr *p;
-	// register: 4
+// address: 0x800479E8
+// line start: 290
+// line end:   331
+void delta_leave_sync__FUc_addr_800479E8(unsigned char bLevel) {
+	// register: 20
 	// size: 0xF1C
-	register struct DLevel_dup_5 *Dl;
+	register struct DLevel_dup_4 *Dl;
+	{
+		// register: 19
+		register int i;
+		{
+			// register: 4
+			register int ii;
+			// register: 16
+			// size: 0x6
+			register struct DMonsterStr_dup_4 *pD;
+		}
+	}
+}
+
+
+// address: 0x8004E94C
+// line start: 367
+// line end:   408
+void delta_leave_sync__FUc_addr_8004E94C(unsigned char bLevel) {
+	// register: 20
+	// size: 0x1258
+	register struct DLevel_dup_18 *Dl;
+	{
+		// register: 19
+		register int i;
+		{
+			// register: 4
+			register int ii;
+			// register: 16
+			// size: 0x8
+			register struct DMonsterStr *pD;
+		}
+	}
+}
+
+
+// address: 0x8004E924
+// line start: 367
+// line end:   408
+void delta_leave_sync__FUc_addr_8004E924(unsigned char bLevel) {
+	// register: 20
+	// size: 0x1258
+	register struct DLevel *Dl;
+	{
+		// register: 19
+		register int i;
+		{
+			// register: 4
+			register int ii;
+			// register: 16
+			// size: 0x8
+			register struct DMonsterStr *pD;
+		}
+	}
+}
+
+
+// address: 0x800488E4
+// line start: 195
+// line end:   202
+void delta_monster_hp__FilUc(int mi, long hp, unsigned char bLevel) {
+	// register: 4
+	// size: 0xC
+	register struct DMonsterStr *p;
 }
 
 
@@ -2730,13 +3408,42 @@ void delta_monster_hp__FilUc_addr_80047E6C(int mi, long hp, unsigned char bLevel
 }
 
 
-// address: 0x800488E4
-// line start: 195
-// line end:   202
-void delta_monster_hp__FilUc_addr_800488E4(int mi, long hp, unsigned char bLevel) {
+// address: 0x8004E994
+// line start: 310
+// line end:   326
+void delta_monster_hp__FilUc_addr_8004E994(int mi, long hp, unsigned char bLevel) {
+	// register: 3
+	// size: 0x8
+	register struct DMonsterStr_dup_17 *p;
 	// register: 4
-	// size: 0xC
+	// size: 0x1258
+	register struct DLevel_dup_17 *Dl;
+}
+
+
+// address: 0x8004E8D0
+// line start: 310
+// line end:   326
+void delta_monster_hp__FilUc_addr_8004E8D0(int mi, long hp, unsigned char bLevel) {
+	// register: 3
+	// size: 0x8
 	register struct DMonsterStr *p;
+	// register: 4
+	// size: 0x1258
+	register struct DLevel_dup_18 *Dl;
+}
+
+
+// address: 0x800478B0
+// line start: 211
+// line end:   227
+void delta_monster_hp__FilUc_addr_800478B0(int mi, long hp, unsigned char bLevel) {
+	// register: 3
+	// size: 0x6
+	register struct DMonsterStr *p;
+	// register: 4
+	// size: 0xF1C
+	register struct DLevel_dup_5 *Dl;
 }
 
 
@@ -2750,6 +3457,19 @@ void delta_monster_hp__FilUc_addr_800478D4(int mi, long hp, unsigned char bLevel
 	// register: 4
 	// size: 0xF1C
 	register struct DLevel_dup_4 *Dl;
+}
+
+
+// address: 0x8004E8A8
+// line start: 310
+// line end:   326
+void delta_monster_hp__FilUc_addr_8004E8A8(int mi, long hp, unsigned char bLevel) {
+	// register: 3
+	// size: 0x8
+	register struct DMonsterStr *p;
+	// register: 4
+	// size: 0x1258
+	register struct DLevel *Dl;
 }
 
 
@@ -2767,10 +3487,40 @@ unsigned char delta_portal_inited__Fi(int i) {
 }
 
 
+// address: 0x8004EEA0
+// line start: 566
+// line end:   628
+void delta_put_item__FPC9TCmdPItemiiUc(struct TCmdPItem *pI, int x, int y, unsigned char bLevel) {
+	// register: 9
+	// size: 0x1258
+	register struct DLevel_dup_18 *Dl;
+	// register: 7
+	// size: 0x18
+	register struct TCmdPItem *pD;
+	// register: 8
+	register int i;
+}
+
+
+// address: 0x800484D0
+// line start: 486
+// line end:   547
+void delta_put_item__FPC9TCmdPItemiiUc_addr_800484D0(struct TCmdPItem *pI, int x, int y, unsigned char bLevel) {
+	// register: 9
+	// size: 0xF1C
+	register struct DLevel *Dl;
+	// register: 7
+	// size: 0x14
+	register struct TCmdPItem *pD;
+	// register: 8
+	register int i;
+}
+
+
 // address: 0x80047F14
 // line start: 486
 // line end:   547
-void delta_put_item__FPC9TCmdPItemiiUc(struct TCmdPItem *pI, int x, int y, unsigned char bLevel) {
+void delta_put_item__FPC9TCmdPItemiiUc_addr_80047F14(struct TCmdPItem *pI, int x, int y, unsigned char bLevel) {
 	// register: 9
 	// size: 0xF1C
 	register struct DLevel_dup_5 *Dl;
@@ -2794,16 +3544,16 @@ void delta_put_item__FPC9TCmdPItemiiUc_addr_80048E18(struct TCmdPItem *pI, int x
 }
 
 
-// address: 0x800484D0
-// line start: 486
-// line end:   547
-void delta_put_item__FPC9TCmdPItemiiUc_addr_800484D0(struct TCmdPItem *pI, int x, int y, unsigned char bLevel) {
+// address: 0x8004EF64
+// line start: 566
+// line end:   628
+void delta_put_item__FPC9TCmdPItemiiUc_addr_8004EF64(struct TCmdPItem_dup_17 *pI, int x, int y, unsigned char bLevel) {
 	// register: 9
-	// size: 0xF1C
-	register struct DLevel *Dl;
+	// size: 0x1258
+	register struct DLevel_dup_17 *Dl;
 	// register: 7
-	// size: 0x14
-	register struct TCmdPItem *pD;
+	// size: 0x18
+	register struct TCmdPItem_dup_17 *pD;
 	// register: 8
 	register int i;
 }
@@ -2836,6 +3586,21 @@ void delta_put_item__FPC9TCmdPItemiiUc_addr_80047F38(struct TCmdPItem_dup_4 *pI,
 }
 
 
+// address: 0x8004EE78
+// line start: 566
+// line end:   628
+void delta_put_item__FPC9TCmdPItemiiUc_addr_8004EE78(struct TCmdPItem *pI, int x, int y, unsigned char bLevel) {
+	// register: 9
+	// size: 0x1258
+	register struct DLevel *Dl;
+	// register: 7
+	// size: 0x18
+	register struct TCmdPItem *pD;
+	// register: 8
+	register int i;
+}
+
+
 // address: 0x80048FA4
 // line start: 452
 // line end:   455
@@ -2843,33 +3608,10 @@ unsigned char delta_quest_inited__Fi(int i) {
 }
 
 
-// address: 0x80047EF0
-// line start: 262
-// line end:   284
-void delta_sync_golem__FPC9TCmdGolemiUc(struct TCmdGolem *pG, int pnum, unsigned char bLevel) {
-	// register: 2
-	// size: 0xF1C
-	register struct DLevel *Dl;
-	// register: 2
-	// size: 0x6
-	register struct DMonsterStr *pD;
-}
-
-
-// address: 0x80048944
-// line start: 230
-// line end:   244
-void delta_sync_golem__FPC9TCmdGolemiUc_addr_80048944(struct TCmdGolem *pG, int pnum, unsigned char bLevel) {
-	// register: 3
-	// size: 0xC
-	register struct DMonsterStr *pD;
-}
-
-
 // address: 0x80047934
 // line start: 262
 // line end:   284
-void delta_sync_golem__FPC9TCmdGolemiUc_addr_80047934(struct TCmdGolem *pG, int pnum, unsigned char bLevel) {
+void delta_sync_golem__FPC9TCmdGolemiUc(struct TCmdGolem *pG, int pnum, unsigned char bLevel) {
 	// register: 2
 	// size: 0xF1C
 	register struct DLevel_dup_5 *Dl;
@@ -2892,6 +3634,29 @@ void delta_sync_golem__FPC9TCmdGolemiUc_addr_80047958(struct TCmdGolem_dup_4 *pG
 }
 
 
+// address: 0x80047EF0
+// line start: 262
+// line end:   284
+void delta_sync_golem__FPC9TCmdGolemiUc_addr_80047EF0(struct TCmdGolem *pG, int pnum, unsigned char bLevel) {
+	// register: 2
+	// size: 0xF1C
+	register struct DLevel *Dl;
+	// register: 2
+	// size: 0x6
+	register struct DMonsterStr *pD;
+}
+
+
+// address: 0x80048944
+// line start: 230
+// line end:   244
+void delta_sync_golem__FPC9TCmdGolemiUc_addr_80048944(struct TCmdGolem *pG, int pnum, unsigned char bLevel) {
+	// register: 3
+	// size: 0xC
+	register struct DMonsterStr *pD;
+}
+
+
 // address: 0x800499A8
 // line start: 730
 // line end:   747
@@ -2902,23 +3667,26 @@ void delta_sync_monster__FPC12TSyncMonsterUc(struct TSyncMonster *pSync, unsigne
 }
 
 
-// address: 0x80048C14
-// line start: 284
-// line end:   291
+// address: 0x80047D14
+// line start: 337
+// line end:   353
 void delta_sync_object__FiUcUc(int oi, unsigned char bCmd, unsigned char bLevel) {
+	// register: 2
+	// size: 0xF1C
+	register struct DLevel_dup_4 *Dl;
 	// register: 2
 	// size: 0x1
 	register struct DObjectStr *p;
 }
 
 
-// address: 0x80047D14
-// line start: 337
-// line end:   353
-void delta_sync_object__FiUcUc_addr_80047D14(int oi, unsigned char bCmd, unsigned char bLevel) {
+// address: 0x8004EC4C
+// line start: 414
+// line end:   430
+void delta_sync_object__FiUcUc_addr_8004EC4C(int oi, unsigned char bCmd, unsigned char bLevel) {
 	// register: 2
-	// size: 0xF1C
-	register struct DLevel_dup_4 *Dl;
+	// size: 0x1258
+	register struct DLevel *Dl;
 	// register: 2
 	// size: 0x1
 	register struct DObjectStr *p;
@@ -2945,6 +3713,42 @@ void delta_sync_object__FiUcUc_addr_80047CF0(int oi, unsigned char bCmd, unsigne
 	// register: 2
 	// size: 0xF1C
 	register struct DLevel_dup_5 *Dl;
+	// register: 2
+	// size: 0x1
+	register struct DObjectStr *p;
+}
+
+
+// address: 0x8004ED38
+// line start: 414
+// line end:   430
+void delta_sync_object__FiUcUc_addr_8004ED38(int oi, unsigned char bCmd, unsigned char bLevel) {
+	// register: 2
+	// size: 0x1258
+	register struct DLevel_dup_17 *Dl;
+	// register: 2
+	// size: 0x1
+	register struct DObjectStr *p;
+}
+
+
+// address: 0x80048C14
+// line start: 284
+// line end:   291
+void delta_sync_object__FiUcUc_addr_80048C14(int oi, unsigned char bCmd, unsigned char bLevel) {
+	// register: 2
+	// size: 0x1
+	register struct DObjectStr *p;
+}
+
+
+// address: 0x8004EC74
+// line start: 414
+// line end:   430
+void delta_sync_object__FiUcUc_addr_8004EC74(int oi, unsigned char bCmd, unsigned char bLevel) {
+	// register: 2
+	// size: 0x1258
+	register struct DLevel_dup_18 *Dl;
 	// register: 2
 	// size: 0x1
 	register struct DObjectStr *p;

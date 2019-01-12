@@ -49,6 +49,47 @@ int ML_GetPresetMonsters__FiPiUl(int currlevel, int *typelist, unsigned long Que
 }
 
 
+// address: 0x8007D520
+// line start: 163
+// line end:   216
+int ML_GetPresetMonsters__FiPiUl_addr_8007D520(int currlevel, int *typelist, unsigned long QuestsNeededMask) {
+	// register: 10
+	// size: 0x10
+	register struct MonstList *Mlist;
+	// register: 18
+	register int NumOfMonsters;
+	// register: 16
+	register int ThisList;
+	// address: 0xFFFFFFC0
+	// size: 0x28
+	auto int Index[10];
+	{
+		// register: 9
+		register unsigned int f;
+		{
+			{
+				{
+					{
+						// register: 7
+						register int i;
+						{
+							{
+								{
+									// register: 4
+									register int minl;
+									// register: 2
+									register int maxl;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x80075D0C
 // line start: 67
 // line end:   72

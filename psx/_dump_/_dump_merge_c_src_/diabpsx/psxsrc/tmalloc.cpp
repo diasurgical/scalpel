@@ -27,6 +27,17 @@ void *Tmalloc__Fi(int MemSize) {
 }
 
 
+// address: 0x80088020
+// line start: 78
+// line end:   109
+void *Tmalloc__Fi_addr_80088020(int MemSize) {
+	// register: 16
+	register long MyHnd;
+	// register: 17
+	register void *Addr;
+}
+
+
 // address: 0x800810B0
 // line start: 161
 // line end:   167

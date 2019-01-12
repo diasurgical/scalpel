@@ -38,10 +38,22 @@ short PlayFMV__FPCc_addr_8009D734(char *str) {
 }
 
 
+// address: 0x800ACCA8
+// line start: 95
+// line end:   192
+short PlayFMV__FPcii(char *str, int w, int h) {
+	// register: 17
+	register short RetVal;
+	// register: 21
+	// size: 0x4
+	register enum OVER_TYPE CurrentOver;
+}
+
+
 // address: 0x8009FDA4
 // line start: 90
 // line end:   125
-short PlayFMV__FPcii(char *str, int w, int h) {
+short PlayFMV__FPcii_addr_8009FDA4(char *str, int w, int h) {
 	// register: 16
 	register short RetVal;
 	// register: 19
@@ -50,23 +62,10 @@ short PlayFMV__FPcii(char *str, int w, int h) {
 }
 
 
-// address: 0x8009FE64
-// line start: 130
-// line end:   144
-void play_movie(char *pszMovie) {
-	{
-		{
-			{
-			}
-		}
-	}
-}
-
-
 // address: 0x8009CF64
 // line start: 178
 // line end:   191
-void play_movie_addr_8009CF64(char *pszMovie, unsigned char bAllowCancel) {
+void play_movie(char *pszMovie, unsigned char bAllowCancel) {
 	// register: 16
 	// size: 0x20
 	register struct StrInfo *ptr;
@@ -86,6 +85,19 @@ void play_movie_addr_8009CD30(char *pszMovie) {
 			{
 				// register: 17
 				register int i;
+			}
+		}
+	}
+}
+
+
+// address: 0x8009FE64
+// line start: 130
+// line end:   144
+void play_movie_addr_8009FE64(char *pszMovie) {
+	{
+		{
+			{
 			}
 		}
 	}
