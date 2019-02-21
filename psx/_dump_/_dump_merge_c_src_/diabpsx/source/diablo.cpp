@@ -16,29 +16,10 @@ void AllSolid__Fii(int x, int y) {
 }
 
 
-// address: 0x80037464
-// line start: 2531
-// line end:   2556
-void ClearOutDungeonMap__Fv() {
-	// register: 11
-	register unsigned short val;
-	{
-		// register: 10
-		register int x;
-		{
-			{
-				// register: 6
-				register int y;
-			}
-		}
-	}
-}
-
-
 // address: 0x80038C94
 // line start: 2592
 // line end:   2661
-void ClearOutDungeonMap__Fv_addr_80038C94() {
+void ClearOutDungeonMap__Fv() {
 	// register: 17
 	register bool istown;
 	// register: 16
@@ -92,6 +73,25 @@ void ClearOutDungeonMap__Fv_addr_80038C94() {
 }
 
 
+// address: 0x80037464
+// line start: 2531
+// line end:   2556
+void ClearOutDungeonMap__Fv_addr_80037464() {
+	// register: 11
+	register unsigned short val;
+	{
+		// register: 10
+		register int x;
+		{
+			{
+				// register: 6
+				register int y;
+			}
+		}
+	}
+}
+
+
 // address: 0x800371E4
 // line start: 2444
 // line end:   2464
@@ -128,7 +128,7 @@ void DoMemCardFromInGame__Fv() {
 void FillCrapBits__Fv() {
 	// register: 18
 	// size: 0x14
-	register struct QuestStruct_dup_17 *qs;
+	register struct QuestStruct *qs;
 	{
 		{
 			{
@@ -150,7 +150,7 @@ void FillCrapBits__Fv() {
 void FillCrapBits__Fv_addr_80038F74() {
 	// register: 18
 	// size: 0x14
-	register struct QuestStruct *qs;
+	register struct QuestStruct_dup_17 *qs;
 	{
 		{
 			{

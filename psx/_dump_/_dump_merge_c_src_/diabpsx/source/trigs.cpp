@@ -119,43 +119,6 @@ void CheckTriggers__Fi(int pnum) {
 }
 
 
-// address: 0x80073204
-// line start: 501
-// line end:   640
-void CheckTriggers__Fi_addr_80073204(int pnum) {
-	// register: 17
-	register int x;
-	// register: 16
-	register int y;
-	{
-		// register: 23
-		register int i;
-		{
-			{
-				{
-					{
-						{
-							// register: 4
-							register unsigned char abortflag;
-							// register: 17
-							register int dx;
-							// register: 16
-							register int dy;
-							// register: 18
-							register char m;
-							{
-								{
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x800767A8
 // line start: 895
 // line end:   1051
@@ -213,6 +176,43 @@ void CheckTriggers__Fi_addr_8006F458(int pnum) {
 							register int dy;
 							// register: 19
 							register char m;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80073204
+// line start: 501
+// line end:   640
+void CheckTriggers__Fi_addr_80073204(int pnum) {
+	// register: 17
+	register int x;
+	// register: 16
+	register int y;
+	{
+		// register: 23
+		register int i;
+		{
+			{
+				{
+					{
+						{
+							// register: 4
+							register unsigned char abortflag;
+							// register: 17
+							register int dx;
+							// register: 16
+							register int dy;
+							// register: 18
+							register char m;
+							{
+								{
+								}
+							}
 						}
 					}
 				}
@@ -322,12 +322,10 @@ unsigned char ForceSKingTrig__Fv() {
 }
 
 
-// address: 0x8006E55C
-// line start: 76
-// line end:   117
+// address: 0x8007537C
+// line start: 371
+// line end:   451
 unsigned char ForceTownTrig__Fv() {
-	// register: 5
-	register int i;
 }
 
 
@@ -346,10 +344,12 @@ unsigned char ForceTownTrig__Fv_addr_80075134() {
 }
 
 
-// address: 0x8007537C
-// line start: 371
-// line end:   451
-unsigned char ForceTownTrig__Fv_addr_8007537C() {
+// address: 0x8006E55C
+// line start: 76
+// line end:   117
+unsigned char ForceTownTrig__Fv_addr_8006E55C() {
+	// register: 5
+	register int i;
 }
 
 
@@ -370,21 +370,21 @@ void Freeupstairs__Fv() {
 }
 
 
-// address: 0x80076674
-// line start: 863
-// line end:   882
-bool IsTrigger__Fii(int x, int y) {
-	// register: 6
-	register int i;
-}
-
-
 // address: 0x8006E460
 // line start: 502
 // line end:   509
-bool IsTrigger__Fii_addr_8006E460(int x, int y) {
+bool IsTrigger__Fii(int x, int y) {
 	{
 	}
+}
+
+
+// address: 0x80076674
+// line start: 863
+// line end:   882
+bool IsTrigger__Fii_addr_80076674(int x, int y) {
+	// register: 6
+	register int i;
 }
 
 

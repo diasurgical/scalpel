@@ -16,10 +16,10 @@ int CurrCheatStr__Fv() {
 }
 
 
-// address: 0x8009B6F8
+// address: 0x8009B57C
 // line start: 344
 // line end:   365
-void DrawManaShield__FP12PlayerStruct(struct PlayerStruct_dup_17 *ptrplr) {
+void DrawManaShield__FP12PlayerStruct(struct PlayerStruct *ptrplr) {
 }
 
 
@@ -30,10 +30,10 @@ void DrawManaShield__FP12PlayerStruct_addr_8009B624(struct PlayerStruct_dup_18 *
 }
 
 
-// address: 0x8009B57C
+// address: 0x8009B6F8
 // line start: 344
 // line end:   365
-void DrawManaShield__FP12PlayerStruct_addr_8009B57C(struct PlayerStruct *ptrplr) {
+void DrawManaShield__FP12PlayerStruct_addr_8009B6F8(struct PlayerStruct_dup_17 *ptrplr) {
 }
 
 
@@ -104,20 +104,20 @@ void demo_game_task__FP4TASK(struct TASK *T) {
 }
 
 
-// address: 0x8008EB2C
-// line start: 139
-// line end:   145
-void load_demo_pad_data__FUl(unsigned long demo_num) {
-}
-
-
 // address: 0x8008E3F0
 // line start: 134
 // line end:   141
-void load_demo_pad_data__FUl_addr_8008E3F0(unsigned long demo_num) {
+void load_demo_pad_data__FUl(unsigned long demo_num) {
 	// register: 4
 	// size: 0x14
 	register struct FileIO *Fs;
+}
+
+
+// address: 0x8008EB2C
+// line start: 139
+// line end:   145
+void load_demo_pad_data__FUl_addr_8008EB2C(unsigned long demo_num) {
 }
 
 
@@ -128,23 +128,10 @@ void new_eprint__FPcT0i(char *Text, char *File, int Line) {
 }
 
 
-// address: 0x800907CC
-// line start: 116
-// line end:   158
-void print_demo_task__FP4TASK(struct TASK *T) {
-	{
-		{
-			// register: 3
-			register int x;
-		}
-	}
-}
-
-
 // address: 0x8009B228
 // line start: 178
 // line end:   255
-void print_demo_task__FP4TASK_addr_8009B228(struct TASK *T) {
+void print_demo_task__FP4TASK(struct TASK *T) {
 	{
 		// register: 16
 		register int demo_char;
@@ -160,6 +147,19 @@ void print_demo_task__FP4TASK_addr_8009B228(struct TASK *T) {
 // line start: 107
 // line end:   133
 void print_demo_task__FP4TASK_addr_8008E9F4(struct TASK *T) {
+}
+
+
+// address: 0x800907CC
+// line start: 116
+// line end:   158
+void print_demo_task__FP4TASK_addr_800907CC(struct TASK *T) {
+	{
+		{
+			// register: 3
+			register int x;
+		}
+	}
 }
 
 

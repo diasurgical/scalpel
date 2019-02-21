@@ -20,33 +20,10 @@ void InitNewSeed__Fl(long newseed) {
 }
 
 
-// address: 0x80052BC0
-// line start: 708
-// line end:   863
-unsigned char NetInit__FUcPUc(unsigned char bSinglePlayer, unsigned char *pfExitProgram) {
-	// address: 0xFFFFFF50
-	// size: 0x80
-	auto char szPlayerDescript[128];
-	// register: 2
-	register long time;
-	{
-		{
-			// address: 0xFFFFFFD0
-			// size: 0x28
-			auto struct _uiheroinfo heroinfo;
-			{
-				{
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x8004F06C
 // line start: 701
 // line end:   930
-unsigned char NetInit__FUcPUc_addr_8004F06C(unsigned char bSinglePlayer, unsigned char *pfExitProgram) {
+unsigned char NetInit__FUcPUc(unsigned char bSinglePlayer, unsigned char *pfExitProgram) {
 	// address: 0xFFFFFF18
 	// size: 0x80
 	auto char szPlayerDescript[128];
@@ -59,6 +36,29 @@ unsigned char NetInit__FUcPUc_addr_8004F06C(unsigned char bSinglePlayer, unsigne
 	{
 		{
 			// address: 0xFFFFFF98
+			// size: 0x28
+			auto struct _uiheroinfo heroinfo;
+			{
+				{
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80052BC0
+// line start: 708
+// line end:   863
+unsigned char NetInit__FUcPUc_addr_80052BC0(unsigned char bSinglePlayer, unsigned char *pfExitProgram) {
+	// address: 0xFFFFFF50
+	// size: 0x80
+	auto char szPlayerDescript[128];
+	// register: 2
+	register long time;
+	{
+		{
+			// address: 0xFFFFFFD0
 			// size: 0x28
 			auto struct _uiheroinfo heroinfo;
 			{

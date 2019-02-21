@@ -208,10 +208,10 @@ void ClearTrails__11SpellTarget(struct SpellTarget_dup_18 *this) {
 }
 
 
-// address: 0x800AEFDC
+// address: 0x800AEFC4
 // line start: 103
 // line end:   108
-void ClearTrails__11SpellTarget_addr_800AEFDC(struct SpellTarget *this) {
+void ClearTrails__11SpellTarget_addr_800AEFC4(struct SpellTarget_dup_19 *this) {
 	{
 		// register: 3
 		register int i;
@@ -219,10 +219,10 @@ void ClearTrails__11SpellTarget_addr_800AEFDC(struct SpellTarget *this) {
 }
 
 
-// address: 0x800AEFC4
+// address: 0x800AEFDC
 // line start: 103
 // line end:   108
-void ClearTrails__11SpellTarget_addr_800AEFC4(struct SpellTarget_dup_19 *this) {
+void ClearTrails__11SpellTarget_addr_800AEFDC(struct SpellTarget *this) {
 	{
 		// register: 3
 		register int i;
@@ -332,13 +332,13 @@ void ForceTarget__11SpellTargetiii_addr_800AFA54(struct SpellTarget_dup_19 *this
 }
 
 
-// address: 0x800AEE38
+// address: 0x800AEF0C
 // line start: 79
 // line end:   99
 void GetScrXY__FPiT0(int *wx, int *wy) {
 	// register: 19
 	// size: 0x108
-	register struct CBlocks_dup_18 *gblocks;
+	register struct CBlocks_dup_17 *gblocks;
 	// address: 0xFFFFFFD8
 	// size: 0x8
 	auto struct RECT R;
@@ -355,13 +355,13 @@ void GetScrXY__FPiT0(int *wx, int *wy) {
 }
 
 
-// address: 0x800AEF0C
+// address: 0x800AEF6C
 // line start: 79
 // line end:   99
-void GetScrXY__FPiT0_addr_800AEF0C(int *wx, int *wy) {
+void GetScrXY__FPiT0_addr_800AEF6C(int *wx, int *wy) {
 	// register: 19
 	// size: 0x108
-	register struct CBlocks_dup_17 *gblocks;
+	register struct CBlocks *gblocks;
 	// address: 0xFFFFFFD8
 	// size: 0x8
 	auto struct RECT R;
@@ -401,13 +401,13 @@ void GetScrXY__FPiT0_addr_800AEEF4(int *wx, int *wy) {
 }
 
 
-// address: 0x800AEF6C
+// address: 0x800AEE38
 // line start: 79
 // line end:   99
-void GetScrXY__FPiT0_addr_800AEF6C(int *wx, int *wy) {
+void GetScrXY__FPiT0_addr_800AEE38(int *wx, int *wy) {
 	// register: 19
 	// size: 0x108
-	register struct CBlocks *gblocks;
+	register struct CBlocks_dup_18 *gblocks;
 	// address: 0xFFFFFFD8
 	// size: 0x8
 	auto struct RECT R;
@@ -487,10 +487,10 @@ void Init__11SpellTargeti(struct SpellTarget *this, int plrn) {
 }
 
 
-// address: 0x800AEFEC
+// address: 0x800AEF30
 // line start: 114
 // line end:   170
-void Init__11SpellTargeti_addr_800AEFEC(struct SpellTarget_dup_19 *this, int plrn) {
+void Init__11SpellTargeti_addr_800AEF30(struct SpellTarget_dup_18 *this, int plrn) {
 	{
 		{
 			{
@@ -508,10 +508,10 @@ void Init__11SpellTargeti_addr_800AEFEC(struct SpellTarget_dup_19 *this, int plr
 }
 
 
-// address: 0x800AEF30
+// address: 0x800AEFEC
 // line start: 114
 // line end:   170
-void Init__11SpellTargeti_addr_800AEF30(struct SpellTarget_dup_18 *this, int plrn) {
+void Init__11SpellTargeti_addr_800AEFEC(struct SpellTarget_dup_19 *this, int plrn) {
 	{
 		{
 			{
@@ -574,7 +574,7 @@ void SPL_Arrow__F6TARGETiii(enum TARGET t, int pnum, int times, int size) {
 }
 
 
-// address: 0x800AF5B0
+// address: 0x800AF550
 // line start: 239
 // line end:   387
 void Show__11SpellTarget(struct SpellTarget *this) {
@@ -584,7 +584,7 @@ void Show__11SpellTarget(struct SpellTarget *this) {
 	auto int y;
 	// register: 16
 	// size: 0xEC
-	register struct CPad *Pad;
+	register struct CPad_dup_17 *Pad;
 	// register: 20
 	register int otx;
 	// register: 21
@@ -597,7 +597,7 @@ void Show__11SpellTarget(struct SpellTarget *this) {
 	register int ply;
 	// register: 19
 	// size: 0x6C
-	register struct MonsterStruct *Monst;
+	register struct MonsterStruct_dup_17 *Monst;
 	// register: 20
 	register int ops;
 	{
@@ -668,17 +668,17 @@ void Show__11SpellTarget_addr_800AF538(struct SpellTarget_dup_19 *this) {
 }
 
 
-// address: 0x800AF550
+// address: 0x800AF47C
 // line start: 239
 // line end:   387
-void Show__11SpellTarget_addr_800AF550(struct SpellTarget *this) {
+void Show__11SpellTarget_addr_800AF47C(struct SpellTarget_dup_18 *this) {
 	// address: 0xFFFFFFD8
 	auto int x;
 	// address: 0xFFFFFFDC
 	auto int y;
 	// register: 16
 	// size: 0xEC
-	register struct CPad_dup_17 *Pad;
+	register struct CPad *Pad;
 	// register: 20
 	register int otx;
 	// register: 21
@@ -691,7 +691,7 @@ void Show__11SpellTarget_addr_800AF550(struct SpellTarget *this) {
 	register int ply;
 	// register: 19
 	// size: 0x6C
-	register struct MonsterStruct_dup_17 *Monst;
+	register struct MonsterStruct *Monst;
 	// register: 20
 	register int ops;
 	{
@@ -715,10 +715,10 @@ void Show__11SpellTarget_addr_800AF550(struct SpellTarget *this) {
 }
 
 
-// address: 0x800AF47C
+// address: 0x800AF5B0
 // line start: 239
 // line end:   387
-void Show__11SpellTarget_addr_800AF47C(struct SpellTarget_dup_18 *this) {
+void Show__11SpellTarget_addr_800AF5B0(struct SpellTarget *this) {
 	// address: 0xFFFFFFD8
 	auto int x;
 	// address: 0xFFFFFFDC

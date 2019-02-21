@@ -28,19 +28,19 @@ struct FileIO *SYSI_GetOverlayFs__Fv() {
 }
 
 
-// address: 0x800841D4
-// line start: 201
-// line end:   275
-void SortOutFileSystem__Fv() {
-	// register: 16
-	register char *SearchPath;
-}
-
-
 // address: 0x8007B23C
 // line start: 182
 // line end:   242
-void SortOutFileSystem__Fv_addr_8007B23C() {
+void SortOutFileSystem__Fv() {
+}
+
+
+// address: 0x800841D4
+// line start: 201
+// line end:   275
+void SortOutFileSystem__Fv_addr_800841D4() {
+	// register: 16
+	register char *SearchPath;
 }
 
 

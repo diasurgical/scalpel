@@ -11,9 +11,9 @@ int ML_GetList__Fi(int Level) {
 }
 
 
-// address: 0x80075F0C
-// line start: 156
-// line end:   199
+// address: 0x8007D520
+// line start: 163
+// line end:   216
 int ML_GetPresetMonsters__FiPiUl(int currlevel, int *typelist, unsigned long QuestsNeededMask) {
 	// register: 10
 	// size: 0x10
@@ -22,6 +22,9 @@ int ML_GetPresetMonsters__FiPiUl(int currlevel, int *typelist, unsigned long Que
 	register int NumOfMonsters;
 	// register: 16
 	register int ThisList;
+	// address: 0xFFFFFFC0
+	// size: 0x28
+	auto int Index[10];
 	{
 		// register: 9
 		register unsigned int f;
@@ -49,10 +52,10 @@ int ML_GetPresetMonsters__FiPiUl(int currlevel, int *typelist, unsigned long Que
 }
 
 
-// address: 0x8007D520
-// line start: 163
-// line end:   216
-int ML_GetPresetMonsters__FiPiUl_addr_8007D520(int currlevel, int *typelist, unsigned long QuestsNeededMask) {
+// address: 0x80075F0C
+// line start: 156
+// line end:   199
+int ML_GetPresetMonsters__FiPiUl_addr_80075F0C(int currlevel, int *typelist, unsigned long QuestsNeededMask) {
 	// register: 10
 	// size: 0x10
 	register struct MonstList *Mlist;
@@ -60,9 +63,6 @@ int ML_GetPresetMonsters__FiPiUl_addr_8007D520(int currlevel, int *typelist, uns
 	register int NumOfMonsters;
 	// register: 16
 	register int ThisList;
-	// address: 0xFFFFFFC0
-	// size: 0x28
-	auto int Index[10];
 	{
 		// register: 9
 		register unsigned int f;

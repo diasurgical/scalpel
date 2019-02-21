@@ -23,23 +23,10 @@ void music_release__Fv() {
 }
 
 
-// address: 0x80070818
-// line start: 261
-// line end:   275
-void music_start__Fi(int nTrack) {
-	{
-		{
-			// register: 2
-			register int MusicVolume;
-		}
-	}
-}
-
-
 // address: 0x8007145C
 // line start: 260
 // line end:   273
-void music_start__Fi_addr_8007145C(int nTrack) {
+void music_start__Fi(int nTrack) {
 }
 
 
@@ -63,6 +50,19 @@ void music_start__Fi_addr_80070868(int nTrack) {
 	{
 		{
 			// register: 6
+			register int MusicVolume;
+		}
+	}
+}
+
+
+// address: 0x80070818
+// line start: 261
+// line end:   275
+void music_start__Fi_addr_80070818(int nTrack) {
+	{
+		{
+			// register: 2
 			register int MusicVolume;
 		}
 	}
@@ -99,19 +99,19 @@ void snd_init__FUl(unsigned long hWnd) {
 }
 
 
-// address: 0x800712CC
-// line start: 167
-// line end:   195
-void snd_play_msnd__FUsll(unsigned short pszName, long lVolume, long lPan) {
-}
-
-
 // address: 0x80077A88
 // line start: 172
 // line end:   201
-void snd_play_msnd__FUsll_addr_80077A88(unsigned short pszName, long lVolume, long lPan) {
+void snd_play_msnd__FUsll(unsigned short pszName, long lVolume, long lPan) {
 	// register: 18
 	register int padj;
+}
+
+
+// address: 0x800712CC
+// line start: 167
+// line end:   195
+void snd_play_msnd__FUsll_addr_800712CC(unsigned short pszName, long lVolume, long lPan) {
 }
 
 

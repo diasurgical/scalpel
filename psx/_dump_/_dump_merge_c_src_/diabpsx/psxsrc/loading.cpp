@@ -61,23 +61,21 @@ void MY_TSK_Sleep__Fi(int time) {
 }
 
 
-// address: 0x800999F0
+// address: 0x80097970
 // line start: 166
-// line end:   242
+// line end:   235
 void PutUpCutScreenTSK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *Args;
 	// address: 0xFFFFFFD0
 	auto int lev;
-	// register: 16
-	register int tx;
 	// address: 0xFFFFFFC8
 	// size: 0x24
 	auto struct POLY_G4 *G4;
-	// register: 21
-	register unsigned char barr;
 	// register: 16
+	register unsigned char barr;
+	// register: 21
 	register unsigned char barg;
 	// register: 17
 	register unsigned short prog;
@@ -98,21 +96,23 @@ void PutUpCutScreenTSK__FP4TASK_addr_800A4754(struct TASK *T) {
 }
 
 
-// address: 0x80097970
+// address: 0x800999F0
 // line start: 166
-// line end:   235
-void PutUpCutScreenTSK__FP4TASK_addr_80097970(struct TASK *T) {
+// line end:   242
+void PutUpCutScreenTSK__FP4TASK_addr_800999F0(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *Args;
 	// address: 0xFFFFFFD0
 	auto int lev;
+	// register: 16
+	register int tx;
 	// address: 0xFFFFFFC8
 	// size: 0x24
 	auto struct POLY_G4 *G4;
-	// register: 16
-	register unsigned char barr;
 	// register: 21
+	register unsigned char barr;
+	// register: 16
 	register unsigned char barg;
 	// register: 17
 	register unsigned short prog;

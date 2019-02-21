@@ -82,14 +82,7 @@ unsigned char CheckActive__4CPad_addr_80081EE8(struct CPad *this) {
 // address: 0x80081C9C
 // line start: 85
 // line end:   85
-unsigned char CheckActive__4CPad_addr_80081C9C(struct CPad *this) {
-}
-
-
-// address: 0x80081C9C
-// line start: 85
-// line end:   85
-unsigned char CheckActive__4CPad_addr_80081C9C_addr_80081C9C(struct CPad_dup_4 *this) {
+unsigned char CheckActive__4CPad_addr_80081C9C(struct CPad_dup_4 *this) {
 }
 
 
@@ -502,14 +495,7 @@ unsigned short GetCur__C4CPad_addr_8009AE38(struct CPad *this) {
 // address: 0x8009B5C4
 // line start: 90
 // line end:   94
-unsigned short GetCur__C4CPad_addr_8009B5C4(struct CPad *this) {
-}
-
-
-// address: 0x8009B5C4
-// line start: 90
-// line end:   94
-unsigned short GetCur__C4CPad_addr_8009B5C4_addr_8009B5C4(struct CPad_dup_4 *this) {
+unsigned short GetCur__C4CPad_addr_8009B5C4(struct CPad_dup_4 *this) {
 }
 
 
@@ -709,13 +695,6 @@ unsigned short GetCur__C4CPad_addr_800720E0(struct CPad_dup_4 *this) {
 }
 
 
-// address: 0x800720E0
-// line start: 90
-// line end:   94
-unsigned short GetCur__C4CPad_addr_800720E0_addr_800720E0(struct CPad *this) {
-}
-
-
 // address: 0x800730E4
 // line start: 100
 // line end:   104
@@ -891,13 +870,6 @@ unsigned short GetCur__C4CPad_addr_80090808(struct CPad_dup_4 *this) {
 }
 
 
-// address: 0x80090808
-// line start: 90
-// line end:   94
-unsigned short GetCur__C4CPad_addr_80090808_addr_80090808(struct CPad *this) {
-}
-
-
 // address: 0x80091018
 // line start: 85
 // line end:   89
@@ -930,13 +902,6 @@ unsigned short GetCur__C4CPad_addr_80094334(struct CPad *this) {
 // line start: 90
 // line end:   94
 unsigned short GetCur__C4CPad_addr_80097044(struct CPad_dup_4 *this) {
-}
-
-
-// address: 0x80097044
-// line start: 90
-// line end:   94
-unsigned short GetCur__C4CPad_addr_80097044_addr_80097044(struct CPad *this) {
 }
 
 
@@ -1178,13 +1143,6 @@ unsigned short GetDown__C4CPad_addr_8006BD6C(struct CPad_dup_4 *this) {
 }
 
 
-// address: 0x8006BD6C
-// line start: 104
-// line end:   108
-unsigned short GetDown__C4CPad_addr_8006BD6C_addr_8006BD6C(struct CPad *this) {
-}
-
-
 // address: 0x8006BE78
 // line start: 104
 // line end:   108
@@ -1395,13 +1353,6 @@ unsigned short GetDown__C4CPad_addr_8009B574(struct CPad_dup_4 *this) {
 }
 
 
-// address: 0x8009B574
-// line start: 104
-// line end:   108
-unsigned short GetDown__C4CPad_addr_8009B574_addr_8009B574(struct CPad *this) {
-}
-
-
 // address: 0x8009BA3C
 // line start: 99
 // line end:   103
@@ -1462,13 +1413,6 @@ unsigned short GetDown__C4CPad_addr_8009D6E8(struct CPad *this) {
 // line start: 104
 // line end:   108
 unsigned short GetDown__C4CPad_addr_8009D25C(struct CPad_dup_4 *this) {
-}
-
-
-// address: 0x8009D25C
-// line start: 104
-// line end:   108
-unsigned short GetDown__C4CPad_addr_8009D25C_addr_8009D25C(struct CPad *this) {
 }
 
 
@@ -1643,14 +1587,14 @@ unsigned short GetDown__C4CPad_addr_80032DC0(struct CPad *this) {
 // address: 0x80034E18
 // line start: 104
 // line end:   108
-unsigned short GetDown__C4CPad_addr_80034E18(struct CPad *this) {
+unsigned short GetDown__C4CPad_addr_80034E18(struct CPad_dup_4 *this) {
 }
 
 
 // address: 0x80034E18
 // line start: 104
 // line end:   108
-unsigned short GetDown__C4CPad_addr_80034E18_addr_80034E18(struct CPad_dup_4 *this) {
+unsigned short GetDown__C4CPad_addr_80034E18_addr_80034E18(struct CPad *this) {
 }
 
 
@@ -2014,14 +1958,7 @@ unsigned short GetDown__C4CPad_addr_800840B8(struct CPad *this) {
 // address: 0x800907E0
 // line start: 104
 // line end:   108
-unsigned short GetDown__C4CPad_addr_800907E0(struct CPad *this) {
-}
-
-
-// address: 0x800907E0
-// line start: 104
-// line end:   108
-unsigned short GetDown__C4CPad_addr_800907E0_addr_800907E0(struct CPad_dup_4 *this) {
+unsigned short GetDown__C4CPad_addr_800907E0(struct CPad_dup_4 *this) {
 }
 
 
@@ -2186,13 +2123,6 @@ unsigned short GetDown__C4CPad_addr_8009701C(struct CPad_dup_4 *this) {
 }
 
 
-// address: 0x8009701C
-// line start: 104
-// line end:   108
-unsigned short GetDown__C4CPad_addr_8009701C_addr_8009701C(struct CPad *this) {
-}
-
-
 // address: 0x80035014
 // line start: 114
 // line end:   118
@@ -2231,14 +2161,7 @@ unsigned short GetDown__C4CPad_addr_80049778(struct CPad *this) {
 // address: 0x80072090
 // line start: 104
 // line end:   108
-unsigned short GetDown__C4CPad_addr_80072090(struct CPad *this) {
-}
-
-
-// address: 0x80072090
-// line start: 104
-// line end:   108
-unsigned short GetDown__C4CPad_addr_80072090_addr_80072090(struct CPad_dup_4 *this) {
+unsigned short GetDown__C4CPad_addr_80072090(struct CPad_dup_4 *this) {
 }
 
 
@@ -2375,17 +2298,17 @@ unsigned short GetDown__C4CPad_addr_80099974(struct CPad *this) {
 }
 
 
-// address: 0x8009B988
-// line start: 106
-// line end:   110
-unsigned short GetTick__C4CPad_addr_8009B988(struct CPad *this) {
-}
-
-
 // address: 0x8009B54C
 // line start: 111
 // line end:   115
 unsigned short GetTick__C4CPad_addr_8009B54C(struct CPad_dup_4 *this) {
+}
+
+
+// address: 0x8009B988
+// line start: 106
+// line end:   110
+unsigned short GetTick__C4CPad_addr_8009B988(struct CPad *this) {
 }
 
 
@@ -2725,10 +2648,10 @@ unsigned short GetTick__C4CPad_addr_80098488(struct CPad *this) {
 }
 
 
-// address: 0x80081504
-// line start: 97
-// line end:   101
-unsigned short GetUp__C4CPad(struct CPad_dup_4 *this) {
+// address: 0x80081D84
+// line start: 92
+// line end:   96
+unsigned short GetUp__C4CPad(struct CPad *this) {
 }
 
 
@@ -2739,10 +2662,10 @@ unsigned short GetUp__C4CPad_addr_8009D87C(struct CPad_dup_17 *this) {
 }
 
 
-// address: 0x80081D84
-// line start: 92
-// line end:   96
-unsigned short GetUp__C4CPad_addr_80081D84(struct CPad *this) {
+// address: 0x80081504
+// line start: 97
+// line end:   101
+unsigned short GetUp__C4CPad_addr_80081504(struct CPad_dup_4 *this) {
 }
 
 
@@ -2826,14 +2749,7 @@ unsigned short GetUp__C4CPad_addr_8009B9D8(struct CPad *this) {
 // address: 0x8009B59C
 // line start: 97
 // line end:   101
-unsigned short GetUp__C4CPad_addr_8009B59C(struct CPad *this) {
-}
-
-
-// address: 0x8009B59C
-// line start: 97
-// line end:   101
-unsigned short GetUp__C4CPad_addr_8009B59C_addr_8009B59C(struct CPad_dup_4 *this) {
+unsigned short GetUp__C4CPad_addr_8009B59C(struct CPad_dup_4 *this) {
 }
 
 
@@ -3050,14 +2966,7 @@ unsigned short GetUp__C4CPad_addr_80093C40(struct CPad *this) {
 // address: 0x800720B8
 // line start: 97
 // line end:   101
-unsigned short GetUp__C4CPad_addr_800720B8(struct CPad *this) {
-}
-
-
-// address: 0x800720B8
-// line start: 97
-// line end:   101
-unsigned short GetUp__C4CPad_addr_800720B8_addr_800720B8(struct CPad_dup_4 *this) {
+unsigned short GetUp__C4CPad_addr_800720B8(struct CPad_dup_4 *this) {
 }
 
 
@@ -3229,17 +3138,10 @@ unsigned short GetUp__C4CPad_addr_80093734(struct CPad *this) {
 }
 
 
-// address: 0x80081CA8
-// line start: 84
-// line end:   84
-void SetActive__4CPadUc(struct CPad_dup_4 *this, unsigned char a) {
-}
-
-
 // address: 0x80082664
 // line start: 84
 // line end:   84
-void SetActive__4CPadUc_addr_80082664(struct CPad *this, unsigned char a) {
+void SetActive__4CPadUc(struct CPad *this, unsigned char a) {
 }
 
 
@@ -3250,10 +3152,17 @@ void SetActive__4CPadUc_addr_80089994(struct CPad_dup_17 *this, unsigned char a)
 }
 
 
-// address: 0x800823EC
+// address: 0x80081CA8
+// line start: 84
+// line end:   84
+void SetActive__4CPadUc_addr_80081CA8(struct CPad_dup_4 *this, unsigned char a) {
+}
+
+
+// address: 0x80081CB0
 // line start: 77
 // line end:   77
-void SetBothFlag__4CPadUc(struct CPad *this, unsigned char fl) {
+void SetBothFlag__4CPadUc(struct CPad_dup_4 *this, unsigned char fl) {
 }
 
 
@@ -3264,10 +3173,10 @@ void SetBothFlag__4CPadUc_addr_8008999C(struct CPad_dup_17 *this, unsigned char 
 }
 
 
-// address: 0x80081CB0
+// address: 0x800823EC
 // line start: 77
 // line end:   77
-void SetBothFlag__4CPadUc_addr_80081CB0(struct CPad_dup_4 *this, unsigned char fl) {
+void SetBothFlag__4CPadUc_addr_800823EC(struct CPad *this, unsigned char fl) {
 }
 
 
@@ -3621,17 +3530,17 @@ void SetPadTickMask__4CPadUs_addr_80098500(struct CPad *this, unsigned short mas
 }
 
 
-// address: 0x8009BA30
-// line start: 81
-// line end:   81
-void SetPadTick__4CPadUs_addr_8009BA30(struct CPad *this, unsigned short tick) {
-}
-
-
 // address: 0x8009B5F4
 // line start: 81
 // line end:   81
 void SetPadTick__4CPadUs_addr_8009B5F4(struct CPad_dup_4 *this, unsigned short tick) {
+}
+
+
+// address: 0x8009BA30
+// line start: 81
+// line end:   81
+void SetPadTick__4CPadUs_addr_8009BA30(struct CPad *this, unsigned short tick) {
 }
 
 
@@ -3971,10 +3880,17 @@ void SetPadTick__4CPadUs_addr_80098508(struct CPad *this, unsigned short tick) {
 }
 
 
+// address: 0x80081C94
+// line start: 86
+// line end:   86
+void SetPadType__4CPadUc(struct CPad_dup_4 *this, unsigned char val) {
+}
+
+
 // address: 0x80089980
 // line start: 102
 // line end:   102
-void SetPadType__4CPadUc(struct CPad_dup_17 *this, unsigned char val) {
+void SetPadType__4CPadUc_addr_80089980(struct CPad_dup_17 *this, unsigned char val) {
 }
 
 
@@ -3985,10 +3901,11 @@ void SetPadType__4CPadUc_addr_80082650(struct CPad *this, unsigned char val) {
 }
 
 
-// address: 0x80081C94
-// line start: 86
-// line end:   86
-void SetPadType__4CPadUc_addr_80081C94(struct CPad_dup_4 *this, unsigned char val) {
+// address: 0x800898D4
+// size: 0xEC
+// line start: 85
+// line end:   85
+struct CPad *__4CPadi(struct CPad *this, int PhysStick) {
 }
 
 
@@ -3996,23 +3913,7 @@ void SetPadType__4CPadUc_addr_80081C94(struct CPad_dup_4 *this, unsigned char va
 // size: 0x6C
 // line start: 75
 // line end:   75
-struct CPad_dup_4 *__4CPadi(struct CPad_dup_4 *this, int PhysStick) {
-}
-
-
-// address: 0x800899A4
-// size: 0xEC
-// line start: 85
-// line end:   85
-struct CPad_dup_17 *__4CPadi_addr_800899A4(struct CPad_dup_17 *this, int PhysStick) {
-}
-
-
-// address: 0x800898D4
-// size: 0xEC
-// line start: 85
-// line end:   85
-struct CPad *__4CPadi_addr_800898D4(struct CPad *this, int PhysStick) {
+struct CPad_dup_4 *__4CPadi_addr_80081CB8(struct CPad_dup_4 *this, int PhysStick) {
 }
 
 
@@ -4021,6 +3922,14 @@ struct CPad *__4CPadi_addr_800898D4(struct CPad *this, int PhysStick) {
 // line start: 75
 // line end:   75
 struct CPad *__4CPadi_addr_800823F4(struct CPad *this, int PhysStick) {
+}
+
+
+// address: 0x800899A4
+// size: 0xEC
+// line start: 85
+// line end:   85
+struct CPad_dup_17 *__4CPadi_addr_800899A4(struct CPad_dup_17 *this, int PhysStick) {
 }
 
 

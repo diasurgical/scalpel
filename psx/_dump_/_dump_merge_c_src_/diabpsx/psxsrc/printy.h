@@ -114,10 +114,10 @@ int GetCharHeight__5CFontUc_addr_8013E2CC(struct CFont_dup_17 *this, unsigned ch
 }
 
 
-// address: 0x80082B68
-// line start: 88
-// line end:   88
-void ClearFont__5CFont_addr_80082B68(struct CFont *this) {
+// address: 0x80084ADC
+// line start: 91
+// line end:   91
+void ClearFont__5CFont_addr_80084ADC(struct CFont_dup_10 *this) {
 }
 
 
@@ -135,31 +135,24 @@ void ClearFont__5CFont_addr_800860D8(struct CFont_dup_1 *this) {
 }
 
 
-// address: 0x80084ADC
-// line start: 91
-// line end:   91
-void ClearFont__5CFont_addr_80084ADC(struct CFont_dup_10 *this) {
-}
-
-
-// address: 0x8008AA7C
-// line start: 79
-// line end:   79
-int GetCharFrameNum__5CFontUc(struct CFont_dup_17 *this, unsigned char ch) {
+// address: 0x80082B68
+// line start: 88
+// line end:   88
+void ClearFont__5CFont_addr_80082B68(struct CFont *this) {
 }
 
 
 // address: 0x8008A904
 // line start: 79
 // line end:   79
-int GetCharFrameNum__5CFontUc_addr_8008A904(struct CFont_dup_19 *this, unsigned char ch) {
+int GetCharFrameNum__5CFontUc(struct CFont_dup_19 *this, unsigned char ch) {
 }
 
 
-// address: 0x8008310C
-// line start: 85
-// line end:   85
-int GetCharFrameNum__5CFontUc_addr_8008310C(struct CFont *this, unsigned char ch) {
+// address: 0x8008AA7C
+// line start: 79
+// line end:   79
+int GetCharFrameNum__5CFontUc_addr_8008AA7C(struct CFont_dup_17 *this, unsigned char ch) {
 }
 
 
@@ -170,17 +163,24 @@ int GetCharFrameNum__5CFontUc_addr_8008A9AC(struct CFont_dup_18 *this, unsigned 
 }
 
 
-// address: 0x80085380
+// address: 0x8008310C
 // line start: 85
 // line end:   85
-int GetCharFrameNum__5CFontc(struct CFont_dup_14 *this, char ch) {
+int GetCharFrameNum__5CFontUc_addr_8008310C(struct CFont *this, unsigned char ch) {
 }
 
 
 // address: 0x8008611C
 // line start: 82
 // line end:   82
-int GetCharFrameNum__5CFontc_addr_8008611C(struct CFont_dup_1 *this, char ch) {
+int GetCharFrameNum__5CFontc(struct CFont_dup_1 *this, char ch) {
+}
+
+
+// address: 0x80085380
+// line start: 85
+// line end:   85
+int GetCharFrameNum__5CFontc_addr_80085380(struct CFont_dup_14 *this, char ch) {
 }
 
 
@@ -359,31 +359,10 @@ int GetCharWidth__5CFontc_addr_80048790(struct CFont *this, char ch) {
 }
 
 
-// address: 0x8008AA94
+// address: 0x80084B90
 // line start: 59
 // line end:   59
-void Init__5CFont(struct CFont_dup_17 *this) {
-}
-
-
-// address: 0x8008618C
-// line start: 59
-// line end:   59
-void Init__5CFont_addr_8008618C(struct CFont_dup_1 *this) {
-}
-
-
-// address: 0x8008A9C4
-// line start: 59
-// line end:   59
-void Init__5CFont_addr_8008A9C4(struct CFont_dup_18 *this) {
-}
-
-
-// address: 0x8008A91C
-// line start: 59
-// line end:   59
-void Init__5CFont_addr_8008A91C(struct CFont_dup_19 *this) {
+void Init__5CFont(struct CFont_dup_10 *this) {
 }
 
 
@@ -394,6 +373,13 @@ void Init__5CFont_addr_800853F0(struct CFont_dup_14 *this) {
 }
 
 
+// address: 0x8008A91C
+// line start: 59
+// line end:   59
+void Init__5CFont_addr_8008A91C(struct CFont_dup_19 *this) {
+}
+
+
 // address: 0x80082C1C
 // line start: 59
 // line end:   59
@@ -401,10 +387,24 @@ void Init__5CFont_addr_80082C1C(struct CFont *this) {
 }
 
 
-// address: 0x80084B90
+// address: 0x8008618C
 // line start: 59
 // line end:   59
-void Init__5CFont_addr_80084B90(struct CFont_dup_10 *this) {
+void Init__5CFont_addr_8008618C(struct CFont_dup_1 *this) {
+}
+
+
+// address: 0x8008AA94
+// line start: 59
+// line end:   59
+void Init__5CFont_addr_8008AA94(struct CFont_dup_17 *this) {
+}
+
+
+// address: 0x8008A9C4
+// line start: 59
+// line end:   59
+void Init__5CFont_addr_8008A9C4(struct CFont_dup_18 *this) {
 }
 
 
@@ -415,10 +415,10 @@ bool IsDefined__5CFontUc(struct CFont_dup_1 *this, unsigned char C) {
 }
 
 
-// address: 0x8008AA5C
-// line start: 82
-// line end:   82
-bool IsDefined__5CFontUc_addr_8008AA5C(struct CFont_dup_17 *this, unsigned char C) {
+// address: 0x80082B8C
+// line start: 85
+// line end:   85
+bool IsDefined__5CFontUc_addr_80082B8C(struct CFont *this, unsigned char C) {
 }
 
 
@@ -443,17 +443,17 @@ bool IsDefined__5CFontUc_addr_8008A98C(struct CFont_dup_18 *this, unsigned char 
 }
 
 
+// address: 0x8008AA5C
+// line start: 82
+// line end:   82
+bool IsDefined__5CFontUc_addr_8008AA5C(struct CFont_dup_17 *this, unsigned char C) {
+}
+
+
 // address: 0x80085360
 // line start: 88
 // line end:   88
 bool IsDefined__5CFontUc_addr_80085360(struct CFont_dup_14 *this, unsigned char C) {
-}
-
-
-// address: 0x80082B8C
-// line start: 85
-// line end:   85
-bool IsDefined__5CFontUc_addr_80082B8C(struct CFont *this, unsigned char C) {
 }
 
 

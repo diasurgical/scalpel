@@ -83,7 +83,7 @@ enum MEM_TYPES {
 	MT_POST_QUIT = 5,
 };
 
-enum MEM_TYPES_dup_29 {
+enum MEM_TYPES_dup_23 {
 	MT_NONE      = 0,
 	MT_FRONTEND  = 1,
 	MT_DEMO      = 2,
@@ -4819,7 +4819,7 @@ struct AMap_dup_19 {
 };
 
 // size: 0x10
-struct AMap_dup_29 {
+struct AMap_dup_23 {
 	// offset: 0000
 	bool Compressed;
 	// offset: 0004
@@ -6221,11 +6221,11 @@ struct CompLevelMaps_dup_20 {
 };
 
 // size: 0x170
-struct CompLevelMaps_dup_29 {
+struct CompLevelMaps_dup_23 {
 	// offset: 0000 (4 bytes)
 	struct CompClass *CompObj;
 	// offset: 0004 (352 bytes)
-	struct AMap_dup_29 TheMaps[22];
+	struct AMap_dup_23 TheMaps[22];
 	// offset: 0164
 	int LastNumOut;
 	// offset: 0168 (3868 bytes)
@@ -6235,7 +6235,7 @@ struct CompLevelMaps_dup_29 {
 };
 
 // size: 0x160
-struct CompLevelMaps_dup_30 {
+struct CompLevelMaps_dup_24 {
 	// offset: 0000 (4 bytes)
 	struct CompClass *CompObj;
 	// offset: 0004 (336 bytes)
@@ -6271,7 +6271,7 @@ struct CompressedLevs {
 };
 
 // size: 0xAC
-struct CompressedLevs_dup_30 {
+struct CompressedLevs_dup_24 {
 	// offset: 0000
 	unsigned long Version;
 	// offset: 0004 (84 bytes)
@@ -20614,7 +20614,7 @@ typedef struct AMap AMap;
 
 typedef struct AMap_dup_17 AMap;
 
-typedef struct AMap_dup_29 AMap;
+typedef struct AMap_dup_23 AMap;
 
 typedef struct AMap_dup_18 AMap;
 
@@ -20796,7 +20796,7 @@ typedef struct CompLevelMaps_dup_14 CompLevelMaps;
 
 typedef struct CompLevelMaps_dup_19 CompLevelMaps;
 
-typedef struct CompLevelMaps_dup_30 CompLevelMaps;
+typedef struct CompLevelMaps_dup_24 CompLevelMaps;
 
 typedef struct CompLevelMaps_dup_18 CompLevelMaps;
 
@@ -20804,7 +20804,7 @@ typedef struct CompLevelMaps_dup_6 CompLevelMaps;
 
 typedef struct CompLevelMaps_dup_5 CompLevelMaps;
 
-typedef struct CompLevelMaps_dup_29 CompLevelMaps;
+typedef struct CompLevelMaps_dup_23 CompLevelMaps;
 
 typedef struct CompLevelMaps_dup_17 CompLevelMaps;
 
@@ -20816,7 +20816,7 @@ typedef struct CompLevelMemImage CompLevelMemImage;
 
 typedef struct CompressedLevs CompressedLevs;
 
-typedef struct CompressedLevs_dup_30 CompressedLevs;
+typedef struct CompressedLevs_dup_24 CompressedLevs;
 
 typedef struct Creds_dup_17 Creds;
 
@@ -21412,7 +21412,7 @@ typedef struct MEM_INIT_INFO MEM_INIT_INFO;
 
 typedef struct MEM_REG MEM_REG;
 
-typedef enum MEM_TYPES_dup_29 MEM_TYPES;
+typedef enum MEM_TYPES_dup_23 MEM_TYPES;
 
 typedef enum MEM_TYPES MEM_TYPES;
 

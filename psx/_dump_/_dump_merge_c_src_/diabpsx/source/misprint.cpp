@@ -2,7 +2,7 @@
 
 #include "types.h"
 
-// address: 0x8007B51C
+// address: 0x8007B5EC
 // line start: 85
 // line end:   144
 void DoPortalFX__FP8POLY_FT4iiii(struct POLY_FT4 *Ft4, int R, int G, int B, int OtPos) {
@@ -22,7 +22,7 @@ void DoPortalFX__FP8POLY_FT4iiii(struct POLY_FT4 *Ft4, int R, int G, int B, int 
 	register short zY;
 	// register: 19
 	register int n;
-	// address: 0x800E355C
+	// address: 0x800E3630
 	// size: 0xE0
 	static int xoffset[56];
 }
@@ -54,6 +54,32 @@ void DoPortalFX__FP8POLY_FT4iiii_addr_8007B494(struct POLY_FT4 *Ft4, int R, int 
 }
 
 
+// address: 0x8007B51C
+// line start: 85
+// line end:   144
+void DoPortalFX__FP8POLY_FT4iiii_addr_8007B51C(struct POLY_FT4 *Ft4, int R, int G, int B, int OtPos) {
+	// register: 16
+	register unsigned char zU;
+	// register: 3
+	register unsigned char *s;
+	// register: 4
+	register unsigned char *d;
+	// register: 18
+	register unsigned char *Ft4m;
+	// register: 21
+	register short zX0;
+	// register: 22
+	register short zX1;
+	// register: 17
+	register short zY;
+	// register: 19
+	register int n;
+	// address: 0x800E355C
+	// size: 0xE0
+	static int xoffset[56];
+}
+
+
 // address: 0x8007B454
 // line start: 85
 // line end:   144
@@ -80,43 +106,17 @@ void DoPortalFX__FP8POLY_FT4iiii_addr_8007B454(struct POLY_FT4 *Ft4, int R, int 
 }
 
 
-// address: 0x8007B5EC
-// line start: 85
-// line end:   144
-void DoPortalFX__FP8POLY_FT4iiii_addr_8007B5EC(struct POLY_FT4 *Ft4, int R, int G, int B, int OtPos) {
-	// register: 16
-	register unsigned char zU;
-	// register: 3
-	register unsigned char *s;
-	// register: 4
-	register unsigned char *d;
-	// register: 18
-	register unsigned char *Ft4m;
-	// register: 21
-	register short zX0;
-	// register: 22
-	register short zX1;
-	// register: 17
-	register short zY;
-	// register: 19
-	register int n;
-	// address: 0x800E3630
-	// size: 0xE0
-	static int xoffset[56];
+// address: 0x80075108
+// line start: 373
+// line end:   374
+void FuncACIDPUD__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
 // address: 0x8007C9F0
 // line start: 498
 // line end:   499
-void FuncACIDPUD__FP13MissileStructiii(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
-}
-
-
-// address: 0x80075108
-// line start: 373
-// line end:   374
-void FuncACIDPUD__FP13MissileStructiii_addr_80075108(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncACIDPUD__FP13MissileStructiii_addr_8007C9F0(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
@@ -160,10 +160,23 @@ void FuncACID__FP13MissileStructiii_addr_80075004(struct MissileStruct *Ms, int 
 }
 
 
+// address: 0x80074C0C
+// line start: 263
+// line end:   274
+void FuncARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 10
+	register char xflip;
+	// register: 9
+	register char yflip;
+	// register: 3
+	register int frame;
+}
+
+
 // address: 0x80074B0C
 // line start: 302
 // line end:   313
-void FuncARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncARROW__FP13MissileStructiii_addr_80074B0C(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 10
 	register char xflip;
 	// register: 9
@@ -180,19 +193,6 @@ void FuncARROW__FP13MissileStructiii_addr_8007C488(struct MissileStruct_dup_17 *
 	// register: 12
 	register char xflip;
 	// register: 11
-	register char yflip;
-	// register: 3
-	register int frame;
-}
-
-
-// address: 0x80074C0C
-// line start: 263
-// line end:   274
-void FuncARROW__FP13MissileStructiii_addr_80074C0C(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 10
-	register char xflip;
-	// register: 9
 	register char yflip;
 	// register: 3
 	register int frame;
@@ -242,17 +242,17 @@ void FuncBONESPIRIT__FP13MissileStructiii_addr_80074EE8(struct MissileStruct *Ms
 }
 
 
-// address: 0x8007CDCC
-// line start: 554
-// line end:   557
-void FuncBOOM__FP13MissileStructiii(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
-}
-
-
 // address: 0x80075450
 // line start: 409
 // line end:   410
-void FuncBOOM__FP13MissileStructiii_addr_80075450(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncBOOM__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+}
+
+
+// address: 0x8007CDCC
+// line start: 554
+// line end:   557
+void FuncBOOM__FP13MissileStructiii_addr_8007CDCC(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
@@ -355,10 +355,10 @@ void FuncFARROW__FP13MissileStructiii_addr_8007C538(struct MissileStruct_dup_17 
 }
 
 
-// address: 0x8007C000
-// line start: 277
-// line end:   294
-void FuncFIREBOLT__FP13MissileStructiii(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
+// address: 0x800747B0
+// line start: 190
+// line end:   205
+void FuncFIREBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
 			// register: 3
@@ -368,10 +368,10 @@ void FuncFIREBOLT__FP13MissileStructiii(struct MissileStruct_dup_17 *Ms, int Scr
 }
 
 
-// address: 0x800747B0
-// line start: 190
-// line end:   205
-void FuncFIREBOLT__FP13MissileStructiii_addr_800747B0(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+// address: 0x8007C000
+// line start: 277
+// line end:   294
+void FuncFIREBOLT__FP13MissileStructiii_addr_8007C000(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
 			// register: 3
@@ -431,23 +431,10 @@ void FuncFLAME__FP13MissileStructiii_addr_8007C41C(struct MissileStruct_dup_17 *
 }
 
 
-// address: 0x800752A4
-// line start: 391
-// line end:   400
-void FuncFLAREXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 18
-	register unsigned char red;
-	// register: 19
-	register unsigned char grn;
-	// register: 16
-	register unsigned char blu;
-}
-
-
 // address: 0x8007CB14
 // line start: 528
 // line end:   543
-void FuncFLAREXP__FP13MissileStructiii_addr_8007CB14(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncFLAREXP__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 20
 	register unsigned char red;
 	// register: 21
@@ -471,6 +458,19 @@ void FuncFLAREXP__FP13MissileStructiii_addr_8007CBE4(struct MissileStruct_dup_17
 	register unsigned char blu;
 	// register: 2
 	register unsigned long bright;
+}
+
+
+// address: 0x800752A4
+// line start: 391
+// line end:   400
+void FuncFLAREXP__FP13MissileStructiii_addr_800752A4(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 18
+	register unsigned char red;
+	// register: 19
+	register unsigned char grn;
+	// register: 16
+	register unsigned char blu;
 }
 
 
@@ -533,7 +533,7 @@ void FuncFLASH2__FP13MissileStructiii_addr_80075BB0(struct MissileStruct *Ms, in
 }
 
 
-// address: 0x8007CE1C
+// address: 0x8007CDDC
 // line start: 589
 // line end:   606
 void FuncFLASH__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
@@ -541,14 +541,14 @@ void FuncFLASH__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 	register int size;
 	{
 		{
-			// address: 0x80118F74
+			// address: 0x80118F24
 			// size: 0x60
 			static int xoffset[8][3];
 			// register: 17
 			register int id;
 			// register: 18
 			// size: 0x90
-			register struct CPlayer *test;
+			register struct CPlayer_dup_19 *test;
 			// register: 16
 			// size: 0x19E8
 			register struct PlayerStruct *player;
@@ -557,17 +557,17 @@ void FuncFLASH__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 }
 
 
-// address: 0x80078808
-// line start: 439
-// line end:   514
-void FuncFLASH__FP13MissileStructiii_addr_80078808(struct MissileStruct *Ms, int x, int y, int OtPos) {
+// address: 0x800759A4
+// line start: 480
+// line end:   555
+void FuncFLASH__FP13MissileStructiii_addr_800759A4(struct MissileStruct *Ms, int x, int y, int OtPos) {
 	// register: 16
 	register int size;
 	{
 		{
 			// register: 16
-			// size: 0x80
-			register struct CPlayer_dup_1 *test;
+			// size: 0x84
+			register struct CPlayer_dup_14 *test;
 			// register: 16
 			register int rot;
 			{
@@ -576,8 +576,8 @@ void FuncFLASH__FP13MissileStructiii_addr_80078808(struct MissileStruct *Ms, int
 					// size: 0x34
 					register struct POLY_GT4 *GT4;
 					// address: 0xFFFFFFC0
-					// size: 0x68
-					auto struct TextDat_dup_1 *ThisDat;
+					// size: 0x6C
+					auto struct TextDat_dup_14 *ThisDat;
 					// register: 4
 					register int xr1;
 					// register: 3
@@ -610,30 +610,6 @@ void FuncFLASH__FP13MissileStructiii_addr_80078808(struct MissileStruct *Ms, int
 					}
 				}
 			}
-		}
-	}
-}
-
-
-// address: 0x8007CDDC
-// line start: 589
-// line end:   606
-void FuncFLASH__FP13MissileStructiii_addr_8007CDDC(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 3
-	register int size;
-	{
-		{
-			// address: 0x80118F24
-			// size: 0x60
-			static int xoffset[8][3];
-			// register: 17
-			register int id;
-			// register: 18
-			// size: 0x90
-			register struct CPlayer_dup_19 *test;
-			// register: 16
-			// size: 0x19E8
-			register struct PlayerStruct *player;
 		}
 	}
 }
@@ -721,17 +697,65 @@ void FuncFLASH__FP13MissileStructiii_addr_800755E0(struct MissileStruct *Ms, int
 }
 
 
-// address: 0x800759A4
-// line start: 480
-// line end:   555
-void FuncFLASH__FP13MissileStructiii_addr_800759A4(struct MissileStruct *Ms, int x, int y, int OtPos) {
+// address: 0x8007CF74
+// line start: 589
+// line end:   606
+void FuncFLASH__FP13MissileStructiii_addr_8007CF74(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 3
+	register int size;
+	{
+		{
+			// address: 0x80118F68
+			// size: 0x60
+			static int xoffset[8][3];
+			// register: 17
+			register int id;
+			// register: 18
+			// size: 0x90
+			register struct CPlayer_dup_17 *test;
+			// register: 16
+			// size: 0x19E8
+			register struct PlayerStruct_dup_17 *player;
+		}
+	}
+}
+
+
+// address: 0x8007CE1C
+// line start: 589
+// line end:   606
+void FuncFLASH__FP13MissileStructiii_addr_8007CE1C(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 3
+	register int size;
+	{
+		{
+			// address: 0x80118F74
+			// size: 0x60
+			static int xoffset[8][3];
+			// register: 17
+			register int id;
+			// register: 18
+			// size: 0x90
+			register struct CPlayer *test;
+			// register: 16
+			// size: 0x19E8
+			register struct PlayerStruct *player;
+		}
+	}
+}
+
+
+// address: 0x80078808
+// line start: 439
+// line end:   514
+void FuncFLASH__FP13MissileStructiii_addr_80078808(struct MissileStruct *Ms, int x, int y, int OtPos) {
 	// register: 16
 	register int size;
 	{
 		{
 			// register: 16
-			// size: 0x84
-			register struct CPlayer_dup_14 *test;
+			// size: 0x80
+			register struct CPlayer_dup_1 *test;
 			// register: 16
 			register int rot;
 			{
@@ -740,8 +764,8 @@ void FuncFLASH__FP13MissileStructiii_addr_800759A4(struct MissileStruct *Ms, int
 					// size: 0x34
 					register struct POLY_GT4 *GT4;
 					// address: 0xFFFFFFC0
-					// size: 0x6C
-					auto struct TextDat_dup_14 *ThisDat;
+					// size: 0x68
+					auto struct TextDat_dup_1 *ThisDat;
 					// register: 4
 					register int xr1;
 					// register: 3
@@ -779,30 +803,6 @@ void FuncFLASH__FP13MissileStructiii_addr_800759A4(struct MissileStruct *Ms, int
 }
 
 
-// address: 0x8007CF74
-// line start: 589
-// line end:   606
-void FuncFLASH__FP13MissileStructiii_addr_8007CF74(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 3
-	register int size;
-	{
-		{
-			// address: 0x80118F68
-			// size: 0x60
-			static int xoffset[8][3];
-			// register: 17
-			register int id;
-			// register: 18
-			// size: 0x90
-			register struct CPlayer_dup_17 *test;
-			// register: 16
-			// size: 0x19E8
-			register struct PlayerStruct_dup_17 *player;
-		}
-	}
-}
-
-
 // address: 0x8007C1C8
 // line start: 330
 // line end:   333
@@ -817,10 +817,10 @@ void FuncGUARDIAN__FP13MissileStructiii_addr_8007495C(struct MissileStruct *Ms, 
 }
 
 
-// address: 0x80074848
-// line start: 212
-// line end:   227
-void FuncHBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+// address: 0x8007C0A8
+// line start: 300
+// line end:   317
+void FuncHBOLT__FP13MissileStructiii(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
 			// register: 3
@@ -830,10 +830,10 @@ void FuncHBOLT__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Scr
 }
 
 
-// address: 0x8007C0A8
-// line start: 300
-// line end:   317
-void FuncHBOLT__FP13MissileStructiii_addr_8007C0A8(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
+// address: 0x80074848
+// line start: 212
+// line end:   227
+void FuncHBOLT__FP13MissileStructiii_addr_80074848(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
 			// register: 3
@@ -860,10 +860,10 @@ void FuncLARROW__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int Sc
 }
 
 
-// address: 0x8007C630
+// address: 0x8007C560
 // line start: 400
 // line end:   425
-void FuncLARROW__FP13MissileStructiii_addr_8007C630(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncLARROW__FP13MissileStructiii_addr_8007C560(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
 			// register: 11
@@ -879,10 +879,10 @@ void FuncLARROW__FP13MissileStructiii_addr_8007C630(struct MissileStruct_dup_17 
 }
 
 
-// address: 0x8007C560
+// address: 0x8007C630
 // line start: 400
 // line end:   425
-void FuncLARROW__FP13MissileStructiii_addr_8007C560(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncLARROW__FP13MissileStructiii_addr_8007C630(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
 	{
 		{
 			// register: 11
@@ -912,23 +912,10 @@ void FuncLIGHTNING__FP13MissileStructiii_addr_8007C160(struct MissileStruct_dup_
 }
 
 
-// address: 0x8007C650
-// line start: 430
-// line end:   444
-void FuncMAGMABALL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 9
-	register char xflip;
-	// register: 10
-	register char yflip;
-	// register: 8
-	register int frame;
-}
-
-
 // address: 0x8007C720
 // line start: 430
 // line end:   444
-void FuncMAGMABALL__FP13MissileStructiii_addr_8007C720(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncMAGMABALL__FP13MissileStructiii(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 9
 	register char xflip;
 	// register: 10
@@ -945,6 +932,19 @@ void FuncMAGMABALL__FP13MissileStructiii_addr_80074E58(struct MissileStruct *Ms,
 	// register: 10
 	register char xflip;
 	// register: 9
+	register char yflip;
+	// register: 8
+	register int frame;
+}
+
+
+// address: 0x8007C650
+// line start: 430
+// line end:   444
+void FuncMAGMABALL__FP13MissileStructiii_addr_8007C650(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 9
+	register char xflip;
+	// register: 10
 	register char yflip;
 	// register: 8
 	register int frame;
@@ -979,17 +979,17 @@ void FuncMISEXP__FP13MissileStructiii_addr_80075574(struct MissileStruct *Ms, in
 }
 
 
-// address: 0x8007D13C
-// line start: 620
-// line end:   621
-void FuncRESURRECTBEAM__FP13MissileStructiii(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
-}
-
-
 // address: 0x80075BB8
 // line start: 532
 // line end:   533
-void FuncRESURRECTBEAM__FP13MissileStructiii_addr_80075BB8(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncRESURRECTBEAM__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+}
+
+
+// address: 0x8007D13C
+// line start: 620
+// line end:   621
+void FuncRESURRECTBEAM__FP13MissileStructiii_addr_8007D13C(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
 }
 
 
@@ -1007,10 +1007,53 @@ void FuncRHINO__FP13MissileStructiii_addr_800755D8(struct MissileStruct *Ms, int
 }
 
 
+// address: 0x80072728
+// line start: 230
+// line end:   238
+void FuncRPORTAL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 4
+	register int anim;
+}
+
+
+// address: 0x8007BEE4
+// line start: 258
+// line end:   272
+void FuncRPORTAL__FP13MissileStructiii_addr_8007BEE4(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 16
+	register int anim;
+	// address: 0xFFFFFFD8
+	// size: 0x28
+	auto struct POLY_FT4 *FT4;
+	// register: 18
+	// size: 0x70
+	register struct TextDat_dup_17 *missdat;
+	// register: 17
+	register int frame;
+}
+
+
+// address: 0x8007BD4C
+// line start: 258
+// line end:   272
+void FuncRPORTAL__FP13MissileStructiii_addr_8007BD4C(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 16
+	register int anim;
+	// address: 0xFFFFFFD8
+	// size: 0x28
+	auto struct POLY_FT4 *FT4;
+	// register: 18
+	// size: 0x70
+	register struct TextDat *missdat;
+	// register: 17
+	register int frame;
+}
+
+
 // address: 0x8007BE14
 // line start: 258
 // line end:   272
-void FuncRPORTAL__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+void FuncRPORTAL__FP13MissileStructiii_addr_8007BE14(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 16
 	register int anim;
 	// address: 0xFFFFFFD8
@@ -1038,69 +1081,12 @@ void FuncRPORTAL__FP13MissileStructiii_addr_80074650(struct MissileStruct *Ms, i
 }
 
 
-// address: 0x8007BD4C
-// line start: 258
-// line end:   272
-void FuncRPORTAL__FP13MissileStructiii_addr_8007BD4C(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 16
-	register int anim;
-	// address: 0xFFFFFFD8
-	// size: 0x28
-	auto struct POLY_FT4 *FT4;
-	// register: 18
-	// size: 0x70
-	register struct TextDat *missdat;
-	// register: 17
-	register int frame;
-}
-
-
-// address: 0x8007BEE4
-// line start: 258
-// line end:   272
-void FuncRPORTAL__FP13MissileStructiii_addr_8007BEE4(struct MissileStruct_dup_17 *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 16
-	register int anim;
-	// address: 0xFFFFFFD8
-	// size: 0x28
-	auto struct POLY_FT4 *FT4;
-	// register: 18
-	// size: 0x70
-	register struct TextDat_dup_17 *missdat;
-	// register: 17
-	register int frame;
-}
-
-
-// address: 0x80072728
-// line start: 230
-// line end:   238
-void FuncRPORTAL__FP13MissileStructiii_addr_80072728(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 4
-	register int anim;
-}
-
-
 // address: 0x80072690
 // line start: 201
 // line end:   214
 void FuncTOWN__FP13MissileStructiii(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
 	// register: 3
 	register int anim;
-}
-
-
-// address: 0x800744D0
-// line start: 155
-// line end:   169
-void FuncTOWN__FP13MissileStructiii_addr_800744D0(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
-	// register: 16
-	register int anim;
-	// register: 2
-	// size: 0x18
-	register struct POLY_F4 *F4;
-	// register: 3
-	register int tv1;
 }
 
 
@@ -1118,6 +1104,20 @@ void FuncTOWN__FP13MissileStructiii_addr_8007BC74(struct MissileStruct *Ms, int 
 	register struct TextDat_dup_18 *missdat;
 	// register: 16
 	register int frame;
+}
+
+
+// address: 0x800744D0
+// line start: 155
+// line end:   169
+void FuncTOWN__FP13MissileStructiii_addr_800744D0(struct MissileStruct *Ms, int ScrX, int ScrY, int OtPos) {
+	// register: 16
+	register int anim;
+	// register: 2
+	// size: 0x18
+	register struct POLY_F4 *F4;
+	// register: 3
+	register int tv1;
 }
 
 
@@ -1169,99 +1169,10 @@ void FuncWEAPEXP__FP13MissileStructiii_addr_80075968(struct MissileStruct *Ms, i
 }
 
 
-// address: 0x8007B88C
-// size: 0x28
-// line start: 156
-// line end:   221
-struct POLY_FT4 *TempPrintMissile__FiiiiiiiiccUcUcUcc(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
-	// address: 0xFFFFFF90
-	// size: 0x28
-	auto struct POLY_FT4 *FT4;
-	// register: 17
-	// size: 0x70
-	register struct TextDat_dup_18 *missdat;
-	// register: 16
-	register int frame;
-	// register: 5
-	register int tv1;
-	// register: 2
-	register int dw;
-	// register: 3
-	register int dh;
-}
-
-
-// address: 0x8007232C
-// line start: 122
-// line end:   196
-void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_8007232C(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
-	// address: 0xFFFFFFA8
-	// size: 0x28
-	auto struct POLY_FT4 *FT4;
-	// register: 17
-	// size: 0x6C
-	register struct TextDat *missdat;
-	// register: 16
-	register int frame;
-	// register: 5
-	register int tv1;
-}
-
-
-// address: 0x8007B95C
-// size: 0x28
-// line start: 156
-// line end:   221
-struct POLY_FT4 *TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_8007B95C(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
-	// address: 0xFFFFFF90
-	// size: 0x28
-	auto struct POLY_FT4 *FT4;
-	// register: 17
-	// size: 0x70
-	register struct TextDat_dup_17 *missdat;
-	// register: 16
-	register int frame;
-	// register: 5
-	register int tv1;
-	// register: 2
-	register int dw;
-	// register: 3
-	register int dh;
-}
-
-
-// address: 0x80074420
-// line start: 97
-// line end:   175
-void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_80074420(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
-	// address: 0xFFFFFFB0
-	// size: 0x28
-	auto struct POLY_FT4 *FT4;
-	// address: 0xFFFFFFB4
-	// size: 0x28
-	auto struct POLY_FT4 *FT5;
-	// register: 17
-	// size: 0x6C
-	register struct TextDat_dup_14 *missdat;
-	// register: 16
-	register int frame;
-	// register: 5
-	register int tv1;
-	{
-		{
-			{
-				{
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x800771C0
 // line start: 96
 // line end:   150
-void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800771C0(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
+void TempPrintMissile__FiiiiiiiiccUcUcUcc(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
 	// address: 0xFFFFFFA8
 	// size: 0x28
 	auto struct POLY_FT4 *FT4;
@@ -1298,10 +1209,31 @@ void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800771C0(int ScrX, int ScrY, int 
 }
 
 
-// address: 0x800741F8
+// address: 0x800761C8
+// line start: 122
+// line end:   209
+void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800761C8(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
+	// address: 0xFFFFFF90
+	// size: 0x28
+	auto struct POLY_FT4 *FT4;
+	// register: 17
+	// size: 0x6C
+	register struct TextDat *missdat;
+	// register: 16
+	register int frame;
+	// register: 5
+	register int tv1;
+	// register: 2
+	register int dw;
+	// register: 3
+	register int dh;
+}
+
+
+// address: 0x80074420
 // line start: 97
 // line end:   175
-void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800741F8(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
+void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_80074420(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
 	// address: 0xFFFFFFB0
 	// size: 0x28
 	auto struct POLY_FT4 *FT4;
@@ -1310,7 +1242,7 @@ void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800741F8(int ScrX, int ScrY, int 
 	auto struct POLY_FT4 *FT5;
 	// register: 17
 	// size: 0x6C
-	register struct TextDat *missdat;
+	register struct TextDat_dup_14 *missdat;
 	// register: 16
 	register int frame;
 	// register: 5
@@ -1366,11 +1298,61 @@ void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_80073F98(int ScrX, int ScrY, int 
 }
 
 
-// address: 0x800761C8
-// line start: 122
-// line end:   209
-void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800761C8(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
+// address: 0x8007B95C
+// size: 0x28
+// line start: 156
+// line end:   221
+struct POLY_FT4 *TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_8007B95C(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
 	// address: 0xFFFFFF90
+	// size: 0x28
+	auto struct POLY_FT4 *FT4;
+	// register: 17
+	// size: 0x70
+	register struct TextDat_dup_17 *missdat;
+	// register: 16
+	register int frame;
+	// register: 5
+	register int tv1;
+	// register: 2
+	register int dw;
+	// register: 3
+	register int dh;
+}
+
+
+// address: 0x800741F8
+// line start: 97
+// line end:   175
+void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800741F8(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
+	// address: 0xFFFFFFB0
+	// size: 0x28
+	auto struct POLY_FT4 *FT4;
+	// address: 0xFFFFFFB4
+	// size: 0x28
+	auto struct POLY_FT4 *FT5;
+	// register: 17
+	// size: 0x6C
+	register struct TextDat *missdat;
+	// register: 16
+	register int frame;
+	// register: 5
+	register int tv1;
+	{
+		{
+			{
+				{
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8007232C
+// line start: 122
+// line end:   196
+void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_8007232C(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
+	// address: 0xFFFFFFA8
 	// size: 0x28
 	auto struct POLY_FT4 *FT4;
 	// register: 17
@@ -1380,10 +1362,6 @@ void TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_800761C8(int ScrX, int ScrY, int 
 	register int frame;
 	// register: 5
 	register int tv1;
-	// register: 2
-	register int dw;
-	// register: 3
-	register int dh;
 }
 
 
@@ -1398,6 +1376,28 @@ struct POLY_FT4 *TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_8007B7C4(int ScrX, in
 	// register: 17
 	// size: 0x70
 	register struct TextDat *missdat;
+	// register: 16
+	register int frame;
+	// register: 5
+	register int tv1;
+	// register: 2
+	register int dw;
+	// register: 3
+	register int dh;
+}
+
+
+// address: 0x8007B88C
+// size: 0x28
+// line start: 156
+// line end:   221
+struct POLY_FT4 *TempPrintMissile__FiiiiiiiiccUcUcUcc_addr_8007B88C(int ScrX, int ScrY, int OtPos, int spell, int aframe, int direction, int anim, int sfx, int xflip, int yflip, int red, int grn, int blu, int semi) {
+	// address: 0xFFFFFF90
+	// size: 0x28
+	auto struct POLY_FT4 *FT4;
+	// register: 17
+	// size: 0x70
+	register struct TextDat_dup_18 *missdat;
 	// register: 16
 	register int frame;
 	// register: 5

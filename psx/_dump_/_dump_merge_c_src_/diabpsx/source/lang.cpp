@@ -79,6 +79,27 @@ void LANG_SetDb__F10LANG_DB_NO(enum LANG_DB_NO_dup_17 NewLangDbNo) {
 }
 
 
+// address: 0x80073B3C
+// line start: 87
+// line end:   123
+void LANG_SetDb__F10LANG_DB_NO_addr_80073B3C(enum LANG_DB_NO NewLangDbNo) {
+	{
+		{
+			// address: 0xFFFFFFC0
+			// size: 0x28
+			auto char FileNameBuffer[40];
+			// register: 16
+			// size: 0x14
+			register struct FileIO *FIO;
+			{
+				// register: 4
+				register int f;
+			}
+		}
+	}
+}
+
+
 // address: 0x80072380
 // line start: 90
 // line end:   148
@@ -98,27 +119,6 @@ void LANG_SetDb__F10LANG_DB_NO_addr_80072380(enum LANG_DB_NO NewLangDbNo) {
 						register int f;
 					}
 				}
-			}
-		}
-	}
-}
-
-
-// address: 0x80073B3C
-// line start: 87
-// line end:   123
-void LANG_SetDb__F10LANG_DB_NO_addr_80073B3C(enum LANG_DB_NO NewLangDbNo) {
-	{
-		{
-			// address: 0xFFFFFFC0
-			// size: 0x28
-			auto char FileNameBuffer[40];
-			// register: 16
-			// size: 0x14
-			register struct FileIO *FIO;
-			{
-				// register: 4
-				register int f;
 			}
 		}
 	}

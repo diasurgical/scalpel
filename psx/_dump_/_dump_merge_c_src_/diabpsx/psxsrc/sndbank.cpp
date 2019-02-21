@@ -186,22 +186,10 @@ void SND_StopSnd__Fi(int voice) {
 }
 
 
-// address: 0x8008D9F8
-// line start: 176
-// line end:   212
-void SPU_Init__Fv() {
-	{
-		// address: 0xFFFFFFD0
-		// size: 0x28
-		auto struct SpuCommonAttr common_attr;
-	}
-}
-
-
 // address: 0x80099F98
 // line start: 175
 // line end:   218
-void SPU_Init__Fv_addr_80099F98() {
+void SPU_Init__Fv() {
 	{
 		// address: 0xFFFFFFC8
 		// size: 0x28
@@ -230,6 +218,18 @@ void SPU_Init__Fv_addr_80090708() {
 }
 
 
+// address: 0x8008D9F8
+// line start: 176
+// line end:   212
+void SPU_Init__Fv_addr_8008D9F8() {
+	{
+		// address: 0xFFFFFFD0
+		// size: 0x28
+		auto struct SpuCommonAttr common_attr;
+	}
+}
+
+
 // address: 0x80099F60
 // line start: 164
 // line end:   166
@@ -237,173 +237,11 @@ void SPU_OnceOnlyInit__Fv() {
 }
 
 
-// address: 0x8008DD74
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x801163FC
-	static int DestAddr;
-}
-
-
-// address: 0x8009A0A8
-// line start: 278
-// line end:   291
-bool SndLoadCallBack__FPUciib_addr_8009A0A8(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8011C7F4
-	static int DestAddr;
-}
-
-
-// address: 0x8008FF58
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib_addr_8008FF58(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8011A0A4
-	static int DestAddr;
-}
-
-
-// address: 0x8009A000
-// line start: 278
-// line end:   291
-bool SndLoadCallBack__FPUciib_addr_8009A000(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8011C8BC
-	static int DestAddr;
-}
-
-
-// address: 0x800908F8
-// line start: 267
-// line end:   280
-bool SndLoadCallBack__FPUciib_addr_800908F8(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012DB9C
-	static int DestAddr;
-}
-
-
-// address: 0x8008D804
-// line start: 267
-// line end:   280
-bool SndLoadCallBack__FPUciib_addr_8008D804(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80117BF0
-	static int DestAddr;
-}
-
-
-// address: 0x8008E6F4
-// line start: 268
-// line end:   281
-bool SndLoadCallBack__FPUciib_addr_8008E6F4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012B0D0
-	static int DestAddr;
-}
-
-
-// address: 0x80092BC0
-// line start: 267
-// line end:   280
-bool SndLoadCallBack__FPUciib_addr_80092BC0(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8011D9BC
-	static int DestAddr;
-}
-
-
-// address: 0x8008FD70
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib_addr_8008FD70(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012C364
-	static int DestAddr;
-}
-
-
-// address: 0x80090358
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib_addr_80090358(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012C584
-	static int DestAddr;
-}
-
-
-// address: 0x8008F728
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib_addr_8008F728(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80118C48
-	static int DestAddr;
-}
-
-
-// address: 0x80090694
-// line start: 267
-// line end:   280
-bool SndLoadCallBack__FPUciib_addr_80090694(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012D954
-	static int DestAddr;
-}
-
-
-// address: 0x8008FF50
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib_addr_8008FF50(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012C670
-	static int DestAddr;
-}
-
-
-// address: 0x8008DD98
-// line start: 267
-// line end:   280
-bool SndLoadCallBack__FPUciib_addr_8008DD98(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80118404
-	static int DestAddr;
-}
-
-
-// address: 0x8009A17C
-// line start: 278
-// line end:   291
-bool SndLoadCallBack__FPUciib_addr_8009A17C(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8011C8FC
-	static int DestAddr;
-}
-
-
-// address: 0x8008F2E4
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib_addr_8008F2E4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80118240
-	static int DestAddr;
-}
-
-
 // address: 0x80090364
 // line start: 233
 // line end:   246
-bool SndLoadCallBack__FPUciib_addr_80090364(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+bool SndLoadCallBack__FPUciib(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
 	// address: 0x8012CE78
-	static int DestAddr;
-}
-
-
-// address: 0x8008D44C
-// line start: 232
-// line end:   245
-bool SndLoadCallBack__FPUciib_addr_8008D44C(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80114C4C
-	static int DestAddr;
-}
-
-
-// address: 0x8008DBA4
-// line start: 267
-// line end:   280
-bool SndLoadCallBack__FPUciib_addr_8008DBA4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80117AC8
 	static int DestAddr;
 }
 
@@ -417,47 +255,20 @@ bool SndLoadCallBack__FPUciib_addr_800901D0(unsigned char *Mem, int ReadSoFar, i
 }
 
 
-// address: 0x8009A0B4
-// line start: 278
-// line end:   291
-bool SndLoadCallBack__FPUciib_addr_8009A0B4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8011C908
-	static int DestAddr;
-}
-
-
-// address: 0x80090430
-// line start: 233
-// line end:   246
-bool SndLoadCallBack__FPUciib_addr_80090430(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012D488
-	static int DestAddr;
-}
-
-
-// address: 0x80090390
-// line start: 233
-// line end:   246
-bool SndLoadCallBack__FPUciib_addr_80090390(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x8012D5C0
-	static int DestAddr;
-}
-
-
-// address: 0x80092D4C
+// address: 0x80090694
 // line start: 267
 // line end:   280
-bool SndLoadCallBack__FPUciib_addr_80092D4C(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80123C0C
+bool SndLoadCallBack__FPUciib_addr_80090694(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012D954
 	static int DestAddr;
 }
 
 
-// address: 0x800910C4
-// line start: 268
-// line end:   281
-bool SndLoadCallBack__FPUciib_addr_800910C4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
-	// address: 0x80121788
+// address: 0x8008FD70
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_8008FD70(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012C364
 	static int DestAddr;
 }
 
@@ -471,11 +282,200 @@ bool SndLoadCallBack__FPUciib_addr_8008F97C(unsigned char *Mem, int ReadSoFar, i
 }
 
 
+// address: 0x8008F2E4
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_8008F2E4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80118240
+	static int DestAddr;
+}
+
+
+// address: 0x8009A0A8
+// line start: 278
+// line end:   291
+bool SndLoadCallBack__FPUciib_addr_8009A0A8(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8011C7F4
+	static int DestAddr;
+}
+
+
+// address: 0x80092BC0
+// line start: 267
+// line end:   280
+bool SndLoadCallBack__FPUciib_addr_80092BC0(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8011D9BC
+	static int DestAddr;
+}
+
+
+// address: 0x8009A000
+// line start: 278
+// line end:   291
+bool SndLoadCallBack__FPUciib_addr_8009A000(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8011C8BC
+	static int DestAddr;
+}
+
+
+// address: 0x80090390
+// line start: 233
+// line end:   246
+bool SndLoadCallBack__FPUciib_addr_80090390(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012D5C0
+	static int DestAddr;
+}
+
+
+// address: 0x8008DD98
+// line start: 267
+// line end:   280
+bool SndLoadCallBack__FPUciib_addr_8008DD98(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80118404
+	static int DestAddr;
+}
+
+
+// address: 0x8009A0B4
+// line start: 278
+// line end:   291
+bool SndLoadCallBack__FPUciib_addr_8009A0B4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8011C908
+	static int DestAddr;
+}
+
+
+// address: 0x80090358
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_80090358(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012C584
+	static int DestAddr;
+}
+
+
+// address: 0x8008FF58
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_8008FF58(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8011A0A4
+	static int DestAddr;
+}
+
+
+// address: 0x8008DBA4
+// line start: 267
+// line end:   280
+bool SndLoadCallBack__FPUciib_addr_8008DBA4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80117AC8
+	static int DestAddr;
+}
+
+
+// address: 0x8009A17C
+// line start: 278
+// line end:   291
+bool SndLoadCallBack__FPUciib_addr_8009A17C(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8011C8FC
+	static int DestAddr;
+}
+
+
+// address: 0x80090430
+// line start: 233
+// line end:   246
+bool SndLoadCallBack__FPUciib_addr_80090430(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012D488
+	static int DestAddr;
+}
+
+
+// address: 0x800910C4
+// line start: 268
+// line end:   281
+bool SndLoadCallBack__FPUciib_addr_800910C4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80121788
+	static int DestAddr;
+}
+
+
+// address: 0x8008FF50
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_8008FF50(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012C670
+	static int DestAddr;
+}
+
+
+// address: 0x8008D44C
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_8008D44C(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80114C4C
+	static int DestAddr;
+}
+
+
+// address: 0x80092D4C
+// line start: 267
+// line end:   280
+bool SndLoadCallBack__FPUciib_addr_80092D4C(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80123C0C
+	static int DestAddr;
+}
+
+
+// address: 0x8008DD74
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_8008DD74(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x801163FC
+	static int DestAddr;
+}
+
+
+// address: 0x8008E6F4
+// line start: 268
+// line end:   281
+bool SndLoadCallBack__FPUciib_addr_8008E6F4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012B0D0
+	static int DestAddr;
+}
+
+
+// address: 0x8008D804
+// line start: 267
+// line end:   280
+bool SndLoadCallBack__FPUciib_addr_8008D804(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80117BF0
+	static int DestAddr;
+}
+
+
 // address: 0x800907A4
 // line start: 268
 // line end:   281
 bool SndLoadCallBack__FPUciib_addr_800907A4(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
 	// address: 0x8012E734
+	static int DestAddr;
+}
+
+
+// address: 0x8008F728
+// line start: 232
+// line end:   245
+bool SndLoadCallBack__FPUciib_addr_8008F728(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x80118C48
+	static int DestAddr;
+}
+
+
+// address: 0x800908F8
+// line start: 267
+// line end:   280
+bool SndLoadCallBack__FPUciib_addr_800908F8(unsigned char *Mem, int ReadSoFar, int Size, bool LastChunk) {
+	// address: 0x8012DB9C
 	static int DestAddr;
 }
 

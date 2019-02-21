@@ -85,11 +85,11 @@ void BreakCrux__Fii(int pnum, int i) {
 }
 
 
-// address: 0x80057B90
+// address: 0x8005A690
 // line start: 3303
 // line end:   3324
 void BreakObject__Fii(int pnum, int oi) {
-	// register: 6
+	// register: 17
 	register int objdam;
 	// register: 17
 	register int mind;
@@ -98,11 +98,11 @@ void BreakObject__Fii(int pnum, int oi) {
 }
 
 
-// address: 0x8005A690
+// address: 0x80057B90
 // line start: 3303
 // line end:   3324
-void BreakObject__Fii_addr_8005A690(int pnum, int oi) {
-	// register: 17
+void BreakObject__Fii_addr_80057B90(int pnum, int oi) {
+	// register: 6
 	register int objdam;
 	// register: 17
 	register int mind;
@@ -133,17 +133,6 @@ void DeleteObject__Fii(int oi, int i) {
 }
 
 
-// address: 0x8004F5D4
-// line start: 307
-// line end:   318
-void DeleteObject__Fii_addr_8004F5D4(int oi, int i) {
-	// register: 4
-	register int ox;
-	// register: 4
-	register int oy;
-}
-
-
 // address: 0x8005351C
 // line start: 488
 // line end:   499
@@ -151,6 +140,17 @@ void DeleteObject__Fii_addr_8005351C(int oi, int i) {
 	// register: 5
 	register int ox;
 	// register: 3
+	register int oy;
+}
+
+
+// address: 0x8004F5D4
+// line start: 307
+// line end:   318
+void DeleteObject__Fii_addr_8004F5D4(int oi, int i) {
+	// register: 4
+	register int ox;
+	// register: 4
 	register int oy;
 }
 
@@ -164,41 +164,18 @@ void DoorSet__Fiii(int oi, int dx, int dy) {
 }
 
 
-// address: 0x80054320
-// line start: 890
-// line end:   954
+// address: 0x800501E0
+// line start: 571
+// line end:   633
 void DrawExpl__Fiiiiiccc(int sx, int sy, int f, int ot, int scale, int rtint, int gtint, int btint) {
 	// register: 4
 	// size: 0x28
 	register struct POLY_FT4 *Ft4;
 	// register: 30
 	register int PhysFrame;
-	// register: 20
-	// size: 0x70
-	register struct TextDat *ObjDat;
-	// register: 5
-	register int temp;
-	// register: 17
-	register int bright;
-	// register: 2
-	register int W;
-	// register: 2
-	register int H;
-}
-
-
-// address: 0x8004D5F4
-// line start: 876
-// line end:   938
-void DrawExpl__Fiiiiiccc_addr_8004D5F4(int sx, int sy, int f, int ot, int scale, int rtint, int gtint, int btint) {
-	// register: 4
-	// size: 0x28
-	register struct POLY_FT4 *Ft4;
-	// register: 30
-	register int PhysFrame;
 	// register: 21
-	// size: 0x6C
-	register struct TextDat_dup_14 *ObjDat;
+	// size: 0x68
+	register struct TextDat_dup_1 *ObjDat;
 	// register: 5
 	register int temp;
 	// register: 17
@@ -279,18 +256,41 @@ void DrawExpl__Fiiiiiccc_addr_80054348(int sx, int sy, int f, int ot, int scale,
 }
 
 
-// address: 0x800501E0
-// line start: 571
-// line end:   633
-void DrawExpl__Fiiiiiccc_addr_800501E0(int sx, int sy, int f, int ot, int scale, int rtint, int gtint, int btint) {
+// address: 0x80054320
+// line start: 890
+// line end:   954
+void DrawExpl__Fiiiiiccc_addr_80054320(int sx, int sy, int f, int ot, int scale, int rtint, int gtint, int btint) {
+	// register: 4
+	// size: 0x28
+	register struct POLY_FT4 *Ft4;
+	// register: 30
+	register int PhysFrame;
+	// register: 20
+	// size: 0x70
+	register struct TextDat *ObjDat;
+	// register: 5
+	register int temp;
+	// register: 17
+	register int bright;
+	// register: 2
+	register int W;
+	// register: 2
+	register int H;
+}
+
+
+// address: 0x8004D5F4
+// line start: 876
+// line end:   938
+void DrawExpl__Fiiiiiccc_addr_8004D5F4(int sx, int sy, int f, int ot, int scale, int rtint, int gtint, int btint) {
 	// register: 4
 	// size: 0x28
 	register struct POLY_FT4 *Ft4;
 	// register: 30
 	register int PhysFrame;
 	// register: 21
-	// size: 0x68
-	register struct TextDat_dup_1 *ObjDat;
+	// size: 0x6C
+	register struct TextDat_dup_14 *ObjDat;
 	// register: 5
 	register int temp;
 	// register: 17
@@ -504,22 +504,10 @@ void ObjSetMini__Fiii_addr_80055698(int x, int y, int v) {
 }
 
 
-// address: 0x80050EF4
-// line start: 818
-// line end:   844
-void Obj_BCrossDamage__Fi(int i) {
-	// register: 2
-	register int resist;
-	// address: 0xFFFFFFE0
-	// size: 0x10
-	auto int damage[4];
-}
-
-
 // address: 0x80055068
 // line start: 1147
 // line end:   1178
-void Obj_BCrossDamage__Fi_addr_80055068(int i) {
+void Obj_BCrossDamage__Fi(int i) {
 	// register: 3
 	register int resist;
 	// address: 0xFFFFFFD0
@@ -544,6 +532,18 @@ void Obj_BCrossDamage__Fi_addr_8004DF30(int i) {
 }
 
 
+// address: 0x80050EF4
+// line start: 818
+// line end:   844
+void Obj_BCrossDamage__Fi_addr_80050EF4(int i) {
+	// register: 2
+	register int resist;
+	// address: 0xFFFFFFE0
+	// size: 0x10
+	auto int damage[4];
+}
+
+
 // address: 0x8004EA5C
 // line start: 818
 // line end:   844
@@ -556,7 +556,7 @@ void Obj_BCrossDamage__Fi_addr_8004EA5C(int i) {
 }
 
 
-// address: 0x8004FE00
+// address: 0x8004DA78
 // line start: 485
 // line end:   528
 void Obj_Circle__Fi(int i) {
@@ -564,9 +564,9 @@ void Obj_Circle__Fi(int i) {
 	register int px;
 	// register: 2
 	register int py;
-	// register: 5
-	register int ox;
 	// register: 6
+	register int ox;
+	// register: 7
 	register int oy;
 	{
 		{
@@ -579,17 +579,17 @@ void Obj_Circle__Fi(int i) {
 }
 
 
-// address: 0x8004CF5C
-// line start: 787
-// line end:   830
-void Obj_Circle__Fi_addr_8004CF5C(int i) {
-	// register: 2
-	register int px;
+// address: 0x8004FE00
+// line start: 485
+// line end:   528
+void Obj_Circle__Fi_addr_8004FE00(int i) {
 	// register: 3
+	register int px;
+	// register: 2
 	register int py;
-	// register: 6
+	// register: 5
 	register int ox;
-	// register: 7
+	// register: 6
 	register int oy;
 	{
 		{
@@ -637,13 +637,13 @@ void Obj_Circle__Fi_addr_80054064(int i) {
 }
 
 
-// address: 0x8004DA78
-// line start: 485
-// line end:   528
-void Obj_Circle__Fi_addr_8004DA78(int i) {
-	// register: 3
-	register int px;
+// address: 0x8004CF5C
+// line start: 787
+// line end:   830
+void Obj_Circle__Fi_addr_8004CF5C(int i) {
 	// register: 2
+	register int px;
+	// register: 3
 	register int py;
 	// register: 6
 	register int ox;
@@ -660,23 +660,10 @@ void Obj_Circle__Fi_addr_8004DA78(int i) {
 }
 
 
-// address: 0x8004E14C
-// line start: 655
-// line end:   673
-void Obj_Door__Fi(int i) {
-	// register: 5
-	register int dx;
-	// register: 7
-	register int dy;
-	// register: 6
-	register unsigned char dok;
-}
-
-
 // address: 0x80054774
 // line start: 977
 // line end:   1002
-void Obj_Door__Fi_addr_80054774(int i) {
+void Obj_Door__Fi(int i) {
 	// register: 18
 	register int dx;
 	// register: 19
@@ -699,6 +686,19 @@ void Obj_Door__Fi_addr_80050534(int i) {
 }
 
 
+// address: 0x8004E14C
+// line start: 655
+// line end:   673
+void Obj_Door__Fi_addr_8004E14C(int i) {
+	// register: 5
+	register int dx;
+	// register: 7
+	register int dy;
+	// register: 6
+	register unsigned char dok;
+}
+
+
 // address: 0x80054A40
 // line start: 1037
 // line end:   1078
@@ -712,19 +712,6 @@ void Obj_FlameTrap__Fi(int i) {
 }
 
 
-// address: 0x8004E43C
-// line start: 708
-// line end:   749
-void Obj_FlameTrap__Fi_addr_8004E43C(int i) {
-	// register: 5
-	register int xp;
-	// register: 6
-	register int yp;
-	// register: 7
-	register int j;
-}
-
-
 // address: 0x80050894
 // line start: 708
 // line end:   749
@@ -732,6 +719,19 @@ void Obj_FlameTrap__Fi_addr_80050894(int i) {
 	// register: 4
 	register int xp;
 	// register: 5
+	register int yp;
+	// register: 7
+	register int j;
+}
+
+
+// address: 0x8004E43C
+// line start: 708
+// line end:   749
+void Obj_FlameTrap__Fi_addr_8004E43C(int i) {
+	// register: 5
+	register int xp;
+	// register: 6
 	register int yp;
 	// register: 7
 	register int j;
@@ -915,76 +915,10 @@ void OperateBookLever__Fii_addr_8005126C(int pnum, int i) {
 }
 
 
-// address: 0x80057C04
-// line start: 1982
-// line end:   2059
-void OperateBook__Fii(int pnum, int i) {
-	// register: 21
-	register int v1;
-	// register: 19
-	register int v2;
-	// register: 16
-	register int j;
-	// register: 3
-	register int oi;
-	// register: 3
-	register int ot;
-	// register: 16
-	register int itm;
-	{
-		{
-			// register: 6
-			register unsigned char found;
-			{
-				{
-					// register: 5
-					register unsigned char dowarp;
-					{
-						{
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x800513F4
-// line start: 1556
-// line end:   1614
-void OperateBook__Fii_addr_800513F4(int pnum, int i) {
-	// register: 21
-	register int v1;
-	// register: 19
-	register int v2;
-	// register: 16
-	register int j;
-	// register: 3
-	register int oi;
-	// register: 3
-	register int ot;
-	// register: 16
-	register int itm;
-	{
-		{
-			// register: 6
-			register unsigned char found;
-			// register: 5
-			register unsigned char dowarp;
-			{
-				{
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x80050BA8
 // line start: 1920
 // line end:   1978
-void OperateBook__Fii_addr_80050BA8(int pnum, int i) {
+void OperateBook__Fii(int pnum, int i) {
 	// register: 20
 	register int v1;
 	// register: 18
@@ -1036,6 +970,72 @@ void OperateBook__Fii_addr_80053A14(int pnum, int i) {
 			register unsigned char dowarp;
 			{
 				{
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800513F4
+// line start: 1556
+// line end:   1614
+void OperateBook__Fii_addr_800513F4(int pnum, int i) {
+	// register: 21
+	register int v1;
+	// register: 19
+	register int v2;
+	// register: 16
+	register int j;
+	// register: 3
+	register int oi;
+	// register: 3
+	register int ot;
+	// register: 16
+	register int itm;
+	{
+		{
+			// register: 6
+			register unsigned char found;
+			// register: 5
+			register unsigned char dowarp;
+			{
+				{
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80057C04
+// line start: 1982
+// line end:   2059
+void OperateBook__Fii_addr_80057C04(int pnum, int i) {
+	// register: 21
+	register int v1;
+	// register: 19
+	register int v2;
+	// register: 16
+	register int j;
+	// register: 3
+	register int oi;
+	// register: 3
+	register int ot;
+	// register: 16
+	register int itm;
+	{
+		{
+			// register: 6
+			register unsigned char found;
+			{
+				{
+					// register: 5
+					register unsigned char dowarp;
+					{
+						{
+						}
+					}
 				}
 			}
 		}
@@ -1131,24 +1131,24 @@ void OperateGoatShrine__Fiii(int pnum, int i, int sType) {
 }
 
 
-// address: 0x800523FC
-// line start: 1780
-// line end:   1803
+// address: 0x80051FD8
+// line start: 2195
+// line end:   2220
 void OperateInnSignChest__Fii(int pnum, int i) {
-	// address: 0xFFFFFFF0
+	// address: 0xFFFFFFE8
 	auto int x;
-	// address: 0xFFFFFFF4
+	// address: 0xFFFFFFEC
 	auto int y;
 }
 
 
-// address: 0x80051FD8
-// line start: 2195
-// line end:   2220
-void OperateInnSignChest__Fii_addr_80051FD8(int pnum, int i) {
-	// address: 0xFFFFFFE8
+// address: 0x800523FC
+// line start: 1780
+// line end:   1803
+void OperateInnSignChest__Fii_addr_800523FC(int pnum, int i) {
+	// address: 0xFFFFFFF0
 	auto int x;
-	// address: 0xFFFFFFEC
+	// address: 0xFFFFFFF4
 	auto int y;
 }
 
@@ -1190,28 +1190,28 @@ void OperateL1LDoor__FiiUc_addr_80055DF8(int pnum, int oi, unsigned char sendfla
 }
 
 
-// address: 0x80055A98
-// line start: 1472
-// line end:   1521
-void OperateL1RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
-	// register: 19
-	register int dx;
-	// register: 20
-	register int dy;
-	// register: 16
-	register unsigned char dok;
-}
-
-
 // address: 0x8004F3CC
 // line start: 1110
 // line end:   1157
-void OperateL1RDoor__FiiUc_addr_8004F3CC(int pnum, int oi, unsigned char sendflag) {
+void OperateL1RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 18
 	register int dx;
 	// register: 19
 	register int dy;
 	// register: 4
+	register unsigned char dok;
+}
+
+
+// address: 0x80055A98
+// line start: 1472
+// line end:   1521
+void OperateL1RDoor__FiiUc_addr_80055A98(int pnum, int oi, unsigned char sendflag) {
+	// register: 19
+	register int dx;
+	// register: 20
+	register int dy;
+	// register: 16
 	register unsigned char dok;
 }
 
@@ -1227,23 +1227,10 @@ void OperateL2Door__FiiUc(int pnum, int i, unsigned char sendflag) {
 }
 
 
-// address: 0x800564FC
-// line start: 1629
-// line end:   1670
-void OperateL2LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
-	// register: 18
-	register int dx;
-	// register: 19
-	register int dy;
-	// register: 16
-	register unsigned char dok;
-}
-
-
 // address: 0x8004FEE0
 // line start: 1264
 // line end:   1305
-void OperateL2LDoor__FiiUc_addr_8004FEE0(int pnum, int oi, unsigned char sendflag) {
+void OperateL2LDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 18
 	register int dx;
 	// register: 19
@@ -1253,10 +1240,10 @@ void OperateL2LDoor__FiiUc_addr_8004FEE0(int pnum, int oi, unsigned char sendfla
 }
 
 
-// address: 0x80056190
-// line start: 1582
-// line end:   1623
-void OperateL2RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
+// address: 0x800564FC
+// line start: 1629
+// line end:   1670
+void OperateL2LDoor__FiiUc_addr_800564FC(int pnum, int oi, unsigned char sendflag) {
 	// register: 18
 	register int dx;
 	// register: 19
@@ -1269,12 +1256,25 @@ void OperateL2RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 // address: 0x8004FB48
 // line start: 1217
 // line end:   1258
-void OperateL2RDoor__FiiUc_addr_8004FB48(int pnum, int oi, unsigned char sendflag) {
+void OperateL2RDoor__FiiUc(int pnum, int oi, unsigned char sendflag) {
 	// register: 18
 	register int dx;
 	// register: 19
 	register int dy;
 	// register: 4
+	register unsigned char dok;
+}
+
+
+// address: 0x80056190
+// line start: 1582
+// line end:   1623
+void OperateL2RDoor__FiiUc_addr_80056190(int pnum, int oi, unsigned char sendflag) {
+	// register: 18
+	register int dx;
+	// register: 19
+	register int dy;
+	// register: 16
 	register unsigned char dok;
 }
 
@@ -1342,24 +1342,24 @@ void OperateL3RDoor__FiiUc_addr_80056868(int pnum, int oi, unsigned char sendfla
 }
 
 
-// address: 0x80059350
+// address: 0x80056A18
 // line start: 2919
 // line end:   2932
 void OperateLazStand__Fii(int pnum, int i) {
-	// address: 0xFFFFFFE8
+	// address: 0xFFFFFFF0
 	auto int x;
-	// address: 0xFFFFFFEC
+	// address: 0xFFFFFFF4
 	auto int y;
 }
 
 
-// address: 0x80056A18
+// address: 0x80059350
 // line start: 2919
 // line end:   2932
-void OperateLazStand__Fii_addr_80056A18(int pnum, int i) {
-	// address: 0xFFFFFFF0
+void OperateLazStand__Fii_addr_80059350(int pnum, int i) {
+	// address: 0xFFFFFFE8
 	auto int x;
-	// address: 0xFFFFFFF4
+	// address: 0xFFFFFFEC
 	auto int y;
 }
 
@@ -1419,10 +1419,47 @@ void OperateObject__FiiUc_addr_80056AF8(int pnum, int i, unsigned char TeleFlag)
 }
 
 
+// address: 0x80059A68
+// line start: 2471
+// line end:   2561
+void OperatePedistal__Fii(int pnum, int i) {
+	// address: 0xFFFFFFE0
+	auto int jstn;
+	// register: 19
+	register bool JustOperated;
+	{
+		{
+			{
+				{
+					{
+						{
+							// register: 16
+							register unsigned char *setp;
+							{
+								{
+									{
+										{
+											// register: 17
+											register unsigned char *setp;
+											{
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x80052B28
 // line start: 2380
 // line end:   2473
-void OperatePedistal__Fii(int pnum, int i) {
+void OperatePedistal__Fii_addr_80052B28(int pnum, int i) {
 	// address: 0xFFFFFFE0
 	auto int jstn;
 	// register: 19
@@ -1444,43 +1481,6 @@ void OperatePedistal__Fii(int pnum, int i) {
 												register unsigned char *setp;
 												{
 												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x80059A68
-// line start: 2471
-// line end:   2561
-void OperatePedistal__Fii_addr_80059A68(int pnum, int i) {
-	// address: 0xFFFFFFE0
-	auto int jstn;
-	// register: 19
-	register bool JustOperated;
-	{
-		{
-			{
-				{
-					{
-						{
-							// register: 16
-							register unsigned char *setp;
-							{
-								{
-									{
-										{
-											// register: 17
-											register unsigned char *setp;
-											{
 											}
 										}
 									}
@@ -1534,10 +1534,39 @@ void OperateSarc__FiiUc(int pnum, int i, unsigned char sendmsg) {
 }
 
 
+// address: 0x8005341C
+// line start: 2045
+// line end:   2598
+void OperateShrine__Fiii(int pnum, int i, int sType) {
+	// register: 18
+	register int r;
+	// register: 4
+	register int xx;
+	// register: 5
+	register int yy;
+	// register: 6
+	register int sc;
+	// register: 16
+	register int v1;
+	// register: 20
+	register int v2;
+	// register: 21
+	register int v3;
+	// register: 17
+	register int v4;
+	// register: 16
+	register unsigned long lv;
+	// register: 6
+	register unsigned long t;
+	// register: 21
+	register unsigned char done;
+}
+
+
 // address: 0x8005A1A4
 // line start: 2609
 // line end:   3210
-void OperateShrine__Fiii(int pnum, int i, int sType) {
+void OperateShrine__Fiii_addr_8005A1A4(int pnum, int i, int sType) {
 	// register: 18
 	register int r;
 	// register: 4
@@ -1570,35 +1599,6 @@ void OperateShrine__Fiii(int pnum, int i, int sType) {
 			}
 		}
 	}
-}
-
-
-// address: 0x8005341C
-// line start: 2045
-// line end:   2598
-void OperateShrine__Fiii_addr_8005341C(int pnum, int i, int sType) {
-	// register: 18
-	register int r;
-	// register: 4
-	register int xx;
-	// register: 5
-	register int yy;
-	// register: 6
-	register int sc;
-	// register: 16
-	register int v1;
-	// register: 20
-	register int v2;
-	// register: 21
-	register int v3;
-	// register: 17
-	register int v4;
-	// register: 16
-	register unsigned long lv;
-	// register: 6
-	register unsigned long t;
-	// register: 21
-	register unsigned char done;
 }
 
 
@@ -1762,21 +1762,6 @@ void RestoreObjectLight__Fv() {
 }
 
 
-// address: 0x8005B6F0
-// line start: 3703
-// line end:   3859
-void RestoreObjectLight__Fv_addr_8005B6F0() {
-	// register: 18
-	register int i;
-	// register: 2
-	register int oi;
-	// register: 16
-	register int ox;
-	// register: 17
-	register int oy;
-}
-
-
 // address: 0x8005F6D8
 // line start: 4449
 // line end:   4617
@@ -1813,6 +1798,21 @@ void RestoreObjectLight__Fv_addr_8005F614() {
 }
 
 
+// address: 0x8005B6F0
+// line start: 3703
+// line end:   3859
+void RestoreObjectLight__Fv_addr_8005B6F0() {
+	// register: 18
+	register int i;
+	// register: 2
+	register int oi;
+	// register: 16
+	register int ox;
+	// register: 17
+	register int oy;
+}
+
+
 // address: 0x8004D734
 // line start: 380
 // line end:   382
@@ -1845,25 +1845,10 @@ void SyncBreakObj__Fii(int pnum, int oi) {
 }
 
 
-// address: 0x80057E64
-// line start: 3376
-// line end:   3392
-void SyncCrux__Fi(int i) {
-	// register: 6
-	register int j;
-	// register: 3
-	register int ot;
-	// register: 2
-	register int oi;
-	// register: 7
-	register unsigned char mapflag;
-}
-
-
 // address: 0x8005A9E0
 // line start: 3376
 // line end:   3392
-void SyncCrux__Fi_addr_8005A9E0(int i) {
+void SyncCrux__Fi(int i) {
 	// register: 17
 	register int j;
 	// register: 3
@@ -1871,6 +1856,21 @@ void SyncCrux__Fi_addr_8005A9E0(int i) {
 	// register: 16
 	register int oi;
 	// register: 19
+	register unsigned char mapflag;
+}
+
+
+// address: 0x80057E64
+// line start: 3376
+// line end:   3392
+void SyncCrux__Fi_addr_80057E64(int i) {
+	// register: 6
+	register int j;
+	// register: 3
+	register int ot;
+	// register: 2
+	register int oi;
+	// register: 7
 	register unsigned char mapflag;
 }
 
@@ -1981,29 +1981,20 @@ void SyncOpL1Door__Fiii_addr_800598CC(int pnum, int cmd, int i) {
 }
 
 
-// address: 0x80057044
-// line start: 3079
-// line end:   3089
-void SyncOpL2Door__Fiii(int pnum, int cmd, int i) {
-	// register: 4
-	register unsigned char opok;
-}
-
-
 // address: 0x80059A0C
 // line start: 3079
 // line end:   3089
-void SyncOpL2Door__Fiii_addr_80059A0C(int pnum, int cmd, int i) {
+void SyncOpL2Door__Fiii(int pnum, int cmd, int i) {
 	// register: 17
 	register unsigned char opok;
 }
 
 
-// address: 0x80059B4C
-// line start: 3095
-// line end:   3105
-void SyncOpL3Door__Fiii(int pnum, int cmd, int i) {
-	// register: 17
+// address: 0x80057044
+// line start: 3079
+// line end:   3089
+void SyncOpL2Door__Fiii_addr_80057044(int pnum, int cmd, int i) {
+	// register: 4
 	register unsigned char opok;
 }
 
@@ -2011,8 +2002,17 @@ void SyncOpL3Door__Fiii(int pnum, int cmd, int i) {
 // address: 0x80057158
 // line start: 3095
 // line end:   3105
-void SyncOpL3Door__Fiii_addr_80057158(int pnum, int cmd, int i) {
+void SyncOpL3Door__Fiii(int pnum, int cmd, int i) {
 	// register: 4
+	register unsigned char opok;
+}
+
+
+// address: 0x80059B4C
+// line start: 3095
+// line end:   3105
+void SyncOpL3Door__Fiii_addr_80059B4C(int pnum, int cmd, int i) {
+	// register: 17
 	register unsigned char opok;
 }
 
@@ -2024,17 +2024,10 @@ void SyncOpObject__Fiii(int pnum, int cmd, int i) {
 }
 
 
-// address: 0x8005EE00
-// line start: 4155
-// line end:   4173
-void SyncPedistal__Fi(int i) {
-}
-
-
 // address: 0x80058110
 // line start: 3429
 // line end:   3444
-void SyncPedistal__Fi_addr_80058110(int i) {
+void SyncPedistal__Fi(int i) {
 	// register: 16
 	register unsigned char *setp;
 	{
@@ -2043,6 +2036,13 @@ void SyncPedistal__Fi_addr_80058110(int i) {
 			}
 		}
 	}
+}
+
+
+// address: 0x8005EE00
+// line start: 4155
+// line end:   4173
+void SyncPedistal__Fi_addr_8005EE00(int i) {
 }
 
 

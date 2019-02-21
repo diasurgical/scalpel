@@ -170,17 +170,10 @@ void CopyToGt4__9LittleGt4P8POLY_GT4(struct LittleGt4 *this, struct POLY_GT4 *Gt
 }
 
 
-// address: 0x80088CD4
-// line start: 158
-// line end:   158
-void DumpItems__7CBlocks(struct CBlocks_dup_4 *this) {
-}
-
-
-// address: 0x80089634
-// line start: 158
-// line end:   158
-void DumpItems__7CBlocks_addr_80089634(struct CBlocks *this) {
+// address: 0x80091814
+// line start: 230
+// line end:   230
+void DumpItems__7CBlocks(struct CBlocks_dup_19 *this) {
 }
 
 
@@ -198,17 +191,24 @@ void DumpItems__7CBlocks_addr_8008BE50(struct CBlocks_dup_14 *this) {
 }
 
 
+// address: 0x80089634
+// line start: 158
+// line end:   158
+void DumpItems__7CBlocks_addr_80089634(struct CBlocks *this) {
+}
+
+
+// address: 0x80088CD4
+// line start: 158
+// line end:   158
+void DumpItems__7CBlocks_addr_80088CD4(struct CBlocks_dup_4 *this) {
+}
+
+
 // address: 0x8009198C
 // line start: 230
 // line end:   230
 void DumpItems__7CBlocks_addr_8009198C(struct CBlocks_dup_17 *this) {
-}
-
-
-// address: 0x80091814
-// line start: 230
-// line end:   230
-void DumpItems__7CBlocks_addr_80091814(struct CBlocks_dup_19 *this) {
 }
 
 
@@ -247,10 +247,17 @@ void DumpMonsters__7CBlocks_addr_800ADCE4(struct CBlocks *this) {
 }
 
 
+// address: 0x800918E0
+// line start: 229
+// line end:   229
+void DumpObjs__7CBlocks(struct CBlocks_dup_18 *this) {
+}
+
+
 // address: 0x80091838
 // line start: 229
 // line end:   229
-void DumpObjs__7CBlocks(struct CBlocks_dup_19 *this) {
+void DumpObjs__7CBlocks_addr_80091838(struct CBlocks_dup_19 *this) {
 }
 
 
@@ -261,17 +268,10 @@ void DumpObjs__7CBlocks_addr_8008BE74(struct CBlocks_dup_14 *this) {
 }
 
 
-// address: 0x800919B0
-// line start: 229
-// line end:   229
-void DumpObjs__7CBlocks_addr_800919B0(struct CBlocks_dup_17 *this) {
-}
-
-
-// address: 0x800918E0
-// line start: 229
-// line end:   229
-void DumpObjs__7CBlocks_addr_800918E0(struct CBlocks_dup_18 *this) {
+// address: 0x8008CBAC
+// line start: 157
+// line end:   157
+void DumpObjs__7CBlocks_addr_8008CBAC(struct CBlocks_dup_1 *this) {
 }
 
 
@@ -289,10 +289,10 @@ void DumpObjs__7CBlocks_addr_80088CF8(struct CBlocks_dup_4 *this) {
 }
 
 
-// address: 0x8008CBAC
-// line start: 157
-// line end:   157
-void DumpObjs__7CBlocks_addr_8008CBAC(struct CBlocks_dup_1 *this) {
+// address: 0x800919B0
+// line start: 229
+// line end:   229
+void DumpObjs__7CBlocks_addr_800919B0(struct CBlocks_dup_17 *this) {
 }
 
 
@@ -304,19 +304,19 @@ struct TextDat_dup_14 *GetBlockTexDat__7CBlocks(struct CBlocks_dup_14 *this) {
 }
 
 
-// address: 0x800625B4
-// size: 0x6C
-// line start: 151
-// line end:   151
-struct TextDat *GetBlockTexDat__7CBlocks_addr_800625B4(struct CBlocks_dup_4 *this) {
-}
-
-
 // address: 0x80063BD0
 // size: 0x6C
 // line start: 151
 // line end:   151
 struct TextDat *GetBlockTexDat__7CBlocks_addr_80063BD0(struct CBlocks *this) {
+}
+
+
+// address: 0x800625B4
+// size: 0x6C
+// line start: 151
+// line end:   151
+struct TextDat *GetBlockTexDat__7CBlocks_addr_800625B4(struct CBlocks_dup_4 *this) {
 }
 
 
@@ -413,14 +413,6 @@ struct TextDat *GetBlockTexDat__7CBlocks_addr_80079E4C(struct CBlocks *this) {
 // line start: 151
 // line end:   151
 struct TextDat *GetBlockTexDat__7CBlocks_addr_800764D8(struct CBlocks_dup_4 *this) {
-}
-
-
-// address: 0x800764D8
-// size: 0x6C
-// line start: 151
-// line end:   151
-struct TextDat *GetBlockTexDat__7CBlocks_addr_800764D8_addr_800764D8(struct CBlocks *this) {
 }
 
 
@@ -601,10 +593,10 @@ int GetMaxOtPos__7CBlocks_addr_80098684() {
 }
 
 
-// address: 0x8008BEC0
+// address: 0x80088D44
 // line start: 117
 // line end:   117
-int GetNumOfBlocks__7CBlocks(struct CBlocks_dup_14 *this) {
+int GetNumOfBlocks__7CBlocks(struct CBlocks_dup_4 *this) {
 }
 
 
@@ -615,6 +607,13 @@ int GetNumOfBlocks__7CBlocks_addr_8008CBF8(struct CBlocks_dup_1 *this) {
 }
 
 
+// address: 0x8008BEC0
+// line start: 117
+// line end:   117
+int GetNumOfBlocks__7CBlocks_addr_8008BEC0(struct CBlocks_dup_14 *this) {
+}
+
+
 // address: 0x800896A4
 // line start: 117
 // line end:   117
@@ -622,17 +621,10 @@ int GetNumOfBlocks__7CBlocks_addr_800896A4(struct CBlocks *this) {
 }
 
 
-// address: 0x80088D44
-// line start: 117
-// line end:   117
-int GetNumOfBlocks__7CBlocks_addr_80088D44(struct CBlocks_dup_4 *this) {
-}
-
-
-// address: 0x80091938
+// address: 0x800919FC
 // line start: 177
 // line end:   188
-int GetOtPos__7CBlocksi(struct CBlocks *this, int LogicalY) {
+int GetOtPos__7CBlocksi(struct CBlocks_dup_17 *this, int LogicalY) {
 	// register: 3
 	register int OtPos;
 }
@@ -647,10 +639,10 @@ int GetOtPos__7CBlocksi_addr_8009192C(struct CBlocks_dup_18 *this, int LogicalY)
 }
 
 
-// address: 0x800919FC
+// address: 0x80091938
 // line start: 177
 // line end:   188
-int GetOtPos__7CBlocksi_addr_800919FC(struct CBlocks_dup_17 *this, int LogicalY) {
+int GetOtPos__7CBlocksi_addr_80091938(struct CBlocks *this, int LogicalY) {
 	// register: 3
 	register int OtPos;
 }
@@ -1159,10 +1151,10 @@ int GetOverlayOtBase__7CBlocks_addr_80082308() {
 }
 
 
-// address: 0x8008D3BC
+// address: 0x8008AB6C
 // line start: 126
 // line end:   126
-int GetPlrOt__7CBlocksi(struct CBlocks_dup_14 *this, int PlayerNum) {
+int GetPlrOt__7CBlocksi(struct CBlocks *this, int PlayerNum) {
 }
 
 
@@ -1173,10 +1165,10 @@ int GetPlrOt__7CBlocksi_addr_8008A2FC(struct CBlocks_dup_4 *this, int PlayerNum)
 }
 
 
-// address: 0x8008AB6C
+// address: 0x8008D3BC
 // line start: 126
 // line end:   126
-int GetPlrOt__7CBlocksi_addr_8008AB6C(struct CBlocks *this, int PlayerNum) {
+int GetPlrOt__7CBlocksi_addr_8008D3BC(struct CBlocks_dup_14 *this, int PlayerNum) {
 }
 
 
@@ -1187,17 +1179,17 @@ int GetPlrOt__7CBlocksi_addr_8008E088(struct CBlocks_dup_1 *this, int PlayerNum)
 }
 
 
-// address: 0x80091A34
-// line start: 56
-// line end:   69
-void InitFromGt4__9LittleGt4P8POLY_GT4ii(struct LittleGt4_dup_17 *this, struct POLY_GT4 *Gt4, int nw, int nh) {
-}
-
-
 // address: 0x80089748
 // line start: 47
 // line end:   60
-void InitFromGt4__9LittleGt4P8POLY_GT4ii_addr_80089748(struct LittleGt4 *this, struct POLY_GT4 *Gt4, int nw, int nh) {
+void InitFromGt4__9LittleGt4P8POLY_GT4ii(struct LittleGt4 *this, struct POLY_GT4 *Gt4, int nw, int nh) {
+}
+
+
+// address: 0x80091A34
+// line start: 56
+// line end:   69
+void InitFromGt4__9LittleGt4P8POLY_GT4ii_addr_80091A34(struct LittleGt4_dup_17 *this, struct POLY_GT4 *Gt4, int nw, int nh) {
 }
 
 
@@ -1362,13 +1354,6 @@ void MoveToScrollTarget__7CBlocks_addr_8007207C(struct CBlocks_dup_4 *this) {
 }
 
 
-// address: 0x8007207C
-// line start: 128
-// line end:   128
-void MoveToScrollTarget__7CBlocks_addr_8007207C_addr_8007207C(struct CBlocks *this) {
-}
-
-
 // address: 0x8007341C
 // line start: 128
 // line end:   128
@@ -1456,14 +1441,7 @@ void MoveToScrollTarget__7CBlocks_addr_80075908(struct CBlocks *this) {
 // address: 0x80097008
 // line start: 128
 // line end:   128
-void MoveToScrollTarget__7CBlocks_addr_80097008(struct CBlocks *this) {
-}
-
-
-// address: 0x80097008
-// line start: 128
-// line end:   128
-void MoveToScrollTarget__7CBlocks_addr_80097008_addr_80097008(struct CBlocks_dup_4 *this) {
+void MoveToScrollTarget__7CBlocks_addr_80097008(struct CBlocks_dup_4 *this) {
 }
 
 
@@ -1502,17 +1480,24 @@ void MoveToScrollTarget__7CBlocks_addr_80099960(struct CBlocks *this) {
 }
 
 
-// address: 0x80088C84
-// line start: 173
-// line end:   173
-void SetItemGraphics__7CBlocksi(struct CBlocks_dup_4 *this, int Id) {
+// address: 0x8008CB38
+// line start: 167
+// line end:   167
+void SetItemGraphics__7CBlocksi(struct CBlocks_dup_1 *this, int Id) {
 }
 
 
-// address: 0x8009186C
+// address: 0x80088C84
+// line start: 173
+// line end:   173
+void SetItemGraphics__7CBlocksi_addr_80088C84(struct CBlocks_dup_4 *this, int Id) {
+}
+
+
+// address: 0x8009193C
 // line start: 261
 // line end:   261
-void SetItemGraphics__7CBlocksi_addr_8009186C(struct CBlocks_dup_18 *this, int Id) {
+void SetItemGraphics__7CBlocksi_addr_8009193C(struct CBlocks_dup_17 *this, int Id) {
 }
 
 
@@ -1520,13 +1505,6 @@ void SetItemGraphics__7CBlocksi_addr_8009186C(struct CBlocks_dup_18 *this, int I
 // line start: 261
 // line end:   261
 void SetItemGraphics__7CBlocksi_addr_800917C4(struct CBlocks_dup_19 *this, int Id) {
-}
-
-
-// address: 0x8008CB38
-// line start: 167
-// line end:   167
-void SetItemGraphics__7CBlocksi_addr_8008CB38(struct CBlocks_dup_1 *this, int Id) {
 }
 
 
@@ -1544,45 +1522,17 @@ void SetItemGraphics__7CBlocksi_addr_8008BE00(struct CBlocks_dup_14 *this, int I
 }
 
 
-// address: 0x8009193C
+// address: 0x8009186C
 // line start: 261
 // line end:   261
-void SetItemGraphics__7CBlocksi_addr_8009193C(struct CBlocks_dup_17 *this, int Id) {
-}
-
-
-// address: 0x8008CB60
-// line start: 166
-// line end:   166
-void SetObjGraphics__7CBlocksi(struct CBlocks_dup_1 *this, int Id) {
-}
-
-
-// address: 0x80091964
-// line start: 260
-// line end:   260
-void SetObjGraphics__7CBlocksi_addr_80091964(struct CBlocks_dup_17 *this, int Id) {
-}
-
-
-// address: 0x80088CAC
-// line start: 172
-// line end:   172
-void SetObjGraphics__7CBlocksi_addr_80088CAC(struct CBlocks_dup_4 *this, int Id) {
-}
-
-
-// address: 0x80091894
-// line start: 260
-// line end:   260
-void SetObjGraphics__7CBlocksi_addr_80091894(struct CBlocks_dup_18 *this, int Id) {
+void SetItemGraphics__7CBlocksi_addr_8009186C(struct CBlocks_dup_18 *this, int Id) {
 }
 
 
 // address: 0x8008BE28
 // line start: 172
 // line end:   172
-void SetObjGraphics__7CBlocksi_addr_8008BE28(struct CBlocks_dup_14 *this, int Id) {
+void SetObjGraphics__7CBlocksi(struct CBlocks_dup_14 *this, int Id) {
 }
 
 
@@ -1600,10 +1550,45 @@ void SetObjGraphics__7CBlocksi_addr_8008960C(struct CBlocks *this, int Id) {
 }
 
 
-// address: 0x8009267C
-// line start: 139
-// line end:   139
-void SetTown__7CBlocksb(struct CBlocks_dup_14 *this, bool Val) {
+// address: 0x80088CAC
+// line start: 172
+// line end:   172
+void SetObjGraphics__7CBlocksi_addr_80088CAC(struct CBlocks_dup_4 *this, int Id) {
+}
+
+
+// address: 0x80091894
+// line start: 260
+// line end:   260
+void SetObjGraphics__7CBlocksi_addr_80091894(struct CBlocks_dup_18 *this, int Id) {
+}
+
+
+// address: 0x8008CB60
+// line start: 166
+// line end:   166
+void SetObjGraphics__7CBlocksi_addr_8008CB60(struct CBlocks_dup_1 *this, int Id) {
+}
+
+
+// address: 0x80091964
+// line start: 260
+// line end:   260
+void SetObjGraphics__7CBlocksi_addr_80091964(struct CBlocks_dup_17 *this, int Id) {
+}
+
+
+// address: 0x8009C0B4
+// line start: 212
+// line end:   212
+void SetTown__7CBlocksb(struct CBlocks_dup_19 *this, bool Val) {
+}
+
+
+// address: 0x8009C15C
+// line start: 212
+// line end:   212
+void SetTown__7CBlocksb_addr_8009C15C(struct CBlocks_dup_18 *this, bool Val) {
 }
 
 
@@ -1611,6 +1596,13 @@ void SetTown__7CBlocksb(struct CBlocks_dup_14 *this, bool Val) {
 // line start: 139
 // line end:   139
 void SetTown__7CBlocksb_addr_80092C24(struct CBlocks_dup_1 *this, bool Val) {
+}
+
+
+// address: 0x8009267C
+// line start: 139
+// line end:   139
+void SetTown__7CBlocksb_addr_8009267C(struct CBlocks_dup_14 *this, bool Val) {
 }
 
 
@@ -1625,20 +1617,6 @@ void SetTown__7CBlocksb_addr_8008F074(struct CBlocks_dup_4 *this, bool Val) {
 // line start: 212
 // line end:   212
 void SetTown__7CBlocksb_addr_8009C230(struct CBlocks_dup_17 *this, bool Val) {
-}
-
-
-// address: 0x8009C0B4
-// line start: 212
-// line end:   212
-void SetTown__7CBlocksb_addr_8009C0B4(struct CBlocks_dup_19 *this, bool Val) {
-}
-
-
-// address: 0x8009C15C
-// line start: 212
-// line end:   212
-void SetTown__7CBlocksb_addr_8009C15C(struct CBlocks_dup_18 *this, bool Val) {
 }
 
 

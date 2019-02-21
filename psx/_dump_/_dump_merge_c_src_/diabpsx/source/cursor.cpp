@@ -9,10 +9,37 @@ void CheckCursMove__Fv() {
 }
 
 
+// address: 0x80035454
+// line start: 247
+// line end:   279
+void CheckRportal__Fv() {
+	// register: 11
+	register int ocursmx;
+	// register: 10
+	register int ocursmy;
+	{
+		// register: 9
+		register int i;
+		{
+			// register: 3
+			register int mx;
+			{
+				{
+					{
+						// register: 8
+						register int dir;
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x80036390
 // line start: 237
 // line end:   258
-void CheckRportal__Fv() {
+void CheckRportal__Fv_addr_80036390() {
 	{
 		// register: 17
 		register int i;
@@ -24,10 +51,10 @@ void CheckRportal__Fv() {
 }
 
 
-// address: 0x80035454
-// line start: 247
-// line end:   279
-void CheckRportal__Fv_addr_80035454() {
+// address: 0x800351C8
+// line start: 211
+// line end:   242
+void CheckTown__Fv() {
 	// register: 11
 	register int ocursmx;
 	// register: 10
@@ -54,40 +81,13 @@ void CheckRportal__Fv_addr_80035454() {
 // address: 0x80036138
 // line start: 211
 // line end:   231
-void CheckTown__Fv() {
+void CheckTown__Fv_addr_80036138() {
 	{
 		// register: 18
 		register int i;
 		{
 			// register: 17
 			register int mx;
-		}
-	}
-}
-
-
-// address: 0x800351C8
-// line start: 211
-// line end:   242
-void CheckTown__Fv_addr_800351C8() {
-	// register: 11
-	register int ocursmx;
-	// register: 10
-	register int ocursmy;
-	{
-		// register: 9
-		register int i;
-		{
-			// register: 3
-			register int mx;
-			{
-				{
-					{
-						// register: 8
-						register int dir;
-					}
-				}
-			}
 		}
 	}
 }

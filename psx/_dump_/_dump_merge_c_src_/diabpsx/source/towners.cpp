@@ -2,74 +2,14 @@
 
 #include "types.h"
 
-// address: 0x80038AE0
+// address: 0x80038AD8
 // line start: 595
 // line end:   641
 void CowSFX__Fi(int pnum) {
-	// address: 0x801228B0
+	// address: 0x8012258C
 	// size: 0x24
 	static int snSFX[3][3];
-	// address: 0x8012CBF8
-	static int snLastCowSFX;
-}
-
-
-// address: 0x8003998C
-// line start: 593
-// line end:   639
-void CowSFX__Fi_addr_8003998C(int pnum) {
-	// address: 0x8010DA38
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x80117068
-	static int snLastCowSFX;
-}
-
-
-// address: 0x80038BA8
-// line start: 593
-// line end:   639
-void CowSFX__Fi_addr_80038BA8(int pnum) {
-	// address: 0x801216A8
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8012B838
-	static int snLastCowSFX;
-}
-
-
-// address: 0x80039964
-// line start: 593
-// line end:   639
-void CowSFX__Fi_addr_80039964(int pnum) {
-	// address: 0x8010D8E4
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x80116F38
-	static int snLastCowSFX;
-}
-
-
-// address: 0x8003B7E0
-// line start: 607
-// line end:   653
-void CowSFX__Fi_addr_8003B7E0(int pnum) {
-	// address: 0x80111548
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8011BA8C
-	static int snLastCowSFX;
-}
-
-
-// address: 0x80038A48
-// line start: 593
-// line end:   639
-void CowSFX__Fi_addr_80038A48(int pnum) {
-	// address: 0x8010F368
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x80119380
+	// address: 0x8012C858
 	static int snLastCowSFX;
 }
 
@@ -98,74 +38,26 @@ void CowSFX__Fi_addr_80038A48(int pnum) {
 }
 
 
-// address: 0x800388A4
+// address: 0x800388E0
 // line start: 593
 // line end:   639
-void CowSFX__Fi_addr_800388A4(int pnum) {
-	// address: 0x8010A6E8
+void CowSFX__Fi_addr_800388E0(int pnum) {
+	// address: 0x8010B764
 	// size: 0x24
 	static int snSFX[3][3];
-	// address: 0x80114094
+	// address: 0x801156E4
 	static int snLastCowSFX;
 }
 
 
-// address: 0x800389FC
+// address: 0x80038A48
 // line start: 593
 // line end:   639
-void CowSFX__Fi_addr_800389FC(int pnum) {
-	// address: 0x8010EB70
+void CowSFX__Fi_addr_80038A48(int pnum) {
+	// address: 0x8010F368
 	// size: 0x24
 	static int snSFX[3][3];
-	// address: 0x80118B9C
-	static int snLastCowSFX;
-}
-
-
-// address: 0x8003B7B8
-// line start: 607
-// line end:   653
-void CowSFX__Fi_addr_8003B7B8(int pnum) {
-	// address: 0x8011153C
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8011BA50
-	static int snLastCowSFX;
-}
-
-
-// address: 0x8003B7E0
-// line start: 607
-// line end:   653
-void CowSFX__Fi_addr_8003B7E0(int pnum) {
-	// address: 0x80111474
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8011B980
-	static int snLastCowSFX;
-}
-
-
-// address: 0x8003A2D4
-// line start: 595
-// line end:   641
-void CowSFX__Fi_addr_8003A2D4(int pnum) {
-	// address: 0x80112860
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8011CC64
-	static int snLastCowSFX;
-}
-
-
-// address: 0x80038C1C
-// line start: 593
-// line end:   639
-void CowSFX__Fi_addr_80038C1C(int pnum) {
-	// address: 0x8010D70C
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x80117528
+	// address: 0x80119380
 	static int snLastCowSFX;
 }
 
@@ -182,50 +74,14 @@ void CowSFX__Fi_addr_8003B7B8(int pnum) {
 }
 
 
-// address: 0x80038AD8
-// line start: 595
-// line end:   641
-void CowSFX__Fi_addr_80038AD8(int pnum) {
-	// address: 0x8012258C
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8012C858
-	static int snLastCowSFX;
-}
-
-
-// address: 0x800388E0
+// address: 0x8003998C
 // line start: 593
 // line end:   639
-void CowSFX__Fi_addr_800388E0(int pnum) {
-	// address: 0x8010B764
+void CowSFX__Fi_addr_8003998C(int pnum) {
+	// address: 0x8010DA38
 	// size: 0x24
 	static int snSFX[3][3];
-	// address: 0x801156E4
-	static int snLastCowSFX;
-}
-
-
-// address: 0x80039C90
-// line start: 593
-// line end:   639
-void CowSFX__Fi_addr_80039C90(int pnum) {
-	// address: 0x801172D0
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x80120BCC
-	static int snLastCowSFX;
-}
-
-
-// address: 0x800369A8
-// line start: 595
-// line end:   641
-void CowSFX__Fi_addr_800369A8(int pnum) {
-	// address: 0x80120040
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8012A3BC
+	// address: 0x80117068
 	static int snLastCowSFX;
 }
 
@@ -242,6 +98,54 @@ void CowSFX__Fi_addr_80038A50(int pnum) {
 }
 
 
+// address: 0x800389FC
+// line start: 593
+// line end:   639
+void CowSFX__Fi_addr_800389FC(int pnum) {
+	// address: 0x8010EB70
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x80118B9C
+	static int snLastCowSFX;
+}
+
+
+// address: 0x800369A8
+// line start: 595
+// line end:   641
+void CowSFX__Fi_addr_800369A8(int pnum) {
+	// address: 0x80120040
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8012A3BC
+	static int snLastCowSFX;
+}
+
+
+// address: 0x80039964
+// line start: 593
+// line end:   639
+void CowSFX__Fi_addr_80039964(int pnum) {
+	// address: 0x8010D8E4
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x80116F38
+	static int snLastCowSFX;
+}
+
+
+// address: 0x80039C90
+// line start: 593
+// line end:   639
+void CowSFX__Fi_addr_80039C90(int pnum) {
+	// address: 0x801172D0
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x80120BCC
+	static int snLastCowSFX;
+}
+
+
 // address: 0x8003A628
 // line start: 595
 // line end:   641
@@ -250,18 +154,6 @@ void CowSFX__Fi_addr_8003A628(int pnum) {
 	// size: 0x24
 	static int snSFX[3][3];
 	// address: 0x80122EA8
-	static int snLastCowSFX;
-}
-
-
-// address: 0x800389D4
-// line start: 593
-// line end:   639
-void CowSFX__Fi_addr_800389D4(int pnum) {
-	// address: 0x80121464
-	// size: 0x24
-	static int snSFX[3][3];
-	// address: 0x8012B614
 	static int snLastCowSFX;
 }
 
@@ -278,14 +170,38 @@ void CowSFX__Fi_addr_80038AE0(int pnum) {
 }
 
 
-// address: 0x800389F8
+// address: 0x80039994
 // line start: 593
 // line end:   639
-void CowSFX__Fi_addr_800389F8(int pnum) {
-	// address: 0x80121730
+void CowSFX__Fi_addr_80039994(int pnum) {
+	// address: 0x8010E208
 	// size: 0x24
 	static int snSFX[3][3];
-	// address: 0x8012B920
+	// address: 0x80117874
+	static int snLastCowSFX;
+}
+
+
+// address: 0x8003B7B8
+// line start: 607
+// line end:   653
+void CowSFX__Fi_addr_8003B7B8(int pnum) {
+	// address: 0x8011153C
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8011BA50
+	static int snLastCowSFX;
+}
+
+
+// address: 0x800389D4
+// line start: 593
+// line end:   639
+void CowSFX__Fi_addr_800389D4(int pnum) {
+	// address: 0x80121464
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8012B614
 	static int snLastCowSFX;
 }
 
@@ -302,6 +218,66 @@ void CowSFX__Fi_addr_80038B3C(int pnum) {
 }
 
 
+// address: 0x800389F8
+// line start: 593
+// line end:   639
+void CowSFX__Fi_addr_800389F8(int pnum) {
+	// address: 0x80121730
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8012B920
+	static int snLastCowSFX;
+}
+
+
+// address: 0x8003B7E0
+// line start: 607
+// line end:   653
+void CowSFX__Fi_addr_8003B7E0(int pnum) {
+	// address: 0x80111474
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8011B980
+	static int snLastCowSFX;
+}
+
+
+// address: 0x80038C1C
+// line start: 593
+// line end:   639
+void CowSFX__Fi_addr_80038C1C(int pnum) {
+	// address: 0x8010D70C
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x80117528
+	static int snLastCowSFX;
+}
+
+
+// address: 0x8003B7E0
+// line start: 607
+// line end:   653
+void CowSFX__Fi_addr_8003B7E0(int pnum) {
+	// address: 0x80111548
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8011BA8C
+	static int snLastCowSFX;
+}
+
+
+// address: 0x80038BA8
+// line start: 593
+// line end:   639
+void CowSFX__Fi_addr_80038BA8(int pnum) {
+	// address: 0x801216A8
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8012B838
+	static int snLastCowSFX;
+}
+
+
 // address: 0x80038BCC
 // line start: 593
 // line end:   639
@@ -314,14 +290,38 @@ void CowSFX__Fi_addr_80038BCC(int pnum) {
 }
 
 
-// address: 0x80039994
+// address: 0x800388A4
 // line start: 593
 // line end:   639
-void CowSFX__Fi_addr_80039994(int pnum) {
-	// address: 0x8010E208
+void CowSFX__Fi_addr_800388A4(int pnum) {
+	// address: 0x8010A6E8
 	// size: 0x24
 	static int snSFX[3][3];
-	// address: 0x80117874
+	// address: 0x80114094
+	static int snLastCowSFX;
+}
+
+
+// address: 0x80038AE0
+// line start: 595
+// line end:   641
+void CowSFX__Fi_addr_80038AE0(int pnum) {
+	// address: 0x801228B0
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8012CBF8
+	static int snLastCowSFX;
+}
+
+
+// address: 0x8003A2D4
+// line start: 595
+// line end:   641
+void CowSFX__Fi_addr_8003A2D4(int pnum) {
+	// address: 0x80112860
+	// size: 0x24
+	static int snSFX[3][3];
+	// address: 0x8011CC64
 	static int snLastCowSFX;
 }
 
@@ -548,11 +548,19 @@ void NewTownerAnim__FiPUcii(int tnum, unsigned char *pAnim, int numFrames, int D
 }
 
 
-// address: 0x8003B70C
-// size: 0x6C
-// line start: 593
-// line end:   598
-struct ItemStruct *PlrHasItem__FiiRi(int pnum, int item, int *i) {
+// address: 0x80038A0C
+// size: 0x98
+// line start: 581
+// line end:   586
+struct ItemStruct_dup_13 *PlrHasItem__FiiRi(int pnum, int item, int *i) {
+}
+
+
+// address: 0x80038924
+// size: 0x98
+// line start: 579
+// line end:   584
+struct ItemStruct_dup_11 *PlrHasItem__FiiRi_addr_80038924(int pnum, int item, int *i) {
 }
 
 
@@ -572,14 +580,6 @@ struct ItemStruct_dup_17 *PlrHasItem__FiiRi_addr_8003B70C(int pnum, int item, in
 }
 
 
-// address: 0x80039890
-// size: 0x94
-// line start: 579
-// line end:   584
-struct ItemStruct *PlrHasItem__FiiRi_addr_80039890(int pnum, int item, int *i) {
-}
-
-
 // address: 0x80038928
 // size: 0x98
 // line start: 579
@@ -588,19 +588,19 @@ struct ItemStruct *PlrHasItem__FiiRi_addr_80038928(int pnum, int item, int *i) {
 }
 
 
-// address: 0x80038924
-// size: 0x98
+// address: 0x80039890
+// size: 0x94
 // line start: 579
 // line end:   584
-struct ItemStruct_dup_11 *PlrHasItem__FiiRi_addr_80038924(int pnum, int item, int *i) {
+struct ItemStruct *PlrHasItem__FiiRi_addr_80039890(int pnum, int item, int *i) {
 }
 
 
-// address: 0x80038A0C
-// size: 0x98
-// line start: 581
-// line end:   586
-struct ItemStruct_dup_13 *PlrHasItem__FiiRi_addr_80038A0C(int pnum, int item, int *i) {
+// address: 0x8003B70C
+// size: 0x6C
+// line start: 593
+// line end:   598
+struct ItemStruct *PlrHasItem__FiiRi_addr_8003B70C(int pnum, int item, int *i) {
 }
 
 
@@ -660,10 +660,10 @@ void TalkToTowner__Fii(int p, int t) {
 }
 
 
-// address: 0x80039AC0
-// line start: 659
-// line end:   1055
-void TalkToTowner__Fii_addr_80039AC0(int p, int t) {
+// address: 0x8003B93C
+// line start: 673
+// line end:   1090
+void TalkToTowner__Fii_addr_8003B93C(int p, int t) {
 	// address: 0xFFFFFFE0
 	auto int i;
 	// register: 16
@@ -671,7 +671,7 @@ void TalkToTowner__Fii_addr_80039AC0(int p, int t) {
 	// register: 2
 	register int dy;
 	// register: 17
-	// size: 0x94
+	// size: 0x6C
 	register struct ItemStruct *Item;
 	{
 		{
@@ -701,62 +701,6 @@ void TalkToTowner__Fii_addr_80038C3C(int p, int t) {
 	// register: 17
 	// size: 0x98
 	register struct ItemStruct_dup_13 *Item;
-	{
-		{
-			{
-				{
-					{
-						{
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x8003B93C
-// line start: 673
-// line end:   1090
-void TalkToTowner__Fii_addr_8003B93C(int p, int t) {
-	// address: 0xFFFFFFE0
-	auto int i;
-	// register: 16
-	register int dx;
-	// register: 2
-	register int dy;
-	// register: 17
-	// size: 0x6C
-	register struct ItemStruct *Item;
-	{
-		{
-			{
-				{
-					{
-						{
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x80038D78
-// line start: 659
-// line end:   1055
-void TalkToTowner__Fii_addr_80038D78(int p, int t) {
-	// address: 0xFFFFFFE0
-	auto int i;
-	// register: 16
-	register int dx;
-	// register: 2
-	register int dy;
-	// register: 17
-	// size: 0x98
-	register struct ItemStruct_dup_6 *Item;
 	{
 		{
 			{
@@ -813,6 +757,62 @@ void TalkToTowner__Fii_addr_8003B93C(int p, int t) {
 	// register: 17
 	// size: 0x6C
 	register struct ItemStruct_dup_17 *Item;
+	{
+		{
+			{
+				{
+					{
+						{
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80039AC0
+// line start: 659
+// line end:   1055
+void TalkToTowner__Fii_addr_80039AC0(int p, int t) {
+	// address: 0xFFFFFFE0
+	auto int i;
+	// register: 16
+	register int dx;
+	// register: 2
+	register int dy;
+	// register: 17
+	// size: 0x94
+	register struct ItemStruct *Item;
+	{
+		{
+			{
+				{
+					{
+						{
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80038D78
+// line start: 659
+// line end:   1055
+void TalkToTowner__Fii_addr_80038D78(int p, int t) {
+	// address: 0xFFFFFFE0
+	auto int i;
+	// register: 16
+	register int dx;
+	// register: 2
+	register int dy;
+	// register: 17
+	// size: 0x98
+	register struct ItemStruct_dup_6 *Item;
 	{
 		{
 			{

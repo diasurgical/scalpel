@@ -189,15 +189,15 @@ void T_FillTile__FPUciii_addr_8007454C(unsigned char *P3Tiles, int xx, int yy, i
 }
 
 
-// address: 0x8007469C
-// line start: 351
-// line end:   437
+// address: 0x8006DEB8
+// line start: 326
+// line end:   404
 void T_Pass3__Fv() {
 	// register: 19
 	register unsigned char *pSector;
-	// register: 17
+	// register: 16
 	register int xx;
-	// register: 18
+	// register: 10
 	register int yy;
 	{
 		// register: 5
@@ -210,6 +210,10 @@ void T_Pass3__Fv() {
 					{
 						{
 							{
+								{
+									// register: 4
+									register void *p__p;
+								}
 							}
 						}
 					}
@@ -251,15 +255,15 @@ void T_Pass3__Fv_addr_8006F708() {
 }
 
 
-// address: 0x8006DEB8
-// line start: 326
-// line end:   404
-void T_Pass3__Fv_addr_8006DEB8() {
+// address: 0x8007469C
+// line start: 351
+// line end:   437
+void T_Pass3__Fv_addr_8007469C() {
 	// register: 19
 	register unsigned char *pSector;
-	// register: 16
+	// register: 17
 	register int xx;
-	// register: 10
+	// register: 18
 	register int yy;
 	{
 		// register: 5
@@ -272,10 +276,6 @@ void T_Pass3__Fv_addr_8006DEB8() {
 					{
 						{
 							{
-								{
-									// register: 4
-									register void *p__p;
-								}
 							}
 						}
 					}

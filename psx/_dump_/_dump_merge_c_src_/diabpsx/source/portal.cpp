@@ -98,20 +98,6 @@ void DelMis__Fii(int mi, int i) {
 }
 
 
-// address: 0x8007A3B0
-// line start: 262
-// line end:   277
-void RemovePortalMissile__Fi_addr_8007A3B0(int id) {
-	// register: 17
-	register int i;
-	// register: 18
-	register int mi;
-	// register: 16
-	// size: 0x50
-	register struct MissileStruct *m;
-}
-
-
 // address: 0x80080FD0
 // line start: 285
 // line end:   300
@@ -123,6 +109,20 @@ void RemovePortalMissile__Fi_addr_80080FD0(int id) {
 	// register: 16
 	// size: 0x50
 	register struct MissileStruct_dup_17 *m;
+}
+
+
+// address: 0x8007A3B0
+// line start: 262
+// line end:   277
+void RemovePortalMissile__Fi_addr_8007A3B0(int id) {
+	// register: 17
+	register int i;
+	// register: 18
+	register int mi;
+	// register: 16
+	// size: 0x50
+	register struct MissileStruct *m;
 }
 
 

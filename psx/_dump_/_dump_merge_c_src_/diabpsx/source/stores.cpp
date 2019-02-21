@@ -23,10 +23,17 @@ void AddSText__FiiUcPccUc(int x, int y, unsigned char j, char *str, int clr, int
 }
 
 
+// address: 0x80067BE0
+// line start: 1414
+// line end:   1419
+void AddStoreHoldId__FG10ItemStructi(struct ItemStruct_dup_13 itm, int i) {
+}
+
+
 // address: 0x8006E428
 // line start: 1766
 // line end:   1771
-void AddStoreHoldId__FG10ItemStructi(struct ItemStruct_dup_17 itm, int i) {
+void AddStoreHoldId__FG10ItemStructi_addr_8006E428(struct ItemStruct_dup_17 itm, int i) {
 }
 
 
@@ -37,10 +44,10 @@ void AddStoreHoldId__FG10ItemStructi_addr_80067B70(struct ItemStruct_dup_6 itm, 
 }
 
 
-// address: 0x80067BE0
-// line start: 1414
-// line end:   1419
-void AddStoreHoldId__FG10ItemStructi_addr_80067BE0(struct ItemStruct_dup_13 itm, int i) {
+// address: 0x800684A4
+// line start: 1351
+// line end:   1356
+void AddStoreHoldId__FG10ItemStructi_addr_800684A4(struct ItemStruct itm, int i) {
 }
 
 
@@ -51,38 +58,10 @@ void AddStoreHoldId__FG10ItemStructi_addr_80067520(struct ItemStruct_dup_11 itm,
 }
 
 
-// address: 0x800684A4
-// line start: 1351
-// line end:   1356
-void AddStoreHoldId__FG10ItemStructi_addr_800684A4(struct ItemStruct itm, int i) {
-}
-
-
-// address: 0x8006695C
-// line start: 1039
-// line end:   1048
-void AddStoreHoldRecharge__FG10ItemStructi(struct ItemStruct_dup_6 itm, int i) {
-}
-
-
-// address: 0x800662CC
-// line start: 1078
-// line end:   1087
-void AddStoreHoldRecharge__FG10ItemStructi_addr_800662CC(struct ItemStruct_dup_11 itm, int i) {
-}
-
-
 // address: 0x8006CF98
 // line start: 1397
 // line end:   1406
-void AddStoreHoldRecharge__FG10ItemStructi_addr_8006CF98(struct ItemStruct_dup_17 itm, int i) {
-}
-
-
-// address: 0x80066964
-// line start: 1080
-// line end:   1089
-void AddStoreHoldRecharge__FG10ItemStructi_addr_80066964(struct ItemStruct_dup_13 itm, int i) {
+void AddStoreHoldRecharge__FG10ItemStructi(struct ItemStruct_dup_17 itm, int i) {
 }
 
 
@@ -93,37 +72,31 @@ void AddStoreHoldRecharge__FG10ItemStructi_addr_800672C4(struct ItemStruct itm, 
 }
 
 
-// address: 0x80064FD4
-// line start: 791
-// line end:   812
-void AddStoreHoldRepair__FP10ItemStructi(struct ItemStruct_dup_11 *itm, int i) {
-	// register: 4
-	register int v;
+// address: 0x8006695C
+// line start: 1039
+// line end:   1048
+void AddStoreHoldRecharge__FG10ItemStructi_addr_8006695C(struct ItemStruct_dup_6 itm, int i) {
 }
 
 
-// address: 0x80065690
-// line start: 760
-// line end:   781
-void AddStoreHoldRepair__FP10ItemStructi_addr_80065690(struct ItemStruct_dup_6 *itm, int i) {
-	// register: 4
-	register int v;
+// address: 0x80066964
+// line start: 1080
+// line end:   1089
+void AddStoreHoldRecharge__FG10ItemStructi_addr_80066964(struct ItemStruct_dup_13 itm, int i) {
+}
+
+
+// address: 0x800662CC
+// line start: 1078
+// line end:   1087
+void AddStoreHoldRecharge__FG10ItemStructi_addr_800662CC(struct ItemStruct_dup_11 itm, int i) {
 }
 
 
 // address: 0x8006B8CC
 // line start: 1023
 // line end:   1044
-void AddStoreHoldRepair__FP10ItemStructi_addr_8006B8CC(struct ItemStruct_dup_17 *itm, int i) {
-	// register: 4
-	register int v;
-}
-
-
-// address: 0x8006566C
-// line start: 793
-// line end:   814
-void AddStoreHoldRepair__FP10ItemStructi_addr_8006566C(struct ItemStruct_dup_13 *itm, int i) {
+void AddStoreHoldRepair__FP10ItemStructi(struct ItemStruct_dup_17 *itm, int i) {
 	// register: 4
 	register int v;
 }
@@ -138,6 +111,33 @@ void AddStoreHoldRepair__FP10ItemStructi_addr_8006600C(struct ItemStruct *itm, i
 }
 
 
+// address: 0x8006566C
+// line start: 793
+// line end:   814
+void AddStoreHoldRepair__FP10ItemStructi_addr_8006566C(struct ItemStruct_dup_13 *itm, int i) {
+	// register: 4
+	register int v;
+}
+
+
+// address: 0x80064FD4
+// line start: 791
+// line end:   812
+void AddStoreHoldRepair__FP10ItemStructi_addr_80064FD4(struct ItemStruct_dup_11 *itm, int i) {
+	// register: 4
+	register int v;
+}
+
+
+// address: 0x80065690
+// line start: 760
+// line end:   781
+void AddStoreHoldRepair__FP10ItemStructi_addr_80065690(struct ItemStruct_dup_6 *itm, int i) {
+	// register: 4
+	register int v;
+}
+
+
 // address: 0x8006C48C
 // line start: 2586
 // line end:   2597
@@ -145,13 +145,13 @@ void BoyBuyItem__Fv() {
 }
 
 
-// address: 0x80073F08
-// line start: 3682
-// line end:   3775
+// address: 0x8006D80C
+// line start: 3042
+// line end:   3124
 void CheckStoreBtn__Fv() {
 	// register: 16
-	// size: 0xEC
-	register struct CPad_dup_17 *Pad;
+	// size: 0x6C
+	register struct CPad *Pad;
 }
 
 
@@ -175,13 +175,13 @@ void CheckStoreBtn__Fv_addr_80073E38() {
 }
 
 
-// address: 0x8006D80C
-// line start: 3042
-// line end:   3124
-void CheckStoreBtn__Fv_addr_8006D80C() {
+// address: 0x80073F08
+// line start: 3682
+// line end:   3775
+void CheckStoreBtn__Fv_addr_80073F08() {
 	// register: 16
-	// size: 0x6C
-	register struct CPad *Pad;
+	// size: 0xEC
+	register struct CPad_dup_17 *Pad;
 }
 
 
@@ -268,13 +268,13 @@ void DrawStoreArrows__Fv() {
 }
 
 
-// address: 0x8006926C
+// address: 0x80069330
 // line start: 194
 // line end:   242
-void DrawStoreArrows__Fv_addr_8006926C() {
+void DrawStoreArrows__Fv_addr_80069330() {
 	// register: 16
 	// size: 0x70
-	register struct TextDat_dup_18 *PanelGfx;
+	register struct TextDat_dup_17 *PanelGfx;
 	// register: 6
 	// size: 0x28
 	register struct POLY_FT4 *Ft4;
@@ -285,13 +285,13 @@ void DrawStoreArrows__Fv_addr_8006926C() {
 }
 
 
-// address: 0x80069330
+// address: 0x8006926C
 // line start: 194
 // line end:   242
-void DrawStoreArrows__Fv_addr_80069330() {
+void DrawStoreArrows__Fv_addr_8006926C() {
 	// register: 16
 	// size: 0x70
-	register struct TextDat_dup_17 *PanelGfx;
+	register struct TextDat_dup_18 *PanelGfx;
 	// register: 6
 	// size: 0x28
 	register struct POLY_FT4 *Ft4;
@@ -325,10 +325,24 @@ void HealerBuyItem__Fv() {
 }
 
 
+// address: 0x80067B3C
+// line start: 1339
+// line end:   1343
+unsigned char IdItemOk__FP10ItemStruct(struct ItemStruct_dup_6 *i) {
+}
+
+
 // address: 0x800674EC
 // line start: 1386
 // line end:   1390
-unsigned char IdItemOk__FP10ItemStruct(struct ItemStruct_dup_11 *i) {
+unsigned char IdItemOk__FP10ItemStruct_addr_800674EC(struct ItemStruct_dup_11 *i) {
+}
+
+
+// address: 0x80068470
+// line start: 1339
+// line end:   1343
+unsigned char IdItemOk__FP10ItemStruct_addr_80068470(struct ItemStruct *i) {
 }
 
 
@@ -343,20 +357,6 @@ unsigned char IdItemOk__FP10ItemStruct_addr_8006E3F4(struct ItemStruct_dup_17 *i
 // line start: 1402
 // line end:   1406
 unsigned char IdItemOk__FP10ItemStruct_addr_80067BAC(struct ItemStruct_dup_13 *i) {
-}
-
-
-// address: 0x80067B3C
-// line start: 1339
-// line end:   1343
-unsigned char IdItemOk__FP10ItemStruct_addr_80067B3C(struct ItemStruct_dup_6 *i) {
-}
-
-
-// address: 0x80068470
-// line start: 1339
-// line end:   1343
-unsigned char IdItemOk__FP10ItemStruct_addr_80068470(struct ItemStruct *i) {
 }
 
 
@@ -392,10 +392,506 @@ void PlaceStoreGold__Fl(long v) {
 }
 
 
+// address: 0x80062E28
+// line start: 175
+// line end:   250
+void PrintSString__FiiUcPcci(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012B814
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800640A4
+// line start: 167
+// line end:   234
+void PrintSString__FiiUcPcci_addr_800640A4(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// address: 0xFFFFFFD0
+	auto int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8011713C
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80065478
+// line start: 177
+// line end:   253
+void PrintSString__FiiUcPcci_addr_80065478(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8011CE68
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80069274
+// line start: 247
+// line end:   376
+void PrintSString__FiiUcPcci_addr_80069274(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 16
+	register int yy;
+	// address: 0xFFFFFFA8
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 19
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8011BD0C
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80062F3C
+// line start: 175
+// line end:   250
+void PrintSString__FiiUcPcci_addr_80062F3C(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012BB20
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80063720
+// line start: 167
+// line end:   234
+void PrintSString__FiiUcPcci_addr_80063720(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// address: 0xFFFFFFD0
+	auto int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8011726C
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80069324
+// line start: 247
+// line end:   376
+void PrintSString__FiiUcPcci_addr_80069324(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 16
+	register int yy;
+	// address: 0xFFFFFFA8
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 19
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8011BCBC
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80063460
+// line start: 175
+// line end:   250
+void PrintSString__FiiUcPcci_addr_80063460(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012B508
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800693EC
+// line start: 247
+// line end:   376
+void PrintSString__FiiUcPcci_addr_800693EC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 16
+	register int yy;
+	// address: 0xFFFFFFA8
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 19
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8011BBF4
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800630DC
+// line start: 177
+// line end:   252
+void PrintSString__FiiUcPcci_addr_800630DC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012C92C
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800616E8
+// line start: 177
+// line end:   253
+void PrintSString__FiiUcPcci_addr_800616E8(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012A5AC
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80062ACC
+// line start: 167
+// line end:   234
+void PrintSString__FiiUcPcci_addr_80062ACC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// address: 0xFFFFFFD0
+	auto int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x801158E4
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800630D0
+// line start: 177
+// line end:   252
+void PrintSString__FiiUcPcci_addr_800630D0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012CA58
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800637F0
+// line start: 177
+// line end:   253
+void PrintSString__FiiUcPcci_addr_800637F0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012DBE8
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80066CBC
+// line start: 167
+// line end:   234
+void PrintSString__FiiUcPcci_addr_80066CBC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// address: 0xFFFFFFD0
+	auto int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x80120DD8
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x8006344C
+// line start: 175
+// line end:   250
+void PrintSString__FiiUcPcci_addr_8006344C(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x80119580
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80065644
+// line start: 177
+// line end:   253
+void PrintSString__FiiUcPcci_addr_80065644(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x801230B4
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80063690
+// line start: 167
+// line end:   234
+void PrintSString__FiiUcPcci_addr_80063690(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// address: 0xFFFFFFD0
+	auto int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x80118128
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800635C0
+// line start: 175
+// line end:   250
+void PrintSString__FiiUcPcci_addr_800635C0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8012BA38
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x80063468
+// line start: 167
+// line end:   234
+void PrintSString__FiiUcPcci_addr_80063468(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// address: 0xFFFFFFD0
+	auto int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x80118D9C
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800694B0
+// line start: 247
+// line end:   376
+void PrintSString__FiiUcPcci_addr_800694B0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 16
+	register int yy;
+	// address: 0xFFFFFFA8
+	// size: 0x20
+	auto char valstr[32];
+	// register: 30
+	register int SpinnerY;
+	// register: 19
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x8011BCFC
+	static unsigned char DaveFix;
+}
+
+
 // address: 0x800640D4
 // line start: 167
 // line end:   234
-void PrintSString__FiiUcPcci(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+void PrintSString__FiiUcPcci_addr_800640D4(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
 	// register: 21
 	register int xx;
 	// register: 19
@@ -412,6 +908,30 @@ void PrintSString__FiiUcPcci(int x, int y, unsigned char cjustflag, char *str, i
 	// register: 17
 	register unsigned char B;
 	// address: 0x80117A78
+	static unsigned char DaveFix;
+}
+
+
+// address: 0x800636FC
+// line start: 167
+// line end:   234
+void PrintSString__FiiUcPcci_addr_800636FC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
+	// register: 21
+	register int xx;
+	// register: 19
+	register int yy;
+	// address: 0xFFFFFFB0
+	// size: 0x20
+	auto char valstr[32];
+	// address: 0xFFFFFFD0
+	auto int SpinnerY;
+	// register: 20
+	register unsigned char R;
+	// register: 18
+	register unsigned char G;
+	// register: 17
+	register unsigned char B;
+	// address: 0x80117728
 	static unsigned char DaveFix;
 }
 
@@ -464,194 +984,6 @@ void PrintSString__FiiUcPcci_addr_80062F24(int x, int y, unsigned char cjustflag
 }
 
 
-// address: 0x80069324
-// line start: 247
-// line end:   376
-void PrintSString__FiiUcPcci_addr_80069324(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 16
-	register int yy;
-	// address: 0xFFFFFFA8
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 19
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8011BCBC
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800640A4
-// line start: 167
-// line end:   234
-void PrintSString__FiiUcPcci_addr_800640A4(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// address: 0xFFFFFFD0
-	auto int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8011713C
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80062F3C
-// line start: 175
-// line end:   250
-void PrintSString__FiiUcPcci_addr_80062F3C(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012BB20
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80063468
-// line start: 167
-// line end:   234
-void PrintSString__FiiUcPcci_addr_80063468(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// address: 0xFFFFFFD0
-	auto int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x80118D9C
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80065644
-// line start: 177
-// line end:   253
-void PrintSString__FiiUcPcci_addr_80065644(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x801230B4
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800694B0
-// line start: 247
-// line end:   376
-void PrintSString__FiiUcPcci_addr_800694B0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 16
-	register int yy;
-	// address: 0xFFFFFFA8
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 19
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8011BCFC
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800637F0
-// line start: 177
-// line end:   253
-void PrintSString__FiiUcPcci_addr_800637F0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012DBE8
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800635C0
-// line start: 175
-// line end:   250
-void PrintSString__FiiUcPcci_addr_800635C0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012BA38
-	static unsigned char DaveFix;
-}
-
-
 // address: 0x800629C0
 // line start: 167
 // line end:   234
@@ -672,244 +1004,6 @@ void PrintSString__FiiUcPcci_addr_800629C0(int x, int y, unsigned char cjustflag
 	// register: 17
 	register unsigned char B;
 	// address: 0x80114294
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800636FC
-// line start: 167
-// line end:   234
-void PrintSString__FiiUcPcci_addr_800636FC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// address: 0xFFFFFFD0
-	auto int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x80117728
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x8006344C
-// line start: 175
-// line end:   250
-void PrintSString__FiiUcPcci_addr_8006344C(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x80119580
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80063720
-// line start: 167
-// line end:   234
-void PrintSString__FiiUcPcci_addr_80063720(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// address: 0xFFFFFFD0
-	auto int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8011726C
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80063460
-// line start: 175
-// line end:   250
-void PrintSString__FiiUcPcci_addr_80063460(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012B508
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80065478
-// line start: 177
-// line end:   253
-void PrintSString__FiiUcPcci_addr_80065478(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8011CE68
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800693EC
-// line start: 247
-// line end:   376
-void PrintSString__FiiUcPcci_addr_800693EC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 16
-	register int yy;
-	// address: 0xFFFFFFA8
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 19
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8011BBF4
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80066CBC
-// line start: 167
-// line end:   234
-void PrintSString__FiiUcPcci_addr_80066CBC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// address: 0xFFFFFFD0
-	auto int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x80120DD8
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80062ACC
-// line start: 167
-// line end:   234
-void PrintSString__FiiUcPcci_addr_80062ACC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// address: 0xFFFFFFD0
-	auto int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x801158E4
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800630DC
-// line start: 177
-// line end:   252
-void PrintSString__FiiUcPcci_addr_800630DC(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012C92C
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80063690
-// line start: 167
-// line end:   234
-void PrintSString__FiiUcPcci_addr_80063690(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// address: 0xFFFFFFD0
-	auto int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x80118128
 	static unsigned char DaveFix;
 }
 
@@ -938,104 +1032,10 @@ void PrintSString__FiiUcPcci_addr_800635D4(int x, int y, unsigned char cjustflag
 }
 
 
-// address: 0x800616E8
-// line start: 177
-// line end:   253
-void PrintSString__FiiUcPcci_addr_800616E8(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012A5AC
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80062E28
-// line start: 175
-// line end:   250
-void PrintSString__FiiUcPcci_addr_80062E28(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012B814
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80069274
-// line start: 247
-// line end:   376
-void PrintSString__FiiUcPcci_addr_80069274(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 16
-	register int yy;
-	// address: 0xFFFFFFA8
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 19
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8011BD0C
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x800630D0
-// line start: 177
-// line end:   252
-void PrintSString__FiiUcPcci_addr_800630D0(int x, int y, unsigned char cjustflag, char *str, int col, int val) {
-	// register: 21
-	register int xx;
-	// register: 19
-	register int yy;
-	// address: 0xFFFFFFB0
-	// size: 0x20
-	auto char valstr[32];
-	// register: 30
-	register int SpinnerY;
-	// register: 20
-	register unsigned char R;
-	// register: 18
-	register unsigned char G;
-	// register: 17
-	register unsigned char B;
-	// address: 0x8012CA58
-	static unsigned char DaveFix;
-}
-
-
-// address: 0x80063CE4
+// address: 0x8006468C
 // line start: 308
 // line end:   383
-void PrintStoreItem__FPC10ItemStructic(struct ItemStruct_dup_6 *x, int l, char iclr) {
+void PrintStoreItem__FPC10ItemStructic(struct ItemStruct *x, int l, char iclr) {
 	// address: 0xFFFFFF60
 	// size: 0x80
 	auto char sstr[128];
@@ -1054,6 +1054,16 @@ void PrintStoreItem__FPC10ItemStructic_addr_8006356C(struct ItemStruct_dup_11 *x
 }
 
 
+// address: 0x80063CE4
+// line start: 308
+// line end:   383
+void PrintStoreItem__FPC10ItemStructic_addr_80063CE4(struct ItemStruct_dup_6 *x, int l, char iclr) {
+	// address: 0xFFFFFF60
+	// size: 0x80
+	auto char sstr[128];
+}
+
+
 // address: 0x80069BE0
 // line start: 456
 // line end:   597
@@ -1066,10 +1076,10 @@ void PrintStoreItem__FPC10ItemStructic_addr_80069BE0(struct ItemStruct_dup_17 *x
 }
 
 
-// address: 0x80063A7C
-// line start: 324
-// line end:   416
-void PrintStoreItem__FPC10ItemStructic_addr_80063A7C(struct ItemStruct *x, int l, char iclr) {
+// address: 0x80063C04
+// line start: 326
+// line end:   418
+void PrintStoreItem__FPC10ItemStructic_addr_80063C04(struct ItemStruct_dup_13 *x, int l, char iclr) {
 	// address: 0xFFFFFF58
 	// size: 0x80
 	auto char sstr[128];
@@ -1078,20 +1088,10 @@ void PrintStoreItem__FPC10ItemStructic_addr_80063A7C(struct ItemStruct *x, int l
 }
 
 
-// address: 0x8006468C
-// line start: 308
-// line end:   383
-void PrintStoreItem__FPC10ItemStructic_addr_8006468C(struct ItemStruct *x, int l, char iclr) {
-	// address: 0xFFFFFF60
-	// size: 0x80
-	auto char sstr[128];
-}
-
-
-// address: 0x80063C04
-// line start: 326
-// line end:   418
-void PrintStoreItem__FPC10ItemStructic_addr_80063C04(struct ItemStruct_dup_13 *x, int l, char iclr) {
+// address: 0x80063A7C
+// line start: 324
+// line end:   416
+void PrintStoreItem__FPC10ItemStructic_addr_80063A7C(struct ItemStruct *x, int l, char iclr) {
 	// address: 0xFFFFFF58
 	// size: 0x80
 	auto char sstr[128];
@@ -1187,11 +1187,11 @@ void S_HBuyEnter__Fv() {
 }
 
 
-// address: 0x8006CE94
-// line start: 2787
-// line end:   2816
-void S_HBuyEnter__Fv_addr_8006CE94() {
-	// register: 3
+// address: 0x80073594
+// line start: 3413
+// line end:   3445
+void S_HBuyEnter__Fv_addr_80073594() {
+	// register: 9
 	register int idx;
 	// register: 16
 	register int i;
@@ -1200,11 +1200,11 @@ void S_HBuyEnter__Fv_addr_8006CE94() {
 }
 
 
-// address: 0x80073594
-// line start: 3413
-// line end:   3445
-void S_HBuyEnter__Fv_addr_80073594() {
-	// register: 9
+// address: 0x8006CE94
+// line start: 2787
+// line end:   2816
+void S_HBuyEnter__Fv_addr_8006CE94() {
+	// register: 3
 	register int idx;
 	// register: 16
 	register int i;
@@ -1268,18 +1268,18 @@ void S_SIDEnter__Fv() {
 }
 
 
-// address: 0x8006ABFC
-// line start: 2140
-// line end:   2177
+// address: 0x80070F1C
+// line start: 2682
+// line end:   2722
 void S_SPBuyEnter__Fv() {
-	// register: 6
+	// register: 9
 	register int idx;
 	// register: 16
 	register int i;
 	// register: 3
 	register unsigned char done;
 	{
-		// register: 5
+		// register: 4
 		register int xx;
 	}
 }
@@ -1302,18 +1302,18 @@ void S_SPBuyEnter__Fv_addr_8006A1D4() {
 }
 
 
-// address: 0x80070F1C
-// line start: 2682
-// line end:   2722
-void S_SPBuyEnter__Fv_addr_80070F1C() {
-	// register: 9
+// address: 0x8006ABFC
+// line start: 2140
+// line end:   2177
+void S_SPBuyEnter__Fv_addr_8006ABFC() {
+	// register: 6
 	register int idx;
 	// register: 16
 	register int i;
 	// register: 3
 	register unsigned char done;
 	{
-		// register: 4
+		// register: 5
 		register int xx;
 	}
 }
@@ -1355,10 +1355,19 @@ void S_SSellEnter__Fv_addr_8006AC14() {
 }
 
 
+// address: 0x80068100
+// line start: 1273
+// line end:   1295
+void S_ScrollHBuy__Fi(int idx) {
+	// register: 19
+	register int l;
+}
+
+
 // address: 0x8006DFE4
 // line start: 1683
 // line end:   1710
-void S_ScrollHBuy__Fi(int idx) {
+void S_ScrollHBuy__Fi_addr_8006DFE4(int idx) {
 	// register: 19
 	register int l;
 	{
@@ -1374,32 +1383,10 @@ void S_ScrollHBuy__Fi(int idx) {
 }
 
 
-// address: 0x80068100
-// line start: 1273
-// line end:   1295
-void S_ScrollHBuy__Fi_addr_80068100(int idx) {
-	// register: 19
-	register int l;
-}
-
-
-// address: 0x8006A8B8
-// line start: 692
-// line end:   718
-void S_ScrollSBuy__Fi(int idx) {
-	// register: 17
-	register int l;
-	// register: 20
-	register int ls;
-	// register: 16
-	register char iclr;
-}
-
-
 // address: 0x80065274
 // line start: 476
 // line end:   503
-void S_ScrollSBuy__Fi_addr_80065274(int idx) {
+void S_ScrollSBuy__Fi(int idx) {
 	// register: 17
 	register int l;
 	// register: 20
@@ -1409,10 +1396,49 @@ void S_ScrollSBuy__Fi_addr_80065274(int idx) {
 }
 
 
+// address: 0x8006A8B8
+// line start: 692
+// line end:   718
+void S_ScrollSBuy__Fi_addr_8006A8B8(int idx) {
+	// register: 17
+	register int l;
+	// register: 20
+	register int ls;
+	// register: 16
+	register char iclr;
+}
+
+
+// address: 0x80065550
+// line start: 533
+// line end:   592
+void S_ScrollSPBuy__Fi(int idx) {
+	// register: 19
+	register int l;
+	// register: 17
+	register char iclr;
+	// register: 3
+	register int boughtitems;
+}
+
+
+// address: 0x80063E58
+// line start: 533
+// line end:   592
+void S_ScrollSPBuy__Fi_addr_80063E58(int idx) {
+	// register: 18
+	register int l;
+	// register: 17
+	register char iclr;
+	// register: 3
+	register int boughtitems;
+}
+
+
 // address: 0x80064994
 // line start: 566
 // line end:   607
-void S_ScrollSPBuy__Fi(int idx) {
+void S_ScrollSPBuy__Fi_addr_80064994(int idx) {
 	// register: 17
 	register int l;
 	// register: 22
@@ -1431,19 +1457,6 @@ void S_ScrollSPBuy__Fi(int idx) {
 			}
 		}
 	}
-}
-
-
-// address: 0x80063E58
-// line start: 533
-// line end:   592
-void S_ScrollSPBuy__Fi_addr_80063E58(int idx) {
-	// register: 18
-	register int l;
-	// register: 17
-	register char iclr;
-	// register: 3
-	register int boughtitems;
 }
 
 
@@ -1470,23 +1483,35 @@ void S_ScrollSPBuy__Fi_addr_8006AC90(int idx) {
 }
 
 
-// address: 0x80065550
-// line start: 533
-// line end:   592
-void S_ScrollSPBuy__Fi_addr_80065550(int idx) {
+// address: 0x80064DE8
+// line start: 666
+// line end:   718
+void S_ScrollSSell__Fi(int idx) {
 	// register: 19
 	register int l;
-	// register: 17
+	// register: 23
+	register int ls;
+	// register: 20
+	register int v;
+	// register: 18
 	register char iclr;
-	// register: 3
-	register int boughtitems;
+	{
+		{
+			{
+				{
+					// register: 17
+					register char *StrPtr;
+				}
+			}
+		}
+	}
 }
 
 
 // address: 0x8006B198
 // line start: 879
 // line end:   950
-void S_ScrollSSell__Fi(int idx) {
+void S_ScrollSSell__Fi_addr_8006B198(int idx) {
 	// register: 20
 	register int l;
 	// register: 23
@@ -1502,31 +1527,6 @@ void S_ScrollSSell__Fi(int idx) {
 			{
 				{
 					// register: 18
-					register char *StrPtr;
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x80064DE8
-// line start: 666
-// line end:   718
-void S_ScrollSSell__Fi_addr_80064DE8(int idx) {
-	// register: 19
-	register int l;
-	// register: 23
-	register int ls;
-	// register: 20
-	register int v;
-	// register: 18
-	register char iclr;
-	{
-		{
-			{
-				{
-					// register: 17
 					register char *StrPtr;
 				}
 			}
@@ -1563,6 +1563,29 @@ void S_ScrollWBuy__Fi(int idx) {
 }
 
 
+// address: 0x80065CD4
+// line start: 902
+// line end:   939
+void S_ScrollWBuy__Fi_addr_80065CD4(int idx) {
+	// register: 19
+	register int l;
+	// register: 21
+	register int ls;
+	// register: 18
+	register char iclr;
+	{
+		{
+			{
+				{
+					// register: 17
+					register char *StrPtr;
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x8006C1B0
 // line start: 1172
 // line end:   1222
@@ -1588,29 +1611,6 @@ void S_ScrollWBuy__Fi_addr_8006C1B0(int idx) {
 }
 
 
-// address: 0x80065CD4
-// line start: 902
-// line end:   939
-void S_ScrollWBuy__Fi_addr_80065CD4(int idx) {
-	// register: 19
-	register int l;
-	// register: 21
-	register int ls;
-	// register: 18
-	register char iclr;
-	{
-		{
-			{
-				{
-					// register: 17
-					register char *StrPtr;
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x8006A07C
 // line start: 1876
 // line end:   1898
@@ -1618,10 +1618,19 @@ void S_SmithEnter__Fv() {
 }
 
 
+// address: 0x80067DE0
+// line start: 1215
+// line end:   1239
+void S_StartBBoy__Fv() {
+	// register: 17
+	register int iclr;
+}
+
+
 // address: 0x8006DBDC
 // line start: 1614
 // line end:   1648
-void S_StartBBoy__Fv() {
+void S_StartBBoy__Fv_addr_8006DBDC() {
 	// register: 16
 	register int iclr;
 	// register: 17
@@ -1637,15 +1646,6 @@ void S_StartBBoy__Fv_addr_80066D00() {
 	register int iclr;
 	// register: 16
 	register char *StrPtr;
-}
-
-
-// address: 0x80067DE0
-// line start: 1215
-// line end:   1239
-void S_StartBBoy__Fv_addr_80067DE0() {
-	// register: 17
-	register int iclr;
 }
 
 
@@ -1674,19 +1674,6 @@ void S_StartConfirm__Fv() {
 }
 
 
-// address: 0x8006D6CC
-// line start: 1506
-// line end:   1583
-void S_StartConfirm__Fv_addr_8006D6CC() {
-	// register: 16
-	register char iclr;
-	// register: 3
-	register unsigned char idprint;
-	// register: 17
-	register char *StrPtr;
-}
-
-
 // address: 0x80066AC8
 // line start: 1168
 // line end:   1240
@@ -1696,6 +1683,19 @@ void S_StartConfirm__Fv_addr_80066AC8() {
 	// register: 3
 	register unsigned char idprint;
 	// register: 16
+	register char *StrPtr;
+}
+
+
+// address: 0x8006D6CC
+// line start: 1506
+// line end:   1583
+void S_StartConfirm__Fv_addr_8006D6CC() {
+	// register: 16
+	register char iclr;
+	// register: 3
+	register unsigned char idprint;
+	// register: 17
 	register char *StrPtr;
 }
 
@@ -2065,23 +2065,10 @@ void SmithBuyItem__Fv_addr_80070874() {
 }
 
 
-// address: 0x80070D58
-// line start: 2649
-// line end:   2675
-void SmithBuyPItem__Fv() {
-	// register: 6
-	register int idx;
-	// register: 5
-	register int i;
-	// register: 4
-	register int xx;
-}
-
-
 // address: 0x8006AA7C
 // line start: 2108
 // line end:   2133
-void SmithBuyPItem__Fv_addr_8006AA7C() {
+void SmithBuyPItem__Fv() {
 	// register: 6
 	register int idx;
 	// register: 5
@@ -2091,11 +2078,35 @@ void SmithBuyPItem__Fv_addr_8006AA7C() {
 }
 
 
-// address: 0x80071B34
-// line start: 2889
-// line end:   2907
-void SmithRepairItem__Fv() {
+// address: 0x80070D58
+// line start: 2649
+// line end:   2675
+void SmithBuyPItem__Fv_addr_80070D58() {
+	// register: 6
+	register int idx;
+	// register: 5
+	register int i;
 	// register: 4
+	register int xx;
+}
+
+
+// address: 0x80069D00
+// line start: 2340
+// line end:   2357
+void SmithRepairItem__Fv() {
+	// register: 5
+	register int i;
+	// register: 3
+	register int idx;
+}
+
+
+// address: 0x8006AD18
+// line start: 2400
+// line end:   2418
+void SmithRepairItem__Fv_addr_8006AD18() {
+	// register: 5
 	register int i;
 	// register: 4
 	register int idx;
@@ -2113,22 +2124,11 @@ void SmithRepairItem__Fv_addr_8006B750() {
 }
 
 
-// address: 0x80069D00
-// line start: 2340
-// line end:   2357
-void SmithRepairItem__Fv_addr_80069D00() {
-	// register: 5
-	register int i;
-	// register: 3
-	register int idx;
-}
-
-
-// address: 0x8006AD18
-// line start: 2400
-// line end:   2418
-void SmithRepairItem__Fv_addr_8006AD18() {
-	// register: 5
+// address: 0x80071B34
+// line start: 2889
+// line end:   2907
+void SmithRepairItem__Fv_addr_80071B34() {
+	// register: 4
 	register int i;
 	// register: 4
 	register int idx;
@@ -2235,22 +2235,22 @@ void StoreSellItem__Fv() {
 }
 
 
-// address: 0x8006C998
-// line start: 2693
-// line end:   2715
+// address: 0x8006AE34
+// line start: 2698
+// line end:   2720
 void StoryIdItem__Fv() {
-	// register: 4
+	// register: 5
 	register int i;
 	// register: 2
 	register int idx;
 }
 
 
-// address: 0x8006AE34
-// line start: 2698
-// line end:   2720
-void StoryIdItem__Fv_addr_8006AE34() {
-	// register: 5
+// address: 0x8006C998
+// line start: 2693
+// line end:   2715
+void StoryIdItem__Fv_addr_8006C998() {
+	// register: 4
 	register int i;
 	// register: 2
 	register int idx;
@@ -2275,24 +2275,24 @@ void WitchBuyItem__Fv() {
 }
 
 
-// address: 0x8006C098
-// line start: 2506
-// line end:   2520
+// address: 0x8006B684
+// line start: 2575
+// line end:   2590
 void WitchRechargeItem__Fv() {
 	// register: 2
 	register int i;
-	// register: 3
+	// register: 4
 	register int idx;
 }
 
 
-// address: 0x8006B684
-// line start: 2575
-// line end:   2590
-void WitchRechargeItem__Fv_addr_8006B684() {
+// address: 0x8006C098
+// line start: 2506
+// line end:   2520
+void WitchRechargeItem__Fv_addr_8006C098() {
 	// register: 2
 	register int i;
-	// register: 4
+	// register: 3
 	register int idx;
 }
 
@@ -2315,62 +2315,14 @@ unsigned char WitchRechargeOk__Fi_addr_80065A7C(int i) {
 }
 
 
-// address: 0x80065AC8
-// line start: 971
-// line end:   991
+// address: 0x80066AC8
+// line start: 932
+// line end:   952
 unsigned char WitchSellOk__Fi(int i) {
 	// register: 5
 	register unsigned char rv;
 	// register: 3
-	// size: 0x98
-	register struct ItemStruct_dup_11 *pI;
-}
-
-
-// address: 0x80066160
-// line start: 973
-// line end:   993
-unsigned char WitchSellOk__Fi_addr_80066160(int i) {
-	// register: 5
-	register unsigned char rv;
-	// register: 3
-	// size: 0x98
-	register struct ItemStruct_dup_13 *pI;
-}
-
-
-// address: 0x8006C748
-// line start: 1284
-// line end:   1306
-unsigned char WitchSellOk__Fi_addr_8006C748(int i) {
-	// register: 5
-	register unsigned char rv;
-	// register: 4
-	// size: 0x6C
-	register struct ItemStruct_dup_17 *pI;
-}
-
-
-// address: 0x8006615C
-// line start: 932
-// line end:   952
-unsigned char WitchSellOk__Fi_addr_8006615C(int i) {
-	// register: 5
-	register unsigned char rv;
-	// register: 3
-	// size: 0x98
-	register struct ItemStruct_dup_6 *pI;
-}
-
-
-// address: 0x80065EC8
-// line start: 932
-// line end:   952
-unsigned char WitchSellOk__Fi_addr_80065EC8(int i) {
-	// register: 5
-	register unsigned char rv;
-	// register: 3
-	// size: 0x98
+	// size: 0x94
 	register struct ItemStruct *pI;
 }
 
@@ -2387,15 +2339,63 @@ unsigned char WitchSellOk__Fi_addr_8006C678(int i) {
 }
 
 
-// address: 0x80066AC8
+// address: 0x8006615C
 // line start: 932
 // line end:   952
-unsigned char WitchSellOk__Fi_addr_80066AC8(int i) {
+unsigned char WitchSellOk__Fi_addr_8006615C(int i) {
 	// register: 5
 	register unsigned char rv;
 	// register: 3
-	// size: 0x94
+	// size: 0x98
+	register struct ItemStruct_dup_6 *pI;
+}
+
+
+// address: 0x8006C748
+// line start: 1284
+// line end:   1306
+unsigned char WitchSellOk__Fi_addr_8006C748(int i) {
+	// register: 5
+	register unsigned char rv;
+	// register: 4
+	// size: 0x6C
+	register struct ItemStruct_dup_17 *pI;
+}
+
+
+// address: 0x80066160
+// line start: 973
+// line end:   993
+unsigned char WitchSellOk__Fi_addr_80066160(int i) {
+	// register: 5
+	register unsigned char rv;
+	// register: 3
+	// size: 0x98
+	register struct ItemStruct_dup_13 *pI;
+}
+
+
+// address: 0x80065EC8
+// line start: 932
+// line end:   952
+unsigned char WitchSellOk__Fi_addr_80065EC8(int i) {
+	// register: 5
+	register unsigned char rv;
+	// register: 3
+	// size: 0x98
 	register struct ItemStruct *pI;
+}
+
+
+// address: 0x80065AC8
+// line start: 971
+// line end:   991
+unsigned char WitchSellOk__Fi_addr_80065AC8(int i) {
+	// register: 5
+	register unsigned char rv;
+	// register: 3
+	// size: 0x98
+	register struct ItemStruct_dup_11 *pI;
 }
 
 
