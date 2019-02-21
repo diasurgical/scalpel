@@ -2,24 +2,24 @@
 
 #include "types.h"
 
+// address: 0x800476F0
+// line start: 1089
+// line end:   1105
+int AddLight__Fiii(int x, int y, int r) {
+	// register: 7
+	register int lid;
+}
+
+
 // address: 0x80046BD0
 // line start: 1101
 // line end:   1119
-int AddLight__Fiii(int x, int y, int r) {
+int AddLight__Fiii_addr_80046BD0(int x, int y, int r) {
 	// register: 7
 	register int lid;
 	// register: 2
 	// size: 0x8
 	register struct LightListStruct2 *ll;
-}
-
-
-// address: 0x800476F0
-// line start: 1089
-// line end:   1105
-int AddLight__Fiii_addr_800476F0(int x, int y, int r) {
-	// register: 7
-	register int lid;
 }
 
 
@@ -30,10 +30,26 @@ void AddUnLight__Fi(int i) {
 }
 
 
+// address: 0x8004D3B0
+// line start: 1436
+// line end:   1452
+int AddVision__FiiiUc(int x, int y, int r, unsigned char mine) {
+	// register: 8
+	register int vid;
+	{
+		{
+			// register: 2
+			// size: 0xE
+			register struct LightListStruct *vl;
+		}
+	}
+}
+
+
 // address: 0x80046EEC
 // line start: 1342
 // line end:   1358
-int AddVision__FiiiUc(int x, int y, int r, unsigned char mine) {
+int AddVision__FiiiUc_addr_80046EEC(int x, int y, int r, unsigned char mine) {
 	// register: 9
 	register int vid;
 	{
@@ -52,22 +68,6 @@ int AddVision__FiiiUc(int x, int y, int r, unsigned char mine) {
 int AddVision__FiiiUc_addr_80047A50(int x, int y, int r, unsigned char mine) {
 	// register: 8
 	register int vid;
-}
-
-
-// address: 0x8004D3B0
-// line start: 1436
-// line end:   1452
-int AddVision__FiiiUc_addr_8004D3B0(int x, int y, int r, unsigned char mine) {
-	// register: 8
-	register int vid;
-	{
-		{
-			// register: 2
-			// size: 0xE
-			register struct LightListStruct *vl;
-		}
-	}
 }
 
 
@@ -112,37 +112,37 @@ void ChangeLightRadius__Fii(int i, int r) {
 }
 
 
+// address: 0x800477E0
+// line start: 1136
+// line end:   1147
+void ChangeLightXY__Fiii(int i, int x, int y) {
+}
+
+
 // address: 0x80046C98
 // line start: 1151
 // line end:   1163
-void ChangeLightXY__Fiii(int i, int x, int y) {
+void ChangeLightXY__Fiii_addr_80046C98(int i, int x, int y) {
 	// register: 3
 	// size: 0x8
 	register struct LightListStruct2 *ll;
 }
 
 
-// address: 0x800477E0
-// line start: 1136
-// line end:   1147
-void ChangeLightXY__Fiii_addr_800477E0(int i, int x, int y) {
+// address: 0x80046D10
+// line start: 1200
+// line end:   1213
+void ChangeLight__Fiiii(int i, int x, int y, int r) {
+	// register: 2
+	// size: 0x8
+	register struct LightListStruct2 *ll;
 }
 
 
 // address: 0x80047858
 // line start: 1183
 // line end:   1195
-void ChangeLight__Fiiii(int i, int x, int y, int r) {
-}
-
-
-// address: 0x80046D10
-// line start: 1200
-// line end:   1213
-void ChangeLight__Fiiii_addr_80046D10(int i, int x, int y, int r) {
-	// register: 2
-	// size: 0x8
-	register struct LightListStruct2 *ll;
+void ChangeLight__Fiiii_addr_80047858(int i, int x, int y, int r) {
 }
 
 
@@ -282,31 +282,10 @@ void DoLighting__Fiiii_addr_800461A8(int nXPos, int nYPos, int nRadius, int Lnum
 }
 
 
-// address: 0x80046E58
-// line start: 771
-// line end:   819
-void DoUnLight__Fv() {
-	// register: 6
-	register int x;
-	// register: 7
-	register int y;
-	// register: 11
-	register int max_x;
-	// register: 16
-	register int max_y;
-	// register: 14
-	register int radius_block;
-	// register: 13
-	register int nXPos;
-	// register: 12
-	register int nYPos;
-}
-
-
 // address: 0x80046334
 // line start: 777
 // line end:   831
-void DoUnLight__Fv_addr_80046334() {
+void DoUnLight__Fv() {
 	// register: 9
 	register int x;
 	// register: 3
@@ -356,6 +335,27 @@ void DoUnLight__Fv_addr_8004C8FC() {
 	register int radius_block_x;
 	// register: 25
 	register int radius_block_y;
+}
+
+
+// address: 0x80046E58
+// line start: 771
+// line end:   819
+void DoUnLight__Fv_addr_80046E58() {
+	// register: 6
+	register int x;
+	// register: 7
+	register int y;
+	// register: 11
+	register int max_x;
+	// register: 16
+	register int max_y;
+	// register: 14
+	register int radius_block;
+	// register: 13
+	register int nXPos;
+	// register: 12
+	register int nYPos;
 }
 
 
@@ -449,37 +449,6 @@ void DoVision__FiiiUcUc(int nXPos, int nYPos, int nRadius, unsigned char doautom
 }
 
 
-// address: 0x8004CC48
-// line start: 939
-// line end:   1046
-void DoVision__FiiiUcUc_addr_8004CC48(int nXPos, int nYPos, int nRadius, unsigned char doautomap, int visible) {
-	// register: 18
-	register int nCrawlX;
-	// register: 19
-	register int nCrawlY;
-	// address: 0xFFFFFFA0
-	auto int nLineLen;
-	// register: 6
-	register int nBlockerFlag;
-	// address: 0xFFFFFFA8
-	auto int j;
-	// register: 30
-	register int k;
-	// register: 3
-	register int v;
-	// register: 21
-	register int x1adj;
-	// register: 23
-	register int x2adj;
-	// register: 20
-	register int y1adj;
-	// register: 22
-	register int y2adj;
-	// address: 0xFFFFFFB0
-	auto int vis_flag;
-}
-
-
 // address: 0x800482E8
 // line start: 865
 // line end:   969
@@ -507,6 +476,37 @@ void DoVision__FiiiUcUc_addr_800482E8(int nXPos, int nYPos, int nRadius, unsigne
 	// register: 6
 	register int y2adj;
 	// address: 0xFFFFFFB8
+	auto int vis_flag;
+}
+
+
+// address: 0x8004CC48
+// line start: 939
+// line end:   1046
+void DoVision__FiiiUcUc_addr_8004CC48(int nXPos, int nYPos, int nRadius, unsigned char doautomap, int visible) {
+	// register: 18
+	register int nCrawlX;
+	// register: 19
+	register int nCrawlY;
+	// address: 0xFFFFFFA0
+	auto int nLineLen;
+	// register: 6
+	register int nBlockerFlag;
+	// address: 0xFFFFFFA8
+	auto int j;
+	// register: 30
+	register int k;
+	// register: 3
+	register int v;
+	// register: 21
+	register int x1adj;
+	// register: 23
+	register int x2adj;
+	// register: 20
+	register int y1adj;
+	// register: 22
+	register int y2adj;
+	// address: 0xFFFFFFB0
 	auto int vis_flag;
 }
 
@@ -564,23 +564,10 @@ void MakeLightTable__Fv() {
 }
 
 
-// address: 0x800478CC
-// line start: 1205
-// line end:   1266
-void ProcessLightList__Fv() {
-	// register: 7
-	register int i;
-	// register: 16
-	register int j;
-	// register: 4
-	register unsigned char temp;
-}
-
-
 // address: 0x80046D70
 // line start: 1224
 // line end:   1291
-void ProcessLightList__Fv_addr_80046D70() {
+void ProcessLightList__Fv() {
 	// register: 7
 	register int i;
 	// register: 16
@@ -593,21 +580,23 @@ void ProcessLightList__Fv_addr_80046D70() {
 }
 
 
-// address: 0x80047CC0
-// line start: 1417
-// line end:   1446
-void ProcessVisionList__Fv() {
-	// register: 17
+// address: 0x800478CC
+// line start: 1205
+// line end:   1266
+void ProcessLightList__Fv_addr_800478CC() {
+	// register: 7
 	register int i;
+	// register: 16
+	register int j;
 	// register: 4
-	register unsigned char delflag;
+	register unsigned char temp;
 }
 
 
 // address: 0x8004709C
 // line start: 1444
 // line end:   1491
-void ProcessVisionList__Fv_addr_8004709C() {
+void ProcessVisionList__Fv() {
 	// register: 17
 	register int i;
 	// register: 4
@@ -615,6 +604,17 @@ void ProcessVisionList__Fv_addr_8004709C() {
 	// register: 18
 	// size: 0xE
 	register struct LightListStruct *vl;
+}
+
+
+// address: 0x80047CC0
+// line start: 1417
+// line end:   1446
+void ProcessVisionList__Fv_addr_80047CC0() {
+	// register: 17
+	register int i;
+	// register: 4
+	register unsigned char delflag;
 }
 
 
@@ -657,6 +657,19 @@ void set_light_bands__Fv() {
 }
 
 
+// address: 0x8004BAD8
+// line start: 390
+// line end:   412
+void set_light_bands__Fv_addr_8004BAD8() {
+	// register: 3
+	register int v;
+	// register: 5
+	register int y;
+	// register: 4
+	register unsigned char *l;
+}
+
+
 // address: 0x8004559C
 // line start: 380
 // line end:   405
@@ -669,19 +682,6 @@ void set_light_bands__Fv_addr_8004559C() {
 	register int c;
 	// register: 3
 	register unsigned char *mt;
-}
-
-
-// address: 0x8004BAD8
-// line start: 390
-// line end:   412
-void set_light_bands__Fv_addr_8004BAD8() {
-	// register: 3
-	register int v;
-	// register: 5
-	register int y;
-	// register: 4
-	register unsigned char *l;
 }
 
 

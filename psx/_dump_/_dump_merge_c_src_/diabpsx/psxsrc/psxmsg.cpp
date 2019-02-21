@@ -16,17 +16,10 @@ void GoForwardLevel__Fv() {
 }
 
 
-// address: 0x8008B24C
-// line start: 295
-// line end:   310
-void GoLoadGame__Fv() {
-}
-
-
 // address: 0x80096E6C
 // line start: 491
 // line end:   542
-void GoLoadGame__Fv_addr_80096E6C() {
+void GoLoadGame__Fv() {
 	{
 		// register: 6
 		register int p;
@@ -41,6 +34,13 @@ void GoLoadGame__Fv_addr_80096E6C() {
 			}
 		}
 	}
+}
+
+
+// address: 0x8008B24C
+// line start: 295
+// line end:   310
+void GoLoadGame__Fv_addr_8008B24C() {
 }
 
 
@@ -122,19 +122,19 @@ void PostGoForwardLevel__Fv() {
 }
 
 
-// address: 0x80096DF4
-// line start: 475
-// line end:   487
-void PostLoadGame__Fv() {
-}
-
-
 // address: 0x8008B1B0
 // line start: 285
 // line end:   291
-void PostLoadGame__Fv_addr_8008B1B0() {
+void PostLoadGame__Fv() {
 	// register: 16
 	register int palnum;
+}
+
+
+// address: 0x80096DF4
+// line start: 475
+// line end:   487
+void PostLoadGame__Fv_addr_80096DF4() {
 }
 
 

@@ -94,21 +94,21 @@ bool BL_FileExists__FPcc(char *Name, char LumpID) {
 }
 
 
-// address: 0x800879AC
-// line start: 475
-// line end:   493
+// address: 0x800809D8
+// line start: 398
+// line end:   404
 int BL_FileLength__FPcc(char *Name, char LumpID) {
-	// register: 2
+	// register: 3
 	// size: 0x14
 	register struct STRHDR *ptr;
 }
 
 
-// address: 0x800809D8
-// line start: 398
-// line end:   404
-int BL_FileLength__FPcc_addr_800809D8(char *Name, char LumpID) {
-	// register: 3
+// address: 0x800879AC
+// line start: 475
+// line end:   493
+int BL_FileLength__FPcc_addr_800879AC(char *Name, char LumpID) {
+	// register: 2
 	// size: 0x14
 	register struct STRHDR *ptr;
 }
@@ -207,27 +207,10 @@ void BL_InitEAC__Fv() {
 }
 
 
-// address: 0x80082004
-// line start: 230
-// line end:   264
-void BL_LoadDirectory__Fv() {
-	// register: 18
-	register long BL_DirMHandle;
-	// register: 16
-	register char *AsyncAddr;
-	// register: 16
-	register unsigned char *BL_DirPtr;
-	// register: 17
-	register unsigned long DirId;
-	// register: 2
-	register unsigned long DirId2;
-}
-
-
 // address: 0x800802F4
 // line start: 178
 // line end:   222
-void BL_LoadDirectory__Fv_addr_800802F4() {
+void BL_LoadDirectory__Fv() {
 	// register: 18
 	register long BL_DirMHandle;
 	// register: 16
@@ -240,6 +223,23 @@ void BL_LoadDirectory__Fv_addr_800802F4() {
 	register unsigned long DirId2;
 	// register: 3
 	register long vm;
+}
+
+
+// address: 0x80082004
+// line start: 230
+// line end:   264
+void BL_LoadDirectory__Fv_addr_80082004() {
+	// register: 18
+	register long BL_DirMHandle;
+	// register: 16
+	register char *AsyncAddr;
+	// register: 16
+	register unsigned char *BL_DirPtr;
+	// register: 17
+	register unsigned long DirId;
+	// register: 2
+	register unsigned long DirId2;
 }
 
 
@@ -258,23 +258,18 @@ bool BL_LoadFileAsync__FPcPUcc(char *Name, unsigned char *Dest, char LumpID) {
 }
 
 
-// address: 0x80082974
-// line start: 585
-// line end:   631
+// address: 0x80087C48
+// line start: 649
+// line end:   699
 long BL_LoadFileAsync__FPcc(char *Name, char LumpID) {
-	// register: 17
+	// register: 18
 	// size: 0x14
 	register struct STRHDR *sh;
-	// register: 2
-	// size: 0x10
-	register struct DEF_ARGS *A;
 	// register: 16
 	register int Size;
 	// register: 16
-	register int ah;
-	// register: 18
 	register long MyHnd;
-	// register: 16
+	// register: 19
 	register unsigned char *LoadAddr;
 }
 
@@ -300,18 +295,23 @@ long BL_LoadFileAsync__FPcc_addr_800822A8(char *Name, char LumpID) {
 }
 
 
-// address: 0x80087C48
-// line start: 649
-// line end:   699
-long BL_LoadFileAsync__FPcc_addr_80087C48(char *Name, char LumpID) {
-	// register: 18
+// address: 0x80082974
+// line start: 585
+// line end:   631
+long BL_LoadFileAsync__FPcc_addr_80082974(char *Name, char LumpID) {
+	// register: 17
 	// size: 0x14
 	register struct STRHDR *sh;
+	// register: 2
+	// size: 0x10
+	register struct DEF_ARGS *A;
 	// register: 16
 	register int Size;
 	// register: 16
+	register int ah;
+	// register: 18
 	register long MyHnd;
-	// register: 19
+	// register: 16
 	register unsigned char *LoadAddr;
 }
 
@@ -378,15 +378,15 @@ void BL_LoadStreamDir__Fv() {
 }
 
 
-// address: 0x800876FC
+// address: 0x80080718
 // size: 0x14
-// line start: 376
-// line end:   397
+// line start: 304
+// line end:   325
 struct STRHDR *BL_MakeFilePosTab__FPUcUl(unsigned char *BL_DirPtr, unsigned long NoStreamFiles) {
-	// register: 17
+	// register: 18
 	// size: 0x14
 	register struct STREAM *DirPtr;
-	// register: 9
+	// register: 16
 	// size: 0x14
 	register struct STRHDR *TFileTab;
 	{
@@ -400,15 +400,15 @@ struct STRHDR *BL_MakeFilePosTab__FPUcUl(unsigned char *BL_DirPtr, unsigned long
 }
 
 
-// address: 0x80080718
+// address: 0x800876FC
 // size: 0x14
-// line start: 304
-// line end:   325
-struct STRHDR *BL_MakeFilePosTab__FPUcUl_addr_80080718(unsigned char *BL_DirPtr, unsigned long NoStreamFiles) {
-	// register: 18
+// line start: 376
+// line end:   397
+struct STRHDR *BL_MakeFilePosTab__FPUcUl_addr_800876FC(unsigned char *BL_DirPtr, unsigned long NoStreamFiles) {
+	// register: 17
 	// size: 0x14
 	register struct STREAM *DirPtr;
-	// register: 16
+	// register: 9
 	// size: 0x14
 	register struct STRHDR *TFileTab;
 	{

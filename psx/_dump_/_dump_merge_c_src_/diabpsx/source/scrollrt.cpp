@@ -18,10 +18,17 @@ void DrawAndBlit__Fv_addr_800691E4() {
 }
 
 
+// address: 0x800626AC
+// line start: 85
+// line end:   304
+void DrawView__Fii(int StartX, int StartY) {
+}
+
+
 // address: 0x80063CC8
 // line start: 85
 // line end:   315
-void DrawView__Fii(int StartX, int StartY) {
+void DrawView__Fii_addr_80063CC8(int StartX, int StartY) {
 	{
 		{
 			// address: 0xFFFFFFF0
@@ -31,13 +38,6 @@ void DrawView__Fii(int StartX, int StartY) {
 			register int len;
 		}
 	}
-}
-
-
-// address: 0x800626AC
-// line start: 85
-// line end:   304
-void DrawView__Fii_addr_800626AC(int StartX, int StartY) {
 }
 
 

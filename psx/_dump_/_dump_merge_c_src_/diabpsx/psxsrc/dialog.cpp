@@ -254,14 +254,14 @@ struct POLY_GT4 *DialogPrint__Fiiiiiiiiii(int Frm, int X, int Y, int SW, int SH,
 }
 
 
-// address: 0x80083200
+// address: 0x80085478
 // size: 0x34
 // line start: 204
 // line end:   385
-struct POLY_GT4 *DialogPrint__Fiiiiiiiiii_addr_80083200(int Frm, int X, int Y, int SW, int SH, int UW, int UH, int UOfs, int VOfs, int Trans) {
+struct POLY_GT4 *DialogPrint__Fiiiiiiiiii_addr_80085478(int Frm, int X, int Y, int SW, int SH, int UW, int UH, int UOfs, int VOfs, int Trans) {
 	// address: 0xFFFFFF78
 	// size: 0xC
-	auto struct FRAME_HDR *Fr;
+	auto struct FRAME_HDR_dup_14 *Fr;
 	// register: 17
 	// size: 0x34
 	register struct POLY_GT4 *GT4;
@@ -438,14 +438,14 @@ struct POLY_GT4 *DialogPrint__Fiiiiiiiiii_addr_80082CA4(int Frm, int X, int Y, i
 }
 
 
-// address: 0x80085478
+// address: 0x80083200
 // size: 0x34
 // line start: 204
 // line end:   385
-struct POLY_GT4 *DialogPrint__Fiiiiiiiiii_addr_80085478(int Frm, int X, int Y, int SW, int SH, int UW, int UH, int UOfs, int VOfs, int Trans) {
+struct POLY_GT4 *DialogPrint__Fiiiiiiiiii_addr_80083200(int Frm, int X, int Y, int SW, int SH, int UW, int UH, int UOfs, int VOfs, int Trans) {
 	// address: 0xFFFFFF78
 	// size: 0xC
-	auto struct FRAME_HDR_dup_14 *Fr;
+	auto struct FRAME_HDR *Fr;
 	// register: 17
 	// size: 0x34
 	register struct POLY_GT4 *GT4;
@@ -573,23 +573,23 @@ struct POLY_G4 *GetDropShadowG4__FUcUcUcUcUcUcUcUcUcUcUcUc(unsigned char r0, uns
 }
 
 
-// address: 0x8008B9B0
-// line start: 499
-// line end:   555
-void GetSizes__6Dialog(struct Dialog *this) {
-	// register: 3
-	// size: 0xC
-	register struct FRAME_HDR_dup_17 *Fr;
-}
-
-
 // address: 0x80083B30
 // line start: 496
 // line end:   552
-void GetSizes__6Dialog_addr_80083B30(struct Dialog *this) {
+void GetSizes__6Dialog(struct Dialog *this) {
 	// register: 3
 	// size: 0xC
 	register struct FRAME_HDR *Fr;
+}
+
+
+// address: 0x8008B9B0
+// line start: 499
+// line end:   555
+void GetSizes__6Dialog_addr_8008B9B0(struct Dialog *this) {
+	// register: 3
+	// size: 0xC
+	register struct FRAME_HDR_dup_17 *Fr;
 }
 
 
@@ -634,10 +634,32 @@ void InitDialog__Fv() {
 }
 
 
+// address: 0x8008CD4C
+// line start: 999
+// line end:   1087
+void Line__6Dialogiii(struct Dialog *this, int DX, int DY, int DW) {
+	// register: 21
+	register int X;
+	// register: 22
+	register int Y;
+	// register: 23
+	register int W;
+	// register: 17
+	register int Bx;
+	// register: 16
+	register int Xr;
+	// register: 16
+	register int Xl;
+	// address: 0xFFFFFFC0
+	// size: 0x8
+	auto struct RECT ClipRect;
+}
+
+
 // address: 0x80084F48
 // line start: 993
 // line end:   1081
-void Line__6Dialogiii(struct Dialog *this, int DX, int DY, int DW) {
+void Line__6Dialogiii_addr_80084F48(struct Dialog *this, int DX, int DY, int DW) {
 	// register: 20
 	register int X;
 	// register: 23
@@ -655,28 +677,6 @@ void Line__6Dialogiii(struct Dialog *this, int DX, int DY, int DW) {
 	auto struct RECT ClipRect;
 	// register: 21
 	register char trans;
-}
-
-
-// address: 0x8008CD4C
-// line start: 999
-// line end:   1087
-void Line__6Dialogiii_addr_8008CD4C(struct Dialog *this, int DX, int DY, int DW) {
-	// register: 21
-	register int X;
-	// register: 22
-	register int Y;
-	// register: 23
-	register int W;
-	// register: 17
-	register int Bx;
-	// register: 16
-	register int Xr;
-	// register: 16
-	register int Xl;
-	// address: 0xFFFFFFC0
-	// size: 0x8
-	auto struct RECT ClipRect;
 }
 
 

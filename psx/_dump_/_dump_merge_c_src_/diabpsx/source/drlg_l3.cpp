@@ -309,10 +309,244 @@ void DRLG_L3PoolFix__Fv() {
 }
 
 
-// address: 0x8013F778
+// address: 0x8013FFD4
 // line start: 1022
 // line end:   1069
 void DRLG_L3Pool__Fv() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x8013DA88
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x80140E34
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_80140E34() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x8013E8E8
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x801364FC
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_801364FC() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80133FB0
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x80149F64
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_80149F64() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80147A18
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x80134F54
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_80134F54() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80132A08
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x8013388C
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_8013388C() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80131340
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x8014848C
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_8014848C() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80145F40
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x801341CC
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_801341CC() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80131C80
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x801491DC
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_801491DC() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80146C90
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x8013F778
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_8013F778() {
 	// register: 8
 	register int i;
 	// register: 4
@@ -361,10 +595,10 @@ void DRLG_L3Pool__Fv_addr_801488B4() {
 }
 
 
-// address: 0x80134F54
+// address: 0x801339B4
 // line start: 1022
 // line end:   1069
-void DRLG_L3Pool__Fv_addr_80134F54() {
+void DRLG_L3Pool__Fv_addr_801339B4() {
 	// register: 8
 	register int i;
 	// register: 4
@@ -381,189 +615,7 @@ void DRLG_L3Pool__Fv_addr_80134F54() {
 	register int poolchance;
 	// register: 3
 	register unsigned char k;
-	// address: 0x80132A08
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x8014626C
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_8014626C() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80143D20
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x80149924
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_80149924() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x801473D8
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x8013FFD4
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_8013FFD4() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x8013DA88
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x801364FC
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_801364FC() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80133FB0
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x8013388C
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_8013388C() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80131340
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x801491DC
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_801491DC() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80146C90
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x80149D1C
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_80149D1C() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x801477D0
+	// address: 0x80131468
 	// size: 0xF
 	static unsigned char poolsub[15];
 }
@@ -595,84 +647,6 @@ void DRLG_L3Pool__Fv_addr_801497EC() {
 }
 
 
-// address: 0x80149F64
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_80149F64() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80147A18
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x801341CC
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_801341CC() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80131C80
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x801339B4
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_801339B4() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80131468
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
 // address: 0x80130F74
 // line start: 1022
 // line end:   1069
@@ -694,136 +668,6 @@ void DRLG_L3Pool__Fv_addr_80130F74() {
 	// register: 3
 	register unsigned char k;
 	// address: 0x8012EA28
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x801486BC
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_801486BC() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80146170
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x8013270C
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_8013270C() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x801301C0
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x80140E34
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_80140E34() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x8013E8E8
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x80139D7C
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_80139D7C() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80137830
-	// size: 0xF
-	static unsigned char poolsub[15];
-}
-
-
-// address: 0x801489CC
-// line start: 1022
-// line end:   1069
-void DRLG_L3Pool__Fv_addr_801489CC() {
-	// register: 8
-	register int i;
-	// register: 4
-	register int j;
-	// register: 16
-	register int found;
-	// register: 17
-	register int dunx;
-	// register: 18
-	register int duny;
-	// address: 0xFFFFFFD8
-	auto int totarea;
-	// register: 4
-	register int poolchance;
-	// register: 3
-	register unsigned char k;
-	// address: 0x80146480
 	// size: 0xF
 	static unsigned char poolsub[15];
 }
@@ -855,6 +699,32 @@ void DRLG_L3Pool__Fv_addr_80135BDC() {
 }
 
 
+// address: 0x8014626C
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_8014626C() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80143D20
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
 // address: 0x8014AC54
 // line start: 1022
 // line end:   1069
@@ -876,6 +746,162 @@ void DRLG_L3Pool__Fv_addr_8014AC54() {
 	// register: 3
 	register unsigned char k;
 	// address: 0x80148708
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x801486BC
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_801486BC() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80146170
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x80149D1C
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_80149D1C() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x801477D0
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x80149924
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_80149924() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x801473D8
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x801489CC
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_801489CC() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80146480
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x80139D7C
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_80139D7C() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x80137830
+	// size: 0xF
+	static unsigned char poolsub[15];
+}
+
+
+// address: 0x8013270C
+// line start: 1022
+// line end:   1069
+void DRLG_L3Pool__Fv_addr_8013270C() {
+	// register: 8
+	register int i;
+	// register: 4
+	register int j;
+	// register: 16
+	register int found;
+	// register: 17
+	register int dunx;
+	// register: 18
+	register int duny;
+	// address: 0xFFFFFFD8
+	auto int totarea;
+	// register: 4
+	register int poolchance;
+	// register: 3
+	register unsigned char k;
+	// address: 0x801301C0
 	// size: 0xF
 	static unsigned char poolsub[15];
 }
@@ -925,217 +951,13 @@ void DRLG_L3River__Fv() {
 }
 
 
-// address: 0x8013605C
+// address: 0x80149484
 // line start: 957
 // line end:   981
 int DRLG_L3SpawnEdge__FiiPi(int x, int y, int *totarea) {
 	// register: 17
 	register unsigned char i;
-	// address: 0x80133F90
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80145DCC
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80145DCC(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80143D00
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80149484
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80149484(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
 	// address: 0x801473B8
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80148D3C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80148D3C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80146C70
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8014987C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8014987C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x801477B0
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8013573C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8013573C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80133670
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8014934C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8014934C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80147280
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x801333EC
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_801333EC(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80131320
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8014852C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8014852C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80146460
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80140994
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80140994(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x8013E8C8
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8013226C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8013226C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x801301A0
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80130AD4
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80130AD4(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x8012EA08
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8014821C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8014821C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80146150
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x801398DC
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_801398DC(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80137810
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8013F2D8
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8013F2D8(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x8013D20C
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8013FB34
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8013FB34(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x8013DA68
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x8014A7B4
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_8014A7B4(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x801486E8
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80133D2C
-// line start: 957
-// line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80133D2C(int x, int y, int *totarea) {
-	// register: 17
-	register unsigned char i;
-	// address: 0x80131C60
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
@@ -1153,25 +975,61 @@ int DRLG_L3SpawnEdge__FiiPi_addr_80148414(int x, int y, int *totarea) {
 }
 
 
-// address: 0x80149AC4
+// address: 0x8014934C
 // line start: 957
 // line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80149AC4(int x, int y, int *totarea) {
+int DRLG_L3SpawnEdge__FiiPi_addr_8014934C(int x, int y, int *totarea) {
 	// register: 17
 	register unsigned char i;
-	// address: 0x801479F8
+	// address: 0x80147280
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x80133514
+// address: 0x8014852C
 // line start: 957
 // line end:   981
-int DRLG_L3SpawnEdge__FiiPi_addr_80133514(int x, int y, int *totarea) {
+int DRLG_L3SpawnEdge__FiiPi_addr_8014852C(int x, int y, int *totarea) {
 	// register: 17
 	register unsigned char i;
-	// address: 0x80131448
+	// address: 0x80146460
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x8014821C
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8014821C(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x80146150
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80140994
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80140994(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x8013E8C8
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x8013FB34
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8013FB34(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x8013DA68
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
@@ -1189,97 +1047,181 @@ int DRLG_L3SpawnEdge__FiiPi_addr_80134AB4(int x, int y, int *totarea) {
 }
 
 
-// address: 0x80149D50
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x8014987C
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8014987C(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x80147A08
+	// address: 0x801477B0
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x8013F564
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_8013F564(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x8014A7B4
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8014A7B4(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x8013D21C
+	// address: 0x801486E8
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x80133FB8
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_80133FB8(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x801333EC
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_801333EC(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x80131C70
+	// address: 0x80131320
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x80134D40
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_80134D40(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x8013F2D8
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8013F2D8(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x801329F8
+	// address: 0x8013D20C
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x801337A0
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_801337A0(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x80145DCC
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80145DCC(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x80131458
+	// address: 0x80143D00
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x8013FDC0
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_8013FDC0(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x80133D2C
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80133D2C(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x8013DA78
+	// address: 0x80131C60
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x801486A0
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_801486A0(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x80148D3C
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80148D3C(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x80146358
+	// address: 0x80146C70
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
 
 
-// address: 0x801362E8
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_801362E8(int x, int y, int *totarea) {
-	// register: 19
+// address: 0x80133514
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80133514(int x, int y, int *totarea) {
+	// register: 17
 	register unsigned char i;
-	// address: 0x80133FA0
+	// address: 0x80131448
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x8013573C
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8013573C(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x80133670
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80149AC4
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80149AC4(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x801479F8
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80130AD4
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80130AD4(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x8012EA08
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80147FEC
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_80147FEC(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x80145F20
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x8013226C
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8013226C(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x801301A0
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x8013605C
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_8013605C(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x80133F90
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x801398DC
+// line start: 957
+// line end:   981
+int DRLG_L3SpawnEdge__FiiPi_addr_801398DC(int x, int y, int *totarea) {
+	// register: 17
+	register unsigned char i;
+	// address: 0x80137810
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
@@ -1288,7 +1230,7 @@ int DRLG_L3Spawn__FiiPi_addr_801362E8(int x, int y, int *totarea) {
 // address: 0x801484A8
 // line start: 987
 // line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_801484A8(int x, int y, int *totarea) {
+int DRLG_L3Spawn__FiiPi(int x, int y, int *totarea) {
 	// register: 19
 	register unsigned char i;
 	// address: 0x80146160
@@ -1309,73 +1251,13 @@ int DRLG_L3Spawn__FiiPi_addr_80130D60(int x, int y, int *totarea) {
 }
 
 
-// address: 0x80133678
+// address: 0x8014AA40
 // line start: 987
 // line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_80133678(int x, int y, int *totarea) {
+int DRLG_L3Spawn__FiiPi_addr_8014AA40(int x, int y, int *totarea) {
 	// register: 19
 	register unsigned char i;
-	// address: 0x80131330
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x801324F8
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_801324F8(int x, int y, int *totarea) {
-	// register: 19
-	register unsigned char i;
-	// address: 0x801301B0
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80148FC8
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_80148FC8(int x, int y, int *totarea) {
-	// register: 19
-	register unsigned char i;
-	// address: 0x80146C80
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80139B68
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_80139B68(int x, int y, int *totarea) {
-	// register: 19
-	register unsigned char i;
-	// address: 0x80137820
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x80140C20
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_80140C20(int x, int y, int *totarea) {
-	// register: 19
-	register unsigned char i;
-	// address: 0x8013E8D8
-	// size: 0xF
-	static unsigned char spawntable[15];
-}
-
-
-// address: 0x801487B8
-// line start: 987
-// line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_801487B8(int x, int y, int *totarea) {
-	// register: 19
-	register unsigned char i;
-	// address: 0x80146470
+	// address: 0x801486F8
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
@@ -1393,13 +1275,25 @@ int DRLG_L3Spawn__FiiPi_addr_80149B08(int x, int y, int *totarea) {
 }
 
 
-// address: 0x80146058
+// address: 0x80148278
 // line start: 987
 // line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_80146058(int x, int y, int *totarea) {
+int DRLG_L3Spawn__FiiPi_addr_80148278(int x, int y, int *totarea) {
 	// register: 19
 	register unsigned char i;
-	// address: 0x80143D10
+	// address: 0x80145F30
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x801337A0
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_801337A0(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80131458
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
@@ -1417,13 +1311,145 @@ int DRLG_L3Spawn__FiiPi_addr_801359C8(int x, int y, int *totarea) {
 }
 
 
-// address: 0x801495D8
+// address: 0x80146058
 // line start: 987
 // line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_801495D8(int x, int y, int *totarea) {
+int DRLG_L3Spawn__FiiPi_addr_80146058(int x, int y, int *totarea) {
 	// register: 19
 	register unsigned char i;
-	// address: 0x80147290
+	// address: 0x80143D10
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80139B68
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_80139B68(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80137820
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x801362E8
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_801362E8(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80133FA0
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80148FC8
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_80148FC8(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80146C80
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80133678
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_80133678(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80131330
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80134D40
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_80134D40(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x801329F8
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x801486A0
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_801486A0(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80146358
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80149D50
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_80149D50(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80147A08
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x801324F8
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_801324F8(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x801301B0
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x8013FDC0
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_8013FDC0(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x8013DA78
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x80133FB8
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_80133FB8(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80131C70
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x8013F564
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_8013F564(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x8013D21C
 	// size: 0xF
 	static unsigned char spawntable[15];
 }
@@ -1441,13 +1467,37 @@ int DRLG_L3Spawn__FiiPi_addr_80149710(int x, int y, int *totarea) {
 }
 
 
-// address: 0x8014AA40
+// address: 0x80140C20
 // line start: 987
 // line end:   1016
-int DRLG_L3Spawn__FiiPi_addr_8014AA40(int x, int y, int *totarea) {
+int DRLG_L3Spawn__FiiPi_addr_80140C20(int x, int y, int *totarea) {
 	// register: 19
 	register unsigned char i;
-	// address: 0x801486F8
+	// address: 0x8013E8D8
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x801495D8
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_801495D8(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80147290
+	// size: 0xF
+	static unsigned char spawntable[15];
+}
+
+
+// address: 0x801487B8
+// line start: 987
+// line end:   1016
+int DRLG_L3Spawn__FiiPi_addr_801487B8(int x, int y, int *totarea) {
+	// register: 19
+	register unsigned char i;
+	// address: 0x80146470
 	// size: 0xF
 	static unsigned char spawntable[15];
 }

@@ -92,27 +92,10 @@ void InitLevelMonsters__Fv() {
 }
 
 
-// address: 0x80148B88
-// line start: 114
-// line end:   170
-void InitMonsterGFX__Fi(int monst) {
-	// register: 6
-	register int anim;
-	// address: 0xFFFFFF00
-	// size: 0x100
-	auto char strBuff[256];
-	// register: 3
-	register int mtype;
-	// register: 7
-	// size: 0x3C
-	register struct MonsterData *pmonsterdata;
-}
-
-
 // address: 0x801554DC
 // line start: 114
 // line end:   170
-void InitMonsterGFX__Fi_addr_801554DC(int monst) {
+void InitMonsterGFX__Fi(int monst) {
 	// register: 5
 	register int anim;
 	// address: 0xFFFFFEF8
@@ -121,6 +104,23 @@ void InitMonsterGFX__Fi_addr_801554DC(int monst) {
 	// register: 3
 	register int mtype;
 	// register: 6
+	// size: 0x3C
+	register struct MonsterData *pmonsterdata;
+}
+
+
+// address: 0x80148B88
+// line start: 114
+// line end:   170
+void InitMonsterGFX__Fi_addr_80148B88(int monst) {
+	// register: 6
+	register int anim;
+	// address: 0xFFFFFF00
+	// size: 0x100
+	auto char strBuff[256];
+	// register: 3
+	register int mtype;
+	// register: 7
 	// size: 0x3C
 	register struct MonsterData *pmonsterdata;
 }
@@ -350,28 +350,28 @@ void PlaceUniqueMonst__Fiii_addr_8015C664(int uniqindex, int miniontype, int unp
 }
 
 
-// address: 0x8014AC00
-// line start: 1113
-// line end:   1147
-void PlaceUniques__Fv() {
-	// register: 16
-	register int u;
-	// register: 5
-	register int mt;
-	// register: 4
-	register unsigned char done;
-}
-
-
 // address: 0x801577CC
 // line start: 1113
 // line end:   1147
-void PlaceUniques__Fv_addr_801577CC() {
+void PlaceUniques__Fv() {
 	// register: 17
 	register int u;
 	// register: 5
 	register int mt;
 	// register: 16
+	register unsigned char done;
+}
+
+
+// address: 0x8014AC00
+// line start: 1113
+// line end:   1147
+void PlaceUniques__Fv_addr_8014AC00() {
+	// register: 16
+	register int u;
+	// register: 5
+	register int mt;
+	// register: 4
 	register unsigned char done;
 }
 

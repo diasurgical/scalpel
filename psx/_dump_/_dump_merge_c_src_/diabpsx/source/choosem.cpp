@@ -37,10 +37,33 @@ void CM_ShowMonsterList__Fii(int Level, int List) {
 }
 
 
+// address: 0x8013E5F0
+// line start: 298
+// line end:   461
+void ChooseTask__FP4TASK(struct TASK *T) {
+	// register: 2
+	// size: 0x10
+	register struct DEF_ARGS *A;
+	// register: 18
+	register int *List;
+	// register: 16
+	register int Level;
+	// register: 16
+	register unsigned int NumOfLists;
+	// register: 17
+	register unsigned long QuestsNeededMask;
+	// address: 0xFFFFFFB8
+	// size: 0x32
+	auto unsigned char ListsToChooseFrom[50];
+	// register: 3
+	register unsigned int Selection;
+}
+
+
 // address: 0x8013E4C8
 // line start: 297
 // line end:   448
-void ChooseTask__FP4TASK(struct TASK *T) {
+void ChooseTask__FP4TASK_addr_8013E4C8(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *A;
@@ -113,29 +136,6 @@ void ChooseTask__FP4TASK(struct TASK *T) {
 			}
 		}
 	}
-}
-
-
-// address: 0x8013E5F0
-// line start: 298
-// line end:   461
-void ChooseTask__FP4TASK_addr_8013E5F0(struct TASK *T) {
-	// register: 2
-	// size: 0x10
-	register struct DEF_ARGS *A;
-	// register: 18
-	register int *List;
-	// register: 16
-	register int Level;
-	// register: 16
-	register unsigned int NumOfLists;
-	// register: 17
-	register unsigned long QuestsNeededMask;
-	// address: 0xFFFFFFB8
-	// size: 0x32
-	auto unsigned char ListsToChooseFrom[50];
-	// register: 3
-	register unsigned int Selection;
 }
 
 

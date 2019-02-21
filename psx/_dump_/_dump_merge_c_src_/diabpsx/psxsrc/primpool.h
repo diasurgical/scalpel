@@ -286,6 +286,21 @@ void PRIM_CopyPrim__FP8POLY_FT4T0_addr_8008CBE4(struct POLY_FT4 *Dest, struct PO
 }
 
 
+// address: 0x8008CE90
+// line start: 75
+// line end:   80
+void PRIM_CopyPrim__FP8POLY_FT4T0_addr_8008CE90(struct POLY_FT4 *Dest, struct POLY_FT4 *Source) {
+	// register: 4
+	register unsigned long *Dest32;
+	// register: 5
+	register unsigned long *Source32;
+	{
+		// register: 3
+		register unsigned int f;
+	}
+}
+
+
 // address: 0x8008CFCC
 // line start: 75
 // line end:   80
@@ -680,6 +695,21 @@ void PRIM_CopyPrim__FP8POLY_FT4T0_addr_80093DDC(struct POLY_FT4 *Dest, struct PO
 // line start: 75
 // line end:   80
 void PRIM_CopyPrim__FP8POLY_FT4T0_addr_80093EC0(struct POLY_FT4 *Dest, struct POLY_FT4 *Source) {
+	// register: 4
+	register unsigned long *Dest32;
+	// register: 5
+	register unsigned long *Source32;
+	{
+		// register: 3
+		register unsigned int f;
+	}
+}
+
+
+// address: 0x80093F2C
+// line start: 75
+// line end:   80
+void PRIM_CopyPrim__FP8POLY_FT4T0_addr_80093F2C(struct POLY_FT4 *Dest, struct POLY_FT4 *Source) {
 	// register: 4
 	register unsigned long *Dest32;
 	// register: 5
@@ -1339,6 +1369,17 @@ struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_8008CBA8(struct POLY_FT4 *Prim) 
 }
 
 
+// address: 0x8008CE54
+// size: 0x28
+// line start: 84
+// line end:   89
+struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_8008CE54(struct POLY_FT4 *Prim) {
+	// address: 0xFFFFFFF0
+	// size: 0x28
+	auto struct POLY_FT4 *RetPrim;
+}
+
+
 // address: 0x8008CF90
 // size: 0x28
 // line start: 84
@@ -1630,6 +1671,17 @@ struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_80093DA0(struct POLY_FT4 *Prim) 
 // line start: 84
 // line end:   89
 struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_80093E84(struct POLY_FT4 *Prim) {
+	// address: 0xFFFFFFF0
+	// size: 0x28
+	auto struct POLY_FT4 *RetPrim;
+}
+
+
+// address: 0x80093EF0
+// size: 0x28
+// line start: 84
+// line end:   89
+struct POLY_FT4 *PRIM_GetCopy__FP8POLY_FT4_addr_80093EF0(struct POLY_FT4 *Prim) {
 	// address: 0xFFFFFFF0
 	// size: 0x28
 	auto struct POLY_FT4 *RetPrim;
@@ -2078,6 +2130,13 @@ void PRIM_GetPrim__FPP7POLY_G4_addr_8009A4CC(struct POLY_G4 **Prim) {
 }
 
 
+// address: 0x8009A340
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP7POLY_G4_addr_8009A340(struct POLY_G4 **Prim) {
+}
+
+
 // address: 0x8009A520
 // line start: 65
 // line end:   71
@@ -2215,6 +2274,13 @@ void PRIM_GetPrim__FPP7POLY_G4_addr_8009E4E4(struct POLY_G4 **Prim) {
 // line start: 65
 // line end:   71
 void PRIM_GetPrim__FPP7POLY_G4_addr_8009E258(struct POLY_G4 **Prim) {
+}
+
+
+// address: 0x8009E260
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP7POLY_G4_addr_8009E260(struct POLY_G4 **Prim) {
 }
 
 
@@ -2460,6 +2526,13 @@ void PRIM_GetPrim__FPP8POLY_FT4_addr_800A0518(struct POLY_FT4 **Prim) {
 // line start: 65
 // line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_800A0548(struct POLY_FT4 **Prim) {
+}
+
+
+// address: 0x800A0670
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_FT4_addr_800A0670(struct POLY_FT4 **Prim) {
 }
 
 
@@ -2729,6 +2802,13 @@ void PRIM_GetPrim__FPP8POLY_FT4_addr_8008B044(struct POLY_FT4 **Prim) {
 }
 
 
+// address: 0x8008B65C
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_FT4_addr_8008B65C(struct POLY_FT4 **Prim) {
+}
+
+
 // address: 0x8008B798
 // line start: 65
 // line end:   71
@@ -2810,6 +2890,13 @@ void PRIM_GetPrim__FPP8POLY_FT4_addr_8008CB2C(struct POLY_FT4 **Prim) {
 // line start: 65
 // line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_8008CB24(struct POLY_FT4 **Prim) {
+}
+
+
+// address: 0x8008CDD8
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_FT4_addr_8008CDD8(struct POLY_FT4 **Prim) {
 }
 
 
@@ -2974,6 +3061,13 @@ void PRIM_GetPrim__FPP8POLY_FT4_addr_8009F96C(struct POLY_FT4 **Prim) {
 }
 
 
+// address: 0x8009F97C
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_FT4_addr_8009F97C(struct POLY_FT4 **Prim) {
+}
+
+
 // address: 0x8009FB7C
 // line start: 65
 // line end:   71
@@ -3062,6 +3156,13 @@ void PRIM_GetPrim__FPP8POLY_FT4_addr_80060FAC(struct POLY_FT4 **Prim) {
 // line start: 65
 // line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_80060FC8(struct POLY_FT4 **Prim) {
+}
+
+
+// address: 0x80060FEC
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_FT4_addr_80060FEC(struct POLY_FT4 **Prim) {
 }
 
 
@@ -3317,6 +3418,13 @@ void PRIM_GetPrim__FPP8POLY_FT4_addr_80093EE8(struct POLY_FT4 **Prim) {
 }
 
 
+// address: 0x80093F54
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_FT4_addr_80093F54(struct POLY_FT4 **Prim) {
+}
+
+
 // address: 0x80094C8C
 // line start: 65
 // line end:   71
@@ -3566,6 +3674,13 @@ void PRIM_GetPrim__FPP8POLY_FT4_addr_800962AC(struct POLY_FT4 **Prim) {
 // line start: 65
 // line end:   71
 void PRIM_GetPrim__FPP8POLY_FT4_addr_800962B8(struct POLY_FT4 **Prim) {
+}
+
+
+// address: 0x800962D4
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_FT4_addr_800962D4(struct POLY_FT4 **Prim) {
 }
 
 
@@ -3944,6 +4059,13 @@ void PRIM_GetPrim__FPP8POLY_GT4_addr_8008B4F0(struct POLY_GT4 **Prim) {
 // line start: 65
 // line end:   71
 void PRIM_GetPrim__FPP8POLY_GT4_addr_8008B4F8(struct POLY_GT4 **Prim) {
+}
+
+
+// address: 0x8008B7A4
+// line start: 65
+// line end:   71
+void PRIM_GetPrim__FPP8POLY_GT4_addr_8008B7A4(struct POLY_GT4 **Prim) {
 }
 
 

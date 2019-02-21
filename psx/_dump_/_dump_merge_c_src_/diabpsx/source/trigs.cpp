@@ -25,35 +25,10 @@ void ChangeBlock__Fiii(int x, int y, int bl) {
 }
 
 
-// address: 0x8006FCA8
-// line start: 414
-// line end:   466
-void CheckTrigForce__Fv() {
-	// register: 21
-	register int ocursmx;
-	// register: 20
-	register int ocursmy;
-	{
-		{
-			{
-				// register: 19
-				register int i;
-				{
-					{
-						// register: 19
-						register int i;
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x8006F6D8
 // line start: 418
 // line end:   471
-void CheckTrigForce__Fv_addr_8006F6D8() {
+void CheckTrigForce__Fv() {
 	// register: 19
 	register int ocursmx;
 	// register: 18
@@ -75,6 +50,31 @@ void CheckTrigForce__Fv_addr_8006F6D8() {
 }
 
 
+// address: 0x8006FCA8
+// line start: 414
+// line end:   466
+void CheckTrigForce__Fv_addr_8006FCA8() {
+	// register: 21
+	register int ocursmx;
+	// register: 20
+	register int ocursmy;
+	{
+		{
+			{
+				// register: 19
+				register int i;
+				{
+					{
+						// register: 19
+						register int i;
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // address: 0x8007676C
 // line start: 888
 // line end:   891
@@ -82,7 +82,7 @@ bool CheckTrigLevel__Fi(int level) {
 }
 
 
-// address: 0x80073204
+// address: 0x80070060
 // line start: 501
 // line end:   640
 void CheckTriggers__Fi(int pnum) {
@@ -91,7 +91,7 @@ void CheckTriggers__Fi(int pnum) {
 	// register: 16
 	register int y;
 	{
-		// register: 23
+		// register: 22
 		register int i;
 		{
 			{
@@ -119,10 +119,10 @@ void CheckTriggers__Fi(int pnum) {
 }
 
 
-// address: 0x8006F458
-// line start: 513
-// line end:   655
-void CheckTriggers__Fi_addr_8006F458(int pnum) {
+// address: 0x80073204
+// line start: 501
+// line end:   640
+void CheckTriggers__Fi_addr_80073204(int pnum) {
 	// register: 17
 	register int x;
 	// register: 16
@@ -141,8 +141,12 @@ void CheckTriggers__Fi_addr_8006F458(int pnum) {
 							register int dx;
 							// register: 16
 							register int dy;
-							// register: 19
+							// register: 18
 							register char m;
+							{
+								{
+								}
+							}
 						}
 					}
 				}
@@ -185,16 +189,16 @@ void CheckTriggers__Fi_addr_800767A8(int pnum) {
 }
 
 
-// address: 0x80070060
-// line start: 501
-// line end:   640
-void CheckTriggers__Fi_addr_80070060(int pnum) {
+// address: 0x8006F458
+// line start: 513
+// line end:   655
+void CheckTriggers__Fi_addr_8006F458(int pnum) {
 	// register: 17
 	register int x;
 	// register: 16
 	register int y;
 	{
-		// register: 22
+		// register: 23
 		register int i;
 		{
 			{
@@ -207,12 +211,8 @@ void CheckTriggers__Fi_addr_80070060(int pnum) {
 							register int dx;
 							// register: 16
 							register int dy;
-							// register: 18
+							// register: 19
 							register char m;
-							{
-								{
-								}
-							}
 						}
 					}
 				}
@@ -322,10 +322,19 @@ unsigned char ForceSKingTrig__Fv() {
 }
 
 
+// address: 0x8006E55C
+// line start: 76
+// line end:   117
+unsigned char ForceTownTrig__Fv() {
+	// register: 5
+	register int i;
+}
+
+
 // address: 0x80075134
 // line start: 371
 // line end:   451
-unsigned char ForceTownTrig__Fv() {
+unsigned char ForceTownTrig__Fv_addr_80075134() {
 	{
 		{
 			// register: 16
@@ -341,15 +350,6 @@ unsigned char ForceTownTrig__Fv() {
 // line start: 371
 // line end:   451
 unsigned char ForceTownTrig__Fv_addr_8007537C() {
-}
-
-
-// address: 0x8006E55C
-// line start: 76
-// line end:   117
-unsigned char ForceTownTrig__Fv_addr_8006E55C() {
-	// register: 5
-	register int i;
 }
 
 

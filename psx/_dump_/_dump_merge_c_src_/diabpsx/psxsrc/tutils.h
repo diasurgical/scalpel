@@ -277,6 +277,13 @@ int GetTpX__FUs_addr_8007C984(unsigned short tpage) {
 }
 
 
+// address: 0x8007CA58
+// line start: 182
+// line end:   183
+int GetTpX__FUs_addr_8007CA58(unsigned short tpage) {
+}
+
+
 // address: 0x8007CB44
 // line start: 182
 // line end:   183
@@ -309,6 +316,13 @@ int GetTpX__FUs_addr_8007CBBC(unsigned short tpage) {
 // line start: 182
 // line end:   183
 int GetTpX__FUs_addr_8007CC98(unsigned short tpage) {
+}
+
+
+// address: 0x8007CD58
+// line start: 182
+// line end:   183
+int GetTpX__FUs_addr_8007CD58(unsigned short tpage) {
 }
 
 
@@ -676,6 +690,13 @@ int GetTpY__FUs_addr_8007C968(unsigned short tpage) {
 }
 
 
+// address: 0x8007CA3C
+// line start: 177
+// line end:   178
+int GetTpY__FUs_addr_8007CA3C(unsigned short tpage) {
+}
+
+
 // address: 0x8007CB28
 // line start: 177
 // line end:   178
@@ -708,6 +729,13 @@ int GetTpY__FUs_addr_8007CBA0(unsigned short tpage) {
 // line start: 177
 // line end:   178
 int GetTpY__FUs_addr_8007CC7C(unsigned short tpage) {
+}
+
+
+// address: 0x8007CD3C
+// line start: 177
+// line end:   178
+int GetTpY__FUs_addr_8007CD3C(unsigned short tpage) {
 }
 
 

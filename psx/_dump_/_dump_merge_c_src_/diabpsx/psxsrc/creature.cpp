@@ -2,7 +2,7 @@
 
 #include "types.h"
 
-// address: 0x80094388
+// address: 0x800949BC
 // line start: 87
 // line end:   136
 bool TryCreaturePrint__Fiiiiiii(int nMonster, int blockr, int blockg, int blockb, int OtPos, int ScrX, int ScrY) {
@@ -18,8 +18,8 @@ bool TryCreaturePrint__Fiiiiiii(int nMonster, int blockr, int blockg, int blockb
 			// size: 0x70
 			register struct MonsterStruct *MyMonst;
 			// register: 19
-			// size: 0x6C
-			register struct TextDat_dup_14 *CMonstGraphics;
+			// size: 0x68
+			register struct TextDat_dup_1 *CMonstGraphics;
 			// register: 2
 			register int Frame;
 			// register: 17
@@ -72,10 +72,10 @@ bool TryCreaturePrint__Fiiiiiii_addr_800914AC(int nMonster, int blockr, int bloc
 }
 
 
-// address: 0x800949BC
+// address: 0x80094388
 // line start: 87
 // line end:   136
-bool TryCreaturePrint__Fiiiiiii_addr_800949BC(int nMonster, int blockr, int blockg, int blockb, int OtPos, int ScrX, int ScrY) {
+bool TryCreaturePrint__Fiiiiiii_addr_80094388(int nMonster, int blockr, int blockg, int blockb, int OtPos, int ScrX, int ScrY) {
 	// register: 16
 	// size: 0x28
 	register struct POLY_FT4 *ShadFt4;
@@ -88,8 +88,8 @@ bool TryCreaturePrint__Fiiiiiii_addr_800949BC(int nMonster, int blockr, int bloc
 			// size: 0x70
 			register struct MonsterStruct *MyMonst;
 			// register: 19
-			// size: 0x68
-			register struct TextDat_dup_1 *CMonstGraphics;
+			// size: 0x6C
+			register struct TextDat_dup_14 *CMonstGraphics;
 			// register: 2
 			register int Frame;
 			// register: 17

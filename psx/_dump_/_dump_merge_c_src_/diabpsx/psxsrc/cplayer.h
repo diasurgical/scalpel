@@ -9,10 +9,10 @@ int GetDatMaxSize__7CPlayer(struct CPlayer_dup_17 *this) {
 }
 
 
-// address: 0x800962E4
+// address: 0x8009638C
 // line start: 76
 // line end:   80
-int GetDatMaxSize__7CPlayer_addr_800962E4(struct CPlayer_dup_19 *this) {
+int GetDatMaxSize__7CPlayer_addr_8009638C(struct CPlayer_dup_18 *this) {
 }
 
 
@@ -23,10 +23,10 @@ int GetDatMaxSize__7CPlayer_addr_80096398(struct CPlayer *this) {
 }
 
 
-// address: 0x8009638C
+// address: 0x800962E4
 // line start: 76
 // line end:   80
-int GetDatMaxSize__7CPlayer_addr_8009638C(struct CPlayer_dup_18 *this) {
+int GetDatMaxSize__7CPlayer_addr_800962E4(struct CPlayer_dup_19 *this) {
 }
 
 
@@ -37,13 +37,6 @@ int GetLastOtPos__C7CPlayer(struct CPlayer_dup_14 *this) {
 }
 
 
-// address: 0x800A0510
-// line start: 60
-// line end:   60
-int GetLastOtPos__C7CPlayer_addr_800A0510(struct CPlayer_dup_19 *this) {
-}
-
-
 // address: 0x800A05A8
 // line start: 60
 // line end:   60
@@ -51,10 +44,10 @@ int GetLastOtPos__C7CPlayer_addr_800A05A8(struct CPlayer_dup_18 *this) {
 }
 
 
-// address: 0x800A067C
+// address: 0x800A0510
 // line start: 60
 // line end:   60
-int GetLastOtPos__C7CPlayer_addr_800A067C(struct CPlayer_dup_17 *this) {
+int GetLastOtPos__C7CPlayer_addr_800A0510(struct CPlayer_dup_19 *this) {
 }
 
 
@@ -62,6 +55,13 @@ int GetLastOtPos__C7CPlayer_addr_800A067C(struct CPlayer_dup_17 *this) {
 // line start: 60
 // line end:   60
 int GetLastOtPos__C7CPlayer_addr_80061C0C(struct CPlayer *this) {
+}
+
+
+// address: 0x800A067C
+// line start: 60
+// line end:   60
+int GetLastOtPos__C7CPlayer_addr_800A067C(struct CPlayer_dup_17 *this) {
 }
 
 
@@ -303,17 +303,10 @@ int GetLastOtPos__C7CPlayer_addr_80075924(struct CPlayer *this) {
 }
 
 
-// address: 0x80067030
+// address: 0x800613D0
 // line start: 58
 // line end:   58
-int GetLastScrX__C7CPlayer(struct CPlayer_dup_19 *this) {
-}
-
-
-// address: 0x800671BC
-// line start: 58
-// line end:   58
-int GetLastScrX__C7CPlayer_addr_800671BC(struct CPlayer_dup_17 *this) {
+int GetLastScrX__C7CPlayer(struct CPlayer_dup_14 *this) {
 }
 
 
@@ -324,10 +317,17 @@ int GetLastScrX__C7CPlayer_addr_80061C24(struct CPlayer *this) {
 }
 
 
-// address: 0x800613D0
+// address: 0x800671BC
 // line start: 58
 // line end:   58
-int GetLastScrX__C7CPlayer_addr_800613D0(struct CPlayer_dup_14 *this) {
+int GetLastScrX__C7CPlayer_addr_800671BC(struct CPlayer_dup_17 *this) {
+}
+
+
+// address: 0x80067030
+// line start: 58
+// line end:   58
+int GetLastScrX__C7CPlayer_addr_80067030(struct CPlayer_dup_19 *this) {
 }
 
 
@@ -527,24 +527,10 @@ int GetLastScrX__C7CPlayer_addr_80075888(struct CPlayer *this) {
 }
 
 
-// address: 0x800613C4
+// address: 0x800649B8
 // line start: 59
 // line end:   59
-int GetLastScrY__C7CPlayer(struct CPlayer_dup_14 *this) {
-}
-
-
-// address: 0x800671B0
-// line start: 59
-// line end:   59
-int GetLastScrY__C7CPlayer_addr_800671B0(struct CPlayer_dup_17 *this) {
-}
-
-
-// address: 0x800670EC
-// line start: 59
-// line end:   59
-int GetLastScrY__C7CPlayer_addr_800670EC(struct CPlayer_dup_18 *this) {
+int GetLastScrY__C7CPlayer(struct CPlayer_dup_1 *this) {
 }
 
 
@@ -555,17 +541,31 @@ int GetLastScrY__C7CPlayer_addr_80067024(struct CPlayer_dup_19 *this) {
 }
 
 
+// address: 0x800670EC
+// line start: 59
+// line end:   59
+int GetLastScrY__C7CPlayer_addr_800670EC(struct CPlayer_dup_18 *this) {
+}
+
+
+// address: 0x800613C4
+// line start: 59
+// line end:   59
+int GetLastScrY__C7CPlayer_addr_800613C4(struct CPlayer_dup_14 *this) {
+}
+
+
+// address: 0x800671B0
+// line start: 59
+// line end:   59
+int GetLastScrY__C7CPlayer_addr_800671B0(struct CPlayer_dup_17 *this) {
+}
+
+
 // address: 0x80061C18
 // line start: 59
 // line end:   59
 int GetLastScrY__C7CPlayer_addr_80061C18(struct CPlayer *this) {
-}
-
-
-// address: 0x800649B8
-// line start: 59
-// line end:   59
-int GetLastScrY__C7CPlayer_addr_800649B8(struct CPlayer_dup_1 *this) {
 }
 
 
@@ -751,19 +751,11 @@ int GetLastScrY__C7CPlayer_addr_80075930(struct CPlayer *this) {
 }
 
 
-// address: 0x800A0574
+// address: 0x800A0558
 // size: 0x90
 // line start: 64
 // line end:   66
-struct CPlayer *GetPlayer__7CPlayeri(int PNum) {
-}
-
-
-// address: 0x800A04C0
-// size: 0x90
-// line start: 64
-// line end:   66
-struct CPlayer_dup_19 *GetPlayer__7CPlayeri_addr_800A04C0(int PNum) {
+struct CPlayer_dup_18 *GetPlayer__7CPlayeri(int PNum) {
 }
 
 
@@ -783,6 +775,14 @@ struct CPlayer_dup_17 *GetPlayer__7CPlayeri_addr_800A062C(int PNum) {
 }
 
 
+// address: 0x8006495C
+// size: 0x80
+// line start: 63
+// line end:   65
+struct CPlayer_dup_1 *GetPlayer__7CPlayeri_addr_8006495C(int PNum) {
+}
+
+
 // address: 0x80096D7C
 // size: 0x84
 // line start: 63
@@ -791,19 +791,19 @@ struct CPlayer_dup_14 *GetPlayer__7CPlayeri_addr_80096D7C(int PNum) {
 }
 
 
-// address: 0x800A0558
+// address: 0x800A0574
 // size: 0x90
 // line start: 64
 // line end:   66
-struct CPlayer_dup_18 *GetPlayer__7CPlayeri_addr_800A0558(int PNum) {
+struct CPlayer *GetPlayer__7CPlayeri_addr_800A0574(int PNum) {
 }
 
 
-// address: 0x8006495C
-// size: 0x80
-// line start: 63
-// line end:   65
-struct CPlayer_dup_1 *GetPlayer__7CPlayeri_addr_8006495C(int PNum) {
+// address: 0x800A04C0
+// size: 0x90
+// line start: 64
+// line end:   66
+struct CPlayer_dup_19 *GetPlayer__7CPlayeri_addr_800A04C0(int PNum) {
 }
 
 
@@ -1103,10 +1103,10 @@ struct CPlayer_dup_14 *GetPlayer__7CPlayeri_addr_80076050(int PNum) {
 }
 
 
-// address: 0x8009C0A8
+// address: 0x8009C150
 // line start: 55
 // line end:   55
-int GetTexId__7CPlayer(struct CPlayer_dup_19 *this) {
+int GetTexId__7CPlayer(struct CPlayer_dup_18 *this) {
 }
 
 
@@ -1114,6 +1114,20 @@ int GetTexId__7CPlayer(struct CPlayer_dup_19 *this) {
 // line start: 55
 // line end:   55
 int GetTexId__7CPlayer_addr_8009C224(struct CPlayer_dup_17 *this) {
+}
+
+
+// address: 0x80092670
+// line start: 55
+// line end:   55
+int GetTexId__7CPlayer_addr_80092670(struct CPlayer_dup_14 *this) {
+}
+
+
+// address: 0x8009C0A8
+// line start: 55
+// line end:   55
+int GetTexId__7CPlayer_addr_8009C0A8(struct CPlayer_dup_19 *this) {
 }
 
 
@@ -1128,20 +1142,6 @@ int GetTexId__7CPlayer_addr_8008F708(struct CPlayer *this) {
 // line start: 55
 // line end:   55
 int GetTexId__7CPlayer_addr_80092C18(struct CPlayer_dup_1 *this) {
-}
-
-
-// address: 0x80092670
-// line start: 55
-// line end:   55
-int GetTexId__7CPlayer_addr_80092670(struct CPlayer_dup_14 *this) {
-}
-
-
-// address: 0x8009C150
-// line start: 55
-// line end:   55
-int GetTexId__7CPlayer_addr_8009C150(struct CPlayer_dup_18 *this) {
 }
 
 

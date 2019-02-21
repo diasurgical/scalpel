@@ -2,44 +2,10 @@
 
 #include "types.h"
 
-// address: 0x8013DFAC
-// line start: 413
-// line end:   473
-void DoCredits__Fv() {
-	// address: 0xFFFFFF60
-	// size: 0x78
-	auto struct CScreen_dup_14 CreditsBack;
-	// register: 2
-	register int Y;
-	// register: 18
-	register int Fade;
-	// register: 30
-	register int Dx;
-	// register: 19
-	register int Mode;
-	// register: 21
-	register int TextNo;
-	// register: 23
-	register unsigned long CreditsCount;
-	{
-		{
-			{
-				{
-					{
-						{
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x80145F50
 // line start: 393
 // line end:   443
-void DoCredits__Fv_addr_80145F50() {
+void DoCredits__Fv() {
 	// address: 0xFFFFFF60
 	// size: 0x74
 	auto struct CScreen_dup_1 CreditsBack;
@@ -113,6 +79,40 @@ void DoCredits__Fv_addr_801265C8() {
 	register int Y;
 	// register: 18
 	register int Fade;
+	// register: 19
+	register int Mode;
+	// register: 21
+	register int TextNo;
+	// register: 23
+	register unsigned long CreditsCount;
+	{
+		{
+			{
+				{
+					{
+						{
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8013DFAC
+// line start: 413
+// line end:   473
+void DoCredits__Fv_addr_8013DFAC() {
+	// address: 0xFFFFFF60
+	// size: 0x78
+	auto struct CScreen_dup_14 CreditsBack;
+	// register: 2
+	register int Y;
+	// register: 18
+	register int Fade;
+	// register: 30
+	register int Dx;
 	// register: 19
 	register int Mode;
 	// register: 21
@@ -248,47 +248,13 @@ int CredCountNL__Fi(int Str) {
 }
 
 
-// address: 0x801396BC
+// address: 0x8013DE44
 // line start: 616
 // line end:   714
-void DoCredits__Fv_addr_801396BC() {
+void DoCredits__Fv_addr_8013DE44() {
 	// address: 0xFFFFFF58
 	// size: 0x7C
-	auto struct CScreen_dup_19 CreditsBack;
-	// register: 8
-	register int Y;
-	// register: 19
-	register int Fade;
-	// register: 20
-	register int Mode;
-	// register: 21
-	register unsigned short TextNo;
-	// register: 30
-	register unsigned long CreditsCount;
-	{
-		// register: 17
-		register int YOfs;
-		{
-			{
-				{
-					{
-						{
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x8013DD3C
-// line start: 616
-// line end:   714
-void DoCredits__Fv_addr_8013DD3C() {
-	// address: 0xFFFFFF58
-	// size: 0x7C
-	auto struct CScreen_dup_18 CreditsBack;
+	auto struct CScreen_dup_17 CreditsBack;
 	// register: 8
 	register int Y;
 	// register: 19
@@ -350,13 +316,47 @@ void DoCredits__Fv_addr_80139750() {
 }
 
 
-// address: 0x8013DE44
+// address: 0x8013DD3C
 // line start: 616
 // line end:   714
-void DoCredits__Fv_addr_8013DE44() {
+void DoCredits__Fv_addr_8013DD3C() {
 	// address: 0xFFFFFF58
 	// size: 0x7C
-	auto struct CScreen_dup_17 CreditsBack;
+	auto struct CScreen_dup_18 CreditsBack;
+	// register: 8
+	register int Y;
+	// register: 19
+	register int Fade;
+	// register: 20
+	register int Mode;
+	// register: 21
+	register unsigned short TextNo;
+	// register: 30
+	register unsigned long CreditsCount;
+	{
+		// register: 17
+		register int YOfs;
+		{
+			{
+				{
+					{
+						{
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x801396BC
+// line start: 616
+// line end:   714
+void DoCredits__Fv_addr_801396BC() {
+	// address: 0xFFFFFF58
+	// size: 0x7C
+	auto struct CScreen_dup_19 CreditsBack;
 	// register: 8
 	register int Y;
 	// register: 19

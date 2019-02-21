@@ -16,24 +16,24 @@ void Tfree__FPv(void *Addr) {
 }
 
 
-// address: 0x80080EB4
-// line start: 77
-// line end:   108
+// address: 0x80088020
+// line start: 78
+// line end:   109
 void *Tmalloc__Fi(int MemSize) {
-	// register: 17
-	register long MyHnd;
 	// register: 16
+	register long MyHnd;
+	// register: 17
 	register void *Addr;
 }
 
 
-// address: 0x80088020
-// line start: 78
-// line end:   109
-void *Tmalloc__Fi_addr_80088020(int MemSize) {
-	// register: 16
-	register long MyHnd;
+// address: 0x80080EB4
+// line start: 77
+// line end:   108
+void *Tmalloc__Fi_addr_80080EB4(int MemSize) {
 	// register: 17
+	register long MyHnd;
+	// register: 16
 	register void *Addr;
 }
 

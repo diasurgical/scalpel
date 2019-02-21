@@ -61,10 +61,33 @@ void MY_TSK_Sleep__Fi(int time) {
 }
 
 
+// address: 0x800999F0
+// line start: 166
+// line end:   242
+void PutUpCutScreenTSK__FP4TASK(struct TASK *T) {
+	// register: 2
+	// size: 0x10
+	register struct DEF_ARGS *Args;
+	// address: 0xFFFFFFD0
+	auto int lev;
+	// register: 16
+	register int tx;
+	// address: 0xFFFFFFC8
+	// size: 0x24
+	auto struct POLY_G4 *G4;
+	// register: 21
+	register unsigned char barr;
+	// register: 16
+	register unsigned char barg;
+	// register: 17
+	register unsigned short prog;
+}
+
+
 // address: 0x800A4754
 // line start: 286
 // line end:   303
-void PutUpCutScreenTSK__FP4TASK(struct TASK *T) {
+void PutUpCutScreenTSK__FP4TASK_addr_800A4754(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *Args;
@@ -96,33 +119,20 @@ void PutUpCutScreenTSK__FP4TASK_addr_80097970(struct TASK *T) {
 }
 
 
-// address: 0x800999F0
-// line start: 166
-// line end:   242
-void PutUpCutScreenTSK__FP4TASK_addr_800999F0(struct TASK *T) {
+// address: 0x80097DC4
+// line start: 247
+// line end:   273
+void PutUpCutScreen__Fi(int lev) {
 	// register: 2
 	// size: 0x10
-	register struct DEF_ARGS *Args;
-	// address: 0xFFFFFFD0
-	auto int lev;
-	// register: 16
-	register int tx;
-	// address: 0xFFFFFFC8
-	// size: 0x24
-	auto struct POLY_G4 *G4;
-	// register: 21
-	register unsigned char barr;
-	// register: 16
-	register unsigned char barg;
-	// register: 17
-	register unsigned short prog;
+	register struct DEF_ARGS *A;
 }
 
 
 // address: 0x800A481C
 // line start: 315
 // line end:   364
-void PutUpCutScreen__Fi(int lev) {
+void PutUpCutScreen__Fi_addr_800A481C(int lev) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *A;
@@ -134,16 +144,6 @@ void PutUpCutScreen__Fi(int lev) {
 			}
 		}
 	}
-}
-
-
-// address: 0x80097DC4
-// line start: 247
-// line end:   273
-void PutUpCutScreen__Fi_addr_80097DC4(int lev) {
-	// register: 2
-	// size: 0x10
-	register struct DEF_ARGS *A;
 }
 
 

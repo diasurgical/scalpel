@@ -11,10 +11,31 @@ void DRLG_CheckQuests__Fii(int x, int y) {
 }
 
 
-// address: 0x80154E24
+// address: 0x801485A0
 // line start: 311
 // line end:   336
 void DrawBlind__Fii(int x, int y) {
+	// register: 10
+	register int rw;
+	// register: 11
+	register int rh;
+	// register: 5
+	register int i;
+	// register: 7
+	register int j;
+	// register: 8
+	register unsigned char *sp;
+	// register: 4
+	register unsigned char *setp;
+	{
+	}
+}
+
+
+// address: 0x80154E24
+// line start: 311
+// line end:   336
+void DrawBlind__Fii_addr_80154E24(int x, int y) {
 	// register: 17
 	register int rw;
 	// register: 18
@@ -26,48 +47,6 @@ void DrawBlind__Fii(int x, int y) {
 	// register: 16
 	register unsigned char *sp;
 	// register: 20
-	register unsigned char *setp;
-	{
-	}
-}
-
-
-// address: 0x801485A0
-// line start: 311
-// line end:   336
-void DrawBlind__Fii_addr_801485A0(int x, int y) {
-	// register: 10
-	register int rw;
-	// register: 11
-	register int rh;
-	// register: 5
-	register int i;
-	// register: 7
-	register int j;
-	// register: 8
-	register unsigned char *sp;
-	// register: 4
-	register unsigned char *setp;
-	{
-	}
-}
-
-
-// address: 0x8014867C
-// line start: 343
-// line end:   370
-void DrawBlood__Fii(int x, int y) {
-	// register: 10
-	register int rw;
-	// register: 11
-	register int rh;
-	// register: 5
-	register int i;
-	// register: 7
-	register int j;
-	// register: 8
-	register unsigned char *sp;
-	// register: 4
 	register unsigned char *setp;
 	{
 	}
@@ -77,7 +56,7 @@ void DrawBlood__Fii(int x, int y) {
 // address: 0x80154F68
 // line start: 343
 // line end:   370
-void DrawBlood__Fii_addr_80154F68(int x, int y) {
+void DrawBlood__Fii(int x, int y) {
 	// register: 17
 	register int rw;
 	// register: 18
@@ -89,6 +68,27 @@ void DrawBlood__Fii_addr_80154F68(int x, int y) {
 	// register: 16
 	register unsigned char *sp;
 	// register: 20
+	register unsigned char *setp;
+	{
+	}
+}
+
+
+// address: 0x8014867C
+// line start: 343
+// line end:   370
+void DrawBlood__Fii_addr_8014867C(int x, int y) {
+	// register: 10
+	register int rw;
+	// register: 11
+	register int rh;
+	// register: 5
+	register int i;
+	// register: 7
+	register int j;
+	// register: 8
+	register unsigned char *sp;
+	// register: 4
 	register unsigned char *setp;
 	{
 	}
@@ -102,31 +102,10 @@ void DrawButcher__Fv() {
 }
 
 
-// address: 0x80154CE0
-// line start: 279
-// line end:   304
-void DrawLTBanner__Fii(int x, int y) {
-	// register: 17
-	register int rw;
-	// register: 18
-	register int rh;
-	// register: 4
-	register int i;
-	// register: 6
-	register int j;
-	// register: 16
-	register unsigned char *sp;
-	// register: 20
-	register unsigned char *setp;
-	{
-	}
-}
-
-
 // address: 0x801484C4
 // line start: 279
 // line end:   304
-void DrawLTBanner__Fii_addr_801484C4(int x, int y) {
+void DrawLTBanner__Fii(int x, int y) {
 	// register: 10
 	register int rw;
 	// register: 11
@@ -138,6 +117,27 @@ void DrawLTBanner__Fii_addr_801484C4(int x, int y) {
 	// register: 8
 	register unsigned char *sp;
 	// register: 4
+	register unsigned char *setp;
+	{
+	}
+}
+
+
+// address: 0x80154CE0
+// line start: 279
+// line end:   304
+void DrawLTBanner__Fii_addr_80154CE0(int x, int y) {
+	// register: 17
+	register int rw;
+	// register: 18
+	register int rh;
+	// register: 4
+	register int i;
+	// register: 6
+	register int j;
+	// register: 16
+	register unsigned char *sp;
+	// register: 20
 	register unsigned char *setp;
 	{
 	}

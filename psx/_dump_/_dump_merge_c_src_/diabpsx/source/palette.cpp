@@ -35,16 +35,10 @@ void DrawFadedScreen__Fv() {
 }
 
 
-// address: 0x8007EB6C
-// line start: 258
-// line end:   267
-void DrawFadedScreen__Fv_addr_8007EB6C() {
-	// register: 16
-	// size: 0x70
-	register struct TextDat *ThisDat;
-	// register: 2
-	// size: 0x34
-	register struct POLY_GT4 *GT4a;
+// address: 0x80076734
+// line start: 261
+// line end:   266
+void DrawFadedScreen__Fv_addr_80076734() {
 }
 
 
@@ -61,23 +55,6 @@ void DrawFadedScreen__Fv_addr_8007EC34() {
 }
 
 
-// address: 0x80077E88
-// line start: 186
-// line end:   198
-void DrawFadedScreen__Fv_addr_80077E88() {
-	// register: 2
-	// size: 0x28
-	register struct POLY_FT4 *FT4;
-}
-
-
-// address: 0x80076734
-// line start: 261
-// line end:   266
-void DrawFadedScreen__Fv_addr_80076734() {
-}
-
-
 // address: 0x8007762C
 // line start: 236
 // line end:   256
@@ -85,6 +62,29 @@ void DrawFadedScreen__Fv_addr_8007762C() {
 	// address: 0xFFFFFFF0
 	// size: 0x28
 	auto struct POLY_FT4 *FT4;
+}
+
+
+// address: 0x8007EB6C
+// line start: 258
+// line end:   267
+void DrawFadedScreen__Fv_addr_8007EB6C() {
+	// register: 16
+	// size: 0x70
+	register struct TextDat *ThisDat;
+	// register: 2
+	// size: 0x34
+	register struct POLY_GT4 *GT4a;
+}
+
+
+// address: 0x80077E88
+// line start: 186
+// line end:   198
+void DrawFadedScreen__Fv_addr_80077E88() {
+	// register: 2
+	// size: 0x28
+	register struct POLY_FT4 *FT4;
 }
 
 
@@ -109,21 +109,10 @@ void LoadRndLvlPal__Fi(int l) {
 }
 
 
-// address: 0x80077BE8
-// line start: 304
-// line end:   332
-void PaletteFadeInTask__FP4TASK(struct TASK *T) {
-	// register: 16
-	register int i;
-	{
-	}
-}
-
-
 // address: 0x80078010
 // line start: 222
 // line end:   245
-void PaletteFadeInTask__FP4TASK_addr_80078010(struct TASK *T) {
+void PaletteFadeInTask__FP4TASK(struct TASK *T) {
 	// register: 16
 	register int i;
 }
@@ -140,6 +129,17 @@ void PaletteFadeInTask__FP4TASK_addr_80076844(struct TASK *T) {
 	{
 		// register: 16
 		register int diff;
+	}
+}
+
+
+// address: 0x80077BE8
+// line start: 304
+// line end:   332
+void PaletteFadeInTask__FP4TASK_addr_80077BE8(struct TASK *T) {
+	// register: 16
+	register int i;
+	{
 	}
 }
 
@@ -162,15 +162,6 @@ void PaletteFadeOutTask__FP4TASK(struct TASK *T) {
 }
 
 
-// address: 0x800780EC
-// line start: 267
-// line end:   293
-void PaletteFadeOutTask__FP4TASK_addr_800780EC(struct TASK *T) {
-	// register: 16
-	register int i;
-}
-
-
 // address: 0x80076958
 // line start: 354
 // line end:   389
@@ -183,6 +174,15 @@ void PaletteFadeOutTask__FP4TASK_addr_80076958(struct TASK *T) {
 		// register: 16
 		register int diff;
 	}
+}
+
+
+// address: 0x800780EC
+// line start: 267
+// line end:   293
+void PaletteFadeOutTask__FP4TASK_addr_800780EC(struct TASK *T) {
+	// register: 16
+	register int i;
 }
 
 
@@ -209,10 +209,21 @@ void SetFadeLevel__Fi(int fadeval) {
 }
 
 
-// address: 0x800781A4
+// address: 0x800783CC
 // line start: 203
 // line end:   227
 void SetPolyXY__FP8POLY_GT4PUc(struct POLY_GT4 *gt4, unsigned char *coords) {
+	// register: 6
+	register unsigned char bright1;
+	// register: 3
+	register unsigned char bright2;
+}
+
+
+// address: 0x800781A4
+// line start: 203
+// line end:   227
+void SetPolyXY__FP8POLY_GT4PUc_addr_800781A4(struct POLY_GT4 *gt4, unsigned char *coords) {
 	// register: 3
 	register unsigned char bright1;
 	// register: 8
@@ -224,17 +235,6 @@ void SetPolyXY__FP8POLY_GT4PUc(struct POLY_GT4 *gt4, unsigned char *coords) {
 // line start: 202
 // line end:   226
 void SetPolyXY__FP8POLY_GT4PUc_addr_80077528(struct POLY_GT4 *gt4, unsigned char *coords) {
-	// register: 3
-	register unsigned char bright2;
-}
-
-
-// address: 0x800783CC
-// line start: 203
-// line end:   227
-void SetPolyXY__FP8POLY_GT4PUc_addr_800783CC(struct POLY_GT4 *gt4, unsigned char *coords) {
-	// register: 6
-	register unsigned char bright1;
 	// register: 3
 	register unsigned char bright2;
 }

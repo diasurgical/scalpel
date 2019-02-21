@@ -16,17 +16,17 @@ void ClearOutOverlays__Fv() {
 }
 
 
-// address: 0x8008D050
-// line start: 199
-// line end:   206
-void ClearOut__7Overlay(struct Overlay_dup_1 *this) {
-}
-
-
 // address: 0x80089A30
 // line start: 187
 // line end:   194
-void ClearOut__7Overlay_addr_80089A30(struct Overlay *this) {
+void ClearOut__7Overlay(struct Overlay *this) {
+}
+
+
+// address: 0x8008D050
+// line start: 199
+// line end:   206
+void ClearOut__7Overlay_addr_8008D050(struct Overlay_dup_1 *this) {
 }
 
 
@@ -45,20 +45,20 @@ void LoadOver__FR7Overlay(struct Overlay *Ovr) {
 }
 
 
-// address: 0x80089AF4
-// line start: 203
-// line end:   216
-void Load__7Overlay(struct Overlay *this) {
+// address: 0x8008D114
+// line start: 215
+// line end:   228
+void Load__7Overlay(struct Overlay_dup_1 *this) {
 	// address: 0xFFFFFEF8
 	// size: 0x100
 	auto char OverlayFile[256];
 }
 
 
-// address: 0x8008D114
-// line start: 215
-// line end:   228
-void Load__7Overlay_addr_8008D114(struct Overlay_dup_1 *this) {
+// address: 0x80089AF4
+// line start: 203
+// line end:   216
+void Load__7Overlay_addr_80089AF4(struct Overlay *this) {
 	// address: 0xFFFFFEF8
 	// size: 0x100
 	auto char OverlayFile[256];

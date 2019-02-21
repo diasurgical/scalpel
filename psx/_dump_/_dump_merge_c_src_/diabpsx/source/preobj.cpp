@@ -272,22 +272,22 @@ void AddMagicCircle__Fi(int i) {
 }
 
 
-// address: 0x8014BCDC
+// address: 0x8013FA90
 // line start: 414
 // line end:   423
 void AddMurkyFountain__Fi(int i) {
-	// register: 4
+	// register: 5
 	register int x;
 	// register: 7
 	register int y;
 }
 
 
-// address: 0x8013FA90
+// address: 0x8014BCDC
 // line start: 414
 // line end:   423
-void AddMurkyFountain__Fi_addr_8013FA90(int i) {
-	// register: 5
+void AddMurkyFountain__Fi_addr_8014BCDC(int i) {
+	// register: 4
 	register int x;
 	// register: 7
 	register int y;
@@ -418,19 +418,19 @@ void AddSlainHero__Fv() {
 }
 
 
-// address: 0x8014C10C
-// line start: 496
-// line end:   507
-void AddStoryBook__Fi(int i) {
-}
-
-
 // address: 0x8013FDB0
 // line start: 496
 // line end:   513
-void AddStoryBook__Fi_addr_8013FDB0(int i) {
+void AddStoryBook__Fi(int i) {
 	// register: 4
 	register int bookframe;
+}
+
+
+// address: 0x8014C10C
+// line start: 496
+// line end:   507
+void AddStoryBook__Fi_addr_8014C10C(int i) {
 }
 
 
@@ -515,20 +515,20 @@ void AddTrapLine__Fiiii(int min, int max, int tobjtype, int lobjtype) {
 }
 
 
-// address: 0x8014B4E4
+// address: 0x8013F414
 // line start: 255
 // line end:   266
 void AddTrap__Fii(int i, int ot) {
-	// register: 17
+	// register: 4
 	register int mt;
 }
 
 
-// address: 0x8013F414
+// address: 0x8014B4E4
 // line start: 255
 // line end:   266
-void AddTrap__Fii_addr_8013F414(int i, int ot) {
-	// register: 4
+void AddTrap__Fii_addr_8014B4E4(int i, int ot) {
+	// register: 17
 	register int mt;
 }
 

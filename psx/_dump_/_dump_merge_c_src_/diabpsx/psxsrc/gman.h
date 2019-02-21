@@ -2,11 +2,19 @@
 
 #include "types.h"
 
+// address: 0x801462D4
+// size: 0xC
+// line start: 223
+// line end:   223
+struct FRAME_HDR *GetFr__7TextDati(struct TextDat_dup_1 *this, int FrNum) {
+}
+
+
 // address: 0x8012694C
 // size: 0xC
 // line start: 221
 // line end:   221
-struct FRAME_HDR *GetFr__7TextDati(struct TextDat *this, int FrNum) {
+struct FRAME_HDR *GetFr__7TextDati_addr_8012694C(struct TextDat *this, int FrNum) {
 }
 
 
@@ -18,33 +26,30 @@ struct FRAME_HDR_dup_14 *GetFr__7TextDati_addr_8013E364(struct TextDat_dup_14 *t
 }
 
 
-// address: 0x801462D4
-// size: 0xC
-// line start: 223
-// line end:   223
-struct FRAME_HDR *GetFr__7TextDati_addr_801462D4(struct TextDat_dup_1 *this, int FrNum) {
-}
-
-
-// address: 0x80125054
+// address: 0x8013C9D4
 // line start: 345
-// line end:   1235
-void ___7CScreen(struct CScreen *this, int __in_chrg);
+// line end:   1484
+void ___7CScreen(struct CScreen_dup_14 *this, int __in_chrg);
 
 // address: 0x801449DC
 // line start: 372
 // line end:   1338
 void ___7CScreen_addr_801449DC(struct CScreen_dup_1 *this, int __in_chrg);
 
-// address: 0x8013C9D4
+// address: 0x80125054
 // line start: 345
-// line end:   1484
-void ___7CScreen_addr_8013C9D4(struct CScreen_dup_14 *this, int __in_chrg);
+// line end:   1235
+void ___7CScreen_addr_80125054(struct CScreen *this, int __in_chrg);
 
 // address: 0x8012D42C
 // line start: 345
 // line end:   475
 void ___7CScreen_addr_8012D42C(struct CScreen *this, int __in_chrg);
+
+// address: 0x8013B750
+// line start: 345
+// line end:   469
+void ___7CScreen_addr_8013B750(struct CScreen *this, int __in_chrg);
 
 // address: 0x8013BB58
 // line start: 345
@@ -151,14 +156,6 @@ void ___7CScreen_addr_8013367C(struct CScreen *this, int __in_chrg);
 // line end:   475
 void ___7CScreen_addr_80139988(struct CScreen *this, int __in_chrg);
 
-// address: 0x8013E224
-// size: 0xC
-// line start: 229
-// line end:   229
-struct FRAME_HDR *GetFr__7TextDati_addr_8013E224(struct TextDat_dup_18 *this, int FrNum) {
-}
-
-
 // address: 0x8013E32C
 // size: 0xC
 // line start: 229
@@ -167,20 +164,28 @@ struct FRAME_HDR_dup_17 *GetFr__7TextDati_addr_8013E32C(struct TextDat_dup_17 *t
 }
 
 
+// address: 0x8013E224
+// size: 0xC
+// line start: 229
+// line end:   229
+struct FRAME_HDR *GetFr__7TextDati_addr_8013E224(struct TextDat_dup_18 *this, int FrNum) {
+}
+
+
 // address: 0x8013E204
 // line start: 382
 // line end:   716
 void ___7CScreen_addr_8013E204(struct CScreen_dup_18 *this, int __in_chrg);
 
-// address: 0x8013E30C
-// line start: 382
-// line end:   716
-void ___7CScreen_addr_8013E30C(struct CScreen_dup_17 *this, int __in_chrg);
-
 // address: 0x80139B84
 // line start: 382
 // line end:   716
 void ___7CScreen_addr_80139B84(struct CScreen_dup_19 *this, int __in_chrg);
+
+// address: 0x8013E30C
+// line start: 382
+// line end:   716
+void ___7CScreen_addr_8013E30C(struct CScreen_dup_17 *this, int __in_chrg);
 
 // address: 0x80082DB8
 // line start: 246
@@ -193,6 +198,13 @@ bool CanXferFrame__7TextDat(struct TextDat_dup_1 *this) {
 // line start: 243
 // line end:   243
 bool CanXferFrame__C7TextDat(struct TextDat *this) {
+}
+
+
+// address: 0x80094FD4
+// line start: 259
+// line end:   259
+bool CanXferFrame__C7TextDat_addr_80094FD4(struct TextDat_dup_17 *this) {
 }
 
 
@@ -210,13 +222,6 @@ bool CanXferFrame__C7TextDat_addr_80094F04(struct TextDat_dup_18 *this) {
 }
 
 
-// address: 0x80094FD4
-// line start: 259
-// line end:   259
-bool CanXferFrame__C7TextDat_addr_80094FD4(struct TextDat_dup_17 *this) {
-}
-
-
 // address: 0x80082DE0
 // line start: 243
 // line end:   243
@@ -231,10 +236,17 @@ bool CanXferPal__7TextDat_addr_8008CDF4(struct TextDat_dup_1 *this) {
 }
 
 
+// address: 0x80094F2C
+// line start: 258
+// line end:   258
+bool CanXferPal__C7TextDat(struct TextDat_dup_18 *this) {
+}
+
+
 // address: 0x80081488
 // line start: 242
 // line end:   242
-bool CanXferPal__C7TextDat(struct TextDat_dup_14 *this) {
+bool CanXferPal__C7TextDat_addr_80081488(struct TextDat_dup_14 *this) {
 }
 
 
@@ -242,13 +254,6 @@ bool CanXferPal__C7TextDat(struct TextDat_dup_14 *this) {
 // line start: 258
 // line end:   258
 bool CanXferPal__C7TextDat_addr_80094FFC(struct TextDat_dup_17 *this) {
-}
-
-
-// address: 0x80094F2C
-// line start: 258
-// line end:   258
-bool CanXferPal__C7TextDat_addr_80094F2C(struct TextDat_dup_18 *this) {
 }
 
 
@@ -292,19 +297,11 @@ void DumpDatFile__7TextDat_addr_80094F60(struct TextDat_dup_17 *this) {
 }
 
 
-// address: 0x8007F9E0
+// address: 0x80082E08
 // size: 0x14
-// line start: 271
-// line end:   273
-struct CCreatureHdr *GetCreature__7TextDati(struct TextDat *this, int Creature) {
-}
-
-
-// address: 0x80091B1C
-// size: 0x14
-// line start: 284
-// line end:   286
-struct CCreatureHdr *GetCreature__7TextDati_addr_80091B1C(struct TextDat_dup_17 *this, int Creature) {
+// line start: 298
+// line end:   300
+struct CCreatureHdr *GetCreature__7TextDati(struct TextDat_dup_1 *this, int Creature) {
 }
 
 
@@ -316,19 +313,27 @@ struct CCreatureHdr *GetCreature__7TextDati_addr_80091A4C(struct TextDat_dup_18 
 }
 
 
-// address: 0x80082E08
-// size: 0x14
-// line start: 298
-// line end:   300
-struct CCreatureHdr *GetCreature__7TextDati_addr_80082E08(struct TextDat_dup_1 *this, int Creature) {
-}
-
-
 // address: 0x800814C8
 // size: 0x14
 // line start: 271
 // line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_800814C8(struct TextDat_dup_14 *this, int Creature) {
+}
+
+
+// address: 0x8007F9E0
+// size: 0x14
+// line start: 271
+// line end:   273
+struct CCreatureHdr *GetCreature__7TextDati_addr_8007F9E0(struct TextDat *this, int Creature) {
+}
+
+
+// address: 0x80091B1C
+// size: 0x14
+// line start: 284
+// line end:   286
+struct CCreatureHdr *GetCreature__7TextDati_addr_80091B1C(struct TextDat_dup_17 *this, int Creature) {
 }
 
 
@@ -393,6 +398,14 @@ struct CCreatureHdr *GetCreature__7TextDati_addr_800A041C(struct TextDat *this, 
 // line start: 271
 // line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_800A057C(struct TextDat *this, int Creature) {
+}
+
+
+// address: 0x800A0070
+// size: 0x14
+// line start: 271
+// line end:   273
+struct CCreatureHdr *GetCreature__7TextDati_addr_800A0070(struct TextDat *this, int Creature) {
 }
 
 
@@ -604,6 +617,14 @@ struct CCreatureHdr *GetCreature__7TextDati_addr_8008B860(struct TextDat *this, 
 }
 
 
+// address: 0x8008BB0C
+// size: 0x14
+// line start: 271
+// line end:   273
+struct CCreatureHdr *GetCreature__7TextDati_addr_8008BB0C(struct TextDat *this, int Creature) {
+}
+
+
 // address: 0x8008BC48
 // size: 0x14
 // line start: 271
@@ -713,6 +734,14 @@ struct CCreatureHdr *GetCreature__7TextDati_addr_8008CC94(struct TextDat *this, 
 // line start: 298
 // line end:   300
 struct CCreatureHdr *GetCreature__7TextDati_addr_8008CE54(struct TextDat_dup_1 *this, int Creature) {
+}
+
+
+// address: 0x8008CF40
+// size: 0x14
+// line start: 271
+// line end:   273
+struct CCreatureHdr *GetCreature__7TextDati_addr_8008CF40(struct TextDat *this, int Creature) {
 }
 
 
@@ -881,6 +910,14 @@ struct CCreatureHdr *GetCreature__7TextDati_addr_80058A5C(struct TextDat *this, 
 // line start: 271
 // line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_80058A40(struct TextDat *this, int Creature) {
+}
+
+
+// address: 0x80058A80
+// size: 0x14
+// line start: 271
+// line end:   273
+struct CCreatureHdr *GetCreature__7TextDati_addr_80058A80(struct TextDat *this, int Creature) {
 }
 
 
@@ -1105,6 +1142,14 @@ struct CCreatureHdr *GetCreature__7TextDati_addr_80093EA4(struct TextDat *this, 
 // line start: 271
 // line end:   273
 struct CCreatureHdr *GetCreature__7TextDati_addr_80093F88(struct TextDat *this, int Creature) {
+}
+
+
+// address: 0x80093FF4
+// size: 0x14
+// line start: 271
+// line end:   273
+struct CCreatureHdr *GetCreature__7TextDati_addr_80093FF4(struct TextDat *this, int Creature) {
 }
 
 
@@ -1468,11 +1513,11 @@ struct CCreatureHdr *GetCreature__7TextDati_addr_80096488(struct TextDat *this, 
 }
 
 
-// address: 0x800ADCAC
+// address: 0x800ADC94
 // size: 0xC
 // line start: 243
 // line end:   247
-struct ALL_DECOMP_BUFFERS *GetDecompBuffers__7TextDat(struct TextDat_dup_17 *this) {
+struct ALL_DECOMP_BUFFERS *GetDecompBuffers__7TextDat(struct TextDat *this) {
 }
 
 
@@ -1484,11 +1529,11 @@ struct ALL_DECOMP_BUFFERS *GetDecompBuffers__7TextDat_addr_800ADBD8(struct TextD
 }
 
 
-// address: 0x800ADC94
+// address: 0x800ADCAC
 // size: 0xC
 // line start: 243
 // line end:   247
-struct ALL_DECOMP_BUFFERS *GetDecompBuffers__7TextDat_addr_800ADC94(struct TextDat *this) {
+struct ALL_DECOMP_BUFFERS *GetDecompBuffers__7TextDat_addr_800ADCAC(struct TextDat_dup_17 *this) {
 }
 
 
@@ -1497,6 +1542,14 @@ struct ALL_DECOMP_BUFFERS *GetDecompBuffers__7TextDat_addr_800ADC94(struct TextD
 // line start: 221
 // line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_800A00A8(struct TextDat *this, int FrNum) {
+}
+
+
+// address: 0x800A00FC
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_800A00FC(struct TextDat *this, int FrNum) {
 }
 
 
@@ -1820,6 +1873,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_8008B914(struct TextDat *this, int FrNum
 }
 
 
+// address: 0x8008BBC0
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_8008BBC0(struct TextDat *this, int FrNum) {
+}
+
+
 // address: 0x8008BCFC
 // size: 0xC
 // line start: 221
@@ -2028,6 +2089,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_8008E878(struct TextDat *this, int FrNum
 }
 
 
+// address: 0x8008EAF8
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_8008EAF8(struct TextDat *this, int FrNum) {
+}
+
+
 // address: 0x8008EC80
 // size: 0xC
 // line start: 221
@@ -2204,6 +2273,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_8009E41C(struct TextDat *this, int FrNum
 }
 
 
+// address: 0x8009E424
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_8009E424(struct TextDat *this, int FrNum) {
+}
+
+
 // address: 0x8009E808
 // size: 0xC
 // line start: 221
@@ -2358,17 +2435,17 @@ struct FRAME_HDR *GetFr__7TextDati_addr_80034FBC(struct TextDat *this, int FrNum
 
 // address: 0x80035FCC
 // size: 0xC
-// line start: 223
-// line end:   223
-struct FRAME_HDR *GetFr__7TextDati_addr_80035FCC(struct TextDat_dup_1 *this, int FrNum) {
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_80035FCC(struct TextDat *this, int FrNum) {
 }
 
 
 // address: 0x80035FCC
 // size: 0xC
-// line start: 221
-// line end:   221
-struct FRAME_HDR *GetFr__7TextDati_addr_80035FCC_addr_80035FCC(struct TextDat *this, int FrNum) {
+// line start: 223
+// line end:   223
+struct FRAME_HDR *GetFr__7TextDati_addr_80035FCC_addr_80035FCC(struct TextDat_dup_1 *this, int FrNum) {
 }
 
 
@@ -2425,6 +2502,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_80047B18(struct TextDat *this, int FrNum
 // line start: 221
 // line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_80047B34(struct TextDat *this, int FrNum) {
+}
+
+
+// address: 0x80047B58
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_80047B58(struct TextDat *this, int FrNum) {
 }
 
 
@@ -2984,7 +3069,7 @@ struct FRAME_HDR *GetFr__7TextDati_addr_800376A0(struct TextDat *this, int FrNum
 // size: 0xC
 // line start: 229
 // line end:   229
-struct FRAME_HDR *GetFr__7TextDati_addr_800376C8(struct TextDat_dup_18 *this, int FrNum) {
+struct FRAME_HDR_dup_17 *GetFr__7TextDati_addr_800376C8(struct TextDat_dup_17 *this, int FrNum) {
 }
 
 
@@ -2992,7 +3077,7 @@ struct FRAME_HDR *GetFr__7TextDati_addr_800376C8(struct TextDat_dup_18 *this, in
 // size: 0xC
 // line start: 229
 // line end:   229
-struct FRAME_HDR_dup_17 *GetFr__7TextDati_addr_800376C8_addr_800376C8(struct TextDat_dup_17 *this, int FrNum) {
+struct FRAME_HDR *GetFr__7TextDati_addr_800376C8_addr_800376C8(struct TextDat_dup_18 *this, int FrNum) {
 }
 
 
@@ -3196,6 +3281,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_800872B4(struct TextDat *this, int FrNum
 }
 
 
+// address: 0x800875C4
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_800875C4(struct TextDat *this, int FrNum) {
+}
+
+
 // address: 0x800876B0
 // size: 0xC
 // line start: 221
@@ -3393,6 +3486,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_8006279C(struct TextDat *this, int FrNum
 // line start: 221
 // line end:   221
 struct FRAME_HDR *GetFr__7TextDati_addr_8006301C(struct TextDat *this, int FrNum) {
+}
+
+
+// address: 0x8006310C
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_8006310C(struct TextDat *this, int FrNum) {
 }
 
 
@@ -3692,6 +3793,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_80084820(struct TextDat *this, int FrNum
 }
 
 
+// address: 0x80085098
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_80085098(struct TextDat *this, int FrNum) {
+}
+
+
 // address: 0x80085148
 // size: 0xC
 // line start: 221
@@ -3828,6 +3937,14 @@ struct FRAME_HDR *GetFr__7TextDati_addr_80094308(struct TextDat *this, int FrNum
 }
 
 
+// address: 0x80096350
+// size: 0xC
+// line start: 221
+// line end:   221
+struct FRAME_HDR *GetFr__7TextDati_addr_80096350(struct TextDat *this, int FrNum) {
+}
+
+
 // address: 0x8007FAC4
 // line start: 167
 // line end:   167
@@ -3835,17 +3952,10 @@ char *GetName__C13CTextFileInfo(struct CTextFileInfo *this) {
 }
 
 
-// address: 0x80091AF8
-// line start: 252
-// line end:   252
-int GetNumOfActions__7TextDati(struct TextDat_dup_17 *this, int Creature) {
-}
-
-
-// address: 0x8008E0EC
-// line start: 238
-// line end:   238
-int GetNumOfActions__7TextDati_addr_8008E0EC(struct TextDat_dup_1 *this, int Creature) {
+// address: 0x8008D420
+// line start: 236
+// line end:   236
+int GetNumOfActions__7TextDati(struct TextDat_dup_14 *this, int Creature) {
 }
 
 
@@ -3856,10 +3966,10 @@ int GetNumOfActions__7TextDati_addr_80091A28(struct TextDat_dup_18 *this, int Cr
 }
 
 
-// address: 0x8008D420
-// line start: 236
-// line end:   236
-int GetNumOfActions__7TextDati_addr_8008D420(struct TextDat_dup_14 *this, int Creature) {
+// address: 0x8008E0EC
+// line start: 238
+// line end:   238
+int GetNumOfActions__7TextDati_addr_8008E0EC(struct TextDat_dup_1 *this, int Creature) {
 }
 
 
@@ -3867,6 +3977,13 @@ int GetNumOfActions__7TextDati_addr_8008D420(struct TextDat_dup_14 *this, int Cr
 // line start: 236
 // line end:   236
 int GetNumOfActions__7TextDati_addr_8008ABD0(struct TextDat *this, int Creature) {
+}
+
+
+// address: 0x80091AF8
+// line start: 252
+// line end:   252
+int GetNumOfActions__7TextDati_addr_80091AF8(struct TextDat_dup_17 *this, int Creature) {
 }
 
 
@@ -3909,6 +4026,13 @@ int GetNumOfActions__7TextDati_addr_80093E80(struct TextDat *this, int Creature)
 // line start: 236
 // line end:   236
 int GetNumOfActions__7TextDati_addr_80093F64(struct TextDat *this, int Creature) {
+}
+
+
+// address: 0x80093FD0
+// line start: 236
+// line end:   236
+int GetNumOfActions__7TextDati_addr_80093FD0(struct TextDat *this, int Creature) {
 }
 
 
@@ -4052,10 +4176,10 @@ int GetNumOfActions__7TextDati_addr_80096528(struct TextDat_dup_17 *this, int Cr
 }
 
 
-// address: 0x80094F88
+// address: 0x80095058
 // line start: 251
 // line end:   251
-int GetNumOfCreatures__7TextDat(struct TextDat_dup_18 *this) {
+int GetNumOfCreatures__7TextDat(struct TextDat_dup_17 *this) {
 }
 
 
@@ -4066,13 +4190,6 @@ int GetNumOfCreatures__7TextDat_addr_80082E80(struct TextDat_dup_1 *this) {
 }
 
 
-// address: 0x80081540
-// line start: 235
-// line end:   235
-int GetNumOfCreatures__7TextDat_addr_80081540(struct TextDat_dup_14 *this) {
-}
-
-
 // address: 0x8007FA58
 // line start: 235
 // line end:   235
@@ -4080,10 +4197,24 @@ int GetNumOfCreatures__7TextDat_addr_8007FA58(struct TextDat *this) {
 }
 
 
-// address: 0x80095058
+// address: 0x80081540
+// line start: 235
+// line end:   235
+int GetNumOfCreatures__7TextDat_addr_80081540(struct TextDat_dup_14 *this) {
+}
+
+
+// address: 0x80094F88
 // line start: 251
 // line end:   251
-int GetNumOfCreatures__7TextDat_addr_80095058(struct TextDat_dup_17 *this) {
+int GetNumOfCreatures__7TextDat_addr_80094F88(struct TextDat_dup_18 *this) {
+}
+
+
+// address: 0x800A00E8
+// line start: 235
+// line end:   235
+int GetNumOfCreatures__7TextDat_addr_800A00E8(struct TextDat *this) {
 }
 
 
@@ -4269,6 +4400,13 @@ int GetNumOfCreatures__7TextDat_addr_8008B454(struct TextDat *this) {
 }
 
 
+// address: 0x8008BB84
+// line start: 235
+// line end:   235
+int GetNumOfCreatures__7TextDat_addr_8008BB84(struct TextDat *this) {
+}
+
+
 // address: 0x8008BCC0
 // line start: 235
 // line end:   235
@@ -4364,6 +4502,13 @@ int GetNumOfCreatures__7TextDat_addr_8008CD04(struct TextDat *this) {
 // line start: 237
 // line end:   237
 int GetNumOfCreatures__7TextDat_addr_8008CECC(struct TextDat_dup_1 *this) {
+}
+
+
+// address: 0x8008CFB8
+// line start: 235
+// line end:   235
+int GetNumOfCreatures__7TextDat_addr_8008CFB8(struct TextDat *this) {
 }
 
 
@@ -4518,6 +4663,13 @@ int GetNumOfCreatures__7TextDat_addr_80058AB8(struct TextDat *this) {
 // line start: 235
 // line end:   235
 int GetNumOfCreatures__7TextDat_addr_80058AD4(struct TextDat *this) {
+}
+
+
+// address: 0x80058AF8
+// line start: 235
+// line end:   235
+int GetNumOfCreatures__7TextDat_addr_80058AF8(struct TextDat *this) {
 }
 
 
@@ -4815,6 +4967,13 @@ int GetNumOfCreatures__7TextDat_addr_8009162C(struct TextDat *this) {
 }
 
 
+// address: 0x8009406C
+// line start: 235
+// line end:   235
+int GetNumOfCreatures__7TextDat_addr_8009406C(struct TextDat *this) {
+}
+
+
 // address: 0x80058590
 // line start: 235
 // line end:   235
@@ -4969,17 +5128,24 @@ int GetNumOfCreatures__7TextDat_addr_80097094(struct TextDat *this) {
 }
 
 
-// address: 0x80091A74
-// line start: 233
-// line end:   233
-int GetNumOfFrames__7TextDat(struct TextDat_dup_18 *this) {
-}
-
-
 // address: 0x80081560
 // line start: 225
 // line end:   225
-int GetNumOfFrames__7TextDat_addr_80081560(struct TextDat_dup_14 *this) {
+int GetNumOfFrames__7TextDat(struct TextDat_dup_14 *this) {
+}
+
+
+// address: 0x80091B44
+// line start: 233
+// line end:   233
+int GetNumOfFrames__7TextDat_addr_80091B44(struct TextDat_dup_17 *this) {
+}
+
+
+// address: 0x80091A74
+// line start: 233
+// line end:   233
+int GetNumOfFrames__7TextDat_addr_80091A74(struct TextDat_dup_18 *this) {
 }
 
 
@@ -4994,13 +5160,6 @@ int GetNumOfFrames__7TextDat_addr_80082E9C(struct TextDat_dup_1 *this) {
 // line start: 225
 // line end:   225
 int GetNumOfFrames__7TextDat_addr_8007FA78(struct TextDat *this) {
-}
-
-
-// address: 0x80091B44
-// line start: 233
-// line end:   233
-int GetNumOfFrames__7TextDat_addr_80091B44(struct TextDat_dup_17 *this) {
 }
 
 
@@ -5214,17 +5373,10 @@ int GetNumOfFrames__7TextDat_addr_80095078(struct TextDat_dup_17 *this) {
 }
 
 
-// address: 0x80091AC0
-// line start: 253
-// line end:   253
-int GetNumOfFrames__7TextDatii(struct TextDat_dup_17 *this, int Creature, int Action) {
-}
-
-
 // address: 0x8008BFF4
 // line start: 237
 // line end:   237
-int GetNumOfFrames__7TextDatii_addr_8008BFF4(struct TextDat_dup_14 *this, int Creature, int Action) {
+int GetNumOfFrames__7TextDatii(struct TextDat_dup_14 *this, int Creature, int Action) {
 }
 
 
@@ -5232,6 +5384,13 @@ int GetNumOfFrames__7TextDatii_addr_8008BFF4(struct TextDat_dup_14 *this, int Cr
 // line start: 237
 // line end:   237
 int GetNumOfFrames__7TextDatii_addr_800897D8(struct TextDat *this, int Creature, int Action) {
+}
+
+
+// address: 0x80091AC0
+// line start: 253
+// line end:   253
+int GetNumOfFrames__7TextDatii_addr_80091AC0(struct TextDat_dup_17 *this, int Creature, int Action) {
 }
 
 
@@ -5288,6 +5447,13 @@ int GetNumOfFrames__7TextDatii_addr_800A13A0(struct TextDat *this, int Creature,
 // line start: 237
 // line end:   237
 int GetNumOfFrames__7TextDatii_addr_800A15FC(struct TextDat *this, int Creature, int Action) {
+}
+
+
+// address: 0x800A0038
+// line start: 237
+// line end:   237
+int GetNumOfFrames__7TextDatii_addr_800A0038(struct TextDat *this, int Creature, int Action) {
 }
 
 
@@ -5480,6 +5646,13 @@ int GetNumOfFrames__7TextDatii_addr_8008CC38(struct TextDat *this, int Creature,
 }
 
 
+// address: 0x8008CEE4
+// line start: 237
+// line end:   237
+int GetNumOfFrames__7TextDatii_addr_8008CEE4(struct TextDat *this, int Creature, int Action) {
+}
+
+
 // address: 0x8008D0C0
 // line start: 237
 // line end:   237
@@ -5617,6 +5790,13 @@ int GetNumOfFrames__7TextDatii_addr_80058A08(struct TextDat *this, int Creature,
 // line start: 237
 // line end:   237
 int GetNumOfFrames__7TextDatii_addr_80058A24(struct TextDat *this, int Creature, int Action) {
+}
+
+
+// address: 0x80058A48
+// line start: 237
+// line end:   237
+int GetNumOfFrames__7TextDatii_addr_80058A48(struct TextDat *this, int Creature, int Action) {
 }
 
 
@@ -5915,6 +6095,22 @@ struct PAL *GetPal__7TextDati(struct TextDat_dup_18 *this, int PalNum) {
 }
 
 
+// address: 0x8007FA8C
+// size: 0x8
+// line start: 224
+// line end:   224
+struct PAL *GetPal__7TextDati_addr_8007FA8C(struct TextDat *this, int PalNum) {
+}
+
+
+// address: 0x8008CF90
+// size: 0x8
+// line start: 232
+// line end:   232
+struct PAL *GetPal__7TextDati_addr_8008CF90(struct TextDat_dup_17 *this, int PalNum) {
+}
+
+
 // address: 0x80081574
 // size: 0x8
 // line start: 224
@@ -5928,22 +6124,6 @@ struct PAL *GetPal__7TextDati_addr_80081574(struct TextDat_dup_14 *this, int Pal
 // line start: 226
 // line end:   226
 struct PAL *GetPal__7TextDati_addr_80082EB0(struct TextDat_dup_1 *this, int PalNum) {
-}
-
-
-// address: 0x8008CF90
-// size: 0x8
-// line start: 232
-// line end:   232
-struct PAL *GetPal__7TextDati_addr_8008CF90(struct TextDat_dup_17 *this, int PalNum) {
-}
-
-
-// address: 0x8007FA8C
-// size: 0x8
-// line start: 224
-// line end:   224
-struct PAL *GetPal__7TextDati_addr_8007FA8C(struct TextDat *this, int PalNum) {
 }
 
 
@@ -5992,6 +6172,14 @@ struct PAL *GetPal__7TextDati_addr_8008B474(struct TextDat *this, int PalNum) {
 // line start: 224
 // line end:   224
 struct PAL *GetPal__7TextDati_addr_8008B710(struct TextDat *this, int PalNum) {
+}
+
+
+// address: 0x8008BBA4
+// size: 0x8
+// line start: 224
+// line end:   224
+struct PAL *GetPal__7TextDati_addr_8008BBA4(struct TextDat *this, int PalNum) {
 }
 
 
@@ -6171,6 +6359,14 @@ struct PAL *GetPal__7TextDati_addr_8008E830(struct TextDat *this, int PalNum) {
 }
 
 
+// address: 0x8008EADC
+// size: 0x8
+// line start: 224
+// line end:   224
+struct PAL *GetPal__7TextDati_addr_8008EADC(struct TextDat *this, int PalNum) {
+}
+
+
 // address: 0x8008EC6C
 // size: 0x8
 // line start: 224
@@ -6293,17 +6489,17 @@ struct PAL *GetPal__7TextDati_addr_80034FA0(struct TextDat *this, int PalNum) {
 
 // address: 0x80035FB0
 // size: 0x8
-// line start: 224
-// line end:   224
-struct PAL *GetPal__7TextDati_addr_80035FB0(struct TextDat *this, int PalNum) {
+// line start: 226
+// line end:   226
+struct PAL *GetPal__7TextDati_addr_80035FB0(struct TextDat_dup_1 *this, int PalNum) {
 }
 
 
 // address: 0x80035FB0
 // size: 0x8
-// line start: 226
-// line end:   226
-struct PAL *GetPal__7TextDati_addr_80035FB0_addr_80035FB0(struct TextDat_dup_1 *this, int PalNum) {
+// line start: 224
+// line end:   224
+struct PAL *GetPal__7TextDati_addr_80035FB0_addr_80035FB0(struct TextDat *this, int PalNum) {
 }
 
 
@@ -6531,6 +6727,14 @@ struct PAL *GetPal__7TextDati_addr_800376AC_addr_800376AC(struct TextDat_dup_17 
 }
 
 
+// address: 0x800630F0
+// size: 0x8
+// line start: 224
+// line end:   224
+struct PAL *GetPal__7TextDati_addr_800630F0(struct TextDat *this, int PalNum) {
+}
+
+
 // address: 0x800633B0
 // size: 0x8
 // line start: 224
@@ -6576,6 +6780,14 @@ struct PAL *GetPal__7TextDati_addr_800856F0(struct TextDat *this, int PalNum) {
 // line start: 224
 // line end:   224
 struct PAL *GetPal__7TextDati_addr_800870D4(struct TextDat *this, int PalNum) {
+}
+
+
+// address: 0x800875A8
+// size: 0x8
+// line start: 224
+// line end:   224
+struct PAL *GetPal__7TextDati_addr_800875A8(struct TextDat *this, int PalNum) {
 }
 
 
@@ -6914,24 +7126,17 @@ int GetSize__C6CBlock(struct CBlock *this) {
 }
 
 
-// address: 0x8007F9D4
-// line start: 240
-// line end:   240
-int GetTexNum__C7TextDat(struct TextDat *this) {
-}
-
-
 // address: 0x80095030
 // line start: 256
 // line end:   256
-int GetTexNum__C7TextDat_addr_80095030(struct TextDat_dup_17 *this) {
+int GetTexNum__C7TextDat(struct TextDat_dup_17 *this) {
 }
 
 
-// address: 0x800814BC
+// address: 0x8007F9D4
 // line start: 240
 // line end:   240
-int GetTexNum__C7TextDat_addr_800814BC(struct TextDat_dup_14 *this) {
+int GetTexNum__C7TextDat_addr_8007F9D4(struct TextDat *this) {
 }
 
 
@@ -6939,6 +7144,13 @@ int GetTexNum__C7TextDat_addr_800814BC(struct TextDat_dup_14 *this) {
 // line start: 256
 // line end:   256
 int GetTexNum__C7TextDat_addr_80094F60(struct TextDat_dup_18 *this) {
+}
+
+
+// address: 0x800814BC
+// line start: 240
+// line end:   240
+int GetTexNum__C7TextDat_addr_800814BC(struct TextDat_dup_14 *this) {
 }
 
 
@@ -6963,10 +7175,10 @@ bool IsLoaded__C7TextDat(struct TextDat *this) {
 }
 
 
-// address: 0x80094F54
+// address: 0x80095024
 // line start: 257
 // line end:   257
-bool IsLoaded__C7TextDat_addr_80094F54(struct TextDat_dup_18 *this) {
+bool IsLoaded__C7TextDat_addr_80095024(struct TextDat_dup_17 *this) {
 }
 
 
@@ -6977,10 +7189,10 @@ bool IsLoaded__C7TextDat_addr_800814B0(struct TextDat_dup_14 *this) {
 }
 
 
-// address: 0x80095024
+// address: 0x80094F54
 // line start: 257
 // line end:   257
-bool IsLoaded__C7TextDat_addr_80095024(struct TextDat_dup_17 *this) {
+bool IsLoaded__C7TextDat_addr_80094F54(struct TextDat_dup_18 *this) {
 }
 
 
@@ -6988,20 +7200,6 @@ bool IsLoaded__C7TextDat_addr_80095024(struct TextDat_dup_17 *this) {
 // line start: 265
 // line end:   269
 void SetDecompArea__7TextDatiiii(struct TextDat_dup_18 *this, int nDecX, int nDecY, int nPalX, int nPalY) {
-}
-
-
-// address: 0x8008E09C
-// line start: 278
-// line end:   282
-void SetDecompArea__7TextDatiiii_addr_8008E09C(struct TextDat_dup_1 *this, int nDecX, int nDecY, int nPalX, int nPalY) {
-}
-
-
-// address: 0x8008D3D0
-// line start: 249
-// line end:   253
-void SetDecompArea__7TextDatiiii_addr_8008D3D0(struct TextDat_dup_14 *this, int nDecX, int nDecY, int nPalX, int nPalY) {
 }
 
 
@@ -7016,6 +7214,20 @@ void SetDecompArea__7TextDatiiii_addr_800964D8(struct TextDat_dup_17 *this, int 
 // line start: 249
 // line end:   253
 void SetDecompArea__7TextDatiiii_addr_8008AB80(struct TextDat *this, int nDecX, int nDecY, int nPalX, int nPalY) {
+}
+
+
+// address: 0x8008D3D0
+// line start: 249
+// line end:   253
+void SetDecompArea__7TextDatiiii_addr_8008D3D0(struct TextDat_dup_14 *this, int nDecX, int nDecY, int nPalX, int nPalY) {
+}
+
+
+// address: 0x8008E09C
+// line start: 278
+// line end:   282
+void SetDecompArea__7TextDatiiii_addr_8008E09C(struct TextDat_dup_1 *this, int nDecX, int nDecY, int nPalX, int nPalY) {
 }
 
 
@@ -7040,17 +7252,17 @@ void SetFileInfo__7TextDatPC13CTextFileInfo_addr_8008E19C(struct TextDat_dup_1 *
 }
 
 
-// address: 0x80081554
-// line start: 232
-// line end:   232
-void SetFileInfo__7TextDatPC13CTextFileInfoi(struct TextDat_dup_14 *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
-}
-
-
 // address: 0x80091B38
 // line start: 240
 // line end:   240
-void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_80091B38(struct TextDat_dup_17 *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
+void SetFileInfo__7TextDatPC13CTextFileInfoi(struct TextDat_dup_17 *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
+}
+
+
+// address: 0x80081554
+// line start: 232
+// line end:   232
+void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_80081554(struct TextDat_dup_14 *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
 }
 
 
@@ -7152,6 +7364,13 @@ void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_8008B704(struct TextDat *this,
 }
 
 
+// address: 0x8008BB98
+// line start: 232
+// line end:   232
+void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_8008BB98(struct TextDat *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
+}
+
+
 // address: 0x8008BCD4
 // line start: 232
 // line end:   232
@@ -7240,6 +7459,13 @@ void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_8008CD18(struct TextDat *this,
 // line start: 232
 // line end:   232
 void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_8008CD20(struct TextDat *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
+}
+
+
+// address: 0x8008CFCC
+// line start: 232
+// line end:   232
+void SetFileInfo__7TextDatPC13CTextFileInfoi_addr_8008CFCC(struct TextDat *this, struct CTextFileInfo *NewInfo, int NewTexNum) {
 }
 
 

@@ -62,11 +62,51 @@ enum KANJI_FRMS GetKanjiCacheFrm__Fv() {
 }
 
 
-// address: 0x800AD8A8
+// address: 0x800AD97C
 // size: 0x28
 // line start: 535
 // line end:   619
 struct POLY_FT4 *GetKanjiFrm__FUs(unsigned short kan) {
+	// address: 0xFFFFFFE0
+	// size: 0x28
+	auto struct POLY_FT4 *ft4;
+	// register: 17
+	register int im;
+	// address: 0xFFFFFEB8
+	// size: 0x8
+	auto struct RECT r;
+	// address: 0xFFFFFEC0
+	// size: 0x90
+	auto unsigned char deBuff[144];
+	// address: 0xFFFFFF50
+	// size: 0x90
+	auto unsigned char dekbuff[144];
+	// register: 3
+	// size: 0x4
+	register struct vbuffS *kl;
+	// register: 16
+	// size: 0x70
+	register struct TextDat_dup_17 *Dat;
+	// register: 17
+	register int TpX;
+	// register: 16
+	register int TpY;
+	// register: 16
+	register unsigned char *kbuff;
+	// register: 18
+	register unsigned char *kanjbuff;
+	// register: 3
+	register int U;
+	// register: 4
+	register int V;
+}
+
+
+// address: 0x800AD8A8
+// size: 0x28
+// line start: 535
+// line end:   619
+struct POLY_FT4 *GetKanjiFrm__FUs_addr_800AD8A8(unsigned short kan) {
 	// address: 0xFFFFFFE0
 	// size: 0x28
 	auto struct POLY_FT4 *ft4;
@@ -139,46 +179,6 @@ struct POLY_FT4 *GetKanjiFrm__FUs_addr_800AD8F4(unsigned short kan) {
 }
 
 
-// address: 0x800AD97C
-// size: 0x28
-// line start: 535
-// line end:   619
-struct POLY_FT4 *GetKanjiFrm__FUs_addr_800AD97C(unsigned short kan) {
-	// address: 0xFFFFFFE0
-	// size: 0x28
-	auto struct POLY_FT4 *ft4;
-	// register: 17
-	register int im;
-	// address: 0xFFFFFEB8
-	// size: 0x8
-	auto struct RECT r;
-	// address: 0xFFFFFEC0
-	// size: 0x90
-	auto unsigned char deBuff[144];
-	// address: 0xFFFFFF50
-	// size: 0x90
-	auto unsigned char dekbuff[144];
-	// register: 3
-	// size: 0x4
-	register struct vbuffS *kl;
-	// register: 16
-	// size: 0x70
-	register struct TextDat_dup_17 *Dat;
-	// register: 17
-	register int TpX;
-	// register: 16
-	register int TpY;
-	// register: 16
-	register unsigned char *kbuff;
-	// register: 18
-	register unsigned char *kanjbuff;
-	// register: 3
-	register int U;
-	// register: 4
-	register int V;
-}
-
-
 // address: 0x800AD468
 // line start: 294
 // line end:   295
@@ -202,32 +202,6 @@ void KANJI_SetCache__F10KANJI_FRMS(enum KANJI_FRMS ct) {
 				// register: 16
 				// size: 0x70
 				register struct TextDat_dup_18 *Dat;
-				{
-					{
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x800AD014
-// line start: 150
-// line end:   232
-void KANJI_SetCache__F10KANJI_FRMS_addr_800AD014(enum KANJI_FRMS ct) {
-	// register: 17
-	// size: 0x108
-	register struct CBlocks_dup_19 *BgBlocks;
-	{
-		{
-			// register: 16
-			// size: 0x70
-			register struct TextDat *Dat;
-			{
-				// register: 16
-				// size: 0x70
-				register struct TextDat *Dat;
 				{
 					{
 					}
@@ -290,10 +264,36 @@ void KANJI_SetCache__F10KANJI_FRMS_addr_800AD08C(enum KANJI_FRMS ct) {
 }
 
 
-// address: 0x800AD4CC
+// address: 0x800AD014
+// line start: 150
+// line end:   232
+void KANJI_SetCache__F10KANJI_FRMS_addr_800AD014(enum KANJI_FRMS ct) {
+	// register: 17
+	// size: 0x108
+	register struct CBlocks_dup_19 *BgBlocks;
+	{
+		{
+			// register: 16
+			// size: 0x70
+			register struct TextDat *Dat;
+			{
+				// register: 16
+				// size: 0x70
+				register struct TextDat *Dat;
+				{
+					{
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800AD3F8
 // line start: 317
 // line end:   330
-void KANJI_SetDb__F10LANG_DB_NO(enum LANG_DB_NO_dup_17 NewLangDbNo) {
+void KANJI_SetDb__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 	// register: 16
 	// size: 0x5C
 	register struct TASK *T;
@@ -303,10 +303,10 @@ void KANJI_SetDb__F10LANG_DB_NO(enum LANG_DB_NO_dup_17 NewLangDbNo) {
 }
 
 
-// address: 0x800AD3F8
+// address: 0x800AD4CC
 // line start: 317
 // line end:   330
-void KANJI_SetDb__F10LANG_DB_NO_addr_800AD3F8(enum LANG_DB_NO NewLangDbNo) {
+void KANJI_SetDb__F10LANG_DB_NO_addr_800AD4CC(enum LANG_DB_NO_dup_17 NewLangDbNo) {
 	// register: 16
 	// size: 0x5C
 	register struct TASK *T;
@@ -373,23 +373,10 @@ int KPrintChar__FUsUsUcUcUs_addr_8009F65C(unsigned short Cx, unsigned short Cy, 
 }
 
 
-// address: 0x800AD474
-// line start: 300
-// line end:   313
-void KanjiSetTSK__FP4TASK(struct TASK *T) {
-	// register: 2
-	// size: 0x10
-	register struct DEF_ARGS *args;
-	// register: 16
-	// size: 0x4
-	register enum LANG_DB_NO_dup_17 NewLangDbNo;
-}
-
-
 // address: 0x800AD3A0
 // line start: 300
 // line end:   313
-void KanjiSetTSK__FP4TASK_addr_800AD3A0(struct TASK *T) {
+void KanjiSetTSK__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *args;
@@ -399,21 +386,34 @@ void KanjiSetTSK__FP4TASK_addr_800AD3A0(struct TASK *T) {
 }
 
 
-// address: 0x800A16DC
-// line start: 44
-// line end:   67
-void LoadKanjiFont__FPc(char *name) {
-	// register: 4
-	// size: 0x14
-	register struct FileIO *Fs;
+// address: 0x800AD474
+// line start: 300
+// line end:   313
+void KanjiSetTSK__FP4TASK_addr_800AD474(struct TASK *T) {
+	// register: 2
+	// size: 0x10
+	register struct DEF_ARGS *args;
+	// register: 16
+	// size: 0x4
+	register enum LANG_DB_NO_dup_17 NewLangDbNo;
 }
 
 
 // address: 0x800ACF68
 // line start: 71
 // line end:   90
-void LoadKanjiFont__FPc_addr_800ACF68(char *name) {
+void LoadKanjiFont__FPc(char *name) {
 	// register: 17
+	// size: 0x14
+	register struct FileIO *Fs;
+}
+
+
+// address: 0x800A16DC
+// line start: 44
+// line end:   67
+void LoadKanjiFont__FPc_addr_800A16DC(char *name) {
+	// register: 4
 	// size: 0x14
 	register struct FileIO *Fs;
 }
@@ -426,20 +426,20 @@ void LoadKanjiFont__FPc_addr_800A04C4(char *name) {
 }
 
 
-// address: 0x8009F948
-// line start: 37
-// line end:   54
-void LoadKanjiFont__Fv() {
-	// register: 16
-	// size: 0x14
-	register struct FileIO *Fs;
-}
-
-
 // address: 0x8009F494
 // line start: 34
 // line end:   36
-void LoadKanjiFont__Fv_addr_8009F494() {
+void LoadKanjiFont__Fv() {
+}
+
+
+// address: 0x8009F948
+// line start: 37
+// line end:   54
+void LoadKanjiFont__Fv_addr_8009F948() {
+	// register: 16
+	// size: 0x14
+	register struct FileIO *Fs;
 }
 
 
@@ -480,10 +480,17 @@ void LoadKanjiIndex__Fv_addr_8009FA18() {
 }
 
 
+// address: 0x800AD328
+// line start: 245
+// line end:   278
+void LoadKanji__F10LANG_DB_NO(enum LANG_DB_NO_dup_17 NewLangDbNo) {
+}
+
+
 // address: 0x800A0694
 // line start: 101
 // line end:   123
-void LoadKanji__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
+void LoadKanji__F10LANG_DB_NO_addr_800A0694(enum LANG_DB_NO NewLangDbNo) {
 	// address: 0xFFFFFFD0
 	// size: 0x28
 	auto char tmp[40];
@@ -496,13 +503,6 @@ void LoadKanji__F10LANG_DB_NO(enum LANG_DB_NO NewLangDbNo) {
 // line start: 245
 // line end:   278
 void LoadKanji__F10LANG_DB_NO_addr_800AD254(enum LANG_DB_NO NewLangDbNo) {
-}
-
-
-// address: 0x800AD328
-// line start: 245
-// line end:   278
-void LoadKanji__F10LANG_DB_NO_addr_800AD328(enum LANG_DB_NO_dup_17 NewLangDbNo) {
 }
 
 
@@ -564,17 +564,10 @@ void _get_font__FPUsUsUs(unsigned short *into, unsigned short num, unsigned shor
 }
 
 
-// address: 0x800AD5CC
-// line start: 351
-// line end:   355
-unsigned short getb__FUs(unsigned short n) {
-}
-
-
 // address: 0x8009F50C
 // line start: 49
 // line end:   67
-unsigned short *getb__FUs_addr_8009F50C(unsigned short n) {
+unsigned short *getb__FUs(unsigned short n) {
 	// register: 3
 	// size: 0x4
 	register struct kindexS *ii;
@@ -596,6 +589,13 @@ unsigned short *getb__FUs_addr_8009FB04(unsigned short n) {
 	register int i;
 	// register: 16
 	register int off;
+}
+
+
+// address: 0x800AD5CC
+// line start: 351
+// line end:   355
+unsigned short getb__FUs_addr_800AD5CC(unsigned short n) {
 }
 
 

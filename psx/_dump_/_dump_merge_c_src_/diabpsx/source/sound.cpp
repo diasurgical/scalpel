@@ -23,26 +23,33 @@ void music_release__Fv() {
 }
 
 
-// address: 0x80077BB8
+// address: 0x80070818
 // line start: 261
-// line end:   276
+// line end:   275
 void music_start__Fi(int nTrack) {
 	{
 		{
-			// register: 3
+			// register: 2
 			register int MusicVolume;
 		}
 	}
 }
 
 
-// address: 0x80070818
+// address: 0x8007145C
+// line start: 260
+// line end:   273
+void music_start__Fi_addr_8007145C(int nTrack) {
+}
+
+
+// address: 0x80077BB8
 // line start: 261
-// line end:   275
-void music_start__Fi_addr_80070818(int nTrack) {
+// line end:   276
+void music_start__Fi_addr_80077BB8(int nTrack) {
 	{
 		{
-			// register: 2
+			// register: 3
 			register int MusicVolume;
 		}
 	}
@@ -62,13 +69,6 @@ void music_start__Fi_addr_80070868(int nTrack) {
 }
 
 
-// address: 0x8007145C
-// line start: 260
-// line end:   273
-void music_start__Fi_addr_8007145C(int nTrack) {
-}
-
-
 // address: 0x800713D0
 // line start: 227
 // line end:   234
@@ -76,19 +76,19 @@ void music_stop__Fv() {
 }
 
 
-// address: 0x800711D4
-// line start: 113
-// line end:   121
-void snd_get_volume__FPCcPl(char *pszKey, long *plVolume) {
-	// register: 2
-	register unsigned long dwTemp;
-}
-
-
 // address: 0x80072AD0
 // line start: 113
 // line end:   123
-void snd_get_volume__FPCcPl_addr_80072AD0(char *pszKey, long *plVolume) {
+void snd_get_volume__FPCcPl(char *pszKey, long *plVolume) {
+}
+
+
+// address: 0x800711D4
+// line start: 113
+// line end:   121
+void snd_get_volume__FPCcPl_addr_800711D4(char *pszKey, long *plVolume) {
+	// register: 2
+	register unsigned long dwTemp;
 }
 
 
@@ -115,17 +115,17 @@ void snd_play_msnd__FUsll_addr_80077A88(unsigned short pszName, long lVolume, lo
 }
 
 
-// address: 0x80070B78
-// line start: 141
-// line end:   158
-void snd_play_snd__FP4TSFXll(struct TSFX_dup_13 *pSnd, long lVolume, long lPan) {
-}
-
-
 // address: 0x8007125C
 // line start: 141
 // line end:   158
-void snd_play_snd__FP4TSFXll_addr_8007125C(struct TSFX *pSnd, long lVolume, long lPan) {
+void snd_play_snd__FP4TSFXll(struct TSFX *pSnd, long lVolume, long lPan) {
+}
+
+
+// address: 0x80070B78
+// line start: 141
+// line end:   158
+void snd_play_snd__FP4TSFXll_addr_80070B78(struct TSFX_dup_13 *pSnd, long lVolume, long lPan) {
 }
 
 

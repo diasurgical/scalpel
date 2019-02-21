@@ -18,33 +18,33 @@ void AS_CallBack0__Fi_addr_8009A6F0(int ah) {
 }
 
 
-// address: 0x8009A75C
-// line start: 102
-// line end:   113
-void AS_CallBack1__Fi(int ah) {
-	// register: 16
-	register unsigned long OldGp;
-}
-
-
 // address: 0x8008DFF4
 // line start: 90
 // line end:   91
-void AS_CallBack1__Fi_addr_8008DFF4(int handle) {
+void AS_CallBack1__Fi(int handle) {
 }
 
 
-// address: 0x8009A960
-// line start: 205
-// line end:   212
-void AS_CloseStream__FP6STRHDRP6SFXHDR(struct STRHDR *sh, struct SFXHDR_dup_17 *sfh) {
+// address: 0x8009A75C
+// line start: 102
+// line end:   113
+void AS_CallBack1__Fi_addr_8009A75C(int ah) {
+	// register: 16
+	register unsigned long OldGp;
 }
 
 
 // address: 0x8008E190
 // line start: 184
 // line end:   188
-void AS_CloseStream__FP6STRHDRP6SFXHDR_addr_8008E190(struct STRHDR *sh, struct SFXHDR *sfh) {
+void AS_CloseStream__FP6STRHDRP6SFXHDR(struct STRHDR *sh, struct SFXHDR *sfh) {
+}
+
+
+// address: 0x8009A960
+// line start: 205
+// line end:   212
+void AS_CloseStream__FP6STRHDRP6SFXHDR_addr_8009A960(struct STRHDR *sh, struct SFXHDR_dup_17 *sfh) {
 }
 
 
@@ -71,19 +71,19 @@ int AS_LoopStream__FiP6STRHDRP6SFXHDR(int ah, struct STRHDR *sh, struct SFXHDR *
 }
 
 
-// address: 0x8008E0E4
-// line start: 147
-// line end:   163
-int AS_OpenStream__FP6STRHDRP6SFXHDR(struct STRHDR *sh, struct SFXHDR *sfh) {
+// address: 0x8009A890
+// line start: 166
+// line end:   183
+int AS_OpenStream__FP6STRHDRP6SFXHDR(struct STRHDR *sh, struct SFXHDR_dup_17 *sfh) {
 	// register: 16
 	register int ah;
 }
 
 
-// address: 0x8009A890
-// line start: 166
-// line end:   183
-int AS_OpenStream__FP6STRHDRP6SFXHDR_addr_8009A890(struct STRHDR *sh, struct SFXHDR_dup_17 *sfh) {
+// address: 0x8008E0E4
+// line start: 147
+// line end:   163
+int AS_OpenStream__FP6STRHDRP6SFXHDR_addr_8008E0E4(struct STRHDR *sh, struct SFXHDR *sfh) {
 	// register: 16
 	register int ah;
 }

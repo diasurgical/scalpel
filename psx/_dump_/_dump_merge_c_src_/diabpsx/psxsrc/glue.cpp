@@ -2,43 +2,72 @@
 
 #include "types.h"
 
-// address: 0x8009B928
-// line start: 470
-// line end:   625
+// address: 0x8008E928
+// line start: 427
+// line end:   585
 void BgTask__FP4TASK(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *Args;
-	// register: 18
-	register bool IsTown;
-	// register: 20
-	register int TextId;
-	// register: 16
-	register int Level;
-	// register: 17
-	register int ObjId;
 	// register: 19
+	register bool IsTown;
+	// register: 16
+	register int TextId;
+	// register: 17
+	register int Level;
+	// register: 18
+	register int ObjId;
+	// register: 20
 	register int List;
-	// register: 21
-	// size: 0x19E8
-	register struct PlayerStruct *plr1;
-	// register: 22
-	// size: 0x19E8
-	register struct PlayerStruct *plr2;
-	// address: 0xFFFFFD78
-	// size: 0x108
-	auto struct CBlocks MyBlocks;
-	// address: 0xFFFFFE80
-	// size: 0x90
+	// address: 0xFFFFFDD0
+	// size: 0xE0
+	auto struct CBlocks_dup_4 MyBlocks;
+	// address: 0xFFFFFEB0
+	// size: 0x84
 	auto struct CPlayer MyPlayer;
-	// address: 0xFFFFFF10
-	// size: 0x90
+	// address: 0xFFFFFF38
+	// size: 0x84
 	auto struct CPlayer MyPlayer2;
-	// address: 0xFFFFFFA0
-	// size: 0x1C
-	auto struct GPanel P1Panel;
 	// address: 0xFFFFFFC0
-	// size: 0x1C
+	// size: 0x10
+	auto struct GPanel P1Panel;
+	// address: 0xFFFFFFD0
+	// size: 0x10
+	auto struct GPanel P2Panel;
+}
+
+
+// address: 0x8008EFEC
+// line start: 417
+// line end:   572
+void BgTask__FP4TASK_addr_8008EFEC(struct TASK *T) {
+	// register: 2
+	// size: 0x10
+	register struct DEF_ARGS *Args;
+	// register: 19
+	register bool IsTown;
+	// register: 16
+	register int TextId;
+	// register: 17
+	register int Level;
+	// register: 18
+	register int ObjId;
+	// register: 20
+	register int List;
+	// address: 0xFFFFFDD0
+	// size: 0xE0
+	auto struct CBlocks MyBlocks;
+	// address: 0xFFFFFEB0
+	// size: 0x84
+	auto struct CPlayer MyPlayer;
+	// address: 0xFFFFFF38
+	// size: 0x84
+	auto struct CPlayer MyPlayer2;
+	// address: 0xFFFFFFC0
+	// size: 0x10
+	auto struct GPanel P1Panel;
+	// address: 0xFFFFFFD0
+	// size: 0x10
 	auto struct GPanel P2Panel;
 }
 
@@ -81,6 +110,47 @@ void BgTask__FP4TASK_addr_8009B874(struct TASK *T) {
 	// address: 0xFFFFFFC0
 	// size: 0x1C
 	auto struct GPanel_dup_19 P2Panel;
+}
+
+
+// address: 0x8009B9F0
+// line start: 470
+// line end:   625
+void BgTask__FP4TASK_addr_8009B9F0(struct TASK *T) {
+	// register: 2
+	// size: 0x10
+	register struct DEF_ARGS *Args;
+	// register: 18
+	register bool IsTown;
+	// register: 20
+	register int TextId;
+	// register: 16
+	register int Level;
+	// register: 17
+	register int ObjId;
+	// register: 19
+	register int List;
+	// register: 21
+	// size: 0x19E8
+	register struct PlayerStruct_dup_17 *plr1;
+	// register: 22
+	// size: 0x19E8
+	register struct PlayerStruct_dup_17 *plr2;
+	// address: 0xFFFFFD78
+	// size: 0x108
+	auto struct CBlocks_dup_17 MyBlocks;
+	// address: 0xFFFFFE80
+	// size: 0x90
+	auto struct CPlayer_dup_17 MyPlayer;
+	// address: 0xFFFFFF10
+	// size: 0x90
+	auto struct CPlayer_dup_17 MyPlayer2;
+	// address: 0xFFFFFFA0
+	// size: 0x1C
+	auto struct GPanel_dup_17 P1Panel;
+	// address: 0xFFFFFFC0
+	// size: 0x1C
+	auto struct GPanel_dup_17 P2Panel;
 }
 
 
@@ -160,38 +230,44 @@ void BgTask__FP4TASK_addr_80091E60(struct TASK *T) {
 }
 
 
-// address: 0x8009250C
-// line start: 417
-// line end:   569
-void BgTask__FP4TASK_addr_8009250C(struct TASK *T) {
+// address: 0x8009B928
+// line start: 470
+// line end:   625
+void BgTask__FP4TASK_addr_8009B928(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *Args;
-	// register: 19
-	register bool IsTown;
-	// register: 16
-	register int TextId;
-	// register: 17
-	register int Level;
 	// register: 18
-	register int ObjId;
+	register bool IsTown;
 	// register: 20
+	register int TextId;
+	// register: 16
+	register int Level;
+	// register: 17
+	register int ObjId;
+	// register: 19
 	register int List;
-	// address: 0xFFFFFDE0
-	// size: 0xDC
-	auto struct CBlocks_dup_1 MyBlocks;
-	// address: 0xFFFFFEC0
-	// size: 0x80
-	auto struct CPlayer_dup_1 MyPlayer;
-	// address: 0xFFFFFF40
-	// size: 0x80
-	auto struct CPlayer_dup_1 MyPlayer2;
+	// register: 21
+	// size: 0x19E8
+	register struct PlayerStruct *plr1;
+	// register: 22
+	// size: 0x19E8
+	register struct PlayerStruct *plr2;
+	// address: 0xFFFFFD78
+	// size: 0x108
+	auto struct CBlocks MyBlocks;
+	// address: 0xFFFFFE80
+	// size: 0x90
+	auto struct CPlayer MyPlayer;
+	// address: 0xFFFFFF10
+	// size: 0x90
+	auto struct CPlayer MyPlayer2;
+	// address: 0xFFFFFFA0
+	// size: 0x1C
+	auto struct GPanel P1Panel;
 	// address: 0xFFFFFFC0
-	// size: 0x10
-	auto struct GPanel_dup_1 P1Panel;
-	// address: 0xFFFFFFD0
-	// size: 0x10
-	auto struct GPanel_dup_1 P2Panel;
+	// size: 0x1C
+	auto struct GPanel P2Panel;
 }
 
 
@@ -230,86 +306,10 @@ void BgTask__FP4TASK_addr_80091A00(struct TASK *T) {
 }
 
 
-// address: 0x8008E928
-// line start: 427
-// line end:   585
-void BgTask__FP4TASK_addr_8008E928(struct TASK *T) {
-	// register: 2
-	// size: 0x10
-	register struct DEF_ARGS *Args;
-	// register: 19
-	register bool IsTown;
-	// register: 16
-	register int TextId;
-	// register: 17
-	register int Level;
-	// register: 18
-	register int ObjId;
-	// register: 20
-	register int List;
-	// address: 0xFFFFFDD0
-	// size: 0xE0
-	auto struct CBlocks_dup_4 MyBlocks;
-	// address: 0xFFFFFEB0
-	// size: 0x84
-	auto struct CPlayer MyPlayer;
-	// address: 0xFFFFFF38
-	// size: 0x84
-	auto struct CPlayer MyPlayer2;
-	// address: 0xFFFFFFC0
-	// size: 0x10
-	auto struct GPanel P1Panel;
-	// address: 0xFFFFFFD0
-	// size: 0x10
-	auto struct GPanel P2Panel;
-}
-
-
-// address: 0x8009B9F0
-// line start: 470
-// line end:   625
-void BgTask__FP4TASK_addr_8009B9F0(struct TASK *T) {
-	// register: 2
-	// size: 0x10
-	register struct DEF_ARGS *Args;
-	// register: 18
-	register bool IsTown;
-	// register: 20
-	register int TextId;
-	// register: 16
-	register int Level;
-	// register: 17
-	register int ObjId;
-	// register: 19
-	register int List;
-	// register: 21
-	// size: 0x19E8
-	register struct PlayerStruct_dup_17 *plr1;
-	// register: 22
-	// size: 0x19E8
-	register struct PlayerStruct_dup_17 *plr2;
-	// address: 0xFFFFFD78
-	// size: 0x108
-	auto struct CBlocks_dup_17 MyBlocks;
-	// address: 0xFFFFFE80
-	// size: 0x90
-	auto struct CPlayer_dup_17 MyPlayer;
-	// address: 0xFFFFFF10
-	// size: 0x90
-	auto struct CPlayer_dup_17 MyPlayer2;
-	// address: 0xFFFFFFA0
-	// size: 0x1C
-	auto struct GPanel_dup_17 P1Panel;
-	// address: 0xFFFFFFC0
-	// size: 0x1C
-	auto struct GPanel_dup_17 P2Panel;
-}
-
-
-// address: 0x8008EFEC
+// address: 0x8009250C
 // line start: 417
-// line end:   572
-void BgTask__FP4TASK_addr_8008EFEC(struct TASK *T) {
+// line end:   569
+void BgTask__FP4TASK_addr_8009250C(struct TASK *T) {
 	// register: 2
 	// size: 0x10
 	register struct DEF_ARGS *Args;
@@ -323,21 +323,21 @@ void BgTask__FP4TASK_addr_8008EFEC(struct TASK *T) {
 	register int ObjId;
 	// register: 20
 	register int List;
-	// address: 0xFFFFFDD0
-	// size: 0xE0
-	auto struct CBlocks MyBlocks;
-	// address: 0xFFFFFEB0
-	// size: 0x84
-	auto struct CPlayer MyPlayer;
-	// address: 0xFFFFFF38
-	// size: 0x84
-	auto struct CPlayer MyPlayer2;
+	// address: 0xFFFFFDE0
+	// size: 0xDC
+	auto struct CBlocks_dup_1 MyBlocks;
+	// address: 0xFFFFFEC0
+	// size: 0x80
+	auto struct CPlayer_dup_1 MyPlayer;
+	// address: 0xFFFFFF40
+	// size: 0x80
+	auto struct CPlayer_dup_1 MyPlayer2;
 	// address: 0xFFFFFFC0
 	// size: 0x10
-	auto struct GPanel P1Panel;
+	auto struct GPanel_dup_1 P1Panel;
 	// address: 0xFFFFFFD0
 	// size: 0x10
-	auto struct GPanel P2Panel;
+	auto struct GPanel_dup_1 P2Panel;
 }
 
 
@@ -345,6 +345,27 @@ void BgTask__FP4TASK_addr_8008EFEC(struct TASK *T) {
 // line start: 430
 // line end:   450
 void DoShowPanelGFX__FP6GPanelT0(struct GPanel_dup_19 *P1, struct GPanel_dup_19 *P2) {
+}
+
+
+// address: 0x80092434
+// line start: 386
+// line end:   406
+void DoShowPanelGFX__FP6GPanelT0_addr_80092434(struct GPanel_dup_1 *P1, struct GPanel_dup_1 *P2) {
+}
+
+
+// address: 0x8009B834
+// line start: 430
+// line end:   450
+void DoShowPanelGFX__FP6GPanelT0_addr_8009B834(struct GPanel_dup_18 *P1, struct GPanel_dup_18 *P2) {
+}
+
+
+// address: 0x80091D88
+// line start: 407
+// line end:   427
+void DoShowPanelGFX__FP6GPanelT0_addr_80091D88(struct GPanel_dup_14 *P1, struct GPanel_dup_14 *P2) {
 }
 
 
@@ -362,64 +383,11 @@ void DoShowPanelGFX__FP6GPanelT0_addr_8009B908(struct GPanel_dup_17 *P1, struct 
 }
 
 
-// address: 0x8009B834
-// line start: 430
-// line end:   450
-void DoShowPanelGFX__FP6GPanelT0_addr_8009B834(struct GPanel_dup_18 *P1, struct GPanel_dup_18 *P2) {
-}
-
-
-// address: 0x80092434
-// line start: 386
-// line end:   406
-void DoShowPanelGFX__FP6GPanelT0_addr_80092434(struct GPanel_dup_1 *P1, struct GPanel_dup_1 *P2) {
-}
-
-
-// address: 0x80091D88
-// line start: 407
-// line end:   427
-void DoShowPanelGFX__FP6GPanelT0_addr_80091D88(struct GPanel_dup_14 *P1, struct GPanel_dup_14 *P2) {
-}
-
-
-// address: 0x800914C4
-// size: 0x8
-// line start: 624
-// line end:   629
-struct PInf *FindPlayerChar__FP12PlayerStruct(struct PlayerStruct_dup_7 *P) {
-}
-
-
-// address: 0x8008F598
-// size: 0x8
-// line start: 607
-// line end:   612
-struct PInf *FindPlayerChar__FP12PlayerStruct_addr_8008F598(struct PlayerStruct *P) {
-}
-
-
-// address: 0x80092010
-// size: 0xC
-// line start: 647
-// line end:   652
-struct PInf_dup_12 *FindPlayerChar__FP12PlayerStruct_addr_80092010(struct PlayerStruct *P) {
-}
-
-
-// address: 0x80091BB8
-// size: 0x8
-// line start: 624
-// line end:   629
-struct PInf *FindPlayerChar__FP12PlayerStruct_addr_80091BB8(struct PlayerStruct_dup_11 *P) {
-}
-
-
 // address: 0x80090D9C
 // size: 0x8
 // line start: 620
 // line end:   625
-struct PInf *FindPlayerChar__FP12PlayerStruct_addr_80090D9C(struct PlayerStruct_dup_6 *P) {
+struct PInf *FindPlayerChar__FP12PlayerStruct(struct PlayerStruct_dup_6 *P) {
 }
 
 
@@ -431,19 +399,11 @@ struct PInf *FindPlayerChar__FP12PlayerStruct_addr_8008EEF8(struct PlayerStruct_
 }
 
 
-// address: 0x800925B4
-// size: 0xC
-// line start: 652
-// line end:   657
-struct PInf *FindPlayerChar__FP12PlayerStruct_addr_800925B4(struct PlayerStruct_dup_13 *P) {
-}
-
-
-// address: 0x800924B4
-// size: 0xC
-// line start: 660
-// line end:   665
-struct PInf *FindPlayerChar__FP12PlayerStruct_addr_800924B4(struct PlayerStruct *P) {
+// address: 0x8008F598
+// size: 0x8
+// line start: 607
+// line end:   612
+struct PInf *FindPlayerChar__FP12PlayerStruct_addr_8008F598(struct PlayerStruct *P) {
 }
 
 
@@ -455,6 +415,38 @@ struct PInf *FindPlayerChar__FP12PlayerStruct_addr_8009BF90(struct PlayerStruct_
 }
 
 
+// address: 0x800914C4
+// size: 0x8
+// line start: 624
+// line end:   629
+struct PInf *FindPlayerChar__FP12PlayerStruct_addr_800914C4(struct PlayerStruct_dup_7 *P) {
+}
+
+
+// address: 0x800925B4
+// size: 0xC
+// line start: 652
+// line end:   657
+struct PInf *FindPlayerChar__FP12PlayerStruct_addr_800925B4(struct PlayerStruct_dup_13 *P) {
+}
+
+
+// address: 0x80092010
+// size: 0xC
+// line start: 647
+// line end:   652
+struct PInf_dup_12 *FindPlayerChar__FP12PlayerStruct_addr_80092010(struct PlayerStruct *P) {
+}
+
+
+// address: 0x800924B4
+// size: 0xC
+// line start: 660
+// line end:   665
+struct PInf *FindPlayerChar__FP12PlayerStruct_addr_800924B4(struct PlayerStruct *P) {
+}
+
+
 // address: 0x8009BEBC
 // size: 0xC
 // line start: 660
@@ -463,30 +455,18 @@ struct PInf *FindPlayerChar__FP12PlayerStruct_addr_8009BEBC(struct PlayerStruct_
 }
 
 
-// address: 0x80092040
-// line start: 656
-// line end:   668
-int FindPlayerChar__FP12PlayerStructb(struct PlayerStruct *P, bool InTown) {
-	// register: 3
-	// size: 0xC
-	register struct PInf_dup_12 *Inf;
+// address: 0x80091BB8
+// size: 0x8
+// line start: 624
+// line end:   629
+struct PInf *FindPlayerChar__FP12PlayerStruct_addr_80091BB8(struct PlayerStruct_dup_11 *P) {
 }
 
 
-// address: 0x800914F4
-// line start: 633
-// line end:   639
-int FindPlayerChar__FP12PlayerStructb_addr_800914F4(struct PlayerStruct_dup_7 *P, bool InTown) {
-	// register: 2
-	// size: 0x8
-	register struct PInf *Inf;
-}
-
-
-// address: 0x8009BE44
+// address: 0x8009BEEC
 // line start: 669
 // line end:   701
-int FindPlayerChar__FP12PlayerStructb_addr_8009BE44(struct PlayerStruct *P, bool InTown) {
+int FindPlayerChar__FP12PlayerStructb(struct PlayerStruct_dup_18 *P, bool InTown) {
 	{
 		{
 			// register: 3
@@ -497,10 +477,44 @@ int FindPlayerChar__FP12PlayerStructb_addr_8009BE44(struct PlayerStruct *P, bool
 }
 
 
-// address: 0x8009BEEC
+// address: 0x800924E4
+// line start: 669
+// line end:   681
+int FindPlayerChar__FP12PlayerStructb_addr_800924E4(struct PlayerStruct *P, bool InTown) {
+	// register: 3
+	// size: 0xC
+	register struct PInf *Inf;
+}
+
+
+// address: 0x8009BFC0
 // line start: 669
 // line end:   701
-int FindPlayerChar__FP12PlayerStructb_addr_8009BEEC(struct PlayerStruct_dup_18 *P, bool InTown) {
+int FindPlayerChar__FP12PlayerStructb_addr_8009BFC0(struct PlayerStruct_dup_17 *P, bool InTown) {
+	{
+		{
+			// register: 3
+			// size: 0xC
+			register struct PInf *Inf;
+		}
+	}
+}
+
+
+// address: 0x80092040
+// line start: 656
+// line end:   668
+int FindPlayerChar__FP12PlayerStructb_addr_80092040(struct PlayerStruct *P, bool InTown) {
+	// register: 3
+	// size: 0xC
+	register struct PInf_dup_12 *Inf;
+}
+
+
+// address: 0x8009BE44
+// line start: 669
+// line end:   701
+int FindPlayerChar__FP12PlayerStructb_addr_8009BE44(struct PlayerStruct *P, bool InTown) {
 	{
 		{
 			// register: 3
@@ -531,10 +545,10 @@ int FindPlayerChar__FP12PlayerStructb_addr_80090DCC(struct PlayerStruct_dup_6 *P
 }
 
 
-// address: 0x8008F5C8
-// line start: 616
-// line end:   622
-int FindPlayerChar__FP12PlayerStructb_addr_8008F5C8(struct PlayerStruct *P, bool InTown) {
+// address: 0x800914F4
+// line start: 633
+// line end:   639
+int FindPlayerChar__FP12PlayerStructb_addr_800914F4(struct PlayerStruct_dup_7 *P, bool InTown) {
 	// register: 2
 	// size: 0x8
 	register struct PInf *Inf;
@@ -551,16 +565,6 @@ int FindPlayerChar__FP12PlayerStructb_addr_80091BE8(struct PlayerStruct_dup_11 *
 }
 
 
-// address: 0x800924E4
-// line start: 669
-// line end:   681
-int FindPlayerChar__FP12PlayerStructb_addr_800924E4(struct PlayerStruct *P, bool InTown) {
-	// register: 3
-	// size: 0xC
-	register struct PInf *Inf;
-}
-
-
 // address: 0x8008EF28
 // line start: 629
 // line end:   635
@@ -571,17 +575,13 @@ int FindPlayerChar__FP12PlayerStructb_addr_8008EF28(struct PlayerStruct_dup_4 *P
 }
 
 
-// address: 0x8009BFC0
-// line start: 669
-// line end:   701
-int FindPlayerChar__FP12PlayerStructb_addr_8009BFC0(struct PlayerStruct_dup_17 *P, bool InTown) {
-	{
-		{
-			// register: 3
-			// size: 0xC
-			register struct PInf *Inf;
-		}
-	}
+// address: 0x8008F5C8
+// line start: 616
+// line end:   622
+int FindPlayerChar__FP12PlayerStructb_addr_8008F5C8(struct PlayerStruct *P, bool InTown) {
+	// register: 2
+	// size: 0x8
+	register struct PInf *Inf;
 }
 
 
@@ -619,10 +619,10 @@ struct PInf *FindPlayerChar__FPc_addr_8008F4B4(char *Id) {
 }
 
 
-// address: 0x8008F53C
-// size: 0x8
-// line start: 597
-// line end:   603
+// address: 0x80092558
+// size: 0xC
+// line start: 642
+// line end:   648
 struct PInf *FindPlayerChar__Fiii(int Char, int Wep, int Arm) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
@@ -630,11 +630,11 @@ struct PInf *FindPlayerChar__Fiii(int Char, int Wep, int Arm) {
 }
 
 
-// address: 0x80092558
-// size: 0xC
-// line start: 642
-// line end:   648
-struct PInf *FindPlayerChar__Fiii_addr_80092558(int Char, int Wep, int Arm) {
+// address: 0x8008F53C
+// size: 0x8
+// line start: 597
+// line end:   603
+struct PInf *FindPlayerChar__Fiii_addr_8008F53C(int Char, int Wep, int Arm) {
 	// address: 0xFFFFFFE0
 	// size: 0x14
 	auto char TxBuff[20];
@@ -801,10 +801,28 @@ void GLUE_SuspendGame__Fv() {
 }
 
 
-// address: 0x8008EF68
+// address: 0x80092B18
+// line start: 629
+// line end:   635
+void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb(struct CPlayer_dup_1 *Player, struct PlayerStruct *Plr, bool InTown) {
+	// register: 16
+	register int Id;
+}
+
+
+// address: 0x80090E0C
 // line start: 645
 // line end:   651
-void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb(struct CPlayer *Player, struct PlayerStruct_dup_4 *Plr, bool InTown) {
+void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_80090E0C(struct CPlayer *Player, struct PlayerStruct_dup_6 *Plr, bool InTown) {
+	// register: 16
+	register int Id;
+}
+
+
+// address: 0x8008F608
+// line start: 632
+// line end:   638
+void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_8008F608(struct CPlayer *Player, struct PlayerStruct *Plr, bool InTown) {
 	// register: 16
 	register int Id;
 }
@@ -828,33 +846,6 @@ void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_80091C28(str
 }
 
 
-// address: 0x80092544
-// line start: 693
-// line end:   708
-void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_80092544(struct CPlayer_dup_14 *Player, struct PlayerStruct *Plr, bool InTown) {
-	// register: 16
-	register int Id;
-}
-
-
-// address: 0x80092B18
-// line start: 629
-// line end:   635
-void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_80092B18(struct CPlayer_dup_1 *Player, struct PlayerStruct *Plr, bool InTown) {
-	// register: 16
-	register int Id;
-}
-
-
-// address: 0x80090E0C
-// line start: 645
-// line end:   651
-void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_80090E0C(struct CPlayer *Player, struct PlayerStruct_dup_6 *Plr, bool InTown) {
-	// register: 16
-	register int Id;
-}
-
-
 // address: 0x80091534
 // line start: 649
 // line end:   655
@@ -864,19 +855,19 @@ void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_80091534(str
 }
 
 
-// address: 0x8008F608
-// line start: 632
-// line end:   638
-void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_8008F608(struct CPlayer *Player, struct PlayerStruct *Plr, bool InTown) {
+// address: 0x8008EF68
+// line start: 645
+// line end:   651
+void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_8008EF68(struct CPlayer *Player, struct PlayerStruct_dup_4 *Plr, bool InTown) {
 	// register: 16
 	register int Id;
 }
 
 
-// address: 0x8009BFC4
-// line start: 714
-// line end:   724
-void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructbT2(struct CPlayer *Player, struct PlayerStruct *Plr, bool InTown, bool Blocking) {
+// address: 0x80092544
+// line start: 693
+// line end:   708
+void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructb_addr_80092544(struct CPlayer_dup_14 *Player, struct PlayerStruct *Plr, bool InTown) {
 	// register: 16
 	register int Id;
 }
@@ -885,7 +876,7 @@ void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructbT2(struct CPlayer 
 // address: 0x8009C08C
 // line start: 714
 // line end:   724
-void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructbT2_addr_8009C08C(struct CPlayer_dup_17 *Player, struct PlayerStruct_dup_17 *Plr, bool InTown, bool Blocking) {
+void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructbT2(struct CPlayer_dup_17 *Player, struct PlayerStruct_dup_17 *Plr, bool InTown, bool Blocking) {
 	// register: 16
 	register int Id;
 }
@@ -895,6 +886,15 @@ void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructbT2_addr_8009C08C(s
 // line start: 714
 // line end:   724
 void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructbT2_addr_8009BFB8(struct CPlayer_dup_18 *Player, struct PlayerStruct_dup_18 *Plr, bool InTown, bool Blocking) {
+	// register: 16
+	register int Id;
+}
+
+
+// address: 0x8009BFC4
+// line start: 714
+// line end:   724
+void MakeSurePlayerDressedProperly__FR7CPlayerR12PlayerStructbT2_addr_8009BFC4(struct CPlayer *Player, struct PlayerStruct *Plr, bool InTown, bool Blocking) {
 	// register: 16
 	register int Id;
 }

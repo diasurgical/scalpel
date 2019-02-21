@@ -16,10 +16,17 @@ int CurrCheatStr__Fv() {
 }
 
 
+// address: 0x8009B6F8
+// line start: 344
+// line end:   365
+void DrawManaShield__FP12PlayerStruct(struct PlayerStruct_dup_17 *ptrplr) {
+}
+
+
 // address: 0x8009B624
 // line start: 344
 // line end:   365
-void DrawManaShield__FP12PlayerStruct(struct PlayerStruct_dup_18 *ptrplr) {
+void DrawManaShield__FP12PlayerStruct_addr_8009B624(struct PlayerStruct_dup_18 *ptrplr) {
 }
 
 
@@ -27,13 +34,6 @@ void DrawManaShield__FP12PlayerStruct(struct PlayerStruct_dup_18 *ptrplr) {
 // line start: 344
 // line end:   365
 void DrawManaShield__FP12PlayerStruct_addr_8009B57C(struct PlayerStruct *ptrplr) {
-}
-
-
-// address: 0x8009B6F8
-// line start: 344
-// line end:   365
-void DrawManaShield__FP12PlayerStruct_addr_8009B6F8(struct PlayerStruct_dup_17 *ptrplr) {
 }
 
 
@@ -128,10 +128,16 @@ void new_eprint__FPcT0i(char *Text, char *File, int Line) {
 }
 
 
-// address: 0x8008E9F4
-// line start: 107
-// line end:   133
+// address: 0x800907CC
+// line start: 116
+// line end:   158
 void print_demo_task__FP4TASK(struct TASK *T) {
+	{
+		{
+			// register: 3
+			register int x;
+		}
+	}
 }
 
 
@@ -150,33 +156,27 @@ void print_demo_task__FP4TASK_addr_8009B228(struct TASK *T) {
 }
 
 
-// address: 0x800907CC
-// line start: 116
-// line end:   158
-void print_demo_task__FP4TASK_addr_800907CC(struct TASK *T) {
-	{
-		{
-			// register: 3
-			register int x;
-		}
-	}
-}
-
-
-// address: 0x8008E450
-// line start: 145
-// line end:   152
-void save_demo_pad_data__FUl(unsigned long demo_num) {
-	// register: 4
-	// size: 0x14
-	register struct FileIO *Fs;
+// address: 0x8008E9F4
+// line start: 107
+// line end:   133
+void print_demo_task__FP4TASK_addr_8008E9F4(struct TASK *T) {
 }
 
 
 // address: 0x8008EB7C
 // line start: 149
 // line end:   155
-void save_demo_pad_data__FUl_addr_8008EB7C(unsigned long demo_num) {
+void save_demo_pad_data__FUl(unsigned long demo_num) {
+}
+
+
+// address: 0x8008E450
+// line start: 145
+// line end:   152
+void save_demo_pad_data__FUl_addr_8008E450(unsigned long demo_num) {
+	// register: 4
+	// size: 0x14
+	register struct FileIO *Fs;
 }
 
 
@@ -247,6 +247,13 @@ void stub__FPcPv_addr_80090CDC(char *e, void *argptr) {
 // line start: 94
 // line end:   95
 void stub__FPcPv_addr_80090CE4(char *e, void *argptr) {
+}
+
+
+// address: 0x80090F5C
+// line start: 93
+// line end:   94
+void stub__FPcPv_addr_80090F5C(char *e, void *argptr) {
 }
 
 

@@ -51,10 +51,25 @@ void CheckRportal__Fv_addr_80035454() {
 }
 
 
+// address: 0x80036138
+// line start: 211
+// line end:   231
+void CheckTown__Fv() {
+	{
+		// register: 18
+		register int i;
+		{
+			// register: 17
+			register int mx;
+		}
+	}
+}
+
+
 // address: 0x800351C8
 // line start: 211
 // line end:   242
-void CheckTown__Fv() {
+void CheckTown__Fv_addr_800351C8() {
 	// register: 11
 	register int ocursmx;
 	// register: 10
@@ -73,21 +88,6 @@ void CheckTown__Fv() {
 					}
 				}
 			}
-		}
-	}
-}
-
-
-// address: 0x80036138
-// line start: 211
-// line end:   231
-void CheckTown__Fv_addr_80036138() {
-	{
-		// register: 18
-		register int i;
-		{
-			// register: 17
-			register int mx;
 		}
 	}
 }

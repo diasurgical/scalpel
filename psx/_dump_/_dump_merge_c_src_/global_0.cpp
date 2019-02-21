@@ -76,11 +76,11 @@ static struct TASK *ActiveTasks;
 // size: 0x28
 extern struct POLY_FT4 *AddrToAvoid;
 
-// address: 0x8011AF48
-extern int Adjust;
-
 // address: 0x80117B58
-static unsigned char Adjust_addr_80117B58;
+static unsigned char Adjust;
+
+// address: 0x8011AF48
+extern int Adjust_addr_8011AF48;
 
 // address: 0x8011C84C
 static unsigned char Adjust_addr_8011C84C;
@@ -112,57 +112,57 @@ extern char *AlertTxt_addr_80116D08;
 // size: 0x348
 extern struct LOAD_IMAGE_ARGS AllArgs[30];
 
-// address: 0x800A8734
-// size: 0x478
-extern struct TextDat *AllDats[286];
-
-// address: 0x800AA89C
-// size: 0x5C0
-extern struct TextDat_dup_14 *AllDats_addr_800AA89C[368];
-
-// address: 0x800B9188
-// size: 0x5D0
-extern struct TextDat *AllDats_addr_800B9188[372];
-
 // address: 0x800ACAC4
 // size: 0x5BC
-extern struct TextDat *AllDats_addr_800ACAC4[367];
-
-// address: 0x800A4720
-// size: 0x474
-extern struct TextDat *AllDats_addr_800A4720[285];
-
-// address: 0x800A86D0
-// size: 0x5C4
-extern struct TextDat *AllDats_addr_800A86D0[369];
-
-// address: 0x800A4418
-// size: 0x46C
-extern struct TextDat *AllDats_addr_800A4418[283];
-
-// address: 0x800B91A0
-// size: 0x5D0
-extern struct TextDat_dup_17 *AllDats_addr_800B91A0[372];
-
-// address: 0x800B90CC
-// size: 0x5D0
-extern struct TextDat_dup_18 *AllDats_addr_800B90CC[372];
-
-// address: 0x800A44C4
-// size: 0x470
-extern struct TextDat *AllDats_addr_800A44C4[284];
-
-// address: 0x800A85A0
-// size: 0x47C
-extern struct TextDat *AllDats_addr_800A85A0[287];
+extern struct TextDat *AllDats[367];
 
 // address: 0x800A93E0
 // size: 0x5C0
 extern struct TextDat *AllDats_addr_800A93E0[368];
 
+// address: 0x800AA89C
+// size: 0x5C0
+extern struct TextDat_dup_14 *AllDats_addr_800AA89C[368];
+
+// address: 0x800A85A0
+// size: 0x47C
+extern struct TextDat *AllDats_addr_800A85A0[287];
+
+// address: 0x800A4720
+// size: 0x474
+extern struct TextDat *AllDats_addr_800A4720[285];
+
+// address: 0x800A8734
+// size: 0x478
+extern struct TextDat *AllDats_addr_800A8734[286];
+
+// address: 0x800A4418
+// size: 0x46C
+extern struct TextDat *AllDats_addr_800A4418[283];
+
+// address: 0x800B90CC
+// size: 0x5D0
+extern struct TextDat_dup_18 *AllDats_addr_800B90CC[372];
+
+// address: 0x800B91A0
+// size: 0x5D0
+extern struct TextDat_dup_17 *AllDats_addr_800B91A0[372];
+
 // address: 0x800A6F8C
 // size: 0x7290
 extern struct TextDat_dup_1 AllDats_addr_800A6F8C[282];
+
+// address: 0x800A86D0
+// size: 0x5C4
+extern struct TextDat *AllDats_addr_800A86D0[369];
+
+// address: 0x800A44C4
+// size: 0x470
+extern struct TextDat *AllDats_addr_800A44C4[284];
+
+// address: 0x800B9188
+// size: 0x5D0
+extern struct TextDat *AllDats_addr_800B9188[372];
 
 // address: 0x8010D9BC
 // size: 0x13A0
@@ -176,17 +176,17 @@ extern unsigned char AllItemsUseable[157];
 // size: 0x80
 extern struct MonstLevel AllLevels[16];
 
-// address: 0x8011E9B4
-// size: 0x58
-static struct MESSAGE_STR AllMsgs[11];
-
 // address: 0x80114EB8
 // size: 0x50
-static struct MESSAGE_STR AllMsgs_addr_80114EB8[10];
+static struct MESSAGE_STR AllMsgs[10];
 
 // address: 0x80111E4C
 // size: 0x60
 static struct MESSAGE_STR AllMsgs_addr_80111E4C[12];
+
+// address: 0x8011E9B4
+// size: 0x58
+static struct MESSAGE_STR AllMsgs_addr_8011E9B4[11];
 
 // address: 0x800C940C
 // size: 0x6F6
@@ -307,13 +307,13 @@ extern unsigned char AutoMapStairG;
 // address: 0x801160CB
 extern unsigned char AutoMapStairR;
 
-// address: 0x8011C454
-// size: 0x70
-extern struct TextDat_dup_17 *AutoMapTData;
-
 // address: 0x8011C34C
 // size: 0x70
-extern struct TextDat_dup_18 *AutoMapTData_addr_8011C34C;
+extern struct TextDat_dup_18 *AutoMapTData;
+
+// address: 0x8011C454
+// size: 0x70
+extern struct TextDat_dup_17 *AutoMapTData_addr_8011C454;
 
 // address: 0x8011C414
 // size: 0x70
@@ -474,13 +474,13 @@ extern struct CSDATA CS_Tab[28];
 // address: 0x80116DB8
 static int CS_XOFF;
 
-// address: 0x8011C9A8
-// size: 0x34
-static struct FE_CREATE_dup_20 *CStruct;
-
 // address: 0x80117B7C
 // size: 0x24
-static struct FE_CREATE *CStruct_addr_80117B7C;
+static struct FE_CREATE *CStruct;
+
+// address: 0x8011C9A8
+// size: 0x34
+static struct FE_CREATE_dup_20 *CStruct_addr_8011C9A8;
 
 // address: 0x8011B540
 static int CacheLen;
@@ -492,13 +492,13 @@ static bool CanPause;
 // size: 0xA8
 extern struct OMENUITEM_dup_4 CentreMenu[7];
 
-// address: 0x800A6714
-// size: 0xA8
-extern struct OMENUITEM CentreMenu_addr_800A6714[7];
-
 // address: 0x800CC92C
 // size: 0x48
 extern struct OMENUITEM CentreMenu_addr_800CC92C[3];
+
+// address: 0x800A6714
+// size: 0xA8
+extern struct OMENUITEM CentreMenu_addr_800A6714[7];
 
 // address: 0x80116928
 // size: 0x4
@@ -521,25 +521,25 @@ extern struct POLY_GT4 *CharGt4;
 // address: 0x8011B4B4
 extern bool CharacterBlockLoaded;
 
-// address: 0x800BDDFC
-// size: 0xF0
-extern struct OMENUITEM CheatMenu[10];
-
 // address: 0x800BCCEC
 // size: 0x108
-extern struct OMENUITEM CheatMenu_addr_800BCCEC[11];
+extern struct OMENUITEM CheatMenu[11];
 
 // address: 0x800A7F2C
 // size: 0xD8
 extern struct OMENUITEM CheatMenu_addr_800A7F2C[9];
 
+// address: 0x800A6F0C
+// size: 0xD8
+extern struct OMENUITEM_dup_4 CheatMenu_addr_800A6F0C[9];
+
 // address: 0x800A6B64
 // size: 0xC0
 extern struct OMENUITEM CheatMenu_addr_800A6B64[8];
 
-// address: 0x800A6F0C
-// size: 0xD8
-extern struct OMENUITEM_dup_4 CheatMenu_addr_800A6F0C[9];
+// address: 0x800BDDFC
+// size: 0xF0
+extern struct OMENUITEM CheatMenu_addr_800BDDFC[10];
 
 // address: 0x800A32BC
 // size: 0x30
@@ -561,13 +561,13 @@ static struct MonstList ChoiceListLEV3[4];
 // size: 0x70
 static struct MonstList ChoiceListLEV4[7];
 
-// address: 0x800A33FC
-// size: 0x60
-static struct MonstList ChoiceListLEV5[6];
-
 // address: 0x800A3498
 // size: 0x70
-static struct MonstList ChoiceListLEV5_addr_800A3498[7];
+static struct MonstList ChoiceListLEV5[7];
+
+// address: 0x800A33FC
+// size: 0x60
+static struct MonstList ChoiceListLEV5_addr_800A33FC[6];
 
 // address: 0x800A7758
 // size: 0x60
@@ -581,13 +581,13 @@ static struct MonstList ChoiceListLEV6_addr_800A345C[5];
 // size: 0x50
 static struct MonstList ChoiceListLEV7[5];
 
-// address: 0x800A34FC
-// size: 0x60
-static struct MonstList ChoiceListLEV8[6];
-
 // address: 0x800B7034
 // size: 0x50
-static struct MonstList ChoiceListLEV8_addr_800B7034[5];
+static struct MonstList ChoiceListLEV8[5];
+
+// address: 0x800A34FC
+// size: 0x60
+static struct MonstList ChoiceListLEV8_addr_800A34FC[6];
 
 // address: 0x800A355C
 // size: 0x40
@@ -617,13 +617,13 @@ static struct MonstList ChoiceListLEV13[5];
 // size: 0x60
 static struct MonstList ChoiceListLEV14[6];
 
-// address: 0x800A371C
-// size: 0x30
-static struct MonstList ChoiceListLEV15[3];
-
 // address: 0x800A7894
 // size: 0x40
-static struct MonstList ChoiceListLEV15_addr_800A7894[4];
+static struct MonstList ChoiceListLEV15[4];
+
+// address: 0x800A371C
+// size: 0x30
+static struct MonstList ChoiceListLEV15_addr_800A371C[3];
 
 // address: 0x800A374C
 // size: 0x10
@@ -730,13 +730,17 @@ static int CurMons;
 // address: 0x8011ADE6
 extern unsigned char CurrAsync;
 
-// address: 0x8011AF1C
-// size: 0x108
-extern struct CBlocks_dup_17 *CurrentBlocks;
+// address: 0x8012D008
+// size: 0xE0
+extern struct CBlocks_dup_14 *CurrentBlocks;
 
 // address: 0x801136B0
 // size: 0xE0
 extern struct CBlocks_dup_4 *CurrentBlocks_addr_801136B0;
+
+// address: 0x8011AF1C
+// size: 0x108
+extern struct CBlocks_dup_17 *CurrentBlocks_addr_8011AF1C;
 
 // address: 0x801166A0
 // size: 0xE0
@@ -746,17 +750,13 @@ extern struct CBlocks *CurrentBlocks_addr_801166A0;
 // size: 0x108
 extern struct CBlocks_dup_18 *CurrentBlocks_addr_8011AE10;
 
-// address: 0x8012D008
-// size: 0xE0
-extern struct CBlocks_dup_14 *CurrentBlocks_addr_8012D008;
+// address: 0x8011AF28
+// size: 0x108
+extern struct CBlocks *CurrentBlocks_addr_8011AF28;
 
 // address: 0x8011AED8
 // size: 0x108
 extern struct CBlocks_dup_19 *CurrentBlocks_addr_8011AED8;
-
-// address: 0x8011AF28
-// size: 0x108
-extern struct CBlocks *CurrentBlocks_addr_8011AF28;
 
 // address: 0x80120274
 // size: 0xDC
@@ -790,13 +790,13 @@ extern struct CScreen CutScr;
 // size: 0x7C
 extern struct CScreen_dup_17 CutScr_addr_800CC4B8;
 
-// address: 0x800CC4A0
-// size: 0x7C
-extern struct CScreen_dup_19 CutScr_addr_800CC4A0;
-
 // address: 0x800CC3E4
 // size: 0x7C
 extern struct CScreen_dup_18 CutScr_addr_800CC3E4;
+
+// address: 0x800CC4A0
+// size: 0x7C
+extern struct CScreen_dup_19 CutScr_addr_800CC4A0;
 
 // address: 0x80129A28
 static int CutScreen;
@@ -821,25 +821,25 @@ static unsigned short *DCTTab;
 // address: 0x8012D754
 static bool DOSLEEP;
 
-// address: 0x800AA02C
-// size: 0x870
-extern struct TextDat_dup_14 DatPool[20];
-
 // address: 0x800B880C
 // size: 0x8C0
-extern struct TextDat_dup_18 DatPool_addr_800B880C[20];
-
-// address: 0x800A3BA8
-// size: 0x870
-extern struct TextDat DatPool_addr_800A3BA8[20];
+extern struct TextDat_dup_18 DatPool[20];
 
 // address: 0x800B88C8
 // size: 0x8C0
 extern struct TextDat DatPool_addr_800B88C8[20];
 
+// address: 0x800AA02C
+// size: 0x870
+extern struct TextDat_dup_14 DatPool_addr_800AA02C[20];
+
 // address: 0x800B88E0
 // size: 0x8C0
 extern struct TextDat_dup_17 DatPool_addr_800B88E0[20];
+
+// address: 0x800A3BA8
+// size: 0x870
+extern struct TextDat DatPool_addr_800A3BA8[20];
 
 // address: 0x8011AD80
 extern int DaveDebCount;
@@ -861,9 +861,9 @@ extern int DebugMonsters[10];
 // size: 0x28
 static struct TextDat_dup_17 *DecRequestors[10];
 
-// address: 0x80118490
+// address: 0x80122148
 // size: 0x28
-static struct TextDat *DecRequestors_addr_80118490[10];
+static struct TextDat_dup_1 *DecRequestors_addr_80122148[10];
 
 // address: 0x8011D1A0
 // size: 0x28
@@ -873,9 +873,9 @@ static struct TextDat_dup_18 *DecRequestors_addr_8011D1A0[10];
 // size: 0x28
 static struct TextDat_dup_14 *DecRequestors_addr_8012F0C0[10];
 
-// address: 0x80122148
+// address: 0x80118490
 // size: 0x28
-static struct TextDat_dup_1 *DecRequestors_addr_80122148[10];
+static struct TextDat *DecRequestors_addr_80118490[10];
 
 // address: 0x800A5AF0
 // size: 0x54
@@ -889,13 +889,13 @@ extern struct PanelXY DefP1PanelXY_addr_800B96E4;
 // size: 0x58
 extern struct PanelXY_dup_17 DefP1PanelXY_addr_800B97B8;
 
-// address: 0x800B973C
-// size: 0x58
-extern struct PanelXY DefP1PanelXY2;
-
 // address: 0x800B9810
 // size: 0x58
-extern struct PanelXY_dup_17 DefP1PanelXY2_addr_800B9810;
+extern struct PanelXY_dup_17 DefP1PanelXY2;
+
+// address: 0x800B973C
+// size: 0x58
+extern struct PanelXY DefP1PanelXY2_addr_800B973C;
 
 // address: 0x800A5B44
 // size: 0x54
@@ -913,17 +913,17 @@ extern struct PanelXY DefP2PanelXY_addr_800B9794;
 // size: 0x58
 extern struct PanelXY_dup_17 DefP2PanelXY_addr_800B9868;
 
+// address: 0x800A5BEC
+// size: 0x54
+extern struct PanelXY DefP2PanelXY2;
+
 // address: 0x800B97EC
 // size: 0x58
-extern struct PanelXY DefP2PanelXY2;
+extern struct PanelXY DefP2PanelXY2_addr_800B97EC;
 
 // address: 0x800B98C0
 // size: 0x58
 extern struct PanelXY_dup_17 DefP2PanelXY2_addr_800B98C0;
-
-// address: 0x800A5BEC
-// size: 0x54
-extern struct PanelXY DefP2PanelXY2_addr_800A5BEC;
 
 // address: 0x800A2590
 // size: 0x18
@@ -1056,29 +1056,29 @@ extern unsigned char DialogRed;
 // address: 0x801165FA
 extern unsigned char DialogTBlue;
 
-// address: 0x8012CF5C
-// size: 0x6C
-extern struct TextDat_dup_14 *DialogTData;
-
-// address: 0x8011AE34
+// address: 0x8011AE78
 // size: 0x70
-extern struct TextDat *DialogTData_addr_8011AE34;
+extern struct TextDat_dup_17 *DialogTData;
 
 // address: 0x801201D0
 // size: 0x68
 extern struct TextDat_dup_1 *DialogTData_addr_801201D0;
 
-// address: 0x8011AE78
-// size: 0x70
-extern struct TextDat_dup_17 *DialogTData_addr_8011AE78;
-
 // address: 0x801165FC
 // size: 0x6C
 extern struct TextDat *DialogTData_addr_801165FC;
 
+// address: 0x8011AE34
+// size: 0x70
+extern struct TextDat *DialogTData_addr_8011AE34;
+
 // address: 0x8011AD6C
 // size: 0x70
 extern struct TextDat_dup_18 *DialogTData_addr_8011AD6C;
+
+// address: 0x8012CF5C
+// size: 0x6C
+extern struct TextDat_dup_14 *DialogTData_addr_8012CF5C;
 
 // address: 0x801165F9
 extern unsigned char DialogTGreen;
@@ -1206,12 +1206,12 @@ extern bool FIRSTTIME;
 // address: 0x80116BE4
 extern int FMVEndPad;
 
+// address: 0x80122B8C
+static char *FMVName;
+
 // address: 0x80121F40
 // size: 0x20
-static char FMVName[32];
-
-// address: 0x80122B8C
-static char *FMVName_addr_80122B8C;
+static char FMVName_addr_80121F40[32];
 
 // address: 0x80116C28
 extern int FMVPress;
@@ -1283,73 +1283,73 @@ extern int FeBackY;
 // size: 0x1C
 extern struct FeTable FeBackgroundMenu;
 
-// address: 0x800BDE48
-// size: 0x60
-extern struct FeMenuTable_dup_11 FeBackgroundMenuTable[4];
-
-// address: 0x800CD688
-// size: 0x60
-extern struct FeMenuTable_dup_18 FeBackgroundMenuTable_addr_800CD688[4];
-
 // address: 0x800AB104
 // size: 0x60
-extern struct FeMenuTable_dup_7 FeBackgroundMenuTable_addr_800AB104[4];
-
-// address: 0x800CD744
-// size: 0x60
-extern struct FeMenuTable_dup_19 FeBackgroundMenuTable_addr_800CD744[4];
-
-// address: 0x800A7620
-// size: 0x60
-extern struct FeMenuTable FeBackgroundMenuTable_addr_800A7620[4];
-
-// address: 0x800CD75C
-// size: 0x60
-extern struct FeMenuTable_dup_17 FeBackgroundMenuTable_addr_800CD75C[4];
+extern struct FeMenuTable_dup_7 FeBackgroundMenuTable[4];
 
 // address: 0x800BDB3C
 // size: 0x60
 extern struct FeMenuTable_dup_10 FeBackgroundMenuTable_addr_800BDB3C[4];
 
+// address: 0x800CD744
+// size: 0x60
+extern struct FeMenuTable_dup_19 FeBackgroundMenuTable_addr_800CD744[4];
+
+// address: 0x800CD75C
+// size: 0x60
+extern struct FeMenuTable_dup_17 FeBackgroundMenuTable_addr_800CD75C[4];
+
 // address: 0x800BFD00
 // size: 0x60
 extern struct FeMenuTable_dup_14 FeBackgroundMenuTable_addr_800BFD00[4];
+
+// address: 0x800BDE48
+// size: 0x60
+extern struct FeMenuTable_dup_11 FeBackgroundMenuTable_addr_800BDE48[4];
+
+// address: 0x800CD688
+// size: 0x60
+extern struct FeMenuTable_dup_18 FeBackgroundMenuTable_addr_800CD688[4];
+
+// address: 0x800A7620
+// size: 0x60
+extern struct FeMenuTable FeBackgroundMenuTable_addr_800A7620[4];
 
 // address: 0x800A70CC
 // size: 0x1C
 extern struct FeTable FeBook1Menu;
 
-// address: 0x800BDB9C
+// address: 0x800CD6E8
 // size: 0x78
-extern struct FeMenuTable_dup_10 FeBook1MenuTable[5];
-
-// address: 0x800CD7BC
-// size: 0x78
-extern struct FeMenuTable_dup_17 FeBook1MenuTable_addr_800CD7BC[5];
-
-// address: 0x800AB164
-// size: 0x78
-extern struct FeMenuTable_dup_7 FeBook1MenuTable_addr_800AB164[5];
-
-// address: 0x800A7680
-// size: 0x78
-extern struct FeMenuTable FeBook1MenuTable_addr_800A7680[5];
+extern struct FeMenuTable_dup_18 FeBook1MenuTable[5];
 
 // address: 0x800BDEA8
 // size: 0x78
 extern struct FeMenuTable_dup_11 FeBook1MenuTable_addr_800BDEA8[5];
 
-// address: 0x800BFD60
+// address: 0x800AB164
 // size: 0x78
-extern struct FeMenuTable_dup_14 FeBook1MenuTable_addr_800BFD60[5];
+extern struct FeMenuTable_dup_7 FeBook1MenuTable_addr_800AB164[5];
 
-// address: 0x800CD6E8
+// address: 0x800BDB9C
 // size: 0x78
-extern struct FeMenuTable_dup_18 FeBook1MenuTable_addr_800CD6E8[5];
+extern struct FeMenuTable_dup_10 FeBook1MenuTable_addr_800BDB9C[5];
+
+// address: 0x800A7680
+// size: 0x78
+extern struct FeMenuTable FeBook1MenuTable_addr_800A7680[5];
+
+// address: 0x800CD7BC
+// size: 0x78
+extern struct FeMenuTable_dup_17 FeBook1MenuTable_addr_800CD7BC[5];
 
 // address: 0x800CD7A4
 // size: 0x78
 extern struct FeMenuTable_dup_19 FeBook1MenuTable_addr_800CD7A4[5];
+
+// address: 0x800BFD60
+// size: 0x78
+extern struct FeMenuTable_dup_14 FeBook1MenuTable_addr_800BFD60[5];
 
 // address: 0x800A70E8
 // size: 0x1C
@@ -1359,73 +1359,73 @@ extern struct FeTable FeBook2Menu;
 // size: 0x90
 extern struct FeMenuTable_dup_18 FeBook2MenuTable[6];
 
-// address: 0x800AB1DC
-// size: 0x78
-extern struct FeMenuTable_dup_7 FeBook2MenuTable_addr_800AB1DC[5];
-
-// address: 0x800A76F8
-// size: 0x78
-extern struct FeMenuTable FeBook2MenuTable_addr_800A76F8[5];
-
-// address: 0x800BDF20
-// size: 0x78
-extern struct FeMenuTable_dup_11 FeBook2MenuTable_addr_800BDF20[5];
-
-// address: 0x800CD894
-// size: 0x90
-extern struct FeMenuTable FeBook2MenuTable_addr_800CD894[6];
-
 // address: 0x800CD81C
 // size: 0x90
 extern struct FeMenuTable_dup_19 FeBook2MenuTable_addr_800CD81C[6];
 
-// address: 0x800BFDD8
+// address: 0x800AB1DC
 // size: 0x78
-extern struct FeMenuTable_dup_14 FeBook2MenuTable_addr_800BFDD8[5];
-
-// address: 0x800CD834
-// size: 0x90
-extern struct FeMenuTable_dup_17 FeBook2MenuTable_addr_800CD834[6];
+extern struct FeMenuTable_dup_7 FeBook2MenuTable_addr_800AB1DC[5];
 
 // address: 0x800BDC14
 // size: 0x78
 extern struct FeMenuTable_dup_10 FeBook2MenuTable_addr_800BDC14[5];
 
+// address: 0x800A76F8
+// size: 0x78
+extern struct FeMenuTable FeBook2MenuTable_addr_800A76F8[5];
+
+// address: 0x800CD894
+// size: 0x90
+extern struct FeMenuTable FeBook2MenuTable_addr_800CD894[6];
+
+// address: 0x800BDF20
+// size: 0x78
+extern struct FeMenuTable_dup_11 FeBook2MenuTable_addr_800BDF20[5];
+
+// address: 0x800CD834
+// size: 0x90
+extern struct FeMenuTable_dup_17 FeBook2MenuTable_addr_800CD834[6];
+
+// address: 0x800BFDD8
+// size: 0x78
+extern struct FeMenuTable_dup_14 FeBook2MenuTable_addr_800BFDD8[5];
+
 // address: 0x800BDC8C
 // size: 0x780
 extern struct FeStruct_dup_10 FeBuffer[80];
-
-// address: 0x800CD8AC
-// size: 0x780
-extern struct FeStruct_dup_19 FeBuffer_addr_800CD8AC[80];
 
 // address: 0x800BDF98
 // size: 0x780
 extern struct FeStruct_dup_11 FeBuffer_addr_800BDF98[80];
 
-// address: 0x800B09E8
-// size: 0x3C0
-extern struct FeStruct_dup_1 FeBuffer_addr_800B09E8[40];
-
-// address: 0x800CD8C4
+// address: 0x800CD7F0
 // size: 0x780
-extern struct FeStruct_dup_17 FeBuffer_addr_800CD8C4[80];
-
-// address: 0x800AB254
-// size: 0x780
-extern struct FeStruct FeBuffer_addr_800AB254[80];
+extern struct FeStruct_dup_18 FeBuffer_addr_800CD7F0[80];
 
 // address: 0x800BFE50
 // size: 0x780
 extern struct FeStruct_dup_14 FeBuffer_addr_800BFE50[80];
 
-// address: 0x800CD7F0
+// address: 0x800CD8C4
 // size: 0x780
-extern struct FeStruct_dup_18 FeBuffer_addr_800CD7F0[80];
+extern struct FeStruct_dup_17 FeBuffer_addr_800CD8C4[80];
+
+// address: 0x800CD8AC
+// size: 0x780
+extern struct FeStruct_dup_19 FeBuffer_addr_800CD8AC[80];
 
 // address: 0x800A7770
 // size: 0x3C0
 extern struct FeStruct FeBuffer_addr_800A7770[40];
+
+// address: 0x800B09E8
+// size: 0x3C0
+extern struct FeStruct_dup_1 FeBuffer_addr_800B09E8[40];
+
+// address: 0x800AB254
+// size: 0x780
+extern struct FeStruct FeBuffer_addr_800AB254[80];
 
 // address: 0x80116BFC
 extern int FeBufferCount;
@@ -1445,37 +1445,37 @@ extern struct FeTable *FeCurMenu;
 // size: 0x1C
 extern struct FeTable FeDifficultyMenu;
 
+// address: 0x800BDDE8
+// size: 0x60
+extern struct FeMenuTable_dup_11 FeDifficultyMenuTable[4];
+
 // address: 0x800BFCA0
 // size: 0x60
-extern struct FeMenuTable_dup_14 FeDifficultyMenuTable[4];
+extern struct FeMenuTable_dup_14 FeDifficultyMenuTable_addr_800BFCA0[4];
 
 // address: 0x800A75C0
 // size: 0x60
 extern struct FeMenuTable FeDifficultyMenuTable_addr_800A75C0[4];
 
-// address: 0x800BDDE8
-// size: 0x60
-extern struct FeMenuTable_dup_11 FeDifficultyMenuTable_addr_800BDDE8[4];
-
-// address: 0x800CD628
-// size: 0x60
-extern struct FeMenuTable_dup_18 FeDifficultyMenuTable_addr_800CD628[4];
-
 // address: 0x800BDADC
 // size: 0x60
 extern struct FeMenuTable_dup_10 FeDifficultyMenuTable_addr_800BDADC[4];
 
-// address: 0x800CD6FC
+// address: 0x800CD6E4
 // size: 0x60
-extern struct FeMenuTable_dup_17 FeDifficultyMenuTable_addr_800CD6FC[4];
+extern struct FeMenuTable_dup_19 FeDifficultyMenuTable_addr_800CD6E4[4];
 
 // address: 0x800AB0A4
 // size: 0x60
 extern struct FeMenuTable_dup_7 FeDifficultyMenuTable_addr_800AB0A4[4];
 
-// address: 0x800CD6E4
+// address: 0x800CD628
 // size: 0x60
-extern struct FeMenuTable_dup_19 FeDifficultyMenuTable_addr_800CD6E4[4];
+extern struct FeMenuTable_dup_18 FeDifficultyMenuTable_addr_800CD628[4];
+
+// address: 0x800CD6FC
+// size: 0x60
+extern struct FeMenuTable_dup_17 FeDifficultyMenuTable_addr_800CD6FC[4];
 
 // address: 0x8011B60C
 extern int FeEnterLang;
@@ -1502,37 +1502,37 @@ extern struct FeTable FeLoadCharMenu;
 // size: 0x1C
 extern struct FeTable FeMainMenu;
 
+// address: 0x800CD53C
+// size: 0x78
+extern struct FeMenuTable_dup_19 FeMainMenuTable[5];
+
 // address: 0x800BD2B4
 // size: 0x78
-extern struct FeMenuTable_dup_10 FeMainMenuTable[5];
-
-// address: 0x800CD480
-// size: 0x78
-extern struct FeMenuTable_dup_18 FeMainMenuTable_addr_800CD480[5];
-
-// address: 0x800BFAD8
-// size: 0x78
-extern struct FeMenuTable_dup_14 FeMainMenuTable_addr_800BFAD8[5];
+extern struct FeMenuTable_dup_10 FeMainMenuTable_addr_800BD2B4[5];
 
 // address: 0x800BD5C0
 // size: 0x78
 extern struct FeMenuTable_dup_11 FeMainMenuTable_addr_800BD5C0[5];
 
-// address: 0x800AA87C
+// address: 0x800CD554
 // size: 0x78
-extern struct FeMenuTable_dup_7 FeMainMenuTable_addr_800AA87C[5];
+extern struct FeMenuTable_dup_17 FeMainMenuTable_addr_800CD554[5];
+
+// address: 0x800CD480
+// size: 0x78
+extern struct FeMenuTable_dup_18 FeMainMenuTable_addr_800CD480[5];
 
 // address: 0x800A7158
 // size: 0x78
 extern struct FeMenuTable FeMainMenuTable_addr_800A7158[5];
 
-// address: 0x800CD53C
+// address: 0x800BFAD8
 // size: 0x78
-extern struct FeMenuTable_dup_19 FeMainMenuTable_addr_800CD53C[5];
+extern struct FeMenuTable_dup_14 FeMainMenuTable_addr_800BFAD8[5];
 
-// address: 0x800CD554
+// address: 0x800AA87C
 // size: 0x78
-extern struct FeMenuTable_dup_17 FeMainMenuTable_addr_800CD554[5];
+extern struct FeMenuTable_dup_7 FeMainMenuTable_addr_800AA87C[5];
 
 // address: 0x8011B5F4
 extern int FeMaxBufferCount;
@@ -1541,48 +1541,56 @@ extern int FeMaxBufferCount;
 // size: 0x48
 extern struct FeMenuTable_dup_10 FeMemcardMenuTable[3];
 
-// address: 0x800CD6B4
+// address: 0x800A7578
 // size: 0x48
-extern struct FeMenuTable_dup_17 FeMemcardMenuTable_addr_800CD6B4[3];
+extern struct FeMenuTable FeMemcardMenuTable_addr_800A7578[3];
 
 // address: 0x800CD69C
 // size: 0x48
 extern struct FeMenuTable_dup_19 FeMemcardMenuTable_addr_800CD69C[3];
 
-// address: 0x800A7578
+// address: 0x800CD6B4
 // size: 0x48
-extern struct FeMenuTable FeMemcardMenuTable_addr_800A7578[3];
-
-// address: 0x800BDDA0
-// size: 0x48
-extern struct FeMenuTable_dup_11 FeMemcardMenuTable_addr_800BDDA0[3];
+extern struct FeMenuTable_dup_17 FeMemcardMenuTable_addr_800CD6B4[3];
 
 // address: 0x800AB05C
 // size: 0x48
 extern struct FeMenuTable_dup_7 FeMemcardMenuTable_addr_800AB05C[3];
 
-// address: 0x800BFC58
-// size: 0x48
-extern struct FeMenuTable_dup_14 FeMemcardMenuTable_addr_800BFC58[3];
-
 // address: 0x800CD5E0
 // size: 0x48
 extern struct FeMenuTable_dup_18 FeMemcardMenuTable_addr_800CD5E0[3];
 
+// address: 0x800BFC58
+// size: 0x48
+extern struct FeMenuTable_dup_14 FeMemcardMenuTable_addr_800BFC58[3];
+
+// address: 0x800BDDA0
+// size: 0x48
+extern struct FeMenuTable_dup_11 FeMemcardMenuTable_addr_800BDDA0[3];
+
 // address: 0x80116BCC
 extern int FeMenuDelay;
 
+// address: 0x800AB130
+// size: 0x6A8
+extern struct FeMenuTable FeNameEngMenuTable[71];
+
 // address: 0x800A7290
 // size: 0x2E8
-extern struct FeMenuTable FeNameEngMenuTable[31];
+extern struct FeMenuTable FeNameEngMenuTable_addr_800A7290[31];
+
+// address: 0x800BD6F8
+// size: 0x6A8
+extern struct FeMenuTable_dup_11 FeNameEngMenuTable_addr_800BD6F8[71];
 
 // address: 0x800AA9B4
 // size: 0x6A8
 extern struct FeMenuTable_dup_7 FeNameEngMenuTable_addr_800AA9B4[71];
 
-// address: 0x800AB130
-// size: 0x6A8
-extern struct FeMenuTable FeNameEngMenuTable_addr_800AB130[71];
+// address: 0x800BF0E4
+// size: 0x46
+extern unsigned char FeNameEngMenuTable_addr_800BF0E4[70];
 
 // address: 0x800BD3EC
 // size: 0x6A8
@@ -1592,37 +1600,17 @@ extern struct FeMenuTable_dup_10 FeNameEngMenuTable_addr_800BD3EC[71];
 // size: 0x28
 extern unsigned char FeNameEngMenuTable_addr_800CD68C[40];
 
-// address: 0x800BF0E4
-// size: 0x46
-extern unsigned char FeNameEngMenuTable_addr_800BF0E4[70];
-
-// address: 0x800BD6F8
-// size: 0x6A8
-extern struct FeMenuTable_dup_11 FeNameEngMenuTable_addr_800BD6F8[71];
-
 // address: 0x800A7008
 // size: 0x1C
 extern struct FeTable FeNewGameMenu;
 
-// address: 0x800BD32C
+// address: 0x800AA8F4
 // size: 0x48
-extern struct FeMenuTable_dup_10 FeNewGameMenuTable[3];
-
-// address: 0x800CD5B4
-// size: 0x48
-extern struct FeMenuTable_dup_19 FeNewGameMenuTable_addr_800CD5B4[3];
+extern struct FeMenuTable_dup_7 FeNewGameMenuTable[3];
 
 // address: 0x800BFB50
 // size: 0x48
 extern struct FeMenuTable_dup_14 FeNewGameMenuTable_addr_800BFB50[3];
-
-// address: 0x800AA8F4
-// size: 0x48
-extern struct FeMenuTable_dup_7 FeNewGameMenuTable_addr_800AA8F4[3];
-
-// address: 0x800A71D0
-// size: 0x48
-extern struct FeMenuTable FeNewGameMenuTable_addr_800A71D0[3];
 
 // address: 0x800CD5CC
 // size: 0x48
@@ -1631,6 +1619,18 @@ extern struct FeMenuTable_dup_17 FeNewGameMenuTable_addr_800CD5CC[3];
 // address: 0x800BD638
 // size: 0x48
 extern struct FeMenuTable_dup_11 FeNewGameMenuTable_addr_800BD638[3];
+
+// address: 0x800CD5B4
+// size: 0x48
+extern struct FeMenuTable_dup_19 FeNewGameMenuTable_addr_800CD5B4[3];
+
+// address: 0x800BD32C
+// size: 0x48
+extern struct FeMenuTable_dup_10 FeNewGameMenuTable_addr_800BD32C[3];
+
+// address: 0x800A71D0
+// size: 0x48
+extern struct FeMenuTable FeNewGameMenuTable_addr_800A71D0[3];
 
 // address: 0x800CD4F8
 // size: 0x48
@@ -1665,37 +1665,37 @@ extern unsigned char FePadInFlag;
 // size: 0x2
 extern unsigned char FePadInTab[2];
 
-// address: 0x800BFB98
-// size: 0x78
-extern struct FeMenuTable_dup_14 FePlayerClassMenuTable[5];
-
-// address: 0x800A7218
-// size: 0x78
-extern struct FeMenuTable FePlayerClassMenuTable_addr_800A7218[5];
-
-// address: 0x800CD540
-// size: 0x78
-extern struct FeMenuTable_dup_18 FePlayerClassMenuTable_addr_800CD540[5];
-
-// address: 0x800BD680
-// size: 0x78
-extern struct FeMenuTable_dup_11 FePlayerClassMenuTable_addr_800BD680[5];
-
-// address: 0x800BD374
-// size: 0x78
-extern struct FeMenuTable_dup_10 FePlayerClassMenuTable_addr_800BD374[5];
-
 // address: 0x800CD614
 // size: 0x78
-extern struct FeMenuTable_dup_17 FePlayerClassMenuTable_addr_800CD614[5];
+extern struct FeMenuTable_dup_17 FePlayerClassMenuTable[5];
 
 // address: 0x800CD5FC
 // size: 0x78
 extern struct FeMenuTable_dup_19 FePlayerClassMenuTable_addr_800CD5FC[5];
 
+// address: 0x800A7218
+// size: 0x78
+extern struct FeMenuTable FePlayerClassMenuTable_addr_800A7218[5];
+
 // address: 0x800AA93C
 // size: 0x78
 extern struct FeMenuTable_dup_7 FePlayerClassMenuTable_addr_800AA93C[5];
+
+// address: 0x800BD374
+// size: 0x78
+extern struct FeMenuTable_dup_10 FePlayerClassMenuTable_addr_800BD374[5];
+
+// address: 0x800BD680
+// size: 0x78
+extern struct FeMenuTable_dup_11 FePlayerClassMenuTable_addr_800BD680[5];
+
+// address: 0x800CD540
+// size: 0x78
+extern struct FeMenuTable_dup_18 FePlayerClassMenuTable_addr_800CD540[5];
+
+// address: 0x800BFB98
+// size: 0x78
+extern struct FeMenuTable_dup_14 FePlayerClassMenuTable_addr_800BFB98[5];
 
 // address: 0x800CE0A4
 // size: 0x2A
@@ -1712,21 +1712,9 @@ extern unsigned char FePlayerNameFlag[2];
 // address: 0x80116C04
 extern int FePlayerNo;
 
-// address: 0x80116BC0
-// size: 0x6C
-extern struct TextDat *FeTData;
-
-// address: 0x8012D54C
-// size: 0x6C
-extern struct TextDat_dup_14 *FeTData_addr_8012D54C;
-
 // address: 0x8011B488
 // size: 0x70
-extern struct TextDat_dup_18 *FeTData_addr_8011B488;
-
-// address: 0x8011B560
-// size: 0x70
-extern struct TextDat *FeTData_addr_8011B560;
+extern struct TextDat_dup_18 *FeTData;
 
 // address: 0x8012078C
 // size: 0x68
@@ -1735,6 +1723,18 @@ extern struct TextDat_dup_1 *FeTData_addr_8012078C;
 // address: 0x8011B594
 // size: 0x70
 extern struct TextDat_dup_17 *FeTData_addr_8011B594;
+
+// address: 0x8012D54C
+// size: 0x6C
+extern struct TextDat_dup_14 *FeTData_addr_8012D54C;
+
+// address: 0x8011B560
+// size: 0x70
+extern struct TextDat *FeTData_addr_8011B560;
+
+// address: 0x80116BC0
+// size: 0x6C
+extern struct TextDat *FeTData_addr_80116BC0;
 
 // address: 0x80116558
 extern unsigned char FileLoaded;
@@ -1752,9 +1752,17 @@ static bool FireInit;
 // address: 0x8011BEA0
 static bool FirstFire;
 
+// address: 0x80116BC4
+// size: 0x6C
+extern struct TextDat *FlameTData;
+
 // address: 0x8011B598
 // size: 0x70
-extern struct TextDat_dup_17 *FlameTData;
+extern struct TextDat_dup_17 *FlameTData_addr_8011B598;
+
+// address: 0x8011B48C
+// size: 0x70
+extern struct TextDat_dup_18 *FlameTData_addr_8011B48C;
 
 // address: 0x8012D550
 // size: 0x6C
@@ -1764,56 +1772,48 @@ extern struct TextDat_dup_14 *FlameTData_addr_8012D550;
 // size: 0x68
 extern struct TextDat_dup_1 *FlameTData_addr_80120790;
 
-// address: 0x8011B48C
-// size: 0x70
-extern struct TextDat_dup_18 *FlameTData_addr_8011B48C;
-
 // address: 0x8011B564
 // size: 0x70
 extern struct TextDat *FlameTData_addr_8011B564;
-
-// address: 0x80116BC4
-// size: 0x6C
-extern struct TextDat *FlameTData_addr_80116BC4;
 
 // address: 0x80118078
 // size: 0x10
 static struct Overlay FmvOver;
 
-// address: 0x800A72CC
-// size: 0x1C
-static char *FmvTab[7];
-
-// address: 0x800A82EC
-// size: 0x10
-static char *FmvTab_addr_800A82EC[4];
-
-// address: 0x800A6EF0
-// size: 0xE0
-extern struct StrInfo FmvTab_addr_800A6EF0[7];
+// address: 0x800BEDE4
+// size: 0x40
+extern struct FMVDAT FmvTab[8];
 
 // address: 0x800BD254
 // size: 0x30
 extern struct FMVDAT FmvTab_addr_800BD254[6];
 
-// address: 0x800BEDE4
-// size: 0x40
-extern struct FMVDAT FmvTab_addr_800BEDE4[8];
+// address: 0x800A6EF0
+// size: 0xE0
+extern struct StrInfo FmvTab_addr_800A6EF0[7];
+
+// address: 0x800A72CC
+// size: 0x1C
+static char *FmvTab_addr_800A72CC[7];
+
+// address: 0x800A82EC
+// size: 0x10
+static char *FmvTab_addr_800A82EC[4];
 
 // address: 0x80113B88
 static int Frame;
 
-// address: 0x80117D80
-// size: 0x20
-static struct MEM_HDR *FreeBlocks;
-
 // address: 0x8011CB1C
 // size: 0x1C
-static struct MEM_HDR *FreeBlocks_addr_8011CB1C;
+static struct MEM_HDR *FreeBlocks;
 
 // address: 0x8011CC24
 // size: 0x1C
 static struct MEM_HDR_dup_17 *FreeBlocks_addr_8011CC24;
+
+// address: 0x80117D80
+// size: 0x20
+static struct MEM_HDR *FreeBlocks_addr_80117D80;
 
 // address: 0x80116EE1
 extern unsigned char FriendlyMode;
@@ -1844,53 +1844,53 @@ extern unsigned char GOLDG;
 // address: 0x801165D6
 extern unsigned char GOLDR;
 
-// address: 0x8012FCB8
-// size: 0xD4
-static struct GamePad_dup_18 GPad1;
-
-// address: 0x80130658
-// size: 0x94
-static struct GamePad_dup_14 GPad1_addr_80130658;
-
-// address: 0x8012FDC0
-// size: 0xD4
-static struct GamePad_dup_17 GPad1_addr_8012FDC0;
-
 // address: 0x8012B678
 // size: 0xD4
-static struct GamePad_dup_20 GPad1_addr_8012B678;
+static struct GamePad_dup_20 GPad1;
 
 // address: 0x8012CFF0
 // size: 0x94
 static struct GamePad GPad1_addr_8012CFF0;
 
+// address: 0x8012FCB8
+// size: 0xD4
+static struct GamePad_dup_18 GPad1_addr_8012FCB8;
+
+// address: 0x80130658
+// size: 0x94
+static struct GamePad_dup_14 GPad1_addr_80130658;
+
 // address: 0x8012B630
 // size: 0xD4
 static struct GamePad_dup_19 GPad1_addr_8012B630;
 
+// address: 0x8012FDC0
+// size: 0xD4
+static struct GamePad_dup_17 GPad1_addr_8012FDC0;
+
+// address: 0x8012FEA0
+// size: 0xD4
+static struct GamePad_dup_17 GPad2;
+
+// address: 0x8012D090
+// size: 0x94
+static struct GamePad GPad2_addr_8012D090;
+
 // address: 0x801306F8
 // size: 0x94
-static struct GamePad_dup_14 GPad2;
-
-// address: 0x8012B758
-// size: 0xD4
-static struct GamePad_dup_20 GPad2_addr_8012B758;
+static struct GamePad_dup_14 GPad2_addr_801306F8;
 
 // address: 0x8012FD98
 // size: 0xD4
 static struct GamePad_dup_18 GPad2_addr_8012FD98;
 
+// address: 0x8012B758
+// size: 0xD4
+static struct GamePad_dup_20 GPad2_addr_8012B758;
+
 // address: 0x8012B710
 // size: 0xD4
 static struct GamePad_dup_19 GPad2_addr_8012B710;
-
-// address: 0x8012FEA0
-// size: 0xD4
-static struct GamePad_dup_17 GPad2_addr_8012FEA0;
-
-// address: 0x8012D090
-// size: 0x94
-static struct GamePad GPad2_addr_8012D090;
 
 // address: 0x80116488
 extern unsigned int GSYS_MemEnd;
@@ -1928,49 +1928,49 @@ static bool GameLoading;
 // size: 0x170
 extern struct CompLevelMaps_dup_29 GameMaps;
 
-// address: 0x800D6D98
-// size: 0x170
-extern struct CompLevelMaps_dup_17 GameMaps_addr_800D6D98;
-
-// address: 0x800D6CC4
-// size: 0x170
-extern struct CompLevelMaps_dup_18 GameMaps_addr_800D6CC4;
-
-// address: 0x800CCC9C
-// size: 0x160
-extern struct CompLevelMaps_dup_30 GameMaps_addr_800CCC9C;
-
 // address: 0x800D6D80
 // size: 0x170
 extern struct CompLevelMaps_dup_19 GameMaps_addr_800D6D80;
+
+// address: 0x800D6D98
+// size: 0x170
+extern struct CompLevelMaps_dup_17 GameMaps_addr_800D6D98;
 
 // address: 0x800D6E0C
 // size: 0x170
 extern struct CompLevelMaps_dup_20 GameMaps_addr_800D6E0C;
 
-// address: 0x800A6954
-// size: 0xD8
-extern struct OMENUITEM_dup_4 GameMenu[9];
+// address: 0x800CCC9C
+// size: 0x160
+extern struct CompLevelMaps_dup_30 GameMaps_addr_800CCC9C;
+
+// address: 0x800D6CC4
+// size: 0x170
+extern struct CompLevelMaps_dup_18 GameMaps_addr_800D6CC4;
+
+// address: 0x800A65C4
+// size: 0xC0
+extern struct OMENUITEM GameMenu[8];
 
 // address: 0x800BEC2C
 // size: 0x108
 extern struct OMENUITEM GameMenu_addr_800BEC2C[11];
 
-// address: 0x800BC70C
-// size: 0xF0
-extern struct OMENUITEM GameMenu_addr_800BC70C[10];
-
-// address: 0x800A65C4
-// size: 0xC0
-extern struct OMENUITEM GameMenu_addr_800A65C4[8];
-
 // address: 0x800A6E70
 // size: 0xD8
 extern struct OMENUITEM GameMenu_addr_800A6E70[9];
 
+// address: 0x800A6954
+// size: 0xD8
+extern struct OMENUITEM_dup_4 GameMenu_addr_800A6954[9];
+
 // address: 0x800CC65C
 // size: 0x120
 extern struct OMENUITEM GameMenu_addr_800CC65C[12];
+
+// address: 0x800BC70C
+// size: 0xF0
+extern struct OMENUITEM GameMenu_addr_800BC70C[10];
 
 // address: 0x80121D30
 // size: 0xC
@@ -2003,13 +2003,13 @@ static struct TASK *GameTaskPtr;
 // size: 0x20
 extern struct LNK_OPTS_dup_17 *Gaz;
 
-// address: 0x8011AC40
-// size: 0x20
-extern struct LNK_OPTS *Gaz_addr_8011AC40;
-
 // address: 0x80116490
 // size: 0x1C
 extern struct LNK_OPTS *Gaz_addr_80116490;
+
+// address: 0x8011AC40
+// size: 0x20
+extern struct LNK_OPTS *Gaz_addr_8011AC40;
 
 // address: 0x80117E50
 extern unsigned long GazTick;
@@ -2041,13 +2041,13 @@ static struct Dialog HelpBack;
 // size: 0x12C
 static struct HelpStruct_dup_17 HelpList[25];
 
-// address: 0x800BF848
-// size: 0x108
-static struct HelpStruct HelpList_addr_800BF848[33];
-
 // address: 0x800CD19C
 // size: 0x12C
 static struct HelpStruct HelpList_addr_800CD19C[25];
+
+// address: 0x800BF848
+// size: 0x108
+static struct HelpStruct HelpList_addr_800BF848[33];
 
 // address: 0x8012E7BC
 // size: 0x8
@@ -2073,13 +2073,13 @@ extern unsigned char InStoreFlag;
 // size: 0x8
 extern struct RECT *InfoBoxRect;
 
-// address: 0x800A6FE4
-// size: 0x30
-extern struct OMENUITEM_dup_4 InfoMenu[2];
-
 // address: 0x800A6C24
 // size: 0x30
-extern struct OMENUITEM InfoMenu_addr_800A6C24[2];
+extern struct OMENUITEM InfoMenu[2];
+
+// address: 0x800A6FE4
+// size: 0x30
+extern struct OMENUITEM_dup_4 InfoMenu_addr_800A6FE4[2];
 
 // address: 0x8011C8B0
 static bool InfraFlag;
@@ -2119,17 +2119,17 @@ extern struct TextDat_dup_14 *InvGfxTData;
 // size: 0x68
 extern struct TextDat_dup_1 *InvGfxTData_addr_80121428;
 
-// address: 0x80117758
-// size: 0x6C
-extern struct TextDat *InvGfxTData_addr_80117758;
+// address: 0x8011C458
+// size: 0x70
+extern struct TextDat_dup_18 *InvGfxTData_addr_8011C458;
 
 // address: 0x8011C560
 // size: 0x70
 extern struct TextDat_dup_17 *InvGfxTData_addr_8011C560;
 
-// address: 0x8011C458
-// size: 0x70
-extern struct TextDat_dup_18 *InvGfxTData_addr_8011C458;
+// address: 0x80117758
+// size: 0x6C
+extern struct TextDat *InvGfxTData_addr_80117758;
 
 // address: 0x8011C520
 // size: 0x70
@@ -2160,17 +2160,9 @@ extern int InvPageNo;
 // size: 0x68
 extern struct TextDat_dup_1 *InvPanelTData;
 
-// address: 0x8012E390
-// size: 0x6C
-extern struct TextDat_dup_14 *InvPanelTData_addr_8012E390;
-
 // address: 0x80117754
 // size: 0x6C
 extern struct TextDat *InvPanelTData_addr_80117754;
-
-// address: 0x8011C51C
-// size: 0x70
-extern struct TextDat *InvPanelTData_addr_8011C51C;
 
 // address: 0x8011C55C
 // size: 0x70
@@ -2179,6 +2171,14 @@ extern struct TextDat_dup_17 *InvPanelTData_addr_8011C55C;
 // address: 0x8011C454
 // size: 0x70
 extern struct TextDat_dup_18 *InvPanelTData_addr_8011C454;
+
+// address: 0x8011C51C
+// size: 0x70
+extern struct TextDat *InvPanelTData_addr_8011C51C;
+
+// address: 0x8012E390
+// size: 0x6C
+extern struct TextDat_dup_14 *InvPanelTData_addr_8012E390;
 
 // address: 0x80106000
 // size: 0x248
@@ -2191,13 +2191,13 @@ extern struct InvXY InvRect_addr_80108ED4[74];
 // address: 0x80117774
 extern int InvSel;
 
-// address: 0x801095C0
-// size: 0x4A
-extern unsigned char InvSlotTable[74];
-
 // address: 0x80106650
 // size: 0x49
-extern unsigned char InvSlotTable_addr_80106650[73];
+extern unsigned char InvSlotTable[73];
+
+// address: 0x801095C0
+// size: 0x4A
+extern unsigned char InvSlotTable_addr_801095C0[74];
 
 // address: 0x80117784
 extern unsigned char InvSpareFlag;
@@ -2234,13 +2234,13 @@ extern int ItemInvSnds[35];
 // address: 0x80117780
 extern int ItemNo;
 
-// address: 0x800AFC10
-// size: 0x40
-extern char ItemStr[64];
-
 // address: 0x800AF8F8
 // size: 0x80
-extern char ItemStr_addr_800AF8F8[128];
+extern char ItemStr[128];
+
+// address: 0x800AFC10
+// size: 0x40
+extern char ItemStr_addr_800AFC10[64];
 
 // address: 0x80117094
 static int ItemStructSize;
@@ -2281,21 +2281,21 @@ static unsigned char KanjiFontData[18650];
 // size: 0x70
 static struct TextDat_dup_18 *KanjiGfxTData;
 
-// address: 0x8011B4F4
-// size: 0x70
-extern struct TextDat *KanjiGfxTData_addr_8011B4F4;
-
 // address: 0x8011B538
 // size: 0x70
 static struct TextDat_dup_17 *KanjiGfxTData_addr_8011B538;
 
-// address: 0x8011D2D0
-// size: 0x320
-static struct vbuffS KanjiList[200];
+// address: 0x8011B4F4
+// size: 0x70
+extern struct TextDat *KanjiGfxTData_addr_8011B4F4;
 
 // address: 0x8011D290
 // size: 0x4B0
-static struct vbuffS KanjiList_addr_8011D290[300];
+static struct vbuffS KanjiList[300];
+
+// address: 0x8011D2D0
+// size: 0x320
+static struct vbuffS KanjiList_addr_8011D2D0[200];
 
 // address: 0x8011B544
 static bool KanjiLoaded;
@@ -2327,13 +2327,13 @@ extern short L1DownList[10];
 // size: 0x28
 extern int L1DownList_addr_800D4920[10];
 
-// address: 0x800E2FCC
-// size: 0x18
-extern short L1UpList[12];
-
 // address: 0x800D48F0
 // size: 0x30
-extern int L1UpList_addr_800D48F0[12];
+extern int L1UpList[12];
+
+// address: 0x800E2FCC
+// size: 0x18
+extern short L1UpList_addr_800E2FCC[12];
 
 // address: 0x800E30F8
 // size: 0x12
@@ -2355,13 +2355,13 @@ extern short L2TWarpUpList[3];
 // size: 0xC
 extern int L2TWarpUpList_addr_800D4968[3];
 
-// address: 0x800D4948
-// size: 0xC
-extern int L2UpList[3];
-
 // address: 0x8011BD70
 // size: 0x6
-extern short L2UpList_addr_8011BD70[3];
+extern short L2UpList[3];
+
+// address: 0x800D4948
+// size: 0xC
+extern int L2UpList_addr_800D4948[3];
 
 // address: 0x800E310C
 // size: 0xA
@@ -2427,21 +2427,21 @@ static unsigned char L3TITE12[6];
 // size: 0x6
 static unsigned char L3TITE13[6];
 
-// address: 0x800D49D4
-// size: 0x38
-extern int L3TWarpUpList[14];
-
 // address: 0x800E3038
 // size: 0x1C
-extern short L3TWarpUpList_addr_800E3038[14];
+extern short L3TWarpUpList[14];
 
-// address: 0x800D4974
-// size: 0x3C
-extern int L3UpList[15];
+// address: 0x800D49D4
+// size: 0x38
+extern int L3TWarpUpList_addr_800D49D4[14];
 
 // address: 0x800E3004
 // size: 0x1E
-extern short L3UpList_addr_800E3004[15];
+extern short L3UpList[15];
+
+// address: 0x800D4974
+// size: 0x3C
+extern int L3UpList_addr_800D4974[15];
 
 // address: 0x801173B0
 // size: 0x4
@@ -2467,13 +2467,13 @@ static unsigned char L3XTRA5[4];
 // size: 0x4
 extern short L4BlockList[2];
 
-// address: 0x800E3054
-// size: 0xC
-extern short L4DownList[6];
-
 // address: 0x800D4A1C
 // size: 0x18
-extern int L4DownList_addr_800D4A1C[6];
+extern int L4DownList[6];
+
+// address: 0x800E3054
+// size: 0xC
+extern short L4DownList_addr_800E3054[6];
 
 // address: 0x800D4A44
 // size: 0x84
@@ -2507,65 +2507,65 @@ static struct Dialog LBack;
 // size: 0x14
 extern struct STRHDR *LFileTab;
 
-// address: 0x800A995C
+// address: 0x800A96E4
 // size: 0x10
-extern struct FontTab_dup_15 LFont;
+extern struct FontTab_dup_10 LFont;
 
 // address: 0x800B8550
 // size: 0x10
 extern struct FontTab_dup_18 LFont_addr_800B8550;
 
-// address: 0x800B8624
+// address: 0x800A995C
 // size: 0x10
-extern struct FontTab_dup_17 LFont_addr_800B8624;
-
-// address: 0x800A58C8
-// size: 0x10
-extern struct FontTab LFont_addr_800A58C8;
-
-// address: 0x800A99F0
-// size: 0x10
-extern struct FontTab_dup_11 LFont_addr_800A99F0;
-
-// address: 0x800A96E4
-// size: 0x10
-extern struct FontTab_dup_10 LFont_addr_800A96E4;
+extern struct FontTab_dup_15 LFont_addr_800A995C;
 
 // address: 0x800B8684
 // size: 0x10
 extern struct FontTab_dup_20 LFont_addr_800B8684;
 
-// address: 0x800AF260
+// address: 0x800A99F0
 // size: 0x10
-extern struct FontTab_dup_1 LFont_addr_800AF260;
+extern struct FontTab_dup_11 LFont_addr_800A99F0;
 
-// address: 0x800ABB24
+// address: 0x800A58C8
 // size: 0x10
-extern struct FontTab_dup_14 LFont_addr_800ABB24;
+extern struct FontTab LFont_addr_800A58C8;
 
 // address: 0x800B860C
 // size: 0x10
 extern struct FontTab_dup_19 LFont_addr_800B860C;
 
+// address: 0x800B8624
+// size: 0x10
+extern struct FontTab_dup_17 LFont_addr_800B8624;
+
+// address: 0x800ABB24
+// size: 0x10
+extern struct FontTab_dup_14 LFont_addr_800ABB24;
+
+// address: 0x800AF260
+// size: 0x10
+extern struct FontTab_dup_1 LFont_addr_800AF260;
+
+// address: 0x800B845C
+// size: 0x1C8
+extern struct FontItem_dup_17 LFontTab[114];
+
 // address: 0x800B8388
 // size: 0x1C8
-extern struct FontItem LFontTab[114];
+extern struct FontItem LFontTab_addr_800B8388[114];
 
 // address: 0x800A98A8
 // size: 0xB4
 extern struct FontItem_dup_15 LFontTab_addr_800A98A8[90];
 
-// address: 0x800A5814
-// size: 0xB4
-extern struct FontItem LFontTab_addr_800A5814[90];
-
-// address: 0x800B845C
-// size: 0x1C8
-extern struct FontItem_dup_17 LFontTab_addr_800B845C[114];
-
 // address: 0x800ADCF8
 // size: 0x168
 extern struct FontItem LFontTab_addr_800ADCF8[90];
+
+// address: 0x800A5814
+// size: 0xB4
+extern struct FontItem LFontTab_addr_800A5814[90];
 
 // address: 0x8011BE4C
 // size: 0x4
@@ -2575,37 +2575,25 @@ extern enum LANG_DB_NO_dup_17 LangDbNo;
 // size: 0x4
 extern enum LANG_DB_NO LangDbNo_addr_80117208;
 
-// address: 0x800A6B64
+// address: 0x800A67BC
 // size: 0xA8
-extern struct OMENUITEM_dup_4 LangMenu[7];
+extern struct OMENUITEM LangMenu[7];
 
 // address: 0x800CC974
 // size: 0x90
 extern struct OMENUITEM LangMenu_addr_800CC974[6];
 
-// address: 0x800A67BC
+// address: 0x800A6B64
 // size: 0xA8
-extern struct OMENUITEM LangMenu_addr_800A67BC[7];
+extern struct OMENUITEM_dup_4 LangMenu_addr_800A6B64[7];
 
 // address: 0x801171FC
 // size: 0x4
 extern enum LANG_TYPE LanguageType;
 
-// address: 0x800B8228
-// size: 0x21C
-extern struct CFont_dup_19 LargeFont;
-
-// address: 0x800A9720
-// size: 0x21C
-extern struct CFont LargeFont_addr_800A9720;
-
-// address: 0x800AB854
-// size: 0x21C
-extern struct CFont_dup_14 LargeFont_addr_800AB854;
-
-// address: 0x800AEF94
+// address: 0x800A55FC
 // size: 0x218
-extern struct CFont_dup_1 LargeFont_addr_800AEF94;
+extern struct CFont LargeFont;
 
 // address: 0x800A9414
 // size: 0x21C
@@ -2615,13 +2603,25 @@ extern struct CFont_dup_10 LargeFont_addr_800A9414;
 // size: 0x21C
 extern struct CFont_dup_17 LargeFont_addr_800B8240;
 
+// address: 0x800A9720
+// size: 0x21C
+extern struct CFont LargeFont_addr_800A9720;
+
+// address: 0x800AEF94
+// size: 0x218
+extern struct CFont_dup_1 LargeFont_addr_800AEF94;
+
 // address: 0x800B816C
 // size: 0x21C
 extern struct CFont_dup_18 LargeFont_addr_800B816C;
 
-// address: 0x800A55FC
-// size: 0x218
-extern struct CFont LargeFont_addr_800A55FC;
+// address: 0x800AB854
+// size: 0x21C
+extern struct CFont_dup_14 LargeFont_addr_800AB854;
+
+// address: 0x800B8228
+// size: 0x21C
+extern struct CFont_dup_19 LargeFont_addr_800B8228;
 
 // address: 0x8011AD70
 extern unsigned long LastAddr;
@@ -2673,28 +2673,28 @@ static unsigned short Level2Bgdata[25];
 // size: 0x2A
 static unsigned short Level2CutScreen[21];
 
-// address: 0x8011F9C8
-// size: 0x16
-static unsigned short Level2CutScreen_addr_8011F9C8[11];
+// address: 0x80110F4C
+// size: 0x18
+static unsigned short Level2CutScreen_addr_80110F4C[12];
 
 // address: 0x8010CF8C
 // size: 0x28
 static unsigned short Level2CutScreen_addr_8010CF8C[20];
 
-// address: 0x80110F4C
-// size: 0x18
-static unsigned short Level2CutScreen_addr_80110F4C[12];
+// address: 0x8011F9C8
+// size: 0x16
+static unsigned short Level2CutScreen_addr_8011F9C8[11];
 
 // address: 0x80114178
 extern bool LevelOut;
 
-// address: 0x800D604C
-// size: 0x280
-extern struct LightListStruct2 LightList[80];
-
 // address: 0x800B0724
 // size: 0x140
-extern struct LightListStruct2 LightList_addr_800B0724[40];
+extern struct LightListStruct2 LightList[40];
+
+// address: 0x800D604C
+// size: 0x280
+extern struct LightListStruct2 LightList_addr_800D604C[80];
 
 // address: 0x8011AF24
 static int LightMethod;
@@ -2725,65 +2725,65 @@ extern int LvlViewX;
 // address: 0x80117584
 extern int LvlViewY;
 
-// address: 0x800B880C
+// address: 0x800ABC6C
 // size: 0x10
-extern struct FontTab_dup_17 MFont;
-
-// address: 0x800A9AA4
-// size: 0x10
-extern struct FontTab_dup_15 MFont_addr_800A9AA4;
-
-// address: 0x800B87F4
-// size: 0x10
-extern struct FontTab_dup_19 MFont_addr_800B87F4;
-
-// address: 0x800A982C
-// size: 0x10
-extern struct FontTab_dup_10 MFont_addr_800A982C;
-
-// address: 0x800B8738
-// size: 0x10
-extern struct FontTab_dup_18 MFont_addr_800B8738;
-
-// address: 0x800A9B38
-// size: 0x10
-extern struct FontTab_dup_11 MFont_addr_800A9B38;
-
-// address: 0x800A5A08
-// size: 0x10
-extern struct FontTab MFont_addr_800A5A08;
+extern struct FontTab_dup_14 MFont;
 
 // address: 0x800B886C
 // size: 0x10
 extern struct FontTab_dup_20 MFont_addr_800B886C;
 
+// address: 0x800B880C
+// size: 0x10
+extern struct FontTab_dup_17 MFont_addr_800B880C;
+
 // address: 0x800AF3A0
 // size: 0x10
 extern struct FontTab_dup_1 MFont_addr_800AF3A0;
 
-// address: 0x800ABC6C
+// address: 0x800A5A08
 // size: 0x10
-extern struct FontTab_dup_14 MFont_addr_800ABC6C;
+extern struct FontTab MFont_addr_800A5A08;
 
-// address: 0x800A5BE8
-// size: 0x136
-extern struct FontItem MFontTab[155];
+// address: 0x800B87F4
+// size: 0x10
+extern struct FontTab_dup_19 MFont_addr_800B87F4;
 
-// address: 0x800A58D8
-// size: 0x12E
-extern struct FontItem MFontTab_addr_800A58D8[151];
+// address: 0x800A9AA4
+// size: 0x10
+extern struct FontTab_dup_15 MFont_addr_800A9AA4;
 
-// address: 0x800ADE70
-// size: 0x26C
-extern struct FontItem MFontTab_addr_800ADE70[155];
+// address: 0x800A9B38
+// size: 0x10
+extern struct FontTab_dup_11 MFont_addr_800A9B38;
+
+// address: 0x800B8738
+// size: 0x10
+extern struct FontTab_dup_18 MFont_addr_800B8738;
+
+// address: 0x800A982C
+// size: 0x10
+extern struct FontTab_dup_10 MFont_addr_800A982C;
+
+// address: 0x800B8560
+// size: 0x1D8
+extern struct FontItem MFontTab[118];
 
 // address: 0x800A996C
 // size: 0x136
 extern struct FontItem_dup_15 MFontTab_addr_800A996C[155];
 
-// address: 0x800B8560
-// size: 0x1D8
-extern struct FontItem MFontTab_addr_800B8560[118];
+// address: 0x800ADE70
+// size: 0x26C
+extern struct FontItem MFontTab_addr_800ADE70[155];
+
+// address: 0x800A58D8
+// size: 0x12E
+extern struct FontItem MFontTab_addr_800A58D8[151];
+
+// address: 0x800A5BE8
+// size: 0x136
+extern struct FontItem MFontTab_addr_800A5BE8[155];
 
 // address: 0x800B8634
 // size: 0x1D8
@@ -2807,17 +2807,17 @@ extern int MagicTbl[3];
 // size: 0xA8
 extern struct OMENUITEM_dup_4 MainMenu[7];
 
-// address: 0x800A651C
-// size: 0xA8
-extern struct OMENUITEM MainMenu_addr_800A651C[7];
+// address: 0x800BEB54
+// size: 0xD8
+extern struct OMENUITEM MainMenu_addr_800BEB54[9];
 
 // address: 0x800BD5D4
 // size: 0xC0
 extern struct OMENUITEM MainMenu_addr_800BD5D4[8];
 
-// address: 0x800BEB54
-// size: 0xD8
-extern struct OMENUITEM MainMenu_addr_800BEB54[9];
+// address: 0x800A651C
+// size: 0xA8
+extern struct OMENUITEM MainMenu_addr_800A651C[7];
 
 // address: 0x801176BD
 extern unsigned char ManashieldFlag;
@@ -2869,6 +2869,10 @@ extern char *McState_addr_8011C8AC[2];
 // address: 0x8012A024
 // size: 0x8
 extern char *McState_addr_8012A024[2];
+
+// address: 0x8012AF58
+// size: 0x8
+extern char *McState_addr_8012AF58[2];
 
 // address: 0x8012B284
 // size: 0x8
@@ -2950,21 +2954,17 @@ extern char *McState_addr_80117314[2];
 // size: 0x8
 extern char *McState_addr_80117638[2];
 
-// address: 0x800AB638
-// size: 0x21C
-extern struct CFont_dup_14 MediumFont;
-
-// address: 0x800A9504
-// size: 0x21C
-extern struct CFont MediumFont_addr_800A9504;
-
 // address: 0x800B8024
 // size: 0x21C
-extern struct CFont_dup_17 MediumFont_addr_800B8024;
+extern struct CFont_dup_17 MediumFont;
 
-// address: 0x800A53E4
+// address: 0x800AB638
+// size: 0x21C
+extern struct CFont_dup_14 MediumFont_addr_800AB638;
+
+// address: 0x800AED7C
 // size: 0x218
-extern struct CFont MediumFont_addr_800A53E4;
+extern struct CFont_dup_1 MediumFont_addr_800AED7C;
 
 // address: 0x800B800C
 // size: 0x21C
@@ -2974,13 +2974,17 @@ extern struct CFont_dup_19 MediumFont_addr_800B800C;
 // size: 0x21C
 extern struct CFont_dup_10 MediumFont_addr_800A91F8;
 
-// address: 0x800AED7C
+// address: 0x800A53E4
 // size: 0x218
-extern struct CFont_dup_1 MediumFont_addr_800AED7C;
+extern struct CFont MediumFont_addr_800A53E4;
 
 // address: 0x800B7F50
 // size: 0x21C
 extern struct CFont_dup_18 MediumFont_addr_800B7F50;
+
+// address: 0x800A9504
+// size: 0x21C
+extern struct CFont MediumFont_addr_800A9504;
 
 // address: 0x800A4A2C
 // size: 0x190
@@ -2993,13 +2997,17 @@ extern struct MEMSTRUCT MemBlock_addr_800B78A0[60];
 // address: 0x80116AB8
 extern bool MemCardActive;
 
-// address: 0x80132828
-// size: 0x15E0
-static struct MEM_HDR_dup_17 MemHdrBlocks[200];
-
 // address: 0x8011C138
 // size: 0xA00
-static struct MEM_HDR MemHdrBlocks_addr_8011C138[80];
+static struct MEM_HDR MemHdrBlocks[80];
+
+// address: 0x80132828
+// size: 0x15E0
+static struct MEM_HDR_dup_17 MemHdrBlocks_addr_80132828[200];
+
+// address: 0x801282D0
+// size: 0xF50
+static struct MEM_HDR MemHdrBlocks_addr_801282D0[140];
 
 // address: 0x80132720
 // size: 0x15E0
@@ -3009,10 +3017,6 @@ static struct MEM_HDR MemHdrBlocks_addr_80132720[200];
 // size: 0x1180
 static struct MEM_HDR MemHdrBlocks_addr_80119130[140];
 
-// address: 0x801282D0
-// size: 0xF50
-static struct MEM_HDR MemHdrBlocks_addr_801282D0[140];
-
 // address: 0x80117D7C
 // size: 0x28
 static struct MEM_INIT_INFO *MemInitBlocks;
@@ -3020,29 +3024,29 @@ static struct MEM_INIT_INFO *MemInitBlocks;
 // address: 0x80117DB4
 static unsigned long MemTypeForTasker;
 
-// address: 0x800A6954
-// size: 0x60
-extern struct OMENUITEM MemcardCharacterMenu[4];
-
 // address: 0x800A6CFC
 // size: 0x60
-extern struct OMENUITEM_dup_4 MemcardCharacterMenu_addr_800A6CFC[4];
+extern struct OMENUITEM_dup_4 MemcardCharacterMenu[4];
 
-// address: 0x800A6EAC
+// address: 0x800A6954
 // size: 0x60
-extern struct OMENUITEM_dup_4 MemcardFormatMenu[4];
+extern struct OMENUITEM MemcardCharacterMenu_addr_800A6954[4];
 
 // address: 0x800A6B04
 // size: 0x60
-extern struct OMENUITEM MemcardFormatMenu_addr_800A6B04[4];
+extern struct OMENUITEM MemcardFormatMenu[4];
 
-// address: 0x800A68C4
-// size: 0x90
-extern struct OMENUITEM MemcardGameMenu[6];
+// address: 0x800A6EAC
+// size: 0x60
+extern struct OMENUITEM_dup_4 MemcardFormatMenu_addr_800A6EAC[4];
 
 // address: 0x800A6C6C
 // size: 0x90
-extern struct OMENUITEM_dup_4 MemcardGameMenu_addr_800A6C6C[6];
+extern struct OMENUITEM_dup_4 MemcardGameMenu[6];
+
+// address: 0x800A68C4
+// size: 0x90
+extern struct OMENUITEM MemcardGameMenu_addr_800A68C4[6];
 
 // address: 0x800BCAE4
 // size: 0x60
@@ -3060,19 +3064,19 @@ extern struct OMENUITEM MemcardLoadOptionsMenu[4];
 // size: 0x60
 extern struct OMENUITEM MemcardMenu[4];
 
-// address: 0x800BCA3C
-// size: 0xA8
-extern struct OMENUITEM MemcardMenu_addr_800BCA3C[7];
-
 // address: 0x800A6C0C
 // size: 0x60
 extern struct OMENUITEM_dup_4 MemcardMenu_addr_800A6C0C[4];
 
-// address: 0x8011B3D8
-extern bool MemcardOverlay;
+// address: 0x800BCA3C
+// size: 0xA8
+extern struct OMENUITEM MemcardMenu_addr_800BCA3C[7];
 
 // address: 0x80116B10
-static bool MemcardOverlay_addr_80116B10;
+static bool MemcardOverlay;
+
+// address: 0x8011B3D8
+extern bool MemcardOverlay_addr_8011B3D8;
 
 // address: 0x800BCB44
 // size: 0x60
@@ -3086,57 +3090,61 @@ extern struct OMENUITEM MemcardSaveOptionsMenu[4];
 // size: 0xA8
 extern struct OMENUITEM_dup_4 MemcardSelectCard1[7];
 
-// address: 0x800CCD4C
-// size: 0xC0
-extern struct OMENUITEM MemcardSelectCard1_addr_800CCD4C[8];
-
 // address: 0x800A69B4
 // size: 0xA8
 extern struct OMENUITEM MemcardSelectCard1_addr_800A69B4[7];
 
-// address: 0x800A6E04
-// size: 0xA8
-extern struct OMENUITEM_dup_4 MemcardSelectCard2[7];
+// address: 0x800CCD4C
+// size: 0xC0
+extern struct OMENUITEM MemcardSelectCard1_addr_800CCD4C[8];
 
 // address: 0x800A6A5C
 // size: 0xA8
-extern struct OMENUITEM MemcardSelectCard2_addr_800A6A5C[7];
+extern struct OMENUITEM MemcardSelectCard2[7];
 
 // address: 0x800CCE0C
 // size: 0xC0
 extern struct OMENUITEM MemcardSelectCard2_addr_800CCE0C[8];
 
+// address: 0x800A6E04
+// size: 0xA8
+extern struct OMENUITEM_dup_4 MemcardSelectCard2_addr_800A6E04[7];
+
 // address: 0x80116AEC
 // size: 0x5C
 extern struct TASK *MemcardTask;
 
-// address: 0x800BD3F0
-// size: 0xA0
-extern struct OMENULIST MenuList[20];
-
 // address: 0x800BDFAC
 // size: 0x98
-extern struct OMENULIST MenuList_addr_800BDFAC[19];
+extern struct OMENULIST MenuList[19];
 
-// address: 0x800B04FC
-// size: 0x84
-extern struct OMENULIST MenuList_addr_800B04FC[11];
-
-// address: 0x800BCFC4
-// size: 0x90
-extern struct OMENULIST MenuList_addr_800BCFC4[18];
+// address: 0x800A9A8C
+// size: 0x70
+extern struct OMENULIST MenuList_addr_800A9A8C[14];
 
 // address: 0x800A705C
 // size: 0x70
 extern struct OMENULIST_dup_4 MenuList_addr_800A705C[14];
 
+// address: 0x800BCFC4
+// size: 0x90
+extern struct OMENULIST MenuList_addr_800BCFC4[18];
+
+// address: 0x800B04FC
+// size: 0x84
+extern struct OMENULIST MenuList_addr_800B04FC[11];
+
+// address: 0x800BD3F0
+// size: 0xA0
+extern struct OMENULIST MenuList_addr_800BD3F0[20];
+
 // address: 0x800A6C54
 // size: 0x9C
 extern struct OMENULIST MenuList_addr_800A6C54[13];
 
-// address: 0x800A9A8C
-// size: 0x70
-extern struct OMENULIST MenuList_addr_800A9A8C[14];
+// address: 0x800BCB94
+// size: 0x88
+extern struct OMENULIST MenuList_addr_800BCB94[17];
 
 // address: 0x800A807C
 // size: 0x70
@@ -3153,17 +3161,13 @@ extern int MicroTileLen;
 // size: 0xAA
 extern struct MINIXY MinisetXY[17];
 
-// address: 0x80120EF0
-// size: 0x68
-extern struct TextDat_dup_1 *MissDat;
-
-// address: 0x80117238
-// size: 0x6C
-extern struct TextDat *MissDat_addr_80117238;
-
 // address: 0x8011BE7C
 // size: 0x70
-extern struct TextDat_dup_17 *MissDat_addr_8011BE7C;
+extern struct TextDat_dup_17 *MissDat;
+
+// address: 0x8012DCDC
+// size: 0x6C
+extern struct TextDat_dup_14 *MissDat_addr_8012DCDC;
 
 // address: 0x8011BD74
 // size: 0x70
@@ -3173,9 +3177,13 @@ extern struct TextDat_dup_18 *MissDat_addr_8011BD74;
 // size: 0x70
 extern struct TextDat *MissDat_addr_8011BE3C;
 
-// address: 0x8012DCDC
+// address: 0x80120EF0
+// size: 0x68
+extern struct TextDat_dup_1 *MissDat_addr_80120EF0;
+
+// address: 0x80117238
 // size: 0x6C
-extern struct TextDat_dup_14 *MissDat_addr_8012DCDC;
+extern struct TextDat *MissDat_addr_80117238;
 
 // address: 0x800B10BC
 // size: 0x110
@@ -3231,11 +3239,11 @@ extern char MtPrevText[80];
 // address: 0x8011BB98
 static bool MusicFading;
 
-// address: 0x80117B38
-static unsigned long MusicVol;
-
 // address: 0x80113B50
-extern unsigned long MusicVol_addr_80113B50;
+extern unsigned long MusicVol;
+
+// address: 0x80117B38
+static unsigned long MusicVol_addr_80117B38;
 
 // address: 0x80117FB0
 // size: 0x28
@@ -3390,13 +3398,13 @@ static unsigned char NumsLEV4M4QB[5];
 // size: 0x4
 static unsigned char NumsLEV4M4QB_addr_801161B8[4];
 
-// address: 0x801161C0
-// size: 0x4
-static unsigned char NumsLEV4M4QC[4];
-
 // address: 0x801131B0
 // size: 0x5
-static unsigned char NumsLEV4M4QC_addr_801131B0[5];
+static unsigned char NumsLEV4M4QC[5];
+
+// address: 0x801161C0
+// size: 0x4
+static unsigned char NumsLEV4M4QC_addr_801161C0[4];
 
 // address: 0x801161C8
 // size: 0x4
@@ -3466,13 +3474,13 @@ static unsigned char NumsLEV7M7C[3];
 // size: 0x4
 static unsigned char NumsLEV7M7C_addr_8012BFB4[4];
 
-// address: 0x8012BFB8
-// size: 0x3
-static unsigned char NumsLEV7M7D[3];
-
 // address: 0x80116204
 // size: 0x2
-static unsigned char NumsLEV7M7D_addr_80116204[2];
+static unsigned char NumsLEV7M7D[2];
+
+// address: 0x8012BFB8
+// size: 0x3
+static unsigned char NumsLEV7M7D_addr_8012BFB8[3];
 
 // address: 0x80116208
 // size: 0x2
@@ -3562,13 +3570,13 @@ static unsigned char NumsLEV11M11B[3];
 // size: 0x3
 static unsigned char NumsLEV11M11C[3];
 
-// address: 0x8011AAE0
-// size: 0x2
-static unsigned char NumsLEV11M11D[2];
-
 // address: 0x80116250
 // size: 0x3
-static unsigned char NumsLEV11M11D_addr_80116250[3];
+static unsigned char NumsLEV11M11D[3];
+
+// address: 0x8011AAE0
+// size: 0x2
+static unsigned char NumsLEV11M11D_addr_8011AAE0[2];
 
 // address: 0x80116254
 // size: 0x2
@@ -3598,13 +3606,13 @@ static unsigned char NumsLEV13M13A[3];
 // size: 0x2
 static unsigned char NumsLEV13M13B[2];
 
-// address: 0x8011AB00
-// size: 0x2
-static unsigned char NumsLEV13M13C[2];
-
 // address: 0x80116274
 // size: 0x3
-static unsigned char NumsLEV13M13C_addr_80116274[3];
+static unsigned char NumsLEV13M13C[3];
+
+// address: 0x8011AB00
+// size: 0x2
+static unsigned char NumsLEV13M13C_addr_8011AB00[2];
 
 // address: 0x80116278
 // size: 0x2
@@ -3626,13 +3634,13 @@ static unsigned char NumsLEV14M14A[3];
 // size: 0x3
 static unsigned char NumsLEV14M14B[3];
 
-// address: 0x8011AB14
-// size: 0x2
-static unsigned char NumsLEV14M14C[2];
-
 // address: 0x80116288
 // size: 0x3
-static unsigned char NumsLEV14M14C_addr_80116288[3];
+static unsigned char NumsLEV14M14C[3];
+
+// address: 0x8011AB14
+// size: 0x2
+static unsigned char NumsLEV14M14C_addr_8011AB14[2];
 
 // address: 0x8011628C
 // size: 0x3
@@ -3674,13 +3682,13 @@ static unsigned char NumsLEV15M15QA[2];
 // size: 0x3
 static unsigned char NumsLEV16M16D[3];
 
-// address: 0x8011329C
-// size: 0x2
-static unsigned char NumsLEV16M16D_addr_8011329C[2];
-
 // address: 0x801162A0
 // size: 0x1
 static unsigned char NumsLEV16M16D_addr_801162A0[1];
+
+// address: 0x8011329C
+// size: 0x2
+static unsigned char NumsLEV16M16D_addr_8011329C[2];
 
 // address: 0x80117B6C
 // size: 0x8
@@ -3841,37 +3849,37 @@ extern struct PLStruct PL_Suffix[96];
 // size: 0x8
 static struct RECT PRect;
 
-// address: 0x800A4BBC
-// size: 0x6C
-extern struct CPad Pad0;
-
-// address: 0x800B7A80
-// size: 0xEC
-extern struct CPad_dup_17 Pad0_addr_800B7A80;
-
 // address: 0x800A4ECC
 // size: 0x6C
-extern struct CPad_dup_4 Pad0_addr_800A4ECC;
+extern struct CPad_dup_4 Pad0;
 
 // address: 0x800B79AC
 // size: 0xEC
 extern struct CPad Pad0_addr_800B79AC;
 
-// address: 0x800B7B6C
+// address: 0x800A4BBC
+// size: 0x6C
+extern struct CPad Pad0_addr_800A4BBC;
+
+// address: 0x800B7A80
 // size: 0xEC
-extern struct CPad_dup_17 Pad1;
+extern struct CPad_dup_17 Pad0_addr_800B7A80;
 
 // address: 0x800A4F38
 // size: 0x6C
-extern struct CPad_dup_4 Pad1_addr_800A4F38;
+extern struct CPad_dup_4 Pad1;
 
-// address: 0x800B7A98
+// address: 0x800B7B6C
 // size: 0xEC
-extern struct CPad Pad1_addr_800B7A98;
+extern struct CPad_dup_17 Pad1_addr_800B7B6C;
 
 // address: 0x800A4C28
 // size: 0x6C
 extern struct CPad Pad1_addr_800A4C28;
+
+// address: 0x800B7A98
+// size: 0xEC
+extern struct CPad Pad1_addr_800B7A98;
 
 // address: 0x8012D458
 extern bool PadFrig;
@@ -3898,11 +3906,11 @@ static char *Passedfilename;
 // address: 0x8011C9B4
 static int Passedh;
 
-// address: 0x80116F20
-extern int Passedlvldir;
-
 // address: 0x8011CA04
-static int Passedlvldir_addr_8011CA04;
+static int Passedlvldir;
+
+// address: 0x80116F20
+extern int Passedlvldir_addr_80116F20;
 
 // address: 0x8011C9B0
 static int Passedw;
@@ -3968,11 +3976,11 @@ static struct Overlay_dup_1 PregameOver_addr_80121D20;
 // address: 0x8012BBA0
 static char *PrevSelTxt;
 
-// address: 0x8012B2A4
-static char *PrevTxt;
-
 // address: 0x80116B24
-extern char *PrevTxt_addr_80116B24;
+extern char *PrevTxt;
+
+// address: 0x8012B2A4
+static char *PrevTxt_addr_8012B2A4;
 
 // address: 0x80117A28
 // size: 0x1C
@@ -4016,13 +4024,13 @@ static int QS_PX;
 // address: 0x801170D8
 static int QS_PY;
 
-// address: 0x80116BBC
-// size: 0x2
-extern char QSpell[2];
-
 // address: 0x80116A6C
 // size: 0x8
-extern int QSpell_addr_80116A6C[2];
+extern int QSpell[2];
+
+// address: 0x80116BBC
+// size: 0x2
+extern char QSpell_addr_80116BBC[2];
 
 // address: 0x8012B2B0
 extern unsigned char Qfromoptions;
@@ -4110,13 +4118,13 @@ extern unsigned char RadiusAdj[23];
 // size: 0x8
 static unsigned char RandBTab[8];
 
-// address: 0x800A4FA4
-// size: 0x22
-extern unsigned char RawPadData0[34];
-
 // address: 0x800A4C94
 // size: 0x22
-extern char RawPadData0_addr_800A4C94[34];
+extern char RawPadData0[34];
+
+// address: 0x800A4FA4
+// size: 0x22
+extern unsigned char RawPadData0_addr_800A4FA4[34];
 
 // address: 0x800A4FC8
 // size: 0x22
@@ -4175,25 +4183,25 @@ static unsigned short SFXRemapTab[60];
 // size: 0xB0
 static int SFXRemapTab_addr_8010CC00[44];
 
-// address: 0x80122184
-// size: 0x74
-static unsigned short SFXRemapTab_addr_80122184[58];
-
 // address: 0x80109CB8
 // size: 0x70
 static unsigned short SFXRemapTab_addr_80109CB8[56];
 
-// address: 0x800B9858
+// address: 0x80122184
+// size: 0x74
+static unsigned short SFXRemapTab_addr_80122184[58];
+
+// address: 0x800B992C
 // size: 0x108
-extern struct SFXHDR SFXTab[2];
+extern struct SFXHDR_dup_17 SFXTab[2];
 
 // address: 0x800A5D08
 // size: 0x100
 extern struct SFXHDR SFXTab_addr_800A5D08[2];
 
-// address: 0x800B992C
+// address: 0x800B9858
 // size: 0x108
-extern struct SFXHDR_dup_17 SFXTab_addr_800B992C[2];
+extern struct SFXHDR SFXTab_addr_800B9858[2];
 
 // address: 0x8011BAB8
 static int SFXW;
@@ -4268,28 +4276,28 @@ extern char STREAM_DIR[16];
 // address: 0x8011672C
 static bool STRInit;
 
+// address: 0x800CB9A0
+// size: 0x84
+extern struct SFXHDR STRSave;
+
 // address: 0x800BBDF4
 // size: 0x80
-extern struct SFXHDR STRSave;
+extern struct SFXHDR STRSave_addr_800BBDF4;
 
 // address: 0x800CBA74
 // size: 0x84
 extern struct SFXHDR_dup_17 STRSave_addr_800CBA74;
 
-// address: 0x800CB9A0
-// size: 0x84
-extern struct SFXHDR STRSave_addr_800CB9A0;
-
-// address: 0x800A9DB4
-// size: 0x12000
-extern unsigned long STR_Buffer[18432];
+// address: 0x80116724
+extern unsigned long *STR_Buffer;
 
 // address: 0x800AE4DC
 // size: 0x18000
 extern unsigned long STR_Buffer_addr_800AE4DC[24576];
 
-// address: 0x80116724
-extern unsigned long *STR_Buffer_addr_80116724;
+// address: 0x800A9DB4
+// size: 0x12000
+extern unsigned long STR_Buffer_addr_800A9DB4[18432];
 
 // address: 0x8011BD40
 extern int SWrapCount;
@@ -4315,17 +4323,17 @@ extern char *Savefilename;
 // size: 0x30
 static int SchEnv[12];
 
-// address: 0x80122170
-// size: 0x74
-static struct CScreen_dup_1 Scr;
+// address: 0x8012F0E8
+// size: 0x78
+static struct CScreen_dup_14 Scr;
 
 // address: 0x801184B8
 // size: 0x78
 static struct CScreen Scr_addr_801184B8;
 
-// address: 0x8012F0E8
-// size: 0x78
-static struct CScreen_dup_14 Scr_addr_8012F0E8;
+// address: 0x80122170
+// size: 0x74
+static struct CScreen_dup_1 Scr_addr_80122170;
 
 // address: 0x80117A2E
 static unsigned char ScrNum;
@@ -4338,12 +4346,12 @@ static struct RECT ScrRect;
 // size: 0x70
 static struct SCREEN_ENV *Screens;
 
-// address: 0x80116FA0
-extern int ScrollFlag;
-
 // address: 0x8011BB0C
 // size: 0x8
-extern int ScrollFlag_addr_8011BB0C[2];
+extern int ScrollFlag[2];
+
+// address: 0x80116FA0
+extern int ScrollFlag_addr_80116FA0;
 
 // address: 0x800D94B8
 // size: 0x14
@@ -4393,13 +4401,13 @@ extern int SetParticle;
 // address: 0x8011B098
 extern unsigned short ShadClut;
 
-// address: 0x801265E0
-// size: 0x40
-extern short SinTab[32];
-
 // address: 0x8010C5FC
 // size: 0x40
-static short SinTab_addr_8010C5FC[32];
+static short SinTab[32];
+
+// address: 0x801265E0
+// size: 0x40
+extern short SinTab_addr_801265E0[32];
 
 // address: 0x800D4D40
 // size: 0x14
@@ -4429,50 +4437,50 @@ static unsigned char SkelKingTrans3[20];
 // size: 0x1C
 static unsigned char SkelKingTrans4[28];
 
-// address: 0x8011C904
-// size: 0x70
+// address: 0x80117B48
+// size: 0x6C
 static struct TextDat *Slider;
 
-// address: 0x8011C944
+// address: 0x8011C904
 // size: 0x70
-static struct TextDat_dup_17 *Slider_addr_8011C944;
+static struct TextDat *Slider_addr_8011C904;
 
 // address: 0x8011C83C
 // size: 0x70
 static struct TextDat_dup_18 *Slider_addr_8011C83C;
 
-// address: 0x80121808
-// size: 0x68
-static struct TextDat_dup_1 *Slider_addr_80121808;
-
-// address: 0x80117B48
-// size: 0x6C
-static struct TextDat *Slider_addr_80117B48;
-
 // address: 0x8012E774
 // size: 0x6C
 static struct TextDat_dup_14 *Slider_addr_8012E774;
 
+// address: 0x8011C944
+// size: 0x70
+static struct TextDat_dup_17 *Slider_addr_8011C944;
+
+// address: 0x80121808
+// size: 0x68
+static struct TextDat_dup_1 *Slider_addr_80121808;
+
 // address: 0x8011BD38
 extern int SmithItemCount;
 
+// address: 0x800A6A2C
+// size: 0x90
+extern struct OMENUITEM_dup_4 SoundMenu[6];
+
 // address: 0x800CC884
 // size: 0xA8
-extern struct OMENUITEM SoundMenu[7];
+extern struct OMENUITEM SoundMenu_addr_800CC884[7];
 
 // address: 0x800A6684
 // size: 0x90
 extern struct OMENUITEM SoundMenu_addr_800A6684[6];
 
-// address: 0x800A6A2C
-// size: 0x90
-extern struct OMENUITEM_dup_4 SoundMenu_addr_800A6A2C[6];
+// address: 0x80117B3C
+static unsigned long SoundVol;
 
 // address: 0x80113B54
-extern unsigned long SoundVol;
-
-// address: 0x80117B3C
-static unsigned long SoundVol_addr_80117B3C;
+extern unsigned long SoundVol_addr_80113B54;
 
 // address: 0x80116B00
 static int Spacing;
@@ -4522,13 +4530,13 @@ extern unsigned char SpellColors[18];
 // size: 0x90
 extern struct SPELLFX_DAT_dup_7 SpellFXDat[2];
 
-// address: 0x800A77E4
-// size: 0xA0
-extern struct SPELLFX_DAT SpellFXDat_addr_800A77E4[2];
-
 // address: 0x800AA368
 // size: 0x90
 extern struct SPELLFX_DAT SpellFXDat_addr_800AA368[2];
+
+// address: 0x800A77E4
+// size: 0xA0
+extern struct SPELLFX_DAT SpellFXDat_addr_800A77E4[2];
 
 // address: 0x800A7B5C
 // size: 0x25
@@ -4538,13 +4546,13 @@ extern char SpellITbl[37];
 // size: 0x64
 extern int SpellPages[5][5];
 
-// address: 0x800BD59C
-// size: 0x38
-extern struct Spell_Target_dup_12 SplTarget[2];
-
 // address: 0x800A6864
 // size: 0x48
-extern struct Spell_Target_dup_4 SplTarget_addr_800A6864[2];
+extern struct Spell_Target_dup_4 SplTarget[2];
+
+// address: 0x800A7884
+// size: 0x48
+extern struct Spell_Target SplTarget_addr_800A7884[2];
 
 // address: 0x800A65B4
 // size: 0x38
@@ -4558,9 +4566,9 @@ extern struct Spell_Target_dup_13 SplTarget_addr_800BE130[2];
 // size: 0x30
 extern struct Spell_Target SplTarget_addr_800BEAA4[2];
 
-// address: 0x800A7884
-// size: 0x48
-extern struct Spell_Target SplTarget_addr_800A7884[2];
+// address: 0x800BD59C
+// size: 0x38
+extern struct Spell_Target_dup_12 SplTarget_addr_800BD59C[2];
 
 // address: 0x80117DDC
 static void (*StackFloodCallback)();
@@ -4583,21 +4591,21 @@ static struct RECT StoreBackRectClipper;
 // address: 0x8011BD08
 extern int StorePlrNo;
 
-// address: 0x800C9BC8
-// size: 0x24
-extern int StoryBookName[9];
-
 // address: 0x800D8984
 // size: 0x12
-extern unsigned short StoryBookName_addr_800D8984[9];
+extern unsigned short StoryBookName[9];
 
-// address: 0x800E3DFC
-// size: 0x12
-extern unsigned short StoryText[3][3];
+// address: 0x800C9BC8
+// size: 0x24
+extern int StoryBookName_addr_800C9BC8[9];
 
 // address: 0x800D4E00
 // size: 0x24
-extern int StoryText_addr_800D4E00[3][3];
+extern int StoryText[3][3];
+
+// address: 0x800E3DFC
+// size: 0x12
+extern unsigned short StoryText_addr_800E3DFC[3][3];
 
 // address: 0x800CB39C
 // size: 0xC
@@ -4674,13 +4682,13 @@ extern char **TextPtr;
 // address: 0x8011BBB0
 extern int TextWait;
 
-// address: 0x800A6160
-// size: 0x1EC
-extern struct PalCollection_dup_4 ThePals;
-
 // address: 0x800A5E48
 // size: 0x18C
-extern struct PalCollection ThePals_addr_800A5E48;
+extern struct PalCollection ThePals;
+
+// address: 0x800A6160
+// size: 0x1EC
+extern struct PalCollection_dup_4 ThePals_addr_800A6160;
 
 // address: 0x800A70E0
 // size: 0x1EC
@@ -4716,11 +4724,11 @@ static int TimePerFrame;
 // address: 0x80117D88
 static int TimeStamp;
 
-// address: 0x801169C4
-extern int TitleAnimCount;
-
 // address: 0x8011B334
-static int TitleAnimCount_addr_8011B334;
+static int TitleAnimCount;
+
+// address: 0x801169C4
+extern int TitleAnimCount_addr_801169C4;
 
 // address: 0x8011B3B4
 extern bool TitleFlag;
@@ -4729,13 +4737,13 @@ extern bool TitleFlag;
 // size: 0xC
 extern int ToBlkTbl[3];
 
-// address: 0x800ABD2C
-// size: 0x16
-extern struct TownToCreature TownConv[11];
-
 // address: 0x800A5AC8
 // size: 0x14
-extern struct TownToCreature TownConv_addr_800A5AC8[10];
+extern struct TownToCreature TownConv[10];
+
+// address: 0x800ABD2C
+// size: 0x16
+extern struct TownToCreature TownConv_addr_800ABD2C[11];
 
 // address: 0x800A8A0C
 // size: 0xC
@@ -4749,21 +4757,21 @@ extern int TownCowX[3];
 // size: 0xC
 extern int TownCowY[3];
 
-// address: 0x800D4890
-// size: 0x2C
-extern int TownDownList[11];
-
 // address: 0x800E2F44
 // size: 0x16
-extern short TownDownList_addr_800E2F44[11];
+extern short TownDownList[11];
 
-// address: 0x800D48BC
-// size: 0x34
-extern int TownWarp1List[13];
+// address: 0x800D4890
+// size: 0x2C
+extern int TownDownList_addr_800D4890[11];
 
 // address: 0x800E2F5C
 // size: 0x1A
-extern short TownWarp1List_addr_800E2F5C[13];
+extern short TownWarp1List[13];
+
+// address: 0x800D48BC
+// size: 0x34
+extern int TownWarp1List_addr_800D48BC[13];
 
 // address: 0x800E2F78
 // size: 0x2E
@@ -4773,29 +4781,29 @@ extern short TownWarp2List[23];
 // size: 0x22
 extern short TownWarp3List[17];
 
-// address: 0x8012E744
-// size: 0x6C
-static struct TextDat_dup_14 *TownerGfx;
-
-// address: 0x8011C8CC
-// size: 0x70
-static struct TextDat *TownerGfx_addr_8011C8CC;
-
 // address: 0x8011C90C
 // size: 0x70
-static struct TextDat_dup_17 *TownerGfx_addr_8011C90C;
+static struct TextDat_dup_17 *TownerGfx;
 
 // address: 0x80117AD8
 // size: 0x6C
 static struct TextDat *TownerGfx_addr_80117AD8;
 
-// address: 0x8011C804
-// size: 0x70
-static struct TextDat_dup_18 *TownerGfx_addr_8011C804;
-
 // address: 0x80121798
 // size: 0x68
 static struct TextDat_dup_1 *TownerGfx_addr_80121798;
+
+// address: 0x8011C8CC
+// size: 0x70
+static struct TextDat *TownerGfx_addr_8011C8CC;
+
+// address: 0x8012E744
+// size: 0x6C
+static struct TextDat_dup_14 *TownerGfx_addr_8012E744;
+
+// address: 0x8011C804
+// size: 0x70
+static struct TextDat_dup_18 *TownerGfx_addr_8011C804;
 
 // address: 0x80116514
 extern int TpH;
@@ -4809,13 +4817,13 @@ extern int TpXDest;
 // address: 0x8011651C
 extern int TpYDest;
 
-// address: 0x800D94CC
-// size: 0x20
-extern bool TransList[8];
-
 // address: 0x800E7674
 // size: 0x100
-extern unsigned char TransList_addr_800E7674[256];
+extern unsigned char TransList[256];
+
+// address: 0x800D94CC
+// size: 0x20
+extern bool TransList_addr_800D94CC[8];
 
 // address: 0x801067B4
 // size: 0x218
@@ -4949,29 +4957,29 @@ static int WWorldX;
 // address: 0x80117AA4
 static int WWorldY;
 
-// address: 0x800E3918
-// size: 0x10
-static int WarpDropX[4];
-
 // address: 0x80118F38
 // size: 0x2
-static char WarpDropX_addr_80118F38[2];
+static char WarpDropX[2];
+
+// address: 0x800E3918
+// size: 0x10
+static int WarpDropX_addr_800E3918[4];
 
 // address: 0x80108E2C
 // size: 0x10
 extern int WarpDropX_addr_80108E2C[4];
 
+// address: 0x800E3928
+// size: 0x10
+static int WarpDropY[4];
+
 // address: 0x80108E3C
 // size: 0x10
-extern int WarpDropY[4];
+extern int WarpDropY_addr_80108E3C[4];
 
 // address: 0x80118F3C
 // size: 0x2
 static char WarpDropY_addr_80118F3C[2];
-
-// address: 0x800E3928
-// size: 0x10
-static int WarpDropY_addr_800E3928[4];
 
 // address: 0x8011423C
 extern bool WaterDone;
@@ -5004,11 +5012,11 @@ extern char _6FileIO_FileToLoad[50];
 
 // address: 0x8012DD74
 // size: 0x94
-static struct GamePad *_GP0;
+static struct GamePad_dup_13 *_GP0;
 
 // address: 0x8012DD74
 // size: 0x94
-static struct GamePad_dup_13 *_GP0_addr_8012DD74;
+static struct GamePad *_GP0_addr_8012DD74;
 
 // address: 0x8012C840
 // size: 0x9C
@@ -5020,19 +5028,19 @@ static struct GamePad *_GP0_addr_8012C534;
 
 // address: 0x8012DD78
 // size: 0x94
-static struct GamePad_dup_13 *_GP1;
-
-// address: 0x8012DD78
-// size: 0x94
-static struct GamePad *_GP1_addr_8012DD78;
-
-// address: 0x8012C538
-// size: 0x9C
-static struct GamePad *_GP1_addr_8012C538;
+static struct GamePad *_GP1;
 
 // address: 0x8012C844
 // size: 0x9C
 static struct GamePad_dup_11 *_GP1_addr_8012C844;
+
+// address: 0x8012DD78
+// size: 0x94
+static struct GamePad_dup_13 *_GP1_addr_8012DD78;
+
+// address: 0x8012C538
+// size: 0x9C
+static struct GamePad *_GP1_addr_8012C538;
 
 // address: 0x8011BD1C
 // size: 0x8
@@ -5064,13 +5072,13 @@ extern int _discard_count;
 // address: 0x80113D9C
 extern int _get_count;
 
-// address: 0x800E1928
-// size: 0xD8
-extern struct ItemStruct _golditem[2];
-
 // address: 0x800E19FC
 // size: 0xD8
-extern struct ItemStruct_dup_17 _golditem_addr_800E19FC[2];
+extern struct ItemStruct_dup_17 _golditem[2];
+
+// address: 0x800E1928
+// size: 0xD8
+extern struct ItemStruct _golditem_addr_800E1928[2];
 
 // address: 0x800E091C
 // size: 0x10E0
@@ -5112,13 +5120,13 @@ static int _pSplType[2];
 // size: 0x2
 extern unsigned char _pTargetSpell[2];
 
-// address: 0x80118680
-// size: 0x400
-static char _panelstr[64][8][2];
-
 // address: 0x8012E790
 // size: 0x500
-static char _panelstr_addr_8012E790[64][10][2];
+static char _panelstr[64][10][2];
+
+// address: 0x80118680
+// size: 0x400
+static char _panelstr_addr_80118680[64][8][2];
 
 // address: 0x801171E8
 // size: 0x8
@@ -5152,17 +5160,17 @@ extern char _pcursplr[2];
 // size: 0x2
 extern char _pfind_index[2];
 
-// address: 0x800E3520
-// size: 0x3C
-extern struct found_objects _pfind_list[10][2];
-
 // address: 0x800E35F4
 // size: 0x3C
-extern struct found_objects_dup_17 _pfind_list_addr_800E35F4[10][2];
+extern struct found_objects_dup_17 _pfind_list[10][2];
 
 // address: 0x800D4B18
 // size: 0x50
 extern struct found_objects _pfind_list_addr_800D4B18[10][2];
+
+// address: 0x800E3520
+// size: 0x3C
+extern struct found_objects _pfind_list_addr_800E3520[10][2];
 
 // address: 0x801171F4
 // size: 0x2
@@ -5180,13 +5188,13 @@ extern unsigned char _pinfoflag[2];
 // size: 0x8
 static int _pnumlines[2];
 
-// address: 0x800DF180
-// size: 0x510
-extern struct ItemStruct _premiumitem[6][2];
-
 // address: 0x800DF254
 // size: 0x510
-extern struct ItemStruct_dup_17 _premiumitem_addr_800DF254[6][2];
+extern struct ItemStruct_dup_17 _premiumitem[6][2];
+
+// address: 0x800DF180
+// size: 0x510
+extern struct ItemStruct _premiumitem_addr_800DF180[6][2];
 
 // address: 0x8011BD14
 // size: 0x8
@@ -5216,13 +5224,13 @@ static int _pstrjust[10][2];
 // size: 0x40
 static int _pstrjust_addr_80118A80[8][2];
 
-// address: 0x800DE174
-// size: 0x10E0
-extern struct ItemStruct_dup_17 _smithitem[20][2];
-
 // address: 0x800DE0A0
 // size: 0x10E0
-extern struct ItemStruct _smithitem_addr_800DE0A0[20][2];
+extern struct ItemStruct _smithitem[20][2];
+
+// address: 0x800DE174
+// size: 0x10E0
+extern struct ItemStruct_dup_17 _smithitem_addr_800DE174[20][2];
 
 // address: 0x80116A74
 // size: 0x2
@@ -5321,25 +5329,25 @@ static int blockg;
 // address: 0x80117A88
 static int blockr;
 
+// address: 0x800D1FE8
+// size: 0x94
+extern struct ItemStruct boyitem;
+
 // address: 0x800E5DF8
 // size: 0x98
-extern struct ItemStruct_dup_11 boyitem;
+extern struct ItemStruct_dup_11 boyitem_addr_800E5DF8;
 
 // address: 0x800D3118
 // size: 0x98
 extern struct ItemStruct boyitem_addr_800D3118;
 
-// address: 0x800D1FE8
-// size: 0x94
-extern struct ItemStruct boyitem_addr_800D1FE8;
+// address: 0x800E7184
+// size: 0x98
+extern struct ItemStruct_dup_13 boyitem_addr_800E7184;
 
 // address: 0x800D1FB0
 // size: 0x98
 extern struct ItemStruct_dup_6 boyitem_addr_800D1FB0;
-
-// address: 0x800E7184
-// size: 0x98
-extern struct ItemStruct_dup_13 boyitem_addr_800E7184;
 
 // address: 0x80117150
 extern int boylevel;
@@ -5350,13 +5358,13 @@ extern unsigned char boyloadflag;
 // address: 0x80117C24
 static int bright;
 
-// address: 0x800B0714
-// size: 0x10
-extern char bright_tab[16];
-
 // address: 0x800C87D4
 // size: 0x10
-static char bright_tab_addr_800C87D4[16];
+static char bright_tab[16];
+
+// address: 0x800B0714
+// size: 0x10
+extern char bright_tab_addr_800B0714[16];
 
 // address: 0x80117588
 extern int btmbx;
@@ -5374,13 +5382,13 @@ extern int btmdy;
 // size: 0x1380
 static char buf[4992];
 
-// address: 0x8011D020
-// size: 0x28
-static int buff[10];
-
 // address: 0x80119F68
 // size: 0x20
-static int buff_addr_80119F68[8];
+static int buff[8];
+
+// address: 0x8011D020
+// size: 0x28
+static int buff_addr_8011D020[10];
 
 // address: 0x8012C3A4
 extern bool buttoncol;
@@ -5551,13 +5559,13 @@ static int clipit;
 // address: 0x80116B0C
 extern int cmenu;
 
-// address: 0x800A67AC
-// size: 0x98
-static int controller_defaults[2][19];
-
 // address: 0x800A6444
 // size: 0xA0
-static int controller_defaults_addr_800A6444[2][20];
+static int controller_defaults[2][20];
+
+// address: 0x800A67AC
+// size: 0x98
+static int controller_defaults_addr_800A67AC[2][19];
 
 // address: 0x8011B3E0
 extern int countdownloadcharblock;
@@ -5598,13 +5606,21 @@ extern int current_card;
 // address: 0x80117560
 extern unsigned char currlevel;
 
+// address: 0x80118C58
+// size: 0x94
+static struct ItemStruct curruitem;
+
+// address: 0x8012D680
+// size: 0x98
+static struct ItemStruct_dup_11 curruitem_addr_8012D680;
+
+// address: 0x80125B00
+// size: 0x98
+static struct ItemStruct_dup_6 curruitem_addr_80125B00;
+
 // address: 0x8012EEB0
 // size: 0x6C
-static struct ItemStruct_dup_17 curruitem;
-
-// address: 0x8012EBE8
-// size: 0x98
-static struct ItemStruct_dup_13 curruitem_addr_8012EBE8;
+static struct ItemStruct_dup_17 curruitem_addr_8012EEB0;
 
 // address: 0x8011A8B8
 // size: 0x98
@@ -5614,17 +5630,9 @@ static struct ItemStruct curruitem_addr_8011A8B8;
 // size: 0x6C
 static struct ItemStruct curruitem_addr_8012EDA8;
 
-// address: 0x80125B00
+// address: 0x8012EBE8
 // size: 0x98
-static struct ItemStruct_dup_6 curruitem_addr_80125B00;
-
-// address: 0x8012D680
-// size: 0x98
-static struct ItemStruct_dup_11 curruitem_addr_8012D680;
-
-// address: 0x80118C58
-// size: 0x94
-static struct ItemStruct curruitem_addr_80118C58;
+static struct ItemStruct_dup_13 curruitem_addr_8012EBE8;
 
 // address: 0x80116E78
 extern int cursH;
@@ -5688,13 +5696,13 @@ static struct DecEnv dec;
 // address: 0x8011701D
 extern unsigned char deltaload;
 
-// address: 0x800A4CDC
-// size: 0x708
-extern unsigned char demo_buffer[1800];
-
 // address: 0x800A9004
 // size: 0x384
-extern unsigned char demo_buffer_addr_800A9004[900];
+extern unsigned char demo_buffer[900];
+
+// address: 0x800A4CDC
+// size: 0x708
+extern unsigned char demo_buffer_addr_800A4CDC[1800];
 
 // address: 0x80116E28
 extern char demo_fade_finished;
@@ -5757,13 +5765,13 @@ extern int demo_which;
 // address: 0x801182ED
 extern unsigned char demo_which_addr_801182ED;
 
-// address: 0x801137B4
-// size: 0x5
-extern char demolevel[5];
-
 // address: 0x800A96C0
 // size: 0x14
-extern unsigned long demolevel_addr_800A96C0[5];
+extern unsigned long demolevel[5];
+
+// address: 0x801137B4
+// size: 0x5
+extern char demolevel_addr_801137B4[5];
 
 // address: 0x800D6664
 // size: 0x640
@@ -5870,21 +5878,21 @@ extern int dropGoldValue;
 // size: 0x18800
 extern struct map_info_dup_17 dung_map[112][112];
 
-// address: 0x800E76A0
-// size: 0x18800
-extern struct map_info dung_map_addr_800E76A0[112][112];
-
 // address: 0x800D94EC
 // size: 0x222C0
 extern struct map_info dung_map_addr_800D94EC[108][108];
 
-// address: 0x800FCE74
-// size: 0xB64
-extern unsigned char dung_map_b[54][54];
+// address: 0x800E76A0
+// size: 0x18800
+extern struct map_info dung_map_addr_800E76A0[112][112];
 
 // address: 0x801017F4
 // size: 0xC40
-extern unsigned char dung_map_b_addr_801017F4[56][56];
+extern unsigned char dung_map_b[56][56];
+
+// address: 0x800FCE74
+// size: 0xB64
+extern unsigned char dung_map_b_addr_800FCE74[54][54];
 
 // address: 0x80100BB4
 // size: 0xC40
@@ -5894,13 +5902,13 @@ extern unsigned char dung_map_g[56][56];
 // size: 0xB64
 extern unsigned char dung_map_g_addr_800FC310[54][54];
 
-// address: 0x800FB7AC
-// size: 0xB64
-extern unsigned char dung_map_r[54][54];
-
 // address: 0x800FFF74
 // size: 0xC40
-extern unsigned char dung_map_r_addr_800FFF74[56][56];
+extern unsigned char dung_map_r[56][56];
+
+// address: 0x800FB7AC
+// size: 0xB64
+extern unsigned char dung_map_r_addr_800FB7AC[54][54];
 
 // address: 0x800D4E24
 // size: 0x1200
@@ -6089,9 +6097,13 @@ extern int gnNumGetRecords;
 // address: 0x8012B270
 extern bool goldcheat;
 
-// address: 0x800D31B0
+// address: 0x800E5E90
 // size: 0x98
-extern struct ItemStruct golditem;
+extern struct ItemStruct_dup_11 golditem;
+
+// address: 0x800D207C
+// size: 0x94
+extern struct ItemStruct golditem_addr_800D207C;
 
 // address: 0x800E721C
 // size: 0x98
@@ -6101,13 +6113,9 @@ extern struct ItemStruct_dup_13 golditem_addr_800E721C;
 // size: 0x98
 extern struct ItemStruct_dup_6 golditem_addr_800D2048;
 
-// address: 0x800E5E90
+// address: 0x800D31B0
 // size: 0x98
-extern struct ItemStruct_dup_11 golditem_addr_800E5E90;
-
-// address: 0x800D207C
-// size: 0x94
-extern struct ItemStruct golditem_addr_800D207C;
+extern struct ItemStruct golditem_addr_800D31B0;
 
 // address: 0x80117CC8
 static int gossipend;
@@ -6118,33 +6126,33 @@ static int gossipstart;
 // address: 0x80120BDC
 extern unsigned char *gpBuffer;
 
-// address: 0x80116A54
-// size: 0x84
-extern struct CPlayer *gplayer;
-
-// address: 0x8011B340
+// address: 0x8011B390
 // size: 0x90
-extern struct CPlayer_dup_19 *gplayer_addr_8011B340;
-
-// address: 0x8012D390
-// size: 0x84
-extern struct CPlayer_dup_14 *gplayer_addr_8012D390;
+extern struct CPlayer *gplayer;
 
 // address: 0x8011B384
 // size: 0x90
 extern struct CPlayer_dup_17 *gplayer_addr_8011B384;
 
+// address: 0x8012D390
+// size: 0x84
+extern struct CPlayer_dup_14 *gplayer_addr_8012D390;
+
 // address: 0x80120620
 // size: 0x80
 extern struct CPlayer_dup_1 *gplayer_addr_80120620;
 
+// address: 0x8011B340
+// size: 0x90
+extern struct CPlayer_dup_19 *gplayer_addr_8011B340;
+
+// address: 0x80116A54
+// size: 0x84
+extern struct CPlayer *gplayer_addr_80116A54;
+
 // address: 0x8011B278
 // size: 0x90
 extern struct CPlayer_dup_18 *gplayer_addr_8011B278;
-
-// address: 0x8011B390
-// size: 0x90
-extern struct CPlayer *gplayer_addr_8011B390;
 
 // address: 0x801169A0
 extern int gr_scrxoff;
@@ -6186,17 +6194,17 @@ extern struct ItemStruct healitem[20];
 // size: 0xBE0
 extern struct ItemStruct_dup_11 healitem_addr_800E5F28[20];
 
-// address: 0x800D2110
-// size: 0xB90
-extern struct ItemStruct healitem_addr_800D2110[20];
+// address: 0x800D20E0
+// size: 0xBE0
+extern struct ItemStruct_dup_6 healitem_addr_800D20E0[20];
 
 // address: 0x800E72B4
 // size: 0xBE0
 extern struct ItemStruct_dup_13 healitem_addr_800E72B4[20];
 
-// address: 0x800D20E0
-// size: 0xBE0
-extern struct ItemStruct_dup_6 healitem_addr_800D20E0[20];
+// address: 0x800D2110
+// size: 0xB90
+extern struct ItemStruct healitem_addr_800D2110[20];
 
 // address: 0x80116A18
 static int healplyr;
@@ -6287,9 +6295,9 @@ extern unsigned char invflag;
 // address: 0x80117280
 extern bool iscflag;
 
-// address: 0x800AAD78
-// size: 0x4A00
-extern struct ItemStruct item[128];
+// address: 0x800C18AC
+// size: 0x4C00
+extern struct ItemStruct_dup_11 item[128];
 
 // address: 0x800AEC1C
 // size: 0x4C00
@@ -6299,21 +6307,21 @@ extern struct ItemStruct item_addr_800AEC1C[128];
 // size: 0x3600
 extern struct ItemStruct_dup_17 item_addr_800D1AA0[128];
 
-// address: 0x800ADAB4
-// size: 0x4C00
-extern struct ItemStruct_dup_6 item_addr_800ADAB4[128];
+// address: 0x800D19CC
+// size: 0x3600
+extern struct ItemStruct item_addr_800D19CC[128];
 
 // address: 0x800C2C38
 // size: 0x4C00
 extern struct ItemStruct_dup_13 item_addr_800C2C38[128];
 
-// address: 0x800C18AC
+// address: 0x800ADAB4
 // size: 0x4C00
-extern struct ItemStruct_dup_11 item_addr_800C18AC[128];
+extern struct ItemStruct_dup_6 item_addr_800ADAB4[128];
 
-// address: 0x800D19CC
-// size: 0x3600
-extern struct ItemStruct item_addr_800D19CC[128];
+// address: 0x800AAD78
+// size: 0x4A00
+extern struct ItemStruct item_addr_800AAD78[128];
 
 // address: 0x80117B2C
 static char item_select;
@@ -6453,13 +6461,13 @@ extern char light_rad;
 // size: 0x37
 static unsigned char light_tile[55];
 
-// address: 0x800D62CC
-// size: 0x50
-extern unsigned char lightactive[80];
-
 // address: 0x800B0864
 // size: 0x28
-extern unsigned char lightactive_addr_800B0864[40];
+extern unsigned char lightactive[40];
+
+// address: 0x800D62CC
+// size: 0x50
+extern unsigned char lightactive_addr_800D62CC[80];
 
 // address: 0x80116FC0
 extern int lightflag;
@@ -6636,21 +6644,21 @@ extern struct MisFileData misfiledata[47];
 // size: 0x66D
 extern struct MisFileData_dup_1 misfiledata_addr_800BA454[47];
 
-// address: 0x800FE1A4
-// size: 0x2710
-extern struct MissileStruct missile[125];
-
 // address: 0x80102A10
 // size: 0x2710
-extern struct MissileStruct_dup_17 missile_addr_80102A10[125];
+extern struct MissileStruct_dup_17 missile[125];
 
-// address: 0x800FDDBC
-// size: 0x1F4
-extern int missileactive[125];
+// address: 0x800FE1A4
+// size: 0x2710
+extern struct MissileStruct missile_addr_800FE1A4[125];
 
 // address: 0x80102818
 // size: 0xFA
-extern short missileactive_addr_80102818[125];
+extern short missileactive[125];
+
+// address: 0x800FDDBC
+// size: 0x1F4
+extern int missileactive_addr_800FDDBC[125];
 
 // address: 0x800FDFB0
 // size: 0x1F4
@@ -6670,28 +6678,28 @@ extern int mode;
 // address: 0x80116714
 extern int mof;
 
-// address: 0x8010A368
-// size: 0x17C
-extern short monstactive[190];
-
 // address: 0x801061D4
 // size: 0x190
-extern short monstactive_addr_801061D4[200];
+extern short monstactive[200];
+
+// address: 0x8010A368
+// size: 0x17C
+extern short monstactive_addr_8010A368[190];
 
 // address: 0x80116ED5
 extern unsigned char monstdebug;
 
-// address: 0x80100A54
-// size: 0x5780
-extern struct MonsterStruct monster[200];
-
 // address: 0x80105340
 // size: 0x5028
-extern struct MonsterStruct_dup_17 monster_addr_80105340[190];
+extern struct MonsterStruct_dup_17 monster[190];
 
 // address: 0x8010526C
 // size: 0x5028
 extern struct MonsterStruct monster_addr_8010526C[190];
+
+// address: 0x80100A54
+// size: 0x5780
+extern struct MonsterStruct monster_addr_80100A54[200];
 
 // address: 0x801069CC
 // size: 0x1A40
@@ -6816,11 +6824,11 @@ extern unsigned char nTransTable[2049];
 // size: 0x801
 extern unsigned char nTrapTable[2049];
 
-// address: 0x80116ABC
-extern int never_hooked_events;
-
 // address: 0x80115130
-static int never_hooked_events_addr_80115130;
+static int never_hooked_events;
+
+// address: 0x80116ABC
+extern int never_hooked_events_addr_80116ABC;
 
 // address: 0x8011B484
 // size: 0x8
@@ -7048,12 +7056,12 @@ extern unsigned char *pManaBuff;
 // address: 0x80117C28
 static unsigned char *pMedTextCels;
 
+// address: 0x80117548
+extern unsigned char *pMegaTiles;
+
 // address: 0x800CE9F8
 // size: 0xAB0
-extern unsigned char pMegaTiles[2736];
-
-// address: 0x80117548
-extern unsigned char *pMegaTiles_addr_80117548;
+extern unsigned char pMegaTiles_addr_800CE9F8[2736];
 
 // address: 0x80117BD0
 static unsigned char *pMultiBtns;
@@ -7107,13 +7115,13 @@ static unsigned char *pTextBoxCels;
 // size: 0x8
 extern char (*pad_styles[2])();
 
-// address: 0x800A625C
-// size: 0xA8
-extern struct pad_assigns pad_txt[14];
-
 // address: 0x800A65D4
 // size: 0xA8
-extern struct pad_assigns_dup_4 pad_txt_addr_800A65D4[14];
+extern struct pad_assigns_dup_4 pad_txt[14];
+
+// address: 0x800A625C
+// size: 0xA8
+extern struct pad_assigns pad_txt_addr_800A625C[14];
 
 // address: 0x80116DC8
 static int paloffset1;
@@ -7187,17 +7195,25 @@ static int pinc4;
 // address: 0x80116B8C
 static bool pl;
 
-// address: 0x800CB4E0
-// size: 0x45A0
+// address: 0x800C9630
+// size: 0x4590
 extern struct PlayerStruct plr[2];
 
 // address: 0x800DA284
 // size: 0x33D0
 extern struct PlayerStruct_dup_17 plr_addr_800DA284[2];
 
-// address: 0x800C9630
+// address: 0x800C861C
 // size: 0x4590
-extern struct PlayerStruct plr_addr_800C9630[2];
+extern struct PlayerStruct_dup_4 plr_addr_800C861C[2];
+
+// address: 0x800CB240
+// size: 0x4750
+extern struct PlayerStruct_dup_6 plr_addr_800CB240[2];
+
+// address: 0x800DA26C
+// size: 0x33D0
+extern struct PlayerStruct plr_addr_800DA26C[2];
 
 // address: 0x800DA1B0
 // size: 0x33D0
@@ -7207,25 +7223,17 @@ extern struct PlayerStruct_dup_18 plr_addr_800DA1B0[2];
 // size: 0x4750
 extern struct PlayerStruct_dup_11 plr_addr_800DF038[2];
 
-// address: 0x800C861C
-// size: 0x4590
-extern struct PlayerStruct_dup_4 plr_addr_800C861C[2];
-
-// address: 0x800DA26C
-// size: 0x33D0
-extern struct PlayerStruct plr_addr_800DA26C[2];
-
-// address: 0x800CCB28
-// size: 0x4750
-extern struct PlayerStruct plr_addr_800CCB28[2];
-
 // address: 0x800E03C4
 // size: 0x4750
 extern struct PlayerStruct_dup_13 plr_addr_800E03C4[2];
 
-// address: 0x800CB240
+// address: 0x800CB4E0
+// size: 0x45A0
+extern struct PlayerStruct plr_addr_800CB4E0[2];
+
+// address: 0x800CCB28
 // size: 0x4750
-extern struct PlayerStruct_dup_6 plr_addr_800CB240[2];
+extern struct PlayerStruct plr_addr_800CCB28[2];
 
 // address: 0x800CC3A8
 // size: 0x4750
@@ -7254,30 +7262,30 @@ static char plusanim;
 // size: 0x30
 extern struct PortalStruct portal[4];
 
+// address: 0x800D6728
+// size: 0x18
+extern struct PortalStruct portal_addr_800D6728[2];
+
 // address: 0x800E3938
 // size: 0x30
 extern struct PortalStruct_dup_17 portal_addr_800E3938[4];
-
-// address: 0x800D5F58
-// size: 0x18
-extern struct PortalStruct_dup_7 portal_addr_800D5F58[2];
 
 // address: 0x80108E4C
 // size: 0x60
 extern struct PortalStruct portal_addr_80108E4C[4];
 
-// address: 0x800D6728
+// address: 0x800D5F58
 // size: 0x18
-extern struct PortalStruct portal_addr_800D6728[2];
-
-// address: 0x80118F3E
-extern char portalindex;
+extern struct PortalStruct_dup_7 portal_addr_800D5F58[2];
 
 // address: 0x80117744
-extern int portalindex_addr_80117744;
+extern int portalindex;
 
 // address: 0x8011CB24
 static int portalindex_addr_8011CB24;
+
+// address: 0x80118F3E
+extern char portalindex_addr_80118F3E;
 
 // address: 0x80116B90
 static bool pr;
@@ -7286,21 +7294,21 @@ static bool pr;
 // size: 0x390
 extern struct ItemStruct_dup_11 premiumitem[6];
 
-// address: 0x800E6214
+// address: 0x800D21A8
 // size: 0x390
-extern struct ItemStruct_dup_13 premiumitem_addr_800E6214[6];
+extern struct ItemStruct premiumitem_addr_800D21A8[6];
 
 // address: 0x800D1040
 // size: 0x390
 extern struct ItemStruct_dup_6 premiumitem_addr_800D1040[6];
 
-// address: 0x800D21A8
-// size: 0x390
-extern struct ItemStruct premiumitem_addr_800D21A8[6];
-
 // address: 0x800D10E0
 // size: 0x378
 extern struct ItemStruct premiumitem_addr_800D10E0[6];
+
+// address: 0x800E6214
+// size: 0x390
+extern struct ItemStruct_dup_13 premiumitem_addr_800E6214[6];
 
 // address: 0x8011714C
 extern int premiumlevel;
@@ -7372,13 +7380,13 @@ extern struct QuestData questlist[16];
 // address: 0x801170B5
 extern unsigned char questlog;
 
-// address: 0x800DD78C
-// size: 0x140
-extern struct QuestStruct_dup_17 quests[16];
-
 // address: 0x800CFBB8
 // size: 0x140
-extern struct QuestStruct quests_addr_800CFBB8[16];
+extern struct QuestStruct quests[16];
+
+// address: 0x800DD78C
+// size: 0x140
+extern struct QuestStruct_dup_17 quests_addr_800DD78C[16];
 
 // address: 0x800CFB80
 // size: 0x14
@@ -7583,13 +7591,13 @@ static struct _gamedata sgGameInitInfo;
 // size: 0x1004
 static struct TBuffer sgHiPriBuf;
 
-// address: 0x80118D88
-// size: 0x20
-static struct DJunk sgJunk;
-
 // address: 0x8011B1D0
 // size: 0x16
-static struct DJunk sgJunk_addr_8011B1D0;
+static struct DJunk sgJunk;
+
+// address: 0x80118D88
+// size: 0x20
+static struct DJunk sgJunk_addr_80118D88;
 
 // address: 0x8011A9E8
 // size: 0x16
@@ -7598,13 +7606,13 @@ static struct DJunk_dup_7 sgJunk_addr_8011A9E8;
 // address: 0x80117C3C
 static unsigned long sgLastScroll;
 
-// address: 0x800B15D0
-// size: 0x13D4C
-extern struct DLevel_dup_4 sgLevels[21];
-
 // address: 0x800B12B8
 // size: 0x17248
-extern struct DLevel sgLevels_addr_800B12B8[17];
+extern struct DLevel sgLevels[17];
+
+// address: 0x800B15D0
+// size: 0x13D4C
+extern struct DLevel_dup_4 sgLevels_addr_800B15D0[21];
 
 // address: 0x800B25E4
 // size: 0x13D4C
@@ -7634,25 +7642,25 @@ extern struct LocalLevel sgLocals_addr_800C8500[17];
 // size: 0x4
 static struct CCritSect sgMemCrit;
 
-// address: 0x800A9B18
-// size: 0xF4C
-extern struct TSFX sgSFX[979];
-
 // address: 0x800C0314
 // size: 0xF78
-extern struct TSFX sgSFX_addr_800C0314[990];
-
-// address: 0x800AE138
-// size: 0xF50
-extern struct TSFX sgSFX_addr_800AE138[980];
+extern struct TSFX sgSFX[990];
 
 // address: 0x800C19AC
 // size: 0xF78
 extern struct TSFX_dup_13 sgSFX_addr_800C19AC[990];
 
+// address: 0x800AE138
+// size: 0xF50
+extern struct TSFX sgSFX_addr_800AE138[980];
+
 // address: 0x800D080C
 // size: 0xF80
 extern struct TSFX sgSFX_addr_800D080C[992];
+
+// address: 0x800A9B18
+// size: 0xF4C
+extern struct TSFX sgSFX_addr_800A9B18[979];
 
 // address: 0x80117BDC
 static long *sg_previousFilter;
@@ -7731,13 +7739,13 @@ static unsigned long sgdwRecvOffset;
 // address: 0x80117BF8
 static unsigned long sgdwXY;
 
-// address: 0x8011BE08
-// size: 0x84
-extern struct SFXHDR_dup_17 *sghMusic;
-
 // address: 0x801171C4
 // size: 0x80
-extern struct SFXHDR *sghMusic_addr_801171C4;
+extern struct SFXHDR *sghMusic;
+
+// address: 0x8011BE08
+// size: 0x84
+extern struct SFXHDR_dup_17 *sghMusic_addr_8011BE08;
 
 // address: 0x8011BD00
 // size: 0x84
@@ -7817,13 +7825,13 @@ static struct TMegaPkt *sgpCurrPkt;
 // size: 0x7D08
 static struct TMegaPkt *sgpMegaPkt;
 
-// address: 0x8012CE60
-// size: 0x4
-extern struct TSFX_dup_13 *sgpStreamSFX;
-
 // address: 0x80116F58
 // size: 0x4
-extern struct TSFX *sgpStreamSFX_addr_80116F58;
+extern struct TSFX *sgpStreamSFX;
+
+// address: 0x8012CE60
+// size: 0x4
+extern struct TSFX_dup_13 *sgpStreamSFX_addr_8012CE60;
 
 // address: 0x80114D3C
 // size: 0xC
@@ -7849,13 +7857,13 @@ static unsigned short sgwPackPlrOffsetTbl[2];
 // size: 0x1A
 extern char shrineavail[26];
 
-// address: 0x800C9B44
-// size: 0x68
-extern int shrinestrs[26];
-
 // address: 0x800D8934
 // size: 0x34
-extern unsigned short shrinestrs_addr_800D8934[26];
+extern unsigned short shrinestrs[26];
+
+// address: 0x800C9B44
+// size: 0x68
+extern int shrinestrs_addr_800C9B44[26];
 
 // address: 0x80113DF8
 // size: 0x8
@@ -7879,25 +7887,25 @@ static int slotbackot;
 // address: 0x8011C550
 static int slotot;
 
-// address: 0x800E42A8
-// size: 0xBE0
-extern struct ItemStruct_dup_11 smithitem[20];
-
-// address: 0x800D0460
-// size: 0xBE0
-extern struct ItemStruct_dup_6 smithitem_addr_800D0460[20];
-
-// address: 0x800E5634
-// size: 0xBE0
-extern struct ItemStruct_dup_13 smithitem_addr_800E5634[20];
+// address: 0x800D0550
+// size: 0xB90
+extern struct ItemStruct smithitem[20];
 
 // address: 0x800D15C8
 // size: 0xBE0
 extern struct ItemStruct smithitem_addr_800D15C8[20];
 
-// address: 0x800D0550
-// size: 0xB90
-extern struct ItemStruct smithitem_addr_800D0550[20];
+// address: 0x800E42A8
+// size: 0xBE0
+extern struct ItemStruct_dup_11 smithitem_addr_800E42A8[20];
+
+// address: 0x800E5634
+// size: 0xBE0
+extern struct ItemStruct_dup_13 smithitem_addr_800E5634[20];
+
+// address: 0x800D0460
+// size: 0xBE0
+extern struct ItemStruct_dup_6 smithitem_addr_800D0460[20];
 
 // address: 0x801171DD
 extern char speed_type;
@@ -7993,33 +8001,33 @@ extern unsigned char storeflag;
 // size: 0x30
 extern char storehidx[48];
 
-// address: 0x800D3E28
+// address: 0x800D2CC0
 // size: 0x1C80
-extern struct ItemStruct storehold[48];
-
-// address: 0x800E7E94
-// size: 0x1C80
-extern struct ItemStruct_dup_13 storehold_addr_800E7E94[48];
+extern struct ItemStruct_dup_6 storehold[48];
 
 // address: 0x800E1A00
 // size: 0x1440
 extern struct ItemStruct storehold_addr_800E1A00[48];
 
-// address: 0x800D2CA0
-// size: 0x1BC0
-extern struct ItemStruct storehold_addr_800D2CA0[48];
+// address: 0x800E1AD4
+// size: 0x1440
+extern struct ItemStruct_dup_17 storehold_addr_800E1AD4[48];
 
-// address: 0x800D2CC0
+// address: 0x800D3E28
 // size: 0x1C80
-extern struct ItemStruct_dup_6 storehold_addr_800D2CC0[48];
+extern struct ItemStruct storehold_addr_800D3E28[48];
 
 // address: 0x800E6B08
 // size: 0x1C80
 extern struct ItemStruct_dup_11 storehold_addr_800E6B08[48];
 
-// address: 0x800E1AD4
-// size: 0x1440
-extern struct ItemStruct_dup_17 storehold_addr_800E1AD4[48];
+// address: 0x800D2CA0
+// size: 0x1BC0
+extern struct ItemStruct storehold_addr_800D2CA0[48];
+
+// address: 0x800E7E94
+// size: 0x1C80
+extern struct ItemStruct_dup_13 storehold_addr_800E7E94[48];
 
 // address: 0x80117CC0
 static int storenumh;
@@ -8174,13 +8182,13 @@ extern int tile;
 // address: 0x80116468
 extern int time_in_frames;
 
-// address: 0x80118914
-// size: 0x2
-extern char tmdc_pol_dirty[2];
-
 // address: 0x80113E0C
 // size: 0x8
-extern int tmdc_pol_dirty_addr_80113E0C[2];
+extern int tmdc_pol_dirty[2];
+
+// address: 0x80118914
+// size: 0x2
+extern char tmdc_pol_dirty_addr_80118914[2];
 
 // address: 0x8011B63C
 extern int to_ascii_invalid_char;
@@ -8198,11 +8206,11 @@ extern int tonys_Task;
 // address: 0x80113954
 static int toppos;
 
-// address: 0x8011C528
-extern unsigned char totalmonsters;
-
 // address: 0x80117724
-extern char totalmonsters_addr_80117724;
+extern char totalmonsters;
+
+// address: 0x8011C528
+extern unsigned char totalmonsters_addr_8011C528;
 
 // address: 0x800A8D18
 // size: 0xE00
@@ -8252,13 +8260,13 @@ extern int trm5x[25];
 // size: 0x64
 extern int trm5y[25];
 
-// address: 0x800A667C
-// size: 0x130
-extern struct KEY_ASSIGNS txt_actions[19];
-
 // address: 0x800A6304
 // size: 0x140
-extern struct KEY_ASSIGNS txt_actions_addr_800A6304[20];
+extern struct KEY_ASSIGNS txt_actions[20];
+
+// address: 0x800A667C
+// size: 0x130
+extern struct KEY_ASSIGNS txt_actions_addr_800A667C[19];
 
 // address: 0x80116B94
 static unsigned char uc;
@@ -8329,21 +8337,21 @@ extern int weird_cheat;
 // address: 0x80120E9C
 extern int whatmon;
 
-// address: 0x800D2538
+// address: 0x800D13D0
 // size: 0xBE0
-extern struct ItemStruct witchitem[20];
+extern struct ItemStruct_dup_6 witchitem[20];
 
 // address: 0x800E5218
 // size: 0xBE0
 extern struct ItemStruct_dup_11 witchitem_addr_800E5218[20];
 
+// address: 0x800D2538
+// size: 0xBE0
+extern struct ItemStruct witchitem_addr_800D2538[20];
+
 // address: 0x800E65A4
 // size: 0xBE0
 extern struct ItemStruct_dup_13 witchitem_addr_800E65A4[20];
-
-// address: 0x800D13D0
-// size: 0xBE0
-extern struct ItemStruct_dup_6 witchitem_addr_800D13D0[20];
 
 // address: 0x800D1458
 // size: 0xB90

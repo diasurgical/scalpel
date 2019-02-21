@@ -18,17 +18,10 @@ int DoFrontEndLoadCharacter__FPc(char *loadfilenameptr) {
 }
 
 
-// address: 0x801481D0
-// line start: 228
-// line end:   232
-void DoLoadGame__Fv() {
-}
-
-
 // address: 0x8015911C
 // line start: 241
 // line end:   259
-void DoLoadGame__Fv_addr_8015911C() {
+void DoLoadGame__Fv() {
 	{
 		{
 			{
@@ -37,6 +30,13 @@ void DoLoadGame__Fv_addr_8015911C() {
 			}
 		}
 	}
+}
+
+
+// address: 0x801481D0
+// line start: 228
+// line end:   232
+void DoLoadGame__Fv_addr_801481D0() {
 }
 
 
@@ -128,10 +128,20 @@ void McInitLoadGameMenu__Fv() {
 }
 
 
+// address: 0x8015DD94
+// line start: 386
+// line end:   429
+void McMainKeyCtrl__Fv() {
+	// address: 0xFFFFFFE0
+	// size: 0x8
+	auto struct RECT um;
+}
+
+
 // address: 0x8014843C
 // line start: 380
 // line end:   433
-void McMainKeyCtrl__Fv() {
+void McMainKeyCtrl__Fv_addr_8014843C() {
 	// register: 3
 	register int FileNo;
 	{
@@ -149,20 +159,33 @@ void McMainKeyCtrl__Fv() {
 }
 
 
-// address: 0x8015DD94
-// line start: 386
-// line end:   429
-void McMainKeyCtrl__Fv_addr_8015DD94() {
+// address: 0x801485E8
+// line start: 438
+// line end:   459
+void ShowAlertBox__Fv() {
+	// address: 0xFFFFFFD0
+	// size: 0x10
+	auto struct Dialog SBack;
 	// address: 0xFFFFFFE0
 	// size: 0x8
 	auto struct RECT um;
+	// register: 2
+	register int lines;
+	// register: 2
+	register int X;
+	// register: 2
+	register int Y;
+	// register: 2
+	register int W;
+	// register: 16
+	register int H;
 }
 
 
 // address: 0x8015DED0
 // line start: 434
 // line end:   463
-void ShowAlertBox__Fv() {
+void ShowAlertBox__Fv_addr_8015DED0() {
 	// address: 0xFFFFFFB0
 	// size: 0x10
 	auto struct Dialog SBack;
@@ -212,29 +235,6 @@ void ShowAlertBox__Fv_addr_80143E1C() {
 	register int oldTot;
 	// register: 16
 	register int lines;
-}
-
-
-// address: 0x801485E8
-// line start: 438
-// line end:   459
-void ShowAlertBox__Fv_addr_801485E8() {
-	// address: 0xFFFFFFD0
-	// size: 0x10
-	auto struct Dialog SBack;
-	// address: 0xFFFFFFE0
-	// size: 0x8
-	auto struct RECT um;
-	// register: 2
-	register int lines;
-	// register: 2
-	register int X;
-	// register: 2
-	register int Y;
-	// register: 2
-	register int W;
-	// register: 16
-	register int H;
 }
 
 
@@ -365,7 +365,7 @@ void McCharCardMenuCtrl__Fv_addr_80159E94() {
 }
 
 
-// address: 0x8015A0DC
+// address: 0x80159FD4
 // line start: 537
 // line end:   690
 void McMainCharKeyCtrl__Fv() {
@@ -382,14 +382,14 @@ void McMainCharKeyCtrl__Fv() {
 	auto struct RECT um;
 	// register: 18
 	// size: 0xEC
-	register struct CPad_dup_17 *P;
+	register struct CPad *P;
 }
 
 
-// address: 0x80159FD4
+// address: 0x8015A0DC
 // line start: 537
 // line end:   690
-void McMainCharKeyCtrl__Fv_addr_80159FD4() {
+void McMainCharKeyCtrl__Fv_addr_8015A0DC() {
 	// register: 19
 	register int Spacing;
 	// register: 17
@@ -403,7 +403,7 @@ void McMainCharKeyCtrl__Fv_addr_80159FD4() {
 	auto struct RECT um;
 	// register: 18
 	// size: 0xEC
-	register struct CPad *P;
+	register struct CPad_dup_17 *P;
 }
 
 
@@ -431,28 +431,10 @@ void PackItem__FP12PkItemStructPC10ItemStruct_addr_8015AB6C(struct PkItemStruct 
 }
 
 
-// address: 0x8015ABF8
-// line start: 910
-// line end:   964
-void PackPlayer__FP14PkPlayerStructi(struct PkPlayerStruct *pPack, int pnum) {
-	// register: 18
-	register int i;
-	// register: 17
-	// size: 0x14
-	register struct PkItemStruct *pki;
-	// register: 16
-	// size: 0x6C
-	register struct ItemStruct *pi;
-	// register: 19
-	// size: 0x19E8
-	register struct PlayerStruct_dup_18 *pPlayer;
-}
-
-
 // address: 0x8015AD00
 // line start: 910
 // line end:   964
-void PackPlayer__FP14PkPlayerStructi_addr_8015AD00(struct PkPlayerStruct_dup_17 *pPack, int pnum) {
+void PackPlayer__FP14PkPlayerStructi(struct PkPlayerStruct_dup_17 *pPack, int pnum) {
 	// register: 18
 	register int i;
 	// register: 17
@@ -482,6 +464,24 @@ void PackPlayer__FP14PkPlayerStructi_addr_80156514(struct PkPlayerStruct *pPack,
 	// register: 19
 	// size: 0x19E8
 	register struct PlayerStruct *pPlayer;
+}
+
+
+// address: 0x8015ABF8
+// line start: 910
+// line end:   964
+void PackPlayer__FP14PkPlayerStructi_addr_8015ABF8(struct PkPlayerStruct *pPack, int pnum) {
+	// register: 18
+	register int i;
+	// register: 17
+	// size: 0x14
+	register struct PkItemStruct *pki;
+	// register: 16
+	// size: 0x6C
+	register struct ItemStruct *pi;
+	// register: 19
+	// size: 0x19E8
+	register struct PlayerStruct_dup_18 *pPlayer;
 }
 
 
@@ -527,12 +527,10 @@ void ShowAlertBox__Fv_addr_8015A554() {
 }
 
 
-// address: 0x8015AA94
-// line start: 822
-// line end:   871
+// address: 0x8015630C
+// line start: 820
+// line end:   861
 void ShowCharacterFiles__FiiG4RECTi(int cs, int Spacing, struct RECT ORect, int yoff) {
-	// register: 4
-	register int sn;
 	{
 		// register: 19
 		register int j;
@@ -553,10 +551,12 @@ void ShowCharacterFiles__FiiG4RECTi(int cs, int Spacing, struct RECT ORect, int 
 }
 
 
-// address: 0x8015630C
-// line start: 820
-// line end:   861
-void ShowCharacterFiles__FiiG4RECTi_addr_8015630C(int cs, int Spacing, struct RECT ORect, int yoff) {
+// address: 0x8015AA94
+// line start: 822
+// line end:   871
+void ShowCharacterFiles__FiiG4RECTi_addr_8015AA94(int cs, int Spacing, struct RECT ORect, int yoff) {
+	// register: 4
+	register int sn;
 	{
 		// register: 19
 		register int j;
@@ -592,17 +592,17 @@ void ShowGameFiles__FPciiG4RECTi(char *filename, int saveflag, int Spacing, stru
 }
 
 
-// address: 0x8015AE04
-// line start: 971
-// line end:   992
-void UnPackItem__FPC12PkItemStructP10ItemStruct(struct PkItemStruct *is, struct ItemStruct *id) {
-}
-
-
 // address: 0x8015AF0C
 // line start: 971
 // line end:   992
-void UnPackItem__FPC12PkItemStructP10ItemStruct_addr_8015AF0C(struct PkItemStruct *is, struct ItemStruct_dup_17 *id) {
+void UnPackItem__FPC12PkItemStructP10ItemStruct(struct PkItemStruct *is, struct ItemStruct_dup_17 *id) {
+}
+
+
+// address: 0x8015AE04
+// line start: 971
+// line end:   992
+void UnPackItem__FPC12PkItemStructP10ItemStruct_addr_8015AE04(struct PkItemStruct *is, struct ItemStruct *id) {
 }
 
 
@@ -660,21 +660,10 @@ void UnPackPlayer__FPC14PkPlayerStructiUc_addr_8015B0EC(struct PkPlayerStruct_du
 }
 
 
-// address: 0x80156828
-// line start: 990
-// line end:   1004
-void VerifyGoldSeeds__FP12PlayerStruct(struct PlayerStruct *pPlayer) {
-	// register: 18
-	register int i;
-	// register: 5
-	register int j;
-}
-
-
 // address: 0x8015AF0C
 // line start: 1000
 // line end:   1014
-void VerifyGoldSeeds__FP12PlayerStruct_addr_8015AF0C(struct PlayerStruct_dup_18 *pPlayer) {
+void VerifyGoldSeeds__FP12PlayerStruct(struct PlayerStruct_dup_18 *pPlayer) {
 	// register: 18
 	register int i;
 	// register: 5
@@ -686,6 +675,17 @@ void VerifyGoldSeeds__FP12PlayerStruct_addr_8015AF0C(struct PlayerStruct_dup_18 
 // line start: 1000
 // line end:   1014
 void VerifyGoldSeeds__FP12PlayerStruct_addr_8015B014(struct PlayerStruct_dup_17 *pPlayer) {
+	// register: 18
+	register int i;
+	// register: 5
+	register int j;
+}
+
+
+// address: 0x80156828
+// line start: 990
+// line end:   1004
+void VerifyGoldSeeds__FP12PlayerStruct_addr_80156828(struct PlayerStruct *pPlayer) {
 	// register: 18
 	register int i;
 	// register: 5

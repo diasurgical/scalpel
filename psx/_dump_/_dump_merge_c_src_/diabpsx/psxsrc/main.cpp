@@ -2,10 +2,17 @@
 
 #include "types.h"
 
+// address: 0x8007A2B8
+// line start: 129
+// line end:   200
+void AppMain() {
+}
+
+
 // address: 0x8007BA14
 // line start: 133
 // line end:   220
-void AppMain() {
+void AppMain_addr_8007BA14() {
 	{
 		// register: 16
 		register int option_file;
@@ -19,30 +26,23 @@ void AppMain() {
 }
 
 
-// address: 0x8007A2B8
-// line start: 129
-// line end:   200
-void AppMain_addr_8007A2B8() {
+// address: 0x8007A38C
+// line start: 217
+// line end:   241
+void GameTask__FP4TASK(struct TASK *T) {
 }
 
 
 // address: 0x80082F98
 // line start: 354
 // line end:   429
-void GameTask__FP4TASK(struct TASK *T) {
+void GameTask__FP4TASK_addr_80082F98(struct TASK *T) {
 	{
 		{
 			{
 			}
 		}
 	}
-}
-
-
-// address: 0x8007A38C
-// line start: 217
-// line end:   241
-void GameTask__FP4TASK_addr_8007A38C(struct TASK *T) {
 }
 
 

@@ -2,10 +2,10 @@
 
 #include "types.h"
 
-// address: 0x800A3FE4
+// address: 0x800A3E78
 // line start: 17
 // line end:   17
-bool Active__11SpellTarget(struct SpellTarget *this) {
+bool Active__11SpellTarget(struct SpellTarget_dup_19 *this) {
 }
 
 
@@ -16,10 +16,10 @@ bool Active__11SpellTarget_addr_800A3F10(struct SpellTarget_dup_18 *this) {
 }
 
 
-// address: 0x800A3E78
+// address: 0x800A3FE4
 // line start: 17
 // line end:   17
-bool Active__11SpellTarget_addr_800A3E78(struct SpellTarget_dup_19 *this) {
+bool Active__11SpellTarget_addr_800A3FE4(struct SpellTarget *this) {
 }
 
 

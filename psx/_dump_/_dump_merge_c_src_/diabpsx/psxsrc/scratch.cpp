@@ -65,10 +65,10 @@ void Init__8PalEntry(struct PalEntry *this) {
 }
 
 
-// address: 0x8008E310
+// address: 0x8008DBB8
 // line start: 181
 // line end:   190
-void Init__13PalCollectionPC7InitPos(struct PalCollection *this, struct InitPos *IPos) {
+void Init__13PalCollectionPC7InitPos(struct PalCollection_dup_4 *this, struct InitPos *IPos) {
 	{
 		// register: 19
 		register int f;
@@ -76,10 +76,10 @@ void Init__13PalCollectionPC7InitPos(struct PalCollection *this, struct InitPos 
 }
 
 
-// address: 0x8008DBB8
+// address: 0x8008E310
 // line start: 181
 // line end:   190
-void Init__13PalCollectionPC7InitPos_addr_8008DBB8(struct PalCollection_dup_4 *this, struct InitPos *IPos) {
+void Init__13PalCollectionPC7InitPos_addr_8008E310(struct PalCollection *this, struct InitPos *IPos) {
 	{
 		// register: 19
 		register int f;
@@ -104,22 +104,22 @@ void MakePal__8PalEntryUsUsi(struct PalEntry *this, unsigned short _SourceClut, 
 }
 
 
-// address: 0x8008DD24
+// address: 0x8008E47C
 // size: 0x18
 // line start: 247
 // line end:   269
-struct PalEntry *NewPal__13PalCollectionUsUsi(struct PalCollection_dup_4 *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
+struct PalEntry *NewPal__13PalCollectionUsUsi(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *RetPal;
 }
 
 
-// address: 0x8008E47C
+// address: 0x8008DD24
 // size: 0x18
 // line start: 247
 // line end:   269
-struct PalEntry *NewPal__13PalCollectionUsUsi_addr_8008E47C(struct PalCollection *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
+struct PalEntry *NewPal__13PalCollectionUsUsi_addr_8008DD24(struct PalCollection_dup_4 *this, unsigned short SourceClut, unsigned short PixVal, int NumOfCols) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *RetPal;
@@ -187,10 +187,10 @@ void Set__8PalEntryUsUsi(struct PalEntry *this, unsigned short _SourceClut, unsi
 }
 
 
-// address: 0x8008DED8
+// address: 0x8008E630
 // line start: 327
 // line end:   344
-void UpdatePals__13PalCollection(struct PalCollection_dup_4 *this) {
+void UpdatePals__13PalCollection(struct PalCollection *this) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *ThisPal;
@@ -202,10 +202,10 @@ void UpdatePals__13PalCollection(struct PalCollection_dup_4 *this) {
 }
 
 
-// address: 0x8008E630
+// address: 0x8008DED8
 // line start: 327
 // line end:   344
-void UpdatePals__13PalCollection_addr_8008E630(struct PalCollection *this) {
+void UpdatePals__13PalCollection_addr_8008DED8(struct PalCollection_dup_4 *this) {
 	// register: 16
 	// size: 0x18
 	register struct PalEntry *ThisPal;

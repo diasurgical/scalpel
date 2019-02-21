@@ -128,7 +128,7 @@ void DoMemCardFromInGame__Fv() {
 void FillCrapBits__Fv() {
 	// register: 18
 	// size: 0x14
-	register struct QuestStruct *qs;
+	register struct QuestStruct_dup_17 *qs;
 	{
 		{
 			{
@@ -150,7 +150,7 @@ void FillCrapBits__Fv() {
 void FillCrapBits__Fv_addr_80038F74() {
 	// register: 18
 	// size: 0x14
-	register struct QuestStruct_dup_17 *qs;
+	register struct QuestStruct *qs;
 	{
 		{
 			{
@@ -166,21 +166,21 @@ void FillCrapBits__Fv_addr_80038F74() {
 }
 
 
-// address: 0x80037F4C
-// line start: 292
-// line end:   305
-void FreeGameMem__Fv() {
-}
-
-
 // address: 0x80036804
 // line start: 282
 // line end:   295
-void FreeGameMem__Fv_addr_80036804() {
+void FreeGameMem__Fv() {
 	{
 		// register: 4
 		register void *p__p;
 	}
+}
+
+
+// address: 0x80037F4C
+// line start: 292
+// line end:   305
+void FreeGameMem__Fv_addr_80037F4C() {
 }
 
 
@@ -210,20 +210,20 @@ void LittleStart__FUcUc(unsigned char bNewGame, unsigned char bSinglePlayer) {
 }
 
 
-// address: 0x800372DC
-// line start: 2473
-// line end:   2527
+// address: 0x80038B30
+// line start: 2534
+// line end:   2587
 void LoCreateLevel__FPv() {
-	// register: 16
+	// register: 5
 	register int lvldir;
 }
 
 
-// address: 0x80038B30
-// line start: 2534
-// line end:   2587
-void LoCreateLevel__FPv_addr_80038B30() {
-	// register: 5
+// address: 0x800372DC
+// line start: 2473
+// line end:   2527
+void LoCreateLevel__FPv_addr_800372DC() {
+	// register: 16
 	register int lvldir;
 }
 
@@ -269,19 +269,19 @@ void LoadGameLevel__FUci_addr_80037570(unsigned char firstflag, int lvldir) {
 }
 
 
-// address: 0x80037128
-// line start: 2336
-// line end:   2403
-void LoadLvlGFX__Fv() {
-}
-
-
 // address: 0x800388D0
 // line start: 2413
 // line end:   2447
-void LoadLvlGFX__Fv_addr_800388D0() {
+void LoadLvlGFX__Fv() {
 	// register: 16
 	register char *LoadFile;
+}
+
+
+// address: 0x80037128
+// line start: 2336
+// line end:   2403
+void LoadLvlGFX__Fv_addr_80037128() {
 }
 
 

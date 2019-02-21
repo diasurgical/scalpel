@@ -26,10 +26,48 @@ void CalcVolumes__Fv() {
 }
 
 
+// address: 0x8009A5E4
+// line start: 1435
+// line end:   1570
+void CentrePad__Fv() {
+	// register: 17
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 16
+	register int move;
+	// register: 18
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	{
+		{
+			// register: 5
+			register int lcs;
+		}
+	}
+}
+
+
+// address: 0x800A9968
+// line start: 2399
+// line end:   2447
+void CentrePad__Fv_addr_800A9968() {
+	// register: 16
+	// size: 0xEC
+	register struct CPad *P;
+	// register: 19
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	// register: 17
+	register int osx;
+	// register: 18
+	register int osy;
+}
+
+
 // address: 0x800A9A3C
 // line start: 2399
 // line end:   2447
-void CentrePad__Fv() {
+void CentrePad__Fv_addr_800A9A3C() {
 	// register: 16
 	// size: 0xEC
 	register struct CPad_dup_17 *P;
@@ -43,18 +81,18 @@ void CentrePad__Fv() {
 }
 
 
-// address: 0x8009A5E4
-// line start: 1435
-// line end:   1570
-void CentrePad__Fv_addr_8009A5E4() {
+// address: 0x8009A204
+// line start: 1523
+// line end:   1658
+void CentrePad__Fv_addr_8009A204() {
 	// register: 17
 	// size: 0x6C
-	register struct CPad *P;
+	register struct CPad_dup_4 *P;
 	// register: 16
 	register int move;
 	// register: 18
 	// size: 0x18
-	register struct OMENUITEM *iptr;
+	register struct OMENUITEM_dup_4 *iptr;
 	{
 		{
 			// register: 5
@@ -88,44 +126,6 @@ void CentrePad__Fv_addr_8009ADE8() {
 			}
 		}
 	}
-}
-
-
-// address: 0x8009A204
-// line start: 1523
-// line end:   1658
-void CentrePad__Fv_addr_8009A204() {
-	// register: 17
-	// size: 0x6C
-	register struct CPad_dup_4 *P;
-	// register: 16
-	register int move;
-	// register: 18
-	// size: 0x18
-	register struct OMENUITEM_dup_4 *iptr;
-	{
-		{
-			// register: 5
-			register int lcs;
-		}
-	}
-}
-
-
-// address: 0x800A9968
-// line start: 2399
-// line end:   2447
-void CentrePad__Fv_addr_800A9968() {
-	// register: 16
-	// size: 0xEC
-	register struct CPad *P;
-	// register: 19
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	// register: 17
-	register int osx;
-	// register: 18
-	register int osy;
 }
 
 
@@ -362,16 +362,16 @@ void DrawMenu__Fi_addr_8009A5BC(int MenuNo) {
 }
 
 
-// address: 0x80098F6C
-// line start: 678
-// line end:   876
-void DrawMenu__Fi_addr_80098F6C(int MenuNo) {
+// address: 0x80098388
+// line start: 692
+// line end:   890
+void DrawMenu__Fi_addr_80098388(int MenuNo) {
 	// address: 0xFFFFFF80
 	// size: 0x8
-	auto struct OMENULIST_dup_5 *mptr;
+	auto struct OMENULIST_dup_4 *mptr;
 	// address: 0xFFFFFF88
 	// size: 0x18
-	auto struct OMENUITEM *iptr;
+	auto struct OMENUITEM_dup_4 *iptr;
 	// address: 0xFFFFFF90
 	auto int sh;
 	// address: 0xFFFFFF68
@@ -493,6 +493,76 @@ void DrawMenu__Fi_addr_8009ACA8(int MenuNo) {
 								{
 									// register: 3
 									register int fi;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80098F6C
+// line start: 678
+// line end:   876
+void DrawMenu__Fi_addr_80098F6C(int MenuNo) {
+	// address: 0xFFFFFF80
+	// size: 0x8
+	auto struct OMENULIST_dup_5 *mptr;
+	// address: 0xFFFFFF88
+	// size: 0x18
+	auto struct OMENUITEM *iptr;
+	// address: 0xFFFFFF90
+	auto int sh;
+	// address: 0xFFFFFF68
+	// size: 0x24
+	auto struct POLY_G4 *G4;
+	// address: 0xFFFFFF98
+	auto int yoff;
+	// register: 18
+	register int len;
+	// address: 0xFFFFFFA0
+	auto unsigned char r;
+	// address: 0xFFFFFFA8
+	auto unsigned char g;
+	// address: 0xFFFFFFB0
+	auto unsigned char b;
+	// address: 0xFFFFFFB8
+	auto int mx;
+	// address: 0xFFFFFFC0
+	auto int my;
+	// register: 17
+	register int mptrx;
+	// register: 16
+	register int mptry;
+	{
+		// register: 30
+		register int i;
+		{
+			{
+				{
+					// register: 20
+					register int sxp;
+					// register: 22
+					register int syp;
+					{
+						{
+							// register: 18
+							register int len;
+							// register: 19
+							register int cx;
+							// register: 20
+							register int cy;
+							{
+								{
+									// register: 3
+									register int fi;
+									{
+										{
+										}
+									}
 								}
 							}
 						}
@@ -630,76 +700,6 @@ void DrawMenu__Fi_addr_80098A7C(int MenuNo) {
 }
 
 
-// address: 0x80098388
-// line start: 692
-// line end:   890
-void DrawMenu__Fi_addr_80098388(int MenuNo) {
-	// address: 0xFFFFFF80
-	// size: 0x8
-	auto struct OMENULIST_dup_4 *mptr;
-	// address: 0xFFFFFF88
-	// size: 0x18
-	auto struct OMENUITEM_dup_4 *iptr;
-	// address: 0xFFFFFF90
-	auto int sh;
-	// address: 0xFFFFFF68
-	// size: 0x24
-	auto struct POLY_G4 *G4;
-	// address: 0xFFFFFF98
-	auto int yoff;
-	// register: 18
-	register int len;
-	// address: 0xFFFFFFA0
-	auto unsigned char r;
-	// address: 0xFFFFFFA8
-	auto unsigned char g;
-	// address: 0xFFFFFFB0
-	auto unsigned char b;
-	// address: 0xFFFFFFB8
-	auto int mx;
-	// address: 0xFFFFFFC0
-	auto int my;
-	// register: 17
-	register int mptrx;
-	// register: 16
-	register int mptry;
-	{
-		// register: 30
-		register int i;
-		{
-			{
-				{
-					// register: 20
-					register int sxp;
-					// register: 22
-					register int syp;
-					{
-						{
-							// register: 18
-							register int len;
-							// register: 19
-							register int cx;
-							// register: 20
-							register int cy;
-							{
-								{
-									// register: 3
-									register int fi;
-									{
-										{
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x800A7108
 // line start: 1155
 // line end:   1493
@@ -766,221 +766,11 @@ void DrawMenu__Fi_addr_800A7108(int MenuNo) {
 }
 
 
-// address: 0x8009CC40
-// line start: 1704
-// line end:   1955
-void DrawOptions__FP4TASK(struct TASK *T) {
-	// register: 16
-	register int old_pad;
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-	{
-		{
-			{
-				// register: 4
-				register int x;
-			}
-		}
-	}
-}
-
-
-// address: 0x8009D53C
-// line start: 1882
-// line end:   2159
-void DrawOptions__FP4TASK_addr_8009D53C(struct TASK *T) {
-	// register: 16
-	register int old_pad;
-	// register: 17
-	// size: 0x6C
-	register struct CPad *P;
-	{
-		{
-			{
-				// register: 4
-				register int x;
-				{
-					{
-						{
-							{
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x8009AB48
-// line start: 1759
-// line end:   2000
-void DrawOptions__FP4TASK_addr_8009AB48(struct TASK *T) {
-	// register: 17
-	register int old_pad;
-	// register: 18
-	// size: 0x6C
-	register struct CPad_dup_4 *P;
-	{
-		{
-			{
-				// register: 3
-				register int x;
-			}
-		}
-	}
-}
-
-
-// address: 0x8009DE30
-// line start: 1994
-// line end:   2290
-void DrawOptions__FP4TASK_addr_8009DE30(struct TASK *T) {
-	// register: 19
-	register int OldOptionsSeed;
-	// register: 16
-	register int old_pad;
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-	{
-		{
-			{
-				// register: 4
-				register int x;
-				{
-					{
-						{
-							{
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x800AA0A4
-// line start: 2693
-// line end:   3136
-void DrawOptions__FP4TASK_addr_800AA0A4(struct TASK *T) {
-	// register: 18
-	// size: 0xEC
-	register struct CPad_dup_17 *P;
-}
-
-
-// address: 0x8009D818
-// line start: 1830
-// line end:   2078
-void DrawOptions__FP4TASK_addr_8009D818(struct TASK *T) {
-	// register: 16
-	register int old_pad;
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-	{
-		{
-			{
-				// register: 4
-				register int x;
-				{
-					{
-						{
-							{
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x8009ADA8
-// line start: 1661
-// line end:   1898
-void DrawOptions__FP4TASK_addr_8009ADA8(struct TASK *T) {
-	// register: 16
-	register int oldot;
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-}
-
-
-// address: 0x8009B3B8
-// line start: 1661
-// line end:   1898
-void DrawOptions__FP4TASK_addr_8009B3B8(struct TASK *T) {
-	// register: 17
-	register int old_pad;
-	// register: 16
-	register int oldot;
-	// register: 19
-	// size: 0x6C
-	register struct CPad *P;
-	{
-		{
-			{
-				// register: 4
-				register int x;
-			}
-		}
-	}
-}
-
-
 // address: 0x8009E960
 // line start: 2025
 // line end:   2346
-void DrawOptions__FP4TASK_addr_8009E960(struct TASK *T) {
+void DrawOptions__FP4TASK(struct TASK *T) {
 	// register: 19
-	register int OldOptionsSeed;
-	// register: 16
-	register int old_pad;
-	// register: 17
-	// size: 0x6C
-	register struct CPad *P;
-	{
-		{
-			{
-				// register: 4
-				register int x;
-				{
-					{
-						{
-							{
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x800A9FD0
-// line start: 2693
-// line end:   3136
-void DrawOptions__FP4TASK_addr_800A9FD0(struct TASK *T) {
-	// register: 18
-	// size: 0xEC
-	register struct CPad *P;
-}
-
-
-// address: 0x8009C920
-// line start: 2064
-// line end:   2382
-void DrawOptions__FP4TASK_addr_8009C920(struct TASK *T) {
-	// register: 18
 	register int OldOptionsSeed;
 	// register: 16
 	register int old_pad;
@@ -1026,6 +816,216 @@ void DrawOptions__FP4TASK_addr_8009B5FC(struct TASK *T) {
 }
 
 
+// address: 0x8009D818
+// line start: 1830
+// line end:   2078
+void DrawOptions__FP4TASK_addr_8009D818(struct TASK *T) {
+	// register: 16
+	register int old_pad;
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+	{
+		{
+			{
+				// register: 4
+				register int x;
+				{
+					{
+						{
+							{
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009CC40
+// line start: 1704
+// line end:   1955
+void DrawOptions__FP4TASK_addr_8009CC40(struct TASK *T) {
+	// register: 16
+	register int old_pad;
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+	{
+		{
+			{
+				// register: 4
+				register int x;
+			}
+		}
+	}
+}
+
+
+// address: 0x800A9FD0
+// line start: 2693
+// line end:   3136
+void DrawOptions__FP4TASK_addr_800A9FD0(struct TASK *T) {
+	// register: 18
+	// size: 0xEC
+	register struct CPad *P;
+}
+
+
+// address: 0x8009B3B8
+// line start: 1661
+// line end:   1898
+void DrawOptions__FP4TASK_addr_8009B3B8(struct TASK *T) {
+	// register: 17
+	register int old_pad;
+	// register: 16
+	register int oldot;
+	// register: 19
+	// size: 0x6C
+	register struct CPad *P;
+	{
+		{
+			{
+				// register: 4
+				register int x;
+			}
+		}
+	}
+}
+
+
+// address: 0x800AA0A4
+// line start: 2693
+// line end:   3136
+void DrawOptions__FP4TASK_addr_800AA0A4(struct TASK *T) {
+	// register: 18
+	// size: 0xEC
+	register struct CPad_dup_17 *P;
+}
+
+
+// address: 0x8009C920
+// line start: 2064
+// line end:   2382
+void DrawOptions__FP4TASK_addr_8009C920(struct TASK *T) {
+	// register: 18
+	register int OldOptionsSeed;
+	// register: 16
+	register int old_pad;
+	// register: 17
+	// size: 0x6C
+	register struct CPad *P;
+	{
+		{
+			{
+				// register: 4
+				register int x;
+				{
+					{
+						{
+							{
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009DE30
+// line start: 1994
+// line end:   2290
+void DrawOptions__FP4TASK_addr_8009DE30(struct TASK *T) {
+	// register: 19
+	register int OldOptionsSeed;
+	// register: 16
+	register int old_pad;
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+	{
+		{
+			{
+				// register: 4
+				register int x;
+				{
+					{
+						{
+							{
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009D53C
+// line start: 1882
+// line end:   2159
+void DrawOptions__FP4TASK_addr_8009D53C(struct TASK *T) {
+	// register: 16
+	register int old_pad;
+	// register: 17
+	// size: 0x6C
+	register struct CPad *P;
+	{
+		{
+			{
+				// register: 4
+				register int x;
+				{
+					{
+						{
+							{
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009ADA8
+// line start: 1661
+// line end:   1898
+void DrawOptions__FP4TASK_addr_8009ADA8(struct TASK *T) {
+	// register: 16
+	register int oldot;
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+}
+
+
+// address: 0x8009AB48
+// line start: 1759
+// line end:   2000
+void DrawOptions__FP4TASK_addr_8009AB48(struct TASK *T) {
+	// register: 17
+	register int old_pad;
+	// register: 18
+	// size: 0x6C
+	register struct CPad_dup_4 *P;
+	{
+		{
+			{
+				// register: 3
+				register int x;
+			}
+		}
+	}
+}
+
+
 // address: 0x800A1224
 // line start: 2100
 // line end:   2395
@@ -1048,69 +1048,10 @@ void DrawOptions__FP4TASK_addr_800A1224(struct TASK *T) {
 }
 
 
-// address: 0x80097E88
-// line start: 552
-// line end:   686
-void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
-	// register: 2
-	// size: 0x28
-	register struct POLY_FT4 *FT4;
-	// register: 16
-	// size: 0x34
-	register struct POLY_GT4 *GT4;
-	// register: 6
-	// size: 0x28
-	register struct POLY_GT3 *GT3;
-	// address: 0xFFFFFFD0
-	// size: 0x6C
-	auto struct TextDat *ThisDat;
-	// register: 16
-	register unsigned char rand;
-	// register: 5
-	register int f;
-	// register: 2
-	register unsigned short bright;
-	// register: 30
-	register unsigned short r;
-	// register: 23
-	register unsigned short g;
-	// register: 22
-	register unsigned short b;
-	// register: 3
-	register int xr1;
-	// register: 5
-	register int yr1;
-	// register: 7
-	register int xr2;
-	// register: 4
-	register int yr2;
-	// register: 2
-	register int yr3;
-	// register: 20
-	register int radius;
-	{
-		// register: 17
-		register int i;
-		{
-			{
-				{
-					// register: 17
-					register char flip;
-					{
-						// register: 16
-						register int i;
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x8009BCA4
 // line start: 560
 // line end:   693
-void DrawSpinner__FiiUcUcUciiibiT8_addr_8009BCA4(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
+void DrawSpinner__FiiUcUcUciiibiT8(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
 	// register: 2
 	// size: 0x28
 	register struct POLY_FT4 *FT4;
@@ -1166,10 +1107,10 @@ void DrawSpinner__FiiUcUcUciiibiT8_addr_8009BCA4(int x, int y, unsigned char Spi
 }
 
 
-// address: 0x8009B7DC
-// line start: 692
-// line end:   827
-void DrawSpinner__FiiUcUcUciiibiT8_addr_8009B7DC(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
+// address: 0x80097E88
+// line start: 552
+// line end:   686
+void DrawSpinner__FiiUcUcUciiibiT8_addr_80097E88(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
 	// register: 2
 	// size: 0x28
 	register struct POLY_FT4 *FT4;
@@ -1181,7 +1122,7 @@ void DrawSpinner__FiiUcUcUciiibiT8_addr_8009B7DC(int x, int y, unsigned char Spi
 	register struct POLY_GT3 *GT3;
 	// address: 0xFFFFFFD0
 	// size: 0x6C
-	auto struct TextDat_dup_14 *ThisDat;
+	auto struct TextDat *ThisDat;
 	// register: 16
 	register unsigned char rand;
 	// register: 5
@@ -1284,7 +1225,66 @@ void DrawSpinner__FiiUcUcUciiibiT8_addr_8009857C(int x, int y, unsigned char Spi
 }
 
 
-// address: 0x800A6784
+// address: 0x8009B7DC
+// line start: 692
+// line end:   827
+void DrawSpinner__FiiUcUcUciiibiT8_addr_8009B7DC(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross) {
+	// register: 2
+	// size: 0x28
+	register struct POLY_FT4 *FT4;
+	// register: 16
+	// size: 0x34
+	register struct POLY_GT4 *GT4;
+	// register: 6
+	// size: 0x28
+	register struct POLY_GT3 *GT3;
+	// address: 0xFFFFFFD0
+	// size: 0x6C
+	auto struct TextDat_dup_14 *ThisDat;
+	// register: 16
+	register unsigned char rand;
+	// register: 5
+	register int f;
+	// register: 2
+	register unsigned short bright;
+	// register: 30
+	register unsigned short r;
+	// register: 23
+	register unsigned short g;
+	// register: 22
+	register unsigned short b;
+	// register: 3
+	register int xr1;
+	// register: 5
+	register int yr1;
+	// register: 7
+	register int xr2;
+	// register: 4
+	register int yr2;
+	// register: 2
+	register int yr3;
+	// register: 20
+	register int radius;
+	{
+		// register: 17
+		register int i;
+		{
+			{
+				{
+					// register: 17
+					register char flip;
+					{
+						// register: 16
+						register int i;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800A66EC
 // line start: 898
 // line end:   1053
 void DrawSpinner__FiiUcUcUciiibiT8T8Uc(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross, bool iso, int SinStep) {
@@ -1296,7 +1296,7 @@ void DrawSpinner__FiiUcUcUciiibiT8T8Uc(int x, int y, unsigned char SpinR, unsign
 	register struct POLY_GT4 *GT4;
 	// address: 0xFFFFFF88
 	// size: 0x70
-	auto struct TextDat_dup_18 *ThisDat;
+	auto struct TextDat *ThisDat;
 	// register: 16
 	register unsigned char rand;
 	// register: 5
@@ -1336,10 +1336,10 @@ void DrawSpinner__FiiUcUcUciiibiT8T8Uc(int x, int y, unsigned char SpinR, unsign
 }
 
 
-// address: 0x800A66EC
+// address: 0x800A6784
 // line start: 898
 // line end:   1053
-void DrawSpinner__FiiUcUcUciiibiT8T8Uc_addr_800A66EC(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross, bool iso, int SinStep) {
+void DrawSpinner__FiiUcUcUciiibiT8T8Uc_addr_800A6784(int x, int y, unsigned char SpinR, unsigned char SpinG, int SpinB, int spinradius, int spinbright, int angle, bool Sparkle, int OtPos, bool cross, bool iso, int SinStep) {
 	// register: 2
 	// size: 0x28
 	register struct POLY_FT4 *FT4;
@@ -1348,7 +1348,7 @@ void DrawSpinner__FiiUcUcUciiibiT8T8Uc_addr_800A66EC(int x, int y, unsigned char
 	register struct POLY_GT4 *GT4;
 	// address: 0xFFFFFF88
 	// size: 0x70
-	auto struct TextDat *ThisDat;
+	auto struct TextDat_dup_18 *ThisDat;
 	// register: 16
 	register unsigned char rand;
 	// register: 5
@@ -1440,20 +1440,13 @@ void DrawSpinner__FiiUcUcUciiibiT8T8Uc_addr_800A6858(int x, int y, unsigned char
 }
 
 
-// address: 0x8009D298
-// line start: 2420
-// line end:   2501
+// address: 0x800AA948
+// line start: 3224
+// line end:   3325
 void FormatPad__Fv() {
 	// register: 16
-	register int move;
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 17
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	// register: 5
-	register int lcs;
+	// size: 0xEC
+	register struct CPad_dup_17 *P;
 }
 
 
@@ -1491,6 +1484,23 @@ void FormatPad__Fv_addr_8009B1DC() {
 }
 
 
+// address: 0x8009D298
+// line start: 2420
+// line end:   2501
+void FormatPad__Fv_addr_8009D298() {
+	// register: 16
+	register int move;
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 17
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	// register: 5
+	register int lcs;
+}
+
+
 // address: 0x800AA874
 // line start: 3224
 // line end:   3325
@@ -1498,16 +1508,6 @@ void FormatPad__Fv_addr_800AA874() {
 	// register: 16
 	// size: 0xEC
 	register struct CPad *P;
-}
-
-
-// address: 0x800AA948
-// line start: 3224
-// line end:   3325
-void FormatPad__Fv_addr_800AA948() {
-	// register: 16
-	// size: 0xEC
-	register struct CPad_dup_17 *P;
 }
 
 
@@ -1522,9 +1522,9 @@ void GameSpeedPad__Fv() {
 }
 
 
-// address: 0x8009C990
-// line start: 1642
-// line end:   1662
+// address: 0x8009B34C
+// line start: 1643
+// line end:   1663
 void GetVolumes__Fv() {
 	{
 		// register: 8
@@ -1532,6 +1532,52 @@ void GetVolumes__Fv() {
 		{
 			// register: 5
 			// size: 0x8
+			register struct OMENULIST_dup_5 *mptr;
+			// register: 3
+			// size: 0x18
+			register struct OMENUITEM *iptr;
+			{
+				// register: 4
+				register int s;
+			}
+		}
+	}
+}
+
+
+// address: 0x8009C990
+// line start: 1642
+// line end:   1662
+void GetVolumes__Fv_addr_8009C990() {
+	{
+		// register: 8
+		register int i;
+		{
+			// register: 5
+			// size: 0x8
+			register struct OMENULIST *mptr;
+			// register: 3
+			// size: 0x18
+			register struct OMENUITEM *iptr;
+			{
+				// register: 4
+				register int s;
+			}
+		}
+	}
+}
+
+
+// address: 0x8009ACA0
+// line start: 1608
+// line end:   1628
+void GetVolumes__Fv_addr_8009ACA0() {
+	{
+		// register: 9
+		register int i;
+		{
+			// register: 5
+			// size: 0xC
 			register struct OMENULIST *mptr;
 			// register: 3
 			// size: 0x18
@@ -1568,29 +1614,6 @@ void GetVolumes__Fv_addr_8009A898() {
 }
 
 
-// address: 0x8009ACA0
-// line start: 1608
-// line end:   1628
-void GetVolumes__Fv_addr_8009ACA0() {
-	{
-		// register: 9
-		register int i;
-		{
-			// register: 5
-			// size: 0xC
-			register struct OMENULIST *mptr;
-			// register: 3
-			// size: 0x18
-			register struct OMENUITEM *iptr;
-			{
-				// register: 4
-				register int s;
-			}
-		}
-	}
-}
-
-
 // address: 0x8009E498
 // line start: 1916
 // line end:   1933
@@ -1614,33 +1637,24 @@ void GetVolumes__Fv_addr_8009E498() {
 }
 
 
-// address: 0x8009B34C
-// line start: 1643
-// line end:   1663
-void GetVolumes__Fv_addr_8009B34C() {
-	{
-		// register: 8
-		register int i;
-		{
-			// register: 5
-			// size: 0x8
-			register struct OMENULIST_dup_5 *mptr;
-			// register: 3
-			// size: 0x18
-			register struct OMENUITEM *iptr;
-			{
-				// register: 4
-				register int s;
-			}
-		}
-	}
+// address: 0x800AAF30
+// line start: 3479
+// line end:   3505
+void LAMBO_MovePad__FP4CPad(struct CPad *P) {
+	// register: 18
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	// register: 17
+	register int move;
+	// register: 5
+	register int lcs;
 }
 
 
 // address: 0x800AB004
 // line start: 3479
 // line end:   3505
-void LAMBO_MovePad__FP4CPad(struct CPad_dup_17 *P) {
+void LAMBO_MovePad__FP4CPad_addr_800AB004(struct CPad_dup_17 *P) {
 	// register: 18
 	// size: 0x18
 	register struct OMENUITEM *iptr;
@@ -1648,72 +1662,13 @@ void LAMBO_MovePad__FP4CPad(struct CPad_dup_17 *P) {
 	register int move;
 	// register: 5
 	register int lcs;
-}
-
-
-// address: 0x800AAF30
-// line start: 3479
-// line end:   3505
-void LAMBO_MovePad__FP4CPad_addr_800AAF30(struct CPad *P) {
-	// register: 18
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	// register: 17
-	register int move;
-	// register: 5
-	register int lcs;
-}
-
-
-// address: 0x8009AF7C
-// line start: 1318
-// line end:   1525
-void MemcardPad__Fv() {
-	// register: 17
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 16
-	register int move;
-	// register: 18
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	{
-		{
-			// register: 5
-			register int lcs;
-			{
-				{
-					{
-						{
-							{
-								{
-									{
-										// register: 3
-										register int readstate;
-										{
-											{
-												{
-													// register: 3
-													register int readstate;
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
 }
 
 
 // address: 0x8009A134
 // line start: 1101
 // line end:   1318
-void MemcardPad__Fv_addr_8009A134() {
+void MemcardPad__Fv() {
 	// register: 21
 	// size: 0x6C
 	register struct CPad *P;
@@ -1771,13 +1726,56 @@ void MemcardPad__Fv_addr_8009A134() {
 }
 
 
-// address: 0x800A8704
-// line start: 1719
-// line end:   1990
-void MemcardPad__Fv_addr_800A8704() {
+// address: 0x8009C388
+// line start: 1216
+// line end:   1424
+void MemcardPad__Fv_addr_8009C388() {
 	// register: 17
-	// size: 0xEC
-	register struct CPad_dup_17 *P;
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 16
+	register int move;
+	// register: 18
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	{
+		{
+			// register: 5
+			register int lcs;
+			{
+				{
+					// address: 0xFFFFFFD0
+					// size: 0x10
+					auto struct Dialog SBack;
+					// address: 0xFFFFFFE0
+					// size: 0x8
+					auto struct RECT um;
+					// register: 2
+					register int X;
+					// register: 2
+					register int Y;
+					// register: 2
+					register int W;
+					// register: 17
+					register int H;
+					// register: 19
+					register int oldBot;
+					// register: 18
+					register int oldTot;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009CFEC
+// line start: 1303
+// line end:   1500
+void MemcardPad__Fv_addr_8009CFEC() {
+	// register: 17
+	// size: 0x6C
+	register struct CPad *P;
 	// register: 16
 	register int move;
 	// register: 18
@@ -1848,6 +1846,174 @@ void MemcardPad__Fv_addr_80099550() {
 					}
 				}
 			}
+		}
+	}
+}
+
+
+// address: 0x8009AF7C
+// line start: 1318
+// line end:   1525
+void MemcardPad__Fv_addr_8009AF7C() {
+	// register: 17
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 16
+	register int move;
+	// register: 18
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	{
+		{
+			// register: 5
+			register int lcs;
+			{
+				{
+					{
+						{
+							{
+								{
+									{
+										// register: 3
+										register int readstate;
+										{
+											{
+												{
+													// register: 3
+													register int readstate;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009C200
+// line start: 1198
+// line end:   1396
+void MemcardPad__Fv_addr_8009C200() {
+	// register: 17
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 16
+	register int move;
+	// register: 4
+	register int save_blocks;
+	// register: 18
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	{
+		{
+			// register: 5
+			register int lcs;
+			{
+				{
+					// address: 0xFFFFFFD0
+					// size: 0x10
+					auto struct Dialog SBack;
+					// address: 0xFFFFFFE0
+					// size: 0x8
+					auto struct RECT um;
+					// register: 2
+					register int X;
+					// register: 2
+					register int Y;
+					// register: 2
+					register int W;
+					// register: 17
+					register int H;
+					// register: 19
+					register int oldBot;
+					// register: 18
+					register int oldTot;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009B778
+// line start: 1101
+// line end:   1317
+void MemcardPad__Fv_addr_8009B778() {
+	// register: 21
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 18
+	register int move;
+	// register: 3
+	register int FileNo;
+	// register: 23
+	register int yoff;
+	// register: 4
+	register int save_blocks;
+	// register: 22
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	{
+		{
+			// register: 5
+			register int lcs;
+			{
+				{
+					{
+						// register: 17
+						register int i;
+						{
+							{
+								// address: 0xFFFFFFC0
+								// size: 0x10
+								auto struct Dialog SBack;
+								// address: 0xFFFFFFD0
+								// size: 0x8
+								auto struct RECT um;
+								// register: 2
+								register int X;
+								// register: 2
+								register int Y;
+								// register: 2
+								register int W;
+								// register: 17
+								register int H;
+								// register: 19
+								register int oldBot;
+								// register: 18
+								register int oldTot;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800A8704
+// line start: 1719
+// line end:   1990
+void MemcardPad__Fv_addr_800A8704() {
+	// register: 17
+	// size: 0xEC
+	register struct CPad_dup_17 *P;
+	// register: 16
+	register int move;
+	// register: 18
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	{
+		{
+			// register: 5
+			register int lcs;
 		}
 	}
 }
@@ -1929,127 +2095,6 @@ void MemcardPad__Fv_addr_800A8630() {
 }
 
 
-// address: 0x8009C388
-// line start: 1216
-// line end:   1424
-void MemcardPad__Fv_addr_8009C388() {
-	// register: 17
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 16
-	register int move;
-	// register: 18
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	{
-		{
-			// register: 5
-			register int lcs;
-			{
-				{
-					// address: 0xFFFFFFD0
-					// size: 0x10
-					auto struct Dialog SBack;
-					// address: 0xFFFFFFE0
-					// size: 0x8
-					auto struct RECT um;
-					// register: 2
-					register int X;
-					// register: 2
-					register int Y;
-					// register: 2
-					register int W;
-					// register: 17
-					register int H;
-					// register: 19
-					register int oldBot;
-					// register: 18
-					register int oldTot;
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x8009CFEC
-// line start: 1303
-// line end:   1500
-void MemcardPad__Fv_addr_8009CFEC() {
-	// register: 17
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 16
-	register int move;
-	// register: 18
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	{
-		{
-			// register: 5
-			register int lcs;
-		}
-	}
-}
-
-
-// address: 0x8009B778
-// line start: 1101
-// line end:   1317
-void MemcardPad__Fv_addr_8009B778() {
-	// register: 21
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 18
-	register int move;
-	// register: 3
-	register int FileNo;
-	// register: 23
-	register int yoff;
-	// register: 4
-	register int save_blocks;
-	// register: 22
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	{
-		{
-			// register: 5
-			register int lcs;
-			{
-				{
-					{
-						// register: 17
-						register int i;
-						{
-							{
-								// address: 0xFFFFFFC0
-								// size: 0x10
-								auto struct Dialog SBack;
-								// address: 0xFFFFFFD0
-								// size: 0x8
-								auto struct RECT um;
-								// register: 2
-								register int X;
-								// register: 2
-								register int Y;
-								// register: 2
-								register int W;
-								// register: 17
-								register int H;
-								// register: 19
-								register int oldBot;
-								// register: 18
-								register int oldTot;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x8009B508
 // size: 0x6C
 // line start: 898
@@ -2088,12 +2133,10 @@ void PrintSelectBack__FUs(unsigned short Str) {
 }
 
 
-// address: 0x8009AA6C
-// line start: 599
-// line end:   612
+// address: 0x8009AAC4
+// line start: 627
+// line end:   644
 void PrintSelectBack__FbT0(bool S, bool B) {
-	// register: 2
-	register int len;
 }
 
 
@@ -2106,54 +2149,39 @@ void PrintSelectBack__FbT0_addr_8009AB04(bool S, bool B) {
 }
 
 
-// address: 0x8009AAC4
-// line start: 627
-// line end:   644
-void PrintSelectBack__FbT0_addr_8009AAC4(bool S, bool B) {
-}
-
-
-// address: 0x800AAB14
-// line start: 3330
-// line end:   3400
-void SaveOverwritePad__Fv() {
-	// register: 16
-	// size: 0xEC
-	register struct CPad *P;
+// address: 0x8009AA6C
+// line start: 599
+// line end:   612
+void PrintSelectBack__FbT0_addr_8009AA6C(bool S, bool B) {
+	// register: 2
+	register int len;
 }
 
 
 // address: 0x800AABE8
 // line start: 3330
 // line end:   3400
-void SaveOverwritePad__Fv_addr_800AABE8() {
+void SaveOverwritePad__Fv() {
 	// register: 16
 	// size: 0xEC
 	register struct CPad_dup_17 *P;
 }
 
 
-// address: 0x8009DBAC
-// line start: 1945
-// line end:   1984
-void SeedPad__Fv() {
+// address: 0x800AAB14
+// line start: 3330
+// line end:   3400
+void SaveOverwritePad__Fv_addr_800AAB14() {
 	// register: 16
-	// size: 0x6C
+	// size: 0xEC
 	register struct CPad *P;
-	// address: 0xFFFFFFE8
-	// size: 0x2
-	auto char temp[2];
-	{
-		// register: 16
-		register int i;
-	}
 }
 
 
 // address: 0x8009DB44
 // line start: 1943
 // line end:   1983
-void SeedPad__Fv_addr_8009DB44() {
+void SeedPad__Fv() {
 	// register: 16
 	// size: 0x6C
 	register struct CPad *P;
@@ -2162,6 +2190,23 @@ void SeedPad__Fv_addr_8009DB44() {
 	auto char temp[2];
 	// register: 20
 	register int ypos;
+	{
+		// register: 16
+		register int i;
+	}
+}
+
+
+// address: 0x8009DBAC
+// line start: 1945
+// line end:   1984
+void SeedPad__Fv_addr_8009DBAC() {
+	// register: 16
+	// size: 0x6C
+	register struct CPad *P;
+	// address: 0xFFFFFFE8
+	// size: 0x2
+	auto char temp[2];
 	{
 		// register: 16
 		register int i;
@@ -2240,10 +2285,10 @@ void ShowCharacterFiles__Fv() {
 }
 
 
-// address: 0x80099A9C
-// line start: 882
-// line end:   1098
-void ShowCharacterFiles__Fv_addr_80099A9C() {
+// address: 0x80098EB8
+// line start: 896
+// line end:   1112
+void ShowCharacterFiles__Fv_addr_80098EB8() {
 	// register: 19
 	register int j;
 	// register: 23
@@ -2254,10 +2299,10 @@ void ShowCharacterFiles__Fv_addr_80099A9C() {
 	register int fileno;
 	// register: 21
 	// size: 0x6C
-	register struct CPad *P;
+	register struct CPad_dup_4 *P;
 	// register: 22
 	// size: 0x18
-	register struct OMENUITEM *iptr;
+	register struct OMENUITEM_dup_4 *iptr;
 	// register: 5
 	register int lcs;
 	{
@@ -2318,10 +2363,45 @@ void ShowCharacterFiles__Fv_addr_80099480() {
 }
 
 
-// address: 0x80098EB8
-// line start: 896
-// line end:   1112
-void ShowCharacterFiles__Fv_addr_80098EB8() {
+// address: 0x8009C9E8
+// line start: 1117
+// line end:   1300
+void ShowCharacterFiles__Fv_addr_8009C9E8() {
+	// register: 16
+	register int j;
+	// register: 21
+	register int yoff;
+	// register: 17
+	register int move;
+	// register: 6
+	register int fileno;
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 19
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	// register: 5
+	register int lcs;
+	{
+		{
+			// register: 19
+			register int r;
+			// register: 18
+			register int g;
+			// register: 17
+			register int b;
+			// register: 7
+			register char *FileLabel;
+		}
+	}
+}
+
+
+// address: 0x80099A9C
+// line start: 882
+// line end:   1098
+void ShowCharacterFiles__Fv_addr_80099A9C() {
 	// register: 19
 	register int j;
 	// register: 23
@@ -2332,10 +2412,10 @@ void ShowCharacterFiles__Fv_addr_80098EB8() {
 	register int fileno;
 	// register: 21
 	// size: 0x6C
-	register struct CPad_dup_4 *P;
+	register struct CPad *P;
 	// register: 22
 	// size: 0x18
-	register struct OMENUITEM_dup_4 *iptr;
+	register struct OMENUITEM *iptr;
 	// register: 5
 	register int lcs;
 	{
@@ -2368,41 +2448,6 @@ void ShowCharacterFiles__Fv_addr_80098EB8() {
 					register int b;
 				}
 			}
-		}
-	}
-}
-
-
-// address: 0x8009C9E8
-// line start: 1117
-// line end:   1300
-void ShowCharacterFiles__Fv_addr_8009C9E8() {
-	// register: 16
-	register int j;
-	// register: 21
-	register int yoff;
-	// register: 17
-	register int move;
-	// register: 6
-	register int fileno;
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 19
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	// register: 5
-	register int lcs;
-	{
-		{
-			// register: 19
-			register int r;
-			// register: 18
-			register int g;
-			// register: 17
-			register int b;
-			// register: 7
-			register char *FileLabel;
 		}
 	}
 }
@@ -2474,6 +2519,150 @@ void SoundPad__Fv() {
 						{
 							// register: 16
 							register int llen;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009A41C
+// line start: 1251
+// line end:   1419
+void SoundPad__Fv_addr_8009A41C() {
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 16
+	register int move;
+	// register: 17
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	// register: 6
+	register int lcs;
+	{
+		{
+			{
+				// register: 3
+				register int l;
+				{
+					{
+						{
+							{
+								// register: 16
+								register int llen;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x8009C994
+// line start: 1431
+// line end:   1616
+void SoundPad__Fv_addr_8009C994() {
+	// register: 18
+	// size: 0x6C
+	register struct CPad *P;
+	// register: 16
+	register int move;
+	// register: 17
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	// register: 6
+	register int lcs;
+	{
+		{
+			{
+				// register: 3
+				register int l;
+				{
+					{
+						{
+							{
+								{
+									{
+										// register: 16
+										register int llen;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80099BF4
+// line start: 1339
+// line end:   1507
+void SoundPad__Fv_addr_80099BF4() {
+	// register: 18
+	// size: 0x6C
+	register struct CPad_dup_4 *P;
+	// register: 16
+	register int move;
+	// register: 17
+	// size: 0x18
+	register struct OMENUITEM_dup_4 *iptr;
+	// register: 6
+	register int lcs;
+	{
+		{
+			{
+				// register: 3
+				register int l;
+				{
+					{
+						{
+							{
+								// register: 16
+								register int llen;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x800A8F60
+// line start: 2033
+// line end:   2389
+void SoundPad__Fv_addr_800A8F60() {
+	// register: 17
+	// size: 0xEC
+	register struct CPad *P;
+	// register: 16
+	register int move;
+	// register: 18
+	// size: 0x18
+	register struct OMENUITEM *iptr;
+	// register: 5
+	register int lcs;
+	{
+		{
+			{
+				// register: 3
+				register int l;
+				{
+					{
+						{
+							{
+								// register: 16
+								register int llen;
+							}
 						}
 					}
 				}
@@ -2557,150 +2746,6 @@ void SoundPad__Fv_addr_8009D664() {
 }
 
 
-// address: 0x8009C994
-// line start: 1431
-// line end:   1616
-void SoundPad__Fv_addr_8009C994() {
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 16
-	register int move;
-	// register: 17
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	// register: 6
-	register int lcs;
-	{
-		{
-			{
-				// register: 3
-				register int l;
-				{
-					{
-						{
-							{
-								{
-									{
-										// register: 16
-										register int llen;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x800A8F60
-// line start: 2033
-// line end:   2389
-void SoundPad__Fv_addr_800A8F60() {
-	// register: 17
-	// size: 0xEC
-	register struct CPad *P;
-	// register: 16
-	register int move;
-	// register: 18
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	// register: 5
-	register int lcs;
-	{
-		{
-			{
-				// register: 3
-				register int l;
-				{
-					{
-						{
-							{
-								// register: 16
-								register int llen;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x80099BF4
-// line start: 1339
-// line end:   1507
-void SoundPad__Fv_addr_80099BF4() {
-	// register: 18
-	// size: 0x6C
-	register struct CPad_dup_4 *P;
-	// register: 16
-	register int move;
-	// register: 17
-	// size: 0x18
-	register struct OMENUITEM_dup_4 *iptr;
-	// register: 6
-	register int lcs;
-	{
-		{
-			{
-				// register: 3
-				register int l;
-				{
-					{
-						{
-							{
-								// register: 16
-								register int llen;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x8009A41C
-// line start: 1251
-// line end:   1419
-void SoundPad__Fv_addr_8009A41C() {
-	// register: 18
-	// size: 0x6C
-	register struct CPad *P;
-	// register: 16
-	register int move;
-	// register: 17
-	// size: 0x18
-	register struct OMENUITEM *iptr;
-	// register: 6
-	register int lcs;
-	{
-		{
-			{
-				// register: 3
-				register int l;
-				{
-					{
-						{
-							{
-								// register: 16
-								register int llen;
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-
 // address: 0x800A8FE8
 // line start: 2013
 // line end:   2018
@@ -2729,23 +2774,10 @@ void _GLOBAL__I_cmenu() {
 }
 
 
-// address: 0x800A8054
-// line start: 1498
-// line end:   1507
-int who_pressed__Fi(int pval) {
-	// register: 16
-	// size: 0xEC
-	register struct CPad *Pad;
-	// register: 16
-	// size: 0xEC
-	register struct CPad *Pad1;
-}
-
-
 // address: 0x800A8128
 // line start: 1498
 // line end:   1507
-int who_pressed__Fi_addr_800A8128(int pval) {
+int who_pressed__Fi(int pval) {
 	// register: 16
 	// size: 0xEC
 	register struct CPad_dup_17 *Pad;
@@ -2764,6 +2796,19 @@ int who_pressed__Fi_addr_8009B480(int pval) {
 	register struct CPad *Pad;
 	// register: 16
 	// size: 0x6C
+	register struct CPad *Pad1;
+}
+
+
+// address: 0x800A8054
+// line start: 1498
+// line end:   1507
+int who_pressed__Fi_addr_800A8054(int pval) {
+	// register: 16
+	// size: 0xEC
+	register struct CPad *Pad;
+	// register: 16
+	// size: 0xEC
 	register struct CPad *Pad1;
 }
 

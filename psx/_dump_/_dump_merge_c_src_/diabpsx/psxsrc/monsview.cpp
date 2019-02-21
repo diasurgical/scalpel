@@ -2,10 +2,17 @@
 
 #include "types.h"
 
+// address: 0x800AEE38
+// line start: 232
+// line end:   233
+void DisplayMonsterTypes__Fv() {
+}
+
+
 // address: 0x8009CDC0
 // line start: 130
 // line end:   216
-void DisplayMonsterTypes__Fv() {
+void DisplayMonsterTypes__Fv_addr_8009CDC0() {
 	// address: 0xFFFFFED8
 	// size: 0x100
 	auto char Text[256];
@@ -140,13 +147,6 @@ void DisplayMonsterTypes__Fv_addr_8009D86C() {
 			}
 		}
 	}
-}
-
-
-// address: 0x800AEE38
-// line start: 232
-// line end:   233
-void DisplayMonsterTypes__Fv_addr_800AEE38() {
 }
 
 

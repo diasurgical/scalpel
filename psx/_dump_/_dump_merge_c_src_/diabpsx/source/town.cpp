@@ -2,12 +2,12 @@
 
 #include "types.h"
 
-// address: 0x8006E278
-// line start: 413
-// line end:   466
+// address: 0x80074A28
+// line start: 453
+// line end:   506
 void CreateTown__Fi(int entry) {
 	{
-		// register: 6
+		// register: 5
 		register int y;
 		{
 			{
@@ -19,12 +19,12 @@ void CreateTown__Fi(int entry) {
 }
 
 
-// address: 0x80074A28
-// line start: 453
-// line end:   506
-void CreateTown__Fi_addr_80074A28(int entry) {
+// address: 0x8006E278
+// line start: 413
+// line end:   466
+void CreateTown__Fi_addr_8006E278(int entry) {
 	{
-		// register: 5
+		// register: 6
 		register int y;
 		{
 			{
@@ -159,25 +159,10 @@ void T_FillSector__FPUcT0iiiib_addr_80074308(unsigned char *P3Tiles, unsigned ch
 }
 
 
-// address: 0x8007454C
-// line start: 282
-// line end:   333
-void T_FillTile__FPUciii(unsigned char *P3Tiles, int xx, int yy, int t) {
-	// register: 6
-	register long v1;
-	// register: 6
-	register long v2;
-	// register: 6
-	register long v3;
-	// register: 6
-	register long v4;
-}
-
-
 // address: 0x8006DDC8
 // line start: 272
 // line end:   319
-void T_FillTile__FPUciii_addr_8006DDC8(unsigned char *P3Tiles, int xx, int yy, int t) {
+void T_FillTile__FPUciii(unsigned char *P3Tiles, int xx, int yy, int t) {
 	// register: 4
 	register long v1;
 	// register: 9
@@ -189,15 +174,30 @@ void T_FillTile__FPUciii_addr_8006DDC8(unsigned char *P3Tiles, int xx, int yy, i
 }
 
 
-// address: 0x8006DEB8
-// line start: 326
-// line end:   404
+// address: 0x8007454C
+// line start: 282
+// line end:   333
+void T_FillTile__FPUciii_addr_8007454C(unsigned char *P3Tiles, int xx, int yy, int t) {
+	// register: 6
+	register long v1;
+	// register: 6
+	register long v2;
+	// register: 6
+	register long v3;
+	// register: 6
+	register long v4;
+}
+
+
+// address: 0x8007469C
+// line start: 351
+// line end:   437
 void T_Pass3__Fv() {
 	// register: 19
 	register unsigned char *pSector;
-	// register: 16
+	// register: 17
 	register int xx;
-	// register: 10
+	// register: 18
 	register int yy;
 	{
 		// register: 5
@@ -210,10 +210,6 @@ void T_Pass3__Fv() {
 					{
 						{
 							{
-								{
-									// register: 4
-									register void *p__p;
-								}
 							}
 						}
 					}
@@ -255,15 +251,15 @@ void T_Pass3__Fv_addr_8006F708() {
 }
 
 
-// address: 0x8007469C
-// line start: 351
-// line end:   437
-void T_Pass3__Fv_addr_8007469C() {
+// address: 0x8006DEB8
+// line start: 326
+// line end:   404
+void T_Pass3__Fv_addr_8006DEB8() {
 	// register: 19
 	register unsigned char *pSector;
-	// register: 17
+	// register: 16
 	register int xx;
-	// register: 18
+	// register: 10
 	register int yy;
 	{
 		// register: 5
@@ -276,6 +272,10 @@ void T_Pass3__Fv_addr_8007469C() {
 					{
 						{
 							{
+								{
+									// register: 4
+									register void *p__p;
+								}
 							}
 						}
 					}

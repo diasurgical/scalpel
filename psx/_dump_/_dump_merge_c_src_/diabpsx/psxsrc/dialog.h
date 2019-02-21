@@ -47,6 +47,14 @@ struct Dialog *__6Dialog_addr_8014D850(struct Dialog *this) {
 }
 
 
+// address: 0x8015B620
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_8015B620(struct Dialog *this) {
+}
+
+
 // address: 0x8015BA34
 // size: 0x10
 // line start: 60
@@ -225,6 +233,13 @@ void ___6Dialog_addr_8014D5F4(struct Dialog *this, int __in_chrg) {
 // line start: 77
 // line end:   77
 void ___6Dialog_addr_8014D828(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x8015B5F8
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_8015B5F8(struct Dialog *this, int __in_chrg) {
 }
 
 
@@ -640,6 +655,13 @@ void SetBack__6Dialogi_addr_8007B604(struct Dialog *this, int Type) {
 }
 
 
+// address: 0x8007B738
+// line start: 97
+// line end:   97
+void SetBack__6Dialogi_addr_8007B738(struct Dialog *this, int Type) {
+}
+
+
 // address: 0x8007BB38
 // line start: 98
 // line end:   98
@@ -686,6 +708,13 @@ void SetBack__6Dialogi_addr_8009A5D4(struct Dialog *this, int Type) {
 // line start: 98
 // line end:   98
 void SetBack__6Dialogi_addr_8009A5D8(struct Dialog *this, int Type) {
+}
+
+
+// address: 0x8009A44C
+// line start: 97
+// line end:   97
+void SetBack__6Dialogi_addr_8009A44C(struct Dialog *this, int Type) {
 }
 
 
@@ -868,6 +897,13 @@ void SetBack__6Dialogi_addr_8009E37C(struct Dialog *this, int Type) {
 // line start: 97
 // line end:   97
 void SetBack__6Dialogi_addr_8009E45C(struct Dialog *this, int Type) {
+}
+
+
+// address: 0x8009E384
+// line start: 97
+// line end:   97
+void SetBack__6Dialogi_addr_8009E384(struct Dialog *this, int Type) {
 }
 
 
@@ -1144,6 +1180,13 @@ void SetBack__6Dialogi_addr_80098E4C(struct Dialog *this, int Type) {
 }
 
 
+// address: 0x80099A48
+// line start: 97
+// line end:   97
+void SetBack__6Dialogi_addr_80099A48(struct Dialog *this, int Type) {
+}
+
+
 // address: 0x80099B78
 // line start: 97
 // line end:   97
@@ -1337,6 +1380,13 @@ void SetBack__6Dialogi_addr_800998CC(struct Dialog *this, int Type) {
 // line start: 97
 // line end:   97
 void SetBack__6Dialogi_addr_8003506C(struct Dialog *this, int Type) {
+}
+
+
+// address: 0x8006305C
+// line start: 97
+// line end:   97
+void SetBack__6Dialogi_addr_8006305C(struct Dialog *this, int Type) {
 }
 
 
@@ -1753,6 +1803,13 @@ void SetBorder__6Dialogi_addr_8006CFC0(struct Dialog *this, int Type) {
 }
 
 
+// address: 0x8006CFD4
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_8006CFD4(struct Dialog *this, int Type) {
+}
+
+
 // address: 0x8006CFD8
 // line start: 94
 // line end:   94
@@ -1893,6 +1950,13 @@ void SetBorder__6Dialogi_addr_8007B724(struct Dialog *this, int Type) {
 }
 
 
+// address: 0x8007B740
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_8007B740(struct Dialog *this, int Type) {
+}
+
+
 // address: 0x8007BB40
 // line start: 95
 // line end:   95
@@ -1953,6 +2017,13 @@ void SetBorder__6Dialogi_addr_8009A92C(struct Dialog *this, int Type) {
 // line start: 94
 // line end:   94
 void SetBorder__6Dialogi_addr_8009A118(struct Dialog *this, int Type) {
+}
+
+
+// address: 0x8009A454
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_8009A454(struct Dialog *this, int Type) {
 }
 
 
@@ -2135,6 +2206,13 @@ void SetBorder__6Dialogi_addr_8009D844(struct Dialog *this, int Type) {
 // line start: 94
 // line end:   94
 void SetBorder__6Dialogi_addr_8009DC08(struct Dialog *this, int Type) {
+}
+
+
+// address: 0x8009E38C
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_8009E38C(struct Dialog *this, int Type) {
 }
 
 
@@ -2324,6 +2402,13 @@ void SetBorder__6Dialogi_addr_80047A34(struct Dialog *this, int Type) {
 // line start: 94
 // line end:   94
 void SetBorder__6Dialogi_addr_80047A50(struct Dialog *this, int Type) {
+}
+
+
+// address: 0x80047A74
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_80047A74(struct Dialog *this, int Type) {
 }
 
 
@@ -2579,6 +2664,13 @@ void SetBorder__6Dialogi_addr_80098E54(struct Dialog *this, int Type) {
 }
 
 
+// address: 0x80099A50
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_80099A50(struct Dialog *this, int Type) {
+}
+
+
 // address: 0x80099B80
 // line start: 94
 // line end:   94
@@ -2796,6 +2888,13 @@ void SetBorder__6Dialogi_addr_800930AC(struct Dialog *this, int Type) {
 }
 
 
+// address: 0x800933DC
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_800933DC(struct Dialog *this, int Type) {
+}
+
+
 // address: 0x800960E4
 // line start: 95
 // line end:   95
@@ -2912,6 +3011,13 @@ void SetBorder__6Dialogi_addr_80048704(struct Dialog *this, int Type) {
 // line start: 94
 // line end:   94
 void SetBorder__6Dialogi_addr_80048734(struct Dialog *this, int Type) {
+}
+
+
+// address: 0x80063064
+// line start: 94
+// line end:   94
+void SetBorder__6Dialogi_addr_80063064(struct Dialog *this, int Type) {
 }
 
 
@@ -3141,6 +3247,15 @@ int SetOTpos__6Dialogi_addr_8009E38C(struct Dialog *this, int OT) {
 // line start: 84
 // line end:   87
 int SetOTpos__6Dialogi_addr_8009E46C(struct Dialog *this, int OT) {
+	// register: 2
+	register int OldOT;
+}
+
+
+// address: 0x8009E394
+// line start: 84
+// line end:   87
+int SetOTpos__6Dialogi_addr_8009E394(struct Dialog *this, int OT) {
 	// register: 2
 	register int OldOT;
 }
@@ -3503,6 +3618,13 @@ void SetRGB__6DialogUcUcUc_addr_8006CFA0(struct Dialog *this, unsigned char R, u
 }
 
 
+// address: 0x8006CFB4
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_8006CFB4(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
 // address: 0x8006CFB8
 // line start: 102
 // line end:   105
@@ -3629,6 +3751,13 @@ void SetRGB__6DialogUcUcUc_addr_8007B534(struct Dialog *this, unsigned char R, u
 }
 
 
+// address: 0x8007B718
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_8007B718(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
 // address: 0x8007B884
 // line start: 102
 // line end:   105
@@ -3696,6 +3825,13 @@ void SetRGB__6DialogUcUcUc_addr_8009A5B4(struct Dialog *this, unsigned char R, u
 // line start: 103
 // line end:   106
 void SetRGB__6DialogUcUcUc_addr_8009A5B8(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
+// address: 0x8009A42C
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_8009A42C(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
@@ -3909,6 +4045,13 @@ void SetRGB__6DialogUcUcUc_addr_8009E43C(struct Dialog *this, unsigned char R, u
 }
 
 
+// address: 0x8009E364
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_8009E364(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
 // address: 0x8009E748
 // line start: 102
 // line end:   105
@@ -4074,6 +4217,13 @@ void SetRGB__6DialogUcUcUc_addr_80047A14(struct Dialog *this, unsigned char R, u
 // line start: 102
 // line end:   105
 void SetRGB__6DialogUcUcUc_addr_80047A30(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
+// address: 0x80047A54
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_80047A54(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
@@ -4336,6 +4486,13 @@ void SetRGB__6DialogUcUcUc_addr_80098E2C(struct Dialog *this, unsigned char R, u
 }
 
 
+// address: 0x80099A28
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_80099A28(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
 // address: 0x80099B58
 // line start: 102
 // line end:   105
@@ -4504,6 +4661,13 @@ void SetRGB__6DialogUcUcUc_addr_800926DC(struct Dialog *this, unsigned char R, u
 }
 
 
+// address: 0x800933BC
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_800933BC(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
 // address: 0x800936E4
 // line start: 103
 // line end:   106
@@ -4606,6 +4770,13 @@ void SetRGB__6DialogUcUcUc_addr_8004799C(struct Dialog *this, unsigned char R, u
 // line start: 102
 // line end:   105
 void SetRGB__6DialogUcUcUc_addr_8004960C(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
+}
+
+
+// address: 0x8006303C
+// line start: 102
+// line end:   105
+void SetRGB__6DialogUcUcUc_addr_8006303C(struct Dialog *this, unsigned char R, unsigned char G, unsigned char B) {
 }
 
 
@@ -5177,6 +5348,14 @@ struct Dialog *__6Dialog_addr_8006D3AC(struct Dialog *this) {
 }
 
 
+// address: 0x8006D004
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_8006D004(struct Dialog *this) {
+}
+
+
 // address: 0x8006D07C
 // size: 0x10
 // line start: 60
@@ -5329,6 +5508,14 @@ struct Dialog *__6Dialog_addr_8007B754(struct Dialog *this) {
 }
 
 
+// address: 0x8007B770
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_8007B770(struct Dialog *this) {
+}
+
+
 // address: 0x8007BB70
 // size: 0x10
 // line start: 61
@@ -5406,6 +5593,14 @@ struct Dialog *__6Dialog_addr_8009A148(struct Dialog *this) {
 // line start: 60
 // line end:   73
 struct Dialog *__6Dialog_addr_8009A328(struct Dialog *this) {
+}
+
+
+// address: 0x8009A484
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_8009A484(struct Dialog *this) {
 }
 
 
@@ -5614,6 +5809,14 @@ struct Dialog *__6Dialog_addr_8009DC44(struct Dialog *this) {
 // line start: 60
 // line end:   73
 struct Dialog *__6Dialog_addr_8009E3C0(struct Dialog *this) {
+}
+
+
+// address: 0x8009E3C8
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_8009E3C8(struct Dialog *this) {
 }
 
 
@@ -5830,6 +6033,14 @@ struct Dialog *__6Dialog_addr_80047A64(struct Dialog *this) {
 // line start: 60
 // line end:   73
 struct Dialog *__6Dialog_addr_80047A80(struct Dialog *this) {
+}
+
+
+// address: 0x80047AA4
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80047AA4(struct Dialog *this) {
 }
 
 
@@ -6118,6 +6329,14 @@ struct Dialog *__6Dialog_addr_80097BDC(struct Dialog *this) {
 // line start: 61
 // line end:   74
 struct Dialog *__6Dialog_addr_80098E84(struct Dialog *this) {
+}
+
+
+// address: 0x80099A80
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80099A80(struct Dialog *this) {
 }
 
 
@@ -6489,6 +6708,14 @@ struct Dialog *__6Dialog_addr_80062724(struct Dialog *this) {
 }
 
 
+// address: 0x80063094
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80063094(struct Dialog *this) {
+}
+
+
 // address: 0x80063208
 // size: 0x10
 // line start: 61
@@ -6598,6 +6825,14 @@ struct Dialog *__6Dialog_addr_80092898(struct Dialog *this) {
 // line start: 60
 // line end:   73
 struct Dialog *__6Dialog_addr_80093270(struct Dialog *this) {
+}
+
+
+// address: 0x80093418
+// size: 0x10
+// line start: 60
+// line end:   73
+struct Dialog *__6Dialog_addr_80093418(struct Dialog *this) {
 }
 
 
@@ -6983,6 +7218,13 @@ void ___6Dialog_addr_8006CFC8(struct Dialog *this, int __in_chrg) {
 }
 
 
+// address: 0x8006CFDC
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_8006CFDC(struct Dialog *this, int __in_chrg) {
+}
+
+
 // address: 0x8006CFE0
 // line start: 77
 // line end:   77
@@ -7123,6 +7365,13 @@ void ___6Dialog_addr_8007B614(struct Dialog *this, int __in_chrg) {
 }
 
 
+// address: 0x8007B748
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_8007B748(struct Dialog *this, int __in_chrg) {
+}
+
+
 // address: 0x8007BB48
 // line start: 78
 // line end:   78
@@ -7162,6 +7411,13 @@ void ___6Dialog_addr_8009A5E4(struct Dialog *this, int __in_chrg) {
 // line start: 78
 // line end:   78
 void ___6Dialog_addr_8009A5E8(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x8009A45C
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_8009A45C(struct Dialog *this, int __in_chrg) {
 }
 
 
@@ -7368,6 +7624,13 @@ void ___6Dialog_addr_8009DC1C(struct Dialog *this, int __in_chrg) {
 }
 
 
+// address: 0x8009E3A0
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_8009E3A0(struct Dialog *this, int __in_chrg) {
+}
+
+
 // address: 0x8009E398
 // line start: 77
 // line end:   77
@@ -7554,6 +7817,13 @@ void ___6Dialog_addr_80047A00(struct Dialog *this, int __in_chrg) {
 // line start: 77
 // line end:   77
 void ___6Dialog_addr_80047A3C(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x80047A7C
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80047A7C(struct Dialog *this, int __in_chrg) {
 }
 
 
@@ -7816,6 +8086,13 @@ void ___6Dialog_addr_80098E5C(struct Dialog *this, int __in_chrg) {
 }
 
 
+// address: 0x80099A58
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_80099A58(struct Dialog *this, int __in_chrg) {
+}
+
+
 // address: 0x80099B88
 // line start: 77
 // line end:   77
@@ -8026,6 +8303,13 @@ void ___6Dialog_addr_800932A0(struct Dialog *this, int __in_chrg) {
 }
 
 
+// address: 0x800933F0
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_800933F0(struct Dialog *this, int __in_chrg) {
+}
+
+
 // address: 0x800937A0
 // line start: 78
 // line end:   78
@@ -8093,6 +8377,13 @@ void ___6Dialog_addr_8004870C(struct Dialog *this, int __in_chrg) {
 // line start: 77
 // line end:   77
 void ___6Dialog_addr_8004873C(struct Dialog *this, int __in_chrg) {
+}
+
+
+// address: 0x8006306C
+// line start: 77
+// line end:   77
+void ___6Dialog_addr_8006306C(struct Dialog *this, int __in_chrg) {
 }
 
 

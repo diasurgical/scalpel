@@ -42,20 +42,20 @@ void CardUpdateTask__FP4TASK_addr_800A515C(struct TASK *T) {
 }
 
 
-// address: 0x800A5254
-// line start: 417
-// line end:   443
+// address: 0x8009AA70
+// line start: 286
+// line end:   304
 void CheckSavedOptions__Fv() {
-	// register: 2
+	// register: 5
 	register int option_file;
 }
 
 
-// address: 0x8009AA70
-// line start: 286
-// line end:   304
-void CheckSavedOptions__Fv_addr_8009AA70() {
-	// register: 5
+// address: 0x800A5254
+// line start: 417
+// line end:   443
+void CheckSavedOptions__Fv_addr_800A5254() {
+	// register: 2
 	register int option_file;
 }
 

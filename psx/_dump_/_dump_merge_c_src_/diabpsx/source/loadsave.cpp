@@ -61,10 +61,21 @@ int PSX_CH_LoadGame__Fii_addr_80149064(int card_number, int file) {
 }
 
 
+// address: 0x801491D0
+// line start: 1023
+// line end:   1044
+int PSX_CH_SaveGame__FiPcT1(int card_number, char *name, char *title) {
+	// register: 16
+	register int result;
+	// register: 16
+	register unsigned char *SaveBuff;
+}
+
+
 // address: 0x80149304
 // line start: 991
 // line end:   1010
-int PSX_CH_SaveGame__FiPcT1(int card_number, char *name, char *title) {
+int PSX_CH_SaveGame__FiPcT1_addr_80149304(int card_number, char *name, char *title) {
 	// register: 16
 	register int result;
 	// register: 10
@@ -72,39 +83,17 @@ int PSX_CH_SaveGame__FiPcT1(int card_number, char *name, char *title) {
 }
 
 
-// address: 0x801491D0
-// line start: 1023
+// address: 0x8015EA74
+// line start: 945
 // line end:   1044
-int PSX_CH_SaveGame__FiPcT1_addr_801491D0(int card_number, char *name, char *title) {
-	// register: 16
-	register int result;
-	// register: 16
-	register unsigned char *SaveBuff;
-}
-
-
-// address: 0x801446D0
-// line start: 927
-// line end:   1018
 int PSX_GM_LoadGame__FUcii(unsigned char firstflag, int card_number, int file) {
 	// register: 17
 	register int i;
 	// register: 18
 	register int result;
-	// register: 2
-	register unsigned char *LoadBuff;
-}
-
-
-// address: 0x8014DD50
-// line start: 901
-// line end:   994
-int PSX_GM_LoadGame__FUcii_addr_8014DD50(unsigned char firstflag, int card_number, int file) {
-	// register: 16
-	register int i;
-	// register: 18
-	register int result;
 	// register: 19
+	register int DataSize;
+	// register: 20
 	register unsigned char *LoadBuff;
 }
 
@@ -133,17 +122,28 @@ int PSX_GM_LoadGame__FUcii_addr_80154188(unsigned char firstflag, int card_numbe
 }
 
 
-// address: 0x8015EA74
-// line start: 945
-// line end:   1044
-int PSX_GM_LoadGame__FUcii_addr_8015EA74(unsigned char firstflag, int card_number, int file) {
+// address: 0x801446D0
+// line start: 927
+// line end:   1018
+int PSX_GM_LoadGame__FUcii_addr_801446D0(unsigned char firstflag, int card_number, int file) {
 	// register: 17
 	register int i;
 	// register: 18
 	register int result;
+	// register: 2
+	register unsigned char *LoadBuff;
+}
+
+
+// address: 0x8014DD50
+// line start: 901
+// line end:   994
+int PSX_GM_LoadGame__FUcii_addr_8014DD50(unsigned char firstflag, int card_number, int file) {
+	// register: 16
+	register int i;
+	// register: 18
+	register int result;
 	// register: 19
-	register int DataSize;
-	// register: 20
 	register unsigned char *LoadBuff;
 }
 
@@ -161,18 +161,29 @@ int PSX_GM_SaveGame__FiPcT1(int card_number, char *name, char *title) {
 }
 
 
-// address: 0x8015E7D4
-// line start: 852
-// line end:   941
-int PSX_GM_SaveGame__FiPcT1_addr_8015E7D4(int card_number, char *name, char *title) {
+// address: 0x80148BA0
+// line start: 831
+// line end:   896
+int PSX_GM_SaveGame__FiPcT1_addr_80148BA0(int card_number, char *name, char *title) {
+	// register: 16
+	register int i;
+	// register: 16
+	register int result;
+	// register: 18
+	register unsigned char *SaveBuff;
+}
+
+
+// address: 0x8014441C
+// line start: 844
+// line end:   923
+int PSX_GM_SaveGame__FiPcT1_addr_8014441C(int card_number, char *name, char *title) {
 	// register: 17
 	register int i;
 	// register: 16
 	register int result;
 	// register: 18
 	register unsigned char *SaveBuff;
-	// register: 17
-	register int SaveSize;
 }
 
 
@@ -191,29 +202,18 @@ int PSX_GM_SaveGame__FiPcT1_addr_8014D928(int card_number, char *name, char *tit
 }
 
 
-// address: 0x8014441C
-// line start: 844
-// line end:   923
-int PSX_GM_SaveGame__FiPcT1_addr_8014441C(int card_number, char *name, char *title) {
+// address: 0x8015E7D4
+// line start: 852
+// line end:   941
+int PSX_GM_SaveGame__FiPcT1_addr_8015E7D4(int card_number, char *name, char *title) {
 	// register: 17
 	register int i;
 	// register: 16
 	register int result;
 	// register: 18
 	register unsigned char *SaveBuff;
-}
-
-
-// address: 0x80148BA0
-// line start: 831
-// line end:   896
-int PSX_GM_SaveGame__FiPcT1_addr_80148BA0(int card_number, char *name, char *title) {
-	// register: 16
-	register int i;
-	// register: 16
-	register int result;
-	// register: 18
-	register unsigned char *SaveBuff;
+	// register: 17
+	register int SaveSize;
 }
 
 

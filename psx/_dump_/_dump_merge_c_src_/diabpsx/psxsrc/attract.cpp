@@ -2,20 +2,10 @@
 
 #include "types.h"
 
-// address: 0x80085198
-// line start: 65
-// line end:   92
-void ATT_DoAttract__Fv() {
-	// address: 0xFFFFFFD0
-	// size: 0x24
-	auto struct FE_CREATE CStruct;
-}
-
-
 // address: 0x8008CFC8
 // line start: 71
 // line end:   136
-void ATT_DoAttract__Fv_addr_8008CFC8() {
+void ATT_DoAttract__Fv() {
 	// address: 0xFFFFFFD0
 	// size: 0x24
 	auto struct FE_CREATE CStruct;
@@ -37,6 +27,16 @@ void ATT_DoAttract__Fv_addr_8008CF04() {
 		{
 		}
 	}
+}
+
+
+// address: 0x80085198
+// line start: 65
+// line end:   92
+void ATT_DoAttract__Fv_addr_80085198() {
+	// address: 0xFFFFFFD0
+	// size: 0x24
+	auto struct FE_CREATE CStruct;
 }
 
 
@@ -62,10 +62,10 @@ void CreatePlayersFromFeData__FR9FE_CREATE_addr_80085250(struct FE_CREATE *CStru
 }
 
 
-// address: 0x8008D090
+// address: 0x8008CFC0
 // line start: 144
 // line end:   145
-void CustomPlayerInit__FR12PlayerStruct(struct PlayerStruct_dup_17 *P) {
+void CustomPlayerInit__FR12PlayerStruct(struct PlayerStruct_dup_18 *P) {
 }
 
 
@@ -76,10 +76,10 @@ void CustomPlayerInit__FR12PlayerStruct_addr_8008CF18(struct PlayerStruct *P) {
 }
 
 
-// address: 0x8008CFC0
+// address: 0x8008D090
 // line start: 144
 // line end:   145
-void CustomPlayerInit__FR12PlayerStruct_addr_8008CFC0(struct PlayerStruct_dup_18 *P) {
+void CustomPlayerInit__FR12PlayerStruct_addr_8008D090(struct PlayerStruct_dup_17 *P) {
 }
 
 

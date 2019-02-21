@@ -2,9 +2,9 @@
 
 #include "types.h"
 
-// address: 0x800650FC
-// line start: 333
-// line end:   431
+// address: 0x80067918
+// line start: 317
+// line end:   424
 void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 	{
 		{
@@ -16,9 +16,9 @@ void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 								{
 									{
 										{
-											// register: 4
+											// register: 16
 											register int i;
-											// register: 6
+											// register: 17
 											register int j;
 										}
 									}
@@ -33,10 +33,10 @@ void CheckQuestKill__FiUc(int m, unsigned char sendmsg) {
 }
 
 
-// address: 0x80067918
-// line start: 317
-// line end:   424
-void CheckQuestKill__FiUc_addr_80067918(int m, unsigned char sendmsg) {
+// address: 0x800650FC
+// line start: 333
+// line end:   431
+void CheckQuestKill__FiUc_addr_800650FC(int m, unsigned char sendmsg) {
 	{
 		{
 			{
@@ -47,9 +47,9 @@ void CheckQuestKill__FiUc_addr_80067918(int m, unsigned char sendmsg) {
 								{
 									{
 										{
-											// register: 16
+											// register: 4
 											register int i;
-											// register: 17
+											// register: 6
 											register int j;
 										}
 									}
@@ -95,51 +95,10 @@ void CheckQuestKill__FiUc_addr_80062570(int m, unsigned char sendmsg) {
 }
 
 
-// address: 0x80061E80
-// line start: 224
-// line end:   288
-void CheckQuests__Fv() {
-	// register: 18
-	register int i;
-	// register: 4
-	register int rportx;
-	// register: 5
-	register int rporty;
-}
-
-
-// address: 0x80061628
-// line start: 226
-// line end:   304
-void CheckQuests__Fv_addr_80061628() {
-	// register: 20
-	register int i;
-	// register: 4
-	register int rportx;
-	// register: 5
-	register int rporty;
-	// register: 21
-	register int omp;
-	{
-		{
-			{
-				// register: 17
-				register int pl;
-				{
-					// register: 4
-					// size: 0x23A8
-					register struct PlayerStruct *player;
-				}
-			}
-		}
-	}
-}
-
-
-// address: 0x80067144
+// address: 0x80067208
 // line start: 185
 // line end:   269
-void CheckQuests__Fv_addr_80067144() {
+void CheckQuests__Fv() {
 	// register: 20
 	register int i;
 	// address: 0xFFFFFFD8
@@ -156,7 +115,7 @@ void CheckQuests__Fv_addr_80067144() {
 				{
 					// register: 4
 					// size: 0x19E8
-					register struct PlayerStruct_dup_18 *player;
+					register struct PlayerStruct_dup_17 *player;
 				}
 			}
 		}
@@ -192,10 +151,51 @@ void CheckQuests__Fv_addr_8006707C() {
 }
 
 
-// address: 0x80067208
+// address: 0x80061628
+// line start: 226
+// line end:   304
+void CheckQuests__Fv_addr_80061628() {
+	// register: 20
+	register int i;
+	// register: 4
+	register int rportx;
+	// register: 5
+	register int rporty;
+	// register: 21
+	register int omp;
+	{
+		{
+			{
+				// register: 17
+				register int pl;
+				{
+					// register: 4
+					// size: 0x23A8
+					register struct PlayerStruct *player;
+				}
+			}
+		}
+	}
+}
+
+
+// address: 0x80061E80
+// line start: 224
+// line end:   288
+void CheckQuests__Fv_addr_80061E80() {
+	// register: 18
+	register int i;
+	// register: 4
+	register int rportx;
+	// register: 5
+	register int rporty;
+}
+
+
+// address: 0x80067144
 // line start: 185
 // line end:   269
-void CheckQuests__Fv_addr_80067208() {
+void CheckQuests__Fv_addr_80067144() {
 	// register: 20
 	register int i;
 	// address: 0xFFFFFFD8
@@ -212,7 +212,7 @@ void CheckQuests__Fv_addr_80067208() {
 				{
 					// register: 4
 					// size: 0x19E8
-					register struct PlayerStruct_dup_17 *player;
+					register struct PlayerStruct_dup_18 *player;
 				}
 			}
 		}
@@ -409,17 +409,10 @@ void StartQuestlog__Fv() {
 }
 
 
-// address: 0x800649D0
-// line start: 156
-// line end:   217
-void TSK_Lava2Water__FP4TASK(struct TASK *T) {
-}
-
-
 // address: 0x80061C30
 // line start: 157
 // line end:   217
-void TSK_Lava2Water__FP4TASK_addr_80061C30(struct TASK *T) {
+void TSK_Lava2Water__FP4TASK(struct TASK *T) {
 	// address: 0xFFFFFFB0
 	// size: 0x20
 	auto unsigned short LAVAPAL[16];
@@ -533,6 +526,13 @@ void TSK_Lava2Water__FP4TASK_addr_800613DC(struct TASK *T) {
 			}
 		}
 	}
+}
+
+
+// address: 0x800649D0
+// line start: 156
+// line end:   217
+void TSK_Lava2Water__FP4TASK_addr_800649D0(struct TASK *T) {
 }
 
 

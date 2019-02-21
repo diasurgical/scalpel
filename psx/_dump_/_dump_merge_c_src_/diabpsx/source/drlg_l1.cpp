@@ -51,35 +51,10 @@ void DRLG_L1Floor__Fv() {
 }
 
 
-// address: 0x80125B68
-// line start: 651
-// line end:   731
-void DRLG_L1Pass3__Fv() {
-	// register: 11
-	register int i;
-	// register: 24
-	register int j;
-	// register: 8
-	register int xx;
-	// register: 15
-	register int yy;
-	// register: 13
-	register long v1;
-	// register: 4
-	register long v2;
-	// register: 3
-	register long v3;
-	// register: 12
-	register long v4;
-	// register: 2
-	register long lv;
-}
-
-
 // address: 0x801319DC
 // line start: 651
 // line end:   731
-void DRLG_L1Pass3__Fv_addr_801319DC() {
+void DRLG_L1Pass3__Fv() {
 	// register: 21
 	register int i;
 	// register: 23
@@ -97,6 +72,31 @@ void DRLG_L1Pass3__Fv_addr_801319DC() {
 	// register: 9
 	register long v4;
 	// register: 16
+	register long lv;
+}
+
+
+// address: 0x80125B68
+// line start: 651
+// line end:   731
+void DRLG_L1Pass3__Fv_addr_80125B68() {
+	// register: 11
+	register int i;
+	// register: 24
+	register int j;
+	// register: 8
+	register int xx;
+	// register: 15
+	register int yy;
+	// register: 13
+	register long v1;
+	// register: 4
+	register long v2;
+	// register: 3
+	register long v3;
+	// register: 12
+	register long v4;
+	// register: 2
 	register long lv;
 }
 

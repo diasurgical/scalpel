@@ -88,10 +88,21 @@ void VID_ScrOn__Fv() {
 }
 
 
+// address: 0x8007CA08
+// line start: 252
+// line end:   292
+void VID_SetDBuffer__Fb(bool DBuf) {
+	{
+		{
+		}
+	}
+}
+
+
 // address: 0x8007ED40
 // line start: 274
 // line end:   316
-void VID_SetDBuffer__Fb(bool DBuf) {
+void VID_SetDBuffer__Fb_addr_8007ED40(bool DBuf) {
 	{
 		{
 			// register: 16
@@ -105,17 +116,6 @@ void VID_SetDBuffer__Fb(bool DBuf) {
 // line start: 252
 // line end:   285
 void VID_SetDBuffer__Fb_addr_8007AA68(bool DBuf) {
-}
-
-
-// address: 0x8007CA08
-// line start: 252
-// line end:   292
-void VID_SetDBuffer__Fb_addr_8007CA08(bool DBuf) {
-	{
-		{
-		}
-	}
 }
 
 

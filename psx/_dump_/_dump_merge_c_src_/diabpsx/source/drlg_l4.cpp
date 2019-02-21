@@ -261,17 +261,10 @@ void DRLG_L4__Fi(int entry) {
 }
 
 
-// address: 0x8013AE5C
-// line start: 1076
-// line end:   1107
-void DRLG_LoadDiabQuads__FUc(unsigned char preflag) {
-}
-
-
 // address: 0x8013BFDC
 // line start: 1071
 // line end:   1100
-void DRLG_LoadDiabQuads__FUc_addr_8013BFDC(unsigned char preflag) {
+void DRLG_LoadDiabQuads__FUc(unsigned char preflag) {
 	// register: 16
 	register unsigned char *lpSetPiece;
 	{
@@ -282,6 +275,13 @@ void DRLG_LoadDiabQuads__FUc_addr_8013BFDC(unsigned char preflag) {
 			}
 		}
 	}
+}
+
+
+// address: 0x8013AE5C
+// line start: 1076
+// line end:   1107
+void DRLG_LoadDiabQuads__FUc_addr_8013AE5C(unsigned char preflag) {
 }
 
 
