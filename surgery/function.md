@@ -20,7 +20,7 @@
 | N/A          | 40D0DC       | 401B60       | 401B3D       | ErrDlg                                  | assert        |
 | N/A          | 40D187       | 401BED       | 401BCA       | FuncDlg                                 |               |
 | N/A          | 40D1D5       | 401C32       | 401C0F       | TextDlg                                 |               |
-| N/A          | N/A          | N/A          | 401C2E       | ErrDlg                                  |               |
+| N/A          | N/A          | N/A          | 401C2E       | WarnDlg                                 |               |
 | N/A          | 40D1F4       | 401C51       | 401C9C       | FileErrDlg                              | assert        |
 | N/A          | 40D23D       | 401C96       | 401CE1       | DiskFreeDlg                             | assert        |
 | N/A          | 40D27D       | 401CD2       | 401D1D       | InsertCDDlg                             | assert        |
@@ -425,7 +425,7 @@
 | ?            | ?            | ?            | 415DD0       | stream_update                           | psx           |
 | 467FE5       | ?            | N/A          | N/A          | effects_467FE5                          |               |
 | 468090       | ?            | 4187C2       | 415DFF       | effects_cleanup_sfx                     |               |
-| N/A          | ?            | 4187E8       | 415E2A       | stream_update                           |               |
+| N/A          | ?            | 4187E8       | 415E2A       | effects_load_player_sfx                 |               |
 | N/A          | ?            | 41884D       | 415E77       | priv_sound_init                         |               |
 | N/A          | ?            | 4188A4       | 415ED8       | sound_init                              |               |
 | N/A          | ?            | 4188AB       | 415EDF       | effects_play_sound                      |               |
