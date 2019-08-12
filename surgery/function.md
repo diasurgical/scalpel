@@ -175,8 +175,7 @@
 | N/A          | 416773       | 409951       | 40905E       | DisableInputWndProc                     | assert        |
 | 49115A       | 466EF6       | 409A1A       | 409131       | GM_Game                                 | assert        |
 | 491497       | 4671FE       | 409C92       | 4093B2       | LeftMouseDown                           |               |
-| ?            | ?            | 409E8C       | 4095A5       | LeftMouseCmd                            |               |
-| 491753       | 467423       | 409E8C       | N/A          | diablo_491753                           |               |
+| 491753       | 467423       | 409E8C       | 4095A5       | LeftMouseCmd                            |               |
 | 491B3A       | 46773A       | 40A0D9       | 4097EC       | TryIconCurs                             |               |
 | 491E07       | 467929       | 40A2C9       | 409963       | LeftMouseUp                             |               |
 | 491E6F       | 46796E       | 40A30E       | 4099A8       | RightMouseDown                          |               |
@@ -197,7 +196,6 @@
 | 493CA1       | 469709       | 40B74C       | 40AB33       | game_logic                              |               |
 | 493D6B       | 4697E4       | 40B800       | 40ABE7       | timeout_cursor                          |               |
 | 493EC9       | 469874       | 40B884       | 40AC6B       | diablo_color_cyc_logic                  |               |
-| N/A          | N/A          | 40B8D7       | N/A          | diablo_40B8D7                           |               |
 | N/A          | N/A          | 40B908       | N/A          | diablo_40B908                           |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`DOOM.CPP`**                          | **Certainty** |
 | N/A          | ?            | 40B95F       | 40ACAD       | doom_get_frame_from_time                |               |
@@ -513,7 +511,7 @@
 | N/A          | ?            | 41B099       | 418688       | exception_get_error_type                |               |
 | N/A          | ?            | N/A          | 41883C       | exception_set_filter                    |               |
 | N/A          | ?            | 41AD20       | 418853       | exception_set_filter_ptr                |               |
-| N/A          | ?            | N/A          | 418860       | exception_get_filter                    |               |
+| N/A          | ?            | 40B8D7       | 418860       | exception_get_filter                    |               |
 | N/A          | ?            | 41AD2A       | N/A          | log_create                              |               |
 | N/A          | ?            | 41AF1D       | N/A          | log_printf                              |               |
 | N/A          | ?            | 41B20D       | N/A          | log_reset                               |               |
@@ -1362,7 +1360,6 @@
 | 49ADA0       | ?            | 44763C       | 43D09D       | RemovePlrPortal                         |               |
 | 49689B       | ?            | 44765B       | 43D0BC       | ParseCmd                                |               |
 | ?            | ?            | 447B88       | 43D56F       | On_DLEVEL                               |               |
-| N/A          | ?            | 447B88       | N/A          | msg_447B88                              |               |
 | 49A462       | ?            | 447C46       | 43D632       | DeltaImportData                         |               |
 | 49A582       | ?            | 447CCE       | 43D6BA       | DeltaImportItem                         |               |
 | 49A604       | ?            | 447D16       | 43D6F5       | DeltaImportObject                       |               |
