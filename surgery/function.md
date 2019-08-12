@@ -94,8 +94,7 @@
 | 417C98       | 411728       | 4055AA       | 405181       | FreeControlPan                          |               |
 | 417E79       | 4118A4       | 4056BF       | 405295       | control_WriteStringToBuffer             |               |
 | 417EE5       | 4118D6       | 4056F0       | 4052C8       | DrawInfoBox                             |               |
-| N/A          | 411B88       | 4059B8       | N/A          | control_4059B8                          |               |
-| 418275       | N/A          | N/A          | N/A          | control_418275                          |               |
+| 418275       | 411B88       | 4059B8       | 405551       | control_draw_info_str                   |               |
 | 418315       | 411C06       | 405A2E       | 4055BC       | control_print_info_str                  |               |
 | 418432       | N/A          | N/A          | N/A          | control_418432                          |               |
 | 418540       | 411CAC       | 405AEC       | 405681       | PrintGameStr                            |               |
