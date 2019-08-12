@@ -175,7 +175,7 @@
 | N/A          | 416773       | 409951       | 40905E       | DisableInputWndProc                     | assert        |
 | 49115A       | 466EF6       | 409A1A       | 409131       | GM_Game                                 | assert        |
 | 491497       | 4671FE       | 409C92       | 4093B2       | LeftMouseDown                           |               |
-| ?            | ?            | ?            | 4095A5       | LeftMouseCmd                            |               |
+| ?            | ?            | 409E8C       | 4095A5       | LeftMouseCmd                            |               |
 | 491753       | 467423       | 409E8C       | N/A          | diablo_491753                           |               |
 | 491B3A       | 46773A       | 40A0D9       | 4097EC       | TryIconCurs                             |               |
 | 491E07       | 467929       | 40A2C9       | 409963       | LeftMouseUp                             |               |
@@ -422,7 +422,7 @@
 | 467E94       | ?            | N/A          | N/A          | effects_467E94                          |               |
 | 467F5C       | ?            | N/A          | N/A          | effects_467F5C                          |               |
 | 467F8A       | ?            | 41877D       | 415DBA       | sound_update                            |               |
-| ?            | ?            | ?            | 415DD0       | stream_update                           | psx           |
+| ?            | ?            | 418793       | 415DD0       | stream_update                           | psx           |
 | 467FE5       | ?            | N/A          | N/A          | effects_467FE5                          |               |
 | 468090       | ?            | 4187C2       | 415DFF       | effects_cleanup_sfx                     |               |
 | N/A          | ?            | 4187E8       | 415E2A       | effects_load_player_sfx                 |               |
@@ -1361,7 +1361,7 @@
 | 496811       | ?            | 447603       | 43D064       | NetSendCmdString                        |               |
 | 49ADA0       | ?            | 44763C       | 43D09D       | RemovePlrPortal                         |               |
 | 49689B       | ?            | 44765B       | 43D0BC       | ParseCmd                                |               |
-| ?            | ?            | ?            | 43D56F       | On_DLEVEL                               |               |
+| ?            | ?            | 447B88       | 43D56F       | On_DLEVEL                               |               |
 | N/A          | ?            | 447B88       | N/A          | msg_447B88                              |               |
 | 49A462       | ?            | 447C46       | 43D632       | DeltaImportData                         |               |
 | 49A582       | ?            | 447CCE       | 43D6BA       | DeltaImportItem                         |               |
@@ -1441,7 +1441,7 @@
 | N/A          | ?            | 44A0FF       | 43F645       | On_SETMAG                               |               |
 | N/A          | ?            | 44A138       | 43F67E       | On_SETVIT                               |               |
 | 49ACFD       | ?            | 44A171       | 43F6B7       | On_STRING                               |               |
-| ?            | ?            | ?            | 43F6C2       | On_STRING2                              |               |
+| ?            | ?            | 44A17C       | 43F6C2       | On_STRING2                              |               |
 | N/A          | ?            | 44A1A6       | 43F6EC       | On_SYNCQUEST                            |               |
 | N/A          | ?            | 44A1E8       | 43F72E       | On_ENDSHIELD                            |               |
 | N/A          | ?            | 44A26F       | N/A          | On_cmd_99                               |               |
@@ -1986,7 +1986,7 @@
 | 4847FC       | ?            | 46B53A       | 456AC4       | SHA1ProcessMessageBlock                 |               |
 | 484B5E       | ?            | N/A          | N/A          | j_SHA1Reset                             |               |
 | 484B8D       | ?            | 46B737       | 456C82       | SHA1Reset                               |               |
-| ?            | ?            | ?            | 456C90       | SHA1Init                                |               |
+| ?            | ?            | 46B745       | 456C90       | SHA1Init                                |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`SOUND.CPP`**                         | **Certainty** |
 | N/A          | ?            | N/A          | 456CBB       | j_sound_cpp_init                        |               |
 | N/A          | ?            | N/A          | 456CC0       | sound_cpp_init                          |               |
