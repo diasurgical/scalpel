@@ -94,8 +94,7 @@
 | 417C98       | 411728       | 4055AA       | 405181       | FreeControlPan                          |               |
 | 417E79       | 4118A4       | 4056BF       | 405295       | control_WriteStringToBuffer             |               |
 | 417EE5       | 4118D6       | 4056F0       | 4052C8       | DrawInfoBox                             |               |
-| N/A          | 411B88       | 4059B8       | N/A          | control_4059B8                          |               |
-| 418275       | N/A          | N/A          | N/A          | control_418275                          |               |
+| 418275       | 411B88       | 4059B8       | 405551       | control_draw_info_str                   |               |
 | 418315       | 411C06       | 405A2E       | 4055BC       | control_print_info_str                  |               |
 | 418432       | N/A          | N/A          | N/A          | control_418432                          |               |
 | 418540       | 411CAC       | 405AEC       | 405681       | PrintGameStr                            |               |
@@ -175,8 +174,7 @@
 | N/A          | 416773       | 409951       | 40905E       | DisableInputWndProc                     | assert        |
 | 49115A       | 466EF6       | 409A1A       | 409131       | GM_Game                                 | assert        |
 | 491497       | 4671FE       | 409C92       | 4093B2       | LeftMouseDown                           |               |
-| ?            | ?            | ?            | 4095A5       | LeftMouseCmd                            |               |
-| 491753       | 467423       | 409E8C       | N/A          | diablo_491753                           |               |
+| 491753       | 467423       | 409E8C       | 4095A5       | LeftMouseCmd                            |               |
 | 491B3A       | 46773A       | 40A0D9       | 4097EC       | TryIconCurs                             |               |
 | 491E07       | 467929       | 40A2C9       | 409963       | LeftMouseUp                             |               |
 | 491E6F       | 46796E       | 40A30E       | 4099A8       | RightMouseDown                          |               |
@@ -197,7 +195,6 @@
 | 493CA1       | 469709       | 40B74C       | 40AB33       | game_logic                              |               |
 | 493D6B       | 4697E4       | 40B800       | 40ABE7       | timeout_cursor                          |               |
 | 493EC9       | 469874       | 40B884       | 40AC6B       | diablo_color_cyc_logic                  |               |
-| N/A          | N/A          | 40B8D7       | N/A          | diablo_40B8D7                           |               |
 | N/A          | N/A          | 40B908       | N/A          | diablo_40B908                           |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`DOOM.CPP`**                          | **Certainty** |
 | N/A          | ?            | 40B95F       | 40ACAD       | doom_get_frame_from_time                |               |
@@ -422,7 +419,7 @@
 | 467E94       | ?            | N/A          | N/A          | effects_467E94                          |               |
 | 467F5C       | ?            | N/A          | N/A          | effects_467F5C                          |               |
 | 467F8A       | ?            | 41877D       | 415DBA       | sound_update                            |               |
-| ?            | ?            | ?            | 415DD0       | stream_update                           | psx           |
+| ?            | ?            | 418793       | 415DD0       | stream_update                           | psx           |
 | 467FE5       | ?            | N/A          | N/A          | effects_467FE5                          |               |
 | 468090       | ?            | 4187C2       | 415DFF       | effects_cleanup_sfx                     |               |
 | N/A          | ?            | 4187E8       | 415E2A       | effects_load_player_sfx                 |               |
@@ -513,9 +510,8 @@
 | N/A          | ?            | 41B099       | 418688       | exception_get_error_type                |               |
 | N/A          | ?            | N/A          | 41883C       | exception_set_filter                    |               |
 | N/A          | ?            | 41AD20       | 418853       | exception_set_filter_ptr                |               |
-| N/A          | ?            | N/A          | 418860       | exception_get_filter                    |               |
+| N/A          | ?            | 40B8D7       | 418860       | exception_get_filter                    |               |
 | N/A          | ?            | 41AD2A       | N/A          | log_create                              |               |
-| N/A          | ?            | 41AF1D       | N/A          | log_printf                              |               |
 | N/A          | ?            | 41B20D       | N/A          | log_reset                               |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`GAMEMENU.CPP`**                      | **Certainty** |
 | 466750       | ?            | 41B279       | 418866       | gamemenu_previous                       |               |
@@ -816,10 +812,9 @@
 | 42CFC5       | ?            | 42B653       | 42501F       | RecalcStoreStats                        |               |
 | N/A          | ?            | 42B6F4       | 4250C0       | ItemNoFlippy                            |               |
 | N/A          | ?            | 42B723       | 4250EF       | CreateSpellBook                         |               |
-| N/A          | ?            | 42B803       | N/A          | items_42B803                            |               |
+| N/A          | ?            | 42B803       | 4251B8       | CreateMagicArmor                        |               |
 | N/A          | ?            | 42B8DC       | N/A          | items_42B8DC                            |               |
-| N/A          | ?            | 42B9A3       | N/A          | items_42B9A3                            |               |
-| N/A          | ?            | N/A          | 4251B8       | CreateMagicItem                         |               |
+| N/A          | ?            | 42B9A3       | 4251B8       | CreateMagicWeapon                       |               |
 | N/A          | ?            | 42BA92       | 42526E       | GetItemRecord                           |               |
 | N/A          | ?            | 42BB35       | 425311       | NextItemRecord                          |               |
 | N/A          | ?            | 42BB7B       | 425357       | SetItemRecord                           |               |
@@ -852,7 +847,7 @@
 | 439CB2       | ?            | 42CC8C       | 4263E1       | ChangeVisionXY                          |               |
 | 439DC0       | ?            | N/A          | N/A          | lighting_439DC0                         |               |
 | 439EE4       | ?            | 42CCD6       | 42642B       | ProcessVisionList                       |               |
-| N/A          | ?            | N/A          | 42651F       | lighting_color_cycling                  |               |
+| N/A          | ?            | 42CDD7       | 42651F       | lighting_color_cycling                  |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`LOADSAVE.CPP`**                      | **Certainty** |
 | 43ADB0       | ?            | 42CE32       | 426564       | LoadGame                                |               |
 | N/A          | ?            | 42D384       | 426AE2       | BLoad                                   |               |
@@ -896,7 +891,7 @@
 | N/A          | ?            | N/A          | 427A30       | log_flush                               |               |
 | N/A          | ?            | N/A          | 427AC2       | log_create                              |               |
 | N/A          | ?            | N/A          | 427C18       | log_get_version                         |               |
-| N/A          | ?            | N/A          | 427CC9       | log_printf                              |               |
+| N/A          | ?            | 41AF1D       | 427CC9       | log_printf                              |               |
 | N/A          | ?            | N/A          | 427D75       | log_dump_computer_info                  |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`MAINMENU.CPP`**                      | **Certainty** |
 | N/A          | ?            | N/A          | 427E0E       | j_mainmenu_cpp_init                     |               |
@@ -907,9 +902,9 @@
 | N/A          | ?            | 42E46F       | N/A          | mainmenu_select_hero_multi              |               |
 | N/A          | ?            | N/A          | 427E62       | mainmenu_select_hero_dialog             |               |
 | 43A1C2       | ?            | 42E314       | 427F76       | mainmenu_action                         |               |
-| N/A          | ?            | N/A          | 427FEC       | mainmenu_single_player                  |               |
+| N/A          | ?            | 42E3A4       | 427FEC       | mainmenu_single_player                  |               |
 | 43A325       | ?            | 42E439       | 427FFA       | mainmenu_init_menu                      |               |
-| 43A2BB       | ?            | N/A          | 428030       | mainmenu_multi_player                   |               |
+| 43A2BB       | ?            | 42E46F       | 428030       | mainmenu_multi_player                   |               |
 | N/A          | ?            | 42E4DE       | 42803F       | mainmenu_play_intro                     |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`MINITEXT.CPP`**                      | **Certainty** |
 | 4129D0       | ?            | N/A          | N/A          | j_minitext_4129E5                       |               |
@@ -934,7 +929,7 @@
 | 43C04B       | ?            | 4306FA       | 4298AD       | PutMissile                              |               |
 | 43C15D       | ?            | N/A          | N/A          | missiles_43C15D                         |               |
 | 43C1CF       | ?            | 4319B3       | 429918       | GetMissilePos                           |               |
-| 43C370       | ?            | N/A          | 4299EA       | MoveMissilePos                          |               |
+| 43C370       | ?            | 438961       | 4299EA       | MoveMissilePos                          |               |
 | 43C54B       | ?            | 42F0BF       | 429A99       | MonsterTrapHit                          |               |
 | 43C93B       | ?            | 42F27D       | 429C3B       | MonsterMHit                             |               |
 | 43CFFA       | ?            | 42F60F       | 429F4E       | PlayerMHit                              |               |
@@ -1361,8 +1356,7 @@
 | 496811       | ?            | 447603       | 43D064       | NetSendCmdString                        |               |
 | 49ADA0       | ?            | 44763C       | 43D09D       | RemovePlrPortal                         |               |
 | 49689B       | ?            | 44765B       | 43D0BC       | ParseCmd                                |               |
-| ?            | ?            | ?            | 43D56F       | On_DLEVEL                               |               |
-| N/A          | ?            | 447B88       | N/A          | msg_447B88                              |               |
+| ?            | ?            | 447B88       | 43D56F       | On_DLEVEL                               |               |
 | 49A462       | ?            | 447C46       | 43D632       | DeltaImportData                         |               |
 | 49A582       | ?            | 447CCE       | 43D6BA       | DeltaImportItem                         |               |
 | 49A604       | ?            | 447D16       | 43D6F5       | DeltaImportObject                       |               |
@@ -1441,7 +1435,7 @@
 | N/A          | ?            | 44A0FF       | 43F645       | On_SETMAG                               |               |
 | N/A          | ?            | 44A138       | 43F67E       | On_SETVIT                               |               |
 | 49ACFD       | ?            | 44A171       | 43F6B7       | On_STRING                               |               |
-| ?            | ?            | ?            | 43F6C2       | On_STRING2                              |               |
+| ?            | ?            | 44A17C       | 43F6C2       | On_STRING2                              |               |
 | N/A          | ?            | 44A1A6       | 43F6EC       | On_SYNCQUEST                            |               |
 | N/A          | ?            | 44A1E8       | 43F72E       | On_ENDSHIELD                            |               |
 | N/A          | ?            | 44A26F       | N/A          | On_cmd_99                               |               |
@@ -1604,12 +1598,11 @@
 | N/A          | ?            | 44D77C       | 442FC4       | AddPedistal                             |               |
 | N/A          | ?            | 44E45D       | 442FFC       | AddStoryBook                            |               |
 | N/A          | ?            | 44E4F2       | 44308E       | AddWeaponRack                           |               |
-| N/A          | ?            | N/A          | 4430C0       | AddTorturedBody                         |               |
+| N/A          | ?            | 44E524       | 4430C0       | AddTorturedBody                         |               |
 | N/A          | ?            | 44D810       | 4430EE       | GetRndObjLoc                            |               |
 | N/A          | ?            | 44D7B4       | 443178       | AddMushPatch                            |               |
 | N/A          | ?            | 44D89A       | 4431D4       | AddSlainHero                            |               |
 | 45F747       | ?            | 44DC75       | 4431FF       | AddObject                               |               |
-| N/A          | ?            | 44E524       | N/A          | objects_44E524                          |               |
 | 45FA03       | ?            | 44E552       | 4434CB       | Obj_Light                               |               |
 | N/A          | ?            | 44E642       | 4435B5       | Obj_Circle                              |               |
 | 45FC0F       | ?            | 44E7BC       | 443727       | Obj_StopAnim                            |               |
@@ -1986,7 +1979,7 @@
 | 4847FC       | ?            | 46B53A       | 456AC4       | SHA1ProcessMessageBlock                 |               |
 | 484B5E       | ?            | N/A          | N/A          | j_SHA1Reset                             |               |
 | 484B8D       | ?            | 46B737       | 456C82       | SHA1Reset                               |               |
-| ?            | ?            | ?            | 456C90       | SHA1Init                                |               |
+| ?            | ?            | 46B745       | 456C90       | SHA1Init                                |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`SOUND.CPP`**                         | **Certainty** |
 | N/A          | ?            | N/A          | 456CBB       | j_sound_cpp_init                        |               |
 | N/A          | ?            | N/A          | 456CC0       | sound_cpp_init                          |               |
