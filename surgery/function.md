@@ -1382,7 +1382,7 @@
 | ?            | ?            | 44A17C       | 43F6C2       | On_STRING2                                 |               |
 | N/A          | ?            | 44A1A6       | 43F6EC       | On_SYNCQUEST                               |               |
 | N/A          | ?            | 44A1E8       | 43F72E       | On_ENDSHIELD                               |               |
-| N/A          | ?            | 44A26F       | N/A          | On_cmd_99                                  |               |
+| N/A          | ?            | 44A26F       | N/A          | On_ENDREFLECT                              |               |
 | N/A          | ?            | 44A2F6       | 43F7A5       | On_CHEAT_EXPERIENCE                        |               |
 | N/A          | ?            | 44A2FA       | N/A          | On_cmd_100                                 |               |
 | N/A          | ?            | 44A322       | N/A          | On_cmd_101                                 |               |
