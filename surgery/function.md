@@ -478,7 +478,7 @@
 | N/A          | ?            | 41AFE2       | 4185FF       | fault_call_stack                           |               |
 | N/A          | ?            | 41B099       | 418688       | fault_get_error_type                       |               |
 | N/A          | ?            | N/A          | 41883C       | fault_set_filter                           |               |
-| N/A          | ?            | 41AD20       | 418853       | fault_reset_filter                         |               |
+| N/A          | ?            | 41B26C       | 418853       | fault_reset_filter                         |               |
 | N/A          | ?            | N/A          | 418860       | fault_get_filter                           |               |
 | N/A          | ?            | 41AD2A       | N/A          | log_create                                 |               |
 | N/A          | ?            | 41B20D       | N/A          | log_reset                                  |               |
@@ -1684,7 +1684,7 @@
 | 437209       | ?            | 456704       | 44A1CC       | pfile_ui_set_class_stats                   |               |
 | 437270       | ?            | 456748       | 44A210       | pfile_get_player_class                     |               |
 | 4372AA       | ?            | 456772       | 44A220       | pfile_ui_save_create                       |               |
-| 4373F7       | ?            | N/A          | 44A2FF       | pfile_get_file_name                        |               |
+| 4373F7       | ?            | 45685D       | 44A2FF       | pfile_get_file_name                        |               |
 | 4374EA       | ?            | N/A          | N/A          | pfile_4374EA                               |               |
 | N/A          | ?            | 4568B4       | 44A356       | pfile_delete_save                          |               |
 | 43755A       | ?            | 456900       | 44A3A0       | pfile_read_player_from_save                |               |
