@@ -187,6 +187,7 @@
 | 493CA1       | 469709       | 40B74C       | 40AB33       | game_logic                                 |               |
 | 493D6B       | 4697E4       | 40B800       | 40ABE7       | timeout_cursor                             |               |
 | 493EC9       | 469874       | 40B884       | 40AC6B       | diablo_color_cyc_logic                     |               |
+| 493EC9       | 469874       | 40B8D7       | 40AC6B       | diablo_40B8D7                              |               |
 | N/A          | N/A          | 40B908       | N/A          | diablo_40B908                              |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`DOOM.CPP`**                             | **Certainty** |
 | N/A          | ?            | 40B95F       | 40ACAD       | doom_get_frame_from_time                   |               |
@@ -206,10 +207,10 @@
 | 49B774       | 46EBB5       | 40BEB8       | 40B229       | CreateL5Dungeon                            |               |
 | 49B7E3       | 46EC07       | 40BFA9       | 40B276       | DRLG_LoadL1SP                              |               |
 | 49B8FB       | 46ECC3       | 40C027       | 40B2F4       | DRLG_FreeL1SP                              |               |
-| N/A          | N/A          | 40C039       | N/A          | drlg_l1_40C039                             |               |
+| N/A          | N/A          | 40C039       | N/A          | DRLG_InitL5Vals                            |               |
 | 49B92A       | 46ECE3       | 40C07F       | 40B306       | DRLG_L5                                    |               |
 | 49BDA5       | 46EF89       | 40C58E       | 40B56F       | DRLG_PlaceDoor                             |               |
-| N/A          | N/A          | 40C71E       | N/A          | drlg_l1_40C71E                             |               |
+| N/A          | N/A          | 40C71E       | N/A          | drlg_l1_crypt_lavafloor                    |               |
 | 49C1A6       | 46F0C6       | 40CA03       | 40B699       | DRLG_L1Shadows                             |               |
 | 49C7EC       | 46F2AC       | 40CBF0       | 40B881       | DRLG_PlaceMiniSet                          |               |
 | 49CC83       | 46F591       | 40CE81       | 40BAF6       | InitL5Dungeon                              |               |
@@ -227,26 +228,26 @@
 | 49DDB6       | 46FE6F       | 40D6DC       | 40C35B       | L5HorizWall                                |               |
 | 49DF5F       | 46FF64       | 40D7C9       | 40C449       | L5VertWall                                 |               |
 | 49E108       | 47006D       | 40D8CF       | 40C551       | L5tileFix                                  |               |
-| N/A          | N/A          | 40DD3E       | N/A          | drlg_l1_40DD3E                             |               |
+| N/A          | N/A          | 40DD3E       | N/A          | drlg_l1_crypt_rndset                       |               |
 | 49EE37       | 470360       | 40DEBC       | 40C8C0       | DRLG_L5Subs                                |               |
 | 49F028       | 47043C       | 40DF9F       | 40C99D       | L5FillChambers                             |               |
 | 49F6C4       | 4708E3       | 40E70D       | 40CD86       | DRLG_L5GChamber                            |               |
 | 49F9BE       | 470A36       | 40E858       | 40CEC7       | DRLG_L5GHall                               |               |
 | 49FA6D       | 470A82       | 40E8A8       | 40CF17       | DRLG_L5SetRoom                             |               |
-| N/A          | N/A          | 40E92D       | N/A          | drlg_l1_40E92D                             |               |
-| N/A          | N/A          | 40E9DC       | N/A          | drlg_l1_40E9DC                             |               |
+| N/A          | N/A          | 40E92D       | N/A          | drlg_l1_set_crypt_room                     |               |
+| N/A          | N/A          | 40E9DC       | N/A          | drlg_l1_set_corner_room                    |               |
 | 49FB65       | 470B16       | 40EA67       | 40CF9C       | DRLG_L5FloodTVal                           |               |
 | 49FC20       | 470B8E       | 40EAD6       | 40D00B       | DRLG_L5FTVR                                |               |
 | 49FF6B       | 470D6F       | 40ECCA       | 40D1FB       | DRLG_L5TransFix                            |               |
 | 4A0290       | 470E0C       | 40ED5E       | 40D283       | DRLG_L5DirtFix                             |               |
 | N/A          | 470E7A       | 40EE13       | 40D2EF       | DRLG_L5CornerFix                           |               |
-| N/A          | N/A          | 40EE7A       | N/A          | drlg_l1_40EE7A                             |               |
-| N/A          | N/A          | 40EEAF       | N/A          | drlg_l1_40EEAF                             |               |
-| N/A          | N/A          | 40EF80       | N/A          | drlg_l1_40EF80                             |               |
-| N/A          | N/A          | 40F051       | N/A          | drlg_l1_40F051                             |               |
-| N/A          | N/A          | 40F122       | N/A          | drlg_l1_40F122                             |               |
-| N/A          | N/A          | 40F19F       | N/A          | drlg_l1_40F19F                             |               |
-| N/A          | N/A          | 40F2DC       | N/A          | drlg_l1_40F2DC                             |               |
+| N/A          | N/A          | 40EE7A       | N/A          | drlg_l1_crypt_pattern1                     |               |
+| N/A          | N/A          | 40EEAF       | N/A          | drlg_l1_crypt_pattern2                     |               |
+| N/A          | N/A          | 40EF80       | N/A          | drlg_l1_crypt_pattern3                     |               |
+| N/A          | N/A          | 40F051       | N/A          | drlg_l1_crypt_pattern4                     |               |
+| N/A          | N/A          | 40F122       | N/A          | drlg_l1_crypt_pattern5                     |               |
+| N/A          | N/A          | 40F19F       | N/A          | drlg_l1_crypt_pattern6                     |               |
+| N/A          | N/A          | 40F2DC       | N/A          | drlg_l1_crypt_pattern7                     |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`DRLG_L2.CPP`**                          | **Certainty** |
 | 47D27C       | ?            | 40F311       | 40D357       | InitDungeon                                |               |
 | N/A          | ?            | 40F333       | 40D379       | L2LockoutFix                               |               |
@@ -314,7 +315,7 @@
 | N/A          | ?            | 413E8B       | 4119E0       | DRLG_L3PoolFix                             |               |
 | N/A          | ?            | 413F0E       | 411A74       | DRLG_L3PlaceMiniSet                        |               |
 | N/A          | ?            | 414118       | 411C83       | DRLG_L3PlaceRndSet                         |               |
-| N/A          | ?            | 414296       | N/A          | drlg_l3_414296                             |               |
+| N/A          | ?            | 414296       | N/A          | drlg_l3_hive_rnd_piece                     |               |
 | N/A          | ?            | 414425       | 411E0E       | DRLG_L3Wood                                |               |
 | N/A          | ?            | 414850       | 41223E       | WoodVertU                                  |               |
 | N/A          | ?            | 41489D       | 41228A       | WoodVertD                                  |               |
@@ -478,7 +479,7 @@
 | N/A          | ?            | 41B099       | 418688       | fault_get_error_type                       |               |
 | N/A          | ?            | N/A          | 41883C       | fault_set_filter                           |               |
 | N/A          | ?            | 41AD20       | 418853       | fault_reset_filter                         |               |
-| N/A          | ?            | 40B8D7       | 418860       | fault_get_filter                           |               |
+| N/A          | ?            | N/A          | 418860       | fault_get_filter                           |               |
 | N/A          | ?            | 41AD2A       | N/A          | log_create                                 |               |
 | N/A          | ?            | 41B20D       | N/A          | log_reset                                  |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`GAMEMENU.CPP`**                         | **Certainty** |
@@ -683,7 +684,7 @@
 | 423434       | ?            | 4252D3       | 42042C       | GetBookSpell                               |               |
 | 4235F6       | ?            | 4253D5       | 420514       | GetStaffPower                              |               |
 | 423A3F       | ?            | 4255B4       | 4206E5       | GetStaffSpell                              |               |
-| 423CF6       | ?            | 4256FF       | N/A          | GetOilMagic                                |               |
+| 423CF6       | ?            | 4256FF       | N/A          | GetOilType                                 |               |
 | 423E7C       | ?            | 4257B4       | 42084A       | GetItemAttrs                               |               |
 | 4245D4       | ?            | 425A76       | 420B17       | RndPL                                      |               |
 | 424603       | ?            | 425A87       | 420B28       | PLVal                                      |               |
