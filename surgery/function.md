@@ -1698,7 +1698,7 @@
 | 43780C       | ?            | 456BF6       | 44A679       | pfile_write_save_file                      |               |
 | N/A          | ?            | N/A          | 44A727       | pfile_strcpy                               |               |
 | 437919       | ?            | 456C9F       | 44A731       | pfile_read                                 |               |
-| 437AE8       | ?            | N/A          | 44A8B3       | pfile_update                               |               |
+| 437AE8       | ?            | 456DAF       | 44A8B3       | pfile_update                               |               |
 | **Beta**     | **Debug**    | **Hellfire** | **Diablo**   | **`PLAYER.CPP`**                           | **Certainty** |
 | 468CD0       | ?            | 456DE1       | 44A8F6       | SetPlayerGPtrs                             |               |    
 | 468D2D       | ?            | N/A          | N/A          | player_468D2D                              |               |
