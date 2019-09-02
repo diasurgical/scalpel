@@ -1271,7 +1271,7 @@
 | 494E2F       | ?            | 4464FC       | 43C0C2       | delta_monster_hp                           |               |
 | 494E9A       | ?            | 446530       | 43C0F2       | delta_sync_monster                         |               |
 | N/A          | ?            | 446576       | 43C134       | delta_sync_golem                           |               |
-| 494F2B       | ?            | N/A          | 43C17D       | delta_leave_sync                           |               |
+| 494F2B       | ?            | 4465BF       | 43C17D       | delta_leave_sync                           |               |
 | 4950C6       | ?            | 44669D       | 43C24F       | delta_portal_inited                        |               |
 | N/A          | ?            | 4466AB       | 43C25D       | delta_quest_inited                         |               |
 | 495105       | ?            | 4466B9       | 43C26B       | DeltaAddItem                               |               |
