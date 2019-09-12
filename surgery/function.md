@@ -1013,7 +1013,7 @@
 | N/A          | ?            | 437845       | N/A          | N/A          | mi_flashbk                                 |               |
 | 446236       | ?            | 4378AB       | 100655a8     | 42EAF1       | MI_Flash2                                  |               |
 | N/A          | ?            | 437987       | N/A          | N/A          | mi_reflect                                 |               |
-| 44642C       | ?            | 437A54       | N/A          | 42EBBF       | MI_Manashield                              |               |
+| 44642C       | ?            | 437A54       | 100656e8     | 42EBBF       | MI_Manashield                              |               |
 | 446955       | ?            | 437CC0       | 100659f0     | 42EE19       | MI_Etherealize                             |               |
 | 44696B       | ?            | 437D99       | 10065b28     | 42EEFD       | MI_Firemove                                |               |
 | 446CE2       | ?            | 437F70       | 10065dc0     | 42F0C8       | MI_Guardian                                |               |
